@@ -17,15 +17,15 @@ public class CompressorException extends FrameworkException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CompressorException(String message)](#CompressorException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `CompressorException`. |
-| [CompressorException(String message, Throwable innerException)](#CompressorException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `CompressorException`. |
+| [CompressorException(String message)](#CompressorException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `CompressorException`. |
+| [CompressorException(String message, Throwable innerException)](#CompressorException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `CompressorException`. |
 ### CompressorException(String message) {#CompressorException-java.lang.String-}
 ```
 public CompressorException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `CompressorException`.
+يُنشئ مثيلاً جديدًا من الفئة `CompressorException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public CompressorException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `CompressorException`.
+يُنشئ مثيلاً جديدًا من الفئة `CompressorException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

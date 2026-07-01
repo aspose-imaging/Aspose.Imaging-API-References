@@ -17,15 +17,15 @@ public class LinqWrapperException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LinqWrapperException(String message)](#LinqWrapperException-java.lang.String-) | يقوم بإنشاء نسخة جديدة من الفئة `LinqWrapperException`. |
-| [LinqWrapperException(String message, Throwable innerException)](#LinqWrapperException-java.lang.String-java.lang.Throwable-) | يقوم بإنشاء نسخة جديدة من الفئة `LinqWrapperException`. |
+| [LinqWrapperException(String message)](#LinqWrapperException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `LinqWrapperException`. |
+| [LinqWrapperException(String message, Throwable innerException)](#LinqWrapperException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `LinqWrapperException`. |
 ### LinqWrapperException(String message) {#LinqWrapperException-java.lang.String-}
 ```
 public LinqWrapperException(String message)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `LinqWrapperException`.
+ينشئ مثيلاً جديدًا من الفئة `LinqWrapperException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public LinqWrapperException(String message, Throwable innerException)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `LinqWrapperException`.
+ينشئ مثيلاً جديدًا من الفئة `LinqWrapperException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

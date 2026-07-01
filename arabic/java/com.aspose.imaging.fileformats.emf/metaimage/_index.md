@@ -24,8 +24,8 @@ public abstract class MetaImage extends VectorImage
 | --- | --- |
 | [getRecords()](#getRecords--) | يحصل على السجلات. |
 | [setRecords(MetaObjectList value)](#setRecords-com.aspose.imaging.fileformats.emf.MetaObjectList-) | يضبط السجلات. |
-| [getUsedFonts()](#getUsedFonts--) | يعيد قائمة الخطوط المستخدمة داخل ملف metafile. |
-| [getMissedFonts()](#getMissedFonts--) | يعيد قائمة الخطوط المستخدمة داخل ملف metafile ولكن لم يتم العثور عليها. |
+| [getUsedFonts()](#getUsedFonts--) | يعيد قائمة الخطوط المستخدمة داخل metafile. |
+| [getMissedFonts()](#getMissedFonts--) | يعيد قائمة الخطوط المستخدمة داخل metafile ولكن لم يتم العثور عليها. |
 | [resizeCanvas(Rectangle newRectangle)](#resizeCanvas-com.aspose.imaging.Rectangle-) | يعيد تحجيم اللوحة. |
 ### MetaImage() {#MetaImage--}
 ```
@@ -60,7 +60,7 @@ try {
     java.util.HashMap<Class, Integer> types =
             new java.util.HashMap<>();
 
-    // جمع الإحصاءات
+    // جمع الإحصائيات
     for (Object obj : emfImage.getRecords()) {
         com.aspose.imaging.fileformats.emf.emf.records.EmfRecord record = (com.aspose.imaging.fileformats.emf.emf.records.EmfRecord) obj;
 
@@ -73,7 +73,7 @@ try {
         }
     }
 
-    // طباعة الإحصاءات
+    // طباعة الإحصائيات
     System.out.println("Record Type                              Count");
     System.out.println("----------------------------------------------");
     for (java.util.Map.Entry<Class, Integer> entry : types.entrySet()) {
@@ -93,7 +93,7 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//الإجمالي الكلي للسجلات: 1188
+//إجمالي عدد السجلات: 1188
 //نوع السجل                              العدد
 //----------------------------------------------
 //EmfMetafileHeader:                       1
@@ -140,7 +140,7 @@ public abstract String[] getUsedFonts()
 ```
 
 
-يعيد قائمة الخطوط المستخدمة داخل ملف metafile.
+يعيد قائمة الخطوط المستخدمة داخل metafile.
 
 **Returns:**
 java.lang.String[] - قائمة الخطوط
@@ -240,7 +240,7 @@ public final String[] getMissedFonts()
 ```
 
 
-يعيد قائمة الخطوط المستخدمة داخل ملف metafile ولكن لم يتم العثور عليها.
+يعيد قائمة الخطوط المستخدمة داخل metafile ولكن لم يتم العثور عليها.
 
 **Returns:**
 java.lang.String[] - قائمة الخطوط

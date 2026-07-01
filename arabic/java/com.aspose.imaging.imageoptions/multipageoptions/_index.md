@@ -1,7 +1,7 @@
 ---
 title: "MultiPageOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الفئة الأساسية للتنسيقات المدعومة متعددة الصفحات"
+description: "الفئة الأساسية للأنساق التي تدعم صفحات متعددة"
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging.imageoptions/multipageoptions/
@@ -12,22 +12,22 @@ java.lang.Object
 public class MultiPageOptions
 ```
 
-الفئة الأساسية للتنسيقات المدعومة متعددة الصفحات
+الفئة الأساسية للأنساق التي تدعم صفحات متعددة
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [MultiPageOptions()](#MultiPageOptions--) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(int[] pages)](#MultiPageOptions-int---) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(int[] pages, Rectangle exportArea)](#MultiPageOptions-int---com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(String[] pageTitles)](#MultiPageOptions-java.lang.String---) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(String[] pageTitles, Rectangle exportArea)](#MultiPageOptions-java.lang.String---com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(IntRange[] ranges)](#MultiPageOptions-com.aspose.imaging.IntRange---) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(IntRange[] ranges, Rectangle exportArea)](#MultiPageOptions-com.aspose.imaging.IntRange---com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(IntRange range)](#MultiPageOptions-com.aspose.imaging.IntRange-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(IntRange range, Rectangle exportArea)](#MultiPageOptions-com.aspose.imaging.IntRange-com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(int page)](#MultiPageOptions-int-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
-| [MultiPageOptions(int page, Rectangle exportArea)](#MultiPageOptions-int-com.aspose.imaging.Rectangle-) | يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`. |
+| [MultiPageOptions()](#MultiPageOptions--) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(int[] pages)](#MultiPageOptions-int---) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(int[] pages, Rectangle exportArea)](#MultiPageOptions-int---com.aspose.imaging.Rectangle-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(String[] pageTitles)](#MultiPageOptions-java.lang.String---) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(String[] pageTitles, Rectangle exportArea)](#MultiPageOptions-java.lang.String---com.aspose.imaging.Rectangle-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(IntRange[] ranges)](#MultiPageOptions-com.aspose.imaging.IntRange---) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(IntRange[] ranges, Rectangle exportArea)](#MultiPageOptions-com.aspose.imaging.IntRange---com.aspose.imaging.Rectangle-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(IntRange range)](#MultiPageOptions-com.aspose.imaging.IntRange-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(IntRange range, Rectangle exportArea)](#MultiPageOptions-com.aspose.imaging.IntRange-com.aspose.imaging.Rectangle-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(int page)](#MultiPageOptions-int-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
+| [MultiPageOptions(int page, Rectangle exportArea)](#MultiPageOptions-int-com.aspose.imaging.Rectangle-) | يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -46,16 +46,16 @@ public class MultiPageOptions
 | [setMode(int value)](#setMode-int-) | يحصل أو يضبط الوضع. |
 | [getOutputLayersNames()](#getOutputLayersNames--) | يحصل أو يضبط أسماء طبقات الإخراج (يعمل إذا كان تنسيق التصدير يدعم تسمية الطبقات، على سبيل المثال لـ Psd) |
 | [setOutputLayersNames(String[] value)](#setOutputLayersNames-java.lang.String---) | يحصل أو يضبط أسماء طبقات الإخراج (يعمل إذا كان تنسيق التصدير يدعم تسمية الطبقات، على سبيل المثال لـ Psd) |
-| [getMergeLayers()](#getMergeLayers--) | يحصل على قيمة تشير إلى ما إذا كان [merge layers]. |
-| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | يضبط قيمة تشير إلى ما إذا كان [merge layers]. |
-| [initPages(IntRange[] ranges)](#initPages-com.aspose.imaging.IntRange---) | يُنشئ الصفحات من مصفوفة النطاقات |
+| [getMergeLayers()](#getMergeLayers--) | يحصل على قيمة تشير إلى ما إذا كان سيتم [دمج الطبقات]. |
+| [setMergeLayers(boolean value)](#setMergeLayers-boolean-) | يضبط قيمة تشير إلى ما إذا كان سيتم [دمج الطبقات]. |
+| [initPages(IntRange[] ranges)](#initPages-com.aspose.imaging.IntRange---) | يُهيئ الصفحات من مصفوفة النطاقات |
 ### MultiPageOptions() {#MultiPageOptions--}
 ```
 public MultiPageOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 ### MultiPageOptions(int[] pages) {#MultiPageOptions-int---}
 ```
@@ -63,7 +63,7 @@ public MultiPageOptions(int[] pages)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public MultiPageOptions(int[] pages, Rectangle exportArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,7 +90,7 @@ public MultiPageOptions(String[] pageTitles)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -103,7 +103,7 @@ public MultiPageOptions(String[] pageTitles, Rectangle exportArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -117,7 +117,7 @@ public MultiPageOptions(IntRange[] ranges)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -130,7 +130,7 @@ public MultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -144,7 +144,7 @@ public MultiPageOptions(IntRange range)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -157,7 +157,7 @@ public MultiPageOptions(IntRange range, Rectangle exportArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -171,12 +171,12 @@ public MultiPageOptions(int page)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | int | فهرس الصفحة. |
+| صفحة | int | فهرس الصفحة. |
 
 ### MultiPageOptions(int page, Rectangle exportArea) {#MultiPageOptions-int-com.aspose.imaging.Rectangle-}
 ```
@@ -184,12 +184,12 @@ public MultiPageOptions(int page, Rectangle exportArea)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `MultiPageOptions`.
+يُنشئ مثيلًا جديدًا من الفئة `MultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | int | فهرس الصفحة. |
+| صفحة | int | فهرس الصفحة. |
 | exportArea | [Rectangle](../../com.aspose.imaging/rectangle) | منطقة التصدير. |
 
 ### getPages() {#getPages--}
@@ -217,7 +217,7 @@ public void setPages(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 
 **Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
@@ -225,7 +225,7 @@ public void setPages(int[] value)
 ``` java
 String dir = "c:\\temp\\";
 
-// تحميل صورة DJVU من دفق ملف.
+// تحميل صورة DJVU من تدفق ملف.
 java.io.FileInputStream stream = new java.io.FileInputStream(dir + "sample.djvu");
 try {
     com.aspose.imaging.fileformats.djvu.DjvuImage djvuImage = new com.aspose.imaging.fileformats.djvu.DjvuImage(stream);
@@ -280,7 +280,7 @@ public void setPageTitles(String[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String[] |  |
+| value | java.lang.String[] |  |
 
 
 **Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
@@ -288,7 +288,7 @@ public void setPageTitles(String[] value)
 ``` java
 String dir = "c:\\temp\\";
 
-// تحميل صورة DJVU من دفق ملف.
+// تحميل صورة DJVU من تدفق ملف.
 java.io.FileInputStream stream = new java.io.FileInputStream(dir + "sample.djvu");
 try {
     com.aspose.imaging.fileformats.djvu.DjvuImage djvuImage = new com.aspose.imaging.fileformats.djvu.DjvuImage(stream);
@@ -420,7 +420,7 @@ public void setMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getOutputLayersNames() {#getOutputLayersNames--}
 ```
@@ -447,7 +447,7 @@ public void setOutputLayersNames(String[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String[] |  |
+| value | java.lang.String[] |  |
 
 ### getMergeLayers() {#getMergeLayers--}
 ```
@@ -455,9 +455,9 @@ public final boolean getMergeLayers()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان [merge layers].
+يحصل على قيمة تشير إلى ما إذا كان سيتم [دمج الطبقات].
 
-القيمة: `true` إذا [merge layers]؛ وإلا `false`.
+القيمة: `true` إذا تم [merge layers]؛ وإلا `false`.
 
 **Returns:**
 منطقي - قيمة تشير إلى ما إذا كان [merge layers].
@@ -467,14 +467,14 @@ public final void setMergeLayers(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان [merge layers].
+يضبط قيمة تشير إلى ما إذا كان سيتم [دمج الطبقات].
 
-القيمة: `true` إذا [merge layers]؛ وإلا `false`.
+القيمة: `true` إذا تم [merge layers]؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [merge layers]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [merge layers]. |
 
 ### initPages(IntRange[] ranges) {#initPages-com.aspose.imaging.IntRange---}
 ```
@@ -482,7 +482,7 @@ public void initPages(IntRange[] ranges)
 ```
 
 
-يُنشئ الصفحات من مصفوفة النطاقات
+يُهيئ الصفحات من مصفوفة النطاقات
 
 **Parameters:**
 | معامل | نوع | الوصف |

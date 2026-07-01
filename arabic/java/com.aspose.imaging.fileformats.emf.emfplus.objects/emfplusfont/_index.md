@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusFont"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusFont يحدد الخصائص التي تحدد مظهر النص بما في ذلك حجم الخط ونمطه."
+description: "يحدد كائن EmfPlusFont الخصائص التي تحدد مظهر النص بما في ذلك حجم الخط ونمطه."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/
@@ -24,12 +24,12 @@ public final class EmfPlusFont extends EmfPlusGraphicsObjectType
 | --- | --- |
 | [getFamilyName()](#getFamilyName--) | يحصل أو يعيّن سلسلة من أحرف Unicode بطول Length تحتوي على اسم عائلة الخط |
 | [setFamilyName(String value)](#setFamilyName-java.lang.String-) | يحصل أو يعيّن سلسلة من أحرف Unicode بطول Length تحتوي على اسم عائلة الخط |
-| [getFontStyleFlags()](#getFontStyleFlags--) | يحصل أو يعيّن عدد صحيح موقع 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. |
-| [setFontStyleFlags(int value)](#setFontStyleFlags-int-) | يحصل أو يعيّن عدد صحيح موقع 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. |
-| [getSizeUnit()](#getSizeUnit--) | يحصل أو يعيّن عدد صحيح غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. |
-| [setSizeUnit(int value)](#setSizeUnit-int-) | يحصل أو يعيّن عدد صحيح غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. |
-| [getEmSize()](#getEmSize--) | يحصل أو يعيّن قيمة نقطية عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit. |
-| [setEmSize(float value)](#setEmSize-float-) | يحصل أو يعيّن قيمة نقطية عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit. |
+| [getFontStyleFlags()](#getFontStyleFlags--) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. |
+| [setFontStyleFlags(int value)](#setFontStyleFlags-int-) | يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. |
+| [getSizeUnit()](#getSizeUnit--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. |
+| [setSizeUnit(int value)](#setSizeUnit-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. |
+| [getEmSize()](#getEmSize--) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit. |
+| [setEmSize(float value)](#setEmSize-float-) | يحصل أو يعيّن قيمة عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit. |
 ### EmfPlusFont() {#EmfPlusFont--}
 ```
 public EmfPlusFont()
@@ -57,7 +57,7 @@ public void setFamilyName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFontStyleFlags() {#getFontStyleFlags--}
 ```
@@ -65,7 +65,7 @@ public int getFontStyleFlags()
 ```
 
 
-يحصل أو يعيّن عدد صحيح موقع 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. يجب أن يتكون هذا القيمة من أعلام FontStyle (القسم 2.1.2.4).
+يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. يجب أن يتكوّن هذه القيمة من أعلام FontStyle (القسم 2.1.2.4).
 
 **Returns:**
 int
@@ -75,12 +75,12 @@ public void setFontStyleFlags(int value)
 ```
 
 
-يحصل أو يعيّن عدد صحيح موقع 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. يجب أن يتكون هذا القيمة من أعلام FontStyle (القسم 2.1.2.4).
+يحصل أو يعيّن عددًا صحيحًا موقعًا 32‑بت يحدد سمات رموز الأحرف التي تؤثر على مظهر الخط، مثل الغامق والمائل. يجب أن يتكوّن هذه القيمة من أعلام FontStyle (القسم 2.1.2.4).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSizeUnit() {#getSizeUnit--}
 ```
@@ -88,7 +88,7 @@ public int getSizeUnit()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد الوحدات المستخدمة في حقل EmSize. عادةً ما تكون هذه الوحدات هي الوحدات التي استُخدمت عند تصميم الخط. يجب أن تكون القيمة ضمن تعداد UnitType (القسم 2.1.1.33).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. عادةً ما تكون هذه الوحدات هي التي استُخدمت عند تصميم الخط. يجب أن تكون القيمة ضمن تعداد UnitType (القسم 2.1.1.33).
 
 **Returns:**
 int
@@ -98,12 +98,12 @@ public void setSizeUnit(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32 بت يحدد الوحدات المستخدمة في حقل EmSize. عادةً ما تكون هذه الوحدات هي الوحدات التي استُخدمت عند تصميم الخط. يجب أن تكون القيمة ضمن تعداد UnitType (القسم 2.1.1.33).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد الوحدات المستخدمة لحقل EmSize. عادةً ما تكون هذه الوحدات هي التي استُخدمت عند تصميم الخط. يجب أن تكون القيمة ضمن تعداد UnitType (القسم 2.1.1.33).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getEmSize() {#getEmSize--}
 ```
@@ -111,7 +111,7 @@ public float getEmSize()
 ```
 
 
-يحصل أو يعيّن قيمة نقطية عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit.
+يحصل أو يعيّن قيمة عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit.
 
 **Returns:**
 float
@@ -121,10 +121,10 @@ public void setEmSize(float value)
 ```
 
 
-يحصل أو يعيّن قيمة نقطية عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit.
+يحصل أو يعيّن قيمة عائمة 32‑بت تحدد حجم الـ em للخط بالوحدات المحددة في حقل SizeUnit.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

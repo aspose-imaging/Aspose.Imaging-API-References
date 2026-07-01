@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSerializableObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات."
+description: "سجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات."
 type: docs
 weight: 53
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSerializableObject extends EmfPlusObjectRecordType
 ```
 
-يسجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات.
+سجل EmfPlusSerializableObject يعرّف كتلة معلمات تأثيرات الصورة التي تم تسلسلها إلى مخزن بيانات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSerializableObject(EmfPlusRecord source)](#EmfPlusSerializableObject-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSerializableObject`. |
+| [EmfPlusSerializableObject(EmfPlusRecord source)](#EmfPlusSerializableObject-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusSerializableObject`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public EmfPlusSerializableObject(EmfPlusRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSerializableObject`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusSerializableObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -56,7 +56,7 @@ public short getFlags()
 القيمة: العلامات.
 
 **Returns:**
-short
+قصير
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
@@ -70,7 +70,7 @@ public void setFlags(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getObjectGuid() {#getObjectGuid--}
 ```
@@ -78,7 +78,7 @@ public GuidPacketRepresentation getObjectGuid()
 ```
 
 
-يحصل أو يعيّن قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن يتطابق ذلك مع أحد معرفات ImageEffects (القسم 2.1.3.1).
+يحصل أو يعيّن قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن تتطابق هذه القيمة مع أحد معرفات ImageEffects (القسم 2.1.3.1).
 
 **Returns:**
 [GuidPacketRepresentation](../../com.aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation)
@@ -88,7 +88,7 @@ public void setObjectGuid(GuidPacketRepresentation value)
 ```
 
 
-يحصل أو يعيّن قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن يتطابق ذلك مع أحد معرفات ImageEffects (القسم 2.1.3.1).
+يحصل أو يعيّن قيمة تمثيل حزمة GUID ([MS-DTYP] القسم 2.3.4.2) لتأثير الصورة. يجب أن تتطابق هذه القيمة مع أحد معرفات ImageEffects (القسم 2.1.3.1).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -116,7 +116,7 @@ public void setBufferSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBuffer() {#getBuffer--}
 ```
@@ -124,7 +124,7 @@ public byte[] getBuffer()
 ```
 
 
-يحصل أو يعيّن مصفوفة من بايتات BufferSize التي تحتوي على كتلة معلمات تأثيرات الصورة المتسلسلة والتي تتطابق مع GUID في حقل ObjectGUID. يجب أن تكون هذه واحدة من كائنات Image Effects (القسم 2.2.3).
+يحصل أو يعيّن مصفوفة من بايتات BufferSize التي تحتوي على كتلة معلمات تأثيرات الصورة المتسلسلة والتي تتطابق مع GUID في حقل ObjectGUID. يجب أن تكون هذه واحدة من كائنات تأثيرات الصورة (القسم 2.2.3).
 
 **Returns:**
 byte[]
@@ -134,12 +134,12 @@ public void setBuffer(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من بايتات BufferSize التي تحتوي على كتلة معلمات تأثيرات الصورة المتسلسلة والتي تتطابق مع GUID في حقل ObjectGUID. يجب أن تكون هذه واحدة من كائنات Image Effects (القسم 2.2.3).
+يحصل أو يعيّن مصفوفة من بايتات BufferSize التي تحتوي على كتلة معلمات تأثيرات الصورة المتسلسلة والتي تتطابق مع GUID في حقل ObjectGUID. يجب أن تكون هذه واحدة من كائنات تأثيرات الصورة (القسم 2.2.3).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getImageEffect() {#getImageEffect--}
 ```

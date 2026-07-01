@@ -17,15 +17,15 @@ public final class EmfPlusBitmapDataType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [BitmapDataTypePixel](#BitmapDataTypePixel) | يحدد صورة نقطية ببيانات البكسل. |
-| [BitmapDataTypeCompressed](#BitmapDataTypeCompressed) | يحدد صورة ببيانات مضغوطة. |
+| [BitmapDataTypePixel](#BitmapDataTypePixel) | يحدد صورة bitmap تحتوي على بيانات البكسل. |
+| [BitmapDataTypeCompressed](#BitmapDataTypeCompressed) | يحدد صورة ذات بيانات مضغوطة. |
 ### BitmapDataTypePixel {#BitmapDataTypePixel}
 ```
 public static final int BitmapDataTypePixel
 ```
 
 
-يحدد صورة نقطية ببيانات البكسل.
+يحدد صورة bitmap تحتوي على بيانات البكسل.
 
 ### BitmapDataTypeCompressed {#BitmapDataTypeCompressed}
 ```
@@ -33,5 +33,5 @@ public static final int BitmapDataTypeCompressed
 ```
 
 
-يحدد صورة ببيانات مضغوطة.
+يحدد صورة ذات بيانات مضغوطة.
 

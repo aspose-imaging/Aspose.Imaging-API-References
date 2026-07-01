@@ -21,16 +21,16 @@ public final class EmfPlusPaletteStyleFlags extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [PaletteStyleHasAlpha](#PaletteStyleHasAlpha) | إذا تم تعيينه، يجب أن يحتوي إدخال واحد أو أكثر من لوحة الألوان على معلومات شفافية ألفا. |
-| [PaletteStyleGrayScale](#PaletteStyleGrayScale) | إذا تم تعيينه، يجب أن تحتوي لوحة الألوان على إدخالات تدرج رمادي فقط. |
-| [PaletteStyleHalftone](#PaletteStyleHalftone) | إذا تم تعيينه، يجب أن تحتوي لوحة الألوان على قيم ألوان منفصلة يمكن استخدامها في نصف الظلال. |
+| [PaletteStyleHasAlpha](#PaletteStyleHasAlpha) | إذا تم تعيينه، يجب أن يحتوي أحد أو أكثر من مدخلات اللوحة على معلومات شفافية ألفا. |
+| [PaletteStyleGrayScale](#PaletteStyleGrayScale) | إذا تم تعيينه، يجب أن تحتوي اللوحة فقط على مدخلات تدرج رمادي. |
+| [PaletteStyleHalftone](#PaletteStyleHalftone) | إذا تم تعيينه، يجب أن تحتوي اللوحة على قيم ألوان منفصلة يمكن استخدامها للتنقيط النصفية. |
 ### PaletteStyleHasAlpha {#PaletteStyleHasAlpha}
 ```
 public static final int PaletteStyleHasAlpha
 ```
 
 
-إذا تم تعيينه، يجب أن يحتوي إدخال واحد أو أكثر من لوحة الألوان على معلومات شفافية ألفا.
+إذا تم تعيينه، يجب أن يحتوي أحد أو أكثر من مدخلات اللوحة على معلومات شفافية ألفا.
 
 ### PaletteStyleGrayScale {#PaletteStyleGrayScale}
 ```
@@ -38,7 +38,7 @@ public static final int PaletteStyleGrayScale
 ```
 
 
-إذا تم تعيينه، يجب أن تحتوي لوحة الألوان على إدخالات تدرج رمادي فقط.
+إذا تم تعيينه، يجب أن تحتوي اللوحة فقط على مدخلات تدرج رمادي.
 
 ### PaletteStyleHalftone {#PaletteStyleHalftone}
 ```
@@ -46,5 +46,5 @@ public static final int PaletteStyleHalftone
 ```
 
 
-إذا تم تعيينه، يجب أن تحتوي لوحة الألوان على قيم ألوان منفصلة يمكن استخدامها في نصف الظلال.
+إذا تم تعيينه، يجب أن تحتوي اللوحة على قيم ألوان منفصلة يمكن استخدامها للتنقيط النصفية.
 

@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.palettehelper/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [AdjustPalette](../com.aspose.imaging.palettehelper/adjustpalette) | فئة تعديل لوحة الألوان |

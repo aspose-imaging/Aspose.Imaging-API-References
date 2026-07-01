@@ -17,7 +17,7 @@ public final class EmfPlusSetInterpolationMode extends EmfPlusPropertyRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetInterpolationMode(EmfPlusRecord source)](#EmfPlusSetInterpolationMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPlusSetInterpolationMode`. |
+| [EmfPlusSetInterpolationMode(EmfPlusRecord source)](#EmfPlusSetInterpolationMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetInterpolationMode`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusSetInterpolationMode(EmfPlusRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPlusSetInterpolationMode`.
+ينشئ مثيلاً جديدًا من الفئة `EmfPlusSetInterpolationMode`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,5 +62,5 @@ public void setInterpolationMode(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 

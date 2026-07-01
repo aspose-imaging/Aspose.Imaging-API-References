@@ -1,24 +1,24 @@
 ---
 title: "WmfSelectObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن الاختيار."
+description: "كائن التحديد."
 type: docs
 weight: 71
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfselectobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSelectObject extends WmfObject
 ```
 
-كائن الاختيار.
+كائن التحديد.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfSelectObject(WmfGraphicObject wmfObject)](#WmfSelectObject-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectObject`. |
-| [WmfSelectObject()](#WmfSelectObject--) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectObject`. |
+| [WmfSelectObject(WmfGraphicObject wmfObject)](#WmfSelectObject-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | يُنشئ مثيلًا جديدًا من الفئة `WmfSelectObject`. |
+| [WmfSelectObject()](#WmfSelectObject--) | يُنشئ مثيلًا جديدًا من الفئة `WmfSelectObject`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,12 +31,12 @@ public WmfSelectObject(WmfGraphicObject wmfObject)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `WmfSelectObject`.
+يُنشئ مثيلًا جديدًا من الفئة `WmfSelectObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| wmfObject | [WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | الكائن WMF. |
+| wmfObject | [WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | كائن WMF. |
 
 ### WmfSelectObject() {#WmfSelectObject--}
 ```
@@ -44,7 +44,7 @@ public WmfSelectObject()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `WmfSelectObject`.
+يُنشئ مثيلًا جديدًا من الفئة `WmfSelectObject`.
 
 ### getObjectIndex() {#getObjectIndex--}
 ```
@@ -71,5 +71,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

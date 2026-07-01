@@ -17,7 +17,7 @@ public class OdCustomShape extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdCustomShape(OdObject parent)](#OdCustomShape-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdCustomShape`. |
+| [OdCustomShape(OdObject parent)](#OdCustomShape-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdCustomShape`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,12 +34,12 @@ public OdCustomShape(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdCustomShape`.
+يُنشئ مثيلًا جديدًا من الفئة `OdCustomShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getStyleName() {#getStyleName--}
 ```
@@ -62,7 +62,7 @@ public void setStyleName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم النمط. |
+| value | java.lang.String | اسم النمط. |
 
 ### getTextStyleName() {#getTextStyleName--}
 ```
@@ -85,7 +85,7 @@ public void setTextStyleName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم نمط النص. |
+| value | java.lang.String | اسم نمط النص. |
 
 ### getLayer() {#getLayer--}
 ```
@@ -108,5 +108,5 @@ public void setLayer(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الطبقة. |
+| value | java.lang.String | الطبقة. |
 

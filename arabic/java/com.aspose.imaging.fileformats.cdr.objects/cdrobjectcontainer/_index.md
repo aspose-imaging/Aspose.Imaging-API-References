@@ -1,7 +1,7 @@
 ---
 title: "CdrObjectContainer"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr حاوية كائن"
+description: "حاوية كائن cdr"
 type: docs
 weight: 28
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class CdrObjectContainer extends CdrObject
 ```
 
-ال cdr حاوية كائن
+حاوية كائن cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -68,7 +68,7 @@ public final void setLoadToLastChild(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [load to last child]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [load to last child]. |
 
 ### getLastChild() {#getLastChild--}
 ```
@@ -101,10 +101,10 @@ public final boolean getHidden()
 
 يحصل على قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئيًا.
 
-القيمة: `true` إذا كان مرئياً؛ وإلا `false`.
+القيمة: `true` إذا كان مرئيًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئياً.
+boolean - قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئيًا.
 ### setHidden(boolean value) {#setHidden-boolean-}
 ```
 public final void setHidden(boolean value)
@@ -113,12 +113,12 @@ public final void setHidden(boolean value)
 
 يضبط قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئيًا.
 
-القيمة: `true` إذا كان مرئياً؛ وإلا `false`.
+القيمة: `true` إذا كان مرئيًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئياً. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا [CdrObjectContainer](../../com.aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) مرئيًا. |
 
 ### addChildObject(CdrObject cdrObject) {#addChildObject-com.aspose.imaging.fileformats.cdr.objects.CdrObject-}
 ```

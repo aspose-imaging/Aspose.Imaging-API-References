@@ -19,15 +19,15 @@ public final class PngColorType extends System.Enum
 | --- | --- |
 | [Grayscale](#Grayscale) | يمثل نوع اللون حيث كل بكسل هو عينة تدرج رمادي. |
 | [Truecolor](#Truecolor) | يمثل نوع اللون حيث كل بكسل هو ثلاثية R,G,B. |
-| [IndexedColor](#IndexedColor) | يمثل نوع اللون حيث كل بكسل هو فهرس لوحة ألوان؛ يجب أن يظهر مقطع PLTE. |
-| [GrayscaleWithAlpha](#GrayscaleWithAlpha) | يمثل نوع اللون حيث كل بكسل هو عينة تدرج رمادي يتبعها عينة ألفا. |
-| [TruecolorWithAlpha](#TruecolorWithAlpha) | يمثل نوع اللون حيث كل بكسل هو ثلاثية R,G,B يتبعها عينة ألفا. |
+| [IndexedColor](#IndexedColor) | يمثل نوع اللون حيث كل بكسل هو فهرس لوحة ألوان؛ يجب أن يظهر جزء PLTE. |
+| [GrayscaleWithAlpha](#GrayscaleWithAlpha) | يمثل نوع اللون حيث كل بكسل هو عينة تدرج رمادي تليها عينة ألفا. |
+| [TruecolorWithAlpha](#TruecolorWithAlpha) | يمثل نوع اللون حيث كل بكسل هو ثلاثية R,G,B تليها عينة ألفا. |
 
 ## Example: The following example shows how to compress a PNG image, using indexed color with best fit palette
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -38,8 +38,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -70,7 +70,7 @@ public static final int IndexedColor
 ```
 
 
-يمثل نوع اللون حيث كل بكسل هو فهرس لوحة ألوان؛ يجب أن يظهر مقطع PLTE.
+يمثل نوع اللون حيث كل بكسل هو فهرس لوحة ألوان؛ يجب أن يظهر جزء PLTE.
 
 ### GrayscaleWithAlpha {#GrayscaleWithAlpha}
 ```
@@ -78,7 +78,7 @@ public static final int GrayscaleWithAlpha
 ```
 
 
-يمثل نوع اللون حيث كل بكسل هو عينة تدرج رمادي يتبعها عينة ألفا.
+يمثل نوع اللون حيث كل بكسل هو عينة تدرج رمادي تليها عينة ألفا.
 
 ### TruecolorWithAlpha {#TruecolorWithAlpha}
 ```
@@ -86,5 +86,5 @@ public static final int TruecolorWithAlpha
 ```
 
 
-يمثل نوع اللون حيث كل بكسل هو ثلاثية R,G,B يتبعها عينة ألفا.
+يمثل نوع اللون حيث كل بكسل هو ثلاثية R,G,B تليها عينة ألفا.
 

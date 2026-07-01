@@ -17,11 +17,11 @@ public class ImageResizeSettings
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageResizeSettings()](#ImageResizeSettings--) | ينشئ مثيلاً جديداً من الفئة `ImageResizeSettings` مع نوع التحجيم = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) مع نوع الفلتر = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 256 (\#getEntriesCount().getEntriesCount()) |
-| [ImageResizeSettings(int resizeType)](#ImageResizeSettings-int-) | ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع نوع الفلتر = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
-| [ImageResizeSettings(int resizeType, int filterType)](#ImageResizeSettings-int-int-) | ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
-| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod)](#ImageResizeSettings-int-int-int-) | ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
-| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod)](#ImageResizeSettings-int-int-int-int-) | ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
+| [ImageResizeSettings()](#ImageResizeSettings--) | ينشئ مثيلاً جديدًا من الفئة `ImageResizeSettings` مع نوع التحجيم = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) مع نوع الفلتر = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 256 (\#getEntriesCount().getEntriesCount()) |
+| [ImageResizeSettings(int resizeType)](#ImageResizeSettings-int-) | ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع نوع الفلتر = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
+| [ImageResizeSettings(int resizeType, int filterType)](#ImageResizeSettings-int-int-) | ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
+| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod)](#ImageResizeSettings-int-int-int-) | ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
+| [ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod)](#ImageResizeSettings-int-int-int-int-) | ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount()) |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public ImageResizeSettings()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `ImageResizeSettings` مع نوع التحجيم = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) مع نوع الفلتر = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 256 (\#getEntriesCount().getEntriesCount())
+ينشئ مثيلاً جديدًا من الفئة `ImageResizeSettings` مع نوع التحجيم = ([ResizeType.BilinearResample](../../com.aspose.imaging/resizetype\#BilinearResample)) مع نوع الفلتر = ([ImageFilterType.SmallRectangular](../../com.aspose.imaging/imagefiltertype\#SmallRectangular)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.Popularity](../../com.aspose.imaging/colorquantizationmethod\#Popularity)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 256 (\#getEntriesCount().getEntriesCount())
 
 ### ImageResizeSettings(int resizeType) {#ImageResizeSettings-int-}
 ```
@@ -50,7 +50,7 @@ public ImageResizeSettings(int resizeType)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع نوع الفلتر = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
+ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع نوع الفلتر = ([ImageFilterType.None](../../com.aspose.imaging/imagefiltertype\#None)) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public ImageResizeSettings(int resizeType, int filterType)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
+ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة تكميـن اللون = ([ColorQuantizationMethod.None](../../com.aspose.imaging/colorquantizationmethod\#None)) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,14 +77,14 @@ public ImageResizeSettings(int resizeType, int filterType, int colorQuantization
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
+ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع طريقة مقارنة اللون = ([ColorCompareMethod.Euclidian](../../com.aspose.imaging/colorcomparemethod\#Euclidian)) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | resizeType | int | نوع التحجيم. |
 | filterType | int | نوع الفلتر. |
-| colorQuantizationMethod | int | طريقة تكميـن اللون. |
+| colorQuantizationMethod | int | طريقة تقليل الألوان. |
 
 ### ImageResizeSettings(int resizeType, int filterType, int colorQuantizationMethod, int colorCompareMethod) {#ImageResizeSettings-int-int-int-int-}
 ```
@@ -92,15 +92,15 @@ public ImageResizeSettings(int resizeType, int filterType, int colorQuantization
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
+ينشئ مثيلاً جديدًا من الفئة [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) مع عدد إدخالات اللون = 0 (\#getEntriesCount().getEntriesCount())
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | resizeType | int | نوع التحجيم. |
 | filterType | int | نوع الفلتر. |
-| colorQuantizationMethod | int | طريقة تكميـن اللون. |
-| colorCompareMethod | int | طريقة مقارنة اللون. |
+| colorQuantizationMethod | int | طريقة تقليل الألوان. |
+| colorCompareMethod | int | طريقة مقارنة الألوان. |
 
 ### getEntriesCount() {#getEntriesCount--}
 ```
@@ -123,7 +123,7 @@ public void setEntriesCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد الإدخالات |
+| value | int | عدد الإدخالات |
 
 ### getMode() {#getMode--}
 ```
@@ -146,7 +146,7 @@ public void setMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الوضع. |
+| value | int | الوضع. |
 
 ### getFilterType() {#getFilterType--}
 ```
@@ -169,7 +169,7 @@ public void setFilterType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الفلتر. |
+| value | int | نوع الفلتر. |
 
 ### getColorQuantizationMethod() {#getColorQuantizationMethod--}
 ```
@@ -180,7 +180,7 @@ public int getColorQuantizationMethod()
 يحصل على طريقة تكميـن اللون.
 
 **Returns:**
-int - طريقة تكميم اللون.
+int - طريقة تقليل الألوان.
 ### setColorQuantizationMethod(int value) {#setColorQuantizationMethod-int-}
 ```
 public void setColorQuantizationMethod(int value)
@@ -192,7 +192,7 @@ public void setColorQuantizationMethod(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | طريقة تكميم اللون. |
+| value | int | طريقة تقليل الألوان. |
 
 ### getColorCompareMethod() {#getColorCompareMethod--}
 ```
@@ -203,7 +203,7 @@ public int getColorCompareMethod()
 يحصل على طريقة مقارنة اللون.
 
 **Returns:**
-int - طريقة مقارنة اللون.
+int - طريقة مقارنة الألوان.
 ### setColorCompareMethod(int value) {#setColorCompareMethod-int-}
 ```
 public void setColorCompareMethod(int value)
@@ -215,5 +215,5 @@ public void setColorCompareMethod(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | طريقة مقارنة اللون. |
+| value | int | طريقة مقارنة الألوان. |
 

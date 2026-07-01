@@ -30,7 +30,7 @@ public class CmxPathSpec implements ICmxObjectSpec
 | [getType()](#getType--) | يحصل على النوع. |
 | [setType(int value)](#setType-int-) | يضبط النوع. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
-| [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
+| [hashCode()](#hashCode--) | احصل على قيمة التجزئة للكائن الحالي. |
 ### CmxPathSpec() {#CmxPathSpec--}
 ```
 public CmxPathSpec()
@@ -85,7 +85,7 @@ public final void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```
@@ -108,7 +108,7 @@ public int hashCode()
 ```
 
 
-احصل على رمز التجزئة للكائن الحالي.
+احصل على قيمة التجزئة للكائن الحالي.
 
 **Returns:**
 int - رمز التجزئة.

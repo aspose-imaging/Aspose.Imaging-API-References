@@ -1,13 +1,13 @@
 ---
 title: "EmfPlusGraphicsVersion"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusGraphicsVersion يحدد إصدار رسومات نظام التشغيل المستخدم لإنشاء ملف تعريف EMF."
+description: "الكائن EmfPlusGraphicsVersion يحدد نسخة رسومات نظام التشغيل التي تُستخدم لإنشاء ملف تعريف EMF."
 type: docs
 weight: 44
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusGraphicsVersion extends EmfPlusStructureObjectType
 ```
@@ -26,8 +26,8 @@ public final class EmfPlusGraphicsVersion extends EmfPlusStructureObjectType
 | --- | --- |
 | [getMetafileSignature()](#getMetafileSignature--) | يحصل على MetafileSignature (20 بت): قيمة تحدد نوع ملف التعريف. |
 | [setMetafileSignature(int value)](#setMetafileSignature-int-) | يحصل على MetafileSignature (20 بت): قيمة تحدد نوع ملف التعريف. |
-| [getGraphicsVersion()](#getGraphicsVersion--) | يحصل على GraphicsVersion (12 بت): إصدار رسومات نظام التشغيل. |
-| [setGraphicsVersion(int value)](#setGraphicsVersion-int-) | يحصل على GraphicsVersion (12 بت): إصدار رسومات نظام التشغيل. |
+| [getGraphicsVersion()](#getGraphicsVersion--) | يحصل على GraphicsVersion (12 بت): نسخة رسومات نظام التشغيل. |
+| [setGraphicsVersion(int value)](#setGraphicsVersion-int-) | يحصل على GraphicsVersion (12 بت): نسخة رسومات نظام التشغيل. |
 ### EmfPlusGraphicsVersion() {#EmfPlusGraphicsVersion--}
 ```
 public EmfPlusGraphicsVersion()
@@ -55,7 +55,7 @@ public void setMetafileSignature(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getGraphicsVersion() {#getGraphicsVersion--}
 ```
@@ -63,7 +63,7 @@ public int getGraphicsVersion()
 ```
 
 
-يحصل على GraphicsVersion (12 بت): إصدار رسومات نظام التشغيل. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusGraphicsVersion`
+يحصل على GraphicsVersion (12 بت): نسخة رسومات نظام التشغيل. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusGraphicsVersion`
 
 **Returns:**
 int
@@ -73,10 +73,10 @@ public void setGraphicsVersion(int value)
 ```
 
 
-يحصل على GraphicsVersion (12 بت): إصدار رسومات نظام التشغيل. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusGraphicsVersion`
+يحصل على GraphicsVersion (12 بت): نسخة رسومات نظام التشغيل. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusGraphicsVersion`
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

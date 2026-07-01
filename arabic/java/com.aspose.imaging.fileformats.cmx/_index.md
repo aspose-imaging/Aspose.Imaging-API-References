@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CmxImage](../com.aspose.imaging.fileformats.cmx/cmximage) | واجهة برمجة التطبيقات لتنسيق صورة المتجه Corel Metafile Exchange (CMX) مع دعم أوصاف البيانات الوصفية هي حل شامل للمطورين الذين يعملون مع ملفات CMX. |
 | [CmxImagePage](../com.aspose.imaging.fileformats.cmx/cmximagepage) | صورة صفحة CMX |

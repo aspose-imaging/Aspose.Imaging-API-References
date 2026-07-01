@@ -17,8 +17,8 @@ public final class EmfExtSelectClipRgn extends EmfClippingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfExtSelectClipRgn(EmfRecord source)](#EmfExtSelectClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfExtSelectClipRgn`. |
-| [EmfExtSelectClipRgn()](#EmfExtSelectClipRgn--) | ينشئ مثيلاً جديداً من الفئة `EmfExtSelectClipRgn`. |
+| [EmfExtSelectClipRgn(EmfRecord source)](#EmfExtSelectClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديدًا من الفئة `EmfExtSelectClipRgn`. |
+| [EmfExtSelectClipRgn()](#EmfExtSelectClipRgn--) | ينشئ مثيلاً جديدًا من الفئة `EmfExtSelectClipRgn`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -35,7 +35,7 @@ public EmfExtSelectClipRgn(EmfRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfExtSelectClipRgn`.
+ينشئ مثيلاً جديدًا من الفئة `EmfExtSelectClipRgn`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -48,7 +48,7 @@ public EmfExtSelectClipRgn()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfExtSelectClipRgn`.
+ينشئ مثيلاً جديدًا من الفئة `EmfExtSelectClipRgn`.
 
 ### getRgnDataSize() {#getRgnDataSize--}
 ```
@@ -71,7 +71,7 @@ public void setRgnDataSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRegionMode() {#getRegionMode--}
 ```
@@ -94,7 +94,7 @@ public void setRegionMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRgnData() {#getRgnData--}
 ```
@@ -102,7 +102,7 @@ public EmfRegionData getRgnData()
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول RgnDataSize من البايتات تحدد كائن RegionData بوحدات منطقية. إذا كان RegionMode هو RGN\_COPY، يمكن حذف هذه البيانات ويجب ضبط منطقة القص إلى منطقة القص الافتراضية (NULL).
+يحصل أو يعيّن مصفوفة من البايت بطول RgnDataSize تحدد كائن RegionData بالوحدات المنطقية. إذا كان RegionMode هو RGN\_COPY، يمكن حذف هذه البيانات ويجب أن يتم تعيين منطقة القص إلى منطقة القص الافتراضية (NULL).
 
 **Returns:**
 [EmfRegionData](../../com.aspose.imaging.fileformats.emf.emf.objects/emfregiondata)
@@ -112,7 +112,7 @@ public void setRgnData(EmfRegionData value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول RgnDataSize من البايتات تحدد كائن RegionData بوحدات منطقية. إذا كان RegionMode هو RGN\_COPY، يمكن حذف هذه البيانات ويجب ضبط منطقة القص إلى منطقة القص الافتراضية (NULL).
+يحصل أو يعيّن مصفوفة من البايت بطول RgnDataSize تحدد كائن RegionData بالوحدات المنطقية. إذا كان RegionMode هو RGN\_COPY، يمكن حذف هذه البيانات ويجب أن يتم تعيين منطقة القص إلى منطقة القص الافتراضية (NULL).
 
 **Parameters:**
 | معامل | نوع | الوصف |

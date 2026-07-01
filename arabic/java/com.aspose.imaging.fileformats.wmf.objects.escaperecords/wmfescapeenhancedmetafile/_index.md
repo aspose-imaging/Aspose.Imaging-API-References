@@ -28,20 +28,20 @@ public class WmfEscapeEnhancedMetafile extends WmfEscapeRecordBase
 | [setCommentType(int value)](#setCommentType-int-) | يحصل أو يعيّن نوع التعليق. |
 | [getVersion()](#getVersion--) | يحصل أو يعيّن الإصدار. |
 | [setVersion(int value)](#setVersion-int-) | يحصل أو يعيّن الإصدار. |
-| [getChecksum()](#getChecksum--) | يحصل أو يعيّن المجموع الاختباري. |
-| [setChecksum(int value)](#setChecksum-int-) | يحصل أو يعيّن المجموع الاختباري. |
+| [getChecksum()](#getChecksum--) | يحصل أو يعيّن قيمة الاختبار. |
+| [setChecksum(int value)](#setChecksum-int-) | يحصل أو يعيّن قيمة الاختبار. |
 | [getFlags()](#getFlags--) | يحصل أو يضبط العلامات. |
 | [setFlags(int value)](#setFlags-int-) | يحصل أو يضبط العلامات. |
 | [getCommentRecordCount()](#getCommentRecordCount--) | يحصل أو يعيّن عدد سجلات التعليق. |
 | [setCommentRecordCount(int value)](#setCommentRecordCount-int-) | يحصل أو يعيّن عدد سجلات التعليق. |
 | [getCurrentRecordSize()](#getCurrentRecordSize--) | يحصل أو يعيّن حجم السجل الحالي. |
 | [setCurrentRecordSize(int value)](#setCurrentRecordSize-int-) | يحصل أو يعيّن حجم السجل الحالي. |
-| [getRemainingBytes()](#getRemainingBytes--) | يحصل أو يعيّن عدد البايتات المتبقية. |
-| [setRemainingBytes(int value)](#setRemainingBytes-int-) | يحصل أو يعيّن عدد البايتات المتبقية. |
-| [getEnhancedMetafileDataSize()](#getEnhancedMetafileDataSize--) | يحصل أو يعيّن حجم بيانات ملف الميتافيل المحسّن. |
-| [setEnhancedMetafileDataSize(int value)](#setEnhancedMetafileDataSize-int-) | يحصل أو يعيّن حجم بيانات ملف الميتافيل المحسّن. |
-| [getEnhancedMetafileData()](#getEnhancedMetafileData--) | يحصل أو يعيّن بيانات ملف الميتافيل المحسّن. |
-| [setEnhancedMetafileData(byte[] value)](#setEnhancedMetafileData-byte---) | يحصل أو يعيّن بيانات ملف الميتافيل المحسّن. |
+| [getRemainingBytes()](#getRemainingBytes--) | يحصل أو يعيّن البايتات المتبقية. |
+| [setRemainingBytes(int value)](#setRemainingBytes-int-) | يحصل أو يعيّن البايتات المتبقية. |
+| [getEnhancedMetafileDataSize()](#getEnhancedMetafileDataSize--) | يحصل أو يعيّن حجم بيانات الملف التعريفي المحسّن. |
+| [setEnhancedMetafileDataSize(int value)](#setEnhancedMetafileDataSize-int-) | يحصل أو يعيّن حجم بيانات الملف التعريفي المحسّن. |
+| [getEnhancedMetafileData()](#getEnhancedMetafileData--) | يحصل أو يعيّن بيانات الملف التعريفي المحسّن. |
+| [setEnhancedMetafileData(byte[] value)](#setEnhancedMetafileData-byte---) | يحصل أو يعيّن بيانات الملف التعريفي المحسّن. |
 ### WmfEscapeEnhancedMetafile() {#WmfEscapeEnhancedMetafile--}
 ```
 public WmfEscapeEnhancedMetafile()
@@ -56,7 +56,7 @@ public int getCommentIdentifier()
 
 يحصل أو يعيّن معرف التعليق.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد هذا السجل كـ WMF Comment record. يجب أن تكون هذه القيمة 0x43464D57.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد هذا السجل كسجل تعليق WMF. يجب أن تكون هذه القيمة 0x43464D57.
 
 **Returns:**
 int
@@ -68,12 +68,12 @@ public void setCommentIdentifier(int value)
 
 يحصل أو يعيّن معرف التعليق.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد هذا السجل كـ WMF Comment record. يجب أن تكون هذه القيمة 0x43464D57.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد هذا السجل كسجل تعليق WMF. يجب أن تكون هذه القيمة 0x43464D57.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCommentType() {#getCommentType--}
 ```
@@ -100,7 +100,7 @@ public void setCommentType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -110,7 +110,7 @@ public int getVersion()
 
 يحصل أو يعيّن الإصدار.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد توافق ملف تعريف EMF. ينبغي أن يكون هذا 0x00010000.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد قابلية التفاعل لملف EMF. ينبغي أن يكون هذا 0x00010000
 
 **Returns:**
 int
@@ -122,12 +122,12 @@ public void setVersion(int value)
 
 يحصل أو يعيّن الإصدار.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد توافق ملف تعريف EMF. ينبغي أن يكون هذا 0x00010000.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد قابلية التفاعل لملف EMF. ينبغي أن يكون هذا 0x00010000
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getChecksum() {#getChecksum--}
 ```
@@ -135,9 +135,9 @@ public int getChecksum()
 ```
 
 
-يحصل أو يعيّن المجموع الاختباري.
+يحصل أو يعيّن قيمة الاختبار.
 
-القيمة: عدد صحيح غير موقع 16‑بت يُستخدم للتحقق من صحة تدفق EMF المضمّن. يجب أن تكون هذه القيمة متممة الواحد للنتيجة التي تُحصل عليها بتطبيق عملية XOR على جميع WORDs في تدفق EMF.
+القيمة: عدد صحيح غير موقع 16‑بت يُستخدم للتحقق من صحة تدفق EMF المدمج. يجب أن تكون هذه القيمة مكمل الواحد لنتيجة تطبيق عملية XOR على جميع WORDs في تدفق EMF.
 
 **Returns:**
 int
@@ -147,14 +147,14 @@ public void setChecksum(int value)
 ```
 
 
-يحصل أو يعيّن المجموع الاختباري.
+يحصل أو يعيّن قيمة الاختبار.
 
-القيمة: عدد صحيح غير موقع 16‑بت يُستخدم للتحقق من صحة تدفق EMF المضمّن. يجب أن تكون هذه القيمة متممة الواحد للنتيجة التي تُحصل عليها بتطبيق عملية XOR على جميع WORDs في تدفق EMF.
+القيمة: عدد صحيح غير موقع 16‑بت يُستخدم للتحقق من صحة تدفق EMF المدمج. يجب أن تكون هذه القيمة مكمل الواحد لنتيجة تطبيق عملية XOR على جميع WORDs في تدفق EMF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -181,7 +181,7 @@ public void setFlags(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCommentRecordCount() {#getCommentRecordCount--}
 ```
@@ -191,7 +191,7 @@ public int getCommentRecordCount()
 
 يحصل أو يعيّن عدد سجلات التعليق.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد العدد الإجمالي لسجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية التي تحتوي على ملف EMF المضمّن.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد العدد الإجمالي للسجلات المتتالية META\_ESCAPE\_ENHANCED\_METAFILE التي تحتوي على ملف EMF المدمج.
 
 **Returns:**
 int
@@ -203,12 +203,12 @@ public void setCommentRecordCount(int value)
 
 يحصل أو يعيّن عدد سجلات التعليق.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد العدد الإجمالي لسجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية التي تحتوي على ملف EMF المضمّن.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد العدد الإجمالي للسجلات المتتالية META\_ESCAPE\_ENHANCED\_METAFILE التي تحتوي على ملف EMF المدمج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCurrentRecordSize() {#getCurrentRecordSize--}
 ```
@@ -235,7 +235,7 @@ public void setCurrentRecordSize(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRemainingBytes() {#getRemainingBytes--}
 ```
@@ -243,9 +243,9 @@ public int getRemainingBytes()
 ```
 
 
-يحصل أو يعيّن عدد البايتات المتبقية.
+يحصل أو يعيّن البايتات المتبقية.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد عدد البايتات في تدفق EMF المتبقية للمعالجة بعد هذا السجل. يجب أن تتبع تلك البايتات الإضافية من EMF في حقول EnhancedMetafileData لسجلات META\_ESCAPE\_ENHANDED\_METAFILE اللاحقة.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد عدد البايتات في تدفق EMF المتبقية للمعالجة بعد هذا السجل. يجب أن تتبع تلك البايتات الإضافية من EMF في حقول EnhancedMetafileData لسجلات الهروب META\_ESCAPE\_ENHANDED\_METAFILE اللاحقة.
 
 **Returns:**
 int
@@ -255,14 +255,14 @@ public void setRemainingBytes(int value)
 ```
 
 
-يحصل أو يعيّن عدد البايتات المتبقية.
+يحصل أو يعيّن البايتات المتبقية.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد عدد البايتات في تدفق EMF المتبقية للمعالجة بعد هذا السجل. يجب أن تتبع تلك البايتات الإضافية من EMF في حقول EnhancedMetafileData لسجلات META\_ESCAPE\_ENHANDED\_METAFILE اللاحقة.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد عدد البايتات في تدفق EMF المتبقية للمعالجة بعد هذا السجل. يجب أن تتبع تلك البايتات الإضافية من EMF في حقول EnhancedMetafileData لسجلات الهروب META\_ESCAPE\_ENHANDED\_METAFILE اللاحقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getEnhancedMetafileDataSize() {#getEnhancedMetafileDataSize--}
 ```
@@ -270,9 +270,9 @@ public int getEnhancedMetafileDataSize()
 ```
 
 
-يحصل أو يعيّن حجم بيانات ملف الميتافيل المحسّن.
+يحصل أو يعيّن حجم بيانات الملف التعريفي المحسّن.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لتدفق EMF المضمّن في هذه السلسلة من سجلات META\_ESCAPE\_ENHANCED\_METAFILE.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لتدفق EMF المدمج في هذه السلسلة من سجلات META\_ESCAPE\_ENHANCED\_METAFILE.
 
 **Returns:**
 int
@@ -282,14 +282,14 @@ public void setEnhancedMetafileDataSize(int value)
 ```
 
 
-يحصل أو يعيّن حجم بيانات ملف الميتافيل المحسّن.
+يحصل أو يعيّن حجم بيانات الملف التعريفي المحسّن.
 
-القيمة: عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لتدفق EMF المضمّن في هذه السلسلة من سجلات META\_ESCAPE\_ENHANCED\_METAFILE.
+القيمة: عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لتدفق EMF المدمج في هذه السلسلة من سجلات META\_ESCAPE\_ENHANCED\_METAFILE.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getEnhancedMetafileData() {#getEnhancedMetafileData--}
 ```
@@ -297,9 +297,9 @@ public byte[] getEnhancedMetafileData()
 ```
 
 
-يحصل أو يعيّن بيانات ملف الميتافيل المحسّن.
+يحصل أو يعيّن بيانات الملف التعريفي المحسّن.
 
-القيمة: جزء من ملف EMF. يجب ربط البايتات في سجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية لتمثيل ملف EMF المضمّن بالكامل.
+القيمة: جزء من ملف EMF. يجب ربط البايتات في سجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية لتشكيل الملف الكامل المدمج EMF.
 
 **Returns:**
 byte[]
@@ -309,12 +309,12 @@ public void setEnhancedMetafileData(byte[] value)
 ```
 
 
-يحصل أو يعيّن بيانات ملف الميتافيل المحسّن.
+يحصل أو يعيّن بيانات الملف التعريفي المحسّن.
 
-القيمة: جزء من ملف EMF. يجب ربط البايتات في سجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية لتمثيل ملف EMF المضمّن بالكامل.
+القيمة: جزء من ملف EMF. يجب ربط البايتات في سجلات META\_ESCAPE\_ENHANCED\_METAFILE المتتالية لتشكيل الملف الكامل المدمج EMF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

@@ -53,7 +53,7 @@ public abstract RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -68,8 +68,8 @@ public abstract RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -84,5 +84,5 @@ public abstract void transform(Matrix transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل المراد تطبيقه. |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل الذي سيتم تطبيقه. |
 

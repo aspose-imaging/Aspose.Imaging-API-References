@@ -7,11 +7,11 @@ weight: 55
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfspool.records/
 ---
 
-الحزمة تحتوي على أنواع [MS-EMFSPOOL]: تنسيق تجميع ملف ميتا محسّن 2.2 سجلات EMFSPOOL
+الحزمة تحتوي على الأنواع [MS-EMFSPOOL]: Enhanced Metafile Spool Format 2.2 EMFSPOOL Records
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [EmfSpoolFontDefinitionRecordType](../com.aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdefinitionrecordtype) | سجلات تعريف الخط تشمل خمسة أنواع سجلات، مدرجة في الجدول التالي. |

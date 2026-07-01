@@ -17,14 +17,14 @@ public final class ImageMaskingException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageMaskingException(String message)](#ImageMaskingException-java.lang.String-) | ينشئ نسخة جديدة من الفئة [ImageMaskingException](../../com.aspose.imaging.masking.exceptions/imagematchingexception). |
+| [ImageMaskingException(String message)](#ImageMaskingException-java.lang.String-) | يقوم بإنشاء نسخة جديدة من الفئة [ImageMaskingException](../../com.aspose.imaging.masking.exceptions/imagemaskingexception). |
 ### ImageMaskingException(String message) {#ImageMaskingException-java.lang.String-}
 ```
 public ImageMaskingException(String message)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [ImageMaskingException](../../com.aspose.imaging.masking.exceptions/imagematchingexception).
+يقوم بإنشاء نسخة جديدة من الفئة [ImageMaskingException](../../com.aspose.imaging.masking.exceptions/imagemaskingexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "مستطيل"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يخزن مجموعة من أربعة أعداد صحيحة تمثل موقع وحجم مستطيل."
+description: "يخزن مجموعة من أربعة أعداد صحيحة تمثل موقع وحجم المستطيل."
 type: docs
 weight: 93
 url: /ar/java/com.aspose.imaging/rectangle/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class Rectangle extends Struct<Rectangle>
 ```
 
-يخزن مجموعة من أربعة أعداد صحيحة تمثل موقع وحجم مستطيل.
+يخزن مجموعة من أربعة أعداد صحيحة تمثل موقع وحجم المستطيل.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,52 +24,52 @@ public class Rectangle extends Struct<Rectangle>
 
 | طريقة | الوصف |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | يحصل على نسخة جديدة من هيكل `com.aspose.imaging.Rectangle` التي تكون قيم `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` فيها صفر. |
+| [getEmpty()](#getEmpty--) | يحصل على نسخة جديدة من هيكل `com.aspose.imaging.Rectangle` حيث تكون قيم `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` مضبوطة على الصفر. |
 | [fromPoints(Point point1, Point point2)](#fromPoints-com.aspose.imaging.Point-com.aspose.imaging.Point-) | ينشئ `Rectangle` جديدًا من نقطتين محددتين. |
-| [ceiling(RectangleF value)](#ceiling-com.aspose.imaging.RectangleF-) | يحوّل الهيكل المحدد `com.aspose.imaging.RectangleF` إلى هيكل `com.aspose.imaging.Rectangle` عن طريق تقريب قيم `com.aspose.imaging.RectangleF` إلى أعلى عدد صحيح. |
-| [truncate(RectangleF value)](#truncate-com.aspose.imaging.RectangleF-) | يحوّل الـ `com.aspose.imaging.RectangleF` المحدد إلى `com.aspose.imaging.Rectangle` بقطع قيم `com.aspose.imaging.RectangleF`. |
+| [ceiling(RectangleF value)](#ceiling-com.aspose.imaging.RectangleF-) | يحوّل الهيكل المحدد `com.aspose.imaging.RectangleF` إلى هيكل `com.aspose.imaging.Rectangle` عن طريق تقريب قيم `com.aspose.imaging.RectangleF` إلى أعلى قيمة صحيحة. |
+| [truncate(RectangleF value)](#truncate-com.aspose.imaging.RectangleF-) | يقوم بتحويل الـ `com.aspose.imaging.RectangleF` المحدد إلى `com.aspose.imaging.Rectangle` عن طريق قطع قيم الـ `com.aspose.imaging.RectangleF`. |
 | [round(RectangleF value)](#round-com.aspose.imaging.RectangleF-) | يقوم بتحويل الـ `com.aspose.imaging.RectangleF` المحدد إلى `com.aspose.imaging.Rectangle` عن طريق تقريب قيم الـ `com.aspose.imaging.RectangleF` إلى أقرب قيم صحيحة. |
 | [inflate(Rectangle rect, int x, int y)](#inflate-com.aspose.imaging.Rectangle-int-int-) | ينشئ ويعيد نسخة موسعة من بنية الـ `com.aspose.imaging.Rectangle` المحددة. |
 | [intersect(Rectangle a, Rectangle b)](#intersect-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يعيد بنية `com.aspose.imaging.Rectangle` ثالثة تمثل تقاطع بنيتين `com.aspose.imaging.Rectangle` أخريين. |
-| [union(Rectangle a, Rectangle b)](#union-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يحصل على بنية `com.aspose.imaging.Rectangle` تحتوي على اتحاد بنيتين `com.aspose.imaging.Rectangle`. |
-| [op_Equality(Rectangle left, Rectangle right)](#op-Equality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يفحص ما إذا كانت بنيتان `com.aspose.imaging.Rectangle` لهما نفس الموقع والحجم. |
+| [union(Rectangle a, Rectangle b)](#union-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يحصل على بنية `com.aspose.imaging.Rectangle` التي تحتوي على اتحاد بنيتين `com.aspose.imaging.Rectangle`. |
+| [op_Equality(Rectangle left, Rectangle right)](#op-Equality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يفحص ما إذا كانت بنيتان `com.aspose.imaging.Rectangle` لهما موقع وحجم متساويين. |
 | [op_Inequality(Rectangle left, Rectangle right)](#op-Inequality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | يفحص ما إذا كانت بنيتان `com.aspose.imaging.Rectangle` تختلفان في الموقع أو الحجم. |
 | [fromLeftTopRightBottom(int left, int top, int right, int bottom)](#fromLeftTopRightBottom-int-int-int-int-) | ينشئ بنية `com.aspose.imaging.Rectangle` بالمواقع المحددة للحواف. |
 | [isEquals(Rectangle obj1, Rectangle obj2)](#isEquals-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) |  |
-| [getLocation()](#getLocation--) | يحصل أو يضبط إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setLocation(Point value)](#setLocation-com.aspose.imaging.Point-) | يحصل أو يضبط إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [getSize()](#getSize--) | يحصل أو يضبط حجم هذا الـ `com.aspose.imaging.Rectangle`. |
-| [setSize(Size value)](#setSize-com.aspose.imaging.Size-) | يحصل أو يضبط حجم هذا الـ `com.aspose.imaging.Rectangle`. |
-| [getX()](#getX--) | يحصل أو يضبط الإحداثي السيني للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setX(int value)](#setX-int-) | يحصل أو يضبط الإحداثي السيني للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [getY()](#getY--) | يحصل أو يضبط الإحداثي الصادي للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setY(int value)](#setY-int-) | يحصل أو يضبط الإحداثي الصادي للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getLocation()](#getLocation--) | يحصل أو يعيّن إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setLocation(Point value)](#setLocation-com.aspose.imaging.Point-) | يحصل أو يعيّن إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getSize()](#getSize--) | يحصل أو يعيّن حجم هذه البنية `com.aspose.imaging.Rectangle`. |
+| [setSize(Size value)](#setSize-com.aspose.imaging.Size-) | يحصل أو يعيّن حجم هذه البنية `com.aspose.imaging.Rectangle`. |
+| [getX()](#getX--) | يحصل أو يعيّن إحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setX(int value)](#setX-int-) | يحصل أو يعيّن إحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getY()](#getY--) | يحصل أو يعيّن إحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setY(int value)](#setY-int-) | يحصل أو يعيّن إحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
 | [getWidth()](#getWidth--) | يحصل على عرض هذه البنية `com.aspose.imaging.Rectangle`. |
-| [setWidth(int value)](#setWidth-int-) | يضبط عرض هذه البنية `com.aspose.imaging.Rectangle`. |
-| [getHeight()](#getHeight--) | يحصل أو يضبط ارتفاع هذه البنية `com.aspose.imaging.Rectangle`. |
-| [setHeight(int value)](#setHeight-int-) | يحصل أو يضبط ارتفاع هذه البنية `com.aspose.imaging.Rectangle`. |
-| [getLeft()](#getLeft--) | يحصل أو يضبط الإحداثي السيني للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setLeft(int value)](#setLeft-int-) | يحصل أو يضبط الإحداثي السيني للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [getTop()](#getTop--) | يحصل أو يضبط الإحداثي الصادي للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setTop(int value)](#setTop-int-) | يحصل أو يضبط الإحداثي الصادي للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [getRight()](#getRight--) | يحصل أو يضبط الإحداثي السيني الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setRight(int value)](#setRight-int-) | يحصل أو يضبط الإحداثي السيني الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [getBottom()](#getBottom--) | يحصل أو يضبط الإحداثي الصادي الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [setBottom(int value)](#setBottom-int-) | يحصل أو يضبط الإحداثي الصادي الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setWidth(int value)](#setWidth-int-) | يعيّن عرض هذه البنية `com.aspose.imaging.Rectangle`. |
+| [getHeight()](#getHeight--) | يحصل أو يعيّن ارتفاع هذه البنية `com.aspose.imaging.Rectangle`. |
+| [setHeight(int value)](#setHeight-int-) | يحصل أو يعيّن ارتفاع هذه البنية `com.aspose.imaging.Rectangle`. |
+| [getLeft()](#getLeft--) | يحصل أو يعيّن إحداثي x للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setLeft(int value)](#setLeft-int-) | يحصل أو يعيّن إحداثي x للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getTop()](#getTop--) | يحصل أو يعيّن إحداثي y للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setTop(int value)](#setTop-int-) | يحصل أو يعيّن إحداثي y للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getRight()](#getRight--) | يحصل أو يعيّن إحداثي x الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setRight(int value)](#setRight-int-) | يحصل أو يعيّن إحداثي x الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [getBottom()](#getBottom--) | يحصل أو يعيّن إحداثي y الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [setBottom(int value)](#setBottom-int-) | يحصل أو يعيّن إحداثي y الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`. |
 | [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كانت جميع الخصائص الرقمية لهذه البنية `com.aspose.imaging.Rectangle` تساوي الصفر. |
 | [contains(int x, int y)](#contains-int-int-) | يحدد ما إذا كانت النقطة المحددة موجودة داخل هذه البنية `com.aspose.imaging.Rectangle`. |
 | [contains(Point point)](#contains-com.aspose.imaging.Point-) | يحدد ما إذا كانت النقطة المحددة موجودة داخل هذه البنية `com.aspose.imaging.Rectangle`. |
 | [contains(Rectangle rect)](#contains-com.aspose.imaging.Rectangle-) | يحدد ما إذا كانت المنطقة المستطيلة الممثلة بـ `rect` موجودة بالكامل داخل هذه البنية `com.aspose.imaging.Rectangle`. |
 | [inflate(int width, int height)](#inflate-int-int-) | يوسع هذه البنية `com.aspose.imaging.Rectangle` بالمقدار المحدد. |
 | [inflate(Size size)](#inflate-com.aspose.imaging.Size-) | يوسع هذه البنية `com.aspose.imaging.Rectangle` بالمقدار المحدد. |
-| [intersect(Rectangle rect)](#intersect-com.aspose.imaging.Rectangle-) | يستبدل هذه البنية `com.aspose.imaging.Rectangle` بتقاطعها مع الـ `com.aspose.imaging.Rectangle` المحدد. |
+| [intersect(Rectangle rect)](#intersect-com.aspose.imaging.Rectangle-) | يستبدل هذه البنية `com.aspose.imaging.Rectangle` بالتقاطع بين نفسها والـ `com.aspose.imaging.Rectangle` المحدد. |
 | [intersectsWith(Rectangle rect)](#intersectsWith-com.aspose.imaging.Rectangle-) | يحدد ما إذا كان هذا المستطيل يتقاطع مع `rect`. |
 | [offset(Point pos)](#offset-com.aspose.imaging.Point-) | يضبط موقع هذا المستطيل بالمقدار المحدد. |
 | [offset(int x, int y)](#offset-int-int-) | يضبط موقع هذا المستطيل بالمقدار المحدد. |
-| [normalize()](#normalize--) | يُعَدِّل المستطيل بجعل عرضه وارتفاعه إيجابيين، واليسار أصغر من اليمين، والأعلى أصغر من الأسفل. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يفحص ما إذا كان `obj` بنية `com.aspose.imaging.Rectangle` لها نفس الموقع والحجم لهذه البنية `com.aspose.imaging.Rectangle`. |
-| [hashCode()](#hashCode--) | يعيد رمز التجزئة لهذا الهيكل `com.aspose.imaging.Rectangle`. |
-| [toString()](#toString--) | يقوم بتحويل خصائص هذا `com.aspose.imaging.Rectangle` إلى سلسلة قابلة للقراءة البشرية. |
+| [normalize()](#normalize--) | يُعَدِل المستطيل بجعل عرضه وارتفاعه إيجابيين، واليسار أصغر من اليمين، والعلو أصغر من السفل. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يفحص ما إذا كان `obj` هو بنية `com.aspose.imaging.Rectangle` ذات نفس الموقع والحجم لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [hashCode()](#hashCode--) | يعيد رمز التجزئة لهذه البنية `com.aspose.imaging.Rectangle`. |
+| [toString()](#toString--) | يحول خصائص هذه البنية `com.aspose.imaging.Rectangle` إلى سلسلة قابلة للقراءة البشرية. |
 | [CloneTo(Rectangle that)](#CloneTo-com.aspose.imaging.Rectangle-) |  |
 | [Clone()](#Clone--) |  |
 ### Rectangle() {#Rectangle--}
@@ -89,10 +89,10 @@ public Rectangle(int x, int y, int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للزاوية العلوية اليسرى للمستطيل. |
-| ص | int | الإحداثي الصادي للزاوية العلوية اليسرى للمستطيل. |
-| العرض | int | عرض المستطيل. |
-| الارتفاع | int | ارتفاع المستطيل. |
+| x | int | الإحداثي السيني للزاوية العلوية اليسرى للمستطيل. |
+| y | int | الإحداثي الصادي للزاوية العلوية اليسرى للمستطيل. |
+| width | int | عرض المستطيل. |
+| height | int | ارتفاع المستطيل. |
 
 ### Rectangle(Point location, Size size) {#Rectangle-com.aspose.imaging.Point-com.aspose.imaging.Size-}
 ```
@@ -105,8 +105,8 @@ public Rectangle(Point location, Size size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| location | [Point](../../com.aspose.imaging/point) | `com.aspose.imaging.Point` الذي يمثل الزاوية العلوية اليسرى للمنطقة المستطيلة. |
-| size | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` الذي يمثل العرض والارتفاع للمنطقة المستطيلة. |
+| location | [Point](../../com.aspose.imaging/point) | نقطة `com.aspose.imaging.Point` تمثل الزاوية العليا اليسرى للمنطقة المستطيلة. |
+| size | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` تمثل العرض والارتفاع للمنطقة المستطيلة. |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -114,7 +114,7 @@ public static Rectangle getEmpty()
 ```
 
 
-يحصل على نسخة جديدة من هيكل `com.aspose.imaging.Rectangle` التي تكون قيم `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` فيها صفر.
+يحصل على نسخة جديدة من هيكل `com.aspose.imaging.Rectangle` حيث تكون قيم `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` مضبوطة على الصفر.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -124,13 +124,13 @@ public static Rectangle fromPoints(Point point1, Point point2)
 ```
 
 
-ينشئ `Rectangle` جديدًا من نقطتين محددتين. سيكون العمودان الرأسيان للـ `Rectangle` المُنشأ مساويين للنقطتين `point1` و `point2` الممررتين. عادةً ما تكون هاتان النقطتان رؤوسًا متقابلة.
+ينشئ `Rectangle` جديدًا من نقطتين محددتين. سيكون العمودان للـ `Rectangle` المُنشأ مساويين للنقطتين `point1` و `point2` الممررتين. عادةً ما تكون هذه هي الرؤوس المتقابلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point1 | [Point](../../com.aspose.imaging/point) | النقطة الأولى `Point` للمستطيل الجديد. |
-| point2 | [Point](../../com.aspose.imaging/point) | النقطة الثانية `Point` للمستطيل الجديد. |
+| point1 | [Point](../../com.aspose.imaging/point) | النقطة `Point` الأولى للمستطيل الجديد. |
+| point2 | [Point](../../com.aspose.imaging/point) | النقطة `Point` الثانية للمستطيل الجديد. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - A newly created `Rectangle`.
@@ -140,12 +140,12 @@ public static Rectangle ceiling(RectangleF value)
 ```
 
 
-يحوّل الهيكل المحدد `com.aspose.imaging.RectangleF` إلى هيكل `com.aspose.imaging.Rectangle` عن طريق تقريب قيم `com.aspose.imaging.RectangleF` إلى أعلى عدد صحيح.
+يحوّل الهيكل المحدد `com.aspose.imaging.RectangleF` إلى هيكل `com.aspose.imaging.Rectangle` عن طريق تقريب قيم `com.aspose.imaging.RectangleF` إلى أعلى قيمة صحيحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | الهيكل `com.aspose.imaging.RectangleF` المراد تحويله. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | البنية `com.aspose.imaging.RectangleF` التي سيتم تحويلها. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - Returns a `com.aspose.imaging.Rectangle`.
@@ -155,12 +155,12 @@ public static Rectangle truncate(RectangleF value)
 ```
 
 
-يحوّل الـ `com.aspose.imaging.RectangleF` المحدد إلى `com.aspose.imaging.Rectangle` بقطع قيم `com.aspose.imaging.RectangleF`.
+يقوم بتحويل الـ `com.aspose.imaging.RectangleF` المحدد إلى `com.aspose.imaging.Rectangle` عن طريق قطع قيم الـ `com.aspose.imaging.RectangleF`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | `com.aspose.imaging.RectangleF` المراد تحويله. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | `com.aspose.imaging.RectangleF` التي سيتم تحويلها. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - A new `com.aspose.imaging.Rectangle`.
@@ -175,7 +175,7 @@ public static Rectangle round(RectangleF value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | `com.aspose.imaging.RectangleF` المراد تحويله. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | `com.aspose.imaging.RectangleF` التي سيتم تحويلها. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - A new `com.aspose.imaging.Rectangle`.
@@ -185,14 +185,14 @@ public static Rectangle inflate(Rectangle rect, int x, int y)
 ```
 
 
-ينشئ ويعيد نسخة موسعة من الهيكل `com.aspose.imaging.Rectangle` المحدد. تُوسّع النسخة بالمقدار المحدد. يظل الهيكل الأصلي `com.aspose.imaging.Rectangle` دون تعديل.
+ينشئ ويعيد نسخة مُضخمة من البنية `com.aspose.imaging.Rectangle` المحددة. يتم تضخيم النسخة بالمقدار المحدد. تظل البنية الأصلية `com.aspose.imaging.Rectangle` دون تعديل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | `com.aspose.imaging.Rectangle` للبدء به. هذا المستطيل غير معدل. |
-| س | int | المقدار لتوسيع هذا `com.aspose.imaging.Rectangle` أفقيًا. |
-| ص | int | المقدار لتوسيع هذا `com.aspose.imaging.Rectangle` رأسيًا. |
+| x | int | المقدار لتضخيم هذا `com.aspose.imaging.Rectangle` أفقيًا. |
+| y | int | المقدار لتضخيم هذا `com.aspose.imaging.Rectangle` عموديًا. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The inflated `com.aspose.imaging.Rectangle`.
@@ -202,7 +202,7 @@ public static Rectangle intersect(Rectangle a, Rectangle b)
 ```
 
 
-يعيد هيكل `com.aspose.imaging.Rectangle` ثالث يمثل تقاطع هيكلين `com.aspose.imaging.Rectangle` آخرين. إذا لم يكن هناك تقاطع، يتم إرجاع `com.aspose.imaging.Rectangle` فارغ.
+يعيد بنية `com.aspose.imaging.Rectangle` ثالثة تمثل تقاطع بنيتين `com.aspose.imaging.Rectangle` أخريين. إذا لم يكن هناك تقاطع، يتم إرجاع `com.aspose.imaging.Rectangle` فارغ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -218,7 +218,7 @@ public static Rectangle union(Rectangle a, Rectangle b)
 ```
 
 
-يحصل على بنية `com.aspose.imaging.Rectangle` تحتوي على اتحاد بنيتين `com.aspose.imaging.Rectangle`.
+يحصل على بنية `com.aspose.imaging.Rectangle` التي تحتوي على اتحاد بنيتين `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -234,16 +234,16 @@ public static boolean op_Equality(Rectangle left, Rectangle right)
 ```
 
 
-يفحص ما إذا كانت بنيتان `com.aspose.imaging.Rectangle` لهما نفس الموقع والحجم.
+يفحص ما إذا كانت بنيتان `com.aspose.imaging.Rectangle` لهما موقع وحجم متساويين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| left | [Rectangle](../../com.aspose.imaging/rectangle) | هيكل `com.aspose.imaging.Rectangle` الموجود على يسار عامل المساواة. |
-| right | [Rectangle](../../com.aspose.imaging/rectangle) | هيكل `com.aspose.imaging.Rectangle` الموجود على يمين عامل المساواة. |
+| left | [Rectangle](../../com.aspose.imaging/rectangle) | بنية `com.aspose.imaging.Rectangle` التي تقع إلى يسار عامل المساواة. |
+| right | [Rectangle](../../com.aspose.imaging/rectangle) | بنية `com.aspose.imaging.Rectangle` التي تقع إلى يمين عامل المساواة. |
 
 **Returns:**
-منطقي - يُعيد هذا العامل true إذا كان الهيكلان `com.aspose.imaging.Rectangle` يمتلكان خصائص `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` متساوية.
+منطقي - يُعيد هذا العامل true إذا كانت بنيتان `com.aspose.imaging.Rectangle` لهما خصائص `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` متساوية.
 ### op_Inequality(Rectangle left, Rectangle right) {#op-Inequality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-}
 ```
 public static boolean op_Inequality(Rectangle left, Rectangle right)
@@ -255,11 +255,11 @@ public static boolean op_Inequality(Rectangle left, Rectangle right)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| left | [Rectangle](../../com.aspose.imaging/rectangle) | هيكل `com.aspose.imaging.Rectangle` الموجود على يسار عامل عدم المساواة. |
-| right | [Rectangle](../../com.aspose.imaging/rectangle) | هيكل `com.aspose.imaging.Rectangle` الموجود على يمين عامل عدم المساواة. |
+| left | [Rectangle](../../com.aspose.imaging/rectangle) | بنية `com.aspose.imaging.Rectangle` التي تقع إلى يسار عامل عدم المساواة. |
+| right | [Rectangle](../../com.aspose.imaging/rectangle) | بنية `com.aspose.imaging.Rectangle` التي تقع إلى يمين عامل عدم المساواة. |
 
 **Returns:**
-منطقي - يُعيد هذا العامل true إذا كان أي من خصائص `com.aspose.imaging.Rectangle.X` أو `com.aspose.imaging.Rectangle.Y` أو `com.aspose.imaging.Rectangle.Width` أو `com.aspose.imaging.Rectangle.Height` للهيكلين `com.aspose.imaging.Rectangle` غير متساوية؛ وإلا false.
+منطقي - يُعيد هذا العامل true إذا كان أي من خصائص `com.aspose.imaging.Rectangle.X` أو `com.aspose.imaging.Rectangle.Y` أو `com.aspose.imaging.Rectangle.Width` أو `com.aspose.imaging.Rectangle.Height` في البنيتين `com.aspose.imaging.Rectangle` غير متساوية؛ وإلا false.
 ### fromLeftTopRightBottom(int left, int top, int right, int bottom) {#fromLeftTopRightBottom-int-int-int-int-}
 ```
 public static Rectangle fromLeftTopRightBottom(int left, int top, int right, int bottom)
@@ -271,10 +271,10 @@ public static Rectangle fromLeftTopRightBottom(int left, int top, int right, int
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| يسار | int | الإحداثي السيني للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
-| أعلى | int | الإحداثي الصادي للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
-| يمين | int | الإحداثي السيني للزاوية السفلية اليمنى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
-| أسفل | int | الإحداثي الصادي للزاوية السفلية اليمنى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| يسار | int | الإحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| أعلى | int | الإحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| يمين | int | الإحداثي x للزاوية السفلى اليمنى لهذه البنية `com.aspose.imaging.Rectangle`. |
+| أسفل | int | الإحداثي y للزاوية السفلى اليمنى لهذه البنية `com.aspose.imaging.Rectangle`. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The new `com.aspose.imaging.Rectangle` that this method creates.
@@ -300,7 +300,7 @@ public Point getLocation()
 ```
 
 
-يحصل أو يضبط إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - A `com.aspose.imaging.Point` that represents the upper-left corner of this `com.aspose.imaging.Rectangle` structure.
@@ -310,12 +310,12 @@ public void setLocation(Point value)
 ```
 
 
-يحصل أو يضبط إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثيات الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Point](../../com.aspose.imaging/point) | `Point` الذي يمثل الزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | [Point](../../com.aspose.imaging/point) | نقطة `Point` تمثل الزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
 
 ### getSize() {#getSize--}
 ```
@@ -323,7 +323,7 @@ public Size getSize()
 ```
 
 
-يحصل أو يضبط حجم هذا الـ `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن حجم هذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 [Size](../../com.aspose.imaging/size) - A `com.aspose.imaging.Size` that represents the width and height of this `com.aspose.imaging.Rectangle` structure.
@@ -333,12 +333,12 @@ public void setSize(Size value)
 ```
 
 
-يحصل أو يضبط حجم هذا الـ `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن حجم هذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` الذي يمثل العرض والارتفاع لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` تمثل العرض والارتفاع لهذه البنية `com.aspose.imaging.Rectangle`. |
 
 ### getX() {#getX--}
 ```
@@ -346,22 +346,22 @@ public int getX()
 ```
 
 
-يحصل أو يضبط الإحداثي السيني للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
-int - الإحداثي السيني للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`.
+int - إحداثي x للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`.
 ### setX(int value) {#setX-int-}
 ```
 public void setX(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي السيني للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الإحداثي السيني للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | الإحداثي x للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
 
 ### getY() {#getY--}
 ```
@@ -369,7 +369,7 @@ public int getY()
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - إحداثي y للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`.
@@ -379,12 +379,12 @@ public void setY(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الإحداثي الصادي للزاوية العلوية اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | الإحداثي y للزاوية العليا اليسرى لهذه البنية `com.aspose.imaging.Rectangle`. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -402,12 +402,12 @@ public void setWidth(int value)
 ```
 
 
-يضبط عرض هذه البنية `com.aspose.imaging.Rectangle`.
+يعيّن عرض هذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عرض هذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | عرض هذا الهيكل `com.aspose.imaging.Rectangle`. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -415,7 +415,7 @@ public int getHeight()
 ```
 
 
-يحصل أو يضبط ارتفاع هذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن ارتفاع هذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - ارتفاع هذا الهيكل `com.aspose.imaging.Rectangle`.
@@ -425,12 +425,12 @@ public void setHeight(int value)
 ```
 
 
-يحصل أو يضبط ارتفاع هذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن ارتفاع هذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | ارتفاع هذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | ارتفاع هذا الهيكل `com.aspose.imaging.Rectangle`. |
 
 ### getLeft() {#getLeft--}
 ```
@@ -438,7 +438,7 @@ public int getLeft()
 ```
 
 
-يحصل أو يضبط الإحداثي السيني للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - إحداثي x للحافة اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`.
@@ -448,12 +448,12 @@ public void setLeft(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي السيني للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x للحافة اليسرى لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إحداثي x للحافة اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | إحداثي x للحافة اليسرى لهذا الهيكل `com.aspose.imaging.Rectangle`. |
 
 ### getTop() {#getTop--}
 ```
@@ -461,7 +461,7 @@ public int getTop()
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - إحداثي y للحافة العلوية لهذا الهيكل `com.aspose.imaging.Rectangle`.
@@ -471,12 +471,12 @@ public void setTop(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y للحافة العليا لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إحداثي y للحافة العلوية لهذا الهيكل `com.aspose.imaging.Rectangle`. |
+| value | int | إحداثي y للحافة العلوية لهذا الهيكل `com.aspose.imaging.Rectangle`. |
 
 ### getRight() {#getRight--}
 ```
@@ -484,7 +484,7 @@ public int getRight()
 ```
 
 
-يحصل أو يضبط الإحداثي السيني الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - إحداثي x الذي هو مجموع `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذا `com.aspose.imaging.Rectangle`.
@@ -494,12 +494,12 @@ public void setRight(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي السيني الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي x الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إحداثي x الذي هو مجموع `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذا `com.aspose.imaging.Rectangle`. |
+| value | int | إحداثي x الذي هو مجموع `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Width` لهذا `com.aspose.imaging.Rectangle`. |
 
 ### getBottom() {#getBottom--}
 ```
@@ -507,7 +507,7 @@ public int getBottom()
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - إحداثي y الذي هو مجموع `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذا `com.aspose.imaging.Rectangle`.
@@ -517,12 +517,12 @@ public void setBottom(int value)
 ```
 
 
-يحصل أو يضبط الإحداثي الصادي الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`.
+يحصل أو يعيّن إحداثي y الذي هو مجموع قيمتي الخاصيتين `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إحداثي y الذي هو مجموع `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذا `com.aspose.imaging.Rectangle`. |
+| value | int | إحداثي y الذي هو مجموع `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Height` لهذا `com.aspose.imaging.Rectangle`. |
 
 ### isEmpty() {#isEmpty--}
 ```
@@ -545,8 +545,8 @@ public boolean contains(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | إحداثي x للنقطة المراد اختبارها. |
-| ص | int | إحداثي y للنقطة المراد اختبارها. |
+| x | int | الإحداثي السيني للنقطة المراد اختبارها. |
+| y | int | الإحداثي الصادي للنقطة المراد اختبارها. |
 
 **Returns:**
 boolean - تُعيد هذه الطريقة true إذا كانت النقطة المعرفة بـ `x` و `y` موجودة داخل هذا الهيكل `com.aspose.imaging.Rectangle`؛ وإلا false.
@@ -591,8 +591,8 @@ public void inflate(int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | المقدار لتوسيع هذا `com.aspose.imaging.Rectangle` أفقيًا. |
-| الارتفاع | int | المقدار لتوسيع هذا `com.aspose.imaging.Rectangle` رأسيًا. |
+| width | int | المقدار لتضخيم هذا `com.aspose.imaging.Rectangle` أفقيًا. |
+| height | int | المقدار لتضخيم هذا `com.aspose.imaging.Rectangle` عموديًا. |
 
 ### inflate(Size size) {#inflate-com.aspose.imaging.Size-}
 ```
@@ -605,7 +605,7 @@ public void inflate(Size size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| size | [Size](../../com.aspose.imaging/size) | المقدار لتوسيع هذا المستطيل. |
+| size | [Size](../../com.aspose.imaging/size) | الكمية لتوسيع هذا المستطيل. |
 
 ### intersect(Rectangle rect) {#intersect-com.aspose.imaging.Rectangle-}
 ```
@@ -613,7 +613,7 @@ public void intersect(Rectangle rect)
 ```
 
 
-يستبدل هذه البنية `com.aspose.imaging.Rectangle` بتقاطعها مع الـ `com.aspose.imaging.Rectangle` المحدد.
+يستبدل هذه البنية `com.aspose.imaging.Rectangle` بالتقاطع بين نفسها والـ `com.aspose.imaging.Rectangle` المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -659,8 +659,8 @@ public void offset(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإزاحة الأفقية. |
-| ص | int | الإزاحة العمودية. |
+| x | int | الإزاحة الأفقية. |
+| y | int | الإزاحة العمودية. |
 
 ### normalize() {#normalize--}
 ```
@@ -668,7 +668,7 @@ public void normalize()
 ```
 
 
-يُعَدِّل المستطيل بجعل عرضه وارتفاعه إيجابيين، واليسار أصغر من اليمين، والأعلى أصغر من الأسفل.
+يُعَدِل المستطيل بجعل عرضه وارتفاعه إيجابيين، واليسار أصغر من اليمين، والعلو أصغر من السفل.
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -676,22 +676,22 @@ public boolean equals(Object obj)
 ```
 
 
-يفحص ما إذا كان `obj` بنية `com.aspose.imaging.Rectangle` لها نفس الموقع والحجم لهذه البنية `com.aspose.imaging.Rectangle`.
+يفحص ما إذا كان `obj` هو بنية `com.aspose.imaging.Rectangle` ذات نفس الموقع والحجم لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للاختبار. |
+| obj | java.lang.Object | الكائن `System.Object` للاختبار. |
 
 **Returns:**
-boolean - تُعيد هذه الطريقة true إذا كان `obj` هو هيكل `com.aspose.imaging.Rectangle` وكانت خصائصه `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` مساوية للخصائص المقابلة لهذا الهيكل `com.aspose.imaging.Rectangle`؛ وإلا false.
+boolean - تُرجِع هذه الطريقة true إذا كان `obj` هو بنية `com.aspose.imaging.Rectangle` وكانت خصائص `com.aspose.imaging.Rectangle.X` و `com.aspose.imaging.Rectangle.Y` و `com.aspose.imaging.Rectangle.Width` و `com.aspose.imaging.Rectangle.Height` مساوية للخصائص المقابلة لهذه البنية `com.aspose.imaging.Rectangle`؛ وإلا، false.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يعيد رمز التجزئة لهذا الهيكل `com.aspose.imaging.Rectangle`.
+يعيد رمز التجزئة لهذه البنية `com.aspose.imaging.Rectangle`.
 
 **Returns:**
 int - عدد صحيح يمثل رمز التجزئة لهذا المستطيل.
@@ -701,10 +701,10 @@ public String toString()
 ```
 
 
-يقوم بتحويل خصائص هذا `com.aspose.imaging.Rectangle` إلى سلسلة قابلة للقراءة البشرية.
+يحول خصائص هذه البنية `com.aspose.imaging.Rectangle` إلى سلسلة قابلة للقراءة البشرية.
 
 **Returns:**
-java.lang.String - سلسلة تحتوي على الموضع والعرض والارتفاع لهذا الهيكل `com.aspose.imaging.Rectangle`.
+java.lang.String - سلسلة تحتوي على الموضع والعرض والارتفاع لهذه البنية `com.aspose.imaging.Rectangle`.
 ### CloneTo(Rectangle that) {#CloneTo-com.aspose.imaging.Rectangle-}
 ```
 public void CloneTo(Rectangle that)

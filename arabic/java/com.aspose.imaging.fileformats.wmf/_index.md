@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.wmf/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [WmfImage](../com.aspose.imaging.fileformats.wmf/wmfimage) | تفاعل مع صور Microsoft Windows Metafile (WMF) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع معالجة سلسة لكل من البيانات المتجهية والبتية المخزنة داخل سجلات ذات طول متغيّر. |
+| [WmfImage](../com.aspose.imaging.fileformats.wmf/wmfimage) | تعديل صور Microsoft Windows Metafile (WMF) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع معالجة سلسة لكل من البيانات المتجهية والبتية المخزنة داخل سجلات ذات طول متغيّر. |
 | [WmfRenderMode](../com.aspose.imaging.fileformats.wmf/wmfrendermode) | تعداد وضعية العرض. |

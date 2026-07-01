@@ -17,23 +17,23 @@ public class JpegLoadException extends JpegException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [JpegLoadException(String message)](#JpegLoadException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `JpegLoadException`. |
-| [JpegLoadException(String message, Throwable innerException)](#JpegLoadException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديداً من الفئة `JpegLoadException`. |
-| [JpegLoadException(String message, int reason)](#JpegLoadException-java.lang.String-int-) | ينشئ مثيلاً جديداً من الفئة `JpegLoadException`. |
-| [JpegLoadException(String message, Throwable innerException, int reason)](#JpegLoadException-java.lang.String-java.lang.Throwable-int-) | ينشئ مثيلاً جديداً من الفئة `JpegLoadException`. |
+| [JpegLoadException(String message)](#JpegLoadException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`. |
+| [JpegLoadException(String message, Throwable innerException)](#JpegLoadException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`. |
+| [JpegLoadException(String message, int reason)](#JpegLoadException-java.lang.String-int-) | ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`. |
+| [JpegLoadException(String message, Throwable innerException, int reason)](#JpegLoadException-java.lang.String-java.lang.Throwable-int-) | ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getReason()](#getReason--) | يحصل أو يضبط سبب الخطأ. |
-| [setReason(int value)](#setReason-int-) | يحصل أو يضبط سبب الخطأ. |
+| [getReason()](#getReason--) | يحصل أو يعيّن سبب الخطأ. |
+| [setReason(int value)](#setReason-int-) | يحصل أو يعيّن سبب الخطأ. |
 ### JpegLoadException(String message) {#JpegLoadException-java.lang.String-}
 ```
 public JpegLoadException(String message)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `JpegLoadException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public JpegLoadException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `JpegLoadException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,13 +60,13 @@ public JpegLoadException(String message, int reason)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `JpegLoadException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | message | java.lang.String | رسالة الاستثناء. |
-| reason | int | سبب الخطأ. |
+| السبب | int | سبب الخطأ. |
 
 ### JpegLoadException(String message, Throwable innerException, int reason) {#JpegLoadException-java.lang.String-java.lang.Throwable-int-}
 ```
@@ -74,14 +74,14 @@ public JpegLoadException(String message, Throwable innerException, int reason)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `JpegLoadException`.
+ينشئ مثيلاً جديدًا من الفئة `JpegLoadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | message | java.lang.String | رسالة الاستثناء. |
 | innerException | java.lang.Throwable | الاستثناء الداخلي. |
-| reason | int | سبب الخطأ. |
+| السبب | int | سبب الخطأ. |
 
 ### getReason() {#getReason--}
 ```
@@ -89,7 +89,7 @@ public int getReason()
 ```
 
 
-يحصل أو يضبط سبب الخطأ.
+يحصل أو يعيّن سبب الخطأ.
 
 القيمة: سبب الخطأ.
 
@@ -101,12 +101,12 @@ public void setReason(int value)
 ```
 
 
-يحصل أو يضبط سبب الخطأ.
+يحصل أو يعيّن سبب الخطأ.
 
 القيمة: سبب الخطأ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

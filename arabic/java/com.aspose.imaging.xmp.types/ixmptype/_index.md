@@ -1,7 +1,7 @@
 ---
 title: "IXmpType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الواجهة الأساسية للنوع XMP."
+description: "واجهة أساسية لنوع XMP."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.xmp.types/ixmptype/

@@ -1,7 +1,7 @@
 ---
 title: "ImageExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحتوي على طرق توسيع للتحويلات المستندة إلى System.Drawing.Image و Image."
+description: "يحتوي على طرق امتداد للتحويلات المستندة إلى System.Drawing.Image و Image."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.extensions/imageextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ImageExtensions
 ```
 
-يحتوي على أساليب امتداد للتحويلات بناءً على `System.Drawing.Image` و `Image`.
+يحتوي على طرق امتداد للتحويلات بناءً على `System.Drawing.Image` و `Image`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,12 +33,12 @@ public static RasterImage fromJava(BufferedImage image, Rectangle rect)
 
 يقوم بتحويل `BufferedImage` إلى `PngImage`.
 
-تحذير، قد يحصل صورة GDI على حدود أقل مما تملكه `image`. للحصول على جميع أجزاء الصورة استخدم طريقة التوسيع الأكثر أمانًا ToGdiImageFull.
+تحذير، قد تكون حدود صورة GDI أقل من حدود `image`. للحصول على جميع أجزاء الصورة استخدم طريقة الامتداد الأكثر أمانًا ToGdiImageFull.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | الـ `BufferedImage` للتحويل. |
+| صورة | java.awt.image.BufferedImage | `BufferedImage` للتحويل. |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل المطلوب. |
 
 **Returns:**
@@ -54,7 +54,7 @@ public static RasterImage fromJava(BufferedImage image)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | الـ `BufferedImage` للتحويل. |
+| صورة | java.awt.image.BufferedImage | `BufferedImage` للتحويل. |
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - The converted `PngImage`.
@@ -69,26 +69,26 @@ public static BufferedImage toJava(Image image)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [Image](../../com.aspose.imaging/image) | الـ `Image` للتحويل. |
+| image | [Image](../../com.aspose.imaging/image) | `Image` للتحويل. |
 
 **Returns:**
-java.awt.image.BufferedImage - الـ `BufferedImage` المحوّل.
+java.awt.image.BufferedImage - الـ `BufferedImage` المحول.
 ### toJava(Image image, int bufferedImageType) {#toJava-com.aspose.imaging.Image-int-}
 ```
 public static BufferedImage toJava(Image image, int bufferedImageType)
 ```
 
 
-يقوم بتحويل الـ `Image` إلى الـ `BufferedImage` باستخدام bufferedImageType. يرجى اختيار `bufferedImageType` من java.awt.image.BufferedImage\#TYPE\_\*\*\*\*
+يقوم بتحويل `Image` إلى `BufferedImage` باستخدام bufferedImageType. يرجى اختيار `bufferedImageType` من java.awt.image.BufferedImage\#TYPE\_\*\*\*\*
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [Image](../../com.aspose.imaging/image) | الـ `Image` للتحويل. |
+| image | [Image](../../com.aspose.imaging/image) | `Image` للتحويل. |
 | bufferedImageType | int |  |
 
 **Returns:**
-java.awt.image.BufferedImage - الـ `BufferedImage` المحوّل.
+java.awt.image.BufferedImage - الـ `BufferedImage` المحول.
 ### toJava(Image image, Rectangle subImageRect) {#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-}
 ```
 public static BufferedImage toJava(Image image, Rectangle subImageRect)
@@ -100,23 +100,23 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [Image](../../com.aspose.imaging/image) | الـ `Image` للتحويل. |
+| image | [Image](../../com.aspose.imaging/image) | `Image` للتحويل. |
 | subImageRect | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الخاص بالصورة الفرعية للتحويل. |
 
 **Returns:**
-java.awt.image.BufferedImage - الـ `BufferedImage` المحوّل يحتوي على الصورة الفرعية المأخوذة من `Image`.
+java.awt.image.BufferedImage - الـ `BufferedImage` المحول يحتوي على الصورة الفرعية المأخوذة من `Image`.
 ### wrap(BufferedImage image) {#wrap-java.awt.image.BufferedImage-}
 ```
 public static RasterImage wrap(BufferedImage image)
 ```
 
 
-أنشئ غلافًا حول الـ BufferedImage دون نسخ بيانات البكسلات. يستخدم الـ `image` المصدر في الخلفية لكنه يسمح بالتعامل معه كما هو الحال مع [RasterImage](../../com.aspose.imaging/rasterimage).
+إنشاء غلاف حول BufferedImage دون نسخ بيانات البكسلات. يستخدم المصدر `image` في الخلفية لكنه يسمح بالتعامل معه كما هو الحال مع [RasterImage](../../com.aspose.imaging/rasterimage).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | الصورة المصدر. |
+| صورة | java.awt.image.BufferedImage | الصورة المصدر. |
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - The wrapper RasterImage.
@@ -131,12 +131,12 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect, int buff
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [Image](../../com.aspose.imaging/image) | الـ `Image` للتحويل. |
+| image | [Image](../../com.aspose.imaging/image) | `Image` للتحويل. |
 | subImageRect | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الخاص بالصورة الفرعية للتحويل. |
 | bufferedImageType | int |  |
 
 **Returns:**
-java.awt.image.BufferedImage - الـ `BufferedImage` المحوّل يحتوي على الصورة الفرعية المأخوذة من `Image`.
+java.awt.image.BufferedImage - الـ `BufferedImage` المحول يحتوي على الصورة الفرعية المأخوذة من `Image`.
 ### toJava(Image image, Rectangle subImageRect, BufferedImage dstImage) {#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-java.awt.image.BufferedImage-}
 ```
 public static BufferedImage toJava(Image image, Rectangle subImageRect, BufferedImage dstImage)
@@ -148,9 +148,9 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect, Buffered
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [Image](../../com.aspose.imaging/image) | الـ `Image` للتحويل. |
+| image | [Image](../../com.aspose.imaging/image) | `Image` للتحويل. |
 | subImageRect | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الخاص بالصورة الفرعية للتحويل. إذا كان `subImageRect.isEmpty()` سيتم أخذ الصورة كاملة. |
-| dstImage | java.awt.image.BufferedImage | الصورة الوجهة. |
+| dstImage | java.awt.image.BufferedImage | صورة الوجهة. |
 
 **Returns:**
-java.awt.image.BufferedImage - الـ `BufferedImage` المحوّل يحتوي على الصورة الفرعية المأخوذة من `Image`.
+java.awt.image.BufferedImage - الـ `BufferedImage` المحول يحتوي على الصورة الفرعية المأخوذة من `Image`.

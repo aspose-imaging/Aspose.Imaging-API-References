@@ -17,14 +17,14 @@ public class IncorrectPasswordException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [IncorrectPasswordException(String message)](#IncorrectPasswordException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة [IncorrectPasswordException](../../com.aspose.imaging.coreexceptions/incorrectpasswordexception). |
+| [IncorrectPasswordException(String message)](#IncorrectPasswordException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة [IncorrectPasswordException](../../com.aspose.imaging.coreexceptions/incorrectpasswordexception). |
 ### IncorrectPasswordException(String message) {#IncorrectPasswordException-java.lang.String-}
 ```
 public IncorrectPasswordException(String message)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [IncorrectPasswordException](../../com.aspose.imaging.coreexceptions/incorrectpasswordexception).
+يُنشئ مثيلاً جديدًا من الفئة [IncorrectPasswordException](../../com.aspose.imaging.coreexceptions/incorrectpasswordexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |

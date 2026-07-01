@@ -1,18 +1,18 @@
 ---
 title: "WmfIntersectClipRect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يقوم سجل META_INTERSECTCLIPRECT بتعيين منطقة القص في سياق جهاز التشغيل إلى تقاطع منطقة القص الحالية والمستطيل المحدد."
+description: "السجل META_INTERSECTCLIPRECT يحدد منطقة القص في سياق جهاز التشغيل إلى تقاطع منطقة القص الحالية والمنطقة المحددة."
 type: docs
 weight: 41
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfIntersectClipRect extends WmfObject
 ```
 
-سجل META\_INTERSECTCLIPRECT يضبط منطقة القص في سياق جهاز التشغيل إلى تقاطع منطقة القص الحالية والمستطيل المحدد.
+سجل META\_INTERSECTCLIPRECT يحدد منطقة القص في سياق جهاز التشغيل لتكون تقاطع منطقة القص الحالية والمستطيل المحدد.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public class WmfIntersectClipRect extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRectangle()](#getRectangle--) | الحصول على أو تعيين المستطيل. |
-| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | الحصول على أو تعيين المستطيل. |
+| [getRectangle()](#getRectangle--) | يحصل أو يعيّن المستطيل. |
+| [setRectangle(Rectangle value)](#setRectangle-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن المستطيل. |
 ### WmfIntersectClipRect() {#WmfIntersectClipRect--}
 ```
 public WmfIntersectClipRect()
@@ -36,7 +36,7 @@ public Rectangle getRectangle()
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 القيمة: المستطيل.
 
@@ -48,7 +48,7 @@ public void setRectangle(Rectangle value)
 ```
 
 
-الحصول على أو تعيين المستطيل.
+يحصل أو يعيّن المستطيل.
 
 القيمة: المستطيل.
 

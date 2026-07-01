@@ -1,7 +1,7 @@
 ---
 title: "GifUnknownExtensionBlock"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كتلة امتداد غير معروف GIF."
+description: "كتلة امتداد غير معروف Gif."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifUnknownExtensionBlock extends GifBlock
 ```
 
-كتلة امتداد غير معروف GIF.
+كتلة امتداد غير معروف Gif.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [GifUnknownExtensionBlock()](#GifUnknownExtensionBlock--) | ينشئ مثلاً جديداً من الفئة `GifUnknownExtensionBlock`. |
-| [GifUnknownExtensionBlock(byte extensionLabel, byte[] data)](#GifUnknownExtensionBlock-byte-byte---) | ينشئ مثلاً جديداً من الفئة `GifUnknownExtensionBlock`. |
+| [GifUnknownExtensionBlock()](#GifUnknownExtensionBlock--) | ينشئ مثيلاً جديدًا من الفئة `GifUnknownExtensionBlock`. |
+| [GifUnknownExtensionBlock(byte extensionLabel, byte[] data)](#GifUnknownExtensionBlock-byte-byte---) | ينشئ مثيلاً جديدًا من الفئة `GifUnknownExtensionBlock`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getExtensionLabel()](#getExtensionLabel--) | يحصل أو يضبط تسمية امتداد الكتلة. |
-| [setExtensionLabel(byte value)](#setExtensionLabel-byte-) | يحصل أو يضبط تسمية امتداد الكتلة. |
-| [getUnknownData()](#getUnknownData--) | يحصل أو يضبط البيانات غير المعروفة. |
-| [setUnknownData(byte[] value)](#setUnknownData-byte---) | يحصل أو يضبط البيانات غير المعروفة. |
+| [getExtensionLabel()](#getExtensionLabel--) | يحصل أو يعيّن علامة امتداد الكتلة. |
+| [setExtensionLabel(byte value)](#setExtensionLabel-byte-) | يحصل أو يعيّن علامة امتداد الكتلة. |
+| [getUnknownData()](#getUnknownData--) | يحصل أو يعيّن البيانات غير المعروفة. |
+| [setUnknownData(byte[] value)](#setUnknownData-byte---) | يحصل أو يعيّن البيانات غير المعروفة. |
 ### GifUnknownExtensionBlock() {#GifUnknownExtensionBlock--}
 ```
 public GifUnknownExtensionBlock()
 ```
 
 
-ينشئ مثلاً جديداً من الفئة `GifUnknownExtensionBlock`.
+ينشئ مثيلاً جديدًا من الفئة `GifUnknownExtensionBlock`.
 
 ### GifUnknownExtensionBlock(byte extensionLabel, byte[] data) {#GifUnknownExtensionBlock-byte-byte---}
 ```
@@ -41,12 +41,12 @@ public GifUnknownExtensionBlock(byte extensionLabel, byte[] data)
 ```
 
 
-ينشئ مثلاً جديداً من الفئة `GifUnknownExtensionBlock`.
+ينشئ مثيلاً جديدًا من الفئة `GifUnknownExtensionBlock`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| extensionLabel | byte | تسمية الامتداد. |
+| extensionLabel | byte | علامة الامتداد. |
 | البيانات | byte[] | بيانات الكتلة. |
 
 ### getExtensionLabel() {#getExtensionLabel--}
@@ -55,7 +55,7 @@ public byte getExtensionLabel()
 ```
 
 
-يحصل أو يضبط تسمية امتداد الكتلة.
+يحصل أو يعيّن علامة امتداد الكتلة.
 
 القيمة: تسمية امتداد الكتلة.
 
@@ -67,14 +67,14 @@ public void setExtensionLabel(byte value)
 ```
 
 
-يحصل أو يضبط تسمية امتداد الكتلة.
+يحصل أو يعيّن علامة امتداد الكتلة.
 
 القيمة: تسمية امتداد الكتلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getUnknownData() {#getUnknownData--}
 ```
@@ -82,7 +82,7 @@ public byte[] getUnknownData()
 ```
 
 
-يحصل أو يضبط البيانات غير المعروفة.
+يحصل أو يعيّن البيانات غير المعروفة.
 
 القيمة: البيانات غير المعروفة.
 
@@ -94,12 +94,12 @@ public void setUnknownData(byte[] value)
 ```
 
 
-يحصل أو يضبط البيانات غير المعروفة.
+يحصل أو يعيّن البيانات غير المعروفة.
 
 القيمة: البيانات غير المعروفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

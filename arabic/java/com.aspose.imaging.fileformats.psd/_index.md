@@ -12,9 +12,9 @@ url: /ar/java/com.aspose.imaging.fileformats.psd/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [ColorModes](../com.aspose.imaging.fileformats.psd/colormodes) | يمثل أوضاع ألوان تنسيق ملف PSD. |
+| [ColorModes](../com.aspose.imaging.fileformats.psd/colormodes) | يمثل أوضاع الألوان لتنسيق ملف PSD. |
 | [CompressionMethod](../com.aspose.imaging.fileformats.psd/compressionmethod) | يحدد طريقة الضغط المستخدمة لبيانات الصورة. |
-| [PsdVersion](../com.aspose.imaging.fileformats.psd/psdversion) | إصدار تنسيق الملف |
-| [VectorDataCompositionMode](../com.aspose.imaging.fileformats.psd/vectordatacompositionmode) | يحدد وضع تركيبة البيانات المتجهية المستخدم عند التصدير من التنسيقات المتجهية إلى PSD. |
+| [PsdVersion](../com.aspose.imaging.fileformats.psd/psdversion) | إصدار تنسيق الملف. |
+| [VectorDataCompositionMode](../com.aspose.imaging.fileformats.psd/vectordatacompositionmode) | يحدد وضع تركيب بيانات المتجهات المستخدم عند التصدير من صيغ المتجهات إلى PSD. |

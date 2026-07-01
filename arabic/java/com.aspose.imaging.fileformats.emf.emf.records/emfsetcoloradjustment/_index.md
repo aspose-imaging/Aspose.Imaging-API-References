@@ -7,19 +7,19 @@ weight: 122
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfSetColorAdjustment extends EmfStateRecordType
 ```
 
-سجل EMR\_SETCOLORADJUSTMENT يحدد خصائص تعديل اللون في سياق جهاز التشغيل.
+السجل EMR\_SETCOLORADJUSTMENT يحدد خصائص تعديل اللون في سياق جهاز التشغيل.
 
-يتم استخدام قيم تعديل اللون لضبط لون الإدخال لصور البت المصدر للعمليات الرسومية التي تنفذها سجلات EMR\_STRETCHBLT و EMR\_STRETCHDIBITS عندما يتم تعيين وضع STRETCH\_HALFTONE من تعداد StretchMode (القسم 2.1.32). يجب استخدام كائن ColorAdjustment المحدد بهذا السجل في العمليات الرسومية التي تتطلب كائن ColorAdjustment، حتى يتم تحديد كائن ColorAdjustment مختلف بواسطة سجل EMR\_SETCOLORADJUSTMENT آخر، أو حتى يتم إزالة الكائن بواسطة سجل EMR\_DELETEOBJECT.
+تُستخدم قيم تعديل اللون لضبط لون الإدخال للصورة المصدر للعمليات الرسومية التي تُنفّذ بواسطة سجلات EMR\\_STRETCHBLT و EMR\\_STRETCHDIBITS عندما يتم تعيين وضع STRETCH\\_HALFTONE من تعداد StretchMode (القسم 2.1.32). يجب استخدام كائن ColorAdjustment المحدد بهذا السجل في العمليات الرسومية التي تتطلب كائن ColorAdjustment، حتى يتم تحديد كائن ColorAdjustment مختلف بواسطة سجل EMR\\_SETCOLORADJUSTMENT آخر، أو حتى يتم إزالة الكائن بواسطة سجل EMR\\_DELETEOBJECT.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetColorAdjustment(EmfRecord source)](#EmfSetColorAdjustment-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfSetColorAdjustment`. |
+| [EmfSetColorAdjustment(EmfRecord source)](#EmfSetColorAdjustment-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديداً من الفئة `EmfSetColorAdjustment`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public EmfSetColorAdjustment(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfSetColorAdjustment`.
+يُنشئ مثيلاً جديداً من الفئة `EmfSetColorAdjustment`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

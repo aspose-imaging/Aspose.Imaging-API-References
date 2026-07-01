@@ -1,7 +1,7 @@
 ---
 title: "ProgressEventHandlerInfo"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تمثل هذه الفئة معلومات حول تقدم عمليات تحميل/حفظ/تصدير الصورة التي يمكن استخدامها في تطبيق خارجي لعرض تقدم التحويل للمستخدم النهائي"
+description: "تمثل هذه الفئة معلومات حول تقدم عمليات تحميل/حفظ/تصدير الصورة التي يمكن استخدامها في تطبيق خارجي لعرض تقدم التحويل للمستخدم النهائي."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.progressmanagement/progresseventhandlerinfo/
@@ -53,16 +53,16 @@ finally {
 }
 
 // قد يبدو سجل STDOUT هكذا:
-//        حدث التحميل Initialization : 1/4
-//        حدث التحميل PreProcessing : 2/4
-//        حدث التحميل Processing : 3/4
-//        حدث التحميل Finalization : 4/4
-//        حدث التصدير Initialization : 1/4
-//        حدث التصدير PreProcessing : 2/4
-//        حدث التصدير Processing : 3/4
+//        حدث التحميل التهيئة : 1/4
+//        حدث التحميل ما قبل المعالجة : 2/4
+//        حدث التحميل المعالجة : 3/4
+//        حدث التحميل الإنهاء : 4/4
+//        حدث التصدير التهيئة : 1/4
+//        حدث التصدير ما قبل المعالجة : 2/4
+//        حدث التصدير المعالجة : 3/4
 //        حدث التصدير RelativeProgress : 1/1
 //        حدث التحميل RelativeProgress : 1/1
-//        حدث التصدير Finalization : 4/4
+//        حدث التصدير الإنهاء : 4/4
 ```
 
 ### getDescription() {#getDescription--}

@@ -23,9 +23,9 @@ public final class ExifExposureProgram extends System.Enum
 | [Aperturepriority](#Aperturepriority) | أولوية الفتحة. |
 | [Shutterpriority](#Shutterpriority) | أولوية الغالق. |
 | [Creativeprogram](#Creativeprogram) | برنامج إبداعي. |
-| [Actionprogram](#Actionprogram) | برنامج حركة. |
-| [Portraitmode](#Portraitmode) | وضع بورتريه. |
-| [Landscapemode](#Landscapemode) | وضع طبيعي. |
+| [Actionprogram](#Actionprogram) | برنامج الحركة. |
+| [Portraitmode](#Portraitmode) | وضع البورتريه. |
+| [Landscapemode](#Landscapemode) | وضع المنظر الطبيعي. |
 ### Notdefined {#Notdefined}
 ```
 public static final int Notdefined
@@ -80,7 +80,7 @@ public static final int Actionprogram
 ```
 
 
-برنامج حركة.
+برنامج الحركة.
 
 ### Portraitmode {#Portraitmode}
 ```
@@ -88,7 +88,7 @@ public static final int Portraitmode
 ```
 
 
-وضع بورتريه.
+وضع البورتريه.
 
 ### Landscapemode {#Landscapemode}
 ```
@@ -96,5 +96,5 @@ public static final int Landscapemode
 ```
 
 
-وضع طبيعي.
+وضع المنظر الطبيعي.
 

@@ -22,18 +22,18 @@ public class PdfCoreOptions
 
 | طريقة | الوصف |
 | --- | --- |
-| [getHeadingsOutlineLevels()](#getHeadingsOutlineLevels--) | يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط المستند. |
-| [setHeadingsOutlineLevels(int value)](#setHeadingsOutlineLevels-int-) | يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط المستند. |
-| [getExpandedOutlineLevels()](#getExpandedOutlineLevels--) | يحدد عدد المستويات في مخطط المستند التي يتم عرضها موسعة عند عرض ملف PDF. |
-| [setExpandedOutlineLevels(int value)](#setExpandedOutlineLevels-int-) | يحدد عدد المستويات في مخطط المستند التي يتم عرضها موسعة عند عرض ملف PDF. |
-| [getBookmarksOutlineLevel()](#getBookmarksOutlineLevel--) | يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. |
-| [setBookmarksOutlineLevel(int value)](#setBookmarksOutlineLevel-int-) | يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. |
+| [getHeadingsOutlineLevels()](#getHeadingsOutlineLevels--) | يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط الوثيقة. |
+| [setHeadingsOutlineLevels(int value)](#setHeadingsOutlineLevels-int-) | يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط الوثيقة. |
+| [getExpandedOutlineLevels()](#getExpandedOutlineLevels--) | يحدد عدد المستويات في مخطط الوثيقة التي يتم عرضها موسعة عند عرض ملف PDF. |
+| [setExpandedOutlineLevels(int value)](#setExpandedOutlineLevels-int-) | يحدد عدد المستويات في مخطط الوثيقة التي يتم عرضها موسعة عند عرض ملف PDF. |
+| [getBookmarksOutlineLevel()](#getBookmarksOutlineLevel--) | يحدد المستوى الذي يتم فيه عرض كائنات العلامات المرجعية في مخطط الوثيقة. |
+| [setBookmarksOutlineLevel(int value)](#setBookmarksOutlineLevel-int-) | يحدد المستوى الذي يتم فيه عرض كائنات العلامات المرجعية في مخطط الوثيقة. |
 | [getJpegQuality()](#getJpegQuality--) | يحدد جودة ضغط JPEG للصور (إذا تم استخدام ضغط JPEG). |
 | [setJpegQuality(int value)](#setJpegQuality-int-) | يحدد جودة ضغط JPEG للصور (إذا تم استخدام ضغط JPEG). |
 | [getPdfCompliance()](#getPdfCompliance--) | يحصل على توافق PDF. |
 | [setPdfCompliance(int value)](#setPdfCompliance-int-) | يضبط توافق PDF. |
-| [getCompression()](#getCompression--) | يسترجع الضغط. |
-| [setCompression(int value)](#setCompression-int-) | يعيّن الضغط. |
+| [getCompression()](#getCompression--) | يحصل على الضغط. |
+| [setCompression(int value)](#setCompression-int-) | يضبط الضغط. |
 ### PdfCoreOptions() {#PdfCoreOptions--}
 ```
 public PdfCoreOptions()
@@ -46,7 +46,7 @@ public int getHeadingsOutlineLevels()
 ```
 
 
-يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط المستند. 0 - لا مخطط، 1 - مستوى مخطط واحد وهكذا. القيمة الافتراضية هي 0.
+يحدد عدد مستويات عناصر المخطط التي يجب تضمينها في مخطط المستند. 0 - لا مخطط، 1 - مستوى مخطط واحد وهكذا. القيمة الافتراضية هي 0.
 
 **Returns:**
 int
@@ -56,12 +56,12 @@ public void setHeadingsOutlineLevels(int value)
 ```
 
 
-يحدد عدد مستويات عناصر المخطط لتضمينها في مخطط المستند. 0 - لا مخطط، 1 - مستوى مخطط واحد وهكذا. القيمة الافتراضية هي 0.
+يحدد عدد مستويات عناصر المخطط التي يجب تضمينها في مخطط المستند. 0 - لا مخطط، 1 - مستوى مخطط واحد وهكذا. القيمة الافتراضية هي 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getExpandedOutlineLevels() {#getExpandedOutlineLevels--}
 ```
@@ -69,7 +69,7 @@ public int getExpandedOutlineLevels()
 ```
 
 
-يحدد عدد المستويات في مخطط المستند التي يتم عرضها موسعة عند عرض ملف PDF. 0 - مخطط المستند غير موسع. 1 - عناصر المستوى الأول في المستند موسعة وهكذا. القيمة الافتراضية هي 0.
+يحدد عدد المستويات في مخطط المستند التي يتم توسيعها عند عرض ملف PDF. 0 - لا يتم توسيع مخطط المستند. 1 - يتم توسيع عناصر المستوى الأول في المستند وهكذا. القيمة الافتراضية هي 0.
 
 **Returns:**
 int
@@ -79,12 +79,12 @@ public void setExpandedOutlineLevels(int value)
 ```
 
 
-يحدد عدد المستويات في مخطط المستند التي يتم عرضها موسعة عند عرض ملف PDF. 0 - مخطط المستند غير موسع. 1 - عناصر المستوى الأول في المستند موسعة وهكذا. القيمة الافتراضية هي 0.
+يحدد عدد المستويات في مخطط المستند التي يتم توسيعها عند عرض ملف PDF. 0 - لا يتم توسيع مخطط المستند. 1 - يتم توسيع عناصر المستوى الأول في المستند وهكذا. القيمة الافتراضية هي 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBookmarksOutlineLevel() {#getBookmarksOutlineLevel--}
 ```
@@ -92,7 +92,7 @@ public int getBookmarksOutlineLevel()
 ```
 
 
-يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. 0 - غير معروض. 1 - المستوى الأول وهكذا. القيمة الافتراضية هي 0.
+يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. 0 - لا يتم العرض. 1 - المستوى الأول وهكذا. القيمة الافتراضية هي 0.
 
 **Returns:**
 int
@@ -102,12 +102,12 @@ public void setBookmarksOutlineLevel(int value)
 ```
 
 
-يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. 0 - غير معروض. 1 - المستوى الأول وهكذا. القيمة الافتراضية هي 0.
+يحدد المستوى الذي يتم فيه عرض كائنات الإشارات المرجعية في مخطط المستند. 0 - لا يتم العرض. 1 - المستوى الأول وهكذا. القيمة الافتراضية هي 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getJpegQuality() {#getJpegQuality--}
 ```
@@ -130,7 +130,7 @@ public void setJpegQuality(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPdfCompliance() {#getPdfCompliance--}
 ```
@@ -153,7 +153,7 @@ public final void setPdfCompliance(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | توافق PDF. |
+| value | int | توافق PDF. |
 
 ### getCompression() {#getCompression--}
 ```
@@ -161,7 +161,7 @@ public final int getCompression()
 ```
 
 
-يسترجع الضغط.
+يحصل على الضغط.
 
 القيمة: الضغط.
 
@@ -173,12 +173,12 @@ public final void setCompression(int value)
 ```
 
 
-يعيّن الضغط.
+يضبط الضغط.
 
 القيمة: الضغط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الضغط. |
+| value | int | الضغط. |
 

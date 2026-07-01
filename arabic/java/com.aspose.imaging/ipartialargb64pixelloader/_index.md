@@ -17,20 +17,20 @@ public interface IPartialArgb64PixelLoader extends IPartialArgb32PixelLoader
 
 | طريقة | الوصف |
 | --- | --- |
-| [process64(Rectangle pixelsRectangle, long[] pixels, Point start, Point end)](#process64-com.aspose.imaging.Rectangle-long---com.aspose.imaging.Point-com.aspose.imaging.Point-) | يعالج البكسلات المحملة. |
+| [process64(Rectangle pixelsRectangle, long[] pixels, Point start, Point end)](#process64-com.aspose.imaging.Rectangle-long---com.aspose.imaging.Point-com.aspose.imaging.Point-) | يعالج البكسلات المحمّلة. |
 ### process64(Rectangle pixelsRectangle, long[] pixels, Point start, Point end) {#process64-com.aspose.imaging.Rectangle-long---com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
 public abstract void process64(Rectangle pixelsRectangle, long[] pixels, Point start, Point end)
 ```
 
 
-يعالج البكسلات المحملة.
+يعالج البكسلات المحمّلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pixelsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | مستطيل البكسلات. |
-| بكسلات | long[] | بكسلات ARGB ذات 64 بت. |
-| start | [Point](../../com.aspose.imaging/point) | نقطة بداية البكسلات. إذا لم تكن مساوية لـ (left,top) فهذا يعني أنها ليست مستطيلًا كاملًا. |
-| end | [Point](../../com.aspose.imaging/point) | نقطة نهاية البكسلات. إذا لم تكن مساوية لـ (right,bottom) فهذا يعني أنها ليست مستطيلًا كاملًا. |
+| بكسلات | long[] | بكسلات ARGB 64-بت. |
+| start | [Point](../../com.aspose.imaging/point) | نقطة بكسلات البداية. إذا لم تكن مساوية لـ (left,top) فهذا يعني أنها ليست مستطيلًا كاملًا لدينا. |
+| end | [Point](../../com.aspose.imaging/point) | نقطة بكسلات النهاية. إذا لم تكن مساوية لـ (right,bottom) فهذا يعني أنها ليست مستطيلًا كاملًا لدينا. |
 

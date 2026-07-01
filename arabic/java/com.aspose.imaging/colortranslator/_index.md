@@ -1,7 +1,7 @@
 ---
 title: "ColorTranslator"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يترجم الألوان إلى ومن هياكل لون GDI."
+description: "يترجم الألوان إلى ومن هياكل GDI Color."
 type: docs
 weight: 31
 url: /ar/java/com.aspose.imaging/colortranslator/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorTranslator
 ```
 
-يترجم الألوان إلى ومن هياكل لون GDI+. لا يمكن وراثة هذه الفئة.
+يترجم الألوان إلى ومن هياكل GDI+ Color. لا يمكن وراثة هذه الفئة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -82,7 +82,7 @@ public static String toHtml(Color c)
 | c | [Color](../../com.aspose.imaging/color) | فئة اللون. |
 
 **Returns:**
-java.lang.String - لون سلسلة HTML.
+java.lang.String - لون سلسلة html.
 ### toOle(Color c) {#toOle-com.aspose.imaging.Color-}
 ```
 public static int toOle(Color c)

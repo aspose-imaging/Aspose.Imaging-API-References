@@ -1,7 +1,7 @@
 ---
 title: "CdrDocument"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الكائن الجذر cdr"
+description: "كائن الجذر cdr"
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrdocument/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrDocument extends CdrObjectContainer
 ```
 
-الكائن الجذر cdr
+كائن الجذر cdr
 ## الطرق
 
 | طريقة | الوصف |
@@ -20,17 +20,17 @@ public class CdrDocument extends CdrObjectContainer
 | [getArrows()](#getArrows--) | يحصل على الأسهم. |
 | [getFills()](#getFills--) | يحصل على التعبئات. |
 | [getOutLines()](#getOutLines--) | يحصل على الخطوط الخارجية. |
-| [getBmps()](#getBmps--) | يحصل على ملفات BMPS. |
+| [getBmps()](#getBmps--) | يحصل على ملفات BMP. |
 | [getBmpMasks()](#getBmpMasks--) | يحصل على أقنعة BMP. |
 | [getFonts()](#getFonts--) | يحصل على الخطوط. |
 | [getStyles()](#getStyles--) | يحصل على الأنماط. |
 | [getTexts()](#getTexts--) | يحصل على النصوص. |
-| [getPatterns()](#getPatterns--) | يحصل على النقوش. |
+| [getPatterns()](#getPatterns--) | يحصل على القوالب. |
 | [getVectorPatterns()](#getVectorPatterns--) | يحصل على أنماط المتجهات. |
 | [getPowerClips()](#getPowerClips--) | يحصل على مقاطع الطاقة. |
 | [setPowerClips(SortedMap<Short,CdrListObjects> value)](#setPowerClips-java.util.SortedMap-java.lang.Short-com.aspose.imaging.fileformats.cdr.objects.CdrListObjects--) | مقاطع الطاقة. |
-| [getClipIds()](#getClipIds--) | يحصل على معرفات المقطع. |
-| [setClipIds(List<Short> value)](#setClipIds-java.util.List-java.lang.Short--) | يضبط معرفات المقطع. |
+| [getClipIds()](#getClipIds--) | يحصل على معرفات المقاطع. |
+| [setClipIds(List<Short> value)](#setClipIds-java.util.List-java.lang.Short--) | يضبط معرفات المقاطع. |
 | [getLastTextIndex()](#getLastTextIndex--) | يحصل على فهارس النص. |
 | [setLastTextIndex(int value)](#setLastTextIndex-int-) | فهارس النص. |
 | [getVersion()](#getVersion--) | يحصل على الإصدار. |
@@ -71,10 +71,10 @@ public final IntObjDictionary<CdrBmp> getBmps()
 ```
 
 
-يحصل على ملفات BMPS.
+يحصل على ملفات BMP.
 
 **Returns:**
-com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrBmp> - ملفات BMPS.
+com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrBmp> - ملفات BMP.
 ### getBmpMasks() {#getBmpMasks--}
 ```
 public final IntObjDictionary<CdrBmp> getBmpMasks()
@@ -121,7 +121,7 @@ public final IntObjDictionary<CdrPattern> getPatterns()
 ```
 
 
-يحصل على النقوش.
+يحصل على القوالب.
 
 **Returns:**
 com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrPattern> - الأنماط.
@@ -160,7 +160,7 @@ public final void setPowerClips(SortedMap<Short,CdrListObjects> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.SortedMap<java.lang.Short,com.aspose.imaging.fileformats.cdr.objects.CdrListObjects> | مقاطع الطاقة. |
+| value | java.util.SortedMap<java.lang.Short,com.aspose.imaging.fileformats.cdr.objects.CdrListObjects> | مقاطع الطاقة. |
 
 ### getClipIds() {#getClipIds--}
 ```
@@ -168,26 +168,26 @@ public final List<Short> getClipIds()
 ```
 
 
-يحصل على معرفات المقطع.
+يحصل على معرفات المقاطع.
 
-القيمة: معرفات المقاطع.
+القيمة: معرفات القص.
 
 **Returns:**
-java.util.List<java.lang.Short> - معرفات المقاطع.
+java.util.List<java.lang.Short> - معرفات القص.
 ### setClipIds(List<Short> value) {#setClipIds-java.util.List-java.lang.Short--}
 ```
 public final void setClipIds(List<Short> value)
 ```
 
 
-يضبط معرفات المقطع.
+يضبط معرفات المقاطع.
 
-القيمة: معرفات المقاطع.
+القيمة: معرفات القص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<java.lang.Short> | معرفات المقاطع. |
+| value | java.util.List<java.lang.Short> | معرفات القص. |
 
 ### getLastTextIndex() {#getLastTextIndex--}
 ```
@@ -214,7 +214,7 @@ public final void setLastTextIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | فهارس النص. |
+| value | int | فهارس النص. |
 
 ### getVersion() {#getVersion--}
 ```
@@ -237,5 +237,5 @@ public final void setVersion(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الإصدار. |
+| value | int | الإصدار. |
 

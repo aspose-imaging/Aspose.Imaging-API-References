@@ -21,7 +21,7 @@ public final class CompositingQuality extends System.Enum
 | [Default](#Default) | جودة افتراضية. |
 | [HighSpeed](#HighSpeed) | سرعة عالية، جودة منخفضة. |
 | [HighQuality](#HighQuality) | تجميع عالي الجودة، سرعة منخفضة. |
-| [GammaCorrected](#GammaCorrected) | يتم استخدام تصحيح غاما. |
+| [GammaCorrected](#GammaCorrected) | يتم استخدام تصحيح جاما. |
 | [AssumeLinear](#AssumeLinear) | افترض قيمًا خطية. |
 ### Invalid {#Invalid}
 ```
@@ -61,7 +61,7 @@ public static final int GammaCorrected
 ```
 
 
-يتم استخدام تصحيح غاما.
+يتم استخدام تصحيح جاما.
 
 ### AssumeLinear {#AssumeLinear}
 ```

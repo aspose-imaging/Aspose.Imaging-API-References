@@ -7,7 +7,7 @@ weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.objects/emfepsdata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.objects.EmfObject](../../com.aspose.imaging.fileformats.emf.emf.objects/emfobject)
 ```
 public final class EmfEpsData extends EmfObject
 ```
@@ -22,14 +22,14 @@ public final class EmfEpsData extends EmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSizeData()](#getSizeData--) | يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لهذا الكائن، بالبايت |
-| [setSizeData(int value)](#setSizeData-int-) | يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لهذا الكائن، بالبايت |
-| [getVersion()](#getVersion--) | يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد مستوى لغة PostScript. |
-| [setVersion(int value)](#setVersion-int-) | يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد مستوى لغة PostScript. |
-| [getPoints()](#getPoints--) | يتم الحصول على أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات متوازي الأضلاع الناتج باستخدام ترميز FIX 28.4 بت |
-| [setPoints(EmfPoint28To4[] value)](#setPoints-com.aspose.imaging.fileformats.emf.emf.objects.EmfPoint28To4---) | يتم الحصول على أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات متوازي الأضلاع الناتج باستخدام ترميز FIX 28.4 بت |
-| [getPostScriptData()](#getPostScriptData--) | يتم الحصول على أو تعيين مصفوفة من البايتات لبيانات PostScript. |
-| [setPostScriptData(byte[] value)](#setPostScriptData-byte---) | يتم الحصول على أو تعيين مصفوفة من البايتات لبيانات PostScript. |
+| [getSizeData()](#getSizeData--) | يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد الحجم الكلي لهذا الكائن، بالبايت. |
+| [setSizeData(int value)](#setSizeData-int-) | يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد الحجم الكلي لهذا الكائن، بالبايت. |
+| [getVersion()](#getVersion--) | يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد مستوى لغة PostScript. |
+| [setVersion(int value)](#setVersion-int-) | يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد مستوى لغة PostScript. |
+| [getPoints()](#getPoints--) | يقوم بالحصول أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات المتوازي الأضلاع الناتج باستخدام تدوين FIX 28.4 بت. |
+| [setPoints(EmfPoint28To4[] value)](#setPoints-com.aspose.imaging.fileformats.emf.emf.objects.EmfPoint28To4---) | يقوم بالحصول أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات المتوازي الأضلاع الناتج باستخدام تدوين FIX 28.4 بت. |
+| [getPostScriptData()](#getPostScriptData--) | يقوم بالحصول أو تعيين مصفوفة من بايتات بيانات PostScript. |
+| [setPostScriptData(byte[] value)](#setPostScriptData-byte---) | يقوم بالحصول أو تعيين مصفوفة من بايتات بيانات PostScript. |
 ### EmfEpsData() {#EmfEpsData--}
 ```
 public EmfEpsData()
@@ -42,7 +42,7 @@ public int getSizeData()
 ```
 
 
-يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لهذا الكائن، بالبايت
+يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد الحجم الكلي لهذا الكائن، بالبايت.
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setSizeData(int value)
 ```
 
 
-يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد الحجم الكلي لهذا الكائن، بالبايت
+يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد الحجم الكلي لهذا الكائن، بالبايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -65,7 +65,7 @@ public int getVersion()
 ```
 
 
-يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد مستوى لغة PostScript. يجب أن تكون هذه القيمة 0x00000001
+يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد مستوى لغة PostScript. يجب أن تكون هذه القيمة 0x00000001.
 
 **Returns:**
 int
@@ -75,12 +75,12 @@ public void setVersion(int value)
 ```
 
 
-يتم الحصول على أو تعيين عدد صحيح غير موقع 32‑بت يحدد مستوى لغة PostScript. يجب أن تكون هذه القيمة 0x00000001
+يقوم بالحصول أو تعيين عدد صحيح غير موقع 32-بت يحدد مستوى لغة PostScript. يجب أن تكون هذه القيمة 0x00000001.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPoints() {#getPoints--}
 ```
@@ -88,9 +88,9 @@ public EmfPoint28To4[] getPoints()
 ```
 
 
-يتم الحصول على أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات متوازي الأضلاع الناتج باستخدام ترميز FIX 28.4 بت
+يقوم بالحصول أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات المتوازي الأضلاع الناتج باستخدام تدوين FIX 28.4 بت.
 
-الزاوية العليا اليسرى لمتوازي الأضلاع هي النقطة الأولى في هذه المصفوفة، والزاوية العليا اليمنى هي النقطة الثانية، والزاوية السفلى اليسرى هي النقطة الثالثة. يتم حساب الزاوية السفلى اليمنى لمتوازي الأضلاع من النقاط الثلاث الأولى (A، B، وC) باعتبارها متجهات.
+الزاوية العليا اليسرى للمتوازي الأضلاع هي النقطة الأولى في هذه المصفوفة، والزاوية العليا اليمنى هي النقطة الثانية، والزاوية السفلى اليسرى هي النقطة الثالثة. يتم حساب الزاوية السفلى اليمنى للمتوازي الأضلاع من النقاط الثلاث الأولى (A، B، و C) عن طريق معالجتها كمتجهات.
 
 **Returns:**
 com.aspose.imaging.fileformats.emf.emf.objects.EmfPoint28To4[]
@@ -100,9 +100,9 @@ public void setPoints(EmfPoint28To4[] value)
 ```
 
 
-يتم الحصول على أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات متوازي الأضلاع الناتج باستخدام ترميز FIX 28.4 بت
+يقوم بالحصول أو تعيين مصفوفة من ثلاثة كائنات Point28\_4 (القسم 2.2.23) التي تحدد إحداثيات المتوازي الأضلاع الناتج باستخدام تدوين FIX 28.4 بت.
 
-الزاوية العليا اليسرى لمتوازي الأضلاع هي النقطة الأولى في هذه المصفوفة، والزاوية العليا اليمنى هي النقطة الثانية، والزاوية السفلى اليسرى هي النقطة الثالثة. يتم حساب الزاوية السفلى اليمنى لمتوازي الأضلاع من النقاط الثلاث الأولى (A، B، وC) باعتبارها متجهات.
+الزاوية العليا اليسرى للمتوازي الأضلاع هي النقطة الأولى في هذه المصفوفة، والزاوية العليا اليمنى هي النقطة الثانية، والزاوية السفلى اليسرى هي النقطة الثالثة. يتم حساب الزاوية السفلى اليمنى للمتوازي الأضلاع من النقاط الثلاث الأولى (A، B، و C) عن طريق معالجتها كمتجهات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -115,7 +115,7 @@ public byte[] getPostScriptData()
 ```
 
 
-يتم الحصول على أو تعيين مصفوفة من البايتات لبيانات PostScript. يمكن حساب طول هذه المصفوفة من حقل SizeData. قد تُستخدم هذه البيانات لتصوير صورة.
+يقوم بالحصول أو تعيين مصفوفة من بايتات بيانات PostScript. يمكن حساب طول هذه المصفوفة من حقل SizeData. قد تُستخدم هذه البيانات لتصوير صورة.
 
 **Returns:**
 byte[]
@@ -125,10 +125,10 @@ public void setPostScriptData(byte[] value)
 ```
 
 
-يتم الحصول على أو تعيين مصفوفة من البايتات لبيانات PostScript. يمكن حساب طول هذه المصفوفة من حقل SizeData. قد تُستخدم هذه البيانات لتصوير صورة.
+يقوم بالحصول أو تعيين مصفوفة من بايتات بيانات PostScript. يمكن حساب طول هذه المصفوفة من حقل SizeData. قد تُستخدم هذه البيانات لتصوير صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

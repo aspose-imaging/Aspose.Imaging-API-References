@@ -1,7 +1,7 @@
 ---
 title: "ArcShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل شكل القوس."
+description: "يمثل شكل قوس."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.shapes/arcshape/
@@ -15,14 +15,14 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public final class ArcShape extends PieShape implements IOrderedShape
 ```
 
-يمثل شكل القوس.
+يمثل شكل قوس.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ArcShape()](#ArcShape--) | يُنشئ مثيلاً جديدًا من الفئة `ArcShape`. |
-| [ArcShape(RectangleF rectangle, float startAngle, float sweepAngle)](#ArcShape-com.aspose.imaging.RectangleF-float-float-) | يُنشئ مثيلاً جديدًا من الفئة `ArcShape`. |
-| [ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolean isClosed)](#ArcShape-com.aspose.imaging.RectangleF-float-float-boolean-) | يُنشئ مثيلاً جديدًا من الفئة `ArcShape`. |
+| [ArcShape()](#ArcShape--) | ينشئ مثيلاً جديداً من الفئة `ArcShape`. |
+| [ArcShape(RectangleF rectangle, float startAngle, float sweepAngle)](#ArcShape-com.aspose.imaging.RectangleF-float-float-) | ينشئ مثيلاً جديداً من الفئة `ArcShape`. |
+| [ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolean isClosed)](#ArcShape-com.aspose.imaging.RectangleF-float-float-boolean-) | ينشئ مثيلاً جديداً من الفئة `ArcShape`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,21 +30,21 @@ public final class ArcShape extends PieShape implements IOrderedShape
 | [getSegments()](#getSegments--) | يحصل على مقاطع الشكل. |
 | [getStartPoint()](#getStartPoint--) | يحصل على نقطة بدء الشكل. |
 | [getEndPoint()](#getEndPoint--) | يحصل على نقطة نهاية الشكل. |
-| [isClosed()](#isClosed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان الشكل المرتب مغلقًا. |
-| [setClosed(boolean value)](#setClosed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان الشكل المرتب مغلقًا. |
+| [isClosed()](#isClosed--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان الشكل المرتب مغلقاً. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان الشكل المرتب مغلقاً. |
 | [reverse()](#reverse--) | يعكس ترتيب النقاط لهذا الشكل. |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | يحصل على حدود الكائن. |
 | [equals(Object obj)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة.
+هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة
 ``` java
-//ينشئ مثيلاً من BmpOptions ويضبط خصائصه المتنوعة.
+//ينشئ مثيلًا من BmpOptions ويضبط خصائصه المتنوعة
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+//أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 //المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
@@ -63,7 +63,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -73,7 +73,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -106,7 +106,7 @@ public ArcShape()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ArcShape`.
+ينشئ مثيلاً جديداً من الفئة `ArcShape`.
 
 ### ArcShape(RectangleF rectangle, float startAngle, float sweepAngle) {#ArcShape-com.aspose.imaging.RectangleF-float-float-}
 ```
@@ -114,14 +114,14 @@ public ArcShape(RectangleF rectangle, float startAngle, float sweepAngle)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ArcShape`.
+ينشئ مثيلاً جديداً من الفئة `ArcShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل. |
-| startAngle | float | زاوية البداية. |
-| sweepAngle | float | زاوية القطع. |
+| startAngle | float | زاوية البدء. |
+| sweepAngle | float | زاوية القوس. |
 
 ### ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolean isClosed) {#ArcShape-com.aspose.imaging.RectangleF-float-float-boolean-}
 ```
@@ -129,15 +129,15 @@ public ArcShape(RectangleF rectangle, float startAngle, float sweepAngle, boolea
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ArcShape`.
+ينشئ مثيلاً جديداً من الفئة `ArcShape`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل. |
-| startAngle | float | زاوية البداية. |
-| sweepAngle | float | زاوية القطع. |
-| isClosed | boolean | إذا تم تعيينه إلى `true` يصبح القوس مغلقًا. القوس المغلق يتحول فعليًا إلى إهليلج. |
+| startAngle | float | زاوية البدء. |
+| sweepAngle | float | زاوية القوس. |
+| isClosed | boolean | إذا تم تعيينه إلى `true` فإن القوس مغلق. القوس المغلق يتحول فعلياً إلى إهليلج. |
 
 ### getSegments() {#getSegments--}
 ```
@@ -159,7 +159,7 @@ public PointF getStartPoint()
 
 يحصل على نقطة بدء الشكل.
 
-القيمة: نقطة بداية الشكل.
+القيمة: نقطة بدء الشكل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -181,9 +181,9 @@ public boolean isClosed()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان الشكل المرتب مغلقًا. عند معالجة الشكل المرتب المغلق لا يكون للنقطة البداية والنهاية أي معنى.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان الشكل المرتب مغلقاً. عند معالجة الشكل المرتب المغلق لا يكون للنقطة البداية والنهاية أي معنى.
 
-القيمة: `True` إذا كان هذا الشكل المرتب مغلقًا؛ وإلا `false`.
+القيمة: `True` إذا كان هذا الشكل المرتب مغلقاً؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -193,14 +193,14 @@ public void setClosed(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان الشكل المرتب مغلقًا. عند معالجة الشكل المرتب المغلق لا يكون للنقطة البداية والنهاية أي معنى.
+يحصل أو يضبط قيمة تشير إلى ما إذا كان الشكل المرتب مغلقاً. عند معالجة الشكل المرتب المغلق لا يكون للنقطة البداية والنهاية أي معنى.
 
-القيمة: `True` إذا كان هذا الشكل المرتب مغلقًا؛ وإلا `false`.
+القيمة: `True` إذا كان هذا الشكل المرتب مغلقاً؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### reverse() {#reverse--}
 ```
@@ -221,7 +221,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

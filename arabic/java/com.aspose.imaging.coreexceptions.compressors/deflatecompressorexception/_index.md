@@ -17,14 +17,14 @@ public class DeflateCompressorException extends CompressorException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DeflateCompressorException(String message)](#DeflateCompressorException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `DeflateCompressorException`. |
+| [DeflateCompressorException(String message)](#DeflateCompressorException-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة `DeflateCompressorException`. |
 ### DeflateCompressorException(String message) {#DeflateCompressorException-java.lang.String-}
 ```
 public DeflateCompressorException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `DeflateCompressorException`.
+ينشئ مثيلًا جديدًا من الفئة `DeflateCompressorException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -17,29 +17,29 @@ public class OdConnector extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdConnector(OdObject parent)](#OdConnector-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdConnector`. |
+| [OdConnector(OdObject parent)](#OdConnector-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdConnector`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPathCommands()](#getPathCommands--) | يحصل أو يعيّن أوامر المسار. |
-| [setPathCommands(OdGraphicObject[] value)](#setPathCommands-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يعيّن أوامر المسار. |
-| [getPoint1()](#getPoint1--) | يحصل أو يضبط النقطة1. |
-| [setPoint1(PointF value)](#setPoint1-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة1. |
-| [getPoint2()](#getPoint2--) | يحصل أو يضبط النقطة2. |
-| [setPoint2(PointF value)](#setPoint2-com.aspose.imaging.PointF-) | يحصل أو يضبط النقطة2. |
+| [getPathCommands()](#getPathCommands--) | يحصل أو يضبط أوامر المسار. |
+| [setPathCommands(OdGraphicObject[] value)](#setPathCommands-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يضبط أوامر المسار. |
+| [getPoint1()](#getPoint1--) | يحصل أو يعيّن point1. |
+| [setPoint1(PointF value)](#setPoint1-com.aspose.imaging.PointF-) | يحصل أو يعيّن point1. |
+| [getPoint2()](#getPoint2--) | يحصل أو يعيّن point2. |
+| [setPoint2(PointF value)](#setPoint2-com.aspose.imaging.PointF-) | يحصل أو يعيّن point2. |
 ### OdConnector(OdObject parent) {#OdConnector-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdConnector(OdObject parent)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `OdConnector`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdConnector`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getPathCommands() {#getPathCommands--}
 ```
@@ -47,7 +47,7 @@ public OdGraphicObject[] getPathCommands()
 ```
 
 
-يحصل أو يعيّن أوامر المسار.
+يحصل أو يضبط أوامر المسار.
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject[] - أوامر المسار.
@@ -57,7 +57,7 @@ public void setPathCommands(OdGraphicObject[] value)
 ```
 
 
-يحصل أو يعيّن أوامر المسار.
+يحصل أو يضبط أوامر المسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public PointF getPoint1()
 ```
 
 
-يحصل أو يضبط النقطة1.
+يحصل أو يعيّن point1.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point1.
@@ -80,7 +80,7 @@ public void setPoint1(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة1.
+يحصل أو يعيّن point1.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -93,7 +93,7 @@ public PointF getPoint2()
 ```
 
 
-يحصل أو يضبط النقطة2.
+يحصل أو يعيّن point2.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The point2.
@@ -103,7 +103,7 @@ public void setPoint2(PointF value)
 ```
 
 
-يحصل أو يضبط النقطة2.
+يحصل أو يعيّن point2.
 
 **Parameters:**
 | معامل | نوع | الوصف |

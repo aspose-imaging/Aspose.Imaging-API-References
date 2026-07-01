@@ -1,7 +1,7 @@
 ---
 title: "CieCoordinatesTriple"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحتوي الفئة على إحداثيات xy و z للثلاثة ألوان التي تتطابق مع نقاط النهاية الأحمر والأخضر والأزرق لمساحة لون منطقية محددة."
+description: "تحتوي الفئة على إحداثيات xy وz للألوان الثلاثة التي تتطابق مع نقاط النهاية الأحمر والأخضر والأزرق لمساحة ألوان منطقية محددة."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
@@ -12,26 +12,26 @@ java.lang.Object
 public class CieCoordinatesTriple
 ```
 
-الفئة تحتوي على إحداثيات x، y، و z للثلاثة ألوان التي تتطابق مع نقاط النهاية الأحمر، الأخضر، والأزرق لمساحة لون منطقية محددة.
+الفئة تحتوي على إحداثيات x و y و z للثلاثة ألوان التي تتطابق مع نقاط النهاية الأحمر، الأخضر، والأزرق لمساحة ألوان منطقية محددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CieCoordinatesTriple(byte[] bytes)](#CieCoordinatesTriple-byte---) | ينشئ نسخة جديدة من الفئة `CieCoordinatesTriple`. |
+| [CieCoordinatesTriple(byte[] bytes)](#CieCoordinatesTriple-byte---) | ينشئ مثيلًا جديدًا من الفئة `CieCoordinatesTriple`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCieXyzRed()](#getCieXyzRed--) | يحصل على إحداثيات xyz لنقطة النهاية الحمراء. |
-| [getCieXyzGreen()](#getCieXyzGreen--) | يحصل على إحداثيات xyz لنقطة النهاية الخضراء. |
-| [getCieXyzBlue()](#getCieXyzBlue--) | يحصل على إحداثيات xyz لنقطة النهاية الزرقاء. |
+| [getCieXyzRed()](#getCieXyzRed--) | الحصول على إحداثيات xyz لنقطة النهاية الحمراء. |
+| [getCieXyzGreen()](#getCieXyzGreen--) | الحصول على إحداثيات xyz لنقطة النهاية الخضراء. |
+| [getCieXyzBlue()](#getCieXyzBlue--) | الحصول على إحداثيات xyz لنقطة النهاية الزرقاء. |
 ### CieCoordinatesTriple(byte[] bytes) {#CieCoordinatesTriple-byte---}
 ```
 public CieCoordinatesTriple(byte[] bytes)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `CieCoordinatesTriple`.
+ينشئ مثيلًا جديدًا من الفئة `CieCoordinatesTriple`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public CieCoordinates getCieXyzRed()
 ```
 
 
-يحصل على إحداثيات xyz لنقطة النهاية الحمراء.
+الحصول على إحداثيات xyz لنقطة النهاية الحمراء.
 
 القيمة: إحداثيات xyz لنقطة النهاية الحمراء.
 
@@ -56,7 +56,7 @@ public CieCoordinates getCieXyzGreen()
 ```
 
 
-يحصل على إحداثيات xyz لنقطة النهاية الخضراء.
+الحصول على إحداثيات xyz لنقطة النهاية الخضراء.
 
 القيمة: إحداثيات xyz لنقطة النهاية الخضراء.
 
@@ -68,7 +68,7 @@ public CieCoordinates getCieXyzBlue()
 ```
 
 
-يحصل على إحداثيات xyz لنقطة النهاية الزرقاء.
+الحصول على إحداثيات xyz لنقطة النهاية الزرقاء.
 
 القيمة: إحداثيات xyz لنقطة النهاية الزرقاء.
 

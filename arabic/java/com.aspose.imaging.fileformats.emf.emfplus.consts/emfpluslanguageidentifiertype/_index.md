@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusLanguageIdentifierType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تعرّف تعداد LanguageIdentifier المعرفات للغات الطبيعية في المناطق بما في ذلك البلدان والمناطق الجغرافية والدوائر الإدارية."
+description: "يحدد تعداد LanguageIdentifier المعرفات للغات الطبيعية في الإعدادات الإقليمية بما في ذلك البلدان والمناطق الجغرافية والدوائر الإدارية."
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/
@@ -16,7 +16,7 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 
 --------------------
 
-يتم تحديد معرفات اللغة بواسطة كائنات [EmfPlusLanguageIdentifierType](../../com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype) (القسم 2.2.2.23). كل قيمة هي ترميز لمعرف اللغة الأساسي ومعرف اللغة الفرعية. راجع `[MS-LCID]` للحصول على معلومات إضافية حول معرفات اللغة، بما في ذلك دعم إصدارات Windows.
+يتم تحديد معرفات اللغة بواسطة كائنات [EmfPlusLanguageIdentifierType](../../com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype) (القسم 2.2.2.23). كل قيمة هي ترميز لمعرف اللغة الأساسي ومعرف اللغة الفرعية. راجع `[MS-LCID]` لمزيد من المعلومات حول معرفات اللغة، بما في ذلك دعم إصدارات Windows.
 ## الحقول
 
 | حقل | الوصف |
@@ -24,7 +24,7 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [LangNeutral](#LangNeutral) | لغة محلية محايدة. |
 | [Zh_CHS](#Zh-CHS) | الصينية المبسطة (الصين). |
 | [LangInvariant](#LangInvariant) | لغة ثابتة. |
-| [LangNeutralUserDefault](#LangNeutralUserDefault) | لغة محلية افتراضية للمستخدم. |
+| [LangNeutralUserDefault](#LangNeutralUserDefault) | لغة الإعداد الإقليمي الافتراضية للمستخدم. |
 | [Ar_SA](#Ar-SA) | العربية (المملكة العربية السعودية). |
 | [Bg_BG](#Bg-BG) | البلغارية (بلغاريا). |
 | [Ca_ES](#Ca-ES) | الكتالونية (إسبانيا). |
@@ -34,7 +34,7 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [De_DE](#De-DE) | الألمانية (ألمانيا). |
 | [El_GR](#El-GR) | اليونانية (اليونان). |
 | [En_US](#En-US) | الإنجليزية (الولايات المتحدة). |
-| [Es_Tradnl_ES](#Es-Tradnl-ES) | الإسبانية، التقليدية (إسبانيا). |
+| [Es_Tradnl_ES](#Es-Tradnl-ES) | الإسبانية التقليدية (إسبانيا). |
 | [Fi_FI](#Fi-FI) | الفنلندية (فنلندا). |
 | [Fr_FR](#Fr-FR) | الفرنسية (فرنسا). |
 | [He_IL](#He-IL) | العبرية (إسرائيل). |
@@ -68,14 +68,14 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [Fa_IR](#Fa-IR) | الفارسية (إيران). |
 | [Vi_VN](#Vi-VN) | الفيتنامية (فيتنام). |
 | [Hy_AM](#Hy-AM) | الأرمنية (أرمينيا). |
-| [Az_Latn_AZ](#Az-Latn-AZ) | الأذربيجانية، الأبجدية اللاتينية (أذربيجان). |
+| [Az_Latn_AZ](#Az-Latn-AZ) | الأذرية، الأبجدية اللاتينية (أذربيجان). |
 | [Eu_ES](#Eu-ES) | الباسكية (إسبانيا). |
 | [Wen_DE](#Wen-DE) | الصربية العليا (ألمانيا). |
 | [Mk_MK](#Mk-MK) | المقدونية (مقدونيا). |
-| [St_ZA](#St-ZA) | السوتو (جنوب أفريقيا). |
-| [Tn_ZA](#Tn-ZA) | السيتسوانية (بوتسوانا). |
-| [Xh_ZA](#Xh-ZA) | الإسكسوزا (جنوب أفريقيا). |
-| [Zu_ZA](#Zu-ZA) | الإسزولو (جنوب أفريقيا). |
+| [St_ZA](#St-ZA) | سوتو (جنوب أفريقيا). |
+| [Tn_ZA](#Tn-ZA) | سيتسوانا (بوتسوانا). |
+| [Xh_ZA](#Xh-ZA) | إسكسوزا (جنوب أفريقيا). |
+| [Zu_ZA](#Zu-ZA) | إسزولو (جنوب أفريقيا). |
 | [Af_ZA](#Af-ZA) | الأفريكانية (جنوب أفريقيا). |
 | [Ka_GE](#Ka-GE) | الجورجية (جورجيا). |
 | [Fa_FA](#Fa-FA) | الفاروية (جزر فارو). |
@@ -83,46 +83,46 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [Mt_MT](#Mt-MT) | المالطية (مالطا). |
 | [Se_NO](#Se-NO) | السامي الشمالي (النرويج). |
 | [Ga_GB](#Ga-GB) | الغيلية (المملكة المتحدة). |
-| [Ms_MY](#Ms-MY) | المالاي (ماليزيا). |
+| [Ms_MY](#Ms-MY) | الملايو (ماليزيا). |
 | [Kk_KZ](#Kk-KZ) | الكازاخية (كازاخستان). |
 | [Ky_KG](#Ky-KG) | القيرغيزية (قيرغيزستان). |
-| [Sw_KE](#Sw-KE) | الكيسواحيلية (كينيا، تنزانيا، ودول أخرى في شرق أفريقيا؛ وهي اللغة الرسمية للاتحاد الأفريقي). |
+| [Sw_KE](#Sw-KE) | الكيسواحيلي (كينيا، تنزانيا، ودول أخرى في شرق أفريقيا؛ وهي اللغة الرسمية للاتحاد الأفريقي). |
 | [Tk_TM](#Tk-TM) | التركمانية (تركمانستان). |
 | [Uz_Latn_UZ](#Uz-Latn-UZ) | الأوزبكية، الأبجدية اللاتينية (أوزبكستان). |
-| [Tt_Ru](#Tt-Ru) | التتارية (بيلاروس، روسيا، أوكرانيا، ودول أخرى في شرق أوروبا؛ وكازاخستان، وأوزبكستان في وسط آسيا). |
+| [Tt_Ru](#Tt-Ru) | التترية (بيلاروس، روسيا، أوكرانيا، ودول أخرى في شرق أوروبا؛ وكازاخستان، وأوزبكستان في آسيا الوسطى). |
 | [Bn_IN](#Bn-IN) | البنغالية، الخط البنغالي (الهند). |
 | [Pa_IN](#Pa-IN) | البنجابية (الهند). |
 | [Gu_IN](#Gu-IN) | الغوجاراتية (الهند). |
 | [Or_IN](#Or-IN) | الأوريا (الهند). |
-| [Ta_IN](#Ta-IN) | التاميلية (الهند، سريلانكا). |
+| [Ta_IN](#Ta-IN) | التاميل (الهند، سريلانكا). |
 | [Te_IN](#Te-IN) | التيلوغو (الهند). |
 | [Kn_IN](#Kn-IN) | الكانادا (الهند). |
-| [Ml_IN](#Ml-IN) | المالايالامية (الهند). |
-| [As_IN](#As-IN) | الآسامية (الهند). |
+| [Ml_IN](#Ml-IN) | مالايالام (الهند). |
+| [As_IN](#As-IN) | آسامي (الهند). |
 | [Mr_IN](#Mr-IN) | الماراثية (الهند). |
 | [Sa_IN](#Sa-IN) | السنسكريتية (الهند). |
-| [Mn_MN](#Mn-MN) | المنغولية، الأبجدية السيريلية (منغوليا). |
+| [Mn_MN](#Mn-MN) | المغولية، الأبجدية السيريلية (منغوليا). |
 | [Bo_CN](#Bo-CN) | التبتية (الصين). |
 | [Cy_GB](#Cy-GB) | الويلزية (المملكة المتحدة). |
-| [Km_KH](#Km-KH) | الخميرية (كمبوديا). |
+| [Km_KH](#Km-KH) | الخمرية (كمبوديا). |
 | [Lo_LA](#Lo-LA) | اللاوية (لاوس). |
 | [Gl_ES](#Gl-ES) | الجاليكية (إسبانيا). |
-| [Kok_IN](#Kok-IN) | الكونكانية (الهند). |
+| [Kok_IN](#Kok-IN) | كونكاني (الهند). |
 | [Sd_IN](#Sd-IN) | السندية (الهند). |
 | [Syr_SY](#Syr-SY) | السريانية (سوريا). |
 | [Si_LK](#Si-LK) | السنهالية (سريلانكا). |
-| [Iu_Cans_CA](#Iu-Cans-CA) | الإينوكتيتوت، السيلابيكس (كندا). |
+| [Iu_Cans_CA](#Iu-Cans-CA) | الإينوكتيت، المقاطع (كندا). |
 | [Am_ET](#Am-ET) | الأمهرية (إثيوبيا). |
 | [Ne_NP](#Ne-NP) | النيبالية (نيبال). |
 | [Fy_NL](#Fy-NL) | الفريزية (هولندا). |
 | [Ps_AF](#Ps-AF) | البشتو (أفغانستان، باكستان). |
 | [Fil_PH](#Fil-PH) | الفلبينية (الفلبين). |
-| [Div_MV](#Div-MV) | الديفيهية (جزر المالديف، الهند). |
-| [Ha_Latn_NG](#Ha-Latn-NG) | الهوسا، الأبجدية اللاتينية (بنين، نيجيريا، توغو، وغيرها من دول أفريقيا الغربية). |
-| [Yo_NG](#Yo-NG) | اليوروبا (بنين، غانا، نيجيريا، توغو، وغيرها من دول أفريقيا الغربية). |
+| [Div_MV](#Div-MV) | الديفيه (جزر المالديف، الهند). |
+| [Ha_Latn_NG](#Ha-Latn-NG) | الهوسا، الأبجدية اللاتينية (بنين، نيجيريا، توغو، وغيرها من دول غرب أفريقيا). |
+| [Yo_NG](#Yo-NG) | اليوروبا (بنين، غانا، نيجيريا، توغو، وغيرها من دول غرب أفريقيا). |
 | [Quz_BO](#Quz-BO) | الكويتشا (بوليفيا). |
-| [Nzo_ZA](#Nzo-ZA) | سيسوتو سا ليبوا (جنوب أفريقيا). |
-| [Ba_RU](#Ba-RU) | الباشكيرية (روسيا). |
+| [Nzo_ZA](#Nzo-ZA) | سيسوتو سا ليبو (جنوب أفريقيا). |
+| [Ba_RU](#Ba-RU) | الباشكير (روسيا). |
 | [Lb_LU](#Lb-LU) | اللوكسمبورغية (لوكسمبورغ). |
 | [Kl_GL](#Kl-GL) | الجرينلاندية (غرينلاند). |
 | [Ig_NG](#Ig-NG) | الإغبو (نيجيريا). |
@@ -158,17 +158,17 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [Ur_IN](#Ur-IN) | الأردية (الهند). |
 | [Lt_C_LT](#Lt-C-LT) | الليتوانية، الكلاسيكية (ليتوانيا). |
 | [Az_Cyrl_AZ](#Az-Cyrl-AZ) | الأذربيجانية، الأبجدية السيريلية (أذربيجان). |
-| [Wee_DE](#Wee-DE) | الصربية السفلى (ألمانيا). |
-| [Se_SE](#Se-SE) | السامي الشمالية (السويد). |
-| [Ga_IE](#Ga-IE) | الأيرلندية (أيرلندا). |
-| [Ms_BN](#Ms-BN) | الماليزية (بروناي). |
+| [Wee_DE](#Wee-DE) | الصربية، السفلى (ألمانيا). |
+| [Se_SE](#Se-SE) | السامي، الشمالية (السويد). |
+| [Ga_IE](#Ga-IE) | الأيرلندية (إيرلندا). |
+| [Ms_BN](#Ms-BN) | الملايو (بروناي). |
 | [Uz_Cyrl_UZ](#Uz-Cyrl-UZ) | الأوزبكية، الأبجدية السيريلية (أوزبكستان). |
 | [Bn_BD](#Bn-BD) | البنغالية (بنغلاديش). |
 | [Mn_Mong_CN](#Mn-Mong-CN) | المنغولية، التقليدية (الصين). |
 | [Sd_PK](#Sd-PK) | السندية (باكستان). |
 | [Iu_Latn_CA](#Iu-Latn-CA) | الإينكتيتوت، الأبجدية اللاتينية (كندا). |
 | [Tzm_Latn_DZ](#Tzm-Latn-DZ) | الأمازيغية، الأبجدية اللاتينية (الجزائر). |
-| [Quz_EC](#Quz-EC) | الكويتشوا (الإكوادور). |
+| [Quz_EC](#Quz-EC) | الكويتشو (الإكوادور). |
 | [LangNeutralCustomDefault](#LangNeutralCustomDefault) | لغة مخصصة افتراضية. |
 | [Ar_EG](#Ar-EG) | العربية (مصر). |
 | [Zh_HK](#Zh-HK) | الصينية (منطقة هونغ كونغ الإدارية الخاصة، الصين). |
@@ -177,8 +177,8 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [Es_ES](#Es-ES) | الإسبانية، الحديثة (إسبانيا). |
 | [Fr_CA](#Fr-CA) | الفرنسية (كندا). |
 | [Sr_Cyrl_CS](#Sr-Cyrl-CS) | الصربية، الأبجدية السيريلية (صربيا). |
-| [Se_FI](#Se-FI) | السامي الشمالية (فنلندا). |
-| [Quz_PE](#Quz-PE) | الكويتشوا (بيرو). |
+| [Se_FI](#Se-FI) | السامي، الشمالية (فنلندا). |
+| [Quz_PE](#Quz-PE) | الكويتشا (بيرو). |
 | [LangNeutralCustom](#LangNeutralCustom) | لغة مخصصة غير محددة. |
 | [Ar_LY](#Ar-LY) | العربية (ليبيا). |
 | [Zh_SG](#Zh-SG) | الصينية (سنغافورة). |
@@ -188,7 +188,7 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [Fr_CH](#Fr-CH) | الفرنسية (سويسرا). |
 | [Hr_BA](#Hr-BA) | الكرواتية (البوسنة والهرسك). |
 | [Smj_NO](#Smj-NO) | السامي، لولي (النرويج). |
-| [LangNeutralCustomDefaultMui](#LangNeutralCustomDefaultMui) | اللغة الافتراضية المخصصة لواجهة المستخدم المتعددة. |
+| [LangNeutralCustomDefaultMui](#LangNeutralCustomDefaultMui) | لغة واجهة متعددة المستخدمين مخصصة افتراضية. |
 | [Ar_DZ](#Ar-DZ) | العربية (الجزائر). |
 | [Zh_MO](#Zh-MO) | الصينية (منطقة ماكاو الإدارية الخاصة، الصين). |
 | [De_LI](#De-LI) | الألمانية (ليختنشتاين). |
@@ -207,7 +207,7 @@ public final class EmfPlusLanguageIdentifierType extends System.Enum
 | [En_ZA](#En-ZA) | الإنجليزية (جنوب أفريقيا). |
 | [Es_DO](#Es-DO) | الإسبانية (جمهورية الدومينيكان). |
 | [Sr_Cyrl_BA](#Sr-Cyrl-BA) | الصربية، الأبجدية السيريلية (البوسنة والهرسك). |
-| [Sma_SE](#Sma-SE) | السامي، الجنوبية (السويد). |
+| [Sma_SE](#Sma-SE) | السامي، الجنوبي (السويد). |
 | [Ar_OM](#Ar-OM) | العربية (عمان). |
 | [El_2_GR](#El-2-GR) | اليونانية 2 (اليونان). |
 | [En_JM](#En-JM) | الإنجليزية (جامايكا). |
@@ -275,7 +275,7 @@ public static final short LangNeutralUserDefault
 ```
 
 
-لغة محلية افتراضية للمستخدم.
+لغة الإعداد الإقليمي الافتراضية للمستخدم.
 
 ### Ar_SA {#Ar-SA}
 ```
@@ -355,7 +355,7 @@ public static final short Es_Tradnl_ES
 ```
 
 
-الإسبانية، التقليدية (إسبانيا).
+الإسبانية التقليدية (إسبانيا).
 
 ### Fi_FI {#Fi-FI}
 ```
@@ -627,7 +627,7 @@ public static final short Az_Latn_AZ
 ```
 
 
-الأذربيجانية، الأبجدية اللاتينية (أذربيجان).
+الأذرية، الأبجدية اللاتينية (أذربيجان).
 
 ### Eu_ES {#Eu-ES}
 ```
@@ -659,7 +659,7 @@ public static final short St_ZA
 ```
 
 
-السوتو (جنوب أفريقيا).
+سوتو (جنوب أفريقيا).
 
 ### Tn_ZA {#Tn-ZA}
 ```
@@ -667,7 +667,7 @@ public static final short Tn_ZA
 ```
 
 
-السيتسوانية (بوتسوانا).
+سيتسوانا (بوتسوانا).
 
 ### Xh_ZA {#Xh-ZA}
 ```
@@ -675,7 +675,7 @@ public static final short Xh_ZA
 ```
 
 
-الإسكسوزا (جنوب أفريقيا).
+إسكسوزا (جنوب أفريقيا).
 
 ### Zu_ZA {#Zu-ZA}
 ```
@@ -683,7 +683,7 @@ public static final short Zu_ZA
 ```
 
 
-الإسزولو (جنوب أفريقيا).
+إسزولو (جنوب أفريقيا).
 
 ### Af_ZA {#Af-ZA}
 ```
@@ -747,7 +747,7 @@ public static final short Ms_MY
 ```
 
 
-المالاي (ماليزيا).
+الملايو (ماليزيا).
 
 ### Kk_KZ {#Kk-KZ}
 ```
@@ -771,7 +771,7 @@ public static final short Sw_KE
 ```
 
 
-الكيسواحيلية (كينيا، تنزانيا، ودول أخرى في شرق أفريقيا؛ وهي اللغة الرسمية للاتحاد الأفريقي).
+الكيسواحيلي (كينيا، تنزانيا، ودول أخرى في شرق أفريقيا؛ وهي اللغة الرسمية للاتحاد الأفريقي).
 
 ### Tk_TM {#Tk-TM}
 ```
@@ -795,7 +795,7 @@ public static final short Tt_Ru
 ```
 
 
-التتارية (بيلاروس، روسيا، أوكرانيا، ودول أخرى في شرق أوروبا؛ وكازاخستان، وأوزبكستان في وسط آسيا).
+التترية (بيلاروس، روسيا، أوكرانيا، ودول أخرى في شرق أوروبا؛ وكازاخستان، وأوزبكستان في آسيا الوسطى).
 
 ### Bn_IN {#Bn-IN}
 ```
@@ -835,7 +835,7 @@ public static final short Ta_IN
 ```
 
 
-التاميلية (الهند، سريلانكا).
+التاميل (الهند، سريلانكا).
 
 ### Te_IN {#Te-IN}
 ```
@@ -859,7 +859,7 @@ public static final short Ml_IN
 ```
 
 
-المالايالامية (الهند).
+مالايالام (الهند).
 
 ### As_IN {#As-IN}
 ```
@@ -867,7 +867,7 @@ public static final short As_IN
 ```
 
 
-الآسامية (الهند).
+آسامي (الهند).
 
 ### Mr_IN {#Mr-IN}
 ```
@@ -891,7 +891,7 @@ public static final short Mn_MN
 ```
 
 
-المنغولية، الأبجدية السيريلية (منغوليا).
+المغولية، الأبجدية السيريلية (منغوليا).
 
 ### Bo_CN {#Bo-CN}
 ```
@@ -915,7 +915,7 @@ public static final short Km_KH
 ```
 
 
-الخميرية (كمبوديا).
+الخمرية (كمبوديا).
 
 ### Lo_LA {#Lo-LA}
 ```
@@ -939,7 +939,7 @@ public static final short Kok_IN
 ```
 
 
-الكونكانية (الهند).
+كونكاني (الهند).
 
 ### Sd_IN {#Sd-IN}
 ```
@@ -971,7 +971,7 @@ public static final short Iu_Cans_CA
 ```
 
 
-الإينوكتيتوت، السيلابيكس (كندا).
+الإينوكتيت، المقاطع (كندا).
 
 ### Am_ET {#Am-ET}
 ```
@@ -1019,7 +1019,7 @@ public static final short Div_MV
 ```
 
 
-الديفيهية (جزر المالديف، الهند).
+الديفيه (جزر المالديف، الهند).
 
 ### Ha_Latn_NG {#Ha-Latn-NG}
 ```
@@ -1027,7 +1027,7 @@ public static final short Ha_Latn_NG
 ```
 
 
-الهوسا، الأبجدية اللاتينية (بنين، نيجيريا، توغو، وغيرها من دول أفريقيا الغربية).
+الهوسا، الأبجدية اللاتينية (بنين، نيجيريا، توغو، وغيرها من دول غرب أفريقيا).
 
 ### Yo_NG {#Yo-NG}
 ```
@@ -1035,7 +1035,7 @@ public static final short Yo_NG
 ```
 
 
-اليوروبا (بنين، غانا، نيجيريا، توغو، وغيرها من دول أفريقيا الغربية).
+اليوروبا (بنين، غانا، نيجيريا، توغو، وغيرها من دول غرب أفريقيا).
 
 ### Quz_BO {#Quz-BO}
 ```
@@ -1051,7 +1051,7 @@ public static final short Nzo_ZA
 ```
 
 
-سيسوتو سا ليبوا (جنوب أفريقيا).
+سيسوتو سا ليبو (جنوب أفريقيا).
 
 ### Ba_RU {#Ba-RU}
 ```
@@ -1059,7 +1059,7 @@ public static final short Ba_RU
 ```
 
 
-الباشكيرية (روسيا).
+الباشكير (روسيا).
 
 ### Lb_LU {#Lb-LU}
 ```
@@ -1347,7 +1347,7 @@ public static final short Wee_DE
 ```
 
 
-الصربية السفلى (ألمانيا).
+الصربية، السفلى (ألمانيا).
 
 ### Se_SE {#Se-SE}
 ```
@@ -1355,7 +1355,7 @@ public static final short Se_SE
 ```
 
 
-السامي الشمالية (السويد).
+السامي، الشمالية (السويد).
 
 ### Ga_IE {#Ga-IE}
 ```
@@ -1363,7 +1363,7 @@ public static final short Ga_IE
 ```
 
 
-الأيرلندية (أيرلندا).
+الأيرلندية (إيرلندا).
 
 ### Ms_BN {#Ms-BN}
 ```
@@ -1371,7 +1371,7 @@ public static final short Ms_BN
 ```
 
 
-الماليزية (بروناي).
+الملايو (بروناي).
 
 ### Uz_Cyrl_UZ {#Uz-Cyrl-UZ}
 ```
@@ -1427,7 +1427,7 @@ public static final short Quz_EC
 ```
 
 
-الكويتشوا (الإكوادور).
+الكويتشو (الإكوادور).
 
 ### LangNeutralCustomDefault {#LangNeutralCustomDefault}
 ```
@@ -1499,7 +1499,7 @@ public static final short Se_FI
 ```
 
 
-السامي الشمالية (فنلندا).
+السامي، الشمالية (فنلندا).
 
 ### Quz_PE {#Quz-PE}
 ```
@@ -1507,7 +1507,7 @@ public static final short Quz_PE
 ```
 
 
-الكويتشوا (بيرو).
+الكويتشا (بيرو).
 
 ### LangNeutralCustom {#LangNeutralCustom}
 ```
@@ -1587,7 +1587,7 @@ public static final short LangNeutralCustomDefaultMui
 ```
 
 
-اللغة الافتراضية المخصصة لواجهة المستخدم المتعددة.
+لغة واجهة متعددة المستخدمين مخصصة افتراضية.
 
 ### Ar_DZ {#Ar-DZ}
 ```
@@ -1739,7 +1739,7 @@ public static final short Sma_SE
 ```
 
 
-السامي، الجنوبية (السويد).
+السامي، الجنوبي (السويد).
 
 ### Ar_OM {#Ar-OM}
 ```

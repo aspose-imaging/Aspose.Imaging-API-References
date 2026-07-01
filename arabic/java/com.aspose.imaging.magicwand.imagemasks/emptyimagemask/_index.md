@@ -1,7 +1,7 @@
 ---
 title: "EmptyImageMask"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يصف قناعًا فارغًا غير مجردًا."
+description: "يصف قناعًا فارغًا غير مجرد."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.magicwand.imagemasks/emptyimagemask/
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.imaging.magicwand.imagemasks.ImageMask](../../com.
 public class EmptyImageMask extends ImageMask
 ```
 
-يصف قناعًا فارغًا غير مجردًا.
+يصف قناعًا فارغًا غير مجرد.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmptyImageMask(int width, int height)](#EmptyImageMask-int-int-) | يُنشئ مثيلاً جديدًا للفئة [EmptyImageMask](../../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) مع العرض والارتفاع المحددين. |
+| [EmptyImageMask(int width, int height)](#EmptyImageMask-int-int-) | ينشئ مثيلاً جديداً من الفئة [EmptyImageMask](../../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) مع العرض والارتفاع المحددين. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
-| [inflate(int size)](#inflate-int-) | يوسع هذا القناع بالمقدار المحدد. |
+| [inflate(int size)](#inflate-int-) | يضخم هذه القناع بالمقدار المحدد. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص القناع بالمستطيل المحدد. |
 | [deepClone()](#deepClone--) | ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي. |
 ### EmptyImageMask(int width, int height) {#EmptyImageMask-int-int-}
@@ -33,13 +33,13 @@ public EmptyImageMask(int width, int height)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [EmptyImageMask](../../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) مع العرض والارتفاع المحددين.
+ينشئ مثيلاً جديداً من الفئة [EmptyImageMask](../../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) مع العرض والارتفاع المحددين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض القناع. |
-| الارتفاع | int | ارتفاع القناع. |
+| width | int | عرض القناع. |
+| height | int | ارتفاع القناع. |
 
 ### getSelectionBounds() {#getSelectionBounds--}
 ```
@@ -47,7 +47,7 @@ public Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل.
+يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
@@ -62,8 +62,8 @@ public boolean get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -73,12 +73,12 @@ public ImageMask inflate(int size)
 ```
 
 
-يوسع هذا القناع بالمقدار المحدد.
+يضخم هذه القناع بالمقدار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | المقدار لتوسيع هذه القناع. |
+| size | int | المقدار لتضخيم هذه القناع. |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated EmptyImageMask as ImageMask.
@@ -106,4 +106,4 @@ public Object deepClone()
 ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي.
 
 **Returns:**
-java.lang.Object - كائن جديد هو نسخة من هذه المثيل.
+java.lang.Object - كائن جديد يكون نسخة من هذا المثيل.

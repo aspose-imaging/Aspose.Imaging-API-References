@@ -51,5 +51,5 @@ public final void setData(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | البيانات. |
+| value | byte[] | البيانات. |
 

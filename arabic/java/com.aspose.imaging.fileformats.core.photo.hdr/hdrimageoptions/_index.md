@@ -1,7 +1,7 @@
 ---
 title: "HdrImageOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات صورة HDR."
+description: "خيارات صورة HDR"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.core.photo.hdr/hdrimageoptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public class HdrImageOptions
 ```
 
-خيارات صورة HDR.
+خيارات صورة HDR
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -42,10 +42,10 @@ public final int getSmoothFactor()
 
 يحصل على معامل النعومة.
 
-القيمة: معامل النعومة.
+القيمة: عامل التنعيم.
 
 **Returns:**
-int - معامل النعومة.
+int - عامل التنعيم.
 
 **Example: The example shows how HDR processing is carried out.**
 
@@ -92,12 +92,12 @@ public final void setSmoothFactor(int value)
 
 يضبط معامل النعومة.
 
-القيمة: معامل النعومة.
+القيمة: عامل التنعيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معامل النعومة. |
+| value | int | عامل التنعيم. |
 
 
 **Example: The example shows how HDR processing is carried out.**
@@ -200,7 +200,7 @@ public final void setSampleCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد العينات. |
+| value | int | عدد العينات. |
 
 
 **Example: The example shows how HDR processing is carried out.**
@@ -248,10 +248,10 @@ public final boolean getAlignImages()
 
 يحصل على قيمة تشير إلى ما إذا كان [align images].
 
-القيمة: `true` إذا [align images]؛ وإلا `false`.
+القيمة: `true` إذا كان [align images]؛ وإلا `false`.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان [align images].
+boolean - قيمة تشير إلى ما إذا كان [align images].
 
 **Example: The example shows how HDR processing is carried out.**
 
@@ -298,12 +298,12 @@ public final void setAlignImages(boolean value)
 
 يضبط قيمة تشير إلى ما إذا كان [align images].
 
-القيمة: `true` إذا [align images]؛ وإلا `false`.
+القيمة: `true` إذا كان [align images]؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [align images]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [align images]. |
 
 
 **Example: The example shows how HDR processing is carried out.**

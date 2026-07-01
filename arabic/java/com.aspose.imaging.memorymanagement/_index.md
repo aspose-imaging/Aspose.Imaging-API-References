@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.memorymanagement/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [Configuration](../com.aspose.imaging.memorymanagement/configuration) | التكوين العالمي لإدارة الذاكرة |
+| [Configuration](../com.aspose.imaging.memorymanagement/configuration) | الإعداد العالمي لإدارة الذاكرة |

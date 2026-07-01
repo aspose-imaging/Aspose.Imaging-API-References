@@ -17,8 +17,8 @@ public final class DitheringMethod extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [ThresholdDithering](#ThresholdDithering) | تدرّج العتبة. |
-| [FloydSteinbergDithering](#FloydSteinbergDithering) | تدرّج Floyd‑Steinberg. |
+| [ThresholdDithering](#ThresholdDithering) | تلوين بالعتبة. |
+| [FloydSteinbergDithering](#FloydSteinbergDithering) | تلوين فلويد-شتاينبرغ. |
 
 ## Example: The following example loads a raster image and performs threshold and floyd dithering using different palette depth.
 
@@ -29,9 +29,9 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتنفيذ تدرّج العتبة باستخدام لوحة ألوان 4‑بت تحتوي على 16 لونًا.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين بالعتبة باستخدام لوحة ألوان 4-بت تحتوي على 16 لونًا.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     rasterImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4);
 
     rasterImage.save(dir + "sample.ThresholdDithering4.png");
@@ -43,9 +43,9 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتنفيذ تدرّج Floyd باستخدام لوحة ألوان 1‑بت تحتوي فقط على لونين - الأسود والأبيض.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين فلويد باستخدام لوحة ألوان 1-بت تحتوي فقط على لونين - أسود وأبيض.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     rasterImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1);
 
     rasterImage.save(dir + "sample.FloydSteinbergDithering1.png");
@@ -60,7 +60,7 @@ public static final int ThresholdDithering
 ```
 
 
-تدرّج العتبة. أبسط وأسرع خوارزمية تدرّج.
+تدرج العتبة. أبسط وأسرع خوارزمية تدرج.
 
 ### FloydSteinbergDithering {#FloydSteinbergDithering}
 ```
@@ -68,5 +68,5 @@ public static final int FloydSteinbergDithering
 ```
 
 
-تدرج Floyd-Steinberg. خوارزمية تدرج أكثر تعقيدًا، تستخدم قيم شدة الجيران الأقرب.
+تدرج فلويد-شتاينبرغ. خوارزمية تدرج أكثر تعقيدًا، تستخدم قيم شدة الجيران الأقرب.
 

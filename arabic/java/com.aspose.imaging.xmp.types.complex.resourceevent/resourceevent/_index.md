@@ -17,15 +17,15 @@ public final class ResourceEvent extends ComplexTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ResourceEvent()](#ResourceEvent--) | يقوم بتهيئة نسخة جديدة من الفئة `ResourceEvent`. |
+| [ResourceEvent()](#ResourceEvent--) | يُنشئ نسخة جديدة من الفئة `ResourceEvent`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getAction()](#getAction--) | يحصل على الإجراء. |
 | [setAction(String value)](#setAction-java.lang.String-) | يضبط الإجراء. |
-| [getChanged()](#getChanged--) | يحصل على القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق. |
-| [setChanged(String value)](#setChanged-java.lang.String-) | يضبط القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق. |
+| [getChanged()](#getChanged--) | يحصل على القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق. |
+| [setChanged(String value)](#setChanged-java.lang.String-) | يضبط القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق. |
 | [getInstanceId()](#getInstanceId--) | يحصل على قيمة xmpMM:InstanceId. |
 | [setInstanceId(UUID value)](#setInstanceId-java.util.UUID-) | يحصل أو يضبط قيمة xmpMM:InstanceId. |
 | [getParameters()](#getParameters--) | يحصل أو يضبط الوصف الإضافي للإجراء. |
@@ -41,7 +41,7 @@ public ResourceEvent()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `ResourceEvent`.
+يُنشئ نسخة جديدة من الفئة `ResourceEvent`.
 
 ### getAction() {#getAction--}
 ```
@@ -51,7 +51,7 @@ public String getAction()
 
 يحصل على الإجراء.
 
-القيم المعرفة هي: converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved. يجب أن تكون القيم الجديدة أفعالاً في صيغة الماضي.
+القيم المعرفة هي: converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved. يجب أن تكون القيم الجديدة أفعالًا في صيغة الماضي.
 
 **Returns:**
 java.lang.String - الإجراء.
@@ -63,12 +63,12 @@ public void setAction(String value)
 
 يضبط الإجراء.
 
-القيم المعرفة هي: converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved. يجب أن تكون القيم الجديدة أفعالاً في صيغة الماضي.
+القيم المعرفة هي: converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved. يجب أن تكون القيم الجديدة أفعالًا في صيغة الماضي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الإجراء. |
+| value | java.lang.String | الإجراء. |
 
 ### getChanged() {#getChanged--}
 ```
@@ -76,22 +76,22 @@ public String getChanged()
 ```
 
 
-يحصل على القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق.
+يحصل على القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق.
 
 **Returns:**
-java.lang.String - القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق.
+java.lang.String - القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق.
 ### setChanged(String value) {#setChanged-java.lang.String-}
 ```
 public void setChanged(String value)
 ```
 
 
-يضبط القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق.
+يضبط القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ تاريخ الأحداث السابق. |
+| value | java.lang.String | القائمة المفصولة بفواصل منقوطة لأجزاء المورد التي تم تغييرها منذ سجل الأحداث السابق. |
 
 ### getInstanceId() {#getInstanceId--}
 ```
@@ -114,7 +114,7 @@ public void setInstanceId(UUID value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.UUID | قيمة xmpMM:InstanceId. |
+| value | java.util.UUID | قيمة xmpMM:InstanceId. |
 
 ### getParameters() {#getParameters--}
 ```
@@ -139,7 +139,7 @@ public void setParameters(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الوصف الإضافي للإجراء. |
+| value | java.lang.String | الوصف الإضافي للإجراء. |
 
 ### getSofwareAgentName() {#getSofwareAgentName--}
 ```
@@ -162,7 +162,7 @@ public void setSofwareAgentName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم وكيل البرنامج. |
+| value | java.lang.String | اسم وكيل البرنامج. |
 
 ### getActionDate() {#getActionDate--}
 ```
@@ -185,7 +185,7 @@ public void setActionDate(Date value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Date | تاريخ الإجراء. |
+| value | java.util.Date | تاريخ الإجراء. |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

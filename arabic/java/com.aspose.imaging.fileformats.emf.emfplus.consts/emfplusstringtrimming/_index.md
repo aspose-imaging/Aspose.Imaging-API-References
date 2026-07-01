@@ -17,11 +17,11 @@ public final class EmfPlusStringTrimming extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [StringTrimmingNone](#StringTrimmingNone) | يحدد أنه لا يتم إجراء أي تقليم. |
-| [StringTrimmingCharacter](#StringTrimmingCharacter) | يحدد أن السلسلة تُكسر عند حد آخر حرف داخل مستطيل التخطيط. |
-| [StringTrimmingWord](#StringTrimmingWord) | يحدد أن السلسلة تُكسر عند حد آخر كلمة داخل مستطيل التخطيط. |
-| [StringTrimmingEllipsisCharacter](#StringTrimmingEllipsisCharacter) | يحدد أن السلسلة تُكسر عند حد آخر حرف داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الحرف. |
-| [StringTrimmingEllipsisWord](#StringTrimmingEllipsisWord) | يحدد أن السلسلة تُكسر عند حد آخر كلمة داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الكلمة. |
+| [StringTrimmingNone](#StringTrimmingNone) | يحدد عدم إجراء أي تقليم. |
+| [StringTrimmingCharacter](#StringTrimmingCharacter) | يحدد أن السلسلة تُقَطَع عند حد آخر حرف داخل مستطيل التخطيط. |
+| [StringTrimmingWord](#StringTrimmingWord) | يحدد أن السلسلة تُقَطَع عند حد آخر كلمة داخل مستطيل التخطيط. |
+| [StringTrimmingEllipsisCharacter](#StringTrimmingEllipsisCharacter) | يحدد أن السلسلة تُقَطَع عند حد آخر حرف داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الحرف. |
+| [StringTrimmingEllipsisWord](#StringTrimmingEllipsisWord) | يحدد أن السلسلة تُقَطَع عند حد آخر كلمة داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الكلمة. |
 | [StringTrimmingEllipsisPath](#StringTrimmingEllipsisPath) | يحدد إزالة الجزء الأوسط من السلسلة واستبداله بثلاث نقاط. |
 ### StringTrimmingNone {#StringTrimmingNone}
 ```
@@ -29,7 +29,7 @@ public static final int StringTrimmingNone
 ```
 
 
-يحدد أنه لا يتم إجراء أي تقليم.
+يحدد عدم إجراء أي تقليم.
 
 ### StringTrimmingCharacter {#StringTrimmingCharacter}
 ```
@@ -37,7 +37,7 @@ public static final int StringTrimmingCharacter
 ```
 
 
-يحدد أن السلسلة تُكسر عند حد آخر حرف داخل مستطيل التخطيط. هذا هو الإعداد الافتراضي.
+يحدد أن السلسلة تُقَطَع عند حد آخر حرف داخل مستطيل التخطيط. هذا هو الإعداد الافتراضي.
 
 ### StringTrimmingWord {#StringTrimmingWord}
 ```
@@ -45,7 +45,7 @@ public static final int StringTrimmingWord
 ```
 
 
-يحدد أن السلسلة تُكسر عند حد آخر كلمة داخل مستطيل التخطيط.
+يحدد أن السلسلة تُقَطَع عند حد آخر كلمة داخل مستطيل التخطيط.
 
 ### StringTrimmingEllipsisCharacter {#StringTrimmingEllipsisCharacter}
 ```
@@ -53,7 +53,7 @@ public static final int StringTrimmingEllipsisCharacter
 ```
 
 
-يحدد أن السلسلة تُكسر عند حد آخر حرف داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الحرف.
+يحدد أن السلسلة تُقَطَع عند حد آخر حرف داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الحرف.
 
 ### StringTrimmingEllipsisWord {#StringTrimmingEllipsisWord}
 ```
@@ -61,7 +61,7 @@ public static final int StringTrimmingEllipsisWord
 ```
 
 
-يحدد أن السلسلة تُكسر عند حد آخر كلمة داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الكلمة.
+يحدد أن السلسلة تُقَطَع عند حد آخر كلمة داخل مستطيل التخطيط، ويتم إدراج ثلاث نقاط (...) بعد الكلمة.
 
 ### StringTrimmingEllipsisPath {#StringTrimmingEllipsisPath}
 ```

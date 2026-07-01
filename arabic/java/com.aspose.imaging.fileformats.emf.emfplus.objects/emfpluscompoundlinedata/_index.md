@@ -7,7 +7,7 @@ weight: 30
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusCompoundLineData extends EmfPlusStructureObjectType
 ```
@@ -22,8 +22,8 @@ public final class EmfPlusCompoundLineData extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCompoundLineData()](#getCompoundLineData--) | يحصل أو يعيّن مصفوفة من قيم عائمة CompoundLineDataSize تحدد الخط المركب للقلم. |
-| [setCompoundLineData(float[] value)](#setCompoundLineData-float---) | يحصل أو يعيّن مصفوفة من قيم عائمة CompoundLineDataSize تحدد الخط المركب للقلم. |
+| [getCompoundLineData()](#getCompoundLineData--) | يحصل أو يعيّن مصفوفة من قيم CompoundLineDataSize عائمة تحدد الخط المركب للقلم. |
+| [setCompoundLineData(float[] value)](#setCompoundLineData-float---) | يحصل أو يعيّن مصفوفة من قيم CompoundLineDataSize عائمة تحدد الخط المركب للقلم. |
 ### EmfPlusCompoundLineData() {#EmfPlusCompoundLineData--}
 ```
 public EmfPlusCompoundLineData()
@@ -36,7 +36,7 @@ public float[] getCompoundLineData()
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم عائمة CompoundLineDataSize تحدد الخط المركب للقلم. يجب أن تكون العناصر بترتيب تصاعدي، ويجب أن تكون قيمها بين 0.0 و 1.0 شاملًا.
+يحصل أو يعيّن مصفوفة من قيم CompoundLineDataSize عائمة تحدد الخط المركب للقلم. يجب أن تكون العناصر بترتيب تصاعدي، ويجب أن تكون قيمها بين 0.0 و 1.0 شاملًا.
 
 **Returns:**
 float[]
@@ -46,10 +46,10 @@ public void setCompoundLineData(float[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم عائمة CompoundLineDataSize تحدد الخط المركب للقلم. يجب أن تكون العناصر بترتيب تصاعدي، ويجب أن تكون قيمها بين 0.0 و 1.0 شاملًا.
+يحصل أو يعيّن مصفوفة من قيم CompoundLineDataSize عائمة تحدد الخط المركب للقلم. يجب أن تكون العناصر بترتيب تصاعدي، ويجب أن تكون قيمها بين 0.0 و 1.0 شاملًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] |  |
+| value | float[] |  |
 

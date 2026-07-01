@@ -17,22 +17,22 @@ public class Jpeg2000LoadOptions extends LoadOptions
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Jpeg2000LoadOptions()](#Jpeg2000LoadOptions--) | يُنشئ مثيلاً جديدًا من الفئة `Jpeg2000LoadOptions`. |
+| [Jpeg2000LoadOptions()](#Jpeg2000LoadOptions--) | ينشئ مثيلاً جديدًا من الفئة `Jpeg2000LoadOptions`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMaximumDecodingTime()](#getMaximumDecodingTime--) | يحصل على أقصى وقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع التوقف أثناء معالجة الصور الكبيرة - الدقة أكثر من 5500x6500 بكسل). |
-| [setMaximumDecodingTime(int value)](#setMaximumDecodingTime-int-) | يضبط أقصى وقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع التوقف أثناء معالجة الصور الكبيرة - الدقة أكثر من 5500x6500 بكسل). |
-| [getMaximumDecodingTimeForTile()](#getMaximumDecodingTimeForTile--) | يحصل على أقصى وقت فك الترميز للقطعة. |
-| [setMaximumDecodingTimeForTile(int value)](#setMaximumDecodingTimeForTile-int-) | يضبط أقصى وقت فك الترميز للقطعة. |
+| [getMaximumDecodingTime()](#getMaximumDecodingTime--) | يحصل على الحد الأقصى لوقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع توقف العملية عند معالجة صور كبيرة جدًا - الدقة أكثر من 5500x6500 بكسل). |
+| [setMaximumDecodingTime(int value)](#setMaximumDecodingTime-int-) | يضبط الحد الأقصى لوقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع توقف العملية عند معالجة صور كبيرة جدًا - الدقة أكثر من 5500x6500 بكسل). |
+| [getMaximumDecodingTimeForTile()](#getMaximumDecodingTimeForTile--) | يحصل على الحد الأقصى لوقت فك الترميز للقطعة. |
+| [setMaximumDecodingTimeForTile(int value)](#setMaximumDecodingTimeForTile-int-) | يضبط الحد الأقصى لوقت فك الترميز للقطعة. |
 ### Jpeg2000LoadOptions() {#Jpeg2000LoadOptions--}
 ```
 public Jpeg2000LoadOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `Jpeg2000LoadOptions`.
+ينشئ مثيلاً جديدًا من الفئة `Jpeg2000LoadOptions`.
 
 ### getMaximumDecodingTime() {#getMaximumDecodingTime--}
 ```
@@ -40,22 +40,22 @@ public int getMaximumDecodingTime()
 ```
 
 
-يحصل على أقصى وقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع التوقف أثناء معالجة الصور الكبيرة - الدقة أكثر من 5500x6500 بكسل).
+يحصل على الحد الأقصى لوقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع توقف العملية عند معالجة صور كبيرة جدًا - الدقة أكثر من 5500x6500 بكسل).
 
 **Returns:**
-int - أقصى وقت فك الترميز.
+int - الحد الأقصى لوقت فك الترميز.
 ### setMaximumDecodingTime(int value) {#setMaximumDecodingTime-int-}
 ```
 public void setMaximumDecodingTime(int value)
 ```
 
 
-يضبط أقصى وقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع التوقف أثناء معالجة الصور الكبيرة - الدقة أكثر من 5500x6500 بكسل).
+يضبط الحد الأقصى لوقت فك الترميز بالثواني (يمكن استخدام هذا الخيار على الأجهزة البطيئة جدًا في الذاكرة لمنع توقف العملية عند معالجة صور كبيرة جدًا - الدقة أكثر من 5500x6500 بكسل).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | أقصى وقت فك الترميز. |
+| value | int | الحد الأقصى لوقت فك الترميز. |
 
 ### getMaximumDecodingTimeForTile() {#getMaximumDecodingTimeForTile--}
 ```
@@ -63,24 +63,24 @@ public final int getMaximumDecodingTimeForTile()
 ```
 
 
-يحصل على أقصى وقت فك الترميز للقطعة.
+يحصل على الحد الأقصى لوقت فك الترميز للقطعة.
 
-القيمة: أقصى وقت فك الترميز للقطعة.
+القيمة: الحد الأقصى لوقت فك الترميز للقطعة.
 
 **Returns:**
-int - أقصى وقت فك الترميز للقطعة.
+int - الحد الأقصى لوقت فك الترميز للقطعة.
 ### setMaximumDecodingTimeForTile(int value) {#setMaximumDecodingTimeForTile-int-}
 ```
 public final void setMaximumDecodingTimeForTile(int value)
 ```
 
 
-يضبط أقصى وقت فك الترميز للقطعة.
+يضبط الحد الأقصى لوقت فك الترميز للقطعة.
 
-القيمة: أقصى وقت فك الترميز للقطعة.
+القيمة: الحد الأقصى لوقت فك الترميز للقطعة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | أقصى وقت فك الترميز للقطعة. |
+| value | int | الحد الأقصى لوقت فك الترميز للقطعة. |
 

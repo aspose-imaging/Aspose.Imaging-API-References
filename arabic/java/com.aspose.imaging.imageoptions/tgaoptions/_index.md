@@ -1,7 +1,7 @@
 ---
 title: "TgaOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات إنشاء تنسيق ملف TGA."
+description: "خيارات إنشاء صيغة ملف TGA."
 type: docs
 weight: 47
 url: /ar/java/com.aspose.imaging.imageoptions/tgaoptions/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TgaOptions extends ImageOptionsBase
 ```
 
-خيارات إنشاء تنسيق ملف TGA.
+خيارات إنشاء صيغة ملف TGA.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TgaOptions()](#TgaOptions--) | يقوم بإنشاء نسخة جديدة من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions). |
-| [TgaOptions(TgaOptions tgaOptions)](#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-) | يقوم بإنشاء نسخة جديدة من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions). |
+| [TgaOptions()](#TgaOptions--) | يُنشئ مثيلاً جديدًا من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions). |
+| [TgaOptions(TgaOptions tgaOptions)](#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-) | يُنشئ مثيلاً جديدًا من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions). |
 
 ## Example: Saving of the JPG image as a TGA image.
 
@@ -35,7 +35,7 @@ public TgaOptions()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions).
+يُنشئ مثيلاً جديدًا من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions).
 
 ### TgaOptions(TgaOptions tgaOptions) {#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-}
 ```
@@ -43,7 +43,7 @@ public TgaOptions(TgaOptions tgaOptions)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions).
+يُنشئ مثيلاً جديدًا من الفئة [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |

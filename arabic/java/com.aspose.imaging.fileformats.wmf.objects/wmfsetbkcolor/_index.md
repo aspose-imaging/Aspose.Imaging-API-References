@@ -1,13 +1,13 @@
 ---
 title: "WmfSetBkColor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل META_SETBKCOLOR يضبط لون الخلفية في سياق جهاز التشغيل إلى لون محدد أو إلى أقرب لون مادي إذا كان الجهاز غير قادر على تمثيل اللون المحدد."
+description: "سجل META_SETBKCOLOR يضبط لون الخلفية في سياق جهاز التشغيل إلى لون محدد أو إلى أقرب لون مادي إذا لم يتمكن الجهاز من تمثيل اللون المحدد."
 type: docs
 weight: 73
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetBkColor extends WmfObject
 ```
@@ -55,5 +55,5 @@ public void setColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

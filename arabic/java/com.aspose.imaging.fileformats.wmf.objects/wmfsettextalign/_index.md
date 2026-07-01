@@ -1,18 +1,18 @@
 ---
 title: "WmfSetTextAlign"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ضبط محاذاة النص"
+description: "تعيين محاذاة النص"
 type: docs
 weight: 85
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetTextAlign extends WmfObject
 ```
 
-ضبط محاذاة النص
+تعيين محاذاة النص
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class WmfSetTextAlign extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getTextAlign()](#getTextAlign--) | يحصل أو يعيّن محاذاة النص. |
-| [setTextAlign(int value)](#setTextAlign-int-) | يحصل أو يعيّن محاذاة النص. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getTextAlign()](#getTextAlign--) | يحصل أو يضبط محاذاة النص. |
+| [setTextAlign(int value)](#setTextAlign-int-) | يحصل أو يضبط محاذاة النص. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 ### WmfSetTextAlign() {#WmfSetTextAlign--}
 ```
 public WmfSetTextAlign()
@@ -38,7 +38,7 @@ public int getTextAlign()
 ```
 
 
-يحصل أو يعيّن محاذاة النص.
+يحصل أو يضبط محاذاة النص.
 
 القيمة: محاذاة النص.
 
@@ -50,14 +50,14 @@ public void setTextAlign(int value)
 ```
 
 
-يحصل أو يعيّن محاذاة النص.
+يحصل أو يضبط محاذاة النص.
 
 القيمة: محاذاة النص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -65,7 +65,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -77,12 +77,12 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

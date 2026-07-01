@@ -17,7 +17,7 @@ public final class WmfPostScriptCap extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [PostScriptNotSet](#PostScriptNotSet) | يحدد أن نمط نهاية السطر لم يتم تعيينه، وأن نمطًا افتراضيًا MAY [24] يمكن استخدامه. |
+| [PostScriptNotSet](#PostScriptNotSet) | يحدد أن نمط نهاية الخط لم يتم تعيينه، وأن نمطًا افتراضيًا قد يُستخدم [24]. |
 | [PostScriptFlatCap](#PostScriptFlatCap) | يحدد أن الخط ينتهي عند النقطة الأخيرة. |
 | [PostScriptRoundCap](#PostScriptRoundCap) | يحدد غطاءً دائريًا. |
 | [PostScriptSquareCap](#PostScriptSquareCap) | يحدد غطاءً مربعًا. |
@@ -27,7 +27,7 @@ public static final int PostScriptNotSet
 ```
 
 
-يحدد أن نمط نهاية السطر لم يتم تعيينه، وأن نمطًا افتراضيًا MAY [24] يمكن استخدامه.
+يحدد أن نمط نهاية الخط لم يتم تعيينه، وأن نمطًا افتراضيًا قد يُستخدم [24].
 
 ### PostScriptFlatCap {#PostScriptFlatCap}
 ```

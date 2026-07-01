@@ -17,19 +17,19 @@ public final class TiffSampleFormats extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Uint](#Uint) | بيانات عدد صحيح غير موقّع |
-| [Int](#Int) | بيانات عدد صحيح موقّع |
+| [Uint](#Uint) | بيانات عدد صحيح غير موقع |
+| [Int](#Int) | بيانات عدد صحيح موقع |
 | [IeeeFp](#IeeeFp) | بيانات نقطة عائمة IEEE |
-| [Void](#Void) | بيانات غير مُصنَّفة |
-| [ComplexInt](#ComplexInt) | عدد صحيح موقّع مركب |
-| [ComplexIeeeFp](#ComplexIeeeFp) | نقطة عائمة IEEE مركبة |
+| [Void](#Void) | بيانات غير مكتوبة |
+| [ComplexInt](#ComplexInt) | عدد صحيح موقع معقد |
+| [ComplexIeeeFp](#ComplexIeeeFp) | عدد عائم IEEE معقد |
 ### Uint {#Uint}
 ```
 public static final int Uint
 ```
 
 
-بيانات عدد صحيح غير موقّع
+بيانات عدد صحيح غير موقع
 
 ### Int {#Int}
 ```
@@ -37,7 +37,7 @@ public static final int Int
 ```
 
 
-بيانات عدد صحيح موقّع
+بيانات عدد صحيح موقع
 
 ### IeeeFp {#IeeeFp}
 ```
@@ -53,7 +53,7 @@ public static final int Void
 ```
 
 
-بيانات غير مُصنَّفة
+بيانات غير مكتوبة
 
 ### ComplexInt {#ComplexInt}
 ```
@@ -61,7 +61,7 @@ public static final int ComplexInt
 ```
 
 
-عدد صحيح موقّع مركب
+عدد صحيح موقع معقد
 
 ### ComplexIeeeFp {#ComplexIeeeFp}
 ```
@@ -69,5 +69,5 @@ public static final int ComplexIeeeFp
 ```
 
 
-نقطة عائمة IEEE مركبة
+عدد عائم IEEE معقد
 

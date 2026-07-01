@@ -20,8 +20,8 @@ public class GaussianBlurFilterOptions extends ConvolutionFilterOptions implemen
 
 | المنشئ | الوصف |
 | --- | --- |
-| [GaussianBlurFilterOptions(int size, double sigma)](#GaussianBlurFilterOptions-int-double-) | ينشئ مثيلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions). |
-| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions--) | ينشئ مثيلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions). |
+| [GaussianBlurFilterOptions(int size, double sigma)](#GaussianBlurFilterOptions-int-double-) | ينشئ مثلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions). |
+| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions--) | ينشئ مثلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public class GaussianBlurFilterOptions extends ConvolutionFilterOptions implemen
 | [getSize()](#getSize--) | يحصل على حجم نواة Gaussian. |
 | [setSize(int value)](#setSize-int-) | حجم نواة Gaussian. |
 | [getSigma()](#getSigma--) | يحصل على سيغما نواة Gaussian (التنعيم). |
-| [setSigma(double value)](#setSigma-double-) | معامل سيغما لنواة Gaussian (التنعيم). |
+| [setSigma(double value)](#setSigma-double-) | سيغما نواة Gaussian (التنعيم). |
 | [getRadius()](#getRadius--) | يحصل على نصف قطر Gaussian ISquareConvolutionKernel. |
 | [setRadius(int value)](#setRadius-int-) | نصف قطر Gaussian ISquareConvolutionKernel. |
 
@@ -43,7 +43,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -54,7 +54,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -65,7 +65,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -76,7 +76,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -87,7 +87,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -98,7 +98,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -112,13 +112,13 @@ public GaussianBlurFilterOptions(int size, double sigma)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions).
+ينشئ مثلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | حجم نواة Gaussian.. |
-| سيغما | double | سيغما نواة Gaussian. |
+| size | int | حجم نواة Gaussian.. |
+| sigma | double | قيمة sigma لنواة Gaussian. |
 
 ### GaussianBlurFilterOptions() {#GaussianBlurFilterOptions--}
 ```
@@ -126,7 +126,7 @@ public GaussianBlurFilterOptions()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions).
+ينشئ مثلاً جديداً من الفئة [GaussianBlurFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions).
 
 ### getKernel() {#getKernel--}
 ```
@@ -144,7 +144,7 @@ public int getSize()
 ```
 
 
-يحصل على حجم نواة Gaussian. يجب أن يكون قيمة موجبة غير صفرية وفردية.
+يحصل على حجم نواة Gaussian. يجب أن تكون قيمة موجبة غير صفرية وفردية.
 
 **Returns:**
 int - حجم نواة Gaussian.
@@ -154,12 +154,12 @@ public void setSize(int value)
 ```
 
 
-حجم نواة Gaussian. يجب أن يكون قيمة موجبة غير صفرية وفردية.
+حجم نواة Gaussian. يجب أن تكون قيمة موجبة غير صفرية وفردية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | حجم نواة Gaussian. |
+| value | int | حجم نواة Gaussian. |
 
 ### getSigma() {#getSigma--}
 ```
@@ -167,7 +167,7 @@ public double getSigma()
 ```
 
 
-يحصل على سيغما نواة Gaussian (التنعيم). يجب أن يكون قيمة موجبة غير صفرية.
+يحصل على سيغما نواة Gaussian (التنعيم). يجب أن تكون قيمة موجبة غير صفرية.
 
 **Returns:**
 double - سيغما نواة Gaussian (التنعيم).
@@ -177,12 +177,12 @@ public void setSigma(double value)
 ```
 
 
-سيغما نواة Gaussian (التنعيم). يجب أن يكون قيمة موجبة غير صفرية.
+سيغما نواة Gaussian (التنعيم). يجب أن تكون قيمة موجبة غير صفرية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | سيغما نواة Gaussian (التنعيم). |
+| value | double | سيغما نواة Gaussian (التنعيم). |
 
 ### getRadius() {#getRadius--}
 ```
@@ -205,5 +205,5 @@ public final void setRadius(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نصف قطر Gaussian ISquareConvolutionKernel. |
+| value | int | نصف قطر Gaussian ISquareConvolutionKernel. |
 

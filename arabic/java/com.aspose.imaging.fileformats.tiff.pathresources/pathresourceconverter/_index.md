@@ -17,8 +17,8 @@ public final class PathResourceConverter
 
 | طريقة | الوصف |
 | --- | --- |
-| [toGraphicsPath(PathResource[] pathResources, Size imageSize)](#toGraphicsPath-com.aspose.imaging.fileformats.tiff.pathresources.PathResource---com.aspose.imaging.Size-) | يحول موارد المسار إلى مثيل [GraphicsPath](../../com.aspose.imaging/graphicspath). |
-| [fromGraphicsPath(GraphicsPath graphicsPath, Size imageSize)](#fromGraphicsPath-com.aspose.imaging.GraphicsPath-com.aspose.imaging.Size-) | يحول مثيل [GraphicsPath](../../com.aspose.imaging/graphicspath) إلى موارد المسار. |
+| [toGraphicsPath(PathResource[] pathResources, Size imageSize)](#toGraphicsPath-com.aspose.imaging.fileformats.tiff.pathresources.PathResource---com.aspose.imaging.Size-) | يحول موارد المسار إلى نسخة [GraphicsPath](../../com.aspose.imaging/graphicspath). |
+| [fromGraphicsPath(GraphicsPath graphicsPath, Size imageSize)](#fromGraphicsPath-com.aspose.imaging.GraphicsPath-com.aspose.imaging.Size-) | يحول نسخة [GraphicsPath](../../com.aspose.imaging/graphicspath) إلى موارد المسار. |
 
 ## Example: Create Graphics Path from Path Resources in TIFF image.
 
@@ -45,11 +45,11 @@ static void main()
 {
     try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
     {
-        // إنشاء Figure مستطيلة لـ GraphicsPath
+        // إنشاء شكل مستطيل لـ GraphicsPath
         Figure figure = new Figure();
         figure.addShape(createBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
-        // إنشاء GraphicsPath باستخدام Figure الخاص بنا
+        // إنشاء GraphicsPath باستخدام الشكل الخاص بنا
         GraphicsPath graphicsPath = new GraphicsPath();
         graphicsPath.addFigure(figure);
 
@@ -88,7 +88,7 @@ public static GraphicsPath toGraphicsPath(PathResource[] pathResources, Size ima
 ```
 
 
-يحول موارد المسار إلى مثيل [GraphicsPath](../../com.aspose.imaging/graphicspath).
+يحول موارد المسار إلى نسخة [GraphicsPath](../../com.aspose.imaging/graphicspath).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -104,7 +104,7 @@ public static PathResource[] fromGraphicsPath(GraphicsPath graphicsPath, Size im
 ```
 
 
-يحول مثيل [GraphicsPath](../../com.aspose.imaging/graphicspath) إلى موارد المسار.
+يحول نسخة [GraphicsPath](../../com.aspose.imaging/graphicspath) إلى موارد المسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,4 +113,4 @@ public static PathResource[] fromGraphicsPath(GraphicsPath graphicsPath, Size im
 | imageSize | [Size](../../com.aspose.imaging/size) | حجم الصورة. |
 
 **Returns:**
-com.aspose.imaging.fileformats.tiff.pathresources.PathResource[] - موارد المسار.
+com.aspose.imaging.fileformats.tiff.pathresources.PathResource[] - موارد المسار

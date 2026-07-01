@@ -17,17 +17,17 @@ public class OdCircle extends OdAngleEllipse
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdCircle(OdObject parent)](#OdCircle-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdCircle`. |
+| [OdCircle(OdObject parent)](#OdCircle-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdCircle`. |
 ### OdCircle(OdObject parent) {#OdCircle-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdCircle(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdCircle`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdCircle`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 

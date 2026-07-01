@@ -1,13 +1,13 @@
 ---
 title: "WmfSetStretchbltMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_SETSTRETCHBLTMODE يحدد وضع تمديد الصورة النقطية في سياق جهاز التشغيل."
+description: "سجل META_SETSTRETCHBLTMODE يحدد وضع تمديد البت ماب في سياق جهاز التشغيل."
 type: docs
 weight: 84
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetStretchbltMode extends WmfObject
 ```
@@ -24,8 +24,8 @@ public class WmfSetStretchbltMode extends WmfObject
 | --- | --- |
 | [getStretchMode()](#getStretchMode--) | يحصل أو يضبط وضع التمديد. |
 | [setStretchMode(int value)](#setStretchMode-int-) | يحصل أو يضبط وضع التمديد. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 ### WmfSetStretchbltMode() {#WmfSetStretchbltMode--}
 ```
 public WmfSetStretchbltMode()
@@ -40,7 +40,7 @@ public int getStretchMode()
 
 يحصل أو يضبط وضع التمديد.
 
-القيمة: وضع تمديد الصورة النقطية.
+القيمة: وضع تمديد البت ماب.
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setStretchMode(int value)
 
 يحصل أو يضبط وضع التمديد.
 
-القيمة: وضع تمديد الصورة النقطية.
+القيمة: وضع تمديد البت ماب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -65,7 +65,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -77,12 +77,12 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

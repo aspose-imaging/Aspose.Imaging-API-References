@@ -1,7 +1,7 @@
 ---
 title: "WmfObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الكائن الأساسي wmf."
+description: "كائن wmf الأساسي."
 type: docs
 weight: 47
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfobject/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class WmfObject extends MetaObject
 ```
 
-الكائن الأساسي wmf.
+كائن wmf الأساسي.
 ## المنشئات
 
 | المنشئ | الوصف |

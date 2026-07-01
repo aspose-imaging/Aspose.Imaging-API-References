@@ -1,5 +1,5 @@
 ---
-title: "نمط الخط"
+title: "FontStyle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يحدد معلومات النمط المطبقة على النص."
 type: docs
@@ -20,7 +20,7 @@ public final class FontStyle extends System.Enum
 | [Regular](#Regular) | نص عادي. |
 | [Bold](#Bold) | نص غامق. |
 | [Italic](#Italic) | نص مائل. |
-| [Underline](#Underline) | نص تحت خط. |
+| [Underline](#Underline) | نص مسطر. |
 | [Strikeout](#Strikeout) | نص مع خط عبر الوسط. |
 ### Regular {#Regular}
 ```
@@ -52,7 +52,7 @@ public static final int Underline
 ```
 
 
-نص تحت خط.
+نص مسطر.
 
 ### Strikeout {#Strikeout}
 ```

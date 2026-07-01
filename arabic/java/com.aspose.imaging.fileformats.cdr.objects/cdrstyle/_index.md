@@ -1,7 +1,7 @@
 ---
 title: "CdrStyle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr نمط"
+description: "نمط cdr"
 type: docs
 weight: 40
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrstyle/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrStyle extends CdrDictionaryItem
 ```
 
-ال cdr نمط
+نمط cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -42,9 +42,9 @@ public class CdrStyle extends CdrDictionaryItem
 | [setFirstIndent(double value)](#setFirstIndent-double-) | يضبط المسافة البادئة الأولى. |
 | [getLeftIndent()](#getLeftIndent--) | يحصل على المسافة البادئة اليسرى. |
 | [setLeftIndent(double value)](#setLeftIndent-double-) | يضبط المسافة البادئة اليسرى. |
-| [getParentId()](#getParentId--) | يحصل على معرف الأب. |
-| [setParentId(int value)](#setParentId-int-) | يضبط معرف الأب. |
-| [copy()](#copy--) | ينسخ هذه الحالة. |
+| [getParentId()](#getParentId--) | يحصل على معرف الأصل. |
+| [setParentId(int value)](#setParentId-int-) | يضبط معرف الأصل. |
+| [copy()](#copy--) | ينسخ هذا الكائن. |
 ### CdrStyle() {#CdrStyle--}
 ```
 public CdrStyle()
@@ -72,7 +72,7 @@ public final void setFontName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الخط. |
+| value | java.lang.String | اسم الخط. |
 
 ### getCharset() {#getCharset--}
 ```
@@ -95,7 +95,7 @@ public final void setCharset(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | مجموعة الأحرف. |
+| value | قصير | مجموعة الأحرف. |
 
 ### getFontSize() {#getFontSize--}
 ```
@@ -118,7 +118,7 @@ public final void setFontSize(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | حجم الخط. |
+| value | double | حجم الخط. |
 
 ### getFontWeight() {#getFontWeight--}
 ```
@@ -141,7 +141,7 @@ public final void setFontWeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وزن الخط. |
+| value | int | وزن الخط. |
 
 ### getFill() {#getFill--}
 ```
@@ -187,7 +187,7 @@ public final void setOutLine(CdrOutline value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) | المخطط. |
+| value | [CdrOutline](../../com.aspose.imaging.fileformats.cdr.objects/cdroutline) | الحد الخارجي. |
 
 ### getAlign() {#getAlign--}
 ```
@@ -210,7 +210,7 @@ public final void setAlign(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | المحاذاة. |
+| value | int | المحاذاة. |
 
 ### getRightIndent() {#getRightIndent--}
 ```
@@ -233,7 +233,7 @@ public final void setRightIndent(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المسافة البادئة اليمنى. |
+| value | double | المسافة البادئة اليمنى. |
 
 ### getFirstIndent() {#getFirstIndent--}
 ```
@@ -256,7 +256,7 @@ public final void setFirstIndent(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المسافة البادئة الأولى. |
+| value | double | المسافة البادئة الأولى. |
 
 ### getLeftIndent() {#getLeftIndent--}
 ```
@@ -279,7 +279,7 @@ public final void setLeftIndent(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | المسافة البادئة اليسرى. |
+| value | double | المسافة البادئة اليسرى. |
 
 ### getParentId() {#getParentId--}
 ```
@@ -287,22 +287,22 @@ public final int getParentId()
 ```
 
 
-يحصل على معرف الأب.
+يحصل على معرف الأصل.
 
 **Returns:**
-int - معرف الأصل.
+int - معرف الأب.
 ### setParentId(int value) {#setParentId-int-}
 ```
 public final void setParentId(int value)
 ```
 
 
-يضبط معرف الأب.
+يضبط معرف الأصل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف الأصل. |
+| value | int | معرف الأب. |
 
 ### copy() {#copy--}
 ```
@@ -310,7 +310,7 @@ public final CdrStyle copy()
 ```
 
 
-ينسخ هذه الحالة.
+ينسخ هذا الكائن.
 
 **Returns:**
 [CdrStyle](../../com.aspose.imaging.fileformats.cdr.objects/cdrstyle) - The current style copy

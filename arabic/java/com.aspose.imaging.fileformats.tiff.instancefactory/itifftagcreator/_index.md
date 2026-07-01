@@ -1,7 +1,7 @@
 ---
 title: "ITiffTagCreator"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "منشئ وسوم TIFF."
+description: "منشئ علامة TIFF."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator/

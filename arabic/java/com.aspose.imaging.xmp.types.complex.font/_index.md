@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.xmp.types.complex.font/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Font](../com.aspose.imaging.xmp.types.complex.font/font) | يمثل خط XMP. |

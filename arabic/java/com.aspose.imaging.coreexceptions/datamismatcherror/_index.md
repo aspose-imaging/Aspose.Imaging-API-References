@@ -17,14 +17,14 @@ public class DataMismatchError extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DataMismatchError(String message)](#DataMismatchError-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `DataMissmatchError`. |
+| [DataMismatchError(String message)](#DataMismatchError-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `DataMissmatchError`. |
 ### DataMismatchError(String message) {#DataMismatchError-java.lang.String-}
 ```
 public DataMismatchError(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `DataMissmatchError`.
+يُنشئ مثيلاً جديدًا من الفئة `DataMissmatchError`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

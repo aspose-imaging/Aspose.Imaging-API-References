@@ -20,9 +20,9 @@ public class ConvolutionFilterOptions extends FilterOptionsBase implements IConv
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ConvolutionFilterOptions(double[][] kernel)](#ConvolutionFilterOptions-double-----) | يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع factor == 1 و bias == 0. |
-| [ConvolutionFilterOptions(double[][] kernel, double factor)](#ConvolutionFilterOptions-double-----double-) | يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع bias == 0. |
-| [ConvolutionFilterOptions(double[][] kernel, double factor, int bias)](#ConvolutionFilterOptions-double-----double-int-) | يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions). |
+| [ConvolutionFilterOptions(double[][] kernel)](#ConvolutionFilterOptions-double-----) | ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع factor == 1 و bias == 0. |
+| [ConvolutionFilterOptions(double[][] kernel, double factor)](#ConvolutionFilterOptions-double-----double-) | ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع bias == 0. |
+| [ConvolutionFilterOptions(double[][] kernel, double factor, int bias)](#ConvolutionFilterOptions-double-----double-int-) | ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public ConvolutionFilterOptions(double[][] kernel)
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع factor == 1 و bias == 0.
+ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع factor == 1 و bias == 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -55,13 +55,13 @@ public ConvolutionFilterOptions(double[][] kernel, double factor)
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع bias == 0.
+ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) مع bias == 0.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | نواة | double[][] | نواة الالتفاف لاتجاه المحور X. |
-| عامل | double | العامل. |
+| العامل | double | العامل. |
 
 ### ConvolutionFilterOptions(double[][] kernel, double factor, int bias) {#ConvolutionFilterOptions-double-----double-int-}
 ```
@@ -69,14 +69,14 @@ public ConvolutionFilterOptions(double[][] kernel, double factor, int bias)
 ```
 
 
-يُنشئ مثلاً جديدًا من الفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions).
+ينشئ مثيلًا جديدًا للفئة [ConvolutionFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | نواة | double[][] | نواة الالتفاف لاتجاه المحور X. |
-| عامل | double | العامل. |
-| انحياز | int | قيمة الانحياز. |
+| العامل | double | العامل. |
+| التحيز | int | قيمة الانحياز. |
 
 ### getKernel() {#getKernel--}
 ```
@@ -109,7 +109,7 @@ public final void setFactor(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | العامل. |
+| value | double | العامل. |
 
 ### getBias() {#getBias--}
 ```
@@ -136,7 +136,7 @@ public final void setBias(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الانحياز. |
+| value | int | الانحياز. |
 
 ### getIgnoreAlpha() {#getIgnoreAlpha--}
 ```
@@ -163,7 +163,7 @@ public final void setIgnoreAlpha(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [ignore alpha]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [ignore alpha]. |
 
 ### getBordersProcessing() {#getBordersProcessing--}
 ```
@@ -176,7 +176,7 @@ public final boolean getBordersProcessing()
 القيمة: `true` إذا كان [borders processing]؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان [borders processing].
+boolean - قيمة تشير إلى ما إذا كان هناك [معالجة الحدود].
 ### setBordersProcessing(boolean value) {#setBordersProcessing-boolean-}
 ```
 public final void setBordersProcessing(boolean value)
@@ -190,5 +190,5 @@ public final void setBordersProcessing(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [borders processing]. |
+| value | boolean | قيمة تشير إلى ما إذا كان هناك [معالجة الحدود]. |
 

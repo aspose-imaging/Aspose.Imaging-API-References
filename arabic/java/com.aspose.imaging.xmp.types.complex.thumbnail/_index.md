@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.xmp.types.complex.thumbnail/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Thumbnail](../com.aspose.imaging.xmp.types.complex.thumbnail/thumbnail) | يمثل صورة مصغرة لملف. |

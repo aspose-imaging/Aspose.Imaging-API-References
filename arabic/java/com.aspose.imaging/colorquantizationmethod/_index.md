@@ -1,7 +1,7 @@
 ---
 title: "ColorQuantizationMethod"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "طرق تجميع الألوان"
+description: "طرق تكميم الألوان"
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging/colorquantizationmethod/
@@ -12,12 +12,12 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorQuantizationMethod extends System.Enum
 ```
 
-طرق تكميم الألوان.
+طرق تقليل الألوان
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | لم يتم استخدام أي طريقة لتجميع الألوان |
+| [None](#None) | لم يتم استخدام أي طريقة لتكميم الألوان |
 | [Popularity](#Popularity) | طريقة الشعبية |
 ### None {#None}
 ```
@@ -25,7 +25,7 @@ public static final int None
 ```
 
 
-لم يتم استخدام أي طريقة لتجميع الألوان
+لم يتم استخدام أي طريقة لتكميم الألوان
 
 ### Popularity {#Popularity}
 ```

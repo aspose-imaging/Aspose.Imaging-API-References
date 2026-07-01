@@ -17,16 +17,16 @@ public final class Jpeg2000Codec extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [J2K](#J2K) | تنسيق برنامج الترميز j2k |
-| [Jp2](#Jp2) | تنسيق برنامج الترميز JP2 |
-| [Jpt](#Jpt) | تنسيق برنامج الترميز JPT (غير مدعوم) |
+| [J2K](#J2K) | تنسيق الترميز j2k |
+| [Jp2](#Jp2) | تنسيق الترميز JP2 |
+| [Jpt](#Jpt) | تنسيق الترميز JPT (غير مدعوم) |
 ### J2K {#J2K}
 ```
 public static final int J2K
 ```
 
 
-تنسيق برنامج الترميز j2k
+تنسيق الترميز j2k
 
 ### Jp2 {#Jp2}
 ```
@@ -34,7 +34,7 @@ public static final int Jp2
 ```
 
 
-تنسيق برنامج الترميز JP2
+تنسيق الترميز JP2
 
 ### Jpt {#Jpt}
 ```
@@ -42,5 +42,5 @@ public static final int Jpt
 ```
 
 
-تنسيق برنامج الترميز JPT (غير مدعوم)
+تنسيق الترميز JPT (غير مدعوم)
 

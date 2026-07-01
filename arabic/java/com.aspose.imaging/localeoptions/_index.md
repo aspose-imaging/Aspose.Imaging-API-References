@@ -1,7 +1,7 @@
 ---
 title: "LocaleOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع LocaleOptions يحدد تكوين الإعدادات الإقليمية لـ Aspose.Imaging."
+description: "نوع LocaleOptions يحدد تكوين اللغة لـ Aspose.Imaging."
 type: docs
 weight: 71
 url: /ar/java/com.aspose.imaging/localeoptions/
@@ -12,26 +12,26 @@ java.lang.Object
 public final class LocaleOptions
 ```
 
-نوع LocaleOptions يحدد تكوين الإعدادات الإقليمية لـ Aspose.Imaging.
+نوع LocaleOptions يحدد تكوين اللغة لـ Aspose.Imaging.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [setLocale(Locale defaultLocale)](#setLocale-java.util.Locale-) | تعيين اللغة الافتراضية المتعلقة بـ Aspose.Imaging |
-| [getLocale()](#getLocale--) | الحصول على اللغة الافتراضية الفعلية الحالية لـ Aspose.Imaging |
-| [clear()](#clear--) | مسح اللغة الافتراضية لـ Aspose.Imaging. |
+| [setLocale(Locale defaultLocale)](#setLocale-java.util.Locale-) | تعيين الإعداد الإقليمي الافتراضي المتعلق بـ Aspose.Imaging |
+| [getLocale()](#getLocale--) | الحصول على الإعداد الإقليمي الافتراضي الحالي الفعلي لـ Aspose.Imaging |
+| [clear()](#clear--) | يمسح الإعداد الإقليمي الافتراضي لـ Aspose.Imaging. |
 ### setLocale(Locale defaultLocale) {#setLocale-java.util.Locale-}
 ```
 public static void setLocale(Locale defaultLocale)
 ```
 
 
-تعيين اللغة الافتراضية المتعلقة بـ Aspose.Imaging
+تعيين الإعداد الإقليمي الافتراضي المتعلق بـ Aspose.Imaging
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| defaultLocale | java.util.Locale | مثيل Locale |
+| defaultLocale | java.util.Locale | مثال الإعداد الإقليمي |
 
 ### getLocale() {#getLocale--}
 ```
@@ -39,17 +39,17 @@ public static Locale getLocale()
 ```
 
 
-الحصول على اللغة الافتراضية الفعلية الحالية لـ Aspose.Imaging
+الحصول على الإعداد الإقليمي الافتراضي الحالي الفعلي لـ Aspose.Imaging
 
 **Returns:**
-java.util.Locale - مثيل Locale
+java.util.Locale - مثال الإعداد الإقليمي
 ### clear() {#clear--}
 ```
 public static void clear()
 ```
 
 
-مسح اللغة الافتراضية لـ Aspose.Imaging.
+يمسح الإعداد الإقليمي الافتراضي لـ Aspose.Imaging.
 
-سيتم استخدام اللغة الافتراضية لـ java.
+سيتم استخدام الإعداد الإقليمي الافتراضي لـ java.
 

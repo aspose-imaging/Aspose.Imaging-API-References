@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPropertyRecordType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "أنواع سجلات الخاصية تحدد خصائص سياق جهاز التشغيل."
+description: "أنواع سجلات الخصائص تحدد خصائص سياق جهاز التشغيل."
 type: docs
 weight: 45
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfpluspropertyrecordtype/
@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusPropertyRecordType extends EmfPlusRecord
 ```
 
-أنواع سجلات الخاصية تحدد خصائص سياق جهاز التشغيل.
+أنواع سجلات الخصائص تحدد خصائص سياق جهاز التشغيل.

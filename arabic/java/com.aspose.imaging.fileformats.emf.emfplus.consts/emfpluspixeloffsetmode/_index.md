@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPixelOffsetMode"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد تعداد PixelOffsetMode كيفية إزاحة البكسلات مما يحدد الموازنة بين سرعة العرض وجودته."
+description: "تحدد تعداد PixelOffsetMode كيفية إزاحة البكسلات، مما يحدد الموازنة بين سرعة العرض والجودة."
 type: docs
 weight: 44
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
@@ -12,23 +12,23 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusPixelOffsetMode extends System.Enum
 ```
 
-تحدد تعداد PixelOffsetMode كيفية إزاحة البكسلات، مما يحدد التوازن بين سرعة العرض والجودة.
+تحدد تعداد PixelOffsetMode كيفية إزاحة البكسلات، مما يحدد التوازن بين سرعة العرض وجودته.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [PixelOffsetModeDefault](#PixelOffsetModeDefault) | البكسلات متمركزة على إحداثيات صحيحة، مما يفضّل السرعة على الجودة. |
-| [PixelOffsetModeHighSpeed](#PixelOffsetModeHighSpeed) | البكسلات متمركزة على إحداثيات صحيحة، كما في PixelOffsetModeNone. |
-| [PixelOffsetModeHighQuality](#PixelOffsetModeHighQuality) | البكسلات متمركزة على إحداثيات نصف صحيحة، كما في PixelOffsetModeHalf. |
-| [PixelOffsetModeNone](#PixelOffsetModeNone) | البكسلات متمركزة على الأصل، مما يعني أن البكسل يغطي المنطقة من -0.5 إلى 0.5 على كل من المحورين x و y ومركزه عند (0,0). |
-| [PixelOffsetModeHalf](#PixelOffsetModeHalf) | البكسلات متمركزة على إحداثيات نصف صحيحة، مما يعني أن البكسل يغطي المنطقة من 0 إلى 1 على كل من المحورين x و y ومركزه عند (0.5,0.5). |
+| [PixelOffsetModeDefault](#PixelOffsetModeDefault) | يتم تمركز البكسلات على إحداثيات صحيحة، مع تحديد السرعة على حساب الجودة. |
+| [PixelOffsetModeHighSpeed](#PixelOffsetModeHighSpeed) | يتم تمركز البكسلات على إحداثيات صحيحة، كما هو الحال مع PixelOffsetModeNone. |
+| [PixelOffsetModeHighQuality](#PixelOffsetModeHighQuality) | يتم تمركز البكسلات على إحداثيات نصف صحيحة، كما هو الحال مع PixelOffsetModeHalf. |
+| [PixelOffsetModeNone](#PixelOffsetModeNone) | يتم تمركز البكسلات على الأصل، مما يعني أن البكسل يغطي المنطقة من -0.5 إلى 0.5 على كل من محوري x و y ومركزه عند (0,0). |
+| [PixelOffsetModeHalf](#PixelOffsetModeHalf) | يتم تمركز البكسلات على إحداثيات نصف صحيحة، مما يعني أن البكسل يغطي المنطقة من 0 إلى 1 على كل من محوري x و y ومركزه عند (0.5,0.5). |
 ### PixelOffsetModeDefault {#PixelOffsetModeDefault}
 ```
 public static final byte PixelOffsetModeDefault
 ```
 
 
-البكسلات متمركزة على إحداثيات صحيحة، مما يفضّل السرعة على الجودة.
+يتم تمركز البكسلات على إحداثيات صحيحة، مع تحديد السرعة على حساب الجودة.
 
 ### PixelOffsetModeHighSpeed {#PixelOffsetModeHighSpeed}
 ```
@@ -36,7 +36,7 @@ public static final byte PixelOffsetModeHighSpeed
 ```
 
 
-البكسلات متمركزة على إحداثيات صحيحة، كما في PixelOffsetModeNone. يتم تحديد سرعة أعلى على حساب الجودة.
+يتم تمركز البكسلات على إحداثيات صحيحة، كما هو الحال مع PixelOffsetModeNone. يتم تحديد سرعة أعلى على حساب الجودة.
 
 ### PixelOffsetModeHighQuality {#PixelOffsetModeHighQuality}
 ```
@@ -44,7 +44,7 @@ public static final byte PixelOffsetModeHighQuality
 ```
 
 
-البكسلات متمركزة على إحداثيات نصف صحيحة، كما في PixelOffsetModeHalf. يتم تحديد جودة أعلى على حساب السرعة.
+يتم تمركز البكسلات على إحداثيات نصف صحيحة، كما هو الحال مع PixelOffsetModeHalf. يتم تحديد جودة أعلى على حساب السرعة.
 
 ### PixelOffsetModeNone {#PixelOffsetModeNone}
 ```
@@ -52,7 +52,7 @@ public static final byte PixelOffsetModeNone
 ```
 
 
-البكسلات متمركزة على الأصل، مما يعني أن البكسل يغطي المنطقة من -0.5 إلى 0.5 على كل من المحورين x و y ومركزه عند (0,0).
+يتم تمركز البكسلات على الأصل، مما يعني أن البكسل يغطي المنطقة من -0.5 إلى 0.5 على كل من محوري x و y ومركزه عند (0,0).
 
 ### PixelOffsetModeHalf {#PixelOffsetModeHalf}
 ```
@@ -60,5 +60,5 @@ public static final byte PixelOffsetModeHalf
 ```
 
 
-البكسلات متمركزة على إحداثيات نصف صحيحة، مما يعني أن البكسل يغطي المنطقة من 0 إلى 1 على كل من المحورين x و y ومركزه عند (0.5,0.5). من خلال إزاحة البكسلات أثناء العرض، يمكن تحسين جودة العرض على حساب سرعة العرض.
+يتم تمركز البكسلات على إحداثيات نصف صحيحة، مما يعني أن البكسل يغطي المنطقة من 0 إلى 1 على كل من محوري x و y ومركزه عند (0.5,0.5). من خلال إزاحة البكسلات أثناء التصيير، يمكن تحسين جودة التصيير على حساب سرعة التصيير.
 

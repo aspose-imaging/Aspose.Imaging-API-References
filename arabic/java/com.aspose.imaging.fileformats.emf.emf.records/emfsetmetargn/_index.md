@@ -1,7 +1,7 @@
 ---
 title: "EmfSetMetaRgn"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Inter يدمج المنطقة الوصفية الحالية مع منطقة القص الحالية لتكوين منطقة وصفية جديدة لسياق جهاز التشغيل."
+description: "Inter يدمج المنطقة الوصفية الحالية مع منطقة القص الحالية لتشكيل منطقة وصفية جديدة لسياق جهاز التشغيل."
 type: docs
 weight: 132
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
@@ -17,14 +17,14 @@ public final class EmfSetMetaRgn extends EmfClippingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetMetaRgn(EmfRecord source)](#EmfSetMetaRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfSetMetaRgn`. |
+| [EmfSetMetaRgn(EmfRecord source)](#EmfSetMetaRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfSetMetaRgn`. |
 ### EmfSetMetaRgn(EmfRecord source) {#EmfSetMetaRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetMetaRgn(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfSetMetaRgn`.
+يُنشئ نسخة جديدة من الفئة `EmfSetMetaRgn`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

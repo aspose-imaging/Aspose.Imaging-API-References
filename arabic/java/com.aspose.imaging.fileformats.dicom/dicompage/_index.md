@@ -17,8 +17,8 @@ public class DicomPage extends RasterCachedImage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DicomPage(DicomImage image, int index)](#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-) | ينشئ مثيلًا جديدًا من الفئة `DicomPage`. |
-| [DicomPage(DicomImage image, int index, LoadOptions loadOptions)](#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-com.aspose.imaging.LoadOptions-) | ينشئ مثيلًا جديدًا من الفئة `DicomPage`. |
+| [DicomPage(DicomImage image, int index)](#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-) | يُنشئ مثيلًا جديدًا من الفئة `DicomPage`. |
+| [DicomPage(DicomImage image, int index, LoadOptions loadOptions)](#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-com.aspose.imaging.LoadOptions-) | يُنشئ مثيلًا جديدًا من الفئة `DicomPage`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             100,
             100))
     {
-        // ارسم شيئًا باستخدام الرسومات المتجهة
+        // ارسم شيئًا باستخدام الرسومات المتجهية
         Graphics graphics = new Graphics(image);
         graphics.fillRectangle(new SolidBrush(Color.getBlueViolet()), image.getBounds());
         graphics.fillRectangle(new SolidBrush(Color.getAqua()), 10, 20, 50, 20);
@@ -78,13 +78,13 @@ public DicomPage(DicomImage image, int index)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `DicomPage`.
+يُنشئ مثيلًا جديدًا من الفئة `DicomPage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) | الصورة. |
-| index | int | الفهرس. |
+| index | int | المؤشر. |
 
 ### DicomPage(DicomImage image, int index, LoadOptions loadOptions) {#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-com.aspose.imaging.LoadOptions-}
 ```
@@ -92,13 +92,13 @@ public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `DicomPage`.
+يُنشئ مثيلًا جديدًا من الفئة `DicomPage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) | الصورة. |
-| index | int | الفهرس. |
+| index | int | المؤشر. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 ### getIndex() {#getIndex--}

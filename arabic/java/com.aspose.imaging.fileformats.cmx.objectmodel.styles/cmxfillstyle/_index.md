@@ -34,7 +34,7 @@ public class CmxFillStyle
 | [setImageFill(CmxImageFill value)](#setImageFill-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxImageFill-) | يضبط معلومات تعبئة الصورة. |
 | [getTransform()](#getTransform--) | يحصل على تحويل التعبئة. |
 | [setTransform(Matrix value)](#setTransform-com.aspose.imaging.Matrix-) | يضبط تحويل التعبئة. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxFillStyle() {#CmxFillStyle--}
@@ -64,7 +64,7 @@ public final void setFillType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع التعبئة. |
+| value | int | نوع التعبئة. |
 
 ### getColor1() {#getColor1--}
 ```
@@ -187,7 +187,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

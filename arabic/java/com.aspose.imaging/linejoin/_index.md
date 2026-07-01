@@ -1,7 +1,7 @@
 ---
 title: "LineJoin"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد كيفية ربط مقاطع الخط أو المنحنى المتتالية في مسار فرعي للشكل داخل كائن GraphicsPath."
+description: "يحدد كيفية ربط المقاطع المتتالية للخط أو المنحنى في مسار فرعي للشكل الموجود داخل كائن GraphicsPath."
 type: docs
 weight: 69
 url: /ar/java/com.aspose.imaging/linejoin/
@@ -17,17 +17,17 @@ public final class LineJoin extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Miter](#Miter) | يحدد وصلة ميتيرية. |
+| [Miter](#Miter) | يحدد وصلة ميتريّة. |
 | [Bevel](#Bevel) | يحدد وصلة مائلة. |
 | [Round](#Round) | يحدد وصلة دائرية. |
-| [MiterClipped](#MiterClipped) | يحدد وصلة ميتيرية. |
+| [MiterClipped](#MiterClipped) | يحدد وصلة ميتريّة. |
 ### Miter {#Miter}
 ```
 public static final int Miter
 ```
 
 
-يحدد وصلة ميتيرية. ينتج ذلك زاوية حادة أو زاوية مقصوصة، اعتمادًا على ما إذا كان طول الميتير يتجاوز حد الميتير.
+يحدد وصلة ميتريّة. ينتج ذلك زاوية حادة أو زاوية مقطوعة، اعتمادًا على ما إذا كان طول الميتري يتجاوز حد الميتري.
 
 ### Bevel {#Bevel}
 ```
@@ -51,5 +51,5 @@ public static final int MiterClipped
 ```
 
 
-يحدد وصلة ميتة. ينتج ذلك زاوية حادة أو زاوية مشطوفة، اعتمادًا على ما إذا كان طول الميتة يتجاوز حد الميتة.
+يحدد وصلة ميتريّة. ينتج ذلك زاوية حادة أو زاوية مائلة، اعتمادًا على ما إذا كان طول الميتري يتجاوز حد الميتري.
 

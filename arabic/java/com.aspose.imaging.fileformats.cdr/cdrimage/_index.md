@@ -15,28 +15,28 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrImage extends VectorMultipageImage implements ICdrImage
 ```
 
-واجهة برمجة التطبيقات لدعم تنسيق صورة CorelDRAW CDR المتجهة هي مجموعة أدوات أساسية للمطورين الذين يعملون مع الرسومات المتجهة. تمكّن هذه الواجهة معالجة ملفات CDR بسلاسة، مما يسمح بتخزين ومعالجة عناصر متنوعة مثل النصوص، الخطوط، الأشكال، الصور، الألوان، والتأثيرات. بفضل قدراتها الشاملة، يمكن للمطورين العمل بفعالية مع تمثيلات المتجهات لمحتوى الصور، مما يضمن الدقة والمرونة في إنشاء وتحرير رسومات CorelDRAW المتجهة برمجيًا.
+واجهة برمجة التطبيقات (API) لدعم تنسيق صورة CorelDRAW CDR المتجهة هي مجموعة أدوات أساسية للمطورين الذين يعملون مع الرسومات المتجهة. تتيح هذه الواجهة معالجة ملفات CDR بسلاسة، مما يسمح بتخزين ومعالجة عناصر متنوعة مثل النصوص، الخطوط، الأشكال، الصور، الألوان، والتأثيرات. بفضل قدراتها الشاملة، يمكن للمطورين العمل بكفاءة مع تمثيلات المتجهات لمحتوى الصور، مما يضمن الدقة والمرونة في إنشاء وتحرير رسومات CorelDRAW المتجهة برمجيًا.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CdrImage(InputStream stream, LoadOptions loadOptions)](#CdrImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام معلمات stream و loadOptions. |
-| [CdrImage(System.IO.Stream stream, LoadOptions loadOptions)](#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) | ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام معلمات stream و loadOptions. |
+| [CdrImage(InputStream stream, LoadOptions loadOptions)](#CdrImage-java.io.InputStream-com.aspose.imaging.LoadOptions-) | ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام تدفق ووسائط loadOptions. |
+| [CdrImage(System.IO.Stream stream, LoadOptions loadOptions)](#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-) | ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام تدفق ووسائط loadOptions. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getDefaultPage()](#getDefaultPage--) | استرجع الصفحة الافتراضية للصورة بسهولة باستخدام هذه الخاصية سهلة الاستخدام. |
 | [isCached()](#isCached--) | حدد بسهولة ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة البيانات. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عمق البت للصورة بسهولة باستخدام هذه الخاصية سهلة الاستخدام. |
-| [getPageCount()](#getPageCount--) | استرجع أو حدّث إجمالي عدد صفحات الصورة بسهولة باستخدام هذه الخاصية البديهية. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عمق البت للصورة بسهولة باستخدام هذه الخاصية السهلة الاستخدام. |
+| [getPageCount()](#getPageCount--) | استرجع أو حدّث عدد الصفحات الإجمالي للصورة بسهولة باستخدام هذه الخاصية البديهية. |
 | [getPages()](#getPages--) | استرجع صفحات الصورة بسلاسة باستخدام هذه الخاصية البديهية. |
 | [getCdrDocument()](#getCdrDocument--) | استرجع أو حدّث مستند CDR بسهولة باستخدام هذه الخاصية البديهية. |
 | [getFileFormat()](#getFileFormat--) | استرجع تنسيق ملف الصورة بسهولة باستخدام هذه الخاصية البديهية. |
 | [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
 | [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة. |
 | [cacheData()](#cacheData--) | قم بتخزين البيانات مؤقتًا بسهولة لمنع التحميل الإضافي من المصدر الأساسي باستخدام هذه الطريقة سهلة الاستخدام. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | خصّص لوحة ألوان الصورة باستخدام هذه الطريقة البديهية. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | خصص لوحة ألوان الصورة باستخدام هذه الطريقة البديهية. |
 
 ## Example: The following example shows how to cache all pages of a CDR image.
 
@@ -46,10 +46,10 @@ String dir = "c:\\temp\\";
 // حمّل صورة من ملف CDR.
 com.aspose.imaging.fileformats.cdr.CdrImage image = (com.aspose.imaging.fileformats.cdr.CdrImage) com.aspose.imaging.Image.load(dir + "sample.cdr");
 try {
-    // هذه العملية تُخزن في الذاكرة المؤقتة الصفحة الافتراضية فقط.
+    // هذه العملية تخزن مؤقتًا الصفحة الافتراضية فقط.
     image.cacheData();
 
-    // خزن جميع الصفحات في الذاكرة المؤقتة بحيث لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
+    // قم بتخزين جميع الصفحات مؤقتًا حتى لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
     for (com.aspose.imaging.fileformats.cdr.CdrImagePage page : image.getPages()) {
         page.cacheData();
     }
@@ -64,12 +64,12 @@ public CdrImage(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام معلمات stream و loadOptions. هذه الطريقة مثالية للمطورين الذين يبحثون عن طريقة مريحة لتحميل صور CDR من مصادر بيانات متعددة مع تخصيص عملية التحميل حسب الحاجة.
+ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام تدفق ووسائط loadOptions. مثالي للمطورين الذين يبحثون عن طريقة مريحة لتحميل صور CDR من مصادر بيانات مختلفة مع تخصيص عملية التحميل حسب الحاجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | المجرى. |
+| تدفق | java.io.InputStream | التدفق. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 ### CdrImage(System.IO.Stream stream, LoadOptions loadOptions) {#CdrImage-com.aspose.ms.System.IO.Stream-com.aspose.imaging.LoadOptions-}
@@ -78,12 +78,12 @@ public CdrImage(System.IO.Stream stream, LoadOptions loadOptions)
 ```
 
 
-ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام معلمات stream و loadOptions. هذه الطريقة مثالية للمطورين الذين يبحثون عن طريقة مريحة لتحميل صور CDR من مصادر بيانات متعددة مع تخصيص عملية التحميل حسب الحاجة.
+ابدأ العمل مع الفئة [CdrImage](../../com.aspose.imaging.fileformats.cdr/cdrimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام تدفق ووسائط loadOptions. مثالي للمطورين الذين يبحثون عن طريقة مريحة لتحميل صور CDR من مصادر بيانات مختلفة مع تخصيص عملية التحميل حسب الحاجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | com.aspose.ms.System.IO.Stream | المجرى. |
+| تدفق | com.aspose.ms.System.IO.Stream | التدفق. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 ### getDefaultPage() {#getDefaultPage--}
@@ -92,7 +92,7 @@ public Image getDefaultPage()
 ```
 
 
-استرجع الصفحة الافتراضية للصورة بسهولة باستخدام هذه الخاصية سهلة الاستخدام. إنها مثالية للمطورين الذين يرغبون في الوصول السريع إلى الصفحة الرئيسية لصورتهم، مما يضمن تنقلًا وإدارةً فعّالة.
+استرجع الصفحة الافتراضية للصورة بسهولة باستخدام هذه الخاصية سهلة الاستخدام. مثالي للمطورين الذين يبحثون عن وصول سريع إلى الصفحة الرئيسية لصورتهم، مما يضمن تنقلًا وإدارةً فعالين.
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - the default page.
@@ -102,7 +102,7 @@ public boolean isCached()
 ```
 
 
-حدد بسهولة ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة البيانات. هذه الميزة مثالية للمطورين الذين يسعون لتحسين الأداء من خلال الاستفادة من البيانات المخزنة مؤقتًا بفعالية، مما يضمن وصولًا أسرع إلى معلومات الكائن.
+حدد بسهولة ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى قراءة البيانات. مثالي للمطورين الذين يسعون إلى تحسين الأداء من خلال الاستفادة من البيانات المخزنة مؤقتًا بكفاءة، مما يضمن وصولًا أسرع إلى معلومات الكائن.
 
 **Returns:**
 منطقي - `true` إذا كانت بيانات الكائن مخزنة مؤقتًا؛ وإلا `false`.
@@ -112,7 +112,7 @@ public int getBitsPerPixel()
 ```
 
 
-استرجع عمق البت للصورة بسهولة باستخدام هذه الخاصية سهلة الاستخدام. مثالي للمطورين الذين يرغبون في تحديد مستوى التفاصيل أو عمق اللون الموجود في صورهم، مما يضمن معالجة دقيقة وتعديلًا فعالًا.
+استرجع عمق البت للصورة بسهولة باستخدام هذه الخاصية السهلة الاستخدام. مثالي للمطورين الذين يرغبون في تحديد مستوى التفاصيل أو عمق اللون الموجود في صورهم، مما يضمن معالجة وتعديلًا دقيقًا.
 
 **Returns:**
 int - عدد بتات الصورة لكل بكسل.
@@ -122,7 +122,7 @@ public final int getPageCount()
 ```
 
 
-استرجع أو حدّث إجمالي عدد صفحات الصورة بسهولة باستخدام هذه الخاصية البديهية. هذه الميزة مثالية للمطورين الذين يرغبون في إدارة الصور متعددة الصفحات بشكل ديناميكي، مما يضمن تنقلًا فعالًا وتلاعبًا بمحتوى الصورة.
+استرجع أو حدّث عدد الصفحات الإجمالي للصورة بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في إدارة الصور متعددة الصفحات بشكل ديناميكي، مما يضمن تنقلًا فعالًا وتعديلًا لمحتوى الصورة.
 
 **Returns:**
 int - عدد الصفحات.
@@ -132,7 +132,7 @@ public final Image[] getPages()
 ```
 
 
-استرجع صفحات الصورة بسلاسة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في الوصول إلى الصفحات الفردية داخل الصور متعددة الصفحات ومعالجتها، مع ضمان تنقل فعال ومعالجة.
+استرجع صفحات الصورة بسلاسة باستخدام هذه الخاصية البديهية. مثالية للمطورين الذين يرغبون في الوصول إلى الصفحات الفردية داخل الصور متعددة الصفحات ومعالجتها، مما يضمن تنقلاً فعالًا ومعالجة.
 
 **Returns:**
 com.aspose.imaging.Image[] - الصفحات.
@@ -171,7 +171,7 @@ public final CdrDocument getCdrDocument()
 ```
 
 
-استرجع أو حدّث مستند CDR بسهولة باستخدام هذه الخاصية البديهية. هذه الميزة مثالية للمطورين الذين يرغبون في الوصول إلى مستند CDR أو تعديله، مما يضمن المرونة والكفاءة في تطبيقاتهم.
+استرجع أو حدّث مستند CDR بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في الوصول إلى مستند CDR أو تعديله، مما يضمن المرونة والكفاءة في تطبيقاتهم.
 
 **Returns:**
 [CdrDocument](../../com.aspose.imaging.fileformats.cdr.objects/cdrdocument) - the CDR document.
@@ -181,7 +181,7 @@ public long getFileFormat()
 ```
 
 
-استرجع تنسيق ملف الصورة بسهولة باستخدام هذه الخاصية البديهية. هذه الميزة مثالية للمطورين الذين يرغبون في تحديد تنسيق صورهم بشكل ديناميكي، مما يضمن التوافق والمعالجة الدقيقة في تطبيقاتهم.
+استرجع تنسيق ملف الصورة بسهولة باستخدام هذه الخاصية البديهية. مثالي للمطورين الذين يرغبون في تحديد تنسيق صورهم بشكل ديناميكي، مما يضمن التوافق والمعالجة الدقيقة في تطبيقاتهم.
 
 **Returns:**
 long
@@ -215,7 +215,7 @@ public void cacheData()
 ```
 
 
-قم بتخزين البيانات مؤقتًا بسهولة لمنع التحميل الإضافي من المصدر الأساسي باستخدام هذه الطريقة سهلة الاستخدام. هذه الميزة مثالية للمطورين الذين يسعون لتحسين الأداء من خلال تحميل البيانات مسبقًا، مما يضمن وصولًا أسرع وعملًا أكثر سلاسة في تطبيقاتهم. `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)/[DataStreamSupporter.setDataStreamContainer\_internalized(StreamContainer)](../../com.aspose.imaging/datastreamsupporter\#setDataStreamContainer-internalized-StreamContainer-)).
+قم بتخزين البيانات مؤقتًا بسهولة لمنع التحميل الإضافي من المصدر الأساسي باستخدام هذه الطريقة سهلة الاستخدام. مثالي للمطورين الذين يسعون إلى تحسين الأداء من خلال تحميل البيانات مسبقًا، مما يضمن وصولًا أسرع وعملًا أكثر سلاسة في تطبيقاتهم. `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)/[DataStreamSupporter.setDataStreamContainer\_internalized(StreamContainer)](../../com.aspose.imaging/datastreamsupporter\#setDataStreamContainer-internalized-StreamContainer-)).
 
 
 **Example: The following example shows how to cache all pages of a CDR image.**
@@ -226,10 +226,10 @@ String dir = "c:\\temp\\";
 // حمّل صورة من ملف CDR.
 com.aspose.imaging.fileformats.cdr.CdrImage image = (com.aspose.imaging.fileformats.cdr.CdrImage) com.aspose.imaging.Image.load(dir + "sample.cdr");
 try {
-    // هذه العملية تُخزن في الذاكرة المؤقتة الصفحة الافتراضية فقط.
+    // هذه العملية تخزن مؤقتًا الصفحة الافتراضية فقط.
     image.cacheData();
 
-    // خزن جميع الصفحات في الذاكرة المؤقتة بحيث لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
+    // قم بتخزين جميع الصفحات مؤقتًا حتى لا يتم تحميل بيانات إضافية من تدفق البيانات الأساسي.
     for (com.aspose.imaging.fileformats.cdr.CdrImagePage page : image.getPages()) {
         page.cacheData();
     }
@@ -244,7 +244,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-خصص لوحة ألوان الصورة باستخدام هذه الطريقة البديهية. مثالي للمطورين الذين يرغبون في تطبيق أنماط ألوان محددة أو تعديلات بشكل ديناميكي، مع ضمان تحكم دقيق في المظهر البصري لصورهم.
+خصص لوحة ألوان الصورة باستخدام هذه الطريقة البديهية. مثالية للمطورين الذين يرغبون في تطبيق أنظمة ألوان أو تعديلات محددة ديناميكيًا، مما يضمن تحكمًا دقيقًا في المظهر البصري لصورهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |

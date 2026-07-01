@@ -19,14 +19,14 @@ public final class TiffPhotometrics extends System.Enum
 | --- | --- |
 | [MinIsWhite](#MinIsWhite) | القيمة الدنيا هي الأبيض. |
 | [MinIsBlack](#MinIsBlack) | القيمة الدنيا هي الأسود. |
-| [Rgb](#Rgb) | نموذج اللون RGB. |
+| [Rgb](#Rgb) | نموذج ألوان RGB. |
 | [Palette](#Palette) | خريطة الألوان مفهرسة. |
 | [Mask](#Mask) | [تم إهماله بواسطة TIFF rev. |
-| [Separated](#Separated) | فصل الألوان. |
-| [Ycbcr](#Ycbcr) | ال CCIR 601. |
-| [Cielab](#Cielab) | 1976 CIE L\*a\*b\*. |
-| [Icclab](#Icclab) | ICC L\*a\*b\*. |
-| [Itulab](#Itulab) | ITU L\*a\*b\*. |
+| [Separated](#Separated) | فواصل الألوان. |
+| [Ycbcr](#Ycbcr) | معيار CCIR 601. |
+| [Cielab](#Cielab) | 1976 CIE L*a*b*. |
+| [Icclab](#Icclab) | ICC L*a*b*. |
+| [Itulab](#Itulab) | ITU L*a*b*. |
 | [Logl](#Logl) | CIE Log2(L). |
 | [Logluv](#Logluv) | CIE Log2(L) (u',v'). |
 ### MinIsWhite {#MinIsWhite}
@@ -51,7 +51,7 @@ public static final int Rgb
 ```
 
 
-نموذج اللون RGB.
+نموذج ألوان RGB.
 
 ### Palette {#Palette}
 ```
@@ -75,7 +75,7 @@ public static final int Separated
 ```
 
 
-فصل الألوان.
+فواصل الألوان.
 
 ### Ycbcr {#Ycbcr}
 ```
@@ -83,7 +83,7 @@ public static final int Ycbcr
 ```
 
 
-ال CCIR 601.
+معيار CCIR 601.
 
 ### Cielab {#Cielab}
 ```
@@ -91,7 +91,7 @@ public static final int Cielab
 ```
 
 
-1976 CIE L\*a\*b\*.
+1976 CIE L*a*b*.
 
 ### Icclab {#Icclab}
 ```
@@ -99,7 +99,7 @@ public static final int Icclab
 ```
 
 
-تم تقديمه بعد TIFF rev 6.0 بواسطة Adobe TIFF Technote 4.
+ICC L*a*b*. تم تقديمه بعد TIFF الإصدار 6.0 بواسطة ملاحظة TIFF التقنية من Adobe رقم 4.
 
 ### Itulab {#Itulab}
 ```
@@ -107,7 +107,7 @@ public static final int Itulab
 ```
 
 
-ITU L\*a\*b\*.
+ITU L*a*b*.
 
 ### Logl {#Logl}
 ```

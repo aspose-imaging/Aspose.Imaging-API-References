@@ -17,22 +17,22 @@ public final class EmfStrokeVariation extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [PAN_ANY](#PAN-ANY) | الخط أي. |
-| [PAN_NO_FIT](#PAN-NO-FIT) | ال لا ملاءمة. |
+| [PAN_ANY](#PAN-ANY) | الضربة العامة. |
+| [PAN_NO_FIT](#PAN-NO-FIT) | عدم الملاءمة. |
 | [PAN_STROKE_GRADUAL_DIAG](#PAN-STROKE-GRADUAL-DIAG) | تدريجي / قطري |
 | [PAN_STROKE_GRADUAL_TRAN](#PAN-STROKE-GRADUAL-TRAN) | انتقالي تدريجي |
-| [PAN_STROKE_GRADUAL_VERT](#PAN-STROKE-GRADUAL-VERT) | عمودي تدريجي |
+| [PAN_STROKE_GRADUAL_VERT](#PAN-STROKE-GRADUAL-VERT) | رأسي تدريجي |
 | [PAN_STROKE_GRADUAL_HORZ](#PAN-STROKE-GRADUAL-HORZ) | أفقي تدريجي |
-| [PAN_STROKE_RAPID_VERT](#PAN-STROKE-RAPID-VERT) | عمودي سريع |
+| [PAN_STROKE_RAPID_VERT](#PAN-STROKE-RAPID-VERT) | رأسي سريع |
 | [PAN_STROKE_RAPID_HORZ](#PAN-STROKE-RAPID-HORZ) | أفقي سريع |
-| [PAN_STROKE_INSTANT_VERT](#PAN-STROKE-INSTANT-VERT) | عمودي فوري |
+| [PAN_STROKE_INSTANT_VERT](#PAN-STROKE-INSTANT-VERT) | رأسي فوري |
 ### PAN_ANY {#PAN-ANY}
 ```
 public static final byte PAN_ANY
 ```
 
 
-الخط أي.
+الضربة العامة.
 
 ### PAN_NO_FIT {#PAN-NO-FIT}
 ```
@@ -40,7 +40,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-ال لا ملاءمة.
+عدم الملاءمة.
 
 ### PAN_STROKE_GRADUAL_DIAG {#PAN-STROKE-GRADUAL-DIAG}
 ```
@@ -64,7 +64,7 @@ public static final byte PAN_STROKE_GRADUAL_VERT
 ```
 
 
-عمودي تدريجي
+رأسي تدريجي
 
 ### PAN_STROKE_GRADUAL_HORZ {#PAN-STROKE-GRADUAL-HORZ}
 ```
@@ -80,7 +80,7 @@ public static final byte PAN_STROKE_RAPID_VERT
 ```
 
 
-عمودي سريع
+رأسي سريع
 
 ### PAN_STROKE_RAPID_HORZ {#PAN-STROKE-RAPID-HORZ}
 ```
@@ -96,5 +96,5 @@ public static final byte PAN_STROKE_INSTANT_VERT
 ```
 
 
-عمودي فوري
+رأسي فوري
 

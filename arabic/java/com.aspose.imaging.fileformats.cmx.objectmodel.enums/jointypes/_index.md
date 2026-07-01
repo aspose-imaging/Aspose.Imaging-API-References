@@ -19,7 +19,7 @@ public final class JoinTypes extends System.Enum
 | --- | --- |
 | [MiteredCorners](#MiteredCorners) | إنشاء زوايا مدببة. |
 | [RoundCorners](#RoundCorners) | إنشاء زوايا مستديرة في الخط أو المخطط. |
-| [BeveledCorners](#BeveledCorners) | زوايا مشطوفة (مربعة) في الخط أو المخطط. |
+| [BeveledCorners](#BeveledCorners) | زوايا مائلة (مربعة) في الخط أو المخطط. |
 ### MiteredCorners {#MiteredCorners}
 ```
 public static final int MiteredCorners
@@ -42,5 +42,5 @@ public static final int BeveledCorners
 ```
 
 
-زوايا مشطوفة (مربعة) في الخط أو المخطط.
+زوايا مائلة (مربعة) في الخط أو المخطط.
 

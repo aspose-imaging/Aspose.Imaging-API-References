@@ -1,5 +1,5 @@
 ---
-title: "أنواع التعبئة"
+title: "FillTypes"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "أنواع التعبئة للفرشاة."
 type: docs
@@ -21,11 +21,11 @@ public final class FillTypes extends System.Enum
 | [NoFill](#NoFill) | لا حاجة للتعبئة |
 | [Uniform](#Uniform) | تعبئة موحدة. |
 | [Fountain](#Fountain) | تعبئة نافورة. |
-| [Postscript](#Postscript) | تعبئة Postscript. |
+| [Postscript](#Postscript) | تعبئة بوستسكريبت. |
 | [TwoColorPattern](#TwoColorPattern) | تعبئة بنمط لونين. |
-| [ImportedBitmap](#ImportedBitmap) | تعبئة بنمط bitmap. |
+| [ImportedBitmap](#ImportedBitmap) | تعبئة بنمط صورة نقطية. |
 | [FullColorPattern](#FullColorPattern) | تعبئة بنمط متجه. |
-| [Texture](#Texture) | تعبئة نسيجية. |
+| [Texture](#Texture) | تعبئة نسيج. |
 ### Unknown {#Unknown}
 ```
 public static final int Unknown
@@ -56,7 +56,7 @@ public static final int Fountain
 ```
 
 
-تعبئة نافورة. تطبيق تدرج من الألوان أو الظلال.
+تعبئة نافورة. تطبيق تدرج ألوان أو ظلال.
 
 ### Postscript {#Postscript}
 ```
@@ -64,7 +64,7 @@ public static final int Postscript
 ```
 
 
-ملء بوستسكريبت. تطبيق ملء نسيج بوستسكريبت معقد.
+تعبئة بوستسكريبت. تطبيق تعبئة نسيج بوستسكريبت معقدة.
 
 ### TwoColorPattern {#TwoColorPattern}
 ```
@@ -80,7 +80,7 @@ public static final int ImportedBitmap
 ```
 
 
-تعبئة بنمط bitmap.
+تعبئة بنمط صورة نقطية.
 
 ### FullColorPattern {#FullColorPattern}
 ```
@@ -96,5 +96,5 @@ public static final int Texture
 ```
 
 
-تعبئة نسيجية.
+تعبئة نسيج.
 

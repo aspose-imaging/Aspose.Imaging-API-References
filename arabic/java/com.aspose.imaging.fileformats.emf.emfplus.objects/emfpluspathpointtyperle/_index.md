@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPathPointTypeRle"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusPathPointTypeRle يحدد قيم النوع المرتبطة بنقاط على مسار رسومي باستخدام ضغط RLE."
+description: "كائن EmfPlusPathPointTypeRle يحدد قيم نوع مرتبطة بنقاط على مسار رسومي باستخدام ضغط RLE."
 type: docs
 weight: 62
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBas
 public final class EmfPlusPathPointTypeRle extends EmfPlusBasePointType
 ```
 
-كائن EmfPlusPathPointTypeRle يحدد قيم النوع المرتبطة بالنقاط على مسار رسومي باستخدام ضغط RLE. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B|1|RunCount | PointType | B (بت واحد): إذا تم تعيينه، تكون نقاط المسار على منحنى بيزيير. إذا لم يتم تعيينه، تكون نقاط المسار على خط رسومي. RunCount (6 بتات): عدد التتابعات، وهو عدد نقاط المسار التي سيتم ربطها بالنوع في حقل PointType. PointType (بايت واحد): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
+كائن EmfPlusPathPointTypeRle يحدد قيم النوع المرتبطة بالنقاط على مسار رسومي باستخدام ضغط RLE. 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 B|1|RunCount | PointType | B (1 بت): إذا تم تعيينه، تكون نقاط المسار على منحنى Bezier. إذا تم إلغاء تعيينه، تكون نقاط المسار على خط رسومي. RunCount (6 بت): عدد التكرارات، وهو عدد نقاط المسار التي يجب ربطها بالنوع في حقل PointType. PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,14 +22,14 @@ public final class EmfPlusPathPointTypeRle extends EmfPlusBasePointType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getData()](#getData--) | يحصل أو يضبط البيانات. |
-| [setData(int value)](#setData-int-) | يحصل أو يضبط البيانات. |
-| [getBezier()](#getBezier--) | يسترجع أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusPathPointTypeRle` بيزيير. |
-| [setBezier(boolean value)](#setBezier-boolean-) | يسترجع أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusPathPointTypeRle` بيزيير. |
-| [getRunCount()](#getRunCount--) | يسترجع أو يعيّن عدد التتابعات. |
-| [setRunCount(byte value)](#setRunCount-byte-) | يسترجع أو يعيّن عدد التتابعات. |
-| [getPointType()](#getPointType--) | يسترجع أو يعيّن نوع النقطة. |
-| [setPointType(EmfPlusPathPointType value)](#setPointType-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathPointType-) | يسترجع أو يعيّن نوع النقطة. |
+| [getData()](#getData--) | يحصل أو يعيّن البيانات. |
+| [setData(int value)](#setData-int-) | يحصل أو يعيّن البيانات. |
+| [getBezier()](#getBezier--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان `EmfPlusPathPointTypeRle` من نوع Bezier. |
+| [setBezier(boolean value)](#setBezier-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان `EmfPlusPathPointTypeRle` من نوع Bezier. |
+| [getRunCount()](#getRunCount--) | يحصل أو يعيّن عدد التكرارات. |
+| [setRunCount(byte value)](#setRunCount-byte-) | يحصل أو يعيّن عدد التكرارات. |
+| [getPointType()](#getPointType--) | يحصل أو يعيّن نوع النقطة. |
+| [setPointType(EmfPlusPathPointType value)](#setPointType-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathPointType-) | يحصل أو يعيّن نوع النقطة. |
 ### EmfPlusPathPointTypeRle() {#EmfPlusPathPointTypeRle--}
 ```
 public EmfPlusPathPointTypeRle()
@@ -42,7 +42,7 @@ public int getData()
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
@@ -54,14 +54,14 @@ public void setData(int value)
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBezier() {#getBezier--}
 ```
@@ -69,9 +69,9 @@ public boolean getBezier()
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusPathPointTypeRle` بيزيير. إذا تم تعيينه، تكون نقاط المسار على منحنى بيزيير. إذا لم يتم تعيينه، تكون نقاط المسار على خط رسومي.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان `EmfPlusPathPointTypeRle` من نوع Bezier. إذا تم تعيينه، تكون نقاط المسار على منحنى Bezier. إذا تم إلغاء تعيينه، تكون نقاط المسار على خط رسومي.
 
-القيمة: `true` إذا كان بيزيير؛ وإلا `false`.
+القيمة: `true` إذا كان Bezier؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -81,14 +81,14 @@ public void setBezier(boolean value)
 ```
 
 
-يسترجع أو يعيّن قيمة تشير إلى ما إذا كان هذا `EmfPlusPathPointTypeRle` بيزيير. إذا تم تعيينه، تكون نقاط المسار على منحنى بيزيير. إذا لم يتم تعيينه، تكون نقاط المسار على خط رسومي.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان `EmfPlusPathPointTypeRle` من نوع Bezier. إذا تم تعيينه، تكون نقاط المسار على منحنى Bezier. إذا تم إلغاء تعيينه، تكون نقاط المسار على خط رسومي.
 
-القيمة: `true` إذا كان بيزيير؛ وإلا `false`.
+القيمة: `true` إذا كان Bezier؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getRunCount() {#getRunCount--}
 ```
@@ -96,9 +96,9 @@ public byte getRunCount()
 ```
 
 
-يسترجع أو يعيّن عدد التتابعات. RunCount (6 بتات): عدد التتابعات، وهو عدد نقاط المسار التي سيتم ربطها بالنوع في حقل PointType
+يحصل أو يعيّن عدد التكرارات. RunCount (6 بت): عدد التكرارات، وهو عدد نقاط المسار التي يجب ربطها بالنوع في حقل PointType
 
-القيمة: عدد التتابعات.
+القيمة: عدد التكرارات.
 
 **Returns:**
 byte
@@ -108,14 +108,14 @@ public void setRunCount(byte value)
 ```
 
 
-يسترجع أو يعيّن عدد التتابعات. RunCount (6 بتات): عدد التتابعات، وهو عدد نقاط المسار التي سيتم ربطها بالنوع في حقل PointType
+يحصل أو يعيّن عدد التكرارات. RunCount (6 بت): عدد التكرارات، وهو عدد نقاط المسار التي يجب ربطها بالنوع في حقل PointType
 
-القيمة: عدد التتابعات.
+القيمة: عدد التكرارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getPointType() {#getPointType--}
 ```
@@ -123,7 +123,7 @@ public EmfPlusPathPointType getPointType()
 ```
 
 
-يسترجع أو يعيّن نوع النقطة. PointType (بايت واحد): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
+يحصل أو يعيّن نوع النقطة. PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
 
 القيمة: نوع النقطة.
 
@@ -135,7 +135,7 @@ public void setPointType(EmfPlusPathPointType value)
 ```
 
 
-يسترجع أو يعيّن نوع النقطة. PointType (بايت واحد): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
+يحصل أو يعيّن نوع النقطة. PointType (1 بايت): كائن EmfPlusPathPointType (القسم 2.2.2.31) الذي يحدد النوع لربطه بنقاط المسار.
 
 القيمة: نوع النقطة.
 

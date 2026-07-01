@@ -17,16 +17,16 @@ public class XmpException extends FrameworkException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpException()](#XmpException--) | ينشئ مثيلاً جديدًا من الفئة `XmpException`. |
-| [XmpException(String message)](#XmpException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `XmpException`. |
-| [XmpException(String message, Throwable innerException)](#XmpException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `XmpException`. |
+| [XmpException()](#XmpException--) | يُنشئ مثيلاً جديدًا من الفئة `XmpException`. |
+| [XmpException(String message)](#XmpException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `XmpException`. |
+| [XmpException(String message, Throwable innerException)](#XmpException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `XmpException`. |
 ### XmpException() {#XmpException--}
 ```
 public XmpException()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `XmpException`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpException`.
 
 ### XmpException(String message) {#XmpException-java.lang.String-}
 ```
@@ -34,7 +34,7 @@ public XmpException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `XmpException`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,7 +47,7 @@ public XmpException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `XmpException`.
+يُنشئ مثيلاً جديدًا من الفئة `XmpException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

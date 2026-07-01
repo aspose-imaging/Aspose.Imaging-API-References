@@ -14,7 +14,7 @@ public final class XmpDate extends XmpTypeBase
 
 يمثل التاريخ في حزمة XMP.
 
-قيمة تاريخ-وقت يتم تمثيلها باستخدام مجموعة فرعية من الصيغ كما هو معرف في صيغ التاريخ والوقت: YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY-MM-DDThh:mm:ss.sTZD
+يتم تمثيل قيمة التاريخ والوقت باستخدام مجموعة فرعية من الصيغ كما هو معرف في صيغ التاريخ والوقت: YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY-MM-DDThh:mm:ss.sTZD
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,15 +25,15 @@ public final class XmpDate extends XmpTypeBase
 
 | حقل | الوصف |
 | --- | --- |
-| [ISO_8601_FORMAT](#ISO-8601-FORMAT) | سلسلة تنسيق ISO 8601 (دورة كاملة). |
+| [ISO_8601_FORMAT](#ISO-8601-FORMAT) | سلسلة الصيغة ISO 8601 (دورة كاملة). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getValue()](#getValue--) | يحصل أو يضبط قيمة التاريخ. |
 | [setValue(Date value)](#setValue-java.util.Date-) | يحصل أو يضبط قيمة التاريخ. |
-| [getFormat()](#getFormat--) | يحصل على سلسلة التنسيق للقيمة الحالية. |
-| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة النصية المحتواة بتنسيق XMP. |
+| [getFormat()](#getFormat--) | يحصل على سلسلة الصيغة للقيمة الحالية. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة المحتواة كسلسلة بصيغة XMP. |
 ### XmpDate(Date dateTime) {#XmpDate-java.util.Date-}
 ```
 public XmpDate(Date dateTime)
@@ -45,7 +45,7 @@ public XmpDate(Date dateTime)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dateTime | java.util.Date | قيمة تاريخ-وقت يتم تمثيلها باستخدام جزء من تنسيق ISO RFC 8601. |
+| dateTime | java.util.Date | قيمة تاريخ ووقت يتم تمثيلها باستخدام مجموعة فرعية من تنسيق ISO RFC 8601. |
 
 ### XmpDate(String dateString) {#XmpDate-java.lang.String-}
 ```
@@ -58,7 +58,7 @@ public XmpDate(String dateString)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dateString | java.lang.String | تمثيل السلسلة للتاريخ. |
+| dateString | java.lang.String | التمثيل النصي للتاريخ. |
 
 ### ISO_8601_FORMAT {#ISO-8601-FORMAT}
 ```
@@ -66,9 +66,9 @@ public static final String ISO_8601_FORMAT
 ```
 
 
-سلسلة تنسيق ISO 8601 (دورة كاملة).
+سلسلة الصيغة ISO 8601 (دورة كاملة).
 
-المزيد: [ here ][here].
+انظر المزيد: [ here ][here].
 
 
 [here]: https://en.wikipedia.org/wiki/ISO_8601
@@ -98,7 +98,7 @@ public void setValue(Date value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.Date |  |
+| value | java.util.Date |  |
 
 ### getFormat() {#getFormat--}
 ```
@@ -106,9 +106,9 @@ public String getFormat()
 ```
 
 
-يحصل على سلسلة التنسيق للقيمة الحالية.
+يحصل على سلسلة الصيغة للقيمة الحالية.
 
-القيمة: سلسلة التنسيق للقيمة الحالية.
+القيمة: سلسلة الصيغة للقيمة الحالية.
 
 **Returns:**
 java.lang.String
@@ -118,7 +118,7 @@ public String getXmpRepresentation()
 ```
 
 
-يرجع القيمة النصية المحتواة بتنسيق XMP.
+يرجع القيمة المحتواة كسلسلة بصيغة XMP.
 
 **Returns:**
-java.lang.String - يُعيد سلسلة تحتوي على تمثيل xmp
+java.lang.String - يُرجع سلسلة تحتوي على تمثيل xmp

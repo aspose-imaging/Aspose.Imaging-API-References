@@ -17,7 +17,7 @@ public class CdrGradient
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CdrGradient()](#CdrGradient--) | ينشئ مثيلًا جديدًا من الفئة [CdrGradient](../../com.aspose.imaging.fileformats.cdr.types/cdrgradient). |
+| [CdrGradient()](#CdrGradient--) | ينشئ مثيلاً جديدًا من الفئة [CdrGradient](../../com.aspose.imaging.fileformats.cdr.types/cdrgradient). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -36,15 +36,15 @@ public class CdrGradient
 | [setCenterXOffset(int value)](#setCenterXOffset-int-) | يضبط إزاحة المركز x. |
 | [getCenterYOffset()](#getCenterYOffset--) | يحصل على إزاحة المركز y. |
 | [setCenterYOffset(int value)](#setCenterYOffset-int-) | يضبط إزاحة المركز y. |
-| [getStops()](#getStops--) | يحصل على الوقفات. |
-| [setStops(List<CdrGradientStop> value)](#setStops-java.util.List-com.aspose.imaging.fileformats.cdr.types.CdrGradientStop--) | يضبط الوقفات. |
+| [getStops()](#getStops--) | يحصل على نقاط التوقف. |
+| [setStops(List<CdrGradientStop> value)](#setStops-java.util.List-com.aspose.imaging.fileformats.cdr.types.CdrGradientStop--) | يضبط نقاط التوقف. |
 ### CdrGradient() {#CdrGradient--}
 ```
 public CdrGradient()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة [CdrGradient](../../com.aspose.imaging.fileformats.cdr.types/cdrgradient).
+ينشئ مثيلاً جديدًا من الفئة [CdrGradient](../../com.aspose.imaging.fileformats.cdr.types/cdrgradient).
 
 ### getType() {#getType--}
 ```
@@ -67,7 +67,7 @@ public final void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 
 ### getMode() {#getMode--}
 ```
@@ -90,7 +90,7 @@ public final void setMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الوضع. |
+| value | int | الوضع. |
 
 ### getAngle() {#getAngle--}
 ```
@@ -113,7 +113,7 @@ public final void setAngle(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الزاوية. |
+| value | double | الزاوية. |
 
 ### getMidPoint() {#getMidPoint--}
 ```
@@ -136,7 +136,7 @@ public final void setMidPoint(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | نقطة المنتصف. |
+| value | double | نقطة المنتصف. |
 
 ### getEdgeOffset() {#getEdgeOffset--}
 ```
@@ -159,7 +159,7 @@ public final void setEdgeOffset(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إزاحة الحافة. |
+| value | int | إزاحة الحافة. |
 
 ### getCenterXOffset() {#getCenterXOffset--}
 ```
@@ -170,7 +170,7 @@ public final int getCenterXOffset()
 يحصل على إزاحة المركز x.
 
 **Returns:**
-int - إزاحة x للمركز.
+int - إزاحة المركز x.
 ### setCenterXOffset(int value) {#setCenterXOffset-int-}
 ```
 public final void setCenterXOffset(int value)
@@ -182,7 +182,7 @@ public final void setCenterXOffset(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إزاحة المركز x. |
+| value | int | إزاحة المركز x. |
 
 ### getCenterYOffset() {#getCenterYOffset--}
 ```
@@ -193,7 +193,7 @@ public final int getCenterYOffset()
 يحصل على إزاحة المركز y.
 
 **Returns:**
-int - إزاحة y للمركز.
+int - إزاحة المركز y.
 ### setCenterYOffset(int value) {#setCenterYOffset-int-}
 ```
 public final void setCenterYOffset(int value)
@@ -205,7 +205,7 @@ public final void setCenterYOffset(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | إزاحة y المركز. |
+| value | int | إزاحة y المركزية. |
 
 ### getStops() {#getStops--}
 ```
@@ -213,7 +213,7 @@ public final List<CdrGradientStop> getStops()
 ```
 
 
-يحصل على الوقفات.
+يحصل على نقاط التوقف.
 
 **Returns:**
 java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> - نقاط التوقف.
@@ -223,10 +223,10 @@ public final void setStops(List<CdrGradientStop> value)
 ```
 
 
-يضبط الوقفات.
+يضبط نقاط التوقف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> | نقاط التوقف. |
+| value | java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> | نقاط التوقف. |
 

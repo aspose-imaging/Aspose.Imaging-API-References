@@ -76,5 +76,5 @@ public final void setOffset(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الإزاحة. |
+| value | double | الإزاحة. |
 

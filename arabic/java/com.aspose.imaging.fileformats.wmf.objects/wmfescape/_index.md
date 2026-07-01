@@ -1,18 +1,18 @@
 ---
 title: "WmfEscape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الكائن wmf escape."
+description: "كائن wmf escape."
 type: docs
 weight: 33
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfescape/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfEscape extends WmfObject
 ```
 
-الكائن wmf escape.
+كائن wmf escape.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -57,7 +57,7 @@ public void setEscapeType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getEscapeRecord() {#getEscapeRecord--}
 ```

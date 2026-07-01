@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.ico/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [IcoImage](../com.aspose.imaging.fileformats.ico/icoimage) | تعديل ملفات ICO بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم تنسيقات ملفات وأنواع إطارات مختلفة بما في ذلك PNG و BMP. |
+| [IcoImage](../com.aspose.imaging.fileformats.ico/icoimage) | قم بالتعامل بسهولة مع ملفات صور ICO باستخدام API الخاصة بنا، مع دعم صيغ ملفات مختلفة وأنواع الإطارات بما في ذلك PNG و BMP. |

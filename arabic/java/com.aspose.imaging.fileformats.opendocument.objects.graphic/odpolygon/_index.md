@@ -17,7 +17,7 @@ public class OdPolygon extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdPolygon(OdObject parent)](#OdPolygon-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdPolygon`. |
+| [OdPolygon(OdObject parent)](#OdPolygon-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdPolygon`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,12 +30,12 @@ public OdPolygon(OdObject parent)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `OdPolygon`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdPolygon`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getPoints() {#getPoints--}
 ```

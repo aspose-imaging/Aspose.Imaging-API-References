@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public class XmpBasicPackage extends XmpPackage
 ```
@@ -17,15 +17,15 @@ public class XmpBasicPackage extends XmpPackage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpBasicPackage()](#XmpBasicPackage--) | يُنشئ مثيلاً جديداً من الفئة `XmpBasicPackage`. |
-| [XmpBasicPackage(String prefix, String namespaceUri)](#XmpBasicPackage-java.lang.String-java.lang.String-) | يُنشئ مثيلاً جديداً من الفئة `XmpBasicPackage`. |
+| [XmpBasicPackage()](#XmpBasicPackage--) | ينشئ مثيلاً جديدًا للفئة `XmpBasicPackage`. |
+| [XmpBasicPackage(String prefix, String namespaceUri)](#XmpBasicPackage-java.lang.String-java.lang.String-) | ينشئ مثيلاً جديدًا للفئة `XmpBasicPackage`. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [RATING_REJECTED](#RATING-REJECTED) | قيمة التقييم المرفوضة. |
-| [RATING_MIN](#RATING-MIN) | القيمة الدنيا للتقييم. |
-| [RATING_MAX](#RATING-MAX) | القيمة القصوى للتقييم. |
+| [RATING_MIN](#RATING-MIN) | قيمة الحد الأدنى للتقييم. |
+| [RATING_MAX](#RATING-MAX) | قيمة الحد الأقصى للتقييم. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -35,7 +35,7 @@ public class XmpBasicPackage extends XmpPackage
 | [setCreatedDate(Date createdDate)](#setCreatedDate-java.util.Date-) | يضيف تاريخ إنشاء المورد. |
 | [setCreatedDate(String createdDate)](#setCreatedDate-java.lang.String-) | يضيف تاريخ إنشاء المورد. |
 | [setCreatorTool(String creatorTool)](#setCreatorTool-java.lang.String-) | يضبط أداة الإنشاء. |
-| [setIdentifier(String[] identifier)](#setIdentifier-java.lang.String---) | يضبط المعرف. |
+| [setIdentifier(String[] identifier)](#setIdentifier-java.lang.String---) | يضبط المعرّف. |
 | [setMetadataDate(Date metadataDate)](#setMetadataDate-java.util.Date-) | يضيف تاريخ آخر تعديل للبيانات الوصفية. |
 | [setMetadataDate(String metadataDate)](#setMetadataDate-java.lang.String-) | يضيف تاريخ آخر تعديل للبيانات الوصفية. |
 | [setModifyDate(Date modifiedDate)](#setModifyDate-java.util.Date-) | يضيف تاريخ آخر تعديل للمورد. |
@@ -47,7 +47,7 @@ public XmpBasicPackage()
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `XmpBasicPackage`.
+ينشئ مثيلاً جديدًا للفئة `XmpBasicPackage`.
 
 ### XmpBasicPackage(String prefix, String namespaceUri) {#XmpBasicPackage-java.lang.String-java.lang.String-}
 ```
@@ -55,13 +55,13 @@ public XmpBasicPackage(String prefix, String namespaceUri)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `XmpBasicPackage`.
+ينشئ مثيلاً جديدًا للفئة `XmpBasicPackage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بادئة | java.lang.String | البادئة. |
-| namespaceUri | java.lang.String | URI مساحة الاسم. |
+| السابقة | java.lang.String | السابقة. |
+| namespaceUri | java.lang.String | معرّف URI للمساحة الاسمية. |
 
 ### RATING_REJECTED {#RATING-REJECTED}
 ```
@@ -77,7 +77,7 @@ public static final int RATING_MIN
 ```
 
 
-القيمة الدنيا للتقييم.
+قيمة الحد الأدنى للتقييم.
 
 ### RATING_MAX {#RATING-MAX}
 ```
@@ -85,7 +85,7 @@ public static final int RATING_MAX
 ```
 
 
-القيمة القصوى للتقييم.
+قيمة الحد الأقصى للتقييم.
 
 ### setLabel(String label) {#setLabel-java.lang.String-}
 ```
@@ -111,8 +111,8 @@ public void addValue(String key, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه مع القيمة المضافة. |
-| القيمة | java.lang.String | القيمة النصية. |
+| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه بالقيمة المضافة. |
+| value | java.lang.String | القيمة النصية. |
 
 ### setCreatedDate(Date createdDate) {#setCreatedDate-java.util.Date-}
 ```
@@ -159,12 +159,12 @@ public void setIdentifier(String[] identifier)
 ```
 
 
-يضبط المعرف.
+يضبط المعرّف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| identifier | java.lang.String[] | المعرّف. |
+| معرف | java.lang.String[] | المعرف. |
 
 ### setMetadataDate(Date metadataDate) {#setMetadataDate-java.util.Date-}
 ```
@@ -203,7 +203,7 @@ public void setModifyDate(Date modifiedDate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| modifiedDate | java.util.Date | تاريخ التعديل الأخير. |
+| modifiedDate | java.util.Date | تاريخ آخر تعديل. |
 
 ### setModifyDate(String modifiedDate) {#setModifyDate-java.lang.String-}
 ```
@@ -216,7 +216,7 @@ public void setModifyDate(String modifiedDate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| modifiedDate | java.lang.String | تاريخ التعديل الأخير. |
+| modifiedDate | java.lang.String | تاريخ آخر تعديل. |
 
 ### setRating(int choice) {#setRating-int-}
 ```
@@ -229,5 +229,5 @@ public void setRating(int choice)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اختيار | int | من -1 حتى 5 |
+| اختيار | int | من -1 إلى 5 |
 

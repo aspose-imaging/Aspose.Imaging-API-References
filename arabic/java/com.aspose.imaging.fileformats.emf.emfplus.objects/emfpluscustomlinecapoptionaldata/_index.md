@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusCustomLineCapOptionalData"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusCustomLineCapOptionalData يحدد بيانات تعبئة وتحديد اختيارية لغطاء خط مخصص."
+description: "كائن EmfPlusCustomLineCapOptionalData يحدد بيانات التعبئة والحد الخارجي الاختيارية لغطاء خط مخصص."
 type: docs
 weight: 37
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusCustomLineCapOptionalData extends EmfPlusStructureObjectType
 ```
 
-كائن EmfPlusCustomLineCapOptionalData يحدد بيانات تعبئة وتحديد اختيارية لغطاء خط مخصص.
+كائن EmfPlusCustomLineCapOptionalData يحدد بيانات التعبئة والحد الخارجي الاختيارية لغطاء خط مخصص.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public final class EmfPlusCustomLineCapOptionalData extends EmfPlusStructureObje
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFillData()](#getFillData--) | يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) يحدد المسار لملء غطاء خط رسومي مخصص. |
-| [setFillData(EmfPlusFillPath value)](#setFillData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusFillPath-) | يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) يحدد المسار لملء غطاء خط رسومي مخصص. |
-| [getOutlineData()](#getOutlineData--) | يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) يحدد المسار لتحديد حدود غطاء خط رسومي مخصص. |
-| [setOutlineData(EmfPlusLinePath value)](#setOutlineData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinePath-) | يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) يحدد المسار لتحديد حدود غطاء خط رسومي مخصص. |
+| [getFillData()](#getFillData--) | يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) الذي يحدد المسار لتعبئة قبضة خط رسومي مخصصة. |
+| [setFillData(EmfPlusFillPath value)](#setFillData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusFillPath-) | يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) الذي يحدد المسار لتعبئة قبضة خط رسومي مخصصة. |
+| [getOutlineData()](#getOutlineData--) | يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) الذي يحدد المسار لتحديد حدود قبضة خط رسومي مخصصة. |
+| [setOutlineData(EmfPlusLinePath value)](#setOutlineData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinePath-) | يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) الذي يحدد المسار لتحديد حدود قبضة خط رسومي مخصصة. |
 ### EmfPlusCustomLineCapOptionalData() {#EmfPlusCustomLineCapOptionalData--}
 ```
 public EmfPlusCustomLineCapOptionalData()
@@ -38,7 +38,7 @@ public EmfPlusFillPath getFillData()
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) يحدد المسار لملء غطاء خط رسومي مخصص. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علامة CustomLineCapDataFillPath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
+يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) الذي يحدد المسار لتعبئة قبضة خط رسومي مخصصة. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علم CustomLineCapDataFillPath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
 
 **Returns:**
 [EmfPlusFillPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath)
@@ -48,7 +48,7 @@ public void setFillData(EmfPlusFillPath value)
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) يحدد المسار لملء غطاء خط رسومي مخصص. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علامة CustomLineCapDataFillPath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
+يحصل أو يعيّن كائن EmfPlusFillPath اختياري (القسم 2.2.2.17) الذي يحدد المسار لتعبئة قبضة خط رسومي مخصصة. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علم CustomLineCapDataFillPath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -61,7 +61,7 @@ public EmfPlusLinePath getOutlineData()
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) يحدد المسار لتحديد حدود غطاء خط رسومي مخصص. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علامة CustomLineCapDataLinePath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
+يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) الذي يحدد المسار لتحديد حدود قبضة خط رسومي مخصصة. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علم CustomLineCapDataLinePath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
 
 **Returns:**
 [EmfPlusLinePath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath)
@@ -71,7 +71,7 @@ public void setOutlineData(EmfPlusLinePath value)
 ```
 
 
-يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) يحدد المسار لتحديد حدود غطاء خط رسومي مخصص. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علامة CustomLineCapDataLinePath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
+يحصل أو يعيّن كائن EmfPlusLinePath اختياري (القسم 2.2.2.26) الذي يحدد المسار لتحديد حدود قبضة خط رسومي مخصصة. يجب أن يكون هذا الحقل موجودًا إذا تم تعيين علم CustomLineCapDataLinePath في حقل CustomLineCapDataFlags لكائن EmfPlusCustomLineCapData.
 
 **Parameters:**
 | معامل | نوع | الوصف |

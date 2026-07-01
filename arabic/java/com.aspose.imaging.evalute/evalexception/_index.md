@@ -17,7 +17,7 @@ public class EvalException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EvalException(String message, int position)](#EvalException-java.lang.String-int-) | يقوم بتهيئة نسخة جديدة من الفئة `EvalException`. |
+| [EvalException(String message, int position)](#EvalException-java.lang.String-int-) | ينشئ مثلاً جديداً من الفئة `EvalException`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public EvalException(String message, int position)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EvalException`.
+ينشئ مثلاً جديداً من الفئة `EvalException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

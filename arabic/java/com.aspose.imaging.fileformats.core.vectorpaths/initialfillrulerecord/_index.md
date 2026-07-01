@@ -1,25 +1,25 @@
 ---
 title: "InitialFillRuleRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Initial Fill Rule Record Class"
+description: "فئة سجل قاعدة التعبئة الأولية"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object، [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class InitialFillRuleRecord extends VectorPathRecord
 ```
 
-Initial Fill Rule Record Class
+فئة سجل قاعدة التعبئة الأولية
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [InitialFillRuleRecord()](#InitialFillRuleRecord--) | ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
-| [InitialFillRuleRecord(boolean isFillStartsWithAllPixels)](#InitialFillRuleRecord-boolean-) | ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
-| [InitialFillRuleRecord(byte[] data)](#InitialFillRuleRecord-byte---) | ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
+| [InitialFillRuleRecord()](#InitialFillRuleRecord--) | يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
+| [InitialFillRuleRecord(boolean isFillStartsWithAllPixels)](#InitialFillRuleRecord-boolean-) | يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
+| [InitialFillRuleRecord(byte[] data)](#InitialFillRuleRecord-byte---) | يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,7 +33,7 @@ public InitialFillRuleRecord()
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
+يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
 
 ### InitialFillRuleRecord(boolean isFillStartsWithAllPixels) {#InitialFillRuleRecord-boolean-}
 ```
@@ -41,7 +41,7 @@ public InitialFillRuleRecord(boolean isFillStartsWithAllPixels)
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
+يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ public InitialFillRuleRecord(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
+يُنشئ مثلاً جديداً من الفئة [InitialFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public final boolean isFillStartsWithAllPixels()
 القيمة: التعبئة تبدأ بجميع البكسلات.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كانت التعبئة تبدأ بجميع البكسلات.
+boolean - قيمة تشير إلى ما إذا كانت التعبئة تبدأ بجميع البكسلات.
 ### setFillStartsWithAllPixels(boolean value) {#setFillStartsWithAllPixels-boolean-}
 ```
 public final void setFillStartsWithAllPixels(boolean value)
@@ -86,7 +86,7 @@ public final void setFillStartsWithAllPixels(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان التعبئة تبدأ بجميع البكسلات. |
+| value | boolean | قيمة تشير إلى ما إذا كانت التعبئة تبدأ بجميع البكسلات. |
 
 ### getType() {#getType--}
 ```

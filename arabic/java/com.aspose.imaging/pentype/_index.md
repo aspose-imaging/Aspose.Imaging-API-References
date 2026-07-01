@@ -1,7 +1,7 @@
 ---
 title: "PenType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد نوع التعبئة التي يستخدمها كائن Pen لتعبئة الخطوط."
+description: "يحدد نوع التعبئة التي يستخدمها كائن Pen لملء الخطوط."
 type: docs
 weight: 83
 url: /ar/java/com.aspose.imaging/pentype/
@@ -18,10 +18,10 @@ public final class PenType extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [SolidColor](#SolidColor) | يحدد تعبئة صلبة. |
-| [HatchFill](#HatchFill) | يحدد تعبئة بنقش. |
+| [HatchFill](#HatchFill) | يحدد تعبئة بنقشة. |
 | [TextureFill](#TextureFill) | يحدد تعبئة بنقش bitmap. |
-| [PathGradient](#PathGradient) | يحدد تعبئة تدرج مسار. |
-| [LinearGradient](#LinearGradient) | يحدد تعبئة تدرج خطي. |
+| [PathGradient](#PathGradient) | يحدد تعبئة بتدرج مسار. |
+| [LinearGradient](#LinearGradient) | يحدد تعبئة بتدرج خطي. |
 ### SolidColor {#SolidColor}
 ```
 public static final int SolidColor
@@ -36,7 +36,7 @@ public static final int HatchFill
 ```
 
 
-يحدد تعبئة بنقش.
+يحدد تعبئة بنقشة.
 
 ### TextureFill {#TextureFill}
 ```
@@ -52,7 +52,7 @@ public static final int PathGradient
 ```
 
 
-يحدد تعبئة تدرج مسار.
+يحدد تعبئة بتدرج مسار.
 
 ### LinearGradient {#LinearGradient}
 ```
@@ -60,5 +60,5 @@ public static final int LinearGradient
 ```
 
 
-يحدد تعبئة تدرج خطي.
+يحدد تعبئة بتدرج خطي.
 

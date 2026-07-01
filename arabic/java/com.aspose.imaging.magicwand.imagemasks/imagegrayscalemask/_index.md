@@ -20,22 +20,22 @@ public class ImageGrayscaleMask implements IImageMask
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageGrayscaleMask(int width, int height)](#ImageGrayscaleMask-int-int-) | يُنشئ مثيلاً جديدًا للفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) مع العرض والارتفاع المحددين. |
-| [ImageGrayscaleMask(RasterImage image)](#ImageGrayscaleMask-com.aspose.imaging.RasterImage-) | يُنشئ مثيلاً جديدًا للفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) بحجم [RasterImage](../../com.aspose.imaging/rasterimage) الموجود المحدد. |
+| [ImageGrayscaleMask(int width, int height)](#ImageGrayscaleMask-int-int-) | ينشئ مثيلاً جديداً من الفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) مع العرض والارتفاع المحددين. |
+| [ImageGrayscaleMask(RasterImage image)](#ImageGrayscaleMask-com.aspose.imaging.RasterImage-) | ينشئ مثيلاً جديداً من الفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) بحجم الصورة النقطية [RasterImage](../../com.aspose.imaging/rasterimage) الموجودة المحددة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSource()](#getSource--) | يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة. |
-| [getWidth()](#getWidth--) | يحصل على عرض هذا القناع، بوحدة البكسل. |
-| [getHeight()](#getHeight--) | يحصل على ارتفاع هذا القناع، بوحدة البكسل. |
-| [getBounds()](#getBounds--) | يحصل على حدود هذا القناع، بوحدة البكسل. |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل. |
+| [getSource()](#getSource--) | يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت. |
+| [getWidth()](#getWidth--) | يحصل على العرض، بوحدات البكسل، لهذه القناع. |
+| [getHeight()](#getHeight--) | يحصل على الارتفاع، بوحدات البكسل، لهذه القناع. |
+| [getBounds()](#getBounds--) | يحصل على الحدود، بوحدات البكسل، لهذه القناع. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل. |
 | [get_Item(int x, int y)](#get-Item-int-int-) | يحصل على شفافية البكسل المحدد. |
 | [set_Item(int x, int y, byte value)](#set-Item-int-int-byte-) | يضبط شفافية البكسل المحدد. |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | يتحقق مما إذا كان البكسل المحدد غير شفاف. |
-| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كانت البكسل المحدد شفافة. |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة البايت. |
+| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كان البكسل المحدد شفافًا. |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة بايت. |
 | [deepClone()](#deepClone--) | ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي. |
 | [apply()](#apply--) | يطبق القناع الحالي على مصدر [RasterImage](../../com.aspose.imaging/rasterimage) إذا كان موجودًا. |
 | [applyTo(RasterImage image)](#applyTo-com.aspose.imaging.RasterImage-) | يطبق القناع الحالي على [RasterImage](../../com.aspose.imaging/rasterimage) المحدد. |
@@ -49,9 +49,9 @@ public class ImageGrayscaleMask implements IImageMask
 | [exclusiveDisjunction(ImageGrayscaleMask mask)](#exclusiveDisjunction-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | يحصل على التفريق الحصري للقناع الحالي مع القناع المقدم. |
 | [op_LogicalNot(ImageGrayscaleMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | يعكس القناع. |
 | [op_Addition(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | اتحاد قناعين. |
-| [op_Subtraction(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | طرح القناع الثاني من الأول. |
+| [op_Subtraction(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | اطرح القناع الثاني من الأول. |
 | [op_Multiply(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | تقاطع قناعين. |
-| [op_ExclusiveOr(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | الاختلاف الحصري لقناعين. |
+| [op_ExclusiveOr(ImageGrayscaleMask a, ImageGrayscaleMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-com.aspose.imaging.magicwand.imagemasks.ImageGrayscaleMask-) | اختلاف حصري بين قناعين. |
 
 ## Example: The example shows how to select a complicated area of an image using Magic Wand tool and the ability to interact with masks (invert, union, subtract).
 
@@ -60,11 +60,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -73,12 +73,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -90,13 +90,13 @@ public ImageGrayscaleMask(int width, int height)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) مع العرض والارتفاع المحددين.
+ينشئ مثيلاً جديداً من الفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) مع العرض والارتفاع المحددين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض القناع. |
-| الارتفاع | int | ارتفاع القناع. |
+| width | int | عرض القناع. |
+| height | int | ارتفاع القناع. |
 
 ### ImageGrayscaleMask(RasterImage image) {#ImageGrayscaleMask-com.aspose.imaging.RasterImage-}
 ```
@@ -104,7 +104,7 @@ public ImageGrayscaleMask(RasterImage image)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) بحجم [RasterImage](../../com.aspose.imaging/rasterimage) الموجود المحدد. سيتم تخزين [RasterImage](../../com.aspose.imaging/rasterimage) المحدد كصورة مصدر.
+يُنشئ مثيلًا جديدًا من الفئة [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) بالحجم المحدد لصورة [RasterImage](../../com.aspose.imaging/rasterimage) الموجودة. سيتم تخزين صورة [RasterImage](../../com.aspose.imaging/rasterimage) المحددة كصورة المصدر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -117,7 +117,7 @@ public final RasterImage getSource()
 ```
 
 
-يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة.
+يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت.
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - the source image used to create this mask, if exists.
@@ -127,27 +127,27 @@ public final int getWidth()
 ```
 
 
-يحصل على عرض هذا القناع، بوحدة البكسل.
+يحصل على العرض، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - العرض، بوحدات البكسل، لهذا القناع.
+int - العرض، بوحدات البكسل، لهذه القناع.
 ### getHeight() {#getHeight--}
 ```
 public final int getHeight()
 ```
 
 
-يحصل على ارتفاع هذا القناع، بوحدة البكسل.
+يحصل على الارتفاع، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - الارتفاع، بوحدات البكسل، لهذا القناع.
+int - الارتفاع، بوحدات البكسل، لهذه القناع.
 ### getBounds() {#getBounds--}
 ```
 public final Rectangle getBounds()
 ```
 
 
-يحصل على حدود هذا القناع، بوحدة البكسل.
+يحصل على الحدود، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds, in pixels, of this mask.
@@ -157,7 +157,7 @@ public final Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل.
+يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
@@ -172,8 +172,8 @@ public final byte get_Item(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي y للبكسل. القيمة: قيمة بايت؛ 0 إذا كان شفافًا؛ 255 إذا كان غير شفاف. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي ص للبيكسل. القيمة: قيمة بايت؛ 0 إذا كان شفافًا؛ 255 إذا كان غير شفاف. |
 
 **Returns:**
 byte
@@ -188,9 +188,9 @@ public final void set_Item(int x, int y, byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي y للبكسل. القيمة: قيمة بايت؛ 0 إذا كان شفافًا؛ 255 إذا كان غير شفاف. |
-| القيمة | byte | شفافية البكسل المحدد. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي ص للبيكسل. القيمة: قيمة بايت؛ 0 إذا كان شفافًا؛ 255 إذا كان غير شفاف. |
+| value | byte | الشفافية للبيكسل المحدد. |
 
 ### isOpaque(int x, int y) {#isOpaque-int-int-}
 ```
@@ -203,8 +203,8 @@ public final boolean isOpaque(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -214,13 +214,13 @@ public final boolean isTransparent(int x, int y)
 ```
 
 
-يتحقق مما إذا كانت البكسل المحدد شفافة.
+يتحقق مما إذا كان البكسل المحدد شفافًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد شفافًا؛ وإلا false.
@@ -230,13 +230,13 @@ public final byte getByteOpacity(int x, int y)
 ```
 
 
-يحصل على شفافية البكسل المحدد بدقة البايت.
+يحصل على شفافية البكسل المحدد بدقة بايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 byte - قيمة بايت، تمثل شفافية البكسل المحدد.
@@ -249,7 +249,7 @@ public final Object deepClone()
 ينشئ كائنًا جديدًا يكون نسخة من المثيل الحالي.
 
 **Returns:**
-java.lang.Object - كائن جديد هو نسخة من هذه المثيل.
+java.lang.Object - كائن جديد يكون نسخة من هذا المثيل.
 ### apply() {#apply--}
 ```
 public final void apply()
@@ -297,8 +297,8 @@ public final ImageGrayscaleMask crop(int width, int height)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض المحدد. |
-| الارتفاع | int | الارتفاع المحدد. |
+| width | int | العرض المحدد. |
+| height | int | الارتفاع المحدد. |
 
 **Returns:**
 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - A cropped [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask).
@@ -398,7 +398,7 @@ public static ImageGrayscaleMask op_LogicalNot(ImageGrayscaleMask a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | القناع الذي سيتم عكسه. |
+| a | [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) | القناع الذي سيُعكس. |
 
 **Returns:**
 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - New [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask).
@@ -424,7 +424,7 @@ public static ImageGrayscaleMask op_Subtraction(ImageGrayscaleMask a, ImageGrays
 ```
 
 
-طرح القناع الثاني من الأول.
+اطرح القناع الثاني من الأول.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -456,7 +456,7 @@ public static ImageGrayscaleMask op_ExclusiveOr(ImageGrayscaleMask a, ImageGrays
 ```
 
 
-الاختلاف الحصري لقناعين.
+اختلاف حصري بين قناعين.
 
 **Parameters:**
 | معامل | نوع | الوصف |

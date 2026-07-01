@@ -1,7 +1,7 @@
 ---
 title: "ImageOtherParameters"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معلمات صورة أخرى."
+description: "معلمات صورة أخرى"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.dng.decoder/imageotherparameters/
@@ -12,7 +12,7 @@ java.lang.Object
 public class ImageOtherParameters
 ```
 
-معلمات صورة أخرى.
+معلمات صورة أخرى
 ## الطرق
 
 | طريقة | الوصف |
@@ -21,10 +21,10 @@ public class ImageOtherParameters
 | [getArtist()](#getArtist--) | يحصل على مؤلف الصورة. |
 | [getTimestamp()](#getTimestamp--) | يحصل على تاريخ التصوير. |
 | [getShotOrder()](#getShotOrder--) | يحصل على الرقم التسلسلي للصورة. |
-| [getAperture()](#getAperture--) | يحصل على الفتحة. |
+| [getAperture()](#getAperture--) | يحصل على فتحة العدسة. |
 | [getShutterSpeed()](#getShutterSpeed--) | يحصل على سرعة الغالق. |
 | [getGpsData()](#getGpsData--) | يحصل على بيانات GPS. |
-| [getFocalLength()](#getFocalLength--) | يحصل على طول البؤري. |
+| [getFocalLength()](#getFocalLength--) | يحصل على طول البؤرة. |
 | [getIsoSpeed()](#getIsoSpeed--) | يحصل على حساسية ISO. |
 
 ## Example: This example shows how to load a DNG image from a file, print its properties and save it to PNG.
@@ -57,8 +57,8 @@ try {
 
     com.aspose.imaging.fileformats.dng.decoder.ImageOtherParameters otherParameters = rawData.getImageOtherParameters();
     if (otherParameters != null) {
-        // حوّل الطابع الزمني إلى سلسلة قابلة للقراءة البشرية.
-        //java.text.SimpleDateFormat sf = new java.text.SimpleDateFormat(\"yyyy-MM-dd\");
+        // تحويل الطابع الزمني إلى سلسلة قابلة للقراءة للإنسان.
+        //java.text.SimpleDateFormat sf = new java.text.SimpleDateFormat("yyyy-MM-dd");
         java.util.Date date = new java.util.Date(otherParameters.getTimestamp());
         //System.out.println(sf.format(date));
 
@@ -148,9 +148,9 @@ public float getAperture()
 ```
 
 
-يحصل على الفتحة.
+يحصل على فتحة العدسة.
 
-القيمة: الفتحة.
+القيمة: فتحة العدسة.
 
 **Returns:**
 float
@@ -184,7 +184,7 @@ public float getFocalLength()
 ```
 
 
-يحصل على طول البؤري.
+يحصل على طول البؤرة.
 
 القيمة: طول البؤري.
 

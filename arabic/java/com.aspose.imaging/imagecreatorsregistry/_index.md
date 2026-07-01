@@ -18,9 +18,9 @@ public final class ImageCreatorsRegistry
 | طريقة | الوصف |
 | --- | --- |
 | [getRegisteredFormats()](#getRegisteredFormats--) | يحصل على صيغ إنشاء الصور المسجلة. |
-| [getRegisteredDescriptors()](#getRegisteredDescriptors--) | يحصل على الوصفيات المسجلة. |
-| [register(IImageCreatorDescriptor creatorDescriptor)](#register-com.aspose.imaging.IImageCreatorDescriptor-) | يسجل الوصف المحدد لمنشئ الصورة. |
-| [getFirstSupportedDescriptor(ImageOptionsBase imageOptions)](#getFirstSupportedDescriptor-com.aspose.imaging.ImageOptionsBase-) | يحصل على أول وصف مدعوم تم العثور عليه مناسب للمحدد. |
+| [getRegisteredDescriptors()](#getRegisteredDescriptors--) | يحصل على الوصفات المسجلة. |
+| [register(IImageCreatorDescriptor creatorDescriptor)](#register-com.aspose.imaging.IImageCreatorDescriptor-) | يسجل موصّف منشئ الصورة المحدد. |
+| [getFirstSupportedDescriptor(ImageOptionsBase imageOptions)](#getFirstSupportedDescriptor-com.aspose.imaging.ImageOptionsBase-) | يحصل على أول موصّف مدعوم تم العثور عليه مناسب للمحدد. |
 | [createFirstSupportedCreator(ImageOptionsBase imageOptions)](#createFirstSupportedCreator-com.aspose.imaging.ImageOptionsBase-) | ينشئ أول منشئ تم العثور عليه مناسب للمحدد. |
 | [registerCreator(IImageCreatorDescriptor creatorDescriptor)](#registerCreator-com.aspose.imaging.IImageCreatorDescriptor-) | يسجل المنشئ. |
 | [unregisterCreator(IImageCreatorDescriptor creatorDescriptor)](#unregisterCreator-com.aspose.imaging.IImageCreatorDescriptor-) | يلغي تسجيل المنشئ. |
@@ -32,7 +32,7 @@ public static long getRegisteredFormats()
 
 يحصل على صيغ إنشاء الصور المسجلة.
 
-القيمة: تنسيقات إنشاء الصورة المسجلة.
+القيمة: صيغ إنشاء الصور المسجلة.
 
 **Returns:**
 long
@@ -42,7 +42,7 @@ public static IImageCreatorDescriptor[] getRegisteredDescriptors()
 ```
 
 
-يحصل على الوصفيات المسجلة.
+يحصل على الوصفات المسجلة.
 
 القيمة: الوصفيات المسجلة.
 
@@ -54,12 +54,12 @@ public static void register(IImageCreatorDescriptor creatorDescriptor)
 ```
 
 
-يسجل الوصف المحدد لمنشئ الصورة.
+يسجل موصّف منشئ الصورة المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | وصف منشئ الصورة. |
+| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | موصّف منشئ الصورة. |
 
 ### getFirstSupportedDescriptor(ImageOptionsBase imageOptions) {#getFirstSupportedDescriptor-com.aspose.imaging.ImageOptionsBase-}
 ```
@@ -67,14 +67,14 @@ public static IImageCreatorDescriptor getFirstSupportedDescriptor(ImageOptionsBa
 ```
 
 
-يحصل على أول وصف مدعوم تم العثور عليه مناسب للمحدد.
+يحصل على أول موصّف مدعوم تم العثور عليه مناسب للمحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 |  | imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الصورة. |
 
-الوصف الأول للمنشئ سيكون فعليًا الأخير المسجل. |
+الموصّف الأول للمنشئ سيكون في الواقع الأخير المسجل. |
 
 **Returns:**
 [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) - The creator descriptor which supports the specified or null if no such descriptor is found.
@@ -91,7 +91,7 @@ public static IImageCreator createFirstSupportedCreator(ImageOptionsBase imageOp
 | --- | --- | --- |
 |  | imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الصورة. |
 
-المنشئ الأول سيكون فعليًا الأخير المسجل. |
+المنشئ الأول سيكون في الواقع الأخير المسجل. |
 
 **Returns:**
 [IImageCreator](../../com.aspose.imaging/iimagecreator) - The creator which supports the specified or null if no such creator is found.
@@ -106,7 +106,7 @@ public static void registerCreator(IImageCreatorDescriptor creatorDescriptor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | وصف المنشئ للتسجيل. |
+| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | موصّف المنشئ للتسجيل. |
 
 ### unregisterCreator(IImageCreatorDescriptor creatorDescriptor) {#unregisterCreator-com.aspose.imaging.IImageCreatorDescriptor-}
 ```
@@ -119,5 +119,5 @@ public static void unregisterCreator(IImageCreatorDescriptor creatorDescriptor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | وصف المنشئ. |
+| creatorDescriptor | [IImageCreatorDescriptor](../../com.aspose.imaging/iimagecreatordescriptor) | موصّف المنشئ. |
 

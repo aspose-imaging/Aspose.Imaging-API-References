@@ -1,43 +1,43 @@
 ---
 title: "TiffShortType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع TIFF القصير."
+description: "نوع tiff القصير."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffShortType extends TiffCommonArrayType
 ```
 
-نوع TIFF القصير.
+نوع tiff القصير.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffShortType(int tagId)](#TiffShortType-int-) | يقوم بإنشاء نسخة جديدة من الفئة `TiffShortType`. |
-| [TiffShortType(int tagId, int[] values)](#TiffShortType-int-int---) | يقوم بإنشاء نسخة جديدة من الفئة `TiffShortType`. |
+| [TiffShortType(int tagId)](#TiffShortType-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffShortType`. |
+| [TiffShortType(int tagId, int[] values)](#TiffShortType-int-int---) | ينشئ مثيلاً جديدًا من الفئة `TiffShortType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل أو يضبط البيانات. |
-| [setValues(int[] value)](#setValues-int---) | يحصل أو يضبط البيانات. |
+| [getValues()](#getValues--) | يحصل أو يعيّن البيانات. |
+| [setValues(int[] value)](#setValues-int---) | يحصل أو يعيّن البيانات. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffShortType(int tagId) {#TiffShortType-int-}
 ```
 public TiffShortType(int tagId)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `TiffShortType`.
+ينشئ مثيلاً جديدًا من الفئة `TiffShortType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -50,7 +50,7 @@ public TiffShortType(int tagId, int[] values)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `TiffShortType`.
+ينشئ مثيلاً جديدًا من الفئة `TiffShortType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public int[] getValues()
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
@@ -76,14 +76,14 @@ public void setValues(int[] value)
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -142,7 +142,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -150,7 +150,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -158,4 +158,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

@@ -1,7 +1,7 @@
 ---
 title: "EmfFlatternPath"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يقوم هذا السجل بتحويل أي منحنيات في المسار المحدد إلى سياق جهاز التشغيل؛ يجب تحويل كل منحنى إلى سلسلة من الخطوط."
+description: "يقوم هذا السجل بتحويل أي منحنيات في المسار المحدد إلى سياق جهاز التشغيل، ويجب تحويل كل منحنى MUST إلى سلسلة من الخطوط."
 type: docs
 weight: 60
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
@@ -17,12 +17,12 @@ public final class EmfFlatternPath extends EmfPathBracketRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfFlatternPath()](#EmfFlatternPath--) | يُنشئ مثيلًا جديدًا من الفئة `EmfFlatternPath`. |
+| [EmfFlatternPath()](#EmfFlatternPath--) | ينشئ مثيلًا جديدًا من الفئة `EmfFlatternPath`. |
 ### EmfFlatternPath() {#EmfFlatternPath--}
 ```
 public EmfFlatternPath()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfFlatternPath`.
+ينشئ مثيلًا جديدًا من الفئة `EmfFlatternPath`.
 

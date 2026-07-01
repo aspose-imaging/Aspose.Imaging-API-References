@@ -7,7 +7,7 @@ weight: 11
 url: /ar/java/com.aspose.imaging.shapesegments/linesegment/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/shapesegment)
+java.lang.Object، [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/shapesegment)
 ```
 public class LineSegment extends ShapeSegment
 ```
@@ -17,7 +17,7 @@ public class LineSegment extends ShapeSegment
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LineSegment(PointF startPoint, PointF endPoint)](#LineSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يُهيئ مثيلاً جديداً من الفئة `LineSegment`. |
+| [LineSegment(PointF startPoint, PointF endPoint)](#LineSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | ينشئ مثيلاً جديداً من الفئة `LineSegment`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public LineSegment(PointF startPoint, PointF endPoint)
 ```
 
 
-يُهيئ مثيلاً جديداً من الفئة `LineSegment`.
+ينشئ مثيلاً جديداً من الفئة `LineSegment`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

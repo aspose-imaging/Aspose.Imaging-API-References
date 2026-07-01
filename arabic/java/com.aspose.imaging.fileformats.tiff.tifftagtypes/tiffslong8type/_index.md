@@ -1,23 +1,23 @@
 ---
 title: "TiffSLong8Type"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع Tiff unsigned 64-bit."
+description: "نوع Tiff غير الموقّع 64-بت."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public class TiffSLong8Type extends TiffCommonArrayType
 ```
 
-نوع Tiff unsigned 64-bit.
+نوع Tiff غير الموقّع 64-بت.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffSLong8Type(int tagId)](#TiffSLong8Type-int-) | يقوم بإنشاء نسخة جديدة من [TiffSLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type) الفئة. |
+| [TiffSLong8Type(int tagId)](#TiffSLong8Type-int-) | ينشئ مثيلاً جديدًا من الفئة [TiffSLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,14 +29,14 @@ public class TiffSLong8Type extends TiffCommonArrayType
 | [getValue()](#getValue--) | يحصل على القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل على القيمة التي يحتويها هذا النوع من البيانات. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffSLong8Type(int tagId) {#TiffSLong8Type-int-}
 ```
 public TiffSLong8Type(int tagId)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من [TiffSLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type) الفئة.
+ينشئ مثيلاً جديدًا من الفئة [TiffSLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffslong8type).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,7 +113,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة التي يحتويها هذا النوع من البيانات. |
+| value | java.lang.Object | القيمة التي يحتويها هذا النوع من البيانات. |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -131,7 +131,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -139,4 +139,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

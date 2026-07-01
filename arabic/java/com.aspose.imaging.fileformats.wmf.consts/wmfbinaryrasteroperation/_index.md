@@ -1,7 +1,7 @@
 ---
 title: "WmfBinaryRasterOperation"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قسم التعداد BinaryRasterOperation يدرج رموز عمليات raster الثنائية."
+description: "قسم تعداد BinaryRasterOperation يسرد رموز عمليات الراستر الثنائية."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/
@@ -12,11 +12,11 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfBinaryRasterOperation extends System.Enum
 ```
 
-قسم تعداد BinaryRasterOperation يسرد رموز عمليات الرستر الثنائية. رموز عمليات الرستر تحدد كيفية دمج معالجة ملف الميتا للبتات من القلم المحدد مع البتات في صورة البت الوجهة.
+قسم تعداد BinaryRasterOperation يسرد رموز عمليات الرستر الثنائية. رموز عمليات الرستر تحدد كيفية دمج معالجة ملف الميتا للبتات من القلم المحدد مع البتات في صورة الوجهة.
 
 --------------------
 
-كل رمز عملية رستر يمثل عملية بوليانية يتم فيها دمج قيم البكسلات في القلم المحدد وصورة البت الوجهة. فيما يلي العاملان المستخدمان في هذه العمليات. العامل معنى P القلم المحدد D صورة البت الوجهة a AND بتية n NOT بتية (عكس) o OR بتية x XOR بتية حصرية.
+كل رمز عملية رستر يمثل عملية بوليانية يتم فيها دمج قيم البكسلات في القلم المحدد وصورة الوجهة. فيما يلي العاملان المستخدمان في هذه العمليات. العامل المعنى P القلم المحدد D صورة الوجهة a AND بتية n NOT بتية (عكس) o OR بتية x XOR بتية حصرية
 ## الحقول
 
 | حقل | الوصف |
@@ -27,16 +27,16 @@ public final class WmfBinaryRasterOperation extends System.Enum
 | [Notcopypen](#Notcopypen) | Pn، البكسل هو عكس لون القلم. |
 | [Maskpennot](#Maskpennot) | PDna، البكسل هو مزيج من الألوان المشتركة بين القلم وعكس الشاشة. |
 | [Not](#Not) | Dn، البكسل هو عكس لون الشاشة. |
-| [Xorpen](#Xorpen) | DPx، البكسل هو مزيج من الألوان في القلم أو في الشاشة، ولكن ليس في كليهما. |
+| [Xorpen](#Xorpen) | DPx، البكسل هو مزيج من الألوان الموجودة في القلم أو في الشاشة، ولكن ليس في كليهما. |
 | [Notmaskpen](#Notmaskpen) | DPan، البكسل هو عكس لون MASKPEN. |
 | [Maskpen](#Maskpen) | DPa، البكسل هو مزيج من الألوان المشتركة بين القلم والشاشة. |
 | [Notxorpen](#Notxorpen) | DPxn، البكسل هو عكس لون XORPEN. |
-| [Nop](#Nop) | D، البكسل يبقى دون تغيير. |
+| [Nop](#Nop) | D، يبقى البكسل دون تغيير. |
 | [Mergenotpen](#Mergenotpen) | DPno، البكسل هو مزيج من الألوان المشتركة بين الشاشة وعكس القلم. |
-| [Copypen](#Copypen) | P, Pixel هو لون القلم. |
-| [Mergepennot](#Mergepennot) | PDno, Pixel هو مزيج من لون القلم والعكس من لون الشاشة. |
-| [Mergepen](#Mergepen) | DPo, Pixel هو مزيج من لون القلم ولون الشاشة. |
-| [White](#White) | 1, Pixel دائمًا 1 |
+| [Copypen](#Copypen) | P، البكسل هو لون القلم. |
+| [Mergepennot](#Mergepennot) | PDno، البكسل هو مزيج من لون القلم وعكس لون الشاشة. |
+| [Mergepen](#Mergepen) | DPo، البكسل هو مزيج من لون القلم ولون الشاشة. |
+| [White](#White) | 1، البكسل دائمًا 1 |
 ### Black {#Black}
 ```
 public static final int Black
@@ -91,7 +91,7 @@ public static final int Xorpen
 ```
 
 
-DPx، البكسل هو مزيج من الألوان في القلم أو في الشاشة، ولكن ليس في كليهما.
+DPx، البكسل هو مزيج من الألوان الموجودة في القلم أو في الشاشة، ولكن ليس في كليهما.
 
 ### Notmaskpen {#Notmaskpen}
 ```
@@ -123,7 +123,7 @@ public static final int Nop
 ```
 
 
-D، البكسل يبقى دون تغيير.
+D، يبقى البكسل دون تغيير.
 
 ### Mergenotpen {#Mergenotpen}
 ```
@@ -139,7 +139,7 @@ public static final int Copypen
 ```
 
 
-P, Pixel هو لون القلم.
+P، البكسل هو لون القلم.
 
 ### Mergepennot {#Mergepennot}
 ```
@@ -147,7 +147,7 @@ public static final int Mergepennot
 ```
 
 
-PDno, Pixel هو مزيج من لون القلم والعكس من لون الشاشة.
+PDno، البكسل هو مزيج من لون القلم وعكس لون الشاشة.
 
 ### Mergepen {#Mergepen}
 ```
@@ -155,7 +155,7 @@ public static final int Mergepen
 ```
 
 
-DPo, Pixel هو مزيج من لون القلم ولون الشاشة.
+DPo، البكسل هو مزيج من لون القلم ولون الشاشة.
 
 ### White {#White}
 ```
@@ -163,5 +163,5 @@ public static final int White
 ```
 
 
-1, Pixel دائمًا 1
+1، البكسل دائمًا 1
 

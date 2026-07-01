@@ -7,7 +7,7 @@ weight: 11
 url: /ar/java/com.aspose.imaging.sources/fileopensource/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.Source](../../com.aspose.imaging/source)، [com.aspose.imaging.sources.FileSource](../../com.aspose.imaging.sources/filesource)
+java.lang.Object, [com.aspose.imaging.Source](../../com.aspose.imaging/source), [com.aspose.imaging.sources.FileSource](../../com.aspose.imaging.sources/filesource)
 ```
 public final class FileOpenSource extends FileSource
 ```

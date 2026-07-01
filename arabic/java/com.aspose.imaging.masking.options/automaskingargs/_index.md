@@ -1,7 +1,7 @@
 ---
 title: "AutoMaskingArgs"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل الوسائط المحددة لطرق القناع الآلية."
+description: "يمثل الوسائط المحددة لطرق القناع الآلية"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.masking.options/automaskingargs/
@@ -15,7 +15,7 @@ java.lang.Object
 public class AutoMaskingArgs implements IMaskingArgs
 ```
 
-يمثل الوسائط المحددة لطرق القناع الآلية.
+يمثل الوسائط المحددة لطرق القناع الآلية
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,21 +25,21 @@ public class AutoMaskingArgs implements IMaskingArgs
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNumberOfObjects()](#getNumberOfObjects--) | يحصل على عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية). |
-| [setNumberOfObjects(int value)](#setNumberOfObjects-int-) | يضبط عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية). |
+| [getNumberOfObjects()](#getNumberOfObjects--) | يحصل على عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية). |
+| [setNumberOfObjects(int value)](#setNumberOfObjects-int-) | يضبط عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية). |
 | [getObjectsRectangles()](#getObjectsRectangles--) | يحصل على مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). |
 | [setObjectsRectangles(Rectangle[] value)](#setObjectsRectangles-com.aspose.imaging.Rectangle---) | يضبط مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). |
-| [getObjectsPoints()](#getObjectsPoints--) | يحصل على النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأولية. |
-| [setObjectsPoints(Point[][] value)](#setObjectsPoints-com.aspose.imaging.Point-----) | يضبط النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأولية. |
+| [getObjectsPoints()](#getObjectsPoints--) | يحصل على النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects في الصورة الأولية. |
+| [setObjectsPoints(Point[][] value)](#setObjectsPoints-com.aspose.imaging.Point-----) | يضبط النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects في الصورة الأولية. |
 | [getOrphanedPoints()](#getOrphanedPoints--) | يحصل على النقاط التي لم تعد تنتمي إلى أي كائن (اختياري). |
 | [setOrphanedPoints(Point[] value)](#setOrphanedPoints-com.aspose.imaging.Point---) | يضبط النقاط التي لم تعد تنتمي إلى أي كائن (اختياري). |
-| [getPrecision()](#getPrecision--) | يحصل على دقة طريقة التجزئة (اختياري). |
-| [setPrecision(double value)](#setPrecision-double-) | يضبط دقة طريقة التجزئة (اختياري). |
+| [getPrecision()](#getPrecision--) | يحصل على دقة طريقة التقسيم (اختياري). |
+| [setPrecision(double value)](#setPrecision-double-) | يضبط دقة طريقة التقسيم (اختياري). |
 | [getMaxIterationNumber()](#getMaxIterationNumber--) | يحصل على الحد الأقصى لعدد التكرارات. |
 | [setMaxIterationNumber(int value)](#setMaxIterationNumber-int-) | يضبط الحد الأقصى لعدد التكرارات. |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
-يُظهر هذا المثال كيفية تفكيك صورة نقطية إلى صور متعددة باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تفكيك صورة نقطية إلى عدة صور باستخدام قناع الصورة وخوارزمية تجزئة K-means. قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -47,7 +47,7 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // حدد عدد العناقيد (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
+    // حدد عدد المجموعات (الكائنات المفصولة). القيمة الافتراضية هي 2، كائن المقدمة والخلفية.
     args.setNumberOfObjects(3);
 
     // حدد الحد الأقصى لعدد التكرارات.
@@ -56,7 +56,7 @@ try {
     // حدد دقة طريقة التجزئة (اختياري).
     args.setPrecision(1);
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[0])));
@@ -64,7 +64,7 @@ try {
     com.aspose.imaging.masking.options.MaskingOptions maskingOptions = new com.aspose.imaging.masking.options.MaskingOptions();
 
     // استخدم تجميع K-means.
-    // يتيح تجميع K-means تقسيم الصورة إلى عدة عناقيد (قطاعات) مستقلة.
+    // يتيح تجميع K-means تقسيم الصورة إلى عدة مجموعات مستقلة (مقاطع).
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.KMeans);
     maskingOptions.setDecompose(true);
     maskingOptions.setArgs(args);
@@ -73,7 +73,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -103,7 +103,7 @@ try {
 
 
 ## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
-يُظهر هذا المثال كيفية تحديد الاقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لفصل الخلفية عن كائنات الصورة في المقدمة.
+يوضح هذا المثال كيفية تحديد اقتراحات لخوارزمية قناع الصورة لتحسين دقة طريقة التجزئة (التجميع). قناع الصورة هو تقنية معالجة صور تُستخدم لتقسيم الخلفية عن كائنات الصورة في المقدمة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -111,14 +111,14 @@ com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspo
 try {
     com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-    // الاقتراح #1.
-    // حلل الصورة بصريًا وحدد منطقة الاهتمام. سيتضمن نتيجة التجزئة فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
+    // اقتراح #1.
+    // حلل الصورة بصريًا وحدد منطقة الاهتمام. نتيجة التجزئة ستشمل فقط الكائنات التي تقع بالكامل داخل هذه المنطقة.
     args.setObjectsRectangles(new com.aspose.imaging.Rectangle[]
             {
                     new com.aspose.imaging.Rectangle(86, 6, 270, 364),
             });
 
-    // الاقتراح #2.
+    // اقتراح #2.
     // حلل الصورة بصريًا وحدد النقاط التي تنتمي إلى الكائنات المفصولة.
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
@@ -127,7 +127,7 @@ try {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(319, 86)},
             });
 
-    // سيتم تخزين كل عنقود (قطاع) في ملف PNG منفصل.
+    // سيتم تخزين كل مجموعة (مقطع) في ملف PNG منفصل.
     com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
     exportOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
     exportOptions.setSource(new com.aspose.imaging.sources.StreamSource());
@@ -143,7 +143,7 @@ try {
     maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
     maskingOptions.setExportOptions(exportOptions);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -200,7 +200,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -269,7 +269,7 @@ maskingOptions.setExportOptions(exportOptions);
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.createSession(maskingOptions);
@@ -305,11 +305,11 @@ finally
     image.close();
 }
 
-// استئناف جلسة تمويه من ملف
+// استئناف جلسة القناع من ملف
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image2);
 
     com.aspose.imaging.masking.IMaskingSession session = masking.loadSession(sessionBackupFile);
@@ -371,26 +371,26 @@ public final int getNumberOfObjects()
 ```
 
 
-يحصل على عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية).
+يحصل على عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية).
 
 القيمة: عدد الكائنات.
 
 **Returns:**
-int - عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية).
+int - عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية).
 ### setNumberOfObjects(int value) {#setNumberOfObjects-int-}
 ```
 public final void setNumberOfObjects(int value)
 ```
 
 
-يضبط عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية).
+يضبط عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية).
 
 القيمة: عدد الكائنات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد الكائنات لتقسيم الصورة الأولية إلى (اختياري)، القيمة الافتراضية هي 2 (كائن وخلفية). |
+| value | int | عدد الكائنات لتقسيم الصورة الأولية إليها (اختياري)، القيمة الافتراضية هي 2 (كائن والخلفية). |
 
 ### getObjectsRectangles() {#getObjectsRectangles--}
 ```
@@ -398,26 +398,26 @@ public final Rectangle[] getObjectsRectangles()
 ```
 
 
-يحصل على مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
+يحصل على مستطيلات الكائنات التي تنتمي إلى كائنات منفصلة (اختياري). يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
 
 القيمة: مستطيلات الكائنات.
 
 **Returns:**
-com.aspose.imaging.Rectangle[] - مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري).
+com.aspose.imaging.Rectangle[] - مستطيلات الكائنات التي تنتمي إلى كائنات منفصلة (اختياري).
 ### setObjectsRectangles(Rectangle[] value) {#setObjectsRectangles-com.aspose.imaging.Rectangle---}
 ```
 public final void setObjectsRectangles(Rectangle[] value)
 ```
 
 
-يضبط مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
+يضبط مستطيلات الكائنات التي تنتمي إلى كائنات منفصلة (اختياري). يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
 
 القيمة: مستطيلات الكائنات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Rectangle\[\]](../../com.aspose.imaging/rectangle) | مستطيلات الكائنات التي تنتمي إلى الكائنات المفصولة (اختياري). |
+| value | [Rectangle\[\]](../../com.aspose.imaging/rectangle) | مستطيلات الكائنات التي تنتمي إلى كائنات منفصلة (اختياري). |
 
 ### getObjectsPoints() {#getObjectsPoints--}
 ```
@@ -425,26 +425,26 @@ public final Point[][] getObjectsPoints()
 ```
 
 
-يحصل على النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأولية. يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
+يحصل على النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأصلية. يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
 
 القيمة: نقاط الكائنات.
 
 **Returns:**
-com.aspose.imaging.Point[][] - النقاط التي تنتمي إلى الكائنات المفصولة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأولية.
+com.aspose.imaging.Point[][] - النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأصلية.
 ### setObjectsPoints(Point[][] value) {#setObjectsPoints-com.aspose.imaging.Point-----}
 ```
 public final void setObjectsPoints(Point[][] value)
 ```
 
 
-يضبط النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects في الصورة الأصلية. يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
+يضبط النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأصلية. يُستخدم هذا المعامل لزيادة دقة طريقة التجزئة.
 
 القيمة: نقاط الكائنات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Point\[\]](../../com.aspose.imaging/point) | النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects في الصورة الأصلية. |
+| value | [Point\[\]](../../com.aspose.imaging/point) | النقاط التي تنتمي إلى كائنات منفصلة (اختياري) إحداثيات NumberOfObjects التي تنتمي إلى كائنات NumberOfObjects من الصورة الأصلية. |
 
 ### getOrphanedPoints() {#getOrphanedPoints--}
 ```
@@ -479,7 +479,7 @@ public final double getPrecision()
 ```
 
 
-يحصل على دقة طريقة التجزئة (اختياري).
+يحصل على دقة طريقة التقسيم (اختياري).
 
 القيمة: دقة طريقة التجزئة (اختياري).
 
@@ -491,14 +491,14 @@ public final void setPrecision(double value)
 ```
 
 
-يضبط دقة طريقة التجزئة (اختياري).
+يضبط دقة طريقة التقسيم (اختياري).
 
 القيمة: دقة طريقة التجزئة (اختياري).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | دقة طريقة التجزئة (اختياري). |
+| value | double | دقة طريقة التجزئة (اختياري). |
 
 ### getMaxIterationNumber() {#getMaxIterationNumber--}
 ```
@@ -508,7 +508,7 @@ public final int getMaxIterationNumber()
 
 يحصل على الحد الأقصى لعدد التكرارات.
 
-القيمة: الحد الأقصى لعدد التكرارات.
+القيمة: الحد الأقصى الأقصى لعدد التكرارات.
 
 **Returns:**
 int - الحد الأقصى لعدد التكرارات.
@@ -520,10 +520,10 @@ public final void setMaxIterationNumber(int value)
 
 يضبط الحد الأقصى لعدد التكرارات.
 
-القيمة: الحد الأقصى لعدد التكرارات.
+القيمة: الحد الأقصى الأقصى لعدد التكرارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الحد الأقصى لعدد التكرارات. |
+| value | int | الحد الأقصى لعدد التكرارات. |
 

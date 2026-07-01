@@ -7,7 +7,7 @@ weight: 105
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfRealizePalette extends EmfStateRecordType
 ```
@@ -17,14 +17,14 @@ public final class EmfRealizePalette extends EmfStateRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfRealizePalette(EmfRecord source)](#EmfRealizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfRealizePalette`. |
+| [EmfRealizePalette(EmfRecord source)](#EmfRealizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfRealizePalette`. |
 ### EmfRealizePalette(EmfRecord source) {#EmfRealizePalette-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfRealizePalette(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfRealizePalette`.
+ينشئ مثيلاً جديداً من الفئة `EmfRealizePalette`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -21,19 +21,19 @@ public abstract class Image extends DataStreamSupporter implements IObjectWithBo
 | طريقة | الوصف |
 | --- | --- |
 | [canLoad(String filePath)](#canLoad-java.lang.String-) | يحدد ما إذا كان يمكن تحميل الصورة من مسار الملف المحدد. |
-| [canLoad(String filePath, LoadOptions loadOptions)](#canLoad-java.lang.String-com.aspose.imaging.LoadOptions-) | يحدد ما إذا كان يمكن تحميل الصورة من مسار الملف المحدد وباختياريًا باستخدام خيارات الفتح المحددة. |
+| [canLoad(String filePath, LoadOptions loadOptions)](#canLoad-java.lang.String-com.aspose.imaging.LoadOptions-) | يحدد ما إذا كان يمكن تحميل الصورة من مسار الملف المحدد وباختياري باستخدام خيارات الفتح المحددة. |
 | [canLoad(InputStream stream)](#canLoad-java.io.InputStream-) | يحدد ما إذا كان يمكن تحميل الصورة من الدفق المحدد. |
-| [canLoad(InputStream stream, LoadOptions loadOptions)](#canLoad-java.io.InputStream-com.aspose.imaging.LoadOptions-) | يحدد ما إذا كان يمكن تحميل الصورة من الدفق المحدد وباختياريًا باستخدام `loadOptions` المحددة. |
+| [canLoad(InputStream stream, LoadOptions loadOptions)](#canLoad-java.io.InputStream-com.aspose.imaging.LoadOptions-) | يحدد ما إذا كان يمكن تحميل الصورة من الدفق المحدد وباختياري باستخدام `loadOptions` المحددة. |
 | [create(ImageOptionsBase imageOptions, int width, int height)](#create-com.aspose.imaging.ImageOptionsBase-int-int-) | ينشئ صورة جديدة باستخدام خيارات الإنشاء المحددة. |
-| [create(ImageOptionsBase imageOptions, int width, int height, int[] pixels)](#create-com.aspose.imaging.ImageOptionsBase-int-int-int---) | ينشئ مثيلًا من [RasterImage](../../com.aspose.imaging/rasterimage) من مصفوفة البكسلات المقدمة. |
+| [create(ImageOptionsBase imageOptions, int width, int height, int[] pixels)](#create-com.aspose.imaging.ImageOptionsBase-int-int-int---) | ينشئ مثيلاً من [RasterImage](../../com.aspose.imaging/rasterimage) من مصفوفة البكسلات المقدمة. |
 | [create(Image[] images)](#create-com.aspose.imaging.Image---) | ينشئ صورة جديدة باستخدام الصور المحددة كصفحات |
-| [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | ينشئ خيارات إنشاء الصفحات المتعددة المحددة. |
-| [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | ينشئ صورة متعددة الصفحات تحتوي على الملفات المحددة. |
-| [create(String[] files)](#create-java.lang.String---) | ينشئ صورة متعددة الصفحات تحتوي على الملفات المحددة. |
+| [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | ينشئ خيارات إنشاء متعددة الصفحات المحددة. |
+| [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | ينشئ الصورة متعددة الصفحات التي تحتوي على الملفات المحددة. |
+| [create(String[] files)](#create-java.lang.String---) | ينشئ الصورة متعددة الصفحات التي تحتوي على الملفات المحددة. |
 | [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | ينشئ صورة جديدة باستخدام الصور المحددة كصفحات. |
 | [getFileFormat(String filePath)](#getFileFormat-java.lang.String-) | يحصل على تنسيق الملف. |
-| [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | يقوم بتحميل صورة جديدة من مسار الملف أو عنوان URL المحدد. |
-| [load(String filePath)](#load-java.lang.String-) | يقوم بتحميل صورة جديدة من مسار الملف أو عنوان URL المحدد. |
+| [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | يحمّل صورة جديدة من مسار الملف أو عنوان URL المحدد. |
+| [load(String filePath)](#load-java.lang.String-) | يحمّل صورة جديدة من مسار الملف أو عنوان URL المحدد. |
 | [load(RandomAccessFile file, LoadOptions loadOptions)](#load-java.io.RandomAccessFile-com.aspose.imaging.LoadOptions-) | يقوم بتحميل صورة جديدة من الدفق المحدد. |
 | [load(RandomAccessFile file)](#load-java.io.RandomAccessFile-) | يقوم بتحميل صورة جديدة من الدفق المحدد. |
 | [load(InputStream stream, LoadOptions loadOptions)](#load-java.io.InputStream-com.aspose.imaging.LoadOptions-) | يقوم بتحميل صورة جديدة من الدفق المحدد. |
@@ -41,10 +41,10 @@ public abstract class Image extends DataStreamSupporter implements IObjectWithBo
 | [getFileFormat(InputStream stream)](#getFileFormat-java.io.InputStream-) | يحصل على تنسيق الملف. |
 | [getFittingRectangle(Rectangle rectangle, int width, int height)](#getFittingRectangle-com.aspose.imaging.Rectangle-int-int-) | يحصل على المستطيل الذي يناسب الصورة الحالية. |
 | [getFittingRectangle(Rectangle rectangle, int[] pixels, int width, int height)](#getFittingRectangle-com.aspose.imaging.Rectangle-int---int-int-) | يحصل على المستطيل الذي يناسب الصورة الحالية. |
-| [getProportionalWidth(int width, int height, int newHeight)](#getProportionalWidth-int-int-int-) | يحصل على عرض متناسب. |
-| [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | يحصل على ارتفاع متناسب. |
+| [getProportionalWidth(int width, int height, int newHeight)](#getProportionalWidth-int-int-int-) | يحصل على عرض نسبي. |
+| [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | يحصل على ارتفاع نسبي. |
 | [removeMetadata()](#removeMetadata--) | يزيل البيانات الوصفية. |
-| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين نسخة `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق نوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
+| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين نسخة `metadata` إذا كان هذا الكائن [Image](../../com.aspose.imaging/image) يدعم ويطبق النوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد بتات الصورة لكل بكسل. |
 | [getBounds()](#getBounds--) | يحصل على حدود الصورة. |
 | [getContainer()](#getContainer--) | يحصل على حاوية `Image`. |
@@ -54,15 +54,15 @@ public abstract class Image extends DataStreamSupporter implements IObjectWithBo
 | [getSize()](#getSize--) | يحصل على حجم الصورة. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | يحصل على مراقب المقاطعة. |
 | [setInterruptMonitor(InterruptMonitor value)](#setInterruptMonitor-com.aspose.imaging.multithreading.InterruptMonitor-) | يضبط مراقب المقاطعة. |
-| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
-| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية. |
-| [isAutoAdjustPalette()](#isAutoAdjustPalette--) | يحصل على قيمة تشير إلى ما إذا كان تعديل اللوحة تلقائيًا. |
-| [setAutoAdjustPalette(boolean value)](#setAutoAdjustPalette-boolean-) | يضبط قيمة تشير إلى ما إذا كان تعديل اللوحة تلقائيًا. |
-| [hasBackgroundColor()](#hasBackgroundColor--) | يحصل على قيمة تشير إلى ما إذا كانت الصورة لديها لون خلفية. |
-| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية السهلة الاستخدام. |
-| [getBackgroundColor()](#getBackgroundColor--) | يحصل أو يضبط قيمة للون الخلفية. |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كانت الصورة لديها لون خلفية. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يحصل أو يضبط قيمة للون الخلفية. |
+| [getBufferSizeHint()](#getBufferSizeHint--) | يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
+| [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية. |
+| [isAutoAdjustPalette()](#isAutoAdjustPalette--) | يحصل على قيمة تشير إلى ما إذا كان تعديل لوحة الألوان تلقائيًا. |
+| [setAutoAdjustPalette(boolean value)](#setAutoAdjustPalette-boolean-) | يضبط قيمة تشير إلى ما إذا كان تعديل لوحة الألوان تلقائيًا. |
+| [hasBackgroundColor()](#hasBackgroundColor--) | يحصل على قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون خلفية. |
+| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. |
+| [getBackgroundColor()](#getBackgroundColor--) | يحصل أو يضبط قيمة لون الخلفية. |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون خلفية. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يحصل أو يضبط قيمة لون الخلفية. |
 | [getMetadata()](#getMetadata--) | يحصل على بيانات تعريف الصورة. |
 | [getExifData()](#getExifData--) | يحصل على بيانات Exif. |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | يضبط بيانات Exif. |
@@ -70,7 +70,7 @@ public abstract class Image extends DataStreamSupporter implements IObjectWithBo
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | يضبط بيانات Xmp. |
 | [getIProgressEventHandler()](#getIProgressEventHandler--) | يحصل على معلومات معالج حدث التقدم. |
 | [getProgressEventHandlerInfo()](#getProgressEventHandlerInfo--) | يحصل على معلومات معالج حدث التقدم. |
-| [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | يحدد ما إذا كان يمكن حفظ الصورة بالتنسيق الملف المحدد الممثل بخيارات الحفظ الممررة. |
+| [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | يحدد ما إذا كان يمكن حفظ الصورة إلى تنسيق الملف المحدد الممثل بخيارات الحفظ الممررة. |
 | [resize(int newWidth, int newHeight)](#resize-int-int-) | يُعيد تحجيم الصورة. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يُعيد تحجيم الصورة. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | يُعيد تحجيم الصورة. |
@@ -88,27 +88,27 @@ public abstract class Image extends DataStreamSupporter implements IObjectWithBo
 | [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | قص الصورة مع الإزاحات. |
 | [save()](#save--) | يحفظ بيانات الصورة إلى الدفق الأساسي. |
 | [save(String filePath)](#save-java.lang.String-) | يحفظ الصورة إلى موقع الملف المحدد. |
-| [save(String filePath, ImageOptionsBase options)](#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| [save(String filePath, ImageOptionsBase options, Rectangle boundsRectangle)](#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| [save(RandomAccessFile file, ImageOptionsBase options)](#save-java.io.RandomAccessFile-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| [save(RandomAccessFile file, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.RandomAccessFile-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| [save(OutputStream stream, ImageOptionsBase optionsBase)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
-| [save(OutputStream stream, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ. |
+| [save(String filePath, ImageOptionsBase options)](#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
+| [save(String filePath, ImageOptionsBase options, Rectangle boundsRectangle)](#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
+| [save(RandomAccessFile file, ImageOptionsBase options)](#save-java.io.RandomAccessFile-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
+| [save(RandomAccessFile file, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.RandomAccessFile-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
+| [save(OutputStream stream, ImageOptionsBase optionsBase)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
+| [save(OutputStream stream, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يضبط لوحة ألوان الصورة. |
 | [getSerializedStream(ImageOptionsBase imageOptions, Rectangle clippingRectangle, int[] pageNumber)](#getSerializedStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-int---) | يحول إلى aps. |
 
 ## Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.
-هذا المثال ينشئ ملف صورة جديد في موقع قرصي معين كما هو محدد بواسطة خاصية Source لكائن BmpOptions. يتم تعيين عدة خصائص لكائن BmpOptions قبل إنشاء الصورة الفعلية. خاصةً خاصية Source التي تشير إلى الموقع القرصي الفعلي في هذه الحالة.
+هذا المثال ينشئ ملف صورة جديد في موقع قرص معين كما هو محدد بواسطة خاصية Source لكائن BmpOptions. يتم تعيين عدة خصائص لكائن BmpOptions قبل إنشاء الصورة الفعلية. خاصةً خاصية Source التي تشير إلى موقع القرص الفعلي في هذه الحالة.
 ``` java
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء مثيل من Image وتهيئته بمثيل BmpOptions عن طريق استدعاء طريقة Create.
+// أنشئ مثيلاً من Image وابدأه بمثيل BmpOptions عن طريق استدعاء طريقة Create.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
     // قم ببعض معالجة الصورة.
@@ -184,7 +184,7 @@ public static boolean canLoad(String filePath, LoadOptions loadOptions)
 ```
 
 
-يحدد ما إذا كان يمكن تحميل الصورة من مسار الملف المحدد وباختياريًا باستخدام خيارات الفتح المحددة.
+يحدد ما إذا كان يمكن تحميل الصورة من مسار الملف المحدد وباختياري باستخدام خيارات الفتح المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -205,7 +205,7 @@ public static boolean canLoad(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | الدفق للتحميل منه. |
+| تدفق | java.io.InputStream | الدفق للتحميل منه. |
 
 **Returns:**
 منطقي - `true` إذا كان يمكن تحميل الصورة من الدفق المحدد؛ وإلا `false`.
@@ -225,7 +225,7 @@ try {
     stream.close();
 }
 
-// البيانات التالية ليست دفق صورة صالح، لذا تُعيد CanLoad القيمة false.
+// البيانات التالية ليست تدفق صورة صالح، لذا تُعيد CanLoad القيمة false.
 byte[] imageData = new byte[]{0, 0, 0, 0, 0, 0, 0, 0};
 stream = new java.io.ByteArrayInputStream(imageData);
 {
@@ -239,12 +239,12 @@ public static boolean canLoad(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-يحدد ما إذا كان يمكن تحميل الصورة من الدفق المحدد وباختياريًا باستخدام `loadOptions` المحددة.
+يحدد ما إذا كان يمكن تحميل الصورة من الدفق المحدد وباختياري باستخدام `loadOptions` المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | الدفق للتحميل منه. |
+| تدفق | java.io.InputStream | الدفق للتحميل منه. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 **Returns:**
@@ -261,24 +261,24 @@ public static Image create(ImageOptionsBase imageOptions, int width, int height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الصورة. |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The newly created image.
 
 **Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.**
-هذا المثال ينشئ ملف صورة جديد في موقع قرصي معين كما هو محدد بواسطة خاصية Source لكائن BmpOptions. يتم تعيين عدة خصائص لكائن BmpOptions قبل إنشاء الصورة الفعلية. خاصةً خاصية Source التي تشير إلى الموقع القرصي الفعلي في هذه الحالة.
+هذا المثال ينشئ ملف صورة جديد في موقع قرص معين كما هو محدد بواسطة خاصية Source لكائن BmpOptions. يتم تعيين عدة خصائص لكائن BmpOptions قبل إنشاء الصورة الفعلية. خاصةً خاصية Source التي تشير إلى موقع القرص الفعلي في هذه الحالة.
 ``` java
-// إنشاء مثيل من BmpOptions وتعيين خصائصه المتنوعة.
+// أنشئ مثيلاً من BmpOptions واضبط خصائصه المتنوعة.
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+// أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 // المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// إنشاء مثيل من Image وتهيئته بمثيل BmpOptions عن طريق استدعاء طريقة Create.
+// أنشئ مثيلاً من Image وابدأه بمثيل BmpOptions عن طريق استدعاء طريقة Create.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
     // قم ببعض معالجة الصورة.
@@ -296,7 +296,7 @@ public static Image create(ImageOptionsBase imageOptions, int width, int height,
 ```
 
 
-ينشئ كائن [RasterImage](../../com.aspose.imaging/rasterimage) من مصفوفة البكسلات المقدمة. يتحقق من أن العرض والارتفاع المحددين يتطابقان مع أبعاد بيانات البكسل. لا يمكن استخدام هذه الطريقة إلا عندما تكون المكتبة في وضع الترخيص.
+ينشئ كائنًا من نوع [RasterImage](../../com.aspose.imaging/rasterimage) من مصفوفة البكسلات المقدمة. يتحقق من أن العرض والارتفاع المحددين يتطابقان مع أبعاد بيانات البكسل. لا يمكن استخدام هذه الطريقة إلا عندما تكون المكتبة في وضع الترخيص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -329,7 +329,7 @@ public static Image create(MultipageCreateOptions multipageCreateOptions)
 ```
 
 
-ينشئ خيارات إنشاء الصفحات المتعددة المحددة.
+ينشئ خيارات إنشاء متعددة الصفحات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -344,13 +344,13 @@ public static Image create(String[] files, boolean throwExceptionOnLoadError)
 ```
 
 
-ينشئ صورة متعددة الصفحات تحتوي على الملفات المحددة.
+ينشئ الصورة متعددة الصفحات التي تحتوي على الملفات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | ملفات | java.lang.String[] | الملفات. |
-| throwExceptionOnLoadError | boolean | إذا تم تعيينه إلى `true` [throw exception on load error]. |
+| throwExceptionOnLoadError | boolean | إذا تم تعيينه إلى `true` [إلقاء استثناء عند خطأ التحميل]. |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The multipage image
@@ -360,7 +360,7 @@ public static Image create(String[] files)
 ```
 
 
-ينشئ صورة متعددة الصفحات تحتوي على الملفات المحددة.
+ينشئ الصورة متعددة الصفحات التي تحتوي على الملفات المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -381,7 +381,7 @@ public static Image create(Image[] images, boolean disposeImages)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | images | [Image\[\]](../../com.aspose.imaging/image) | الصور. |
-| disposeImages | boolean | إذا تم تعيينه إلى `true` [dispose images]. |
+| disposeImages | boolean | إذا تم تعيينه إلى `true` [تخلص من الصور]. |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The Image as IMultipageImage
@@ -398,7 +398,7 @@ public static long getFileFormat(String filePath)
 | --- | --- | --- |
 |  | filePath | java.lang.String | مسار الملف. |
 
-إن تنسيق الملف المحدد لا يعني أن الصورة المحددة يمكن تحميلها. استخدم أحد التحميلات الزائدة لطريقة CanLoad لتحديد ما إذا كان يمكن تحميل الملف. |
+تنسيق الملف المحدد لا يعني أن الصورة المحددة يمكن تحميلها. استخدم أحد التحميلات الزائدة لطريقة CanLoad لتحديد ما إذا كان يمكن تحميل الملف. |
 
 **Returns:**
 long - تنسيق الملف المحدد.
@@ -489,7 +489,7 @@ public static Image load(String filePath)
 [Image](../../com.aspose.imaging/image) - The loaded image.
 
 **Example: This example demonstrates the loading of an existing Image file into an instance of com.**
-يوضح هذا المثال تحميل ملف صورة موجود إلى كائن من com.aspose.imaging.Image باستخدام مسار الملف المحدد
+يوضح هذا المثال تحميل ملف صورة موجود إلى كائن من نوع com.aspose.imaging.Image باستخدام مسار الملف المحدد
 ``` java
 // إنشاء كائن Image وتهيئته بملف صورة موجود من موقع القرص
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
@@ -542,7 +542,7 @@ public static Image load(InputStream stream, LoadOptions loadOptions)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق البيانات لتحميل الصورة منه. |
+| تدفق | java.io.InputStream | الدفق لتحميل الصورة منه. |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | خيارات التحميل. |
 
 **Returns:**
@@ -558,7 +558,7 @@ public static Image load(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق البيانات لتحميل الصورة منه. |
+| تدفق | java.io.InputStream | الدفق لتحميل الصورة منه. |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.
@@ -592,9 +592,9 @@ public static long getFileFormat(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | التدفق | java.io.InputStream | المجرى. |
+|  | تدفق | java.io.InputStream | التدفق. |
 
-تنسيق الملف المحدد لا يعني أن الصورة المحددة يمكن تحميلها. استخدم أحد التحميلات الزائدة لطريقة CanLoad لتحديد ما إذا كان يمكن تحميل الدفق. |
+تحديد صيغة الملف لا يعني أن الصورة المحددة يمكن تحميلها. استخدم أحد التحميلات الزائدة لطريقة CanLoad لتحديد ما إذا كان يمكن تحميل الدفق. |
 
 **Returns:**
 long - تنسيق الملف المحدد.
@@ -603,9 +603,9 @@ long - تنسيق الملف المحدد.
 
 ``` java
 
-// فئة المساعدة المستخدمة في المثال الرئيسي أدناه.
+// فئة المساعد المستخدمة في المثال الرئيسي أدناه.
 class Utils {
-    // طريقة المساعدة للحصول على تمثيل نصي لتنسيق الملف.
+    // طريقة المساعد للحصول على تمثيل نصي لصيغة الملف.
     public String getFileFormatString(long fileFormat) {
         if (fileFormat == com.aspose.imaging.FileFormat.Bmp) {
             return "BMP";
@@ -649,7 +649,7 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
 String dir = "c:\\temp\\";
@@ -661,7 +661,7 @@ java.io.InputStream stream = new java.io.FileInputStream(dir + "sample.bmp");
     System.out.println("The file format is " + utils.getFileFormatString(format));
 }
 
-// البيانات التالية ليست دفق صورة صالح، لذلك تُعيد GetFileFormat القيمة FileFormat.Undefined.
+// البيانات التالية ليست دفق صورة صالح، لذا تُعيد GetFileFormat القيمة FileFormat.Undefined.
 byte[] imageData = new byte[]{0, 0, 0, 0, 0, 0, 0, 0};
 stream = new java.io.ByteArrayInputStream(imageData);
 {
@@ -670,8 +670,8 @@ stream = new java.io.ByteArrayInputStream(imageData);
 }
 
 // قد يبدو الإخراج هكذا:
-// تنسيق الملف هو BMP
-// تنسيق الملف هو UNDEFINED
+// صيغة الملف هي BMP
+// صيغة الملف هي UNDEFINED
 ```
 
 ### getFittingRectangle(Rectangle rectangle, int width, int height) {#getFittingRectangle-com.aspose.imaging.Rectangle-int-int-}
@@ -686,8 +686,8 @@ public static Rectangle getFittingRectangle(Rectangle rectangle, int width, int 
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل للحصول على المستطيل المناسب له. |
-| العرض | int | عرض الكائن. |
-| الارتفاع | int | ارتفاع الكائن. |
+| width | int | عرض الكائن. |
+| height | int | ارتفاع الكائن. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The fitting rectangle or exception if no fitting rectangle can be found.
@@ -704,8 +704,8 @@ public static Rectangle getFittingRectangle(Rectangle rectangle, int[] pixels, i
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل للحصول على المستطيل المناسب له. |
 | بكسلات | int[] | بكسلات ARGB 32-بت. |
-| العرض | int | عرض الكائن. |
-| الارتفاع | int | ارتفاع الكائن. |
+| width | int | عرض الكائن. |
+| height | int | ارتفاع الكائن. |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The fitting rectangle or exception if no fitting rectangle can be found.
@@ -715,13 +715,13 @@ public static int getProportionalWidth(int width, int height, int newHeight)
 ```
 
 
-يحصل على عرض متناسب.
+يحصل على عرض نسبي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 | newHeight | int | الارتفاع الجديد. |
 
 **Returns:**
@@ -732,13 +732,13 @@ public static int getProportionalHeight(int width, int height, int newWidth)
 ```
 
 
-يحصل على ارتفاع متناسب.
+يحصل على ارتفاع نسبي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 | newWidth | int | العرض الجديد. |
 
 **Returns:**
@@ -757,7 +757,7 @@ public boolean trySetMetadata(IImageMetadataFormat metadata)
 ```
 
 
-يحاول تعيين نسخة `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق نوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
+يحاول تعيين نسخة `metadata` إذا كان هذا الكائن [Image](../../com.aspose.imaging/image) يدعم ويطبق النوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -765,7 +765,7 @@ public boolean trySetMetadata(IImageMetadataFormat metadata)
 | metadata | [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) | البيانات الوصفية. |
 
 **Returns:**
-boolean - صحيح، إذا كان كائن [Image](../../com.aspose.imaging/image) يدعم ويطبق النوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا، false.
+boolean - True, إذا كان كائن [Image](../../com.aspose.imaging/image) يدعم ويطبق النوع [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا، false.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public abstract int getBitsPerPixel()
@@ -796,7 +796,7 @@ public Image getContainer()
 
 القيمة: حاوية `Image`.
 
-إذا لم تكن هذه الخاصية null فهذا يدل على أن الصورة مضمَّنة داخل صورة أخرى.
+إذا لم تكن هذه الخاصية null، فهذا يدل على أن الصورة مضمَّنة داخل صورة أخرى.
 
 **Returns:**
 [Image](../../com.aspose.imaging/image)
@@ -831,7 +831,7 @@ public boolean isUsePalette()
 
 يحصل على قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة.
 
-القيمة: `true` إذا تم استخدام اللوحة في الصورة؛ وإلا، `false`.
+القيمة: `true` إذا استُخدمت اللوحة في الصورة؛ وإلا، `false`.
 
 **Returns:**
 boolean - قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة.
@@ -864,7 +864,7 @@ public Size getSize()
 ``` java
 String dir = "c:\\temp\\";
 
-// تحميل صورة DJVU من دفق ملف.
+// تحميل صورة DJVU من تدفق ملف.
 java.io.FileInputStream stream = new java.io.FileInputStream(dir + "sample.djvu");
 try {
     com.aspose.imaging.fileformats.djvu.DjvuImage djvuImage = new com.aspose.imaging.fileformats.djvu.DjvuImage(stream);
@@ -931,26 +931,26 @@ public final int getBufferSizeHint()
 ```
 
 
-يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يحصل على تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Returns:**
-int - تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية.
+int - تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية.
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public final void setBufferSizeHint(int value)
 ```
 
 
-يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن الداخلية.
+يضبط تلميح حجم المخزن المؤقت الذي يُعرف كأقصى حجم مسموح به لجميع المخازن المؤقتة الداخلية.
 
-القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الإيجابية تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
+القيمة: تلميح حجم المخزن المؤقت، بالميغابايت. القيمة غير الموجبة تعني عدم وجود حد للذاكرة للمخازن المؤقتة الداخلية
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تلميح حجم المخزن المؤقت الذي يُعرّف الحد الأقصى المسموح به لجميع المخازن المؤقتة الداخلية. |
+| value | int | تلميح حجم المخزن المؤقت الذي يُعرف كحد أقصى مسموح به لجميع المخازن المؤقتة الداخلية. |
 
 ### isAutoAdjustPalette() {#isAutoAdjustPalette--}
 ```
@@ -958,22 +958,22 @@ public boolean isAutoAdjustPalette()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان تعديل اللوحة تلقائيًا.
+يحصل على قيمة تشير إلى ما إذا كان تعديل لوحة الألوان تلقائيًا.
 
 **Returns:**
-boolean - `true` إذا تم تمكين تعديل لوحة الألوان تلقائيًا؛ وإلا `false`.
+boolean - `true` إذا تم تمكين تعديل اللوحة تلقائيًا؛ وإلا `false`.
 ### setAutoAdjustPalette(boolean value) {#setAutoAdjustPalette-boolean-}
 ```
 public void setAutoAdjustPalette(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان تعديل اللوحة تلقائيًا.
+يضبط قيمة تشير إلى ما إذا كان تعديل لوحة الألوان تلقائيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا تم تمكين تعديل لوحة الألوان تلقائيًا؛ وإلا `false`. |
+| value | boolean | `true` إذا تم تمكين تعديل اللوحة تلقائيًا؛ وإلا `false`. |
 
 ### hasBackgroundColor() {#hasBackgroundColor--}
 ```
@@ -981,7 +981,7 @@ public boolean hasBackgroundColor()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت الصورة لديها لون خلفية.
+يحصل على قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون خلفية.
 
 **Returns:**
 boolean
@@ -991,7 +991,7 @@ public long getFileFormat()
 ```
 
 
-استرجع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية الصديقة للمستخدم. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
+يمكنك بسهولة استرجاع قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
 
 **Returns:**
 long
@@ -1001,7 +1001,7 @@ public Color getBackgroundColor()
 ```
 
 
-يحصل أو يضبط قيمة للون الخلفية.
+يحصل أو يضبط قيمة لون الخلفية.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color)
@@ -1011,12 +1011,12 @@ public void setBackgroundColor(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كانت الصورة لديها لون خلفية.
+يحصل أو يضبط قيمة تشير إلى ما إذا كانت الصورة تحتوي على لون خلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
@@ -1024,7 +1024,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-يحصل أو يضبط قيمة للون الخلفية.
+يحصل أو يضبط قيمة لون الخلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1115,7 +1115,7 @@ public boolean canSave(ImageOptionsBase options)
 ```
 
 
-يحدد ما إذا كان يمكن حفظ الصورة بالتنسيق الملف المحدد الممثل بخيارات الحفظ الممررة.
+يحدد ما إذا كان يمكن حفظ الصورة إلى تنسيق الملف المحدد الممثل بخيارات الحفظ الممررة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1123,7 +1123,7 @@ public boolean canSave(ImageOptionsBase options)
 | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ التي سيتم استخدامها. |
 
 **Returns:**
-boolean - `true` إذا كان يمكن حفظ الصورة بالتنسيق المحدد الممثل بخيارات الحفظ الممررة؛ وإلا `false`.
+boolean - `true` إذا كان يمكن حفظ الصورة بالتنسيق المحدد للملف الممثل بخيارات الحفظ الممررة؛ وإلا `false`.
 
 **Example: This example shows how to determine whether image can be saved to the specified file format represented by the passed save options.**
 
@@ -1135,7 +1135,7 @@ try {
     com.aspose.imaging.imageoptions.JpegOptions saveOptions = new com.aspose.imaging.imageoptions.JpegOptions();
     saveOptions.setQuality(50);
 
-    // تحديد ما إذا كان يمكن حفظ الصورة بتنسيق Jpeg
+    // تحديد ما إذا كان يمكن حفظ الصورة بصيغة JPEG
     boolean canSave = image.canSave(saveOptions);
 } finally {
     image.dispose();
@@ -1336,7 +1336,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sampl
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 }
 
@@ -1344,7 +1344,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sampl
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات أقرب جار.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.nearestneighbour.png", new com.aspose.imaging.imageoptions.PngOptions());
 }
 
@@ -1352,7 +1352,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sampl
     // تكبير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() * 2, image.getHeight() * 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "upsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 }
 
@@ -1360,7 +1360,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sampl
     // تصغير بمقدار مرتين باستخدام إعادة أخذ عينات ثنائية الخطية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, com.aspose.imaging.ResizeType.BilinearResample);
 
-    // حفظ كملف PNG باستخدام الخيارات الافتراضية.
+    // حفظ إلى PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "downsample.bilinear.png", new com.aspose.imaging.imageoptions.PngOptions());
 }
 ```
@@ -1394,7 +1394,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -1495,7 +1495,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -1504,15 +1504,15 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
-// الطريقة الإقليدية
+// طريقة إقليدية
 resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
 
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
     image.save(dir + "downsample.adaptive.gif");
 } finally {
@@ -1528,7 +1528,7 @@ String dir = "c:\\temp\\";
 
 com.aspose.imaging.ImageResizeSettings resizeSettings = new com.aspose.imaging.ImageResizeSettings();
 
-// الخوارزمية التكيفية المستندة إلى الدالة النسبية الموزونة والمختلطة وتداخل lanczos3.
+// الخوارزمية التكيفية المستندة إلى الدالة الكسرية الموزونة والمختلطة واستيفاء lanczos3.
 resizeSettings.setMode(com.aspose.imaging.ResizeType.AdaptiveResample);
 
 // المرشح المستطيل الصغير
@@ -1537,14 +1537,14 @@ resizeSettings.setFilterType(com.aspose.imaging.ImageFilterType.SmallRectangular
 // عدد الألوان في لوحة الألوان.
 resizeSettings.setEntriesCount(256);
 
-// لم يتم استخدام تقليل ألوان.
+// لم يتم استخدام تقليل ألوان الصورة
 resizeSettings.setColorQuantizationMethod(com.aspose.imaging.ColorQuantizationMethod.None);
 
-// الطريقة الإقليدية
+// طريقة إقليدية
 resizeSettings.setColorCompareMethod(com.aspose.imaging.ColorCompareMethod.Euclidian);
             
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif")) {
-    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات متكيفة.
+    // قُم بتقليل الحجم بمقدار مرتين باستخدام إعادة أخذ عينات تكيفية.
     image.resize(image.getWidth() / 2, image.getHeight() / 2, resizeSettings);
     image.save(dir + "downsample.adaptive.gif");
 }
@@ -1583,12 +1583,12 @@ try (Image image = Image.load("AstrixObelix.eps"))
     resizeSettings.setMode(ResizeType.LanczosResample);
     // تعيين نوع الفلتر
     resizeSettings.setFilterType(ImageFilterType.SmallRectangular);
-    // يضبط طريقة مقارنة اللون
+    // يضبط طريقة مقارنة الألوان
     resizeSettings.setColorCompareMethod(ColorCompareMethod.Euclidian);
-    // تعيين طريقة تمثيل اللون
+    // تعيين طريقة تمثيل الألوان
     resizeSettings.setColorQuantizationMethod(ColorQuantizationMethod.Popularity);
 
-    // تغيير حجم الصورة باستخدام إعدادات تغيير حجم متقدمة
+    // تغيير حجم الصورة باستخدام إعدادات تعديل متقدمة
     image.resize(400, 400, resizeSettings);
 
     // تصدير الصورة إلى تنسيق PNG
@@ -1607,7 +1607,7 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
@@ -1617,7 +1617,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-يحصل على الخيارات بناءً على إعدادات الملف الأصلي. يمكن أن يكون هذا مفيدًا للحفاظ على عمق البت وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام الطريقة `DataStreamSupporter.Save(string)`، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى الطريقة `Image.Save(string, ImageOptionsBase)` كمعامل ثاني.
+يحصل على الخيارات بناءً على إعدادات الملف الأصلي. يمكن أن يكون هذا مفيدًا للحفاظ على عمق البت وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة `DataStreamSupporter.Save(string)`، سيتم إنتاج صورة PNG الناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومرّرها إلى طريقة `Image.Save(string, ImageOptionsBase)` كمعامل ثانٍ.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -1663,7 +1663,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 
 
 **Example: This example loads an image and resizes it proportionally using various resizing methods.**
-يقوم هذا المثال بتحميل صورة وتغيير حجمها بنسبة متناسبة باستخدام طرق تغيير حجم مختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
+هذا المثال يحمل صورة ويعيد تحجيمها بنسبة متناسبة باستخدام طرق تحجيم مختلفة. يتم تحديد العرض فقط، ويتم حساب الارتفاع تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1718,7 +1718,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 
 
 **Example: This example loads an image and resizes it proportionally using various resizing methods.**
-يقوم هذا المثال بتحميل صورة وتغيير حجمها بنسبة متناسبة باستخدام طرق تغيير حجم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
+هذا المثال يحمل صورة ويعيد تحجيمها بنسبة متناسبة باستخدام طرق تحجيم مختلفة. يتم تحديد الارتفاع فقط، ويتم حساب العرض تلقائيًا.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1788,7 +1788,7 @@ try
     // تقليل حجم الصورة لتسريع عملية التجزئة
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
-    // إنشاء نسخة من الفئة ImageMasking.
+    // إنشاء نسخة من فئة ImageMasking.
     com.aspose.imaging.masking.ImageMasking masking = new com.aspose.imaging.masking.ImageMasking(image);
 
     // قسّم الصورة المصدر إلى عدة مجموعات (قطاعات).
@@ -1873,12 +1873,12 @@ public abstract void rotateFlip(int rotateFlipType)
 
 
 **Example: This example demonstrates the use of Rotate operation on an image.**
-هذا المثال يوضح استخدام عملية Rotate على صورة. يقوم المثال بتحميل ملف صورة موجود من موقع قرص ما ويجري عملية Rotate على الصورة وفقًا لقيمة Enum com.aspose.imaging.RotateFlipType
+يوضح هذا المثال استخدام عملية Rotate على صورة. يقوم المثال بتحميل ملف صورة موجود من موقع على القرص ويؤدي عملية Rotate على الصورة وفقًا لقيمة التعداد com.aspose.imaging.RotateFlipType
 ``` java
-// إنشاء كائن من فئة image وتهيئته بملف صورة موجود عبر مسار الملف
+// إنشاء كائن من فئة image وتهيئته بملف صورة موجود عبر مسار الملف.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // دوّر الصورة بزاوية 180 درجة حول المحور X
+    // دوران الصورة بزاوية 180 درجة حول المحور X.
     image.rotateFlip(com.aspose.imaging.RotateFlipType.Rotate180FlipX);
 
     // حفظ جميع التغييرات.
@@ -1899,7 +1899,7 @@ public void rotate(float angle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
 
 ### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
 ```
@@ -1921,7 +1921,7 @@ public void crop(Rectangle rectangle)
 String dir = "c:\\temp\\";
             
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png")) {
-    // قص الصورة. منطقة القص هي المنطقة المستطيلة المركزية في الصورة.
+    // قص الصورة. منطقة القص هي المنطقة المركزية المستطيلة للصورة.
     com.aspose.imaging.Rectangle area = new com.aspose.imaging.Rectangle(rasterImage.getWidth() / 4, rasterImage.getHeight() / 4, rasterImage.getWidth() / 2, rasterImage.getHeight() / 2);
     image.crop(area);
 
@@ -1948,17 +1948,17 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 
 
 **Example: The following example crops a raster image.**
-المثال التالي يقتطع صورة نقطية. يتم تحديد منطقة القص عبر هوامش Left, Top, Right, Bottom.
+المثال التالي يقتطع صورة نقطية. يتم تحديد منطقة القص عبر هوامش اليسار، الأعلى، اليمين، الأسفل.
 ``` java
 String dir = "c:\\temp\\";
             
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png")) {
-    // اقتطع مرة أخرى. ضع هامشًا بنسبة 10% من حجم الصورة.
+    // اقتطع مرة أخرى. اضبط هامشًا بنسبة 10٪ من حجم الصورة.
     int horizontalMargin = rasterImage.getWidth() / 10;
     int verticalMargin = rasterImage.getHeight() / 10;
     image.crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-    // احفظ الصورة المقتطعة إلى PNG.
+    // احفظ الصورة المقتطعة بصيغة PNG.
     image.save(dir + "sample.Crop.png");
 }
 ```
@@ -1980,7 +1980,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.bmp
 try {
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = (com.aspose.imaging.fileformats.bmp.BmpImage) image;
 
-    // حوّل إلى صورة أبيض-أسود
+    // تحويل إلى صورة بالأبيض والأسود
     bmpImage.binarizeOtsu();
 
     // احفظ في نفس الموقع باستخدام الخيارات الافتراضية.
@@ -1988,13 +1988,13 @@ try {
 
     com.aspose.imaging.imageoptions.BmpOptions saveOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 
-    // تحتوي لوحة الألوان على لونين فقط: الأسود والأبيض في هذه الحالة.
+    // تحتوي اللوحة على لونين فقط: الأسود والأبيض في هذه الحالة.
     saveOptions.setPalette(com.aspose.imaging.ColorPaletteHelper.createMonochrome());
 
-    // بالنسبة لجميع الصور أحادية اللون (بما في ذلك الصور أبيض-أسود) يكفي تخصيص 1 بت لكل بكسل.
+    // بالنسبة لجميع الصور أحادية اللون (بما في ذلك الصور بالأبيض والأسود) يكفي تخصيص بت واحد لكل بكسل.
     saveOptions.setBitsPerPixel(1);
 
-    // احفظ إلى موقع آخر باستخدام الخيارات المحددة.
+    // احفظ في موقع آخر باستخدام الخيارات المحددة.
     image.save(dir + "sample.bw.palettized.bmp", saveOptions);
 
     // احفظ الجزء المركزي فقط من الصورة.
@@ -2038,7 +2038,7 @@ public void save(String filePath)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| filePath | java.lang.String | مسار الملف لحفظ الصورة إليه. |
+| filePath | java.lang.String | مسار الملف لحفظ الصورة فيه. |
 
 ### save(String filePath, ImageOptionsBase options) {#save-java.lang.String-com.aspose.imaging.ImageOptionsBase-}
 ```
@@ -2046,7 +2046,7 @@ public void save(String filePath, ImageOptionsBase options)
 ```
 
 
-يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2056,12 +2056,12 @@ public void save(String filePath, ImageOptionsBase options)
 
 
 **Example: This example shows the simple steps to Save an Image.**
-هذا المثال يوضح الخطوات البسيطة لحفظ صورة. لتوضيح هذه العملية، نقوم بتحميل ملف موجود من موقع قرص ما ونحفظ الصورة بصيغة PSD.
+يوضح هذا المثال الخطوات البسيطة لحفظ صورة. لتوضيح هذه العملية، نقوم بتحميل ملف موجود من موقع على القرص ونحفظ الصورة بصيغة PSD
 ``` java
-// حمّل ملفًا موجودًا من القرص.
+// تحميل ملف موجود من القرص.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // احفظ الصورة كـ PSD إلى مسار الملف باستخدام إعدادات PsdOptions الافتراضية.
+    // احفظ الصورة بصيغة PSD إلى مسار الملف باستخدام إعدادات PsdOptions الافتراضية.
     image.save("C:\\temp\\output.psd", new com.aspose.imaging.imageoptions.PsdOptions());
 } finally {
     image.dispose();
@@ -2074,7 +2074,7 @@ public void save(String filePath, ImageOptionsBase options, Rectangle boundsRect
 ```
 
 
-يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2106,12 +2106,12 @@ public void save(RandomAccessFile file, ImageOptionsBase options)
 ```
 
 
-يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الكائن إلى موقع الملف المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ملف | java.io.RandomAccessFile | الملف لحفظ بيانات الصورة فيه. |
+| ملف | java.io.RandomAccessFile | الملف الذي سيتم حفظ بيانات الصورة فيه. |
 | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | الخيارات. |
 
 ### save(RandomAccessFile file, ImageOptionsBase optionsBase, Rectangle boundsRectangle) {#save-java.io.RandomAccessFile-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-}
@@ -2120,12 +2120,12 @@ public void save(RandomAccessFile file, ImageOptionsBase optionsBase, Rectangle 
 ```
 
 
-يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ملف | java.io.RandomAccessFile | الملف لحفظ بيانات الصورة فيه. |
+| ملف | java.io.RandomAccessFile | الملف الذي سيتم حفظ بيانات الصورة فيه. |
 | optionsBase | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ. |
 | boundsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | مستطيل حدود الصورة الوجهة. اضبط المستطيل الفارغ لاستخدام حدود المصدر. |
 
@@ -2135,23 +2135,23 @@ public void save(OutputStream stream, ImageOptionsBase optionsBase)
 ```
 
 
-يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.OutputStream | المجرى لحفظ بيانات الصورة فيه. |
+| تدفق | java.io.OutputStream | الدفق الذي سيتم حفظ بيانات الصورة فيه. |
 | optionsBase | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ. |
 
 
 **Example: This example shows the process of saving an Image to memory buffer.**
-يوضح هذا المثال عملية حفظ صورة إلى مخزن الذاكرة. لتوضيح هذه العملية، يقوم المثال بتحميل ملف موجود من موقع على القرص وحفظ الصورة بتنسيق PSD.
+يوضح هذا المثال عملية حفظ صورة إلى مخزن الذاكرة. لتوضيح هذه العملية، يقوم المثال بتحميل ملف موجود من موقع على القرص ثم حفظ الصورة بتنسيق PSD.
 ``` java
 java.io.ByteArrayOutputStream stream = new java.io.ByteArrayOutputStream();
 try {            //Create an instance of image class and initialize it with an existing image file through File path
     com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
     try {
-        //احفظ الصورة إلى مجرى الذاكرة بصيغة PSD باستخدام إعدادات PsdOptions الافتراضية
+        //احفظ الصورة إلى دفق الذاكرة بتنسيق PSD باستخدام إعدادات PsdOptions الافتراضية
         image.save(stream, new com.aspose.imaging.imageoptions.PsdOptions());
     } finally {
         image.dispose();
@@ -2167,12 +2167,12 @@ public void save(OutputStream stream, ImageOptionsBase optionsBase, Rectangle bo
 ```
 
 
-يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق الملف المحدد وفقًا لخيارات الحفظ.
+يحفظ بيانات الصورة إلى الدفق المحدد بالتنسيق المحدد وفقًا لخيارات الحفظ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.OutputStream | المجرى لحفظ بيانات الصورة فيه. |
+| تدفق | java.io.OutputStream | الدفق الذي سيتم حفظ بيانات الصورة فيه. |
 | optionsBase | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ. |
 | boundsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | مستطيل حدود الصورة الوجهة. اضبط المستطيل الفارغ لاستخدام حدود المصدر. |
 
@@ -2188,7 +2188,7 @@ try {
     com.aspose.imaging.Rectangle bounds = new com.aspose.imaging.Rectangle(0, 0, image.getWidth(), image.getHeight() / 2);
     java.io.OutputStream outputStream = new java.io.FileOutputStream(dir + "sample.output.png");
     try {
-        // احفظ النصف العلوي من الصورة إلى مجرى ملف.
+        // احفظ النصف العلوي من الصورة إلى دفق ملف.
         image.save(outputStream, saveOptions, bounds);
     } finally {
         outputStream.close();
@@ -2228,4 +2228,4 @@ public InputStream getSerializedStream(ImageOptionsBase imageOptions, Rectangle 
 | pageNumber | int[] | رقم الصفحة. |
 
 **Returns:**
-java.io.InputStream - المجرى المتسلسل
+java.io.InputStream - الدفق المتسلسل

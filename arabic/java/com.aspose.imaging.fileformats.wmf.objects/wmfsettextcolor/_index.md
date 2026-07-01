@@ -7,7 +7,7 @@ weight: 87
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetTextColor extends WmfObject
 ```
@@ -24,8 +24,8 @@ public class WmfSetTextColor extends WmfObject
 | --- | --- |
 | [getColorRef()](#getColorRef--) | يحصل أو يضبط مرجع اللون. |
 | [setColorRef(int value)](#setColorRef-int-) | يحصل أو يضبط مرجع اللون. |
-| [getExtendedByte()](#getExtendedByte--) | يحصل أو يعيّن البايت الموسع. |
-| [setExtendedByte(byte value)](#setExtendedByte-byte-) | يحصل أو يعيّن البايت الموسع. |
+| [getExtendedByte()](#getExtendedByte--) | الحصول أو تعيين البايت الموسع. |
+| [setExtendedByte(byte value)](#setExtendedByte-byte-) | الحصول أو تعيين البايت الموسع. |
 ### WmfSetTextColor() {#WmfSetTextColor--}
 ```
 public WmfSetTextColor()
@@ -57,7 +57,7 @@ public void setColorRef(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getExtendedByte() {#getExtendedByte--}
 ```
@@ -65,7 +65,7 @@ public byte getExtendedByte()
 ```
 
 
-يحصل أو يعيّن البايت الموسع.
+الحصول أو تعيين البايت الموسع.
 
 القيمة: البايت الموسع.
 
@@ -77,12 +77,12 @@ public void setExtendedByte(byte value)
 ```
 
 
-يحصل أو يعيّن البايت الموسع.
+الحصول أو تعيين البايت الموسع.
 
 القيمة: البايت الموسع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 

@@ -1,7 +1,7 @@
 ---
 title: "ColorPaletteHelper"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة المساعدة لتعديل لوحة الألوان."
+description: "فئة مساعدة لتعديل لوحة الألوان."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.imaging/colorpalettehelper/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorPaletteHelper
 ```
 
-فئة المساعدة لتعديل لوحة الألوان.
+فئة مساعدة لتعديل لوحة الألوان.
 ## الطرق
 
 | طريقة | الوصف |
@@ -22,17 +22,17 @@ public final class ColorPaletteHelper
 | [create4BitGrayscale(boolean minIsWhite)](#create4BitGrayscale-boolean-) | ينشئ لوحة تدرج رمادي 4 بت. |
 | [create8Bit()](#create8Bit--) | ينشئ لوحة ألوان 8 بت. |
 | [create8BitGrayscale(boolean minIsWhite)](#create8BitGrayscale-boolean-) | ينشئ لوحة تدرج رمادي 8 بت. |
-| [getCloseImagePalette(RasterImage image, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseTransparentImagePalette(RasterImage image, int entriesCount)](#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseImagePalette(RasterImage image, int entriesCount, int paletteMiningMethod)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-boolean-) | يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
-| [getUniformColorPalette(RasterImage image)](#getUniformColorPalette-com.aspose.imaging.RasterImage-) | احصل على لوحة ألوان موحدة مكونة من 256 لونًا. |
-| [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | احصل على لوحة ألوان 256، مكوّنة من البتات العليا لقيم ألوان الصورة الأصلية. |
+| [getCloseImagePalette(RasterImage image, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseTransparentImagePalette(RasterImage image, int entriesCount)](#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseImagePalette(RasterImage image, int entriesCount, int paletteMiningMethod)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-boolean-) | يحصل على لوحة ألوان من صورة نقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. |
+| [getUniformColorPalette(RasterImage image)](#getUniformColorPalette-com.aspose.imaging.RasterImage-) | احصل على لوحة ألوان موحدة مكوّنة من 256 لونًا. |
+| [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | احصل على لوحة ألوان مكوّنة من 256 لونًا، مكوّنة من البتات العليا لقيم ألوان الصورة الأصلية. |
 | [hasTransparentColors(IColorPalette palette)](#hasTransparentColors-com.aspose.imaging.IColorPalette-) | يحدد ما إذا كانت اللوحة المحددة تحتوي على ألوان شفافة. |
-| [createGrayscale(int bits)](#createGrayscale-int-) | يحصل على لوحة التدرج الرمادي لعدد البتات المحدد. |
+| [createGrayscale(int bits)](#createGrayscale-int-) | يحصل على لوحة تدرج رمادي لعدد البتات المحدد. |
 ### createMonochrome() {#createMonochrome--}
 ```
 public static IColorPalette createMonochrome()
@@ -107,19 +107,19 @@ createOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "o
 // استخدم 8 بت لكل بكسل لتقليل حجم الصورة الناتجة.
 createOptions.setBitsPerPixel(8);
 
-// حدد لوحة ألوان التدرج الرمادي القياسية 8 بت التي تغطي جميع ألوان التدرج الرمادي.
-// إذا كانت الصورة المعالجة تحتوي فقط على ألوان تدرج رمادي، فإن نسختها المحوّلة إلى لوحة ألوان
-// تكون غير قابلة للتمييز بصريًا عن النسخة غير المحوّلة إلى لوحة ألوان.
+// عيّن لوحة تدرج رمادي قياسية 8 بت تغطي جميع ألوان التدرج الرمادي.
+// إذا كانت الصورة المعالجة تحتوي فقط على ألوان تدرج الرمادي، فإن إصدارها المصفوف
+// يبدو بصريًا غير قابل للتمييز عن نسخة غير مصفوفة.
 createOptions.setPalette(com.aspose.imaging.ColorPaletteHelper.create8BitGrayscale(false));
 
-// احفظ بدون ضغط.
+// احفظ دون ضغط.
 // يمكنك أيضًا استخدام ضغط RLE-8 لتقليل حجم الصورة الناتجة.
 createOptions.setCompression(com.aspose.imaging.fileformats.bmp.BitmapCompression.Rgb);
 
-// حدد الدقة الأفقية والعمودية إلى 96 نقطة في البوصة.
+// اضبط الدقة الأفقية والعمودية إلى 96 نقطة في البوصة.
 createOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-// أنشئ صورة BMP بحجم 100 × 100 بكسل واحفظها إلى ملف.
+// أنشئ صورة BMP بحجم 100 × 100 بكسل واحفظها في ملف.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(createOptions, 100, 100);
 try {
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(image);
@@ -145,7 +145,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -163,7 +163,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 // إنشاء صورة BMP بحجم 100 × 100 بكسل.
 com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100);
 try {
-    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     com.aspose.imaging.brushes.LinearGradientBrush brush =
             new com.aspose.imaging.brushes.LinearGradientBrush(
                     new com.aspose.imaging.Point(0, 0),
@@ -175,11 +175,11 @@ try {
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(bmpImage);
     gr.fillRectangle(brush, bmpImage.getBounds());
 
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     com.aspose.imaging.IColorPalette palette = com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette(bmpImage, 256);
 
-    // لوحة ألوان 8‑بت تحتوي على ما لا يزيد عن 256 لونًا.
+    // تحتوي لوحة الألوان 8-bit على ما لا يزيد عن 256 لونًا.
     com.aspose.imaging.imageoptions.BmpOptions saveOptions = new com.aspose.imaging.imageoptions.BmpOptions();
     saveOptions.setPalette(palette);
     saveOptions.setBitsPerPixel(8);
@@ -214,7 +214,7 @@ public static IColorPalette getCloseTransparentImagePalette(RasterImage image, i
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -230,7 +230,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 ```
 
 
-يحصل على لوحة الألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. سيتم تحسين اللوحة للحصول على جودة صورة مفهرسة أفضل أو تُؤخذ "AS IS" عندما يتم استخدام PaletteMiningMethod.UseCurrentPalette.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. سيتم تحسين اللوحة للحصول على جودة صورة مفهرسة أفضل أو تُؤخذ "AS IS" عندما يُستخدم PaletteMiningMethod.UseCurrentPalette.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -246,7 +246,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -257,8 +257,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -273,7 +273,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -290,7 +290,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -298,7 +298,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة النقطية. |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | حدود الصورة الوجهة. |
 | entriesCount | int | عدد الإدخالات المطلوب. |
-| useImagePalette | boolean | إذا تم التعيين، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متاحة |
+| useImagePalette | boolean | إذا تم تعيينه، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
@@ -308,7 +308,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -316,7 +316,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة النقطية. |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | حدود الصورة الوجهة. |
 | entriesCount | int | عدد الإدخالات المطلوب. |
-| useImagePalette | boolean | إذا تم التعيين، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متاحة |
+| useImagePalette | boolean | إذا تم تعيينه، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
 | alphaBlendInColor | [Color](../../com.aspose.imaging/color) | اللون الذي يجب استخدامه كلون خلفية لاستبدال ألفا شبه الشفاف. |
 
 **Returns:**
@@ -327,7 +327,7 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 ```
 
 
-يحصل على لوحة ألوان من صورة نقطية (يقوم بعملية تحويل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة فستُستخدم بدلاً من إجراء الحسابات.
+يحصل على لوحة ألوان من الصورة النقطية (يحوّل الصورة إلى لوحة ألوان) في حال عدم وجود لوحة ألوان للصورة. إذا كانت اللوحة موجودة، سيتم استخدامها بدلاً من إجراء الحسابات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -335,9 +335,9 @@ public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle de
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة النقطية. |
 | destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | حدود الصورة الوجهة. |
 | entriesCount | int | عدد الإدخالات المطلوب. |
-| useImagePalette | boolean | إذا تم التعيين، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متاحة |
+| useImagePalette | boolean | إذا تم تعيينه، سيستخدم لوحة ألوان الصورة الخاصة به إذا كانت متوفرة |
 | alphaBlendInColor | [Color](../../com.aspose.imaging/color) | اللون الذي يجب استخدامه كلون خلفية لاستبدال ألفا شبه الشفاف. |
-| keepTransparency | boolean | إذا تم التعيين، سيأخذ في الاعتبار بتات قناة ألفا لألوان الصورة. |
+| keepTransparency | boolean | إذا تم تعيينه، سيأخذ في الاعتبار بتات قناة ألفا لألوان الصورة. |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
@@ -347,7 +347,7 @@ public static ColorPalette getUniformColorPalette(RasterImage image)
 ```
 
 
-احصل على لوحة ألوان موحدة مكونة من 256 لونًا.
+احصل على لوحة ألوان موحدة مكوّنة من 256 لونًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -362,7 +362,7 @@ public static ColorPalette getDownscalePalette(RasterImage image)
 ```
 
 
-احصل على لوحة ألوان 256، مكوّنة من البتات العليا لقيم ألوان الصورة الأصلية.
+احصل على لوحة ألوان مكوّنة من 256 لونًا، مكوّنة من البتات العليا لقيم ألوان الصورة الأصلية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -385,19 +385,19 @@ public static boolean hasTransparentColors(IColorPalette palette)
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | لوحة الألوان. |
 
 **Returns:**
-منطقية - `true` إذا كانت لوحة الألوان المحددة تحتوي على ألوان شفافة؛ وإلا `false`.
+منطقي - `true` إذا كانت لوحة الألوان المحددة تحتوي على ألوان شفافة؛ وإلا `false`.
 ### createGrayscale(int bits) {#createGrayscale-int-}
 ```
 public static IColorPalette createGrayscale(int bits)
 ```
 
 
-يحصل على لوحة تدرج الرمادي للعدد المحدد من البتات. القيم المسموح بها للبت هي 1، 2، 4، 8.
+يحصل على لوحة الألوان الرمادية لعدد البتات المحدد. قيم البت المسموح بها هي 1، 2، 4، 8.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| bits | int | عدد البتات. |
+| بتات | int | عدد البتات. |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - Grayscale palette.

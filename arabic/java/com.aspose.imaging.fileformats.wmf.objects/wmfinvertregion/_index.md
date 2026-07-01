@@ -1,13 +1,13 @@
 ---
 title: "WmfInvertRegion"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_INVERTREGION يرسم منطقة يتم فيها عكس الألوان."
+description: "السجل META_INVERTREGION يرسم منطقة يتم فيها عكس الألوان."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfInvertRegion extends WmfObject
 ```
@@ -23,8 +23,8 @@ public class WmfInvertRegion extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRegionIndex()](#getRegionIndex--) | يحصل أو يعيّن فهرس المنطقة. |
-| [setRegionIndex(int value)](#setRegionIndex-int-) | يحصل أو يعيّن فهرس المنطقة. |
+| [getRegionIndex()](#getRegionIndex--) | يحصل أو يضبط فهرس المنطقة. |
+| [setRegionIndex(int value)](#setRegionIndex-int-) | يحصل أو يضبط فهرس المنطقة. |
 ### WmfInvertRegion(WmfGraphicObject region) {#WmfInvertRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-}
 ```
 public WmfInvertRegion(WmfGraphicObject region)
@@ -52,7 +52,7 @@ public int getRegionIndex()
 ```
 
 
-يحصل أو يعيّن فهرس المنطقة.
+يحصل أو يضبط فهرس المنطقة.
 
 القيمة: فهرس المنطقة.
 
@@ -64,12 +64,12 @@ public void setRegionIndex(int value)
 ```
 
 
-يحصل أو يعيّن فهرس المنطقة.
+يحصل أو يضبط فهرس المنطقة.
 
 القيمة: فهرس المنطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

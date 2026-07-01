@@ -20,7 +20,7 @@ public final class ColorComparisonMode extends System.Enum
 | [RgbDefault](#RgbDefault) | يتم مقارنة الألوان في مساحة اللون RGB. |
 | [YuvDefault](#YuvDefault) | يتم مقارنة الألوان في مساحة اللون YUV. |
 | [YuvLessLumaSensitive](#YuvLessLumaSensitive) | يتم مقارنة الألوان في مساحة اللون YUV. |
-| [Custom](#Custom) | خوارزمية مقارنة اللون يحددها المستخدم. |
+| [Custom](#Custom) | خوارزمية مقارنة الألوان يحددها المستخدم. |
 ### RgbDefault {#RgbDefault}
 ```
 public static final int RgbDefault
@@ -43,7 +43,7 @@ public static final int YuvLessLumaSensitive
 ```
 
 
-يتم مقارنة الألوان في مساحة اللون YUV. يجب أن تفي اختلافات معلومات اللون بالحد، ويُضاعف الحد لمكوّن الإضاءة.
+يتم مقارنة الألوان في مساحة اللون YUV. يجب أن تفي اختلافات معلومات اللون بالحد، والحد للمكوّن الإضاءة يُضاعف.
 
 ### Custom {#Custom}
 ```
@@ -51,5 +51,5 @@ public static final int Custom
 ```
 
 
-خوارزمية مقارنة اللون يحددها المستخدم.
+خوارزمية مقارنة الألوان يحددها المستخدم.
 

@@ -31,8 +31,8 @@ public static IColorPalette getCloseImagePalette(RasterImage image, int entriesC
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة. |
 | entriesCount | int | عدد الإدخالات. |
-| colorQuantizationMethod | int | طريقة تكميم اللون. |
-| colorCompareMethod | int | طريقة مقارنة اللون. |
+| colorQuantizationMethod | int | طريقة تقليل الألوان. |
+| colorCompareMethod | int | طريقة مقارنة الألوان. |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - Optimized for image palette

@@ -12,10 +12,10 @@ url: /ar/java/com.aspose.imaging.magicwand.imagemasks/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CircleMask](../com.aspose.imaging.magicwand.imagemasks/circlemask) | يصف قناعًا دائريًا. |
-| [EmptyImageMask](../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) | يصف قناعًا فارغًا غير مجردًا. |
+| [EmptyImageMask](../com.aspose.imaging.magicwand.imagemasks/emptyimagemask) | يصف قناعًا فارغًا غير مجرد. |
 | [FeatheringMode](../com.aspose.imaging.magicwand.imagemasks/featheringmode) | يحدد كيفية عمل خوارزمية التنعيم. |
 | [FeatheringSettings](../com.aspose.imaging.magicwand.imagemasks/featheringsettings) | فئة إعدادات التنعيم. |
 | [ImageBitMask](../com.aspose.imaging.magicwand.imagemasks/imagebitmask) | يصف قناع صورة ثنائي. |

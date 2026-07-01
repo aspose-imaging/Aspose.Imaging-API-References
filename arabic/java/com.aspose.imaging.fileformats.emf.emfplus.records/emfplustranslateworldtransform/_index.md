@@ -17,23 +17,23 @@ public final class EmfPlusTranslateWorldTransform extends EmfPlusTerminalServerR
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusTranslateWorldTransform(EmfPlusRecord source)](#EmfPlusTranslateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusTranslateWorldTransform`. |
+| [EmfPlusTranslateWorldTransform(EmfPlusRecord source)](#EmfPlusTranslateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusTranslateWorldTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. |
-| [getDx()](#getDx--) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد المسافة الأفقية. |
-| [setDx(float value)](#setDx-float-) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد المسافة الأفقية. |
-| [getDy()](#getDy--) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد قيمة المسافة العمودية. |
-| [setDy(float value)](#setDy-float-) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد قيمة المسافة العمودية. |
+| [getDx()](#getDx--) | يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد المسافة الأفقية. |
+| [setDx(float value)](#setDx-float-) | يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد المسافة الأفقية. |
+| [getDy()](#getDy--) | يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد قيمة المسافة العمودية. |
+| [setDy(float value)](#setDy-float-) | يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد قيمة المسافة العمودية. |
 ### EmfPlusTranslateWorldTransform(EmfPlusRecord source) {#EmfPlusTranslateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusTranslateWorldTransform(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPlusTranslateWorldTransform`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusTranslateWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم التعيين، يجب أن يتم ضرب مصفوفة التحويل بعديًا. إذا تم إلغاء التعيين، يجب أن تكون مضروبة مسبقًا.
+يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم تعيينها، يجب أن يُضرب مصفوف التحويل بعديًا. إذا لم يتم تعيينها، يجب أن يُضرب مسبقًا.
 
 القيمة: `true` إذا كان [post multiplied matrix]؛ وإلا `false`.
 
@@ -58,7 +58,7 @@ public float getDx()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد المسافة الأفقية. يتم إجراء الترجمة بإنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy.
+يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد المسافة الأفقية. يتم إجراء الترجمة بإنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy.
 
 القيمة: dx.
 
@@ -70,14 +70,14 @@ public void setDx(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد المسافة الأفقية. يتم إجراء الترجمة بإنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy.
+يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد المسافة الأفقية. يتم إجراء الترجمة بإنشاء مصفوفة تحويل عالمية جديدة من حقلي dx و dy.
 
 القيمة: dx.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getDy() {#getDy--}
 ```
@@ -85,7 +85,7 @@ public float getDy()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد قيمة المسافة العمودية.
+يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد قيمة المسافة العمودية.
 
 القيمة: dy.
 
@@ -97,12 +97,12 @@ public void setDy(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد قيمة المسافة العمودية.
+يحصل أو يعيّن قيمة عائمة 32‑بت تُحدد قيمة المسافة العمودية.
 
 القيمة: dy.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

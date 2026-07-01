@@ -1,7 +1,7 @@
 ---
 title: "CdrText"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr نص"
+description: "نص cdr"
 type: docs
 weight: 41
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrtext/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrText extends CdrDictionaryItem
 ```
 
-ال cdr نص
+نص cdr
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CdrText()](#CdrText--) | ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
+| [CdrText()](#CdrText--) | ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getText()](#getText--) | يحصل على صناديق نص CDR. |
 | [setText(String value)](#setText-java.lang.String-) | يضبط صناديق نص CDR. |
-| [getCharDescriptors()](#getCharDescriptors--) | ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
-| [setCharDescriptors(byte[] value)](#setCharDescriptors-byte---) | ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
+| [getCharDescriptors()](#getCharDescriptors--) | ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
+| [setCharDescriptors(byte[] value)](#setCharDescriptors-byte---) | ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext). |
 | [getStyles()](#getStyles--) | يضيف صندوق النص. |
 | [setStyles(CdrStyle[] value)](#setStyles-com.aspose.imaging.fileformats.cdr.objects.CdrStyle---) | يضيف صندوق النص. |
 | [getStyleId()](#getStyleId--) | يحصل على معرف النمط. |
@@ -36,7 +36,7 @@ public CdrText()
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
+ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
 
 ### getText() {#getText--}
 ```
@@ -63,7 +63,7 @@ public final void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | صناديق نص CDR. |
+| value | java.lang.String | صناديق نص CDR. |
 
 ### getCharDescriptors() {#getCharDescriptors--}
 ```
@@ -71,7 +71,7 @@ public final byte[] getCharDescriptors()
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
+ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
 
 القيمة: أوصاف الأحرف.
 
@@ -83,14 +83,14 @@ public final void setCharDescriptors(byte[] value)
 ```
 
 
-ينشئ مثيلاً جديداً للفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
+ينشئ مثيلًا جديدًا من الفئة [CdrText](../../com.aspose.imaging.fileformats.cdr.objects/cdrtext).
 
 القيمة: أوصاف الأحرف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getStyles() {#getStyles--}
 ```
@@ -144,5 +144,5 @@ public final void setStyleId(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | معرف النمط. |
+| value | int | معرف النمط. |
 

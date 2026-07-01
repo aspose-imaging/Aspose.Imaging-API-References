@@ -1,7 +1,7 @@
 ---
 title: "JFIFData"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الجزء jfif."
+description: "مقطع jfif."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.jpeg/jfifdata/
@@ -12,12 +12,12 @@ java.lang.Object
 public final class JFIFData
 ```
 
-الجزء jfif.
+مقطع jfif.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [JFIFData()](#JFIFData--) | يُنشئ مثيلًا جديدًا من الفئة [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata). |
+| [JFIFData()](#JFIFData--) | ينشئ مثيلاً جديدًا من الفئة [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,8 +28,8 @@ public final class JFIFData
 | [setThumbnail(RasterImage value)](#setThumbnail-com.aspose.imaging.RasterImage-) | يضبط الصورة المصغرة. |
 | [getVersion()](#getVersion--) | يحصل على الإصدار. |
 | [setVersion(short value)](#setVersion-short-) | يضبط الإصدار. |
-| [getXDensity()](#getXDensity--) | يحصل على كثافة x. |
-| [setXDensity(short value)](#setXDensity-short-) | يضبط كثافة x. |
+| [getXDensity()](#getXDensity--) | يحصل على الكثافة الأفقية. |
+| [setXDensity(short value)](#setXDensity-short-) | يضبط الكثافة الأفقية. |
 | [getYDensity()](#getYDensity--) | يحصل على كثافة y. |
 | [setYDensity(short value)](#setYDensity-short-) | يضبط كثافة y. |
 ### JFIFData() {#JFIFData--}
@@ -38,7 +38,7 @@ public JFIFData()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata).
+ينشئ مثيلاً جديدًا من الفئة [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata).
 
 ### getDensityUnits() {#getDensityUnits--}
 ```
@@ -61,7 +61,7 @@ public void setDensityUnits(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | وحدات الكثافة. |
+| value | byte | وحدات الكثافة. |
 
 ### getThumbnail() {#getThumbnail--}
 ```
@@ -107,7 +107,7 @@ public void setVersion(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | الإصدار. |
+| value | قصير | الإصدار. |
 
 ### getXDensity() {#getXDensity--}
 ```
@@ -115,7 +115,7 @@ public short getXDensity()
 ```
 
 
-يحصل على كثافة x.
+يحصل على الكثافة الأفقية.
 
 **Returns:**
 short - كثافة x.
@@ -125,12 +125,12 @@ public void setXDensity(short value)
 ```
 
 
-يضبط كثافة x.
+يضبط الكثافة الأفقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | كثافة x. |
+| value | قصير | كثافة x. |
 
 ### getYDensity() {#getYDensity--}
 ```
@@ -141,7 +141,7 @@ public short getYDensity()
 يحصل على كثافة y.
 
 **Returns:**
-قصير - كثافة y.
+short - كثافة y.
 ### setYDensity(short value) {#setYDensity-short-}
 ```
 public void setYDensity(short value)
@@ -153,5 +153,5 @@ public void setYDensity(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | كثافة y. |
+| value | قصير | كثافة y. |
 

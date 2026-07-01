@@ -1,7 +1,7 @@
 ---
 title: "SvgRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تمثيل الرسوميات لملف SVG."
+description: "خيارات تمثيل الرسوم النقطية لـ SVG."
 type: docs
 weight: 46
 url: /ar/java/com.aspose.imaging.imageoptions/svgrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class SvgRasterizationOptions extends VectorRasterizationOptions
 ```
 
-خيارات تمثيل الرسوميات لملف SVG.
+خيارات تمثيل الرسوم النقطية لـ SVG.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -26,7 +26,7 @@ public class SvgRasterizationOptions extends VectorRasterizationOptions
 | [setScaleX(float value)](#setScaleX-float-) | يحصل أو يضبط مقياس x. |
 | [getScaleY()](#getScaleY--) | يحصل أو يضبط مقياس y. |
 | [setScaleY(float value)](#setScaleY-float-) | يحصل أو يضبط مقياس y. |
-| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | ينسخ هذه الحالة إلى `vectorRasterizationOptions`. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | ينسخ هذا المثيل إلى `vectorRasterizationOptions`. |
 ### SvgRasterizationOptions() {#SvgRasterizationOptions--}
 ```
 public SvgRasterizationOptions()
@@ -56,7 +56,7 @@ public void setScaleX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | مقياس x. |
+| value | float | مقياس x. |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -67,29 +67,29 @@ String dir = "c:\\temp\\";
 // استخدام Aspose.Imaging.Image.Load هو طريقة موحدة لتحميل الصورة.
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = (com.aspose.imaging.fileformats.svg.SvgImage) com.aspose.imaging.Image.load(dir + "test.svg");
 try {
-    // من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
     com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 
-    // تعيين اللون الافتراضي لخلفية صورة. القيمة الافتراضية هي الأبيض.
+    // حدد اللون الافتراضي للخلفية لصورة. القيمة الافتراضية هي الأبيض.
     rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getGray());
 
-    // تعيين حجم الصفحة
+    // حدد حجم الصفحة
     rasterizationOptions.setPageSize(new com.aspose.imaging.SizeF(svgImage.getWidth(), svgImage.getHeight()));
 
-    // يتم تطبيق مضاد التعرجات على الخطوط والمنحنيات وحواف المناطق المملوءة.
+    // يتم تطبيق مضاد التعرج على الخطوط والمنحنيات وحواف المناطق المملوءة.
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // يتم رسم كل حرف باستخدام خريطة البكسل المضادة للتنعيم للرمز بدون التلميح.
+    // يتم رسم كل حرف باستخدام صورة البكسل المضادة للتنعيم للرمز بدون التلميح.
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
-    // قلل حجم الصورة 10 مرات، أي أن حجم الإخراج سيكون 10٪ من الحجم الأصلي.
+    // قلل حجم الصورة 10 مرات، أي أن حجم الناتج سيكون 10٪ من الحجم الأصلي.
     rasterizationOptions.setScaleX(0.1f);
     rasterizationOptions.setScaleY(0.1f);
 
     com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-    // حفظ إلى ملف PNG
+    // احفظ إلى ملف PNG
     svgImage.save(dir + "test.output.png", saveOptions);
 } finally {
     svgImage.dispose();
@@ -117,7 +117,7 @@ public void setScaleY(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | مقياس y. |
+| value | float | مقياس y. |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -128,29 +128,29 @@ String dir = "c:\\temp\\";
 // استخدام Aspose.Imaging.Image.Load هو طريقة موحدة لتحميل الصورة.
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = (com.aspose.imaging.fileformats.svg.SvgImage) com.aspose.imaging.Image.load(dir + "test.svg");
 try {
-    // من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
     com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 
-    // تعيين اللون الافتراضي لخلفية صورة. القيمة الافتراضية هي الأبيض.
+    // حدد اللون الافتراضي للخلفية لصورة. القيمة الافتراضية هي الأبيض.
     rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getGray());
 
-    // تعيين حجم الصفحة
+    // حدد حجم الصفحة
     rasterizationOptions.setPageSize(new com.aspose.imaging.SizeF(svgImage.getWidth(), svgImage.getHeight()));
 
-    // يتم تطبيق مضاد التعرجات على الخطوط والمنحنيات وحواف المناطق المملوءة.
+    // يتم تطبيق مضاد التعرج على الخطوط والمنحنيات وحواف المناطق المملوءة.
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // يتم رسم كل حرف باستخدام خريطة البكسل المضادة للتنعيم للرمز بدون التلميح.
+    // يتم رسم كل حرف باستخدام صورة البكسل المضادة للتنعيم للرمز بدون التلميح.
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
-    // قلل حجم الصورة 10 مرات، أي أن حجم الإخراج سيكون 10٪ من الحجم الأصلي.
+    // قلل حجم الصورة 10 مرات، أي أن حجم الناتج سيكون 10٪ من الحجم الأصلي.
     rasterizationOptions.setScaleX(0.1f);
     rasterizationOptions.setScaleY(0.1f);
 
     com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-    // حفظ إلى ملف PNG
+    // احفظ إلى ملف PNG
     svgImage.save(dir + "test.output.png", saveOptions);
 } finally {
     svgImage.dispose();
@@ -163,7 +163,7 @@ public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 ```
 
 
-ينسخ هذه الحالة إلى `vectorRasterizationOptions`.
+ينسخ هذا المثيل إلى `vectorRasterizationOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

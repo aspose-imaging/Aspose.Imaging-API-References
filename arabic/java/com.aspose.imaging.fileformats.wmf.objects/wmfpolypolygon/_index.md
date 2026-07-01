@@ -1,18 +1,18 @@
 ---
 title: "WmfPolyPolygon"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن PolyPolygon يحدد سلسلة من المضلعات المغلقة."
+description: "كائن PolyPolygon يعرّف سلسلة من المضلعات المغلقة."
 type: docs
 weight: 57
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPolyPolygon extends WmfObject
 ```
 
-كائن PolyPolygon يحدد سلسلة من المضلعات المغلقة.
+كائن PolyPolygon يعرّف سلسلة من المضلعات المغلقة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,12 +22,12 @@ public class WmfPolyPolygon extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getNumberOfPolygons()](#getNumberOfPolygons--) | يحصل أو يعيّن عدد المضلعات. |
-| [setNumberOfPolygons(int value)](#setNumberOfPolygons-int-) | يحصل أو يعيّن عدد المضلعات. |
-| [getAPointsPerPolygon()](#getAPointsPerPolygon--) | يحصل أو يعيّن عدد النقاط لكل مضلع. |
-| [setAPointsPerPolygon(int[] value)](#setAPointsPerPolygon-int---) | يحصل أو يعيّن عدد النقاط لكل مضلع. |
-| [getAPoints()](#getAPoints--) | يحصل أو يعيّن نقاط. |
-| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | يحصل أو يعيّن نقاط. |
+| [getNumberOfPolygons()](#getNumberOfPolygons--) | يحصل أو يضبط عدد المضلعات. |
+| [setNumberOfPolygons(int value)](#setNumberOfPolygons-int-) | يحصل أو يضبط عدد المضلعات. |
+| [getAPointsPerPolygon()](#getAPointsPerPolygon--) | يحصل أو يضبط عدد النقاط لكل مضلع. |
+| [setAPointsPerPolygon(int[] value)](#setAPointsPerPolygon-int---) | يحصل أو يضبط عدد النقاط لكل مضلع. |
+| [getAPoints()](#getAPoints--) | يحصل أو يضبط عدد النقاط. |
+| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | يحصل أو يضبط عدد النقاط. |
 ### WmfPolyPolygon() {#WmfPolyPolygon--}
 ```
 public WmfPolyPolygon()
@@ -40,7 +40,7 @@ public int getNumberOfPolygons()
 ```
 
 
-يحصل أو يعيّن عدد المضلعات. عدد المضلعات في الكائن.
+يحصل أو يضبط عدد المضلعات. عدد المضلعات في الكائن.
 
 القيمة: عدد المضلعات.
 
@@ -52,14 +52,14 @@ public void setNumberOfPolygons(int value)
 ```
 
 
-يحصل أو يعيّن عدد المضلعات. عدد المضلعات في الكائن.
+يحصل أو يضبط عدد المضلعات. عدد المضلعات في الكائن.
 
 القيمة: عدد المضلعات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getAPointsPerPolygon() {#getAPointsPerPolygon--}
 ```
@@ -67,7 +67,7 @@ public int[] getAPointsPerPolygon()
 ```
 
 
-يحصل أو يعيّن عدد النقاط لكل مضلع.
+يحصل أو يضبط عدد النقاط لكل مضلع.
 
 القيمة: عدد النقاط لكل مضلع في الكائن.
 
@@ -79,14 +79,14 @@ public void setAPointsPerPolygon(int[] value)
 ```
 
 
-يحصل أو يعيّن عدد النقاط لكل مضلع.
+يحصل أو يضبط عدد النقاط لكل مضلع.
 
 القيمة: عدد النقاط لكل مضلع في الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getAPoints() {#getAPoints--}
 ```
@@ -94,9 +94,9 @@ public Point[][] getAPoints()
 ```
 
 
-يحصل أو يعيّن نقاط.
+يحصل أو يضبط عدد النقاط.
 
-القيمة: عدد من النقاط.
+القيمة: عدد النقاط.
 
 **Returns:**
 com.aspose.imaging.Point[][]
@@ -106,9 +106,9 @@ public void setAPoints(Point[][] value)
 ```
 
 
-يحصل أو يعيّن نقاط.
+يحصل أو يضبط عدد النقاط.
 
-القيمة: عدد من النقاط.
+القيمة: عدد النقاط.
 
 **Parameters:**
 | معامل | نوع | الوصف |

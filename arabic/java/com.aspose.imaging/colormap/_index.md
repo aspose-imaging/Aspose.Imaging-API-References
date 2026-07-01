@@ -1,7 +1,7 @@
 ---
 title: "ColorMap"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد خريطة لتحويل الألوان."
+description: "يعرف خريطة لتحويل الألوان."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.imaging/colormap/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorMap
 ```
 
-يعرّف خريطة لتحويل الألوان. عدة طرق في الفئة [ImageAttributes](../../com.aspose.imaging/imageattributes) تعدّل ألوان الصورة باستخدام جدول إعادة تعيين الألوان، وهو مصفوفة من هياكل `com.aspose.imaging.ColorMap`. غير قابل للوراثة.
+يعرّف خريطة لتحويل الألوان. عدة طرق من الفئة [ImageAttributes](../../com.aspose.imaging/imageattributes) تُعدّل ألوان الصورة باستخدام جدول إعادة تعيين الألوان، وهو مصفوفة من هياكل `com.aspose.imaging.ColorMap`. غير قابل للوراثة.
 ## المنشئات
 
 | المنشئ | الوصف |

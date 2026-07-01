@@ -12,12 +12,12 @@ url: /ar/java/com.aspose.imaging.fileformats.tiff.instancefactory/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [TiffTagFactory](../com.aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory) | فئة مصنع الوسوم |
+| [TiffTagFactory](../com.aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory) | فئة مصنع العلامات |
 
 ## الواجهات
 
 | الواجهة | الوصف |
 | --- | --- |
-| [ITiffTagCreator](../com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator) | منشئ وسوم TIFF. |
+| [ITiffTagCreator](../com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator) | منشئ علامة TIFF. |

@@ -17,15 +17,15 @@ public class ImageCreateException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageCreateException(String message)](#ImageCreateException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `ImageCreateException`. |
-| [ImageCreateException(String message, Throwable innerException)](#ImageCreateException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديداً من الفئة `ImageCreateException`. |
+| [ImageCreateException(String message)](#ImageCreateException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `ImageCreateException`. |
+| [ImageCreateException(String message, Throwable innerException)](#ImageCreateException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `ImageCreateException`. |
 ### ImageCreateException(String message) {#ImageCreateException-java.lang.String-}
 ```
 public ImageCreateException(String message)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `ImageCreateException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageCreateException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public ImageCreateException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `ImageCreateException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageCreateException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -17,8 +17,8 @@ public final class HotkeyPrefix extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | لا بادئة مفتاح سريع. |
-| [Show](#Show) | اعرض بادئة المفتاح السريع. |
+| [None](#None) | بدون بادئة مفتاح سريع. |
+| [Show](#Show) | عرض بادئة المفتاح السريع. |
 | [Hide](#Hide) | لا تعرض بادئة المفتاح السريع. |
 ### None {#None}
 ```
@@ -26,7 +26,7 @@ public static final int None
 ```
 
 
-لا بادئة مفتاح سريع.
+بدون بادئة مفتاح سريع.
 
 ### Show {#Show}
 ```
@@ -34,7 +34,7 @@ public static final int Show
 ```
 
 
-اعرض بادئة المفتاح السريع.
+عرض بادئة المفتاح السريع.
 
 ### Hide {#Hide}
 ```

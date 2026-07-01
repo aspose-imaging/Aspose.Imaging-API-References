@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.styles/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CmxColor](../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | يمثل قيمة لون. |
 | [CmxFillStyle](../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle) | نمط تعبئة للأشكال. |

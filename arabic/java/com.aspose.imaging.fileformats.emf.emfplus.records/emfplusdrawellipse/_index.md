@@ -24,10 +24,10 @@ public final class EmfPlusDrawEllipse extends EmfPlusDrawingRecordType
 | --- | --- |
 | [getObjectId()](#getObjectId--) | يحصل أو يعيّن معرف الكائن. |
 | [setObjectId(byte value)](#setObjectId-byte-) | يحصل أو يعيّن معرف الكائن. |
-| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
-| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
-| [getRectData()](#getRectData--) | يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للقطع الناقص. |
-| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للقطع الناقص. |
+| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
+| [getRectData()](#getRectData--) | يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط بالقطع الناقص. |
+| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط بالقطع الناقص. |
 ### EmfPlusDrawEllipse(EmfPlusRecord source) {#EmfPlusDrawEllipse-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawEllipse(EmfPlusRecord source)
@@ -47,7 +47,7 @@ public byte getObjectId()
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم القطع الناقص. يجب أن تكون القيمة بين الصفر و63، شاملة.
+يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم القطع الناقص. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
@@ -59,14 +59,14 @@ public void setObjectId(byte value)
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم القطع الناقص. يجب أن تكون القيمة بين الصفر و63، شاملة.
+يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم القطع الناقص. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getCompressed() {#getCompressed--}
 ```
@@ -74,9 +74,9 @@ public boolean getCompressed()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -86,14 +86,14 @@ public void setCompressed(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -101,7 +101,7 @@ public RectangleF getRectData()
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للقطع الناقص.
+يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط بالقطع الناقص.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -111,7 +111,7 @@ public void setRectData(RectangleF value)
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد صندوق الحد للقطع الناقص.
+يحصل أو يعيّن بيانات المستطيل إما ككائن EmfPlusRect أو EmfPlusRectF يحدد المربع المحيط بالقطع الناقص.
 
 **Parameters:**
 | معامل | نوع | الوصف |

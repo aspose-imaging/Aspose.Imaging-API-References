@@ -17,15 +17,15 @@ public class PngImageException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PngImageException(String message)](#PngImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `PngImageException`. |
-| [PngImageException(String message, Throwable innerException)](#PngImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `PngImageException`. |
+| [PngImageException(String message)](#PngImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `PngImageException`. |
+| [PngImageException(String message, Throwable innerException)](#PngImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `PngImageException`. |
 ### PngImageException(String message) {#PngImageException-java.lang.String-}
 ```
 public PngImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `PngImageException`.
+ينشئ مثيلاً جديدًا من الفئة `PngImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public PngImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `PngImageException`.
+ينشئ مثيلاً جديدًا من الفئة `PngImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

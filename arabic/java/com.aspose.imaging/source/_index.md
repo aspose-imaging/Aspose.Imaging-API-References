@@ -1,7 +1,7 @@
 ---
 title: "المصدر"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "المصدر يُستخدم لاحتواء جميع المعلومات ذات الصلة لأنبوب الكائن."
+description: "المصدر يُستخدم لاحتواء جميع المعلومات ذات الصلة بأنبوب الكائن."
 type: docs
 weight: 107
 url: /ar/java/com.aspose.imaging/source/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class Source
 ```
 
-المصدر يُستخدم لاحتواء جميع المعلومات ذات الصلة لأنبوب الكائن.
+المصدر يُستخدم لاحتواء جميع المعلومات ذات الصلة بأنبوب الكائن.
 ## المنشئات
 
 | المنشئ | الوصف |

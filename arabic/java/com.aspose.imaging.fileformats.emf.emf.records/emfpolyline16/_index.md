@@ -1,7 +1,7 @@
 ---
 title: "EmfPolyline16"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_POLYLINE16 يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة."
+description: "The EMR_POLYLINE16 record specifies a series of line segments by connecting the points in the specified array."
 type: docs
 weight: 102
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolyline16/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolyline16 extends EmfPolyShape
 ```
 
-سجل EMR\_POLYLINE16 يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة.
+السجل EMR\_POLYLINE16 يحدد سلسلة من مقاطع الخط عن طريق ربط النقاط في المصفوفة المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolyline16(EmfRecord source)](#EmfPolyline16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بإنشاء نسخة جديدة من الفئة `EmfPolyline16`. |
-| [EmfPolyline16()](#EmfPolyline16--) | يقوم بإنشاء نسخة جديدة من الفئة `EmfPolyline16`. |
+| [EmfPolyline16(EmfRecord source)](#EmfPolyline16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfPolyline16`. |
+| [EmfPolyline16()](#EmfPolyline16--) | يُنشئ نسخة جديدة من الفئة `EmfPolyline16`. |
 ### EmfPolyline16(EmfRecord source) {#EmfPolyline16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolyline16(EmfRecord source)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfPolyline16`.
+يُنشئ نسخة جديدة من الفئة `EmfPolyline16`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,5 +38,5 @@ public EmfPolyline16()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfPolyline16`.
+يُنشئ نسخة جديدة من الفئة `EmfPolyline16`.
 

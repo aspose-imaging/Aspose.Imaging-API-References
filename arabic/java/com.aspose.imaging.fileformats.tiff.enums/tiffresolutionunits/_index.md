@@ -1,7 +1,7 @@
 ---
 title: "TiffResolutionUnits"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تعداد وحدة دقة Tiff"
+description: "تعداد وحدة دقة tiff"
 type: docs
 weight: 23
 url: /ar/java/com.aspose.imaging.fileformats.tiff.enums/tiffresolutionunits/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class TiffResolutionUnits extends System.Enum
 ```
 
-تعداد وحدة دقة Tiff
+تعداد وحدة دقة tiff
 ## الحقول
 
 | حقل | الوصف |

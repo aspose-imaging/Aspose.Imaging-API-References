@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.xmp.types.complex/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [ComplexTypeBase](../com.aspose.imaging.xmp.types.complex/complextypebase) | يمثل التجريد الأساسي لنوع القيمة المعقدة XMP. |
+| [ComplexTypeBase](../com.aspose.imaging.xmp.types.complex/complextypebase) | يمثل التجريد الأساسي لنوع قيمة XMP Complex. |

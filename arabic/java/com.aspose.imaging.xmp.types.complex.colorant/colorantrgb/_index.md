@@ -1,7 +1,7 @@
 ---
 title: "ColorantRgb"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل صبغة RGB."
+description: "يمثّل صبغة RGB."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.xmp.types.complex.colorant/colorantrgb/
@@ -12,23 +12,23 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantRgb extends ColorantBase
 ```
 
-يمثل صبغة RGB.
+يمثّل صبغة RGB.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ColorantRgb()](#ColorantRgb--) | يُنشئ مثيلاً جديدًا من الفئة `ColorantRgb`. |
-| [ColorantRgb(byte red, byte green, byte blue)](#ColorantRgb-byte-byte-byte-) | يُنشئ مثيلاً جديدًا من الفئة `ColorantRgb`. |
+| [ColorantRgb()](#ColorantRgb--) | ينشئ مثيلاً جديدًا من الفئة `ColorantRgb`. |
+| [ColorantRgb(byte red, byte green, byte blue)](#ColorantRgb-byte-byte-byte-) | ينشئ مثيلاً جديدًا من الفئة `ColorantRgb`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRed()](#getRed--) | يحصل أو يعيّن قيمة المكوّن الأحمر. |
-| [setRed(byte value)](#setRed-byte-) | يحصل أو يعيّن قيمة المكوّن الأحمر. |
-| [getGreen()](#getGreen--) | يحصل أو يعيّن قيمة المكوّن الأخضر. |
-| [setGreen(byte value)](#setGreen-byte-) | يحصل أو يعيّن قيمة المكوّن الأخضر. |
-| [getBlue()](#getBlue--) | يحصل أو يعيّن قيمة المكوّن الأزرق. |
-| [setBlue(byte value)](#setBlue-byte-) | يحصل أو يعيّن قيمة المكوّن الأزرق. |
+| [getRed()](#getRed--) | يسترجع أو يضبط قيمة المكوّن الأحمر. |
+| [setRed(byte value)](#setRed-byte-) | يسترجع أو يضبط قيمة المكوّن الأحمر. |
+| [getGreen()](#getGreen--) | يسترجع أو يضبط قيمة المكوّن الأخضر. |
+| [setGreen(byte value)](#setGreen-byte-) | يسترجع أو يضبط قيمة المكوّن الأخضر. |
+| [getBlue()](#getBlue--) | يسترجع أو يضبط قيمة المكوّن الأزرق. |
+| [setBlue(byte value)](#setBlue-byte-) | يسترجع أو يضبط قيمة المكوّن الأزرق. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### ColorantRgb() {#ColorantRgb--}
 ```
@@ -36,7 +36,7 @@ public ColorantRgb()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ColorantRgb`.
+ينشئ مثيلاً جديدًا من الفئة `ColorantRgb`.
 
 ### ColorantRgb(byte red, byte green, byte blue) {#ColorantRgb-byte-byte-byte-}
 ```
@@ -44,7 +44,7 @@ public ColorantRgb(byte red, byte green, byte blue)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `ColorantRgb`.
+ينشئ مثيلاً جديدًا من الفئة `ColorantRgb`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public byte getRed()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأحمر.
+يسترجع أو يضبط قيمة المكوّن الأحمر.
 
 القيمة: قيمة المكوّن الأحمر.
 
@@ -71,14 +71,14 @@ public void setRed(byte value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأحمر.
+يسترجع أو يضبط قيمة المكوّن الأحمر.
 
 القيمة: قيمة المكوّن الأحمر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getGreen() {#getGreen--}
 ```
@@ -86,7 +86,7 @@ public byte getGreen()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأخضر.
+يسترجع أو يضبط قيمة المكوّن الأخضر.
 
 القيمة: قيمة المكوّن الأخضر.
 
@@ -98,14 +98,14 @@ public void setGreen(byte value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأخضر.
+يسترجع أو يضبط قيمة المكوّن الأخضر.
 
 القيمة: قيمة المكوّن الأخضر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getBlue() {#getBlue--}
 ```
@@ -113,7 +113,7 @@ public byte getBlue()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأزرق.
+يسترجع أو يضبط قيمة المكوّن الأزرق.
 
 القيمة: قيمة المكوّن الأزرق.
 
@@ -125,14 +125,14 @@ public void setBlue(byte value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأزرق.
+يسترجع أو يضبط قيمة المكوّن الأزرق.
 
 القيمة: قيمة المكوّن الأزرق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

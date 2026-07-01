@@ -1,37 +1,37 @@
 ---
 title: "LengthRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Subpath Length Record Class"
+description: "فئة سجل طول المسار الفرعي"
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object، [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class LengthRecord extends VectorPathRecord
 ```
 
-Subpath Length Record Class
+فئة سجل طول المسار الفرعي
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LengthRecord(byte[] data)](#LengthRecord-byte---) | يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord) class. |
-| [LengthRecord()](#LengthRecord--) | يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord) class. |
+| [LengthRecord(byte[] data)](#LengthRecord-byte---) | يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord). |
+| [LengthRecord()](#LengthRecord--) | يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [isClosed()](#isClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
-| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
-| [isOpen()](#isOpen--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
-| [setOpen(boolean value)](#setOpen-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
+| [isClosed()](#isClosed--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
+| [setClosed(boolean value)](#setClosed-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
+| [isOpen()](#isOpen--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا. |
+| [setOpen(boolean value)](#setOpen-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا. |
 | [getRecordCount()](#getRecordCount--) | يحصل على عدد السجلات. |
 | [setRecordCount(int value)](#setRecordCount-int-) | يضبط عدد السجلات. |
 | [getType()](#getType--) | يحصل على النوع. |
-| [getBezierKnotRecordsCount()](#getBezierKnotRecordsCount--) | يحصل على عدد سجلات عقد بيزيه. |
-| [setBezierKnotRecordsCount(int value)](#setBezierKnotRecordsCount-int-) | يضبط عدد سجلات عقد بيزيه. |
+| [getBezierKnotRecordsCount()](#getBezierKnotRecordsCount--) | يحصل على عدد سجلات عقد bezier. |
+| [setBezierKnotRecordsCount(int value)](#setBezierKnotRecordsCount-int-) | يضبط عدد سجلات عقد bezier. |
 | [getPathOperations()](#getPathOperations--) | يحصل على عمليات المسار. |
 | [setPathOperations(int value)](#setPathOperations-int-) | يضبط عمليات المسار. |
 | [getShapeIndex()](#getShapeIndex--) | يحصل على فهرس الشكل الحالي للمسار في الطبقة. |
@@ -42,7 +42,7 @@ public LengthRecord(byte[] data)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord) class.
+يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -55,7 +55,7 @@ public LengthRecord()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord) class.
+يُنشئ مثيلًا جديدًا من الفئة [LengthRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/lengthrecord).
 
 ### isClosed() {#isClosed--}
 ```
@@ -63,26 +63,26 @@ public final boolean isClosed()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 
-القيمة: `true` إذا كان هذا الكائن مغلقًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مغلقًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+boolean - قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 ### setClosed(boolean value) {#setClosed-boolean-}
 ```
 public final void setClosed(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا.
+يضبط قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا.
 
-القيمة: `true` إذا كان هذا الكائن مغلقًا؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مغلقًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مغلقًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا المثيل مغلقًا. |
 
 ### isOpen() {#isOpen--}
 ```
@@ -90,26 +90,26 @@ public final boolean isOpen()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا.
 
 القيمة: `true` إذا كان هذا الكائن مفتوحًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+منطقي - قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
 ### setOpen(boolean value) {#setOpen-boolean-}
 ```
 public final void setOpen(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا.
+يضبط قيمة تشير إلى ما إذا كان هذا المثيل مفتوحًا.
 
 القيمة: `true` إذا كان هذا الكائن مفتوحًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا الكائن مفتوحًا. |
 
 ### getRecordCount() {#getRecordCount--}
 ```
@@ -136,7 +136,7 @@ public final void setRecordCount(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد السجلات. |
+| value | int | عدد السجلات. |
 
 ### getType() {#getType--}
 ```
@@ -156,22 +156,22 @@ public final int getBezierKnotRecordsCount()
 ```
 
 
-يحصل على عدد سجلات عقد بيزيه.
+يحصل على عدد سجلات عقد bezier.
 
 **Returns:**
-int - عدد سجلات عقد بيزيه.
+int - عدد سجلات عقد bezier.
 ### setBezierKnotRecordsCount(int value) {#setBezierKnotRecordsCount-int-}
 ```
 public final void setBezierKnotRecordsCount(int value)
 ```
 
 
-يضبط عدد سجلات عقد بيزيه.
+يضبط عدد سجلات عقد bezier.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد سجلات عقد بيزيه. |
+| value | int | عدد سجلات عقد bezier. |
 
 ### getPathOperations() {#getPathOperations--}
 ```
@@ -194,7 +194,7 @@ public final void setPathOperations(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عمليات المسار. |
+| value | int | عمليات المسار. |
 
 ### getShapeIndex() {#getShapeIndex--}
 ```
@@ -217,5 +217,5 @@ public final void setShapeIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | فهرس الشكل الحالي للمسار في الطبقة. |
+| value | int | فهرس الشكل الحالي للمسار في الطبقة. |
 

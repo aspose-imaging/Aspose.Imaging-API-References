@@ -17,23 +17,23 @@ public final class EmfProportion extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [PAN_ANY](#PAN-ANY) | ال أي نسبة. |
-| [PAN_NO_FIT](#PAN-NO-FIT) | ال لا ملاءمة. |
-| [PAN_PROP_OLD_STYLE](#PAN-PROP-OLD-STYLE) | نمط قديم. |
-| [PAN_PROP_MODERN](#PAN-PROP-MODERN) | ال حديث |
+| [PAN_ANY](#PAN-ANY) | النسبة أي. |
+| [PAN_NO_FIT](#PAN-NO-FIT) | عدم الملاءمة. |
+| [PAN_PROP_OLD_STYLE](#PAN-PROP-OLD-STYLE) | النمط القديم. |
+| [PAN_PROP_MODERN](#PAN-PROP-MODERN) | الحديث |
 | [PAN_PROP_EVEN_WIDTH](#PAN-PROP-EVEN-WIDTH) | العرض المتساوي |
 | [PAN_PROP_EXPANDED](#PAN-PROP-EXPANDED) | الموسع |
 | [PAN_PROP_CONDENSED](#PAN-PROP-CONDENSED) | المكثف |
 | [PAN_PROP_VERY_EXPANDED](#PAN-PROP-VERY-EXPANDED) | الموسع جدًا |
 | [PAN_PROP_VERY_CONDENSED](#PAN-PROP-VERY-CONDENSED) | المكثف جدًا |
-| [PAN_PROP_MONOSPACED](#PAN-PROP-MONOSPACED) | المسافة أحادية |
+| [PAN_PROP_MONOSPACED](#PAN-PROP-MONOSPACED) | المسافة الأحادية |
 ### PAN_ANY {#PAN-ANY}
 ```
 public static final byte PAN_ANY
 ```
 
 
-ال أي نسبة.
+النسبة أي.
 
 ### PAN_NO_FIT {#PAN-NO-FIT}
 ```
@@ -41,7 +41,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-ال لا ملاءمة.
+عدم الملاءمة.
 
 ### PAN_PROP_OLD_STYLE {#PAN-PROP-OLD-STYLE}
 ```
@@ -49,7 +49,7 @@ public static final byte PAN_PROP_OLD_STYLE
 ```
 
 
-نمط قديم.
+النمط القديم.
 
 ### PAN_PROP_MODERN {#PAN-PROP-MODERN}
 ```
@@ -57,7 +57,7 @@ public static final byte PAN_PROP_MODERN
 ```
 
 
-ال حديث
+الحديث
 
 ### PAN_PROP_EVEN_WIDTH {#PAN-PROP-EVEN-WIDTH}
 ```
@@ -105,5 +105,5 @@ public static final byte PAN_PROP_MONOSPACED
 ```
 
 
-المسافة أحادية
+المسافة الأحادية
 

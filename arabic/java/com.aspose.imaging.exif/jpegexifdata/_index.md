@@ -17,10 +17,10 @@ public final class JpegExifData extends ExifData
 
 | المنشئ | الوصف |
 | --- | --- |
-| [JpegExifData()](#JpegExifData--) | يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData`. |
-| [JpegExifData(TiffDataType[] exifData)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData` باستخدام البيانات من المصفوفة. |
-| [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData` باستخدام البيانات من المصفوفة. |
-| [JpegExifData(ExifData exifData)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | يقوم بإنشاء نسخة جديدة من الفئة [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) باستخدام البيانات من المصفوفة. |
+| [JpegExifData()](#JpegExifData--) | ينشئ مثيلاً جديدًا للفئة `JpegExifData`. |
+| [JpegExifData(TiffDataType[] exifData)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---) | ينشئ مثيلاً جديدًا للفئة `JpegExifData` ببيانات من مصفوفة. |
+| [JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | ينشئ مثيلاً جديدًا للفئة `JpegExifData` ببيانات من مصفوفة. |
+| [JpegExifData(ExifData exifData)](#JpegExifData-com.aspose.imaging.exif.ExifData-) | ينشئ مثيلاً جديدًا للفئة [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) ببيانات من مصفوفة. |
 ## الحقول
 
 | حقل | الوصف |
@@ -30,58 +30,58 @@ public final class JpegExifData extends ExifData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getArtist()](#getArtist--) | يسترجع أو يعيّن الفنان. |
-| [setArtist(String value)](#setArtist-java.lang.String-) | يسترجع أو يعيّن الفنان. |
-| [getBitsPerSample()](#getBitsPerSample--) | يحصل أو يعيّن عدد البتات لكل عينة. |
-| [setBitsPerSample(int[] value)](#setBitsPerSample-int---) | يحصل أو يعيّن عدد البتات لكل عينة. |
-| [getCompression()](#getCompression--) | يحصل أو يعيّن الضغط. |
-| [setCompression(int value)](#setCompression-int-) | يحصل أو يعيّن الضغط. |
-| [getCopyright()](#getCopyright--) | يحصل أو يعيّن حقوق النشر. |
-| [setCopyright(String value)](#setCopyright-java.lang.String-) | يحصل أو يعيّن حقوق النشر. |
-| [getDateTime()](#getDateTime--) | يحصل أو يعيّن التاريخ والوقت. |
-| [setDateTime(String value)](#setDateTime-java.lang.String-) | يحصل أو يعيّن التاريخ والوقت. |
+| [getArtist()](#getArtist--) | يحصل أو يضبط الفنان. |
+| [setArtist(String value)](#setArtist-java.lang.String-) | يحصل أو يضبط الفنان. |
+| [getBitsPerSample()](#getBitsPerSample--) | يحصل أو يضبط عدد البتات لكل عينة. |
+| [setBitsPerSample(int[] value)](#setBitsPerSample-int---) | يحصل أو يضبط عدد البتات لكل عينة. |
+| [getCompression()](#getCompression--) | يحصل أو يضبط الضغط. |
+| [setCompression(int value)](#setCompression-int-) | يحصل أو يضبط الضغط. |
+| [getCopyright()](#getCopyright--) | يحصل أو يضبط حقوق النشر. |
+| [setCopyright(String value)](#setCopyright-java.lang.String-) | يحصل أو يضبط حقوق النشر. |
+| [getDateTime()](#getDateTime--) | يحصل أو يضبط التاريخ والوقت. |
+| [setDateTime(String value)](#setDateTime-java.lang.String-) | يحصل أو يضبط التاريخ والوقت. |
 | [getImageDescription()](#getImageDescription--) | يحصل أو يضبط وصف الصورة. |
 | [setImageDescription(String value)](#setImageDescription-java.lang.String-) | يحصل أو يضبط وصف الصورة. |
 | [getImageLength()](#getImageLength--) | يحصل أو يضبط طول الصورة. |
 | [setImageLength(long value)](#setImageLength-long-) | يحصل أو يضبط طول الصورة. |
 | [getImageWidth()](#getImageWidth--) | يحصل أو يضبط عرض الصورة. |
 | [setImageWidth(long value)](#setImageWidth-long-) | يحصل أو يضبط عرض الصورة. |
-| [getModel()](#getModel--) | يحصل أو يعيّن الطراز. |
-| [setModel(String value)](#setModel-java.lang.String-) | يحصل أو يعيّن الطراز. |
-| [getPhotometricInterpretation()](#getPhotometricInterpretation--) | يحصل أو يعيّن تفسير الفوتومتري. |
-| [setPhotometricInterpretation(int value)](#setPhotometricInterpretation-int-) | يحصل أو يعيّن تفسير الفوتومتري. |
+| [getModel()](#getModel--) | يحصل أو يضبط النموذج. |
+| [setModel(String value)](#setModel-java.lang.String-) | يحصل أو يضبط النموذج. |
+| [getPhotometricInterpretation()](#getPhotometricInterpretation--) | يحصل أو يضبط التفسير الضوئي. |
+| [setPhotometricInterpretation(int value)](#setPhotometricInterpretation-int-) | يحصل أو يضبط التفسير الضوئي. |
 | [getPlanarConfiguration()](#getPlanarConfiguration--) | يحصل أو يضبط تكوين المستوى. |
 | [setPlanarConfiguration(int value)](#setPlanarConfiguration-int-) | يحصل أو يضبط تكوين المستوى. |
-| [getPrimaryChromaticities()](#getPrimaryChromaticities--) | يحصل أو يعيّن اللونية للثلاثة ألوان الأساسية في الصورة. |
-| [setPrimaryChromaticities(TiffRational[] value)](#setPrimaryChromaticities-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يعيّن اللونية للثلاثة ألوان الأساسية في الصورة. |
-| [getReferenceBlackWhite()](#getReferenceBlackWhite--) | يحصل أو يعيّن المرجع الأسود والأبيض. |
-| [setReferenceBlackWhite(TiffRational[] value)](#setReferenceBlackWhite-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يعيّن المرجع الأسود والأبيض. |
+| [getPrimaryChromaticities()](#getPrimaryChromaticities--) | يحصل أو يضبط تشبع الألوان للثلاث ألوان أساسية في الصورة. |
+| [setPrimaryChromaticities(TiffRational[] value)](#setPrimaryChromaticities-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يضبط تشبع الألوان للثلاث ألوان أساسية في الصورة. |
+| [getReferenceBlackWhite()](#getReferenceBlackWhite--) | يحصل أو يضبط الإشارة إلى الأسود والأبيض. |
+| [setReferenceBlackWhite(TiffRational[] value)](#setReferenceBlackWhite-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يضبط الإشارة إلى الأسود والأبيض. |
 | [getResolutionUnit()](#getResolutionUnit--) | يحصل أو يضبط وحدة الدقة. |
 | [setResolutionUnit(int value)](#setResolutionUnit-int-) | يحصل أو يضبط وحدة الدقة. |
-| [getSamplesPerPixel()](#getSamplesPerPixel--) | يحصل أو يعيّن عدد العينات لكل بكسل. |
-| [setSamplesPerPixel(int value)](#setSamplesPerPixel-int-) | يحصل أو يعيّن عدد العينات لكل بكسل. |
-| [getSoftware()](#getSoftware--) | يحصل أو يعيّن البرنامج. |
-| [setSoftware(String value)](#setSoftware-java.lang.String-) | يحصل أو يعيّن البرنامج. |
-| [getTransferFunction()](#getTransferFunction--) | يحصل أو يعيّن دالة النقل. |
-| [setTransferFunction(int[] value)](#setTransferFunction-int---) | يحصل أو يعيّن دالة النقل. |
+| [getSamplesPerPixel()](#getSamplesPerPixel--) | يحصل أو يضبط عدد العينات لكل بكسل. |
+| [setSamplesPerPixel(int value)](#setSamplesPerPixel-int-) | يحصل أو يضبط عدد العينات لكل بكسل. |
+| [getSoftware()](#getSoftware--) | يحصل أو يضبط البرنامج. |
+| [setSoftware(String value)](#setSoftware-java.lang.String-) | يحصل أو يضبط البرنامج. |
+| [getTransferFunction()](#getTransferFunction--) | يحصل أو يضبط دالة النقل. |
+| [setTransferFunction(int[] value)](#setTransferFunction-int---) | يحصل أو يضبط دالة النقل. |
 | [getXResolution()](#getXResolution--) | يحصل أو يضبط دقة x. |
 | [setXResolution(TiffRational value)](#setXResolution-com.aspose.imaging.fileformats.tiff.TiffRational-) | يحصل أو يضبط دقة x. |
-| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | يحصل أو يعيّن معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr. |
-| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يعيّن معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr. |
-| [getYCbCrPositioning()](#getYCbCrPositioning--) | يحصل أو يعيّن موضع مكونات التشبع اللوني بالنسبة إلى مكون الإضاءة. |
-| [setYCbCrPositioning(int value)](#setYCbCrPositioning-int-) | يحصل أو يعيّن موضع مكونات التشبع اللوني بالنسبة إلى مكون الإضاءة. |
-| [getYCbCrSubSampling()](#getYCbCrSubSampling--) | يحصل أو يعيّن نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة إلى مكون الإضاءة. |
-| [setYCbCrSubSampling(int[] value)](#setYCbCrSubSampling-int---) | يحصل أو يعيّن نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة إلى مكون الإضاءة. |
+| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | يحصل أو يضبط معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr. |
+| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | يحصل أو يضبط معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr. |
+| [getYCbCrPositioning()](#getYCbCrPositioning--) | يحصل أو يعيّن موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة. |
+| [setYCbCrPositioning(int value)](#setYCbCrPositioning-int-) | يحصل أو يعيّن موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة. |
+| [getYCbCrSubSampling()](#getYCbCrSubSampling--) | يحصل أو يعيّن نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة. |
+| [setYCbCrSubSampling(int[] value)](#setYCbCrSubSampling-int---) | يحصل أو يعيّن نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة. |
 | [getYResolution()](#getYResolution--) | يحصل أو يضبط دقة y. |
 | [setYResolution(TiffRational value)](#setYResolution-com.aspose.imaging.fileformats.tiff.TiffRational-) | يحصل أو يضبط دقة y. |
-| [serializeExifData()](#serializeExifData--) | يقوم بتسلسل بيانات EXIF. |
+| [serializeExifData()](#serializeExifData--) | يسلسِل بيانات EXIF. |
 ### JpegExifData() {#JpegExifData--}
 ```
 public JpegExifData()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData`.
+ينشئ مثيلاً جديدًا للفئة `JpegExifData`.
 
 ### JpegExifData(TiffDataType[] exifData) {#JpegExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---}
 ```
@@ -89,7 +89,7 @@ public JpegExifData(TiffDataType[] exifData)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData` باستخدام البيانات من المصفوفة.
+ينشئ مثيلاً جديدًا للفئة `JpegExifData` ببيانات من مصفوفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -102,7 +102,7 @@ public JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffData
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `JpegExifData` باستخدام البيانات من المصفوفة.
+ينشئ مثيلاً جديدًا للفئة `JpegExifData` ببيانات من مصفوفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -117,7 +117,7 @@ public JpegExifData(ExifData exifData)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) باستخدام البيانات من المصفوفة.
+ينشئ مثيلاً جديدًا للفئة [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) ببيانات من مصفوفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -138,7 +138,7 @@ public String getArtist()
 ```
 
 
-يسترجع أو يعيّن الفنان.
+يحصل أو يضبط الفنان.
 
 القيمة: الفنان.
 
@@ -150,14 +150,14 @@ public void setArtist(String value)
 ```
 
 
-يسترجع أو يعيّن الفنان.
+يحصل أو يضبط الفنان.
 
 القيمة: الفنان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getBitsPerSample() {#getBitsPerSample--}
 ```
@@ -165,7 +165,7 @@ public int[] getBitsPerSample()
 ```
 
 
-يحصل أو يعيّن عدد البتات لكل عينة.
+يحصل أو يضبط عدد البتات لكل عينة.
 
 القيمة: عدد البتات لكل عينة.
 
@@ -177,14 +177,14 @@ public void setBitsPerSample(int[] value)
 ```
 
 
-يحصل أو يعيّن عدد البتات لكل عينة.
+يحصل أو يضبط عدد البتات لكل عينة.
 
 القيمة: عدد البتات لكل عينة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getCompression() {#getCompression--}
 ```
@@ -192,7 +192,7 @@ public int getCompression()
 ```
 
 
-يحصل أو يعيّن الضغط.
+يحصل أو يضبط الضغط.
 
 القيمة: الضغط.
 
@@ -204,14 +204,14 @@ public void setCompression(int value)
 ```
 
 
-يحصل أو يعيّن الضغط.
+يحصل أو يضبط الضغط.
 
 القيمة: الضغط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCopyright() {#getCopyright--}
 ```
@@ -219,7 +219,7 @@ public String getCopyright()
 ```
 
 
-يحصل أو يعيّن حقوق النشر.
+يحصل أو يضبط حقوق النشر.
 
 القيمة: حقوق النشر.
 
@@ -231,14 +231,14 @@ public void setCopyright(String value)
 ```
 
 
-يحصل أو يعيّن حقوق النشر.
+يحصل أو يضبط حقوق النشر.
 
 القيمة: حقوق النشر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getDateTime() {#getDateTime--}
 ```
@@ -246,7 +246,7 @@ public String getDateTime()
 ```
 
 
-يحصل أو يعيّن التاريخ والوقت.
+يحصل أو يضبط التاريخ والوقت.
 
 القيمة: التاريخ والوقت.
 
@@ -258,14 +258,14 @@ public void setDateTime(String value)
 ```
 
 
-يحصل أو يعيّن التاريخ والوقت.
+يحصل أو يضبط التاريخ والوقت.
 
 القيمة: التاريخ والوقت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getImageDescription() {#getImageDescription--}
 ```
@@ -292,7 +292,7 @@ public void setImageDescription(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getImageLength() {#getImageLength--}
 ```
@@ -319,7 +319,7 @@ public void setImageLength(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getImageWidth() {#getImageWidth--}
 ```
@@ -346,7 +346,7 @@ public void setImageWidth(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getModel() {#getModel--}
 ```
@@ -354,9 +354,9 @@ public String getModel()
 ```
 
 
-يحصل أو يعيّن الطراز.
+يحصل أو يضبط النموذج.
 
-القيمة: النموذج.
+القيمة: الطراز.
 
 **Returns:**
 java.lang.String
@@ -366,14 +366,14 @@ public void setModel(String value)
 ```
 
 
-يحصل أو يعيّن الطراز.
+يحصل أو يضبط النموذج.
 
-القيمة: النموذج.
+القيمة: الطراز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getPhotometricInterpretation() {#getPhotometricInterpretation--}
 ```
@@ -381,7 +381,7 @@ public int getPhotometricInterpretation()
 ```
 
 
-يحصل أو يعيّن تفسير الفوتومتري.
+يحصل أو يضبط التفسير الضوئي.
 
 القيمة: التفسير الضوئي.
 
@@ -393,14 +393,14 @@ public void setPhotometricInterpretation(int value)
 ```
 
 
-يحصل أو يعيّن تفسير الفوتومتري.
+يحصل أو يضبط التفسير الضوئي.
 
 القيمة: التفسير الضوئي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPlanarConfiguration() {#getPlanarConfiguration--}
 ```
@@ -410,7 +410,7 @@ public int getPlanarConfiguration()
 
 يحصل أو يضبط تكوين المستوى.
 
-القيمة: التكوين المستوي.
+القيمة: تكوين المستوى.
 
 **Returns:**
 int
@@ -422,12 +422,12 @@ public void setPlanarConfiguration(int value)
 
 يحصل أو يضبط تكوين المستوى.
 
-القيمة: التكوين المستوي.
+القيمة: تكوين المستوى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPrimaryChromaticities() {#getPrimaryChromaticities--}
 ```
@@ -435,9 +435,9 @@ public TiffRational[] getPrimaryChromaticities()
 ```
 
 
-يحصل أو يعيّن اللونية للثلاثة ألوان الأساسية في الصورة.
+يحصل أو يضبط تشبع الألوان للثلاث ألوان أساسية في الصورة.
 
-القيمة: اللونية للألوان الثلاثة الأساسية في الصورة.
+القيمة: اللونية للثلاث ألوان الأساسية في الصورة.
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffRational[]
@@ -447,9 +447,9 @@ public void setPrimaryChromaticities(TiffRational[] value)
 ```
 
 
-يحصل أو يعيّن اللونية للثلاثة ألوان الأساسية في الصورة.
+يحصل أو يضبط تشبع الألوان للثلاث ألوان أساسية في الصورة.
 
-القيمة: اللونية للألوان الثلاثة الأساسية في الصورة.
+القيمة: اللونية للثلاث ألوان الأساسية في الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -462,9 +462,9 @@ public TiffRational[] getReferenceBlackWhite()
 ```
 
 
-يحصل أو يعيّن المرجع الأسود والأبيض.
+يحصل أو يضبط الإشارة إلى الأسود والأبيض.
 
-القيمة: المرجع الأسود والأبيض.
+القيمة: الإشارة إلى الأسود والأبيض.
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffRational[]
@@ -474,9 +474,9 @@ public void setReferenceBlackWhite(TiffRational[] value)
 ```
 
 
-يحصل أو يعيّن المرجع الأسود والأبيض.
+يحصل أو يضبط الإشارة إلى الأسود والأبيض.
 
-القيمة: المرجع الأسود والأبيض.
+القيمة: الإشارة إلى الأسود والأبيض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -508,7 +508,7 @@ public void setResolutionUnit(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSamplesPerPixel() {#getSamplesPerPixel--}
 ```
@@ -516,7 +516,7 @@ public int getSamplesPerPixel()
 ```
 
 
-يحصل أو يعيّن عدد العينات لكل بكسل.
+يحصل أو يضبط عدد العينات لكل بكسل.
 
 القيمة: عدد العينات لكل بكسل.
 
@@ -528,14 +528,14 @@ public void setSamplesPerPixel(int value)
 ```
 
 
-يحصل أو يعيّن عدد العينات لكل بكسل.
+يحصل أو يضبط عدد العينات لكل بكسل.
 
 القيمة: عدد العينات لكل بكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getSoftware() {#getSoftware--}
 ```
@@ -543,7 +543,7 @@ public String getSoftware()
 ```
 
 
-يحصل أو يعيّن البرنامج.
+يحصل أو يضبط البرنامج.
 
 القيمة: البرنامج.
 
@@ -555,14 +555,14 @@ public void setSoftware(String value)
 ```
 
 
-يحصل أو يعيّن البرنامج.
+يحصل أو يضبط البرنامج.
 
 القيمة: البرنامج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getTransferFunction() {#getTransferFunction--}
 ```
@@ -570,7 +570,7 @@ public int[] getTransferFunction()
 ```
 
 
-يحصل أو يعيّن دالة النقل.
+يحصل أو يضبط دالة النقل.
 
 القيمة: دالة النقل.
 
@@ -582,14 +582,14 @@ public void setTransferFunction(int[] value)
 ```
 
 
-يحصل أو يعيّن دالة النقل.
+يحصل أو يضبط دالة النقل.
 
 القيمة: دالة النقل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getXResolution() {#getXResolution--}
 ```
@@ -624,9 +624,9 @@ public TiffRational[] getYCbCrCoefficients()
 ```
 
 
-يحصل أو يعيّن معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr.
+يحصل أو يضبط معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr.
 
-القيمة: معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr.
+القيمة: معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr.
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffRational[]
@@ -636,9 +636,9 @@ public void setYCbCrCoefficients(TiffRational[] value)
 ```
 
 
-يحصل أو يعيّن معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr.
+يحصل أو يضبط معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr.
 
-القيمة: معاملات المصفوفة للتحويل من بيانات صورة RGB إلى YCbCr.
+القيمة: معاملات المصفوفة للتحويل من بيانات الصورة RGB إلى YCbCr.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -651,9 +651,9 @@ public int getYCbCrPositioning()
 ```
 
 
-يحصل أو يعيّن موضع مكونات التشبع اللوني بالنسبة إلى مكون الإضاءة.
+يحصل أو يعيّن موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
-القيمة: موضع مكونات التشبع اللوني بالنسبة لمكون الإضاءة.
+القيمة: موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
 **Returns:**
 int
@@ -663,14 +663,14 @@ public void setYCbCrPositioning(int value)
 ```
 
 
-يحصل أو يعيّن موضع مكونات التشبع اللوني بالنسبة إلى مكون الإضاءة.
+يحصل أو يعيّن موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
-القيمة: موضع مكونات التشبع اللوني بالنسبة لمكون الإضاءة.
+القيمة: موضع مكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getYCbCrSubSampling() {#getYCbCrSubSampling--}
 ```
@@ -678,9 +678,9 @@ public int[] getYCbCrSubSampling()
 ```
 
 
-يحصل أو يعيّن نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة إلى مكون الإضاءة.
+يحصل أو يعيّن نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
-القيمة: نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة لمكون الإضاءة.
+القيمة: نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
 **Returns:**
 int[]
@@ -690,14 +690,14 @@ public void setYCbCrSubSampling(int[] value)
 ```
 
 
-يحصل أو يعيّن نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة إلى مكون الإضاءة.
+يحصل أو يعيّن نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
-القيمة: نسبة أخذ العينات لمكونات التشبع اللوني بالنسبة لمكون الإضاءة.
+القيمة: نسبة أخذ العينات لمكوّنات التشبع اللوني بالنسبة إلى مكوّن الإضاءة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getYResolution() {#getYResolution--}
 ```
@@ -732,9 +732,9 @@ public byte[] serializeExifData()
 ```
 
 
-يقوم بتسلسل بيانات EXIF. يكتب قيم العلامات ومحتوياتها. العلامة التي تؤثر أكثر على الحجم هي محتويات علامة Thumbnail.
+يسلسِل بيانات EXIF. يكتب قيم الوسوم ومحتوياتها. أكثر وسم يؤثر على الحجم هو محتويات وسم الصورة المصغرة.
 
 **Returns:**
 byte[] - بيانات EXIF المتسلسلة.
 
-يجب أن يكون حجم الجزء الكلي أقل من أو يساوي MaxExifSegmentSize بايت لضمان إنتاج صورة jpeg صحيحة. ملاحظة: حاول تقليل حجم الصورة المصغرة أو تغيير ضغطها في حال كان حجم قسم EXIF كبيرًا جدًا.
+يجب أن يكون حجم الجزء الكلي أقل من أو يساوي MaxExifSegmentSize بايت لضمان إنتاج صورة JPEG صحيحة. تلميح: حاول تقليل حجم الصورة المصغرة أو تغيير ضغطها في حال كان حجم قسم EXIF كبيرًا جدًا.

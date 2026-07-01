@@ -17,14 +17,14 @@ public class FlatArrayException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [FlatArrayException(int cause, String message, Throwable innerException)](#FlatArrayException-int-java.lang.String-java.lang.Throwable-) | يُنشئ مثلاً جديداً من الفئة [FlatArrayException](../../com.aspose.imaging.flatarray.exceptions/flatarrayexception). |
+| [FlatArrayException(int cause, String message, Throwable innerException)](#FlatArrayException-int-java.lang.String-java.lang.Throwable-) | ينشئ مثيلًا جديدًا من الفئة [FlatArrayException](../../com.aspose.imaging.flatarray.exceptions/flatarrayexception). |
 ### FlatArrayException(int cause, String message, Throwable innerException) {#FlatArrayException-int-java.lang.String-java.lang.Throwable-}
 ```
 public FlatArrayException(int cause, String message, Throwable innerException)
 ```
 
 
-يُنشئ مثلاً جديداً من الفئة [FlatArrayException](../../com.aspose.imaging.flatarray.exceptions/flatarrayexception).
+ينشئ مثيلًا جديدًا من الفئة [FlatArrayException](../../com.aspose.imaging.flatarray.exceptions/flatarrayexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |

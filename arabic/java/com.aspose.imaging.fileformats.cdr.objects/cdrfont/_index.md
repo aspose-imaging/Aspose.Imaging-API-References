@@ -1,7 +1,7 @@
 ---
 title: "CdrFont"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr خط"
+description: "خط cdr"
 type: docs
 weight: 22
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrfont/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFont extends CdrDictionaryItem
 ```
 
-ال cdr خط
+خط cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -53,7 +53,7 @@ public final void setFontName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الخط. |
+| value | java.lang.String | اسم الخط. |
 
 ### getEncoding() {#getEncoding--}
 ```
@@ -76,5 +76,5 @@ public final void setEncoding(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | الترميز. |
+| value | قصير | الترميز. |
 

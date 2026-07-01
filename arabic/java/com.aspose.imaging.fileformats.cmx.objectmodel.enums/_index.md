@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CapsTypes](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes) | أنواع القمم للخط. |
 | [CmxCommandCodes](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/cmxcommandcodes) | رموز أوامر الصفحة |
@@ -24,4 +24,4 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/
 | [ParagraphHorizontalAlignment](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/paragraphhorizontalalignment) | محاذاة أفقية |
 | [PathJumpTypes](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes) | أنواع الانتقالات بين نقاط الـ [CmxPathSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec) |
 | [TileOffsetTypes](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/tileoffsettypes) | أنواع الإزاحة بين البلاطات لفرش النسيج. |
-| [Units](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/units) | الوحدات الأساسية لمستند CMX. |
+| [Units](../com.aspose.imaging.fileformats.cmx.objectmodel.enums/units) | الوحدات الأساسية لوثيقة CMX. |

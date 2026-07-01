@@ -17,15 +17,15 @@ public class ImageSaveException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageSaveException(String message)](#ImageSaveException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `ImageSaveException`. |
-| [ImageSaveException(String message, Throwable innerException)](#ImageSaveException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `ImageSaveException`. |
+| [ImageSaveException(String message)](#ImageSaveException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `ImageSaveException`. |
+| [ImageSaveException(String message, Throwable innerException)](#ImageSaveException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `ImageSaveException`. |
 ### ImageSaveException(String message) {#ImageSaveException-java.lang.String-}
 ```
 public ImageSaveException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageSaveException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageSaveException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public ImageSaveException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageSaveException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageSaveException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

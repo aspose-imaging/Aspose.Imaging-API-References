@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EpsPreviewFormat extends System.Enum
 ```
 
-تنسيقات صورة المعاينة لـ [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage).
+تنسيقات صور معاينة [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage).
 ## الحقول
 
 | حقل | الوصف |

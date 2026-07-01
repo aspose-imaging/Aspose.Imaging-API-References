@@ -1,7 +1,7 @@
 ---
 title: "XmpAgentName"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل اسم الوكيل أو اسم البرنامج أو المؤسسة إلخ."
+description: "يمثل اسم الوكيل أو البرنامج أو المؤسسة إلخ."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.xmp.types.derived/xmpagentname/
@@ -17,17 +17,17 @@ public final class XmpAgentName extends XmpText
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpAgentName(String value)](#XmpAgentName-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة `XmpAgentName`. |
+| [XmpAgentName(String value)](#XmpAgentName-java.lang.String-) | ينشئ مثلاً جديداً من الفئة `XmpAgentName`. |
 ### XmpAgentName(String value) {#XmpAgentName-java.lang.String-}
 ```
 public XmpAgentName(String value)
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة `XmpAgentName`.
+ينشئ مثلاً جديداً من الفئة `XmpAgentName`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 

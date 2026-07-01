@@ -1,7 +1,7 @@
 ---
 title: "WmfEscapePostScript"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل Escape PostScript data."
+description: "سجل Escape PostScript للبيانات."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfEscapePostScript extends WmfEscapeRecordBase
 ```
 
-سجل Escape PostScript data.
+سجل Escape PostScript للبيانات.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public class WmfEscapePostScript extends WmfEscapeRecordBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPostScriptPart()](#getPostScriptPart--) | يحصل على جزء post script. |
-| [setPostScriptPart(String value)](#setPostScriptPart-java.lang.String-) | يضبط جزء post script. |
+| [getPostScriptPart()](#getPostScriptPart--) | يحصل على جزء PostScript. |
+| [setPostScriptPart(String value)](#setPostScriptPart-java.lang.String-) | يعيّن جزء PostScript. |
 ### WmfEscapePostScript() {#WmfEscapePostScript--}
 ```
 public WmfEscapePostScript()
@@ -36,24 +36,24 @@ public final String getPostScriptPart()
 ```
 
 
-يحصل على جزء post script.
+يحصل على جزء PostScript.
 
-القيمة: جزء post script.
+القيمة: جزء PostScript.
 
 **Returns:**
-java.lang.String - جزء post script.
+java.lang.String - جزء PostScript.
 ### setPostScriptPart(String value) {#setPostScriptPart-java.lang.String-}
 ```
 public final void setPostScriptPart(String value)
 ```
 
 
-يضبط جزء post script.
+يعيّن جزء PostScript.
 
-القيمة: جزء post script.
+القيمة: جزء PostScript.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | جزء post script. |
+| value | java.lang.String | جزء PostScript. |
 

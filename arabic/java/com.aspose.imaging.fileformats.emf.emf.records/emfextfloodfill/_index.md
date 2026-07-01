@@ -1,7 +1,7 @@
 ---
 title: "EmfExtFloodFill"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_EXTFLOODFILL يملأ مساحة من سطح العرض بالفرشاة الحالية"
+description: "سجل EMR_EXTFLOODFILL يملأ مساحة من سطح العرض بالفرشاة الحالية."
 type: docs
 weight: 54
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
@@ -22,12 +22,12 @@ public final class EmfExtFloodFill extends EmfDrawingRecordType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getStart()](#getStart--) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات بوحدات منطقية حيث يبدأ التعبئة. |
-| [setStart(Point value)](#setStart-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات بوحدات منطقية حيث يبدأ التعبئة. |
-| [getArgb32Color()](#getArgb32Color--) | يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي سيتم ملئها. |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي سيتم ملئها. |
-| [getFloodFillMode()](#getFloodFillMode--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. |
-| [setFloodFillMode(int value)](#setFloodFillMode-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. |
+| [getStart()](#getStart--) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات، بوحدات منطقية، حيث يبدأ التعبئة. |
+| [setStart(Point value)](#setStart-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات، بوحدات منطقية، حيث يبدأ التعبئة. |
+| [getArgb32Color()](#getArgb32Color--) | يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي ستملأ. |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي ستملأ. |
+| [getFloodFillMode()](#getFloodFillMode--) | يحصل أو يضبط عدد صحيح غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. |
+| [setFloodFillMode(int value)](#setFloodFillMode-int-) | يحصل أو يضبط عدد صحيح غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. |
 ### EmfExtFloodFill(EmfRecord source) {#EmfExtFloodFill-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfExtFloodFill(EmfRecord source)
@@ -47,7 +47,7 @@ public Point getStart()
 ```
 
 
-يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات بوحدات منطقية حيث يبدأ التعبئة.
+يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات، بوحدات منطقية، حيث يبدأ التعبئة.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -57,7 +57,7 @@ public void setStart(Point value)
 ```
 
 
-يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات بوحدات منطقية حيث يبدأ التعبئة.
+يحصل أو يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15)، الذي يحدد الإحداثيات، بوحدات منطقية، حيث يبدأ التعبئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public int getArgb32Color()
 ```
 
 
-يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي سيتم ملئها.
+يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي ستملأ.
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setArgb32Color(int value)
 ```
 
 
-يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي سيتم ملئها.
+يحصل أو يضبط كائن WMF ColorRef ([MS-WMF] القسم 2.2.2.8)، الذي يُستخدم مع FloodFillMode لتحديد المنطقة التي ستملأ.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getFloodFillMode() {#getFloodFillMode--}
 ```
@@ -93,7 +93,7 @@ public int getFloodFillMode()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. يجب أن تكون القيمة ضمن تعداد FloodFill (القسم 2.1.13).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. يجب أن تكون القيمة ضمن تعداد FloodFill (القسم 2.1.13).
 
 **Returns:**
 int
@@ -103,10 +103,10 @@ public void setFloodFillMode(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. يجب أن تكون القيمة ضمن تعداد FloodFill (القسم 2.1.13).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد كيفية استخدام قيمة اللون لتحديد المنطقة لعملية ملء الفيض. يجب أن تكون القيمة ضمن تعداد FloodFill (القسم 2.1.13).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

@@ -1,7 +1,7 @@
 ---
 title: "EmfGlsBoundedRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_GLSBOUNDEDRECORD يحدد دالة OpenGL مع مستطيل حدودي للإخراج."
+description: "السجل EMR_GLSBOUNDEDRECORD يحدد دالة OpenGL مع مستطيل حدودي للإخراج."
 type: docs
 weight: 63
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
@@ -17,15 +17,15 @@ public final class EmfGlsBoundedRecord extends EmfOpenGlRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfGlsBoundedRecord(EmfRecord source)](#EmfGlsBoundedRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfGlsBoundedRecord`. |
+| [EmfGlsBoundedRecord(EmfRecord source)](#EmfGlsBoundedRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfGlsBoundedRecord`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) يحدد مستطيلًا حدوديًا بوحدات الجهاز للإخراج الناتج عن تنفيذ دالة OpenGL. |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) يحدد مستطيلًا حدوديًا بوحدات الجهاز للإخراج الناتج عن تنفيذ دالة OpenGL. |
-| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
-| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
+| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا حدوديًا، بوحدات الجهاز، للإخراج الناتج عن تنفيذ دالة OpenGL. |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا حدوديًا، بوحدات الجهاز، للإخراج الناتج عن تنفيذ دالة OpenGL. |
+| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
+| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
 | [getData()](#getData--) | يحصل أو يعيّن مصفوفة اختيارية من البايت بطول cbData تحدد البيانات لدالة OpenGL. |
 | [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن مصفوفة اختيارية من البايت بطول cbData تحدد البيانات لدالة OpenGL. |
 ### EmfGlsBoundedRecord(EmfRecord source) {#EmfGlsBoundedRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -34,7 +34,7 @@ public EmfGlsBoundedRecord(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfGlsBoundedRecord`.
+يُنشئ مثيلًا جديدًا للفئة `EmfGlsBoundedRecord`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,7 +47,7 @@ public Rectangle getBounds()
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) يحدد مستطيلًا حدوديًا بوحدات الجهاز للإخراج الناتج عن تنفيذ دالة OpenGL.
+يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا حدوديًا، بوحدات الجهاز، للإخراج الناتج عن تنفيذ دالة OpenGL.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -57,7 +57,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) يحدد مستطيلًا حدوديًا بوحدات الجهاز للإخراج الناتج عن تنفيذ دالة OpenGL.
+يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا حدوديًا، بوحدات الجهاز، للإخراج الناتج عن تنفيذ دالة OpenGL.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public int getCbData()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. إذا كان هذا القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. إذا كانت هذه القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setCbData(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. إذا كان هذا القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. إذا كانت هذه القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getData() {#getData--}
 ```
@@ -108,5 +108,5 @@ public void setData(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

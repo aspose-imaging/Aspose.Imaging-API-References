@@ -1,7 +1,7 @@
 ---
 title: "IFrame"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إطار WebP"
+description: "إطار Webp"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.webp/iframe/

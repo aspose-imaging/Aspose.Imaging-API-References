@@ -17,16 +17,16 @@ public final class DashCap extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Flat](#Flat) | يحدد غطاءً مربعًا يزيل الزوايا على كلا طرفي كل شرطة. |
-| [Round](#Round) | يحدد غطاءً دائريًا `true` [dispose stream]. |
-| [Triangle](#Triangle) | يحدد غطاءً مثلثيًا يوجه كلا طرفي كل شرطة. |
+| [Flat](#Flat) | يحدد غطاءً مربعًا يقطع كلا طرفي كل شرطة. |
+| [Round](#Round) | يحدد غطاءً دائريًا يُدوّر كلا طرفي كل شرطة. |
+| [Triangle](#Triangle) | يحدد غطاءً مثلثيًا يُشير إلى كلا طرفي كل شرطة. |
 ### Flat {#Flat}
 ```
 public static final int Flat
 ```
 
 
-يحدد غطاءً مربعًا يزيل الزوايا على كلا طرفي كل شرطة.
+يحدد غطاءً مربعًا يقطع كلا طرفي كل شرطة.
 
 ### Round {#Round}
 ```
@@ -34,7 +34,7 @@ public static final int Round
 ```
 
 
-يحدد غطاءً دائريًا `true` [dispose stream].
+يحدد غطاءً دائريًا يُدوّر كلا طرفي كل شرطة.
 
 ### Triangle {#Triangle}
 ```
@@ -42,5 +42,5 @@ public static final int Triangle
 ```
 
 
-يحدد غطاءً مثلثيًا يوجه كلا طرفي كل شرطة.
+يحدد غطاءً مثلثيًا يُشير إلى كلا طرفي كل شرطة.
 

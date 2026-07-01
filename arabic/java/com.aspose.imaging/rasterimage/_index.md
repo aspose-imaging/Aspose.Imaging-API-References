@@ -20,44 +20,44 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPremultiplyComponents()](#getPremultiplyComponents--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب مكونات الصورة مسبقًا. |
-| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب مكونات الصورة مسبقًا. |
-| [getUseRawData()](#getUseRawData--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا. |
-| [setUseRawData(boolean value)](#setUseRawData-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا. |
-| [getUpdateXmpData()](#getUpdateXmpData--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية. |
-| [setUpdateXmpData(boolean value)](#setUpdateXmpData-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية. |
-| [getRawIndexedColorConverter()](#getRawIndexedColorConverter--) | يحصل أو يضبط محول الألوان المفهرس |
-| [setRawIndexedColorConverter(IIndexedColorConverter value)](#setRawIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | يحصل أو يضبط محول الألوان المفهرس |
-| [getRawCustomColorConverter()](#getRawCustomColorConverter--) | يحصل أو يضبط محول الألوان المخصص |
-| [setRawCustomColorConverter(IColorConverter value)](#setRawCustomColorConverter-com.aspose.imaging.IColorConverter-) | يحصل أو يضبط محول الألوان المخصص |
-| [getRawFallbackIndex()](#getRawFallbackIndex--) | يحصل أو يضبط فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
-| [setRawFallbackIndex(int value)](#setRawFallbackIndex-int-) | يحصل أو يضبط فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
+| [getPremultiplyComponents()](#getPremultiplyComponents--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب أن تكون مكونات الصورة مضروبَة مسبقًا. |
+| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب أن تكون مكونات الصورة مضروبَة مسبقًا. |
+| [getUseRawData()](#getUseRawData--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا. |
+| [setUseRawData(boolean value)](#setUseRawData-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا. |
+| [getUpdateXmpData()](#getUpdateXmpData--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية. |
+| [setUpdateXmpData(boolean value)](#setUpdateXmpData-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية. |
+| [getRawIndexedColorConverter()](#getRawIndexedColorConverter--) | يحصل أو يعيّن محول اللون المفهرس |
+| [setRawIndexedColorConverter(IIndexedColorConverter value)](#setRawIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | يحصل أو يعيّن محول اللون المفهرس |
+| [getRawCustomColorConverter()](#getRawCustomColorConverter--) | يحصل أو يعيّن محول اللون المخصص |
+| [setRawCustomColorConverter(IColorConverter value)](#setRawCustomColorConverter-com.aspose.imaging.IColorConverter-) | يحصل أو يعيّن محول اللون المخصص |
+| [getRawFallbackIndex()](#getRawFallbackIndex--) | يحصل أو يعيّن فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
+| [setRawFallbackIndex(int value)](#setRawFallbackIndex-int-) | يحصل أو يعيّن فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
 | [getRawDataSettings()](#getRawDataSettings--) |  |
 | [isUsePalette()](#isUsePalette--) | يحصل على قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة. |
 | [getRawDataFormat()](#getRawDataFormat--) | يحصل على تنسيق البيانات الخام. |
 | [getRawLineSize()](#getRawLineSize--) | يحصل على حجم السطر الخام بالبايت. |
 | [isRawDataAvailable()](#isRawDataAvailable--) | يحصل على قيمة تشير إلى ما إذا كان تحميل البيانات الخام متاحًا. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | يحصل أو يضبط الدقة الأفقية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | يحصل أو يضبط الدقة الأفقية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`. |
-| [getVerticalResolution()](#getVerticalResolution--) | يحصل أو يضبط الدقة العمودية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | يحصل أو يضبط الدقة العمودية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`. |
-| [hasTransparentColor()](#hasTransparentColor--) | يحصل على قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | يحصل أو يعيّن الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | يحصل أو يعيّن الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [getVerticalResolution()](#getVerticalResolution--) | يحصل أو يعيّن الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | يحصل أو يعيّن الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [hasTransparentColor()](#hasTransparentColor--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثال من [RasterImage](../../com.aspose.imaging/rasterimage) يحتوي على لون شفاف. |
 | [hasAlpha()](#hasAlpha--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا. |
 | [getTransparentColor()](#getTransparentColor--) | يحصل على لون الصورة الشفاف. |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | يضبط قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف. |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | يضبط قيمة تشير إلى ما إذا كان كائن [RasterImage](../../com.aspose.imaging/rasterimage) هذا يحتوي على لون شفاف. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | يحصل على لون الصورة الشفاف. |
 | [getImageOpacity()](#getImageOpacity--) | يحصل على شفافية هذه الصورة. |
-| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لهذه الحالة من الصورة عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`. |
-| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | يسترجع التاريخ والوقت عندما خضعت صورة المورد لأحدث تعديل. |
-| [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | ينفّذ تمويهًا على الصورة الحالية. |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | ينفّذ تمويهًا على الصورة الحالية. |
+| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لكائن الصورة هذا عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`. |
+| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | يسترجع التاريخ والوقت الذي خضعت فيه صورة المورد لأحدث تعديل. |
+| [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | ينفّذ تمويهًا (dithering) على الصورة الحالية. |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | ينفّذ تمويهًا (dithering) على الصورة الحالية. |
 | [getDefaultPixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)](#getDefaultPixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-) | يحصل على مصفوفة البكسلات الافتراضية باستخدام محمل البكسلات الجزئي. |
 | [getDefaultRawData(Rectangle rectangle, IPartialRawDataLoader partialRawDataLoader, RawDataSettings rawDataSettings)](#getDefaultRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialRawDataLoader-com.aspose.imaging.RawDataSettings-) | يحصل على مصفوفة البيانات الخام الافتراضية باستخدام محمل البكسلات الجزئي. |
 | [getDefaultArgb32Pixels(Rectangle rectangle)](#getDefaultArgb32Pixels-com.aspose.imaging.Rectangle-) | يحصل على مصفوفة بكسلات ARGB 32‑بت الافتراضية. |
 | [getDefaultRawData(Rectangle rectangle, RawDataSettings rawDataSettings)](#getDefaultRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-) | يحصل على مصفوفة البيانات الخام الافتراضية. |
-| [getArgb32Pixel(int x, int y)](#getArgb32Pixel-int-int-) | يحصل على بكسل ARGB 32‑بت من الصورة. |
+| [getArgb32Pixel(int x, int y)](#getArgb32Pixel-int-int-) | يحصل على بكسل ARGB 32‑بت لصورة. |
 | [getPixel(int x, int y)](#getPixel-int-int-) | يحصل على بكسل الصورة. |
-| [setArgb32Pixel(int x, int y, int argb32Color)](#setArgb32Pixel-int-int-int-) | يضبط بكسل ARGB 32‑بت للصورة في الموضع المحدد. |
+| [setArgb32Pixel(int x, int y, int argb32Color)](#setArgb32Pixel-int-int-int-) | يضبط بكسل ARGB 32‑بت لصورة في الموضع المحدد. |
 | [setPixel(int x, int y, Color color)](#setPixel-int-int-com.aspose.imaging.Color-) | يضبط بكسل الصورة في الموضع المحدد. |
 | [readScanLine(int scanLineIndex)](#readScanLine-int-) | يقرأ السطر الكامل للمسح وفقًا لمؤشر سطر المسح المحدد. |
 | [readArgb32ScanLine(int scanLineIndex)](#readArgb32ScanLine-int-) | يقرأ السطر الكامل للمسح وفقًا لمؤشر سطر المسح المحدد. |
@@ -76,37 +76,37 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 | [saveRawData(byte[] data, int dataOffset, Rectangle rectangle, RawDataSettings rawDataSettings)](#saveRawData-byte---int-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-) | يحفظ البيانات الخام. |
 | [saveArgb32Pixels(Rectangle rectangle, int[] pixels)](#saveArgb32Pixels-com.aspose.imaging.Rectangle-int---) | يحفظ بكسلات ARGB 32‑بت. |
 | [savePixels(Rectangle rectangle, Color[] pixels)](#savePixels-com.aspose.imaging.Rectangle-com.aspose.imaging.Color---) | يحفظ البكسلات. |
-| [toBitmap()](#toBitmap--) | يحوّل صورة النقطية إلى bitmap. |
+| [toBitmap()](#toBitmap--) | يقوم بتحويل الصورة النقطية إلى الـ bitmap. |
 | [saveCmykPixels(Rectangle rectangle, CmykColor[] pixels)](#saveCmykPixels-com.aspose.imaging.Rectangle-com.aspose.imaging.CmykColor---) | يحفظ البكسلات. |
 | [saveCmyk32Pixels(Rectangle rectangle, int[] pixels)](#saveCmyk32Pixels-com.aspose.imaging.Rectangle-int---) | يحفظ البكسلات. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | يضبط الدقة لهذه `RasterImage`. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يضبط لوحة ألوان الصورة. |
-| [autoRotate()](#autoRotate--) | يقوم تلقائيًا بتدوير الصورة بناءً على بيانات الاتجاه المستخرجة من بيانات Exif الوصفية. |
+| [autoRotate()](#autoRotate--) | يقوم تلقائيًا بتدوير الصورة استنادًا إلى بيانات الاتجاه المستخرجة من بيانات Exif الوصفية. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | يعيد تحجيم الصورة باستخدام خيارات موسعة. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | دوّر الصورة حول المركز. |
 | [rotate(float angle)](#rotate-float-) | دوّر الصورة حول المركز. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | تحويل الصورة إلى ثنائية باستخدام عتبة محددة مسبقًا |
 | [binarizeOtsu()](#binarizeOtsu--) | تحويل الصورة إلى ثنائية باستخدام عتبة Otsu |
-| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة |
-| [blend(Point origin, RasterImage overlay, Rectangle overlayArea)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-) | يمزج نسخة الصورة هذه مع صورة `overlay`. |
-| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | يمزج نسخة الصورة هذه مع صورة `overlay`. |
-| [blend(Point origin, RasterImage overlay)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-) | يمزج هذه النسخة من الصورة مع `overlay` مع قيمة ألفا == 255. |
-| [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | يمزج هذه النسخة من الصورة مع `overlay`. |
+| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-) | يمزج هذه النسخة من الصورة مع صورة `overlay`. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | يمزج هذه النسخة من الصورة مع صورة `overlay`. |
+| [blend(Point origin, RasterImage overlay)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-) | يمزج نسخة الصورة هذه مع `overlay` حيث alpha == 255. |
+| [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | يمزج نسخة الصورة هذه مع `overlay`. |
 | [grayscale()](#grayscale--) | تحويل الصورة إلى تمثيلها بتدرج الرمادي |
-| [normalizeHistogram()](#normalizeHistogram--) | يُعَدِّل هيستوجرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح. |
+| [normalizeHistogram()](#normalizeHistogram--) | يُعَدِّل هيستوغرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح. |
 | [autoBrightnessContrast()](#autoBrightnessContrast--) | تطبيع تلقائي متكيف للسطوع والتباين لكامل الصورة. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | ضبط سطوع الصورة. |
-| [adjustContrast(float contrast)](#adjustContrast-float-) | تحسين تباين الصورة |
-| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام steganography. |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | ضبط السطوع للصورة. |
+| [adjustContrast(float contrast)](#adjustContrast-float-) | تحسين التباين في الصورة |
+| [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام تقنية إخفاء المعلومات (steganography). |
 | [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | يحسب نسبة التشابه بين البيانات المستخرجة وكلمة المرور الأصلية. |
-| [isDigitalSigned(String password)](#isDigitalSigned-java.lang.String-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة. |
-| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة. |
+| [isDigitalSigned(String password)](#isDigitalSigned-java.lang.String-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة. |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة. |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | تصحيح جاما للصورة. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | تصحيح جاما للصورة. |
-| [getSkewAngle()](#getSkewAngle--) | يحصل على زاوية الميل. |
-| [normalizeAngle()](#normalizeAngle--) | يعيد تطبيع الزاوية. |
-| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | يعيد تطبيع الزاوية. |
+| [getSkewAngle()](#getSkewAngle--) | يحصل على زاوية الانحراف. |
+| [normalizeAngle()](#normalizeAngle--) | يُعَدِّل الزاوية. |
+| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | يُعَدِّل الزاوية. |
 | [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | يفلتر المستطيل المحدد. |
 | [replaceColor(Color oldColor, byte oldColorDiff, Color newColor)](#replaceColor-com.aspose.imaging.Color-byte-com.aspose.imaging.Color-) | يستبدل لونًا بآخر مع فرق مسموح به ويحافظ على قيمة ألفا الأصلية للحفاظ على حواف ناعمة. |
 | [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | يستبدل لونًا بآخر مع فرق مسموح به ويحافظ على قيمة ألفا الأصلية للحفاظ على حواف ناعمة. |
@@ -125,7 +125,7 @@ gifOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "outp
 // إنشاء نسخة من Image
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.create(gifOptions, 500, 500);
 try {
-    // احصل على بكسلات الصورة بتحديد المنطقة كحدود الصورة.
+    // احصل على بكسلات الصورة عن طريق تحديد المنطقة كحدود الصورة.
     com.aspose.imaging.Color[] pixels = image.loadPixels(image.getBounds());
 
     // تكرار عبر المصفوفة وتعيين لون البكسل المفهرس البديل.
@@ -155,7 +155,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب مكونات الصورة مسبقًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب أن تكون مكونات الصورة مضروبَة مسبقًا.
 
 **Returns:**
 منطقي - `true` إذا كان يجب ضرب مكونات الصورة مسبقًا؛ وإلا `false`.
@@ -165,12 +165,12 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب ضرب مكونات الصورة مسبقًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب أن تكون مكونات الصورة مضروبَة مسبقًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا كان يجب ضرب مكونات الصورة مسبقًا؛ وإلا `false`. |
+| value | boolean | `true` إذا كان يجب ضرب مكونات الصورة مسبقًا؛ وإلا `false`. |
 
 
 **Example: The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
@@ -224,7 +224,7 @@ public boolean getUseRawData()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا.
 
 **Returns:**
 منطقي - `true` إذا تم استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا؛ وإلا `false`.
@@ -234,12 +234,12 @@ public void setUseRawData(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا تم استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا؛ وإلا `false`. |
+| value | boolean | `true` إذا تم استخدام تحميل البيانات الخام عندما يكون تحميل البيانات الخام متاحًا؛ وإلا `false`. |
 
 ### getUpdateXmpData() {#getUpdateXmpData--}
 ```
@@ -247,7 +247,7 @@ public boolean getUpdateXmpData()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية.
 
 **Returns:**
 منطقي - `true` إذا تم تحديث بيانات XMP الوصفية؛ وإلا `false`.
@@ -257,12 +257,12 @@ public void setUpdateXmpData(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان يجب تحديث بيانات XMP الوصفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | `true` إذا تم تحديث بيانات XMP الوصفية؛ وإلا `false`. |
+| value | boolean | `true` إذا تم تحديث بيانات XMP الوصفية؛ وإلا `false`. |
 
 ### getRawIndexedColorConverter() {#getRawIndexedColorConverter--}
 ```
@@ -270,7 +270,7 @@ public IIndexedColorConverter getRawIndexedColorConverter()
 ```
 
 
-يحصل أو يضبط محول الألوان المفهرس
+يحصل أو يعيّن محول اللون المفهرس
 
 **Returns:**
 [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) - The indexed color converter
@@ -280,12 +280,12 @@ public void setRawIndexedColorConverter(IIndexedColorConverter value)
 ```
 
 
-يحصل أو يضبط محول الألوان المفهرس
+يحصل أو يعيّن محول اللون المفهرس
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) | محول الألوان المفهرسة |
+| value | [IIndexedColorConverter](../../com.aspose.imaging/iindexedcolorconverter) | محول اللون المفهرس |
 
 ### getRawCustomColorConverter() {#getRawCustomColorConverter--}
 ```
@@ -293,7 +293,7 @@ public IColorConverter getRawCustomColorConverter()
 ```
 
 
-يحصل أو يضبط محول الألوان المخصص
+يحصل أو يعيّن محول اللون المخصص
 
 **Returns:**
 [IColorConverter](../../com.aspose.imaging/icolorconverter) - The custom color converter
@@ -303,12 +303,12 @@ public void setRawCustomColorConverter(IColorConverter value)
 ```
 
 
-يحصل أو يضبط محول الألوان المخصص
+يحصل أو يعيّن محول اللون المخصص
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [IColorConverter](../../com.aspose.imaging/icolorconverter) | محول الألوان المخصص |
+| value | [IColorConverter](../../com.aspose.imaging/icolorconverter) | محول اللون المخصص |
 
 ### getRawFallbackIndex() {#getRawFallbackIndex--}
 ```
@@ -316,22 +316,22 @@ public int getRawFallbackIndex()
 ```
 
 
-يحصل أو يضبط فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق
+يحصل أو يعيّن فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق
 
 **Returns:**
-int - الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق
+int - الفهرس الاحتياطي المستخدم عندما يكون فهرس اللوحة خارج النطاق
 ### setRawFallbackIndex(int value) {#setRawFallbackIndex-int-}
 ```
 public void setRawFallbackIndex(int value)
 ```
 
 
-يحصل أو يضبط فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق
+يحصل أو يعيّن فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الفهرس الاحتياطي لاستخدامه عندما يكون فهرس اللوحة خارج النطاق |
+| value | int | فهرس الاحتياطي لاستخدامه عندما يكون فهرس لوحة الألوان خارج النطاق |
 
 ### getRawDataSettings() {#getRawDataSettings--}
 ```
@@ -351,7 +351,7 @@ public boolean isUsePalette()
 
 يحصل على قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة.
 
-القيمة: `true` إذا تم استخدام اللوحة في الصورة؛ وإلا، `false`.
+القيمة: `true` إذا استُخدمت اللوحة في الصورة؛ وإلا، `false`.
 
 **Returns:**
 boolean - قيمة تشير إلى ما إذا كانت لوحة ألوان الصورة مستخدمة.
@@ -391,8 +391,8 @@ for (String fileName : fileNames) {
 }
 
 // قد يبدو الإخراج هكذا:
-// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, القنوات المستخدمة: 8,8,8 HasAlpha=false
-// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, القنوات المستخدمة: 8,8,8,8 HasAlpha=true
+// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, used channels: 8,8,8 HasAlpha=false
+// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, used channels: 8,8,8,8 HasAlpha=true
 ```
 
 ### getRawLineSize() {#getRawLineSize--}
@@ -404,7 +404,7 @@ public int getRawLineSize()
 يحصل على حجم السطر الخام بالبايت.
 
 **Returns:**
-int - حجم السطر الخام بالبايت.
+عدد صحيح - حجم السطر الخام بالبايت.
 ### isRawDataAvailable() {#isRawDataAvailable--}
 ```
 public boolean isRawDataAvailable()
@@ -414,19 +414,19 @@ public boolean isRawDataAvailable()
 يحصل على قيمة تشير إلى ما إذا كان تحميل البيانات الخام متاحًا.
 
 **Returns:**
-منطقي - `true` إذا كان تحميل البيانات الخام هذا متاحًا؛ وإلا `false`.
+منطقي - `true` إذا كان تحميل البيانات الخام متاحًا؛ وإلا `false`.
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
 ```
 
 
-يحصل أو يضبط الدقة الأفقية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`.
+يحصل أو يعيّن الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Returns:**
-double - الدقة الأفقية.
+مزدوج - الدقة الأفقية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
 
@@ -444,7 +444,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         rasterImage.setResolution(96.0, 96.0);
 
@@ -453,11 +453,11 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-    // تعيين قيم الدقة إلى 96 نقطة في البوصة
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+    // عيّن قيم الدقة إلى 96 نقطة في البوصة
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 } finally {
     image.dispose();
 }
@@ -469,14 +469,14 @@ public void setHorizontalResolution(double value)
 ```
 
 
-يحصل أو يضبط الدقة الأفقية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`.
+يحصل أو يعيّن الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة الأفقية. |
+|  | value | double | الدقة الأفقية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد. |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -484,12 +484,12 @@ public double getVerticalResolution()
 ```
 
 
-يحصل أو يضبط الدقة العمودية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`.
+يحصل أو يعيّن الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Returns:**
-double - الدقة العمودية.
+مزدوج - الدقة العمودية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
 
@@ -507,7 +507,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         rasterImage.setResolution(96.0, 96.0);
 
@@ -516,11 +516,11 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-    // تعيين قيم الدقة إلى 96 نقطة في البوصة
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+    // عيّن قيم الدقة إلى 96 نقطة في البوصة
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 } finally {
     image.dispose();
 }
@@ -532,14 +532,14 @@ public void setVerticalResolution(double value)
 ```
 
 
-يحصل أو يضبط الدقة العمودية، بوحدة بكسل لكل بوصة، لهذا `RasterImage`.
+يحصل أو يعيّن الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة العمودية. |
+|  | value | double | الدقة العمودية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد. |
 
 ### hasTransparentColor() {#hasTransparentColor--}
 ```
@@ -547,14 +547,14 @@ public boolean hasTransparentColor()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف.
+يحصل على قيمة تشير إلى ما إذا كان هذا المثال من [RasterImage](../../com.aspose.imaging/rasterimage) يحتوي على لون شفاف.
 
 --------------------
 
-الإصدار الأساسي يعيد فعليًا `` إذا لم يتم تجاوزها في تنفيذ محدد يدعم هذه الميزة. تُستخدم هذه الخاصية أساسًا بواسطة [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)، [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)، [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif)، [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) لتعيين لون شفاف إذا كانت الصورة لا تدعم الشفافية عبر قناة ألفا.
+تُعيد التنفيذ الأساسي فعليًا `` إذا لم يتم تجاوزها في تنفيذ محدد يدعم هذه الميزة. تُستخدم هذه الخاصية أساسًا بواسطة [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)، [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)، [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif)، [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) لتعيين لون شفاف إذا كانت الصورة لا تدعم الشفافية عبر قناة ألفا.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) تحتوي على لون شفاف.
+منطقي - قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -564,7 +564,7 @@ public boolean hasAlpha()
 يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا.
 
 **Returns:**
-boolean - `true` إذا كان هذا الكائن يحتوي على ألفا؛ وإلا `false`.
+منطقي - `true` إذا كان لهذه الحالة ألفا؛ وإلا `false`.
 
 **Example: The following example loads raster images and prints information about raw data format and alpha channel.**
 
@@ -591,8 +591,8 @@ for (String fileName : fileNames) {
 }
 
 // قد يبدو الإخراج هكذا:
-// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, القنوات المستخدمة: 8,8,8 HasAlpha=false
-// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, القنوات المستخدمة: 8,8,8,8 HasAlpha=true
+// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, used channels: 8,8,8 HasAlpha=false
+// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, used channels: 8,8,8,8 HasAlpha=true
 ```
 
 ### getTransparentColor() {#getTransparentColor--}
@@ -611,16 +611,16 @@ public void setTransparentColor(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف.
+يضبط قيمة تشير إلى ما إذا كان كائن [RasterImage](../../com.aspose.imaging/rasterimage) هذا يحتوي على لون شفاف.
 
 --------------------
 
-الإصدار الأساسي يعيد فعليًا `` إذا لم يتم تجاوزها في تنفيذ محدد يدعم هذه الميزة. تُستخدم هذه الخاصية أساسًا بواسطة [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)، [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)، [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif)، [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) لتعيين لون شفاف إذا كانت الصورة لا تدعم الشفافية عبر قناة ألفا.
+تُعيد التنفيذ الأساسي فعليًا `` إذا لم يتم تجاوزها في تنفيذ محدد يدعم هذه الميزة. تُستخدم هذه الخاصية أساسًا بواسطة [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)، [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)، [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif)، [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) لتعيين لون شفاف إذا كانت الصورة لا تدعم الشفافية عبر قناة ألفا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) تحتوي على لون شفاف. |
+| value | boolean | قيمة تشير إلى ما إذا كانت هذه الحالة من [RasterImage](../../com.aspose.imaging/rasterimage) لديها لون شفاف. |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
@@ -644,14 +644,14 @@ public float getImageOpacity()
 يحصل على شفافية هذه الصورة.
 
 **Returns:**
-float - قيمة التعتيم بين 0.0 (شفاف تمامًا) و 1.0 (معتم تمامًا).
+عائم - قيمة الشفافية بين 0.0 (شفاف تمامًا) و 1.0 (معتم تمامًا).
 ### removeMetadata() {#removeMetadata--}
 ```
 public void removeMetadata()
 ```
 
 
-يزيل بيانات التعريف لهذه الحالة من الصورة عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`.
+يزيل بيانات التعريف لكائن الصورة هذا عن طريق ضبط قيمة `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) إلى `null`.
 
 ### getModifyDate(boolean useDefault) {#getModifyDate-boolean-}
 ```
@@ -659,7 +659,7 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-يسترجع التاريخ والوقت عندما خضعت صورة المورد لأحدث تعديل لها. توفر هذه الطريقة بيانات وصفية قيمة، مما يمكّن المستخدمين من تتبع وإدارة التحديثات لملف الصورة بفعالية. من خلال الوصول إلى هذه المعلومات، يمكن للمستخدمين ضمان سلامة وحداثة أصول الصور الخاصة بهم، مما يسهل اتخاذ قرارات مستنيرة بشأن استخدام الصورة وصيانتها.
+يسترجع التاريخ والوقت الذي خضعت فيه صورة المورد لأحدث تعديل. توفر هذه الطريقة بيانات وصفية قيمة، تمكّن المستخدمين من تتبع وإدارة تحديثات ملف الصورة بفعالية. من خلال الوصول إلى هذه المعلومات، يمكن للمستخدمين ضمان سلامة وحداثة أصول الصور الخاصة بهم، مما يسهل اتخاذ قرارات مستنيرة بشأن استخدام الصورة وصيانتها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -674,7 +674,7 @@ public void dither(int ditheringMethod, int bitsCount)
 ```
 
 
-ينفّذ تمويهًا على الصورة الحالية.
+ينفّذ تمويهًا (dithering) على الصورة الحالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -692,9 +692,9 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتنفيذ تدرّج العتبة باستخدام لوحة ألوان 4‑بت تحتوي على 16 لونًا.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين بالعتبة باستخدام لوحة ألوان 4-بت تحتوي على 16 لونًا.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     rasterImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4);
 
     rasterImage.save(dir + "sample.ThresholdDithering4.png");
@@ -706,9 +706,9 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتنفيذ تدرّج Floyd باستخدام لوحة ألوان 1‑بت تحتوي فقط على لونين - الأسود والأبيض.
-    // كلما زاد عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
-    // لاحظ أن لوحات الألوان ذات 1‑بت، 4‑بت و8‑بت فقط هي المدعومة حاليًا.
+    // نفّذ تلوين فلويد باستخدام لوحة ألوان 1-بت تحتوي فقط على لونين - أسود وأبيض.
+    // كلما زادت عدد البتات المحددة، ارتفعت الجودة وزاد حجم الصورة الناتجة.
+    // لاحظ أن لوحات الألوان 1-بت، 4-بت و8-بت فقط هي المدعومة حاليًا.
     rasterImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1);
 
     rasterImage.save(dir + "sample.FloydSteinbergDithering1.png");
@@ -723,7 +723,7 @@ public abstract void dither(int ditheringMethod, int bitsCount, IColorPalette cu
 ```
 
 
-ينفّذ تمويهًا على الصورة الحالية.
+ينفّذ تمويهًا (dithering) على الصورة الحالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -787,27 +787,27 @@ public byte[] getDefaultRawData(Rectangle rectangle, RawDataSettings rawDataSett
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل للحصول على البيانات الأولية. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل للحصول على البيانات الخام. |
 | rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | إعدادات البيانات الخام. |
 
 **Returns:**
-byte[] - مصفوفة البيانات الأولية الافتراضية.
+byte[] - مصفوفة البيانات الخام الافتراضية.
 ### getArgb32Pixel(int x, int y) {#getArgb32Pixel-int-int-}
 ```
 public int getArgb32Pixel(int x, int y)
 ```
 
 
-يحصل على بكسل ARGB 32‑بت من الصورة.
+يحصل على بكسل ARGB 32‑بت لصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | موقع البكسل على المحور x. |
-| ص | int | موقع البكسل على المحور y. |
+| x | int | موقع البكسل x. |
+| y | int | موقع البكسل y. |
 
 **Returns:**
-int - بكسل ARGB 32‑بت للموقع المحدد.
+int - بكسل ARGB 32-بت للموقع المحدد.
 
 **Example: The following example loads a raster image and obtains the color of an arbitrary pixel represented as a 32-bit integer value.**
 
@@ -819,7 +819,7 @@ try {
     // احصل على تمثيل عدد صحيح للون البكسل العلوي الأيسر في الصورة.
     int color = rasterImage.getArgb32Pixel(0, 0);
 
-    // للحصول على قيم مكونات اللون الفردية، قم بإزاحة قيمة اللون بعدد البتات المقابل.
+    // للحصول على قيم مكونات اللون الفردية، قم بإزاحة قيمة اللون بعدد البتات المقابل
     int alpha = (color >> 24) & 0xff;
     int red = (color >> 16) & 0xff;
     int green = (color >> 8) & 0xff;
@@ -845,8 +845,8 @@ public Color getPixel(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | موقع البكسل على المحور x. |
-| ص | int | موقع البكسل على المحور y. |
+| x | int | موقع البكسل x. |
+| y | int | موقع البكسل y. |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The pixel color for the specified location.
@@ -879,14 +879,14 @@ public void setArgb32Pixel(int x, int y, int argb32Color)
 ```
 
 
-يضبط بكسل ARGB 32‑بت للصورة في الموضع المحدد.
+يضبط بكسل ARGB 32‑بت لصورة في الموضع المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | موقع البكسل على المحور x. |
-| ص | int | موقع البكسل على المحور y. |
-| argb32Color | int | بكسل ARGB 32‑بت للموقع المحدد. |
+| x | int | موقع البكسل x. |
+| y | int | موقع البكسل y. |
+| argb32Color | int | بكسل ARGB 32-بت للموقع المحدد. |
 
 
 **Example: The following example loads a raster image, and sets the color of an arbitrary pixel.**
@@ -900,7 +900,7 @@ try {
     // يضبط لون البكسل العلوي الأيسر.
     rasterImage.setArgb32Pixel(0, 0, com.aspose.imaging.Color.getAqua().toArgb());
 
-    // طريقة أخرى هي تمرير كائن من com.aspose.imaging.Color مباشرةً
+    // طريقة أخرى هي تمرير نسخة من com.aspose.imaging.Color مباشرةً
     rasterImage.setPixel(0, 0, com.aspose.imaging.Color.getAqua());
 } finally {
     image.dispose();
@@ -918,8 +918,8 @@ public void setPixel(int x, int y, Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | موقع البكسل على المحور x. |
-| ص | int | موقع البكسل على المحور y. |
+| x | int | موقع البكسل x. |
+| y | int | موقع البكسل y. |
 | color | [Color](../../com.aspose.imaging/color) | لون البكسل للموقع المحدد. |
 
 
@@ -934,7 +934,7 @@ try {
     // يضبط لون البكسل العلوي الأيسر.
     rasterImage.setArgb32Pixel(0, 0, com.aspose.imaging.Color.getAqua().toArgb());
 
-    // طريقة أخرى هي تمرير كائن من com.aspose.imaging.Color مباشرةً
+    // طريقة أخرى هي تمرير نسخة من com.aspose.imaging.Color مباشرةً
     rasterImage.setPixel(0, 0, com.aspose.imaging.Color.getAqua());
 } finally {
     image.dispose();
@@ -952,7 +952,7 @@ public Color[] readScanLine(int scanLineIndex)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scanLineIndex | int | فهرس الصف الصفري لخط المسح. |
+| scanLineIndex | int | فهرس يبدأ من الصفر للخط الماسح. |
 
 **Returns:**
 com.aspose.imaging.Color[] - مصفوفة قيم ألوان بكسلات خط المسح.
@@ -967,10 +967,10 @@ public int[] readArgb32ScanLine(int scanLineIndex)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scanLineIndex | int | فهرس الصف الصفري لخط المسح. |
+| scanLineIndex | int | فهرس يبدأ من الصفر للخط الماسح. |
 
 **Returns:**
-int[] - مصفوفة قيم ألوان ARGB 32‑بت لخط المسح.
+int[] - مصفوفة قيم ألوان ARGB 32-بت لخط المسح.
 ### writeScanLine(int scanLineIndex, Color[] pixels) {#writeScanLine-int-com.aspose.imaging.Color---}
 ```
 public void writeScanLine(int scanLineIndex, Color[] pixels)
@@ -982,8 +982,8 @@ public void writeScanLine(int scanLineIndex, Color[] pixels)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scanLineIndex | int | فهرس الصف الصفري لخط المسح. |
-| pixels | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة ألوان البكسلات للكتابة. |
+| scanLineIndex | int | فهرس يبدأ من الصفر للخط الماسح. |
+| pixels | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة ألوان البكسل للكتابة. |
 
 ### writeArgb32ScanLine(int scanLineIndex, int[] argb32Pixels) {#writeArgb32ScanLine-int-int---}
 ```
@@ -996,8 +996,8 @@ public void writeArgb32ScanLine(int scanLineIndex, int[] argb32Pixels)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| scanLineIndex | int | فهرس الصف الصفري لخط المسح. |
-| argb32Pixels | int[] | مصفوفة ألوان ARGB 32‑بت للكتابة. |
+| scanLineIndex | int | فهرس يبدأ من الصفر للخط الماسح. |
+| argb32Pixels | int[] | مصفوفة ألوان ARGB 32-بت للكتابة. |
 
 ### loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader) {#loadPartialArgb32Pixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-}
 ```
@@ -1011,14 +1011,14 @@ public void loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoad
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل المطلوب. |
-| partialPixelLoader | [IPartialArgb32PixelLoader](../../com.aspose.imaging/ipartialargb32pixelloader) | محمل بكسل ARGB 32‑بت. |
+| partialPixelLoader | [IPartialArgb32PixelLoader](../../com.aspose.imaging/ipartialargb32pixelloader) | محمل بكسل ARGB 32-بت. |
 
 
 **Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
-يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية باستخدام معالج جزئي خاص بك. على سبيل المثال، اعتبر مشكلة عد البكسلات الشفافة بالكامل في صورة. من أجل عد البكسلات الشفافة باستخدام آلية التحميل الجزئي، يتم تقديم فئة منفصلة تسمى TransparentArgb32PixelCounter التي تُنفّذ com.aspose.imaging.IPartialArgb32PixelLoader.
+يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية باستخدام معالج جزئي خاص بك. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة تمامًا في صورة. من أجل عد البكسلات الشفافة باستخدام آلية التحميل الجزئي، يتم تقديم فئة منفصلة TransparentArgb32PixelCounter التي تنفّذ com.aspose.imaging.IPartialArgb32PixelLoader.
 ``` java
 
-// أولاً، قم بتنفيذ com.aspose.imaging.IPartialArgb32PixelLoader لحساب جميع البكسلات الشفافة تمامًا.
+// أولاً، نفّذ com.aspose.imaging.IPartialArgb32PixelLoader لعد جميع البكسلات الشفافة تمامًا.
 /** Counts the number of fully transparent pixels with alpha channel value of 0. */
 class TransparentArgb32PixelCounter implements com.aspose.imaging.IPartialArgb32PixelLoader {
     /**
@@ -1085,14 +1085,14 @@ public void loadPartialPixels(Rectangle desiredRectangle, IPartialPixelLoader pi
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | desiredRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل المطلوب. |
-| pixelLoader | [IPartialPixelLoader](../../com.aspose.imaging/ipartialpixelloader) | محمل البكسلات. |
+| pixelLoader | [IPartialPixelLoader](../../com.aspose.imaging/ipartialpixelloader) | محمل البكسل. |
 
 
 **Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
-يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية باستخدام معالج جزئي خاص بك. على سبيل المثال، ضع في اعتبارك مشكلة حساب البكسلات الشفافة تمامًا في صورة. من أجل حساب الشفافية باستخدام آلية التحميل الجزئي، يتم تقديم فئة منفصلة TransparentPixelCounter تنفّذ com.aspose.imaging.IPartialPixelLoader.
+يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية باستخدام معالج جزئي خاص بك. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة تمامًا في صورة. من أجل العد باستخدام آلية التحميل الجزئي، يتم تقديم فئة منفصلة TransparentPixelCounter التي تنفّذ com.aspose.imaging.IPartialPixelLoader.
 ``` java
 
-// أولاً، قم بتنفيذ com.aspose.imaging.IPartialPixelLoader لحساب جميع البكسلات الشفافة تمامًا.
+// أولاً، نفّذ com.aspose.imaging.IPartialPixelLoader لعد جميع البكسلات الشفافة تمامًا.
 /** Counts the number of fully transparent pixels with alpha channel value of 0. */
 class TransparentPixelCounter implements com.aspose.imaging.IPartialPixelLoader {
     /**
@@ -1157,13 +1157,13 @@ public int[] loadArgb32Pixels(Rectangle rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 
 **Returns:**
-int[] - مصفوفة البكسلات ARGB 32-بت المحمّلة.
+int[] - مصفوفة البكسلات ARGB 32-بت التي تم تحميلها.
 
 **Example: The following example shows how to load and process pixels of a raster image.**
-يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. تمثّل البكسلات كقيم صحيحة 32-بت. على سبيل المثال، ضع في اعتبارك مشكلة حساب البكسلات الشفافة تمامًا في صورة.
+يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. تم تمثيل البكسلات كقيم صحيحة 32-بت. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة تمامًا في صورة.
 ``` java
 
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.png");
@@ -1199,26 +1199,26 @@ public long[] loadArgb64Pixels(Rectangle rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 
 **Returns:**
-long[] - مصفوفة البكسلات ARGB 64-بت المحمّلة.
+long[] - مصفوفة البكسلات ARGB 64-بت التي تم تحميلها.
 
 **Example: The following example shows how to load and process pixels of a raster image.**
-يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. تمثّل البكسلات كقيم صحيحة 64-بت. على سبيل المثال، ضع في اعتبارك مشكلة حساب البكسلات الشفافة تمامًا في صورة.
+يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. تم تمثيل البكسلات كقيم صحيحة 64-بت. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة تمامًا في صورة.
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\16rgba.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // حمّل البكسلات لكامل الصورة. يمكن تحديد أي جزء مستطيل من الصورة كمعامل لطريقة com.aspose.imaging.RasterImage.loadArgb64Pixels.
-    // لاحظ أن الصورة نفسها يجب أن تكون بدقة 16 بت لكل عينة، لأن com.aspose.imaging.RasterImage.loadArgb64Pixels لا يعمل مع 8 بت لكل عينة.
-    // للعمل مع 8 بت لكل عينة، يرجى استخدام الطريقة القديمة الجيدة com.aspose.imaging.RasterImage.loadArgb32Pixels.
+    // لاحظ أن الصورة نفسها يجب أن تكون 16 بت لكل عينة، لأن com.aspose.imaging.RasterImage.loadArgb64Pixels لا يعمل مع 8 بت لكل عينة.
+    // من أجل العمل مع 8 بت لكل عينة يرجى استخدام الطريقة القديمة الجيدة com.aspose.imaging.RasterImage.loadArgb32Pixels.
     long[] pixels = rasterImage.loadArgb64Pixels(rasterImage.getBounds());
 
     int count = 0;
     for (long pixel : pixels) {
-        // لاحظ أن جميع مكوّنات اللون بما فيها ألفا ممثّلة بقيم 16-بت، لذا فإن القيم المسموح بها تقع في النطاق [0, 63535].
+        // لاحظ أن جميع مكونات اللون بما في ذلك ألفا ممثلة بقيم 16-بت، لذا فإن القيم المسموح بها تقع في النطاق [0, 63535].
         long alpha = (pixel >> 48) & 0xffff;
         if (alpha == 0) {
             count++;
@@ -1244,7 +1244,7 @@ public final void loadPartialArgb64Pixels(Rectangle rectangle, IPartialArgb64Pix
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل المطلوب. |
-| partialPixelLoader | [IPartialArgb64PixelLoader](../../com.aspose.imaging/ipartialargb64pixelloader) | محمل البكسلات ARGB 64-بت. |
+| partialPixelLoader | [IPartialArgb64PixelLoader](../../com.aspose.imaging/ipartialargb64pixelloader) | محمل بكسل ARGB 64-بت. |
 
 ### loadPixels(Rectangle rectangle) {#loadPixels-com.aspose.imaging.Rectangle-}
 ```
@@ -1257,19 +1257,19 @@ public Color[] loadPixels(Rectangle rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 
 **Returns:**
-com.aspose.imaging.Color[] - مصفوفة البكسلات المحمّلة.
+com.aspose.imaging.Color[] - مصفوفة البكسلات التي تم تحميلها.
 
 **Example: The following example shows how to load and process pixels of a raster image.**
-يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. على سبيل المثال، ضع في اعتبارك مشكلة حساب البكسلات الشفافة تمامًا في صورة.
+يوضح المثال التالي كيفية تحميل ومعالجة بكسلات صورة نقطية. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة تمامًا في صورة.
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // حمّل البكسلات لكامل الصورة. يمكن تحديد أي جزء مستطيل من الصورة كمعامل لطريقة Aspose.Imaging.RasterImage.LoadPixels.
+    // تحميل البكسلات للصورة بالكامل. يمكن تحديد أي جزء مستطيل من الصورة كمعامل لطريقة Aspose.Imaging.RasterImage.LoadPixels.
     com.aspose.imaging.Color[] pixels = rasterImage.loadPixels(rasterImage.getBounds());
 
     int count = 0;
@@ -1292,15 +1292,15 @@ public CmykColor[] loadCmykPixels(Rectangle rectangle)
 ```
 
 
-يقوم بتحميل البكسلات بتنسيق CMYK. هذه الطريقة مهجورة. يرجى استخدام الطريقة الأكثر فعالية `loadCmyk32Pixels(Rectangle)`.
+يقوم بتحميل البكسلات بتنسيق CMYK. هذه الطريقة مهجورة. يرجى استخدام الطريقة الأكثر فاعلية `loadCmyk32Pixels(Rectangle)`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 
 **Returns:**
-com.aspose.imaging.CmykColor[] - مصفوفة بكسلات CMYK المحملة.
+com.aspose.imaging.CmykColor[] - مصفوفة البكسلات CMYK التي تم تحميلها.
 ### loadCmyk32Pixels(Rectangle rectangle) {#loadCmyk32Pixels-com.aspose.imaging.Rectangle-}
 ```
 public int[] loadCmyk32Pixels(Rectangle rectangle)
@@ -1312,10 +1312,10 @@ public int[] loadCmyk32Pixels(Rectangle rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 
 **Returns:**
-int[] - بكسلات CMYK المحملة تُعرض كقيم صحيحة 32‑بت.
+int[] - تمثيل البكسلات CMYK المحملة كقيم صحيحة 32-بت.
 ### loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader) {#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-}
 ```
 public void loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader)
@@ -1333,7 +1333,7 @@ public void loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IP
 
 
 **Example: The following example shows how to extract pixels from the raw image data using RawDataSettings.**
-المثال التالي يوضح كيفية استخراج البكسلات من بيانات الصورة الخام باستخدام RawDataSettings. على سبيل المثال، اعتبر مشكلة عد البكسلات الشفافة تمامًا في الصورة.
+المثال التالي يوضح كيفية استخراج البكسلات من بيانات الصورة الخام باستخدام RawDataSettings. على سبيل المثال، ضع في اعتبارك مشكلة عد البكسلات الشفافة بالكامل في صورة.
 ``` java
 
 // أولاً، نفّذ عدّادًا. في حالة البيانات الخام، قد يبدو العدّاد هكذا:
@@ -1379,7 +1379,7 @@ class TransparentPixelRawDataCounter implements com.aspose.imaging.IPartialRawDa
         int[] channelBits = this.rawDataSettings.getPixelDataFormat().getChannelBits();
 
         // يتم اعتبار الصيغ البسيطة فقط هنا لتبسيط الشيفرة.
-        // لنأخذ في الاعتبار فقط الصور ذات 8 بت لكل عينة.
+        // لننظر فقط إلى الصور التي تحتوي على 8 بت لكل عينة.
         for (int i = 0; i < channelBits.length; i++) {
             if (channelBits[i] != 8) {
                 throw new java.lang.UnsupportedOperationException();
@@ -1403,7 +1403,7 @@ class TransparentPixelRawDataCounter implements com.aspose.imaging.IPartialRawDa
 
             case com.aspose.imaging.PixelFormat.Grayscale: {
                 if (channelBits.length == 2) {
-                    // تدرج رمادي مع ألفا
+                    // Grayscale Alpha
                     for (int i = 0; i < data.length; i += 2) {
                         // قناة ألفا تُخزن في النهاية، بعد مكونات اللون.
                         if (data[i + 1] == 0) {
@@ -1441,7 +1441,7 @@ try {
 
     TransparentPixelRawDataCounter rawDataLoader = new TransparentPixelRawDataCounter(settings);
 
-    // حمّل البكسلات لكامل الصورة. يمكن تحديد أي جزء مستطيل من الصورة كمعامل لطريقة Aspose.Imaging.RasterImage.LoadRawData.
+    // تحميل البكسلات للصورة بالكامل. يمكن تحديد أي جزء مستطيل من الصورة كمعامل لطريقة Aspose.Imaging.RasterImage.LoadRawData.
     rasterImage.loadRawData(rasterImage.getBounds(), settings, rawDataLoader);
 
     System.out.println("The number of fully transparent pixels is " + rawDataLoader.getCount());
@@ -1468,7 +1468,7 @@ public void loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSe
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البيانات الخام منه. |
 | dstImageBounds | [Rectangle](../../com.aspose.imaging/rectangle) | حدود الصورة الوجهة. |
-| rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | إعدادات البيانات الخام التي تُستخدم للبيانات المحملة. لاحظ أنه إذا لم تكن البيانات بالتنسيق المحدد فسيتم إجراء تحويل للبيانات. |
+| rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | إعدادات البيانات الخام لاستخدامها مع البيانات المحملة. لاحظ أنه إذا لم تكن البيانات بالتنسيق المحدد فسيتم إجراء تحويل البيانات. |
 | rawDataLoader | [IPartialRawDataLoader](../../com.aspose.imaging/ipartialrawdataloader) | محمل البيانات الخام. |
 
 ### saveRawData(byte[] data, int dataOffset, Rectangle rectangle, RawDataSettings rawDataSettings) {#saveRawData-byte---int-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-}
@@ -1503,7 +1503,7 @@ public void saveArgb32Pixels(Rectangle rectangle, int[] pixels)
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-المثال التالي يملأ المنطقة المركزية لصورة نقطية ببكسلات سوداء باستخدام طريقة com.aspose.imaging.RasterImage.saveArgb32Pixels.
+المثال التالي يملأ المنطقة المركزية لصورة نقطية ببكسلات سوداء باستخدام الطريقة com.aspose.imaging.RasterImage.saveArgb32Pixels.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1543,7 +1543,7 @@ public void savePixels(Rectangle rectangle, Color[] pixels)
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-المثال التالي يملأ المنطقة المركزية لصورة نقطية بكسلات سوداء باستخدام الطريقة com.aspose.imaging.RasterImage.savePixels.
+المثال التالي يملأ المنطقة المركزية لصورة نقطية ببكسلات سوداء باستخدام الطريقة com.aspose.imaging.RasterImage.savePixels.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1573,10 +1573,10 @@ public BufferedImage toBitmap()
 ```
 
 
-يحوّل صورة النقطية إلى bitmap.
+يقوم بتحويل الصورة النقطية إلى الـ bitmap.
 
 **Returns:**
-java.awt.image.BufferedImage - البت ماب
+java.awt.image.BufferedImage - الخريطة النقطية
 
 **Example: The following example converts a BMP image to a native Java bitmap.**
 
@@ -1586,7 +1586,7 @@ try {
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = (com.aspose.imaging.fileformats.bmp.BmpImage) image;
     java.awt.image.BufferedImage bitmap = bmpImage.toBitmap();
 
-    // معالجة البت ماب الأصلي لجافا.
+    // معالجة الخريطة النقطية الأصلية لجافا.
 } finally {
     image.dispose();
 }
@@ -1618,11 +1618,11 @@ public void saveCmyk32Pixels(Rectangle rectangle, int[] pixels)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لحفظ البكسلات فيه. |
-| بكسلات | int[] | بكسلات CMYK معروضة كقيم صحيحة 32-بت. |
+| بكسلات | int[] | بكسلات CMYK معروضة كقيم صحيحة 32‑بت. |
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-المثال التالي يملأ المنطقة المركزية لصورة نقطية بكسلات سوداء باستخدام الطريقة com.aspose.imaging.RasterImage.saveCmyk32Pixels.
+المثال التالي يملأ المنطقة المركزية لصورة نقطية ببكسلات سوداء باستخدام الطريقة com.aspose.imaging.RasterImage.saveCmyk32Pixels.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1660,8 +1660,8 @@ public void setResolution(double dpiX, double dpiY)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dpiX | double | الدقة الأفقية، بوحدات النقاط في البوصة، لـ `RasterImage`. |
-| dpiY | double | الدقة العمودية، بوحدات النقاط في البوصة، لـ `RasterImage`. |
+| dpiX | double | الدقة الأفقية، بوحدة النقاط لكل بوصة، لـ `RasterImage`. |
+| dpiY | double | الدقة العمودية، بوحدة النقاط لكل بوصة، لـ `RasterImage`. |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
@@ -1680,7 +1680,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         rasterImage.setResolution(96.0, 96.0);
 
@@ -1689,11 +1689,11 @@ try {
     }
 
     // قد يبدو الإخراج هكذا:
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-    // تعيين قيم الدقة إلى 96 نقطة في البوصة
-    // الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-    // الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+    // عيّن قيم الدقة إلى 96 نقطة في البوصة
+    // الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+    // الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 } finally {
     image.dispose();
 }
@@ -1719,7 +1719,7 @@ public final void autoRotate()
 ```
 
 
-يقوم بتدوير الصورة تلقائيًا بناءً على بيانات الاتجاه المستخرجة من بيانات Exif. تضمن هذه الطريقة عرض الصور بالاتجاه الصحيح، مما يحسن تجربة المستخدم ويزيل الحاجة إلى التعديلات اليدوية. من خلال تحليل معلومات Exif، يتم تدوير الصورة وفقًا لذلك، مما يوفر تجربة مشاهدة سلسة عبر مختلف المنصات والأجهزة. تبسط عملية الدوران الآلية معالجة الصور وتحسن قابلية الاستخدام العامة، خاصةً عند التعامل مع دفعات كبيرة من الصور ذات الاتجاهات المت varied.
+يقوم تلقائيًا بتدوير الصورة استنادًا إلى بيانات الاتجاه المستخرجة من بيانات Exif. تضمن هذه الطريقة عرض الصور بالاتجاه الصحيح، مما يعزز تجربة المستخدم ويزيل الحاجة إلى التعديلات اليدوية. من خلال تحليل معلومات Exif، يتم تدوير الصورة وفقًا لذلك، مما يوفر تجربة مشاهدة سلسة عبر مختلف المنصات والأجهزة. تُبسّط عملية التدوير الآلية معالجة الصور وتحسّن قابلية الاستخدام العامة، خاصةً عند التعامل مع دفعات كبيرة من الصور ذات الاتجاهات المتنوعة.
 
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
@@ -1747,8 +1747,8 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم صورتك وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدور محتويات الصورة الداخلية فقط. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدوَّر محتويات الصورة الداخلية فقط. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 ### rotate(float angle) {#rotate-float-}
@@ -1762,7 +1762,7 @@ public void rotate(float angle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
 
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
@@ -1775,11 +1775,11 @@ public void binarizeFixed(byte threshold)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة لبكسل أكبر من العتبة، سيتم تعيين القيمة 255 له، وإلا 0. |
+| threshold | byte | قيمة العتبة. إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من العتبة، سيتم تعيين القيمة 255 لها، وإلا 0. |
 
 
 **Example: The following example binarizes a raster image with the predefined threshold.**
-المثال التالي يحول صورة نقطية إلى ثنائية باستخدام العتبة المحددة مسبقًا. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
+المثال التالي يحول صورة نقطية إلى ثنائية باستخدام العتبة المحددة مسبقًا. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1787,8 +1787,8 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
-    // إذا كانت القيمة الرمادية المقابلة للبكسل أكبر من 127، سيتم تعيين القيمة 255 له، وإلا ستكون 0.
+    // حوّل الصورة إلى ثنائية باستخدام قيمة العتبة 127.
+    // إذا كانت قيمة الرمادي المقابلة للبكسل أكبر من 127، سيتم تعيين قيمة 255 له، وإلا ستكون 0.
     rasterImage.binarizeFixed((byte) 127);
     rasterImage.save(dir + "sample.BinarizeFixed.png");
 } finally {
@@ -1806,7 +1806,7 @@ public void binarizeOtsu()
 
 
 **Example: The following example binarizes a raster image with Otsu thresholding.**
-المثال التالي يحول صورة نقطية إلى ثنائية باستخدام عتبة أوتسو. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
+المثال التالي يحول صورة نقطية إلى ثنائية باستخدام طريقة أوتسو لتحديد العتبة. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1814,7 +1814,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // قم بتحويل الصورة إلى ثنائية باستخدام عتبة أوتسو.
+    // حوّل الصورة إلى ثنائية باستخدام عتبة أوتسو.
     rasterImage.binarizeOtsu();
     rasterImage.save(dir + "sample.BinarizeOtsu.png");
 } finally {
@@ -1828,12 +1828,12 @@ public void binarizeBradley(double brightnessDifference)
 ```
 
 
-تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة
+تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
 
 ### binarizeBradley(double brightnessDifference, int windowSize) {#binarizeBradley-double-int-}
 ```
@@ -1841,17 +1841,17 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع العتبة المستندة إلى الصورة المتكاملة
+تحويل الصورة إلى ثنائية باستخدام خوارزمية العتبة المتكيفة لبرايدلي مع عتبة الصورة المتكاملة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s بكسل متمركزة حول هذا البكسل. |
-| windowSize | int | حجم نافذة s × s بكسل متمركزة حول هذا البكسل. |
+| brightnessDifference | double | فرق السطوع بين البكسل ومتوسط نافذة بحجم s × s من البكسلات المتمركزة حول هذا البكسل. |
+| windowSize | int | حجم نافذة s × s من البكسلات المتمركزة حول هذا البكسل |
 
 
 **Example: The following example binarizes a raster image with Bradley's adaptive thresholding algorithm with the specified window size.**
-المثال التالي يحول صورة نقطية إلى ثنائية باستخدام خوارزمية عتبة برادلي التكيفية مع حجم النافذة المحدد. الصور الثنائية تحتوي على لونين فقط - الأسود والأبيض.
+المثال التالي يحول صورة نقطية إلى ثنائية باستخدام خوارزمية العتبة التكيفية لبرايدلي بالحجم المحدد للنافذة. الصور الثنائية تحتوي فقط على لونين - الأسود والأبيض.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1859,7 +1859,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // حوّل الصورة إلى ثنائية بفارق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
+    // حوّل الصورة إلى ثنائية بفرق سطوع قدره 5. السطوع هو الفرق بين بكسل ومتوسط نافذة 10 × 10 بكسل متمركزة حول هذا البكسل.
     rasterImage.binarizeBradley(5, 10);
     rasterImage.save(dir + "sample.BinarizeBradley5_10x10.png");
 } finally {
@@ -1873,7 +1873,7 @@ public final void blend(Point origin, RasterImage overlay, Rectangle overlayArea
 ```
 
 
-يمزج نسخة الصورة هذه مع صورة `overlay`.
+يمزج هذه النسخة من الصورة مع صورة `overlay`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1888,7 +1888,7 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 ```
 
 
-يمزج نسخة الصورة هذه مع صورة `overlay`.
+يمزج هذه النسخة من الصورة مع صورة `overlay`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1904,13 +1904,13 @@ public final void blend(Point origin, RasterImage overlay)
 ```
 
 
-يمزج هذه النسخة من الصورة مع `overlay` مع قيمة ألفا == 255.
+يمزج نسخة الصورة هذه مع `overlay` حيث alpha == 255.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | origin | [Point](../../com.aspose.imaging/point) | أصل دمج صورة الخلفية. |
-| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | الطبقة الفوقية |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | الطبقة المتراكبة. |
 
 ### blend(Point origin, RasterImage overlay, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-}
 ```
@@ -1918,13 +1918,13 @@ public final void blend(Point origin, RasterImage overlay, byte overlayAlpha)
 ```
 
 
-يمزج هذه النسخة من الصورة مع `overlay`.
+يمزج نسخة الصورة هذه مع `overlay`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | origin | [Point](../../com.aspose.imaging/point) | أصل دمج صورة الخلفية. |
-| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | الطبقة الفوقية |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | الطبقة المتراكبة. |
 | overlayAlpha | byte | قيمة ألفا للتراكب. |
 
 ### grayscale() {#grayscale--}
@@ -1937,7 +1937,7 @@ public void grayscale()
 
 
 **Example: The following example transforms a colored raster image to its grayscale representation.**
-المثال التالي يحول صورة نقطية ملونة إلى تمثيلها بالدرجات الرمادية. الصور الرمادية تتكون حصريًا من تدرجات اللون الرمادي وتحمل معلومات الشدة فقط.
+المثال التالي يحول صورة نقطية ملونة إلى تمثيلها بالدرجات الرمادية. الصور ذات الدرجات الرمادية تتكون حصريًا من تدرجات اللون الرمادي وتحمل معلومات الشدة فقط.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1958,7 +1958,7 @@ public void normalizeHistogram()
 ```
 
 
-يُعَدِّل هيستوجرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح.
+يُعَدِّل هيستوغرام الصورة \\u2014 يضبط قيم البكسل لاستخدام كامل النطاق المتاح.
 
 ### autoBrightnessContrast() {#autoBrightnessContrast--}
 ```
@@ -1974,7 +1974,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-ضبط سطوع الصورة.
+ضبط السطوع للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1991,7 +1991,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255, 255].
+    // حدد قيمة السطوع. القيم المقبولة للسطوع تقع في النطاق [-255، 255].
     rasterImage.adjustBrightness(50);
     rasterImage.save(dir + "sample.AdjustBrightness.png");
 } finally {
@@ -2005,7 +2005,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-تحسين تباين الصورة
+تحسين التباين في الصورة
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2022,7 +2022,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f, 100f].
+    // حدد قيمة التباين. القيم المقبولة للتباين تقع في النطاق [-100f، 100f].
     rasterImage.adjustContrast(50);
     rasterImage.save(dir + "sample.AdjustContrast.png");
 } finally {
@@ -2036,12 +2036,12 @@ public void embedDigitalSignature(String password)
 ```
 
 
-إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام steganography.
+إدراج توقيع رقمي يعتمد على كلمة المرور المقدمة داخل الصورة باستخدام تقنية إخفاء المعلومات (steganography).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| كلمة المرور | java.lang.String | كلمة المرور المستخدمة لتوليد بيانات التوقيع الرقمي |
+| كلمة المرور | java.lang.String | كلمة المرور (الحد الأدنى 4 رموز) المستخدمة لتوليد بيانات التوقيع الرقمي. |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -2077,11 +2077,11 @@ public boolean isDigitalSigned(String password)
 ```
 
 
-ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة.
+ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة.
 
 --------------------
 
-هذه الطريقة توفر أسرع كشف عن طريق الاستفادة من `GetSignPercentage`. بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات استخراج إضافية تهدف إلى تحسين دقة الكشف.
+هذه الطريقة توفر أسرع كشف عن طريق الاستفادة من \#analyzePercentageDigitalSignature(String).analyzePercentageDigitalSignature(String). بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات الاستخراج الإضافية التي تهدف إلى تحسين دقة الكشف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2096,17 +2096,17 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 ```
 
 
-ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقميًا، باستخدام كلمة المرور والعتبة المقدمة.
+ينفّذ فحصًا سريعًا لتحديد ما إذا كانت الصورة موقعة رقمياً، باستخدام كلمة المرور والعتبة المقدمة.
 
 --------------------
 
-هذه الطريقة توفر أسرع كشف عن طريق الاستفادة من `GetSignPercentage`. بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات استخراج إضافية تهدف إلى تحسين دقة الكشف.
+توفر هذه الطريقة أسرع كشف عن طريق الاستفادة من `GetSignPercentage`. بمجرد أن تفي البيانات المستخرجة بالحد المحدد، يتم تخطي خطوات الاستخراج الإضافية الهادفة إلى تحسين دقة الكشف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | كلمة المرور | java.lang.String | كلمة المرور للتحقق من التوقيع. |
-| percentageThreshold | int | الحد (بالنسبة المئوية)[0-100] الذي يحدد ما إذا كانت الصورة تعتبر موقعة. إذا لم يتم تحديده، سيتم تطبيق حد افتراضي (`75`). |
+| percentageThreshold | int | الحد (بالنسبة المئوية)[0-100] الذي يحدد ما إذا كانت الصورة تعتبر موقعة. إذا لم يتم تحديده، سيُطبق الحد الافتراضي (`75`). |
 
 **Returns:**
 boolean - صحيح إذا كانت الصورة موقعة، وإلا خاطئ.
@@ -2121,9 +2121,9 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gammaRed | float | معامل غاما لقناة الأحمر |
-| gammaGreen | float | معامل غاما لقناة الأخضر |
-| gammaBlue | float | معامل غاما لقناة اللون الأزرق |
+| gammaRed | float | معامل غاما للقناة الحمراء |
+| gammaGreen | float | معامل غاما للقناة الخضراء |
+| gammaBlue | float | معامل غاما للقناة الزرقاء |
 
 
 **Example: The following example performs gamma-correction of an image applying different coefficients for color components.**
@@ -2135,7 +2135,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // تعيين معاملات غاما الفردية لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معاملات غاما الفردية للقنوات الحمراء والخضراء والزرقاء.
     rasterImage.adjustGamma(1.5f, 2.5f, 3.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -2154,7 +2154,7 @@ public void adjustGamma(float gamma)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| غاما | float | معامل غاما لقنوات الأحمر والأخضر والأزرق |
+| غاما | float | معامل غاما للقنوات الحمراء والخضراء والزرقاء |
 
 
 **Example: The following example performs gamma-correction of an image.**
@@ -2166,7 +2166,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // تعيين معامل غاما لقنوات الأحمر والأخضر والأزرق.
+    // تعيين معامل غاما للقنوات الحمراء والخضراء والزرقاء.
     rasterImage.adjustGamma(2.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -2180,17 +2180,17 @@ public final float getSkewAngle()
 ```
 
 
-يحصل على زاوية الميل. هذه الطريقة قابلة للتطبيق على المستندات النصية الممسوحة ضوئيًا، لتحديد زاوية الميل أثناء المسح.
+يحصل على زاوية الانحراف. هذه الطريقة قابلة للتطبيق على المستندات النصية الممسوحة لتحديد زاوية الانحراف أثناء المسح.
 
 **Returns:**
-float - زاوية الميل، بالدرجات.
+float - زاوية الانحراف بالدرجات.
 ### normalizeAngle() {#normalizeAngle--}
 ```
 public final void normalizeAngle()
 ```
 
 
-يقوم بتطبيع الزاوية. هذه الطريقة قابلة للتطبيق على مستندات النص الممسوحة ضوئياً للتخلص من الالتواء في المسح. تستخدم هذه الطريقة \#getSkewAngle.getSkewAngle و [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) الطرق.
+يُعَدِّل الزاوية. هذه الطريقة قابلة للتطبيق على المستندات النصية الممسوحة للتخلص من المسح المائل. هذه الطريقة تستخدم \#getSkewAngle.getSkewAngle وطرق [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-).
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
 ```
@@ -2198,17 +2198,17 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-يقوم بتطبيع الزاوية. هذه الطريقة قابلة للتطبيق على مستندات النص الممسوحة ضوئياً للتخلص من الالتواء في المسح. تستخدم هذه الطريقة \#rotate(float, boolean, Color).rotate(float, boolean, Color) الطرق.
+يُعَدِّل الزاوية. هذه الطريقة قابلة للتطبيق على المستندات النصية الممسوحة للتخلص من المسح المائل. هذه الطريقة تستخدم \#getSkewAngle.getSkewAngle وطرق \#rotate(float, boolean, Color).rotate(float, boolean, Color).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم صورتك وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدور محتويات الصورة الداخلية فقط. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدوَّر محتويات الصورة الداخلية فقط. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 
 **Example: Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle.**
-الانحراف هو تشوه قد يظهر أثناء عملية مسح المستند عندما يتم تدوير النص/الصور في المستند بزاوية طفيفة. يمكن أن يكون له أسباب مختلفة لكن الأكثر شيوعاً هو أن الورقة تُنقل بشكل غير صحيح أثناء المسح. لذلك، تصحيح الانحراف هو عملية اكتشاف وإصلاح هذه المشكلة في الملفات الممسوحة (i.e. bitmap) بحيث تكون المستندات المصححة للانحراف تحتوي على النص/الصور بشكل صحيح ومُعدل أفقياً.
+الانحراف هو أثر قد يظهر أثناء عملية مسح المستند عندما يتم تدوير النص/الصور في المستند بزاوية طفيفة. يمكن أن يكون له أسباب متعددة لكن الأكثر شيوعًا هو تحرك الورقة أثناء المسح. لذلك، تصحيح الانحراف هو عملية اكتشاف وإصلاح هذه المشكلة في الملفات الممسوحة (مثل bitmap) بحيث تكون المستندات المصححة تحتوي على النص/الصور بشكل صحيح وأفقي.
 ``` java
 String dir = "c:\\aspose.imaging\\issues\\java\\1461\\";
 
@@ -2250,7 +2250,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح متوسط بحجم مستطيل 5 على الصورة بأكملها.
+    // تطبيق مرشح متوسط بحجم مستطيل 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -2261,7 +2261,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمهيد ثنائي الجانب بحجم نواة 5 على الصورة بأكملها.
+    // تطبيق مرشح تنعيم ثنائي الجانب بحجم نواة 5 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -2272,7 +2272,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تمويه غاوسي بنصف قطر 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -2283,7 +2283,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بأكملها.
+    // تطبيق مرشح غاوس-واينر بنصف قطر 5 وقيمة تمهيد 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -2294,7 +2294,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح واينر حركي بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بأكملها.
+    // تطبيق مرشح حركة واينر بطول 5، قيمة تمهيد 4.0 وزاوية 90.0 درجة على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -2305,7 +2305,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // طبق مرشح شحذ بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بأكملها.
+    // تطبيق مرشح تعزيز الحدة بحجم نواة 5 وقيمة سيغما 4.0 على الصورة بالكامل.
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -2349,7 +2349,7 @@ public void replaceNonTransparentColors(Color newColor)
 ```
 
 
-يستبدل جميع الألوان غير الشفافة باللون الجديد ويحافظ على قيمة ألفا الأصلية للحفاظ على حواف ناعمة. ملاحظة: إذا استخدمتها على صور بدون شفافية، سيتم استبدال جميع الألوان بلون واحد.
+يستبدل جميع الألوان غير الشفافة باللون الجديد ويحافظ على قيمة ألفا الأصلية لتجنب الحواف الخشنة. ملاحظة: إذا استخدمته على صور بدون شفافية، سيتم استبدال جميع الألوان بلون واحد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2362,7 +2362,7 @@ public void replaceNonTransparentColors(int newColorArgb)
 ```
 
 
-يستبدل جميع الألوان غير الشفافة باللون الجديد ويحافظ على قيمة ألفا الأصلية للحفاظ على حواف ناعمة. ملاحظة: إذا استخدمتها على صور بدون شفافية، سيتم استبدال جميع الألوان بلون واحد.
+يستبدل جميع الألوان غير الشفافة باللون الجديد ويحافظ على قيمة ألفا الأصلية لتجنب الحواف الخشنة. ملاحظة: إذا استخدمته على صور بدون شفافية، سيتم استبدال جميع الألوان بلون واحد.
 
 **Parameters:**
 | معامل | نوع | الوصف |

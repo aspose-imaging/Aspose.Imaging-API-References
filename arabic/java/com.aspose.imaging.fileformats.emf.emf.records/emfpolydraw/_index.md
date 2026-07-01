@@ -1,7 +1,7 @@
 ---
 title: "EmfPolyDraw"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_POLYDRAW يحدد مجموعة من مقاطع الخطوط ومنحنيات بيزيه."
+description: "سجل EMR_POLYDRAW يحدد مجموعة من مقاطع الخطوط ومنحنيات بيزيير."
 type: docs
 weight: 89
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolydraw/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolyDraw extends EmfPolyShape
 ```
 
-سجل EMR\_POLYDRAW يحدد مجموعة من مقاطع الخطوط ومنحنيات بيزيه.
+سجل EMR\_POLYDRAW يحدد مجموعة من مقاطع الخط ومنحنيات بيزيه.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,8 +23,8 @@ public final class EmfPolyDraw extends EmfPolyShape
 
 | طريقة | الوصف |
 | --- | --- |
-| [getAbTypes()](#getAbTypes--) | يحصل على مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. |
-| [setAbTypes(byte[] value)](#setAbTypes-byte---) | يعيّن مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. |
+| [getAbTypes()](#getAbTypes--) | يحصل على مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة aPoints التي يتم الحصول عليها أو تعيينها. |
+| [setAbTypes(byte[] value)](#setAbTypes-byte---) | يعيّن مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة aPoints التي يتم الحصول عليها أو تعيينها. |
 ### EmfPolyDraw(EmfRecord source) {#EmfPolyDraw-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolyDraw(EmfRecord source)
@@ -62,10 +62,10 @@ public void setAbTypes(byte[] value)
 ```
 
 
-يعيّن مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. يجب أن تكون هذه القيمة ضمن تعداد Point (القسم 2.1.26).
+يضبط مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. يجب أن تكون هذه القيمة ضمن تعداد Point (القسم 2.1.26).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. |
+| value | byte[] | مصفوفة بطول Count من قيم البايت التي تحدد كيفية استخدام كل نقطة في مصفوفة Gets أو sets aPoints. |
 

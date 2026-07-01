@@ -1,7 +1,7 @@
 ---
 title: "NonGenericList"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قائمة غير عامة من الكائنات"
+description: "قائمة غير عامة للكائنات"
 type: docs
 weight: 76
 url: /ar/java/com.aspose.imaging/nongenericlist/
@@ -15,12 +15,12 @@ java.util.List
 public class NonGenericList implements List
 ```
 
-قائمة غير عامة من الكائنات
+قائمة غير عامة للكائنات
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [NonGenericList(List list)](#NonGenericList-java.util.List-) | ينشئ مثيلاً جديداً من الفئة `NonGenericList`. |
+| [NonGenericList(List list)](#NonGenericList-java.util.List-) | يُهيئ مثيلًا جديدًا من الفئة `NonGenericList`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,12 +29,12 @@ public class NonGenericList implements List
 | [addItem(Object value)](#addItem-java.lang.Object-) | يضيف عنصرًا إلى `System.Collections.IList`. |
 | [clear()](#clear--) | يزيل جميع العناصر من `System.Collections.IList`. |
 | [contains(Object value)](#contains-java.lang.Object-) | يحدد ما إذا كان `System.Collections.IList` يحتوي على قيمة محددة. |
-| [indexOf(Object value)](#indexOf-java.lang.Object-) | يحدد فهرس العنصر المحدد في `System.Collections.IList`. |
+| [indexOf(Object value)](#indexOf-java.lang.Object-) | يحدد فهرس عنصر محدد في `System.Collections.IList`. |
 | [insertItem(int index, Object value)](#insertItem-int-java.lang.Object-) | يدرج عنصرًا في `System.Collections.IList` عند الفهرس المحدد. |
 | [get(int index)](#get-int-) | يحصل على العنصر عند الفهرس المحدد. |
 | [set(int index, Object value)](#set-int-java.lang.Object-) | يضبط العنصر عند الفهرس المحدد. |
 | [removeItem(Object value)](#removeItem-java.lang.Object-) | يزيل أول ظهور لكائن محدد من `System.Collections.IList`. |
-| [removeAt(int index)](#removeAt-int-) | يزيل عنصر `System.Collections.IList` عند الفهرس المحدد. |
+| [removeAt(int index)](#removeAt-int-) | يزيل العنصر في `System.Collections.IList` عند الفهرس المحدد. |
 | [size()](#size--) | يحصل على عدد العناصر الموجودة في `System.Collections.ICollection`. |
 | [isEmpty()](#isEmpty--) |  |
 | [toArray()](#toArray--) |  |
@@ -59,7 +59,7 @@ public NonGenericList(List list)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `NonGenericList`.
+يُهيئ مثيلًا جديدًا من الفئة `NonGenericList`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,7 +87,7 @@ public int addItem(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | الكائن `System.Object` لإضافته إلى `System.Collections.IList`. |
+| value | java.lang.Object | الكائن `System.Object` لإضافته إلى `System.Collections.IList`. |
 
 **Returns:**
 int - الموضع الذي تم إدراج العنصر الجديد فيه.
@@ -110,7 +110,7 @@ public boolean contains(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | الكائن `System.Object` لتحديد موقعه في `System.Collections.IList`. |
+| value | java.lang.Object | الكائن `System.Object` لتحديد موقعه في `System.Collections.IList`. |
 
 **Returns:**
 boolean - true إذا تم العثور على `System.Object` في `System.Collections.IList`؛ وإلا false.
@@ -120,12 +120,12 @@ public int indexOf(Object value)
 ```
 
 
-يحدد فهرس العنصر المحدد في `System.Collections.IList`.
+يحدد فهرس عنصر محدد في `System.Collections.IList`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | الكائن `System.Object` لتحديد موقعه في `System.Collections.IList`. |
+| value | java.lang.Object | الكائن `System.Object` لتحديد موقعه في `System.Collections.IList`. |
 
 **Returns:**
 int - فهرس `value` إذا وجد في القائمة؛ وإلا -1.
@@ -140,8 +140,8 @@ public void insertItem(int index, Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس الصفري الذي يجب إدراج `value` فيه. |
-| القيمة | java.lang.Object | الكائن `System.Object` لإدخاله في `System.Collections.IList`. |
+| index | int | المؤشر الصفري الذي يجب إدراج `value` فيه. |
+| value | java.lang.Object | `System.Object` لإدراجه في `System.Collections.IList`. |
 
 ### get(int index) {#get-int-}
 ```
@@ -154,10 +154,10 @@ public Object get(int index)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
+| index | int | المؤشر. |
 
 **Returns:**
-java.lang.Object - العنصر عند الفهرس المحدد.
+java.lang.Object - العنصر في المؤشر المحدد.
 ### set(int index, Object value) {#set-int-java.lang.Object-}
 ```
 public Object set(int index, Object value)
@@ -169,8 +169,8 @@ public Object set(int index, Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس. |
-| القيمة | java.lang.Object |  |
+| index | int | المؤشر. |
+| value | java.lang.Object |  |
 
 **Returns:**
 java.lang.Object
@@ -185,7 +185,7 @@ public void removeItem(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | الكائن `System.Object` لإزالته من `System.Collections.IList`. |
+| value | java.lang.Object | `System.Object` لإزالته من `System.Collections.IList`. |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -193,12 +193,12 @@ public void removeAt(int index)
 ```
 
 
-يزيل عنصر `System.Collections.IList` عند الفهرس المحدد.
+يزيل العنصر في `System.Collections.IList` عند الفهرس المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| index | int | الفهرس الصفري للعنصر الذي سيتم إزالته. |
+| index | int | المؤشر الصفري للعنصر الذي يجب إزالته. |
 
 ### size() {#size--}
 ```
@@ -348,7 +348,7 @@ public void add(int index, Object element)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | index | int |  |
-| عنصر | java.lang.Object |  |
+| العنصر | java.lang.Object |  |
 
 ### remove(int index) {#remove-int-}
 ```
@@ -442,7 +442,7 @@ public Object[] toArray(Object[] a)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| أ | java.lang.Object[] |  |
+| a | java.lang.Object[] |  |
 
 **Returns:**
 java.lang.Object[]

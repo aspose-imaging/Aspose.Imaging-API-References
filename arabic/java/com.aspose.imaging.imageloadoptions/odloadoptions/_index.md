@@ -51,5 +51,5 @@ public final void setPassword(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 

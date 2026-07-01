@@ -1,7 +1,7 @@
 ---
 title: "TextShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل شكل نصي."
+description: "يمثل شكل نص."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.shapes/textshape/
@@ -12,23 +12,23 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public final class TextShape extends RectangleProjectedShape
 ```
 
-يمثل شكل نصي.
+يمثل شكل نص.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TextShape()](#TextShape--) | ينشئ مثيلًا جديدًا من الفئة `TextShape`. |
-| [TextShape(String text, RectangleF rectangle, Font font, StringFormat stringFormat)](#TextShape-java.lang.String-com.aspose.imaging.RectangleF-com.aspose.imaging.Font-com.aspose.imaging.StringFormat-) | ينشئ مثيلًا جديدًا من الفئة `TextShape`. |
+| [TextShape()](#TextShape--) | يقوم بإنشاء نسخة جديدة من الفئة `TextShape` class. |
+| [TextShape(String text, RectangleF rectangle, Font font, StringFormat stringFormat)](#TextShape-java.lang.String-com.aspose.imaging.RectangleF-com.aspose.imaging.Font-com.aspose.imaging.StringFormat-) | يقوم بإنشاء نسخة جديدة من الفئة `TextShape` class. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getText()](#getText--) | يحصل أو يضبط النص المرسوم. |
-| [setText(String value)](#setText-java.lang.String-) | يحصل أو يضبط النص المرسوم. |
-| [getFont()](#getFont--) | يحصل أو يضبط الخط المستخدم لرسم النص. |
-| [setFont(Font value)](#setFont-com.aspose.imaging.Font-) | يحصل أو يضبط الخط المستخدم لرسم النص. |
-| [getTextFormat()](#getTextFormat--) | يحصل أو يضبط تنسيق النص. |
-| [setTextFormat(StringFormat value)](#setTextFormat-com.aspose.imaging.StringFormat-) | يحصل أو يضبط تنسيق النص. |
+| [getText()](#getText--) | يحصل أو يعيّن النص المرسوم. |
+| [setText(String value)](#setText-java.lang.String-) | يحصل أو يعيّن النص المرسوم. |
+| [getFont()](#getFont--) | يحصل أو يعيّن الخط المستخدم لرسم النص. |
+| [setFont(Font value)](#setFont-com.aspose.imaging.Font-) | يحصل أو يعيّن الخط المستخدم لرسم النص. |
+| [getTextFormat()](#getTextFormat--) | يحصل أو يعيّن تنسيق النص. |
+| [setTextFormat(StringFormat value)](#setTextFormat-com.aspose.imaging.StringFormat-) | يحصل أو يعيّن تنسيق النص. |
 | [getCenter()](#getCenter--) | يحصل على مركز الشكل. |
 | [getBounds()](#getBounds--) | يحصل على حدود الكائن. |
 | [getSegments()](#getSegments--) | يحصل على مقاطع الشكل. |
@@ -44,7 +44,7 @@ public TextShape()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `TextShape`.
+يقوم بإنشاء نسخة جديدة من الفئة `TextShape` class.
 
 ### TextShape(String text, RectangleF rectangle, Font font, StringFormat stringFormat) {#TextShape-java.lang.String-com.aspose.imaging.RectangleF-com.aspose.imaging.Font-com.aspose.imaging.StringFormat-}
 ```
@@ -52,14 +52,14 @@ public TextShape(String text, RectangleF rectangle, Font font, StringFormat stri
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `TextShape`.
+يقوم بإنشاء نسخة جديدة من الفئة `TextShape` class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | text | java.lang.String | النص المراد رسمه. |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | مستطيل النص. |
-| font | [Font](../../com.aspose.imaging/font) | الخط المستخدم. |
+| font | [Font](../../com.aspose.imaging/font) | الخط المراد استخدامه. |
 | stringFormat | [StringFormat](../../com.aspose.imaging/stringformat) | تنسيق السلسلة. |
 
 ### getText() {#getText--}
@@ -68,7 +68,7 @@ public String getText()
 ```
 
 
-يحصل أو يضبط النص المرسوم.
+يحصل أو يعيّن النص المرسوم.
 
 القيمة: النص المرسوم.
 
@@ -80,14 +80,14 @@ public void setText(String value)
 ```
 
 
-يحصل أو يضبط النص المرسوم.
+يحصل أو يعيّن النص المرسوم.
 
 القيمة: النص المرسوم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFont() {#getFont--}
 ```
@@ -95,7 +95,7 @@ public Font getFont()
 ```
 
 
-يحصل أو يضبط الخط المستخدم لرسم النص.
+يحصل أو يعيّن الخط المستخدم لرسم النص.
 
 القيمة: الخط المستخدم لرسم النص.
 
@@ -107,7 +107,7 @@ public void setFont(Font value)
 ```
 
 
-يحصل أو يضبط الخط المستخدم لرسم النص.
+يحصل أو يعيّن الخط المستخدم لرسم النص.
 
 القيمة: الخط المستخدم لرسم النص.
 
@@ -122,7 +122,7 @@ public StringFormat getTextFormat()
 ```
 
 
-يحصل أو يضبط تنسيق النص.
+يحصل أو يعيّن تنسيق النص.
 
 القيمة: تنسيق النص.
 
@@ -134,7 +134,7 @@ public void setTextFormat(StringFormat value)
 ```
 
 
-يحصل أو يضبط تنسيق النص.
+يحصل أو يعيّن تنسيق النص.
 
 القيمة: تنسيق النص.
 
@@ -187,7 +187,7 @@ public boolean hasSegments()
 
 يحصل على قيمة تشير إلى ما إذا كان الشكل يحتوي على مقاطع.
 
-القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا `false`.
+القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا، `false`.
 
 **Returns:**
 boolean
@@ -202,7 +202,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -217,8 +217,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -233,7 +233,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل المراد تطبيقه. |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل الذي سيتم تطبيقه. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

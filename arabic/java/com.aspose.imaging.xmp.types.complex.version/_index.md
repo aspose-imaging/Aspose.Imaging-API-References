@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.xmp.types.complex.version/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Version](../com.aspose.imaging.xmp.types.complex.version/version) | يصف نسخة واحدة من مستند. |

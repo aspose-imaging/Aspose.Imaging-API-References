@@ -17,15 +17,15 @@ public final class FloodFillDirectionalMode extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [FourDirectional](#FourDirectional) | الملء ينتشر أفقيًا وعموديًا فقط. |
-| [EightDirectional](#EightDirectional) | الملء ينتشر في جميع الاتجاهات (بما في ذلك قطريًا). |
+| [FourDirectional](#FourDirectional) | الملء ينتشر فقط أفقياً وعمودياً. |
+| [EightDirectional](#EightDirectional) | الملء ينتشر في جميع الاتجاهات (بما في ذلك قطرياً). |
 ### FourDirectional {#FourDirectional}
 ```
 public static final int FourDirectional
 ```
 
 
-الملء ينتشر أفقيًا وعموديًا فقط.
+الملء ينتشر فقط أفقياً وعمودياً.
 
 ### EightDirectional {#EightDirectional}
 ```
@@ -33,5 +33,5 @@ public static final int EightDirectional
 ```
 
 
-الملء ينتشر في جميع الاتجاهات (بما في ذلك قطريًا).
+الملء ينتشر في جميع الاتجاهات (بما في ذلك قطرياً).
 

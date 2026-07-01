@@ -17,25 +17,25 @@ public final class EmfLogFontExDv extends EmfLogFontEx
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfLogFontExDv(EmfLogFontEx emfLogFontEx)](#EmfLogFontExDv-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx-) | يُهيئ نسخة جديدة من الفئة `EmfLogFontExDv`. |
+| [EmfLogFontExDv(EmfLogFontEx emfLogFontEx)](#EmfLogFontExDv-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx-) | يُنشئ مثيلاً جديداً من الفئة `EmfLogFontExDv`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDesignVector()](#getDesignVector--) | يحصل أو يضبط كائن DesignVector (القسم 2.2.3). |
-| [setDesignVector(EmfDesignVector value)](#setDesignVector-com.aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector-) | يحصل أو يضبط كائن DesignVector (القسم 2.2.3). |
+| [getDesignVector()](#getDesignVector--) | يحصل أو يعيّن كائن DesignVector (القسم 2.2.3). |
+| [setDesignVector(EmfDesignVector value)](#setDesignVector-com.aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector-) | يحصل أو يعيّن كائن DesignVector (القسم 2.2.3). |
 ### EmfLogFontExDv(EmfLogFontEx emfLogFontEx) {#EmfLogFontExDv-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx-}
 ```
 public EmfLogFontExDv(EmfLogFontEx emfLogFontEx)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `EmfLogFontExDv`.
+يُنشئ مثيلاً جديداً من الفئة `EmfLogFontExDv`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| emfLogFontEx | [EmfLogFontEx](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfontex) | خط EMF السجل ex. |
+| emfLogFontEx | [EmfLogFontEx](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfontex) | الـ EMF log font ex. |
 
 ### getDesignVector() {#getDesignVector--}
 ```
@@ -43,7 +43,7 @@ public EmfDesignVector getDesignVector()
 ```
 
 
-يحصل أو يضبط كائن DesignVector (القسم 2.2.3). يجب ألا يكون هذا الحقل أطول من 72 بايت.
+يحصل أو يعيّن كائن DesignVector (القسم 2.2.3). يجب ألا يكون هذا الحقل أطول من 72 بايت.
 
 القيمة: متجه التصميم.
 
@@ -55,7 +55,7 @@ public void setDesignVector(EmfDesignVector value)
 ```
 
 
-يحصل أو يضبط كائن DesignVector (القسم 2.2.3). يجب ألا يكون هذا الحقل أطول من 72 بايت.
+يحصل أو يعيّن كائن DesignVector (القسم 2.2.3). يجب ألا يكون هذا الحقل أطول من 72 بايت.
 
 القيمة: متجه التصميم.
 

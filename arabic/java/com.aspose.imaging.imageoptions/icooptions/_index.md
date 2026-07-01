@@ -12,30 +12,30 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class IcoOptions extends ImageOptionsBase
 ```
 
-أنشئ ملفات صور ICO مخصصة لأيقونات التطبيقات بسهولة باستخدام API الخاص بنا، مما يمكنك من تمثيل برنامجك بسلاسة. يدعم API الخاص بنا إطارات صور PNG و BMP مع قيم مختلفة لعدد البتات لكل بكسل، مما يضمن المرونة والتوافق لاحتياجات إنشاء الأيقونات الخاصة بك.
+أنشئ ملفات صور ICO مخصصة لأيقونات التطبيقات بسهولة باستخدام API الخاص بنا، مما يمكنك من تمثيل برنامجك بسلاسة. يدعم API الخاص بنا إطارات صور PNG و BMP مع قيم مختلفة لعدد البتات لكل بكسل، مما يضمن التنوع والتوافق لاحتياجات إنشاء الأيقونات الخاصة بك.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [IcoOptions()](#IcoOptions--) | يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي Png وbitsPerPixel يساوي 32. |
+| [IcoOptions()](#IcoOptions--) | يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي Png و bitsPerPixel يساوي 32. |
 | [IcoOptions(IcoOptions options)](#IcoOptions-com.aspose.imaging.imageoptions.IcoOptions-) |  |
-| [IcoOptions(long format)](#IcoOptions-long-) | يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي [`format`] وbitsPerPixel يساوي 32. |
-| [IcoOptions(long format, int bitsPerPixel)](#IcoOptions-long-int-) | يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions). |
+| [IcoOptions(long format)](#IcoOptions-long-) | يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي [`format`] و bitsPerPixel يساوي 32. |
+| [IcoOptions(long format, int bitsPerPixel)](#IcoOptions-long-int-) | يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getFormat()](#getFormat--) | يحصل على تنسيق إطار ICO. |
-| [setFormat(long value)](#setFormat-long-) | يعيّن تنسيق إطار ICO. |
+| [setFormat(long value)](#setFormat-long-) | يضبط تنسيق إطار ICO. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على قيمة البتات لكل بكسل. |
-| [setBitsPerPixel(int value)](#setBitsPerPixel-int-) | يعيّن قيمة البتات لكل بكسل. |
+| [setBitsPerPixel(int value)](#setBitsPerPixel-int-) | يضبط قيمة البتات لكل بكسل. |
 ### IcoOptions() {#IcoOptions--}
 ```
 public IcoOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي Png وbitsPerPixel يساوي 32.
+يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي Png و bitsPerPixel يساوي 32.
 
 ### IcoOptions(IcoOptions options) {#IcoOptions-com.aspose.imaging.imageoptions.IcoOptions-}
 ```
@@ -54,12 +54,12 @@ public IcoOptions(long format)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي [`format`] وbitsPerPixel يساوي 32.
+يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) مع تنسيق إطار ICO يساوي [`format`] و bitsPerPixel يساوي 32.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | long | تنسيق إطار ICO. لاحظ أن صورة ICO تدعم فقط صور [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png) و[FileFormat.Bmp](../../com.aspose.imaging/fileformat\#Bmp) كمدخلات. |
+| format | long | تنسيق إطار ICO. لاحظ أن صورة ICO تدعم فقط صور [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png) و [FileFormat.Bmp](../../com.aspose.imaging/fileformat\#Bmp) كمدخلات. |
 
 ### IcoOptions(long format, int bitsPerPixel) {#IcoOptions-long-int-}
 ```
@@ -67,12 +67,12 @@ public IcoOptions(long format, int bitsPerPixel)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions).
+يقوم بتهيئة نسخة جديدة من الفئة [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| format | long | تنسيق إطار ICO. لاحظ أن صورة ICO تدعم فقط صور [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png) و[FileFormat.Bmp](../../com.aspose.imaging/fileformat\#Bmp) كمدخلات. |
+| format | long | تنسيق إطار ICO. لاحظ أن صورة ICO تدعم فقط صور [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png) و [FileFormat.Bmp](../../com.aspose.imaging/fileformat\#Bmp) كمدخلات. |
 | bitsPerPixel | int | قيمة البتات لكل بكسل. |
 
 ### getFormat() {#getFormat--}
@@ -91,12 +91,12 @@ public final void setFormat(long value)
 ```
 
 
-يعيّن تنسيق إطار ICO.
+يضبط تنسيق إطار ICO.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | تنسيق إطار ICO. |
+| value | long | تنسيق إطار ICO. |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -114,10 +114,10 @@ public final void setBitsPerPixel(int value)
 ```
 
 
-يعيّن قيمة البتات لكل بكسل.
+يضبط قيمة البتات لكل بكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة البتات لكل بكسل. |
+| value | int | قيمة البتات لكل بكسل. |
 

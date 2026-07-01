@@ -17,26 +17,26 @@ public final class WmfRecordType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Eof](#Eof) | نوع السجل EOF |
+| [Eof](#Eof) | نوع سجل EOF |
 | [RealizePalette](#RealizePalette) | دالة realizepalette |
 | [SetPalentries](#SetPalentries) | دالة setpalentries |
-| [SetBkMode](#SetBkMode) | ال setbkmode |
-| [SetMapMode](#SetMapMode) | ال setmapmode |
-| [SetRop2](#SetRop2) | ال setrop2 |
-| [SetRelabs](#SetRelabs) | ال setrelabs |
-| [SetPolyfillMode](#SetPolyfillMode) | ال setpolyfillmode |
-| [SetStretchbltMode](#SetStretchbltMode) | ال setstretchbltmode |
-| [SetTextCharExtra](#SetTextCharExtra) | ال settextcharextra |
-| [RestoreDc](#RestoreDc) | ال restoredc |
-| [ResizePalette](#ResizePalette) | ال resizepalette |
-| [DibCreatePatternBrush](#DibCreatePatternBrush) | ال dibcreatepatternbrush |
-| [SetLayout](#SetLayout) | ال setlayout |
-| [SetBkColor](#SetBkColor) | ال setbkcolor |
-| [SetTextColor](#SetTextColor) | ال settextcolor |
-| [OffsetViewPortOrg](#OffsetViewPortOrg) | ال offsetviewportorg |
-| [LineTo](#LineTo) | ال lineto |
-| [MoveTo](#MoveTo) | ال moveto |
-| [OffsetClipRgn](#OffsetClipRgn) | ال offsetcliprgn |
+| [SetBkMode](#SetBkMode) | دالة setbkmode |
+| [SetMapMode](#SetMapMode) | دالة setmapmode |
+| [SetRop2](#SetRop2) | دالة setrop2 |
+| [SetRelabs](#SetRelabs) | دالة setrelabs |
+| [SetPolyfillMode](#SetPolyfillMode) | دالة setpolyfillmode |
+| [SetStretchbltMode](#SetStretchbltMode) | دالة setstretchbltmode |
+| [SetTextCharExtra](#SetTextCharExtra) | دالة settextcharextra |
+| [RestoreDc](#RestoreDc) | دالة restoredc |
+| [ResizePalette](#ResizePalette) | دالة resizepalette |
+| [DibCreatePatternBrush](#DibCreatePatternBrush) | دالة dibcreatepatternbrush |
+| [SetLayout](#SetLayout) | دالة setlayout |
+| [SetBkColor](#SetBkColor) | دالة setbkcolor |
+| [SetTextColor](#SetTextColor) | دالة settextcolor |
+| [OffsetViewPortOrg](#OffsetViewPortOrg) | دالة offsetviewportorg |
+| [LineTo](#LineTo) | دالة lineto |
+| [MoveTo](#MoveTo) | دالة moveto |
+| [OffsetClipRgn](#OffsetClipRgn) | دالة offsetcliprgn |
 | [FillRegion](#FillRegion) | ال fillregion |
 | [SetMapperFlags](#SetMapperFlags) | ال setmapperflags |
 | [SelectPalette](#SelectPalette) | ال selectpalette |
@@ -64,7 +64,7 @@ public final class WmfRecordType extends System.Enum
 | [RoundRect](#RoundRect) | ال roundrect |
 | [PatBlt](#PatBlt) | ال patblt |
 | [SaveDc](#SaveDc) | ال savedc |
-| [Pie](#Pie) | ال نوع سجل الفطيرة |
+| [Pie](#Pie) | نوع سجل الفطيرة |
 | [StretchBlt](#StretchBlt) | ال stretchblt |
 | [Escape](#Escape) | ال escape |
 | [InvertRegion](#InvertRegion) | ال invertregion |
@@ -74,19 +74,19 @@ public final class WmfRecordType extends System.Enum
 | [SetTextAlign](#SetTextAlign) | ال settextalign |
 | [Arc](#Arc) | نوع سجل القوس |
 | [Chord](#Chord) | نوع سجل الوتر |
-| [BitBlt](#BitBlt) | الـ bitblt |
-| [ExtTextOut](#ExtTextOut) | الـ exttextout |
-| [SetDibToDev](#SetDibToDev) | الـ setdibtodev |
-| [DibBitBlt](#DibBitBlt) | الـ dibbitblt |
-| [DibStretchBlt](#DibStretchBlt) | الـ dibstretchblt |
-| [StretchDib](#StretchDib) | الـ stretchdib |
-| [DeleteObject](#DeleteObject) | الـ deleteobject |
-| [CreatePalette](#CreatePalette) | الـ createpalette |
-| [CreatePatternBrush](#CreatePatternBrush) | الـ createpatternbrush |
-| [CreatePenInDirect](#CreatePenInDirect) | الـ createpenindirect |
-| [CreateFontInDirect](#CreateFontInDirect) | الـ createfontindirect |
-| [CreateBrushInDirect](#CreateBrushInDirect) | الـ createbrushindirect |
-| [CreateRegion](#CreateRegion) | الـ createregion |
+| [BitBlt](#BitBlt) | ال bitblt |
+| [ExtTextOut](#ExtTextOut) | ال exttextout |
+| [SetDibToDev](#SetDibToDev) | ال setdibtodev |
+| [DibBitBlt](#DibBitBlt) | ال dibbitblt |
+| [DibStretchBlt](#DibStretchBlt) | ال dibstretchblt |
+| [StretchDib](#StretchDib) | ال stretchdib |
+| [DeleteObject](#DeleteObject) | ال deleteobject |
+| [CreatePalette](#CreatePalette) | ال createpalette |
+| [CreatePatternBrush](#CreatePatternBrush) | ال createpatternbrush |
+| [CreatePenInDirect](#CreatePenInDirect) | ال createpenindirect |
+| [CreateFontInDirect](#CreateFontInDirect) | ال createfontindirect |
+| [CreateBrushInDirect](#CreateBrushInDirect) | ال createbrushindirect |
+| [CreateRegion](#CreateRegion) | ال createregion |
 | [None](#None) | نوع السجل لا شيء. |
 ### Eof {#Eof}
 ```
@@ -94,7 +94,7 @@ public static final short Eof
 ```
 
 
-نوع السجل EOF
+نوع سجل EOF
 
 ### RealizePalette {#RealizePalette}
 ```
@@ -118,7 +118,7 @@ public static final short SetBkMode
 ```
 
 
-ال setbkmode
+دالة setbkmode
 
 ### SetMapMode {#SetMapMode}
 ```
@@ -126,7 +126,7 @@ public static final short SetMapMode
 ```
 
 
-ال setmapmode
+دالة setmapmode
 
 ### SetRop2 {#SetRop2}
 ```
@@ -134,7 +134,7 @@ public static final short SetRop2
 ```
 
 
-ال setrop2
+دالة setrop2
 
 ### SetRelabs {#SetRelabs}
 ```
@@ -142,7 +142,7 @@ public static final short SetRelabs
 ```
 
 
-ال setrelabs
+دالة setrelabs
 
 ### SetPolyfillMode {#SetPolyfillMode}
 ```
@@ -150,7 +150,7 @@ public static final short SetPolyfillMode
 ```
 
 
-ال setpolyfillmode
+دالة setpolyfillmode
 
 ### SetStretchbltMode {#SetStretchbltMode}
 ```
@@ -158,7 +158,7 @@ public static final short SetStretchbltMode
 ```
 
 
-ال setstretchbltmode
+دالة setstretchbltmode
 
 ### SetTextCharExtra {#SetTextCharExtra}
 ```
@@ -166,7 +166,7 @@ public static final short SetTextCharExtra
 ```
 
 
-ال settextcharextra
+دالة settextcharextra
 
 ### RestoreDc {#RestoreDc}
 ```
@@ -174,7 +174,7 @@ public static final short RestoreDc
 ```
 
 
-ال restoredc
+دالة restoredc
 
 ### ResizePalette {#ResizePalette}
 ```
@@ -182,7 +182,7 @@ public static final short ResizePalette
 ```
 
 
-ال resizepalette
+دالة resizepalette
 
 ### DibCreatePatternBrush {#DibCreatePatternBrush}
 ```
@@ -190,7 +190,7 @@ public static final short DibCreatePatternBrush
 ```
 
 
-ال dibcreatepatternbrush
+دالة dibcreatepatternbrush
 
 ### SetLayout {#SetLayout}
 ```
@@ -198,7 +198,7 @@ public static final short SetLayout
 ```
 
 
-ال setlayout
+دالة setlayout
 
 ### SetBkColor {#SetBkColor}
 ```
@@ -206,7 +206,7 @@ public static final short SetBkColor
 ```
 
 
-ال setbkcolor
+دالة setbkcolor
 
 ### SetTextColor {#SetTextColor}
 ```
@@ -214,7 +214,7 @@ public static final short SetTextColor
 ```
 
 
-ال settextcolor
+دالة settextcolor
 
 ### OffsetViewPortOrg {#OffsetViewPortOrg}
 ```
@@ -222,7 +222,7 @@ public static final short OffsetViewPortOrg
 ```
 
 
-ال offsetviewportorg
+دالة offsetviewportorg
 
 ### LineTo {#LineTo}
 ```
@@ -230,7 +230,7 @@ public static final short LineTo
 ```
 
 
-ال lineto
+دالة lineto
 
 ### MoveTo {#MoveTo}
 ```
@@ -238,7 +238,7 @@ public static final short MoveTo
 ```
 
 
-ال moveto
+دالة moveto
 
 ### OffsetClipRgn {#OffsetClipRgn}
 ```
@@ -246,7 +246,7 @@ public static final short OffsetClipRgn
 ```
 
 
-ال offsetcliprgn
+دالة offsetcliprgn
 
 ### FillRegion {#FillRegion}
 ```
@@ -470,7 +470,7 @@ public static final short Pie
 ```
 
 
-ال نوع سجل الفطيرة
+نوع سجل الفطيرة
 
 ### StretchBlt {#StretchBlt}
 ```
@@ -550,7 +550,7 @@ public static final short BitBlt
 ```
 
 
-الـ bitblt
+ال bitblt
 
 ### ExtTextOut {#ExtTextOut}
 ```
@@ -558,7 +558,7 @@ public static final short ExtTextOut
 ```
 
 
-الـ exttextout
+ال exttextout
 
 ### SetDibToDev {#SetDibToDev}
 ```
@@ -566,7 +566,7 @@ public static final short SetDibToDev
 ```
 
 
-الـ setdibtodev
+ال setdibtodev
 
 ### DibBitBlt {#DibBitBlt}
 ```
@@ -574,7 +574,7 @@ public static final short DibBitBlt
 ```
 
 
-الـ dibbitblt
+ال dibbitblt
 
 ### DibStretchBlt {#DibStretchBlt}
 ```
@@ -582,7 +582,7 @@ public static final short DibStretchBlt
 ```
 
 
-الـ dibstretchblt
+ال dibstretchblt
 
 ### StretchDib {#StretchDib}
 ```
@@ -590,7 +590,7 @@ public static final short StretchDib
 ```
 
 
-الـ stretchdib
+ال stretchdib
 
 ### DeleteObject {#DeleteObject}
 ```
@@ -598,7 +598,7 @@ public static final short DeleteObject
 ```
 
 
-الـ deleteobject
+ال deleteobject
 
 ### CreatePalette {#CreatePalette}
 ```
@@ -606,7 +606,7 @@ public static final short CreatePalette
 ```
 
 
-الـ createpalette
+ال createpalette
 
 ### CreatePatternBrush {#CreatePatternBrush}
 ```
@@ -614,7 +614,7 @@ public static final short CreatePatternBrush
 ```
 
 
-الـ createpatternbrush
+ال createpatternbrush
 
 ### CreatePenInDirect {#CreatePenInDirect}
 ```
@@ -622,7 +622,7 @@ public static final short CreatePenInDirect
 ```
 
 
-الـ createpenindirect
+ال createpenindirect
 
 ### CreateFontInDirect {#CreateFontInDirect}
 ```
@@ -630,7 +630,7 @@ public static final short CreateFontInDirect
 ```
 
 
-الـ createfontindirect
+ال createfontindirect
 
 ### CreateBrushInDirect {#CreateBrushInDirect}
 ```
@@ -638,7 +638,7 @@ public static final short CreateBrushInDirect
 ```
 
 
-الـ createbrushindirect
+ال createbrushindirect
 
 ### CreateRegion {#CreateRegion}
 ```
@@ -646,7 +646,7 @@ public static final short CreateRegion
 ```
 
 
-الـ createregion
+ال createregion
 
 ### None {#None}
 ```

@@ -23,8 +23,8 @@ public enum BlendingMode extends Enum<BlendingMode>
 | [OVERLAY](#OVERLAY) | التراكب |
 | [DARKEN](#DARKEN) | وضع التعتيم |
 | [LIGHTEN](#LIGHTEN) | وضع التفتيح |
-| [COLOR_DODGE](#COLOR-DODGE) | تجنب اللون |
-| [COLOR_BURN](#COLOR-BURN) | حرق اللون |
+| [COLOR_DODGE](#COLOR-DODGE) | تجاوز اللون |
+| [COLOR_BURN](#COLOR-BURN) | احتراق اللون |
 | [HARD_LIGHT](#HARD-LIGHT) | الإضاءة الصلبة |
 | [SOFT_LIGHT](#SOFT-LIGHT) | الإضاءة الناعمة |
 | [DIFFERENCE](#DIFFERENCE) | الفرق |
@@ -32,7 +32,7 @@ public enum BlendingMode extends Enum<BlendingMode>
 | [HUE](#HUE) | وضع الصبغة |
 | [SATURATION](#SATURATION) | التشبع |
 | [COLOR](#COLOR) | وضع اللون |
-| [LUMINOSITY](#LUMINOSITY) | السطوع |
+| [LUMINOSITY](#LUMINOSITY) | الإضاءة |
 ## الطرق
 
 | طريقة | الوصف |
@@ -94,7 +94,7 @@ public static final BlendingMode COLOR_DODGE
 ```
 
 
-تجنب اللون
+تجاوز اللون
 
 ### COLOR_BURN {#COLOR-BURN}
 ```
@@ -102,7 +102,7 @@ public static final BlendingMode COLOR_BURN
 ```
 
 
-حرق اللون
+احتراق اللون
 
 ### HARD_LIGHT {#HARD-LIGHT}
 ```
@@ -166,7 +166,7 @@ public static final BlendingMode LUMINOSITY
 ```
 
 
-السطوع
+الإضاءة
 
 ### values() {#values--}
 ```
@@ -204,7 +204,7 @@ public static BlendingMode get(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 **Returns:**
 [BlendingMode](../../com.aspose.imaging.imagefilters.filteroptions/blendingmode)

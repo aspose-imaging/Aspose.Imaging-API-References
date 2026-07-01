@@ -19,17 +19,17 @@ public final class XmpMimeType extends XmpText
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpMimeType(String value)](#XmpMimeType-java.lang.String-) | يُنشئ مثيلاً جديدًا للفئة `XmpMimeType`. |
+| [XmpMimeType(String value)](#XmpMimeType-java.lang.String-) | يُنشئ مثيلًا جديدًا للفئة `XmpMimeType`. |
 ### XmpMimeType(String value) {#XmpMimeType-java.lang.String-}
 ```
 public XmpMimeType(String value)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `XmpMimeType`.
+يُنشئ مثيلًا جديدًا للفئة `XmpMimeType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 

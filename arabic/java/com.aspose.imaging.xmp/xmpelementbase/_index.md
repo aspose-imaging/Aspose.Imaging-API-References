@@ -24,8 +24,8 @@ public abstract class XmpElementBase implements System.IEquatable<XmpElementBase
 | [getAttribute(String attribute)](#getAttribute-java.lang.String-) | يحصل على السمة. |
 | [clearAttributes()](#clearAttributes--) | يزيل جميع السمات. |
 | [isEquals(XmpElementBase other)](#isEquals-com.aspose.imaging.xmp.XmpElementBase-) | يشير إلى ما إذا كان الكائن الحالي يساوي كائنًا آخر من نفس النوع. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### addAttribute(String attribute, String value) {#addAttribute-java.lang.String-java.lang.String-}
 ```
 public void addAttribute(String attribute, String value)
@@ -37,8 +37,8 @@ public void addAttribute(String attribute, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| السمة | java.lang.String | السمة. |
-| القيمة | java.lang.String | القيمة. |
+| attribute | java.lang.String | السمة. |
+| value | java.lang.String | القيمة. |
 
 ### getAttribute(String attribute) {#getAttribute-java.lang.String-}
 ```
@@ -51,10 +51,10 @@ public String getAttribute(String attribute)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| السمة | java.lang.String | السمة. |
+| attribute | java.lang.String | السمة. |
 
 **Returns:**
-java.lang.String - يُرجع السمة للاسم المحدد للخاصية.
+java.lang.String - يُرجع السمة للاسم المحدد للسمة.
 ### clearAttributes() {#clearAttributes--}
 ```
 public void clearAttributes()
@@ -77,29 +77,29 @@ public boolean isEquals(XmpElementBase other)
 | other | [XmpElementBase](../../com.aspose.imaging.xmp/xmpelementbase) | كائن للمقارنة مع هذا الكائن. |
 
 **Returns:**
-boolean - true إذا كان الكائن الحالي مساويًا للمعامل `other`؛ وإلا، false.
+boolean - true إذا كان الكائن الحالي يساوي المعامل `other`؛ وإلا false.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان `Object` المحدد يساوي هذه المثيلة.
+يحدد ما إذا كان `Object` المحدد يساوي هذه الحالة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | ال `Object` للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن `Object` للمقارنة مع هذه المثيلة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `Object` المحدد يساوي هذه الحالة؛ وإلا `false`.
+منطقية - `true` إذا كان الـ `Object` المحدد مساويًا لهذه المثيلة؛ وإلا `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

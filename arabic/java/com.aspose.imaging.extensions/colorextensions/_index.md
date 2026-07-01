@@ -1,7 +1,7 @@
 ---
 title: "ColorExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "طرق توسيع Color."
+description: "طرق امتداد Color."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.extensions/colorextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorExtensions
 ```
 
-أساليب امتداد `Color`.
+طرق امتداد `Color`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public static Color toGdiColor(Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | ال`com.aspose.imaging.Color` للتحويل. |
+| color | [Color](../../com.aspose.imaging/color) | ال`com.aspose.imaging.Color` المراد تحويله. |
 
 **Returns:**
 [Color](../../java.awt/color) - The converted `System.Drawing.Color`.
@@ -45,7 +45,7 @@ public static System.Drawing.Color[] toGdiColors(Color[] colors)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| colors | [Color\[\]](../../com.aspose.imaging/color) | ال`com.aspose.imaging.Color` المصفوفة للتحويل. |
+| colors | [Color\[\]](../../com.aspose.imaging/color) | ال`com.aspose.imaging.Color` المصفوفة المراد تحويلها. |
 
 **Returns:**
-com.aspose.ms.System.Drawing.Color[] - مصفوفة `System.Drawing.Color` المحوّلة.
+com.aspose.ms.System.Drawing.Color[] - مصفوفة `System.Drawing.Color` المحولة.

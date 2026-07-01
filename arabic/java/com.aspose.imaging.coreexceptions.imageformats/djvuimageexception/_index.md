@@ -17,15 +17,15 @@ public class DjvuImageException extends ImageException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DjvuImageException(String message)](#DjvuImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `DjvuImageException`. |
-| [DjvuImageException(String message, Throwable innerException)](#DjvuImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `DjvuImageException`. |
+| [DjvuImageException(String message)](#DjvuImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `DjvuImageException`. |
+| [DjvuImageException(String message, Throwable innerException)](#DjvuImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `DjvuImageException`. |
 ### DjvuImageException(String message) {#DjvuImageException-java.lang.String-}
 ```
 public DjvuImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `DjvuImageException`.
+ينشئ مثيلاً جديدًا من الفئة `DjvuImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public DjvuImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `DjvuImageException`.
+ينشئ مثيلاً جديدًا من الفئة `DjvuImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

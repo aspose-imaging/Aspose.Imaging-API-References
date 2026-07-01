@@ -17,13 +17,13 @@ public final class EmfGlsRecord extends EmfOpenGlRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfGlsRecord(EmfRecord source)](#EmfGlsRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا من الفئة `EmfGlsRecord`. |
+| [EmfGlsRecord(EmfRecord source)](#EmfGlsRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfGlsRecord`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
-| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. |
+| [getCbData()](#getCbData--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
+| [setCbData(int value)](#setCbData-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. |
 | [getData()](#getData--) | يحصل أو يعيّن مصفوفة اختيارية من البايت بطول cbData تحدد البيانات لدالة OpenGL. |
 | [setData(byte[] value)](#setData-byte---) | يحصل أو يعيّن مصفوفة اختيارية من البايت بطول cbData تحدد البيانات لدالة OpenGL. |
 ### EmfGlsRecord(EmfRecord source) {#EmfGlsRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -32,7 +32,7 @@ public EmfGlsRecord(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfGlsRecord`.
+ينشئ مثيلًا جديدًا من الفئة `EmfGlsRecord`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public int getCbData()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. إذا كان هذا القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. إذا كانت هذه القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
 
 **Returns:**
 int
@@ -55,12 +55,12 @@ public void setCbData(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم حقل Data بالبايت. إذا كان هذا القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد حجم حقل Data بالبايت. إذا كانت هذه القيمة صفرًا، لا يتم إرفاق أي بيانات بهذا السجل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getData() {#getData--}
 ```
@@ -83,5 +83,5 @@ public void setData(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

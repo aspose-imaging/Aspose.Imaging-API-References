@@ -1,7 +1,7 @@
 ---
 title: "OdObjectKind"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع الكائن."
+description: "نوع الكائن"
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.enums/odobjectkind/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class OdObjectKind extends System.Enum
 ```
 
-نوع الكائن.
+نوع الكائن
 ## الحقول
 
 | حقل | الوصف |

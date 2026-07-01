@@ -12,8 +12,8 @@ url: /ar/java/com.aspose.imaging.fileformats.jpeg2000/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Jpeg2000Codec](../com.aspose.imaging.fileformats.jpeg2000/jpeg2000codec) | يمثل نوع صورة JPEG2000 |
-| [Jpeg2000CustomException](../com.aspose.imaging.fileformats.jpeg2000/jpeg2000customexception) | استثناء تم إنشاؤه بواسطة شفرة OpenJpeg لـ Jpeg2000 |
-| [Jpeg2000Image](../com.aspose.imaging.fileformats.jpeg2000/jpeg2000image) | تفاعل بفعالية مع ملفات صور JPEG2000 (JP2) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم مجموعة من أعماق البت لكل بكسل ومعالجة سلسة لبيانات XMP الوصفية التي تحتوي على معلومات الصورة الأساسية. |
+| [Jpeg2000CustomException](../com.aspose.imaging.fileformats.jpeg2000/jpeg2000customexception) | استثناء تم إنشاؤه بواسطة كود OpenJpeg لـ Jpeg2000 |
+| [Jpeg2000Image](../com.aspose.imaging.fileformats.jpeg2000/jpeg2000image) | تعديل ملفات صور JPEG2000 (JP2) بكفاءة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع دعم مجموعة من أعماق البت لكل بكسل ومعالجة سلسة لبيانات XMP الوصفية التي تحتوي على معلومات الصورة الأساسية. |

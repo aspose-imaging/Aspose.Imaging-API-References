@@ -1,7 +1,7 @@
 ---
 title: "ImageParameters"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معلمات صورة Dng."
+description: "معلمات صورة DNG"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.dng.decoder/imageparameters/
@@ -12,16 +12,16 @@ java.lang.Object
 public class ImageParameters
 ```
 
-معلمات صورة Dng.
+معلمات صورة DNG
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDngVersion()](#getDngVersion--) | يحصل على إصدار DNG. |
+| [getDngVersion()](#getDngVersion--) | يحصل على نسخة DNG. |
 | [getDescription()](#getDescription--) | يحصل على وصف الألوان (RGBG,RGBE,GMCY, أو GBTG). |
 | [getModel()](#getModel--) | يحصل على طراز الكاميرا. |
 | [getCameraManufacturer()](#getCameraManufacturer--) | يحصل على شركة تصنيع الكاميرا. |
-| [isFoveon()](#isFoveon--) | يحصل على مصفوفة foveon. |
+| [isFoveon()](#isFoveon--) | يحصل على ما إذا كانت مصفوفة فوفون. |
 | [getSoftware()](#getSoftware--) | يحصل على البرنامج. |
 | [getRawCount()](#getRawCount--) | يحصل على عدد صور RAW في الملف (0 يعني أن الملف لم يتم التعرف عليه). |
 | [getFilters()](#getFilters--) | يحصل على قناع البت الذي يصف ترتيب بكسلات اللون في المصفوفة. |
@@ -59,8 +59,8 @@ try {
 
     com.aspose.imaging.fileformats.dng.decoder.ImageOtherParameters otherParameters = rawData.getImageOtherParameters();
     if (otherParameters != null) {
-        // حوّل الطابع الزمني إلى سلسلة قابلة للقراءة البشرية.
-        //java.text.SimpleDateFormat sf = new java.text.SimpleDateFormat(\"yyyy-MM-dd\");
+        // تحويل الطابع الزمني إلى سلسلة قابلة للقراءة للإنسان.
+        //java.text.SimpleDateFormat sf = new java.text.SimpleDateFormat("yyyy-MM-dd");
         java.util.Date date = new java.util.Date(otherParameters.getTimestamp());
         //System.out.println(sf.format(date));
 
@@ -102,7 +102,7 @@ public long getDngVersion()
 ```
 
 
-يحصل على إصدار DNG.
+يحصل على نسخة DNG.
 
 القيمة: إصدار DNG.
 
@@ -128,7 +128,7 @@ public String getModel()
 
 يحصل على طراز الكاميرا.
 
-القيمة: النموذج.
+القيمة: الطراز.
 
 **Returns:**
 java.lang.String
@@ -150,9 +150,9 @@ public long isFoveon()
 ```
 
 
-يحصل على مصفوفة foveon.
+يحصل على ما إذا كانت مصفوفة فوفون.
 
-القيمة: هو foveon.
+القيمة: الـ هو foveon.
 
 **Returns:**
 long
@@ -176,7 +176,7 @@ public long getRawCount()
 
 يحصل على عدد صور RAW في الملف (0 يعني أن الملف لم يتم التعرف عليه).
 
-القيمة: عدد RAW.
+القيمة: العدد الخام.
 
 **Returns:**
 long

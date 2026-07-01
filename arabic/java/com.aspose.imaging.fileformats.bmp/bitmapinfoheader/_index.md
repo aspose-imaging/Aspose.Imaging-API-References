@@ -17,42 +17,42 @@ public class BitmapInfoHeader extends BitmapCoreHeader
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBitmapCompression()](#getBitmapCompression--) | يحصل على ضغط الـ bitmap. |
-| [setBitmapCompression(long value)](#setBitmapCompression-long-) | يضبط ضغط الـ bitmap. |
-| [getBitmapImageSize()](#getBitmapImageSize--) | يحصل على حجم البيانات الخام للـ bitmap بالبايت. |
-| [setBitmapImageSize(long value)](#setBitmapImageSize-long-) | يضبط حجم البيانات الخام للـ bitmap بالبايت. |
+| [getBitmapCompression()](#getBitmapCompression--) | يحصل على ضغط الصورة النقطية. |
+| [setBitmapCompression(long value)](#setBitmapCompression-long-) | يضبط ضغط الصورة النقطية. |
+| [getBitmapImageSize()](#getBitmapImageSize--) | يحصل على حجم البيانات الخام للصورة النقطية بالبايت. |
+| [setBitmapImageSize(long value)](#setBitmapImageSize-long-) | يضبط حجم البيانات الخام للصورة النقطية بالبايت. |
 | [getBitmapXPelsPerMeter()](#getBitmapXPelsPerMeter--) | يحصل على دقة البكسلات الأفقية. |
-| [setBitmapXPelsPerMeter(int value)](#setBitmapXPelsPerMeter-int-) | يحصل على أو يضبط دقة البكسلات الأفقية. |
-| [getBitmapYPelsPerMeter()](#getBitmapYPelsPerMeter--) | يحصل على أو يضبط دقة البكسلات العمودية. |
-| [setBitmapYPelsPerMeter(int value)](#setBitmapYPelsPerMeter-int-) | يحصل على أو يضبط دقة البكسلات العمودية. |
+| [setBitmapXPelsPerMeter(int value)](#setBitmapXPelsPerMeter-int-) | يحصل أو يضبط دقة البكسلات الأفقية. |
+| [getBitmapYPelsPerMeter()](#getBitmapYPelsPerMeter--) | يحصل أو يضبط دقة البكسلات العمودية. |
+| [setBitmapYPelsPerMeter(int value)](#setBitmapYPelsPerMeter-int-) | يحصل أو يضبط دقة البكسلات العمودية. |
 | [getBitmapColorsUsed()](#getBitmapColorsUsed--) | يحصل على عدد ألوان اللوحة المستخدمة. |
-| [setBitmapColorsUsed(long value)](#setBitmapColorsUsed-long-) | يحصل على أو يضبط عدد ألوان اللوحة المستخدمة. |
-| [getBitmapColorsImportant()](#getBitmapColorsImportant--) | يحصل على أو يضبط عدد ألوان اللوحة المهمة. |
-| [setBitmapColorsImportant(long value)](#setBitmapColorsImportant-long-) | يحصل على أو يضبط عدد ألوان اللوحة المهمة. |
-| [getExtraBitMasks()](#getExtraBitMasks--) | يحصل على أو يضبط أقنعة البت الإضافية. |
-| [setExtraBitMasks(int[] value)](#setExtraBitMasks-int---) | يحصل على أو يضبط أقنعة البت الإضافية. |
+| [setBitmapColorsUsed(long value)](#setBitmapColorsUsed-long-) | يحصل أو يضبط عدد ألوان اللوحة المستخدمة. |
+| [getBitmapColorsImportant()](#getBitmapColorsImportant--) | يحصل أو يضبط عدد ألوان اللوحة المهمة. |
+| [setBitmapColorsImportant(long value)](#setBitmapColorsImportant-long-) | يحصل أو يضبط عدد ألوان اللوحة المهمة. |
+| [getExtraBitMasks()](#getExtraBitMasks--) | يحصل أو يضبط أقنعة البت الإضافية. |
+| [setExtraBitMasks(int[] value)](#setExtraBitMasks-int---) | يحصل أو يضبط أقنعة البت الإضافية. |
 ### getBitmapCompression() {#getBitmapCompression--}
 ```
 public long getBitmapCompression()
 ```
 
 
-يحصل على ضغط الـ bitmap.
+يحصل على ضغط الصورة النقطية.
 
 **Returns:**
-long - ضغط الـ bitmap.
+long - ضغط الصورة النقطية.
 ### setBitmapCompression(long value) {#setBitmapCompression-long-}
 ```
 public void setBitmapCompression(long value)
 ```
 
 
-يضبط ضغط الـ bitmap.
+يضبط ضغط الصورة النقطية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | ضغط الـ bitmap. |
+| value | long | ضغط الصورة النقطية. |
 
 ### getBitmapImageSize() {#getBitmapImageSize--}
 ```
@@ -60,22 +60,22 @@ public long getBitmapImageSize()
 ```
 
 
-يحصل على حجم البيانات الخام للـ bitmap بالبايت.
+يحصل على حجم البيانات الخام للصورة النقطية بالبايت.
 
 **Returns:**
-long - حجم البيانات الخام للـ bitmap بالبايت.
+long - حجم البيانات الخام للصورة النقطية بالبايت.
 ### setBitmapImageSize(long value) {#setBitmapImageSize-long-}
 ```
 public void setBitmapImageSize(long value)
 ```
 
 
-يضبط حجم البيانات الخام للـ bitmap بالبايت.
+يضبط حجم البيانات الخام للصورة النقطية بالبايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | حجم البيانات الخام للـ bitmap بالبايت. |
+| value | long | حجم البيانات الخام للـ bitmap بالبايت. |
 
 ### getBitmapXPelsPerMeter() {#getBitmapXPelsPerMeter--}
 ```
@@ -93,12 +93,12 @@ public void setBitmapXPelsPerMeter(int value)
 ```
 
 
-يحصل على أو يضبط دقة البكسلات الأفقية.
+يحصل أو يضبط دقة البكسلات الأفقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | دقة البكسلات الأفقية. |
+| value | int | دقة البكسلات الأفقية. |
 
 ### getBitmapYPelsPerMeter() {#getBitmapYPelsPerMeter--}
 ```
@@ -106,7 +106,7 @@ public int getBitmapYPelsPerMeter()
 ```
 
 
-يحصل على أو يضبط دقة البكسلات العمودية.
+يحصل أو يضبط دقة البكسلات العمودية.
 
 **Returns:**
 int - دقة البكسلات العمودية.
@@ -116,12 +116,12 @@ public void setBitmapYPelsPerMeter(int value)
 ```
 
 
-يحصل على أو يضبط دقة البكسلات العمودية.
+يحصل أو يضبط دقة البكسلات العمودية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | دقة البكسلات العمودية. |
+| value | int | دقة البكسلات العمودية. |
 
 ### getBitmapColorsUsed() {#getBitmapColorsUsed--}
 ```
@@ -132,19 +132,19 @@ public long getBitmapColorsUsed()
 يحصل على عدد ألوان اللوحة المستخدمة.
 
 **Returns:**
-long - عدد ألوان اللوحة المستخدمة.
+long - عدد ألوان لوحة الألوان المستخدمة.
 ### setBitmapColorsUsed(long value) {#setBitmapColorsUsed-long-}
 ```
 public void setBitmapColorsUsed(long value)
 ```
 
 
-يحصل على أو يضبط عدد ألوان اللوحة المستخدمة.
+يحصل أو يضبط عدد ألوان اللوحة المستخدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | عدد ألوان اللوحة المستخدمة. |
+| value | long | عدد ألوان لوحة الألوان المستخدمة. |
 
 ### getBitmapColorsImportant() {#getBitmapColorsImportant--}
 ```
@@ -152,22 +152,22 @@ public long getBitmapColorsImportant()
 ```
 
 
-يحصل على أو يضبط عدد ألوان اللوحة المهمة.
+يحصل أو يضبط عدد ألوان اللوحة المهمة.
 
 **Returns:**
-long - عدد ألوان اللوحة المهمة.
+long - عدد ألوان لوحة الألوان المهمة.
 ### setBitmapColorsImportant(long value) {#setBitmapColorsImportant-long-}
 ```
 public void setBitmapColorsImportant(long value)
 ```
 
 
-يحصل على أو يضبط عدد ألوان اللوحة المهمة.
+يحصل أو يضبط عدد ألوان اللوحة المهمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | عدد ألوان اللوحة المهمة. |
+| value | long | عدد ألوان لوحة الألوان المهمة. |
 
 ### getExtraBitMasks() {#getExtraBitMasks--}
 ```
@@ -190,5 +190,5 @@ public void setExtraBitMasks(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | أقنعة البت الإضافية. |
+| value | int[] | أقنعة البت الإضافية. |
 

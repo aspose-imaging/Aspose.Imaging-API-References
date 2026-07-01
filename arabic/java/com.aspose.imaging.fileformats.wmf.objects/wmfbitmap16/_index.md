@@ -22,8 +22,8 @@ public class WmfBitmap16 extends MetaObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getType()](#getType--) | يحصل أو يعيّن النوع. |
-| [setType(short value)](#setType-short-) | يحصل أو يعيّن النوع. |
+| [getType()](#getType--) | يحصل أو يضبط النوع. |
+| [setType(short value)](#setType-short-) | يحصل أو يضبط النوع. |
 | [getWidth()](#getWidth--) | يحصل أو يعيّن العرض. |
 | [setWidth(short value)](#setWidth-short-) | يحصل أو يعيّن العرض. |
 | [getHeight()](#getHeight--) | يحصل أو يعيّن الارتفاع. |
@@ -48,26 +48,26 @@ public short getType()
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
-القيمة: نوع bitmap.
+القيمة: نوع الـ bitmap.
 
 **Returns:**
-short
+قصير
 ### setType(short value) {#setType-short-}
 ```
 public void setType(short value)
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
-القيمة: نوع bitmap.
+القيمة: نوع الـ bitmap.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -77,10 +77,10 @@ public short getWidth()
 
 يحصل أو يعيّن العرض.
 
-القيمة: عرض bitmap بوحدات البكسل
+القيمة: عرض الصورة النقطية بالبكسل
 
 **Returns:**
-short
+قصير
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -89,12 +89,12 @@ public void setWidth(short value)
 
 يحصل أو يعيّن العرض.
 
-القيمة: عرض bitmap بوحدات البكسل
+القيمة: عرض الصورة النقطية بالبكسل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -104,10 +104,10 @@ public short getHeight()
 
 يحصل أو يعيّن الارتفاع.
 
-القيمة: ارتفاع bitmap بخطوط المسح.
+القيمة: ارتفاع الصورة النقطية بخطوط المسح.
 
 **Returns:**
-short
+قصير
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -116,12 +116,12 @@ public void setHeight(short value)
 
 يحصل أو يعيّن الارتفاع.
 
-القيمة: ارتفاع bitmap بخطوط المسح.
+القيمة: ارتفاع الصورة النقطية بخطوط المسح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getWidthBytes() {#getWidthBytes--}
 ```
@@ -134,7 +134,7 @@ public short getWidthBytes()
 القيمة: عدد البايتات لكل خط مسح.
 
 **Returns:**
-short
+قصير
 ### setWidthBytes(short value) {#setWidthBytes-short-}
 ```
 public void setWidthBytes(short value)
@@ -148,7 +148,7 @@ public void setWidthBytes(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getPlanes() {#getPlanes--}
 ```
@@ -175,7 +175,7 @@ public void setPlanes(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getBitsPixel() {#getBitsPixel--}
 ```
@@ -185,7 +185,7 @@ public byte getBitsPixel()
 
 يحصل أو يعيّن بتات البكسل.
 
-القيمة: عدد بتات اللون المتجاورة على كل مستوى.
+القيمة: عدد بتات اللون المتجاورة على كل طبقة.
 
 **Returns:**
 byte
@@ -197,12 +197,12 @@ public void setBitsPixel(byte value)
 
 يحصل أو يعيّن بتات البكسل.
 
-القيمة: عدد بتات اللون المتجاورة على كل مستوى.
+القيمة: عدد بتات اللون المتجاورة على كل طبقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getBits() {#getBits--}
 ```
@@ -212,7 +212,7 @@ public byte[] getBits()
 
 يحصل أو يعيّن البتات.
 
-القيمة: بيانات بكسل bitmap. يمكن حساب طول هذا الحقل بالبايت كما يلي.
+القيمة: بيانات بكسلات الصورة النقطية. يمكن حساب طول هذا الحقل بالبايت كما يلي.
 
 **Returns:**
 byte[]
@@ -224,10 +224,10 @@ public void setBits(byte[] value)
 
 يحصل أو يعيّن البتات.
 
-القيمة: بيانات بكسل bitmap. يمكن حساب طول هذا الحقل بالبايت كما يلي.
+القيمة: بيانات بكسلات الصورة النقطية. يمكن حساب طول هذا الحقل بالبايت كما يلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

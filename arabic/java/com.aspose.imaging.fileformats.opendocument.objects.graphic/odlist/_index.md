@@ -17,17 +17,17 @@ public class OdList extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdList(OdObject parent)](#OdList-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdList`. |
+| [OdList(OdObject parent)](#OdList-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdList`. |
 ### OdList(OdObject parent) {#OdList-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdList(OdObject parent)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `OdList`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdList`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 

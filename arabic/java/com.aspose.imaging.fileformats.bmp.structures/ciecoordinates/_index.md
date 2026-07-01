@@ -1,7 +1,7 @@
 ---
 title: "CieCoordinates"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحتوي الفئة على إحداثيات xy و z للون محدد في مساحة لون محددة."
+description: "الفئة تحتوي على إحداثيات x و y و z للون محدد في مساحة ألوان محددة."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.bmp.structures/ciecoordinates/
@@ -12,12 +12,12 @@ java.lang.Object
 public class CieCoordinates
 ```
 
-الفئة تحتوي على إحداثيات x، y، و z للون محدد في مساحة لون معينة.
+الفئة تحتوي على إحداثيات x و y و z للون محدد في مساحة ألوان معينة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CieCoordinates(byte[] bytes)](#CieCoordinates-byte---) | ينشئ نسخة جديدة من الفئة `CieCoordinates`. |
+| [CieCoordinates(byte[] bytes)](#CieCoordinates-byte---) | ينشئ مثيلاً جديدًا من الفئة `CieCoordinates`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,12 +34,12 @@ public CieCoordinates(byte[] bytes)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `CieCoordinates`.
+ينشئ مثيلاً جديدًا من الفئة `CieCoordinates`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بايتات | byte[] | بايتات المصفوفة. |
+| بايتات | byte[] | المصفوفة bytes. |
 
 ### getCieCoordinatesX() {#getCieCoordinatesX--}
 ```
@@ -66,7 +66,7 @@ public void setCieCoordinatesX(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getCieCoordinatesY() {#getCieCoordinatesY--}
 ```
@@ -93,7 +93,7 @@ public void setCieCoordinatesY(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 
 ### getCieCoordinatesZ() {#getCieCoordinatesZ--}
 ```
@@ -120,5 +120,5 @@ public void setCieCoordinatesZ(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long |  |
+| value | long |  |
 

@@ -17,18 +17,18 @@ public interface IRasterImageArgb32PixelLoader extends IRasterImageRawDataLoader
 
 | طريقة | الوصف |
 | --- | --- |
-| [loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)](#loadPartialArgb32Pixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-) | يقوم بتحميل بكسلات ARGB ذات 32 بت جزئيًا (حسب الكتل). |
+| [loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)](#loadPartialArgb32Pixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-) | يقوم بتحميل بكسلات ARGB 32-بت جزئيًا (على شكل كتل). |
 ### loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader) {#loadPartialArgb32Pixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-}
 ```
 public abstract void loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)
 ```
 
 
-يقوم بتحميل بكسلات ARGB ذات 32 بت جزئيًا (حسب الكتل).
+يقوم بتحميل بكسلات ARGB 32-بت جزئيًا (على شكل كتل).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل لتحميل البكسلات منه. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل الذي يتم تحميل البكسلات منه. |
 | partialPixelLoader | [IPartialArgb32PixelLoader](../../com.aspose.imaging/ipartialargb32pixelloader) | محمل البكسلات الجزئي. |
 

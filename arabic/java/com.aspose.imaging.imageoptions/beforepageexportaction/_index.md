@@ -1,7 +1,7 @@
 ---
 title: "BeforePageExportAction"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إجراء ما قبل تصدير الصفحة"
+description: "الإجراء قبل تصدير الصفحة"
 type: docs
 weight: 57
 url: /ar/java/com.aspose.imaging.imageoptions/beforepageexportaction/

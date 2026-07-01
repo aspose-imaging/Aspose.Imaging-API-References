@@ -1,7 +1,7 @@
 ---
 title: "IAnimationFrame"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "إطار الرسوم المتحركة"
+description: "إطار الرسوم المتحركة."
 type: docs
 weight: 123
 url: /ar/java/com.aspose.imaging/ianimationframe/

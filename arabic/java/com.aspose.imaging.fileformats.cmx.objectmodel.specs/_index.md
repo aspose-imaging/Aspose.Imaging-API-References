@@ -12,10 +12,10 @@ url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.specs/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CmxArrowSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) | يمثّل المعلومات الهندسية المحددة لسهم المخطط (علامة). |
-| [CmxEllipseSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec) | يمثّل المعلومات الهندسية المحددة لقطع ناقص. |
+| [CmxEllipseSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec) | يمثّل المعلومات الهندسية المحددة لبيضاوي. |
 | [CmxImageSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec) | يمثّل المعلومات المحددة للصور النقطية. |
 | [CmxPathPointSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec) | يمثّل المعلومات الهندسية المحددة لنقطة مسار. |
 | [CmxPathSpec](../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec) | يمثّل المعلومات الهندسية المحددة لمسار. |

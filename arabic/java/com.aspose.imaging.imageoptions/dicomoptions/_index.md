@@ -1,7 +1,7 @@
 ---
 title: "DicomOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية DICOM في مجال التصوير الرقمي والاتصالات الطبية هي أداة متخصصة مصممة لتطبيقات الأجهزة الطبية."
+description: "واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية DICOM للتصوير الرقمي والاتصالات في الطب هي أداة متخصصة موجهة لتطبيقات الأجهزة الطبية."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.imageoptions/dicomoptions/
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DicomOptions extends ImageOptionsBase
 ```
 
-واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية DICOM (التصوير الرقمي والاتصالات في الطب) هي أداة متخصصة موجهة لتطبيقات الأجهزة الطبية. تمكّن من إنشاء صور DICOM بسلاسة، وهو أمر حاسم لتخزين البيانات الطبية واحتواء معلومات التعريف الحيوية. مع ميزات لضبط الضغط، وتحديد أنواع الألوان، وتضمين بيانات تعريف XMP، يمكن للمطورين ضمان الامتثال والمرونة في إدارة صور DICOM لأغراض التصوير الطبي.
+واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية DICOM للتصوير الرقمي والاتصالات في الطب (DICOM) هي أداة متخصصة موجهة لتطبيقات الأجهزة الطبية. تمكّن من إنشاء صور DICOM بسلاسة، وهو أمر حيوي لتخزين البيانات الطبية واحتواء معلومات التعريف الضرورية. مع ميزات لضبط الضغط، وتحديد أنواع الألوان، وتضمين بيانات التعريف XMP، يمكن للمطورين ضمان الامتثال والمرونة في إدارة صور DICOM لأغراض التصوير الطبي.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DicomOptions()](#DicomOptions--) | يُنشئ مثيلاً جديدًا من الفئة [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions). |
+| [DicomOptions()](#DicomOptions--) | يُهيئ مثيلاً جديداً من الفئة [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions). |
 | [DicomOptions(DicomOptions options)](#DicomOptions-com.aspose.imaging.imageoptions.DicomOptions-) |  |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCompression()](#getCompression--) | يسترجع الضغط. |
-| [setCompression(Compression value)](#setCompression-com.aspose.imaging.fileformats.dicom.Compression-) | يعيّن الضغط. |
+| [getCompression()](#getCompression--) | يحصل على الضغط. |
+| [setCompression(Compression value)](#setCompression-com.aspose.imaging.fileformats.dicom.Compression-) | يضبط الضغط. |
 | [getColorType()](#getColorType--) | يحصل على نوع اللون. |
 | [setColorType(int value)](#setColorType-int-) | يضبط نوع اللون. |
 
@@ -37,13 +37,13 @@ String inputFileNameMultipage = "multipage.tif";
 String outputFileNameSingleDcm = "output.dcm";
 String outputFileNameMultipageDcm = "outputMultipage.dcm";
 
-// العينة البرمجية التالية تحول صورة JPEG إلى تنسيق ملف DICOM
+// عينة الشيفرة التالية تحول صورة JPEG إلى تنسيق ملف DICOM
 try(com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFileNameSingle))
 {
     image.save(outputFileNameSingleDcm, new com.aspose.imaging.imageoptions.DicomOptions());
 }
 
-// يدعم تنسيق DICOM الصور متعددة الصفحات. يمكنك تحويل صور GIF أو TIFF إلى DICOM بنفس طريقة صور JPEG.
+// يدعم تنسيق DICOM الصور متعددة الصفحات. يمكنك تحويل صور GIF أو TIFF إلى DICOM بنفس طريقة صور JPEG
 try(com.aspose.imaging.Image imageMultiple = com.aspose.imaging.Image.load(inputFileNameMultipage))
 {
     imageMultiple.save(outputFileNameMultipageDcm, new com.aspose.imaging.imageoptions.DicomOptions());
@@ -63,7 +63,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             100,
             100))
     {
-        // ارسم شيئًا باستخدام الرسومات المتجهة
+        // ارسم شيئًا باستخدام الرسومات المتجهية
         Graphics graphics = new Graphics(image);
         graphics.fillRectangle(new SolidBrush(Color.getBlueViolet()), image.getBounds());
         graphics.fillRectangle(new SolidBrush(Color.getAqua()), 10, 20, 50, 20);
@@ -175,7 +175,7 @@ public DicomOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions).
+يُهيئ مثيلاً جديداً من الفئة [DicomOptions](../../com.aspose.imaging.imageoptions/dicomoptions).
 
 ### DicomOptions(DicomOptions options) {#DicomOptions-com.aspose.imaging.imageoptions.DicomOptions-}
 ```
@@ -194,7 +194,7 @@ public final Compression getCompression()
 ```
 
 
-يسترجع الضغط.
+يحصل على الضغط.
 
 القيمة: الضغط.
 
@@ -206,7 +206,7 @@ public final void setCompression(Compression value)
 ```
 
 
-يعيّن الضغط.
+يضبط الضغط.
 
 القيمة: الضغط.
 
@@ -240,7 +240,7 @@ public final void setColorType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع اللون. |
+| value | int | نوع اللون. |
 
 
 **Example: Use JPEG compression in DICOM image.**

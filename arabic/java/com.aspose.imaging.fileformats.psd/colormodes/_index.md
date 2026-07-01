@@ -1,7 +1,7 @@
 ---
 title: "أنماط اللون"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل أوضاع ألوان تنسيق ملف PSD."
+description: "يمثل أوضاع الألوان لتنسيق ملف PSD."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.psd/colormodes/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorModes extends System.Enum
 ```
 
-يمثل أوضاع ألوان تنسيق ملف PSD.
+يمثل أوضاع الألوان لتنسيق ملف PSD.
 ## الحقول
 
 | حقل | الوصف |
@@ -23,7 +23,7 @@ public final class ColorModes extends System.Enum
 | [Rgb](#Rgb) | وضع اللون RGB. |
 | [Cmyk](#Cmyk) | وضع اللون CMYK. |
 | [Multichannel](#Multichannel) | وضع اللون متعدد القنوات. |
-| [Duotone](#Duotone) | وضع اللون الثنائي النغمة. |
+| [Duotone](#Duotone) | وضع اللون ثنائي النغمة. |
 | [Lab](#Lab) | وضع اللون Lab. |
 ### Bitmap {#Bitmap}
 ```
@@ -79,7 +79,7 @@ public static final short Duotone
 ```
 
 
-وضع اللون الثنائي النغمة.
+وضع اللون ثنائي النغمة.
 
 ### Lab {#Lab}
 ```

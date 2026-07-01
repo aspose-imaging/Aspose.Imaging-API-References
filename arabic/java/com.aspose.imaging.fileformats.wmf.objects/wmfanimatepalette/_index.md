@@ -1,18 +1,18 @@
 ---
 title: "WmfAnimatePalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_ANIMATEPALETTE يعيد تعريف الإدخالات في اللوحة المنطقية التي يتم تعريفها في سياق جهاز التشغيل مع كائن Palette المحدد القسم 2.2.1.3."
+description: "سجل META_ANIMATEPALETTE يعيد تعريف الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل مع كائن Palette المحدد القسم 2.2.1.3."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfAnimatePalette extends WmfObject
 ```
 
-سجل META\_ANIMATEPALETTE يعيد تعريف الإدخالات في لوحة الألوان المنطقية التي تم تعريفها في سياق جهاز التشغيل باستخدام كائن Palette المحدد (القسم 2.2.1.3).
+سجل META\_ANIMATEPALETTE يعيد تعريف الإدخالات في اللوحة المنطقية التي تم تعريفها في سياق جهاز التشغيل باستخدام كائن اللوحة المحدد (القسم 2.2.1.3).
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -84,5 +84,5 @@ public void setStart(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

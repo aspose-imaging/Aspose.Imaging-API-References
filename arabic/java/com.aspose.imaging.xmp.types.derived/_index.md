@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.xmp.types.derived/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Rational](../com.aspose.imaging.xmp.types.derived/rational) | يمثل XMP Rational. |
 | [RenditionClass](../com.aspose.imaging.xmp.types.derived/renditionclass) | يمثل XMP Rendition. |

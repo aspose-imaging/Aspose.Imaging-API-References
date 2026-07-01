@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusObject يحدد كائنًا للاستخدام في عمليات الرسومات."
+description: "سجل EmfPlusObject يحدد كائنًا للاستخدام في عمليات الرسومات."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusObject extends EmfPlusObjectRecordType
 ```
 
-يسجل EmfPlusObject يحدد كائنًا للاستخدام في عمليات الرسومات. يمكن لتعريف الكائن أن يمتد عبر سجلات متعددة، وهو ما يتم الإشارة إليه بقيمة حقل Flags.
+سجل EmfPlusObject يحدد كائنًا للاستخدام في عمليات الرسومات. يمكن أن يمتد تعريف الكائن عبر سجلات متعددة، وهو ما يُشير إليه قيمة حقل Flags.
 
-سجل EmfPlusObject عام؛ يُستخدم لجميع أنواع الكائنات. القيم الخاصة بأنواع الكائنات المحددة موجودة في حقل ObjectData. يتم وصف نموذج مفاهيمي لإدارة كائنات الرسومات في Managing Graphics Objects (القسم 3.1.2).
+سجل EmfPlusObject عام؛ يُستخدم لجميع أنواع الكائنات. القيم الخاصة بأنواع الكائنات المحددة موجودة في حقل ObjectData. يُوصف نموذج مفهومي لإدارة كائنات الرسومات في Managing Graphics Objects (القسم 3.1.2).
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusObject(EmfPlusRecord source)](#EmfPlusObject-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPlusObject`. |
+| [EmfPlusObject(EmfPlusRecord source)](#EmfPlusObject-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusObject`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [isContinuable()](#isContinuable--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للمتابعة. |
-| [setContinuable(boolean value)](#setContinuable-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للمتابعة. |
+| [isContinuable()](#isContinuable--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للاستمرار. |
+| [setContinuable(boolean value)](#setContinuable-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للاستمرار. |
 | [getObjectType()](#getObjectType--) | يحصل أو يعيّن نوع الكائن. |
 | [setObjectType(byte value)](#setObjectType-byte-) | يحصل أو يعيّن نوع الكائن. |
 | [getObjectId()](#getObjectId--) | يحصل أو يعيّن معرف الكائن. |
@@ -40,7 +40,7 @@ public EmfPlusObject(EmfPlusRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPlusObject`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusObject`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,9 +53,9 @@ public boolean isContinuable()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للمتابعة. يشير إلى أن تعريف الكائن يستمر في سجل EmfPlusObject التالي. لا يتم تعيين هذه العلامة أبدًا في السجل النهائي الذي يحدد الكائن.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للاستمرار. يشير إلى أن تعريف الكائن يستمر في سجل EmfPlusObject التالي. لا يتم ضبط هذا العلم أبدًا في السجل النهائي الذي يحدد الكائن.
 
-القيمة: `true` إذا كان هذا المثيل مضغوطاً؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مضغوطًا؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -65,14 +65,14 @@ public void setContinuable(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للمتابعة. يشير إلى أن تعريف الكائن يستمر في سجل EmfPlusObject التالي. لا يتم تعيين هذه العلامة أبدًا في السجل النهائي الذي يحدد الكائن.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا المثيل قابلًا للاستمرار. يشير إلى أن تعريف الكائن يستمر في سجل EmfPlusObject التالي. لا يتم ضبط هذا العلم أبدًا في السجل النهائي الذي يحدد الكائن.
 
-القيمة: `true` إذا كان هذا المثيل مضغوطاً؛ وإلا `false`.
+القيمة: `true` إذا كان هذا المثيل مضغوطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getObjectType() {#getObjectType--}
 ```
@@ -99,7 +99,7 @@ public void setObjectType(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -107,7 +107,7 @@ public byte getObjectId()
 ```
 
 
-يحصل أو يعيّن معرف الكائن. الفهرس في جدول كائنات EMF+ لربطه بالكائن الذي أنشأه هذا السجل. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يعيّن معرف الكائن. الفهرس في جدول كائنات EMF+ لربطه بالكائن الذي أنشأه هذا السجل. يجب أن تكون القيمة بين 0 و 63 inclusive.
 
 القيمة: معرف الكائن.
 
@@ -119,14 +119,14 @@ public void setObjectId(byte value)
 ```
 
 
-يحصل أو يعيّن معرف الكائن. الفهرس في جدول كائنات EMF+ لربطه بالكائن الذي أنشأه هذا السجل. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يعيّن معرف الكائن. الفهرس في جدول كائنات EMF+ لربطه بالكائن الذي أنشأه هذا السجل. يجب أن تكون القيمة بين 0 و 63 inclusive.
 
 القيمة: معرف الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getTotalObjectSize() {#getTotalObjectSize--}
 ```
@@ -134,7 +134,7 @@ public int getTotalObjectSize()
 ```
 
 
-يحصل أو يعيّن الحجم الكلي للكائن. إذا كان السجل قابلًا للمتابعة، عندما يتم تعيين بت المتابعة، سيكون هذا الحقل موجودًا. الكائنات المتابعة لديها سجلات EMF+ متعددة تبدأ بـ EmfPlusContineudObjectRecord. كل سجل EmfPlusContinuedObjectRecord سيحتوي على TotalObjectSize. بمجرد قراءة عدد البايتات المحدد بـ TotalObjectSize، لن يُعامل السجل EMF+ التالي كجزء من الكائن المتابع.
+يحصل أو يعيّن الحجم الكلي للكائن. إذا كان السجل قابلًا للاستمرار، عندما يكون بت الاستمرار مضبوطًا، سيكون هذا الحقل موجودًا. الكائنات المستمرة لديها سجلات EMF+ متعددة تبدأ بـ EmfPlusContineudObjectRecord. كل EmfPlusContinuedObjectRecord سيحتوي على TotalObjectSize. بمجرد قراءة عدد البايتات المحدد بـ TotalObjectSize، لن يُعامل السجل EMF+ التالي كجزء من الكائن المستمر.
 
 القيمة: الحجم الكلي للكائن.
 
@@ -146,14 +146,14 @@ public void setTotalObjectSize(int value)
 ```
 
 
-يحصل أو يعيّن الحجم الكلي للكائن. إذا كان السجل قابلًا للمتابعة، عندما يتم تعيين بت المتابعة، سيكون هذا الحقل موجودًا. الكائنات المتابعة لديها سجلات EMF+ متعددة تبدأ بـ EmfPlusContineudObjectRecord. كل سجل EmfPlusContinuedObjectRecord سيحتوي على TotalObjectSize. بمجرد قراءة عدد البايتات المحدد بـ TotalObjectSize، لن يُعامل السجل EMF+ التالي كجزء من الكائن المتابع.
+يحصل أو يعيّن الحجم الكلي للكائن. إذا كان السجل قابلًا للاستمرار، عندما يكون بت الاستمرار مضبوطًا، سيكون هذا الحقل موجودًا. الكائنات المستمرة لديها سجلات EMF+ متعددة تبدأ بـ EmfPlusContineudObjectRecord. كل EmfPlusContinuedObjectRecord سيحتوي على TotalObjectSize. بمجرد قراءة عدد البايتات المحدد بـ TotalObjectSize، لن يُعامل السجل EMF+ التالي كجزء من الكائن المستمر.
 
 القيمة: الحجم الكلي للكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getObjectData() {#getObjectData--}
 ```
@@ -161,7 +161,7 @@ public EmfPlusGraphicsObjectType getObjectData()
 ```
 
 
-يحصل أو يعيّن مصفوفة من البايتات التي تحتوي على بيانات لنوع الكائن المحدد في حقل Flags. قد يختلف محتوى وتنسيق البيانات لكل نوع كائن. راجع تعريفات الكائنات الفردية في القسم 2.2.1 لمزيد من المعلومات.
+يحصل أو يعيّن مصفوفة من البايتات التي تحتوي على بيانات لنوع الكائن المحدد في حقل Flags. قد يختلف محتوى البيانات وتنسيقها لكل نوع كائن. راجع تعريفات الكائنات الفردية في القسم 2.2.1 لمزيد من المعلومات.
 
 القيمة: بيانات الكائن.
 
@@ -173,7 +173,7 @@ public void setObjectData(EmfPlusGraphicsObjectType value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من البايتات التي تحتوي على بيانات لنوع الكائن المحدد في حقل Flags. قد يختلف محتوى وتنسيق البيانات لكل نوع كائن. راجع تعريفات الكائنات الفردية في القسم 2.2.1 لمزيد من المعلومات.
+يحصل أو يعيّن مصفوفة من البايتات التي تحتوي على بيانات لنوع الكائن المحدد في حقل Flags. قد يختلف محتوى البيانات وتنسيقها لكل نوع كائن. راجع تعريفات الكائنات الفردية في القسم 2.2.1 لمزيد من المعلومات.
 
 القيمة: بيانات الكائن.
 

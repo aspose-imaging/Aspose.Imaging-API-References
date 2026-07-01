@@ -17,13 +17,13 @@ public final class ConvolutionFilter
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSharpen3x3()](#getSharpen3x3--) | يحصل على نواة الشحذ 3x3. |
-| [getSharpen5x5()](#getSharpen5x5--) | يحصل على نواة الشحذ 5x5. |
-| [getEmboss3x3()](#getEmboss3x3--) | يحصل على نواة النقش 3x3. |
-| [getEmboss5x5()](#getEmboss5x5--) | يحصل على نواة النقش 5x5. |
-| [getBlurMotion(int size, double angle)](#getBlurMotion-int-double-) | يحصل على نواة الضبابية الحركية. |
+| [getSharpen3x3()](#getSharpen3x3--) | يحصل على نواة الشحذ 3×3. |
+| [getSharpen5x5()](#getSharpen5x5--) | يحصل على نواة الشحذ 5×5. |
+| [getEmboss3x3()](#getEmboss3x3--) | يحصل على نواة النقش 3×3. |
+| [getEmboss5x5()](#getEmboss5x5--) | يحصل على نواة النقش 5×5. |
+| [getBlurMotion(int size, double angle)](#getBlurMotion-int-double-) | يحصل على نواة تمويه الحركة. |
 | [getGaussian(int size, double sigma)](#getGaussian-int-double-) | يحصل على النواة الغاوسية. |
-| [getBlurBox(int size)](#getBlurBox-int-) | يحصل على نواة الضبابية الصندوقية. |
+| [getBlurBox(int size)](#getBlurBox-int-) | يحصل على نواة تمويه الصندوق. |
 | [toComplex(double[][] kernel)](#toComplex-double-----) | يحوّل `kernel` إلى نواة [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex). |
 ### getSharpen3x3() {#getSharpen3x3--}
 ```
@@ -31,7 +31,7 @@ public static double[][] getSharpen3x3()
 ```
 
 
-يحصل على نواة الشحذ 3x3.
+يحصل على نواة الشحذ 3×3.
 
 **Returns:**
 double[][] - نواة الشحذ 3x3.
@@ -41,7 +41,7 @@ public static double[][] getSharpen5x5()
 ```
 
 
-يحصل على نواة الشحذ 5x5.
+يحصل على نواة الشحذ 5×5.
 
 **Returns:**
 double[][] - نواة الشحذ 5x5.
@@ -51,7 +51,7 @@ public static double[][] getEmboss3x3()
 ```
 
 
-يحصل على نواة النقش 3x3.
+يحصل على نواة النقش 3×3.
 
 **Returns:**
 double[][] - نواة النقش 3x3.
@@ -61,7 +61,7 @@ public static double[][] getEmboss5x5()
 ```
 
 
-يحصل على نواة النقش 5x5.
+يحصل على نواة النقش 5×5.
 
 **Returns:**
 double[][] - نواة النقش 5x5.
@@ -71,16 +71,16 @@ public static double[][] getBlurMotion(int size, double angle)
 ```
 
 
-يحصل على نواة الضبابية الحركية.
+يحصل على نواة تمويه الحركة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | حجم النواة. |
+| size | int | حجم النواة. |
 | angle | double | زاوية الحركة. |
 
 **Returns:**
-double[][] - نواة الضبابية الحركية.
+double[][] - نواة طمس الحركة.
 ### getGaussian(int size, double sigma) {#getGaussian-int-double-}
 ```
 public static double[][] getGaussian(int size, double sigma)
@@ -92,26 +92,26 @@ public static double[][] getGaussian(int size, double sigma)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | حجم النواة. |
-| سيغما | double | قيمة سيغما في النطاق (0...]. |
+| size | int | حجم النواة. |
+| sigma | double | قيمة سيغما في النطاق (0...]. |
 
 **Returns:**
-double[][] - نواة Gaussian.
+double[][] - النواة الغاوسية.
 ### getBlurBox(int size) {#getBlurBox-int-}
 ```
 public static double[][] getBlurBox(int size)
 ```
 
 
-يحصل على نواة الضبابية الصندوقية.
+يحصل على نواة تمويه الصندوق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | int | حجم النواة. |
+| size | int | حجم النواة. |
 
 **Returns:**
-double[][] - نواة تمويه الصندوق.
+double[][] - نواة طمس الصندوق.
 ### toComplex(double[][] kernel) {#toComplex-double-----}
 ```
 public static Complex[][] toComplex(double[][] kernel)

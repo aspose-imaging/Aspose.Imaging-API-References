@@ -17,11 +17,11 @@ public final class GifBlocksRegistry
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRegisteredDescriptors()](#getRegisteredDescriptors--) | يحصل على الوصفيات المسجلة. |
-| [getFirstSupportedDescriptorByTypeName(String descriptorTypeName)](#getFirstSupportedDescriptorByTypeName-java.lang.String-) | يحصل على أول وصيفة مدعومة باسم نوعها. |
+| [getRegisteredDescriptors()](#getRegisteredDescriptors--) | يحصل على الوصفات المسجلة. |
+| [getFirstSupportedDescriptorByTypeName(String descriptorTypeName)](#getFirstSupportedDescriptorByTypeName-java.lang.String-) | يحصل على الوصف الأول المدعوم حسب اسم النوع الخاص به. |
 | [getFirstSupportedDescriptor(InputStream stream)](#getFirstSupportedDescriptor-java.io.InputStream-) |  |
 | [loadBlockByFirstSupportedDescriptor(InputStream stream, IColorPalette containerPalette)](#loadBlockByFirstSupportedDescriptor-java.io.InputStream-com.aspose.imaging.IColorPalette-) |  |
-| [registerOpener(IGifBlockLoaderDescriptor openerDescriptor)](#registerOpener-com.aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor-) | يسجّل الفاتح. |
+| [registerOpener(IGifBlockLoaderDescriptor openerDescriptor)](#registerOpener-com.aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor-) | يسجل الفاتح. |
 | [unregisterOpener(IGifBlockLoaderDescriptor openerDescriptor)](#unregisterOpener-com.aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor-) | يلغي تسجيل الفاتح. |
 ### getRegisteredDescriptors() {#getRegisteredDescriptors--}
 ```
@@ -29,7 +29,7 @@ public static IGifBlockLoaderDescriptor[] getRegisteredDescriptors()
 ```
 
 
-يحصل على الوصفيات المسجلة.
+يحصل على الوصفات المسجلة.
 
 القيمة: الوصفيات المسجلة.
 
@@ -41,14 +41,14 @@ public static IGifBlockLoaderDescriptor getFirstSupportedDescriptorByTypeName(St
 ```
 
 
-يحصل على أول وصيفة مدعومة باسم نوعها.
+يحصل على الوصف الأول المدعوم حسب اسم النوع الخاص به.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 |  | descriptorTypeName | java.lang.String | اسم نوع الوصف. |
 
-المُوصِف الأول للفاتح سيكون في الواقع الأخير المسجَّل. |
+المُصِف الأول للفاتح سيكون في الواقع الأخير المُسجَّل. |
 
 **Returns:**
 [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) - The first found opener descriptor or null if not such descriptor is found.
@@ -63,7 +63,7 @@ public static IGifBlockLoaderDescriptor getFirstSupportedDescriptor(InputStream 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream |  |
+| تدفق | java.io.InputStream |  |
 
 **Returns:**
 [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor)
@@ -78,7 +78,7 @@ public static IGifBlock loadBlockByFirstSupportedDescriptor(InputStream stream, 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream |  |
+| تدفق | java.io.InputStream |  |
 | containerPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
 
 **Returns:**
@@ -89,12 +89,12 @@ public static void registerOpener(IGifBlockLoaderDescriptor openerDescriptor)
 ```
 
 
-يسجّل الفاتح.
+يسجل الفاتح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| openerDescriptor | [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | المُوصِف الفاتح لتسجيله. |
+| openerDescriptor | [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | المُصِف للفاتح للتسجيل. |
 
 ### unregisterOpener(IGifBlockLoaderDescriptor openerDescriptor) {#unregisterOpener-com.aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor-}
 ```
@@ -107,5 +107,5 @@ public static void unregisterOpener(IGifBlockLoaderDescriptor openerDescriptor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| openerDescriptor | [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | المُوصِف الفاتح لإلغاء تسجيله. |
+| openerDescriptor | [IGifBlockLoaderDescriptor](../../com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | وصف الفتح لإلغاء التسجيل. |
 

@@ -18,7 +18,7 @@ public class CmxColor
 | المنشئ | الوصف |
 | --- | --- |
 | [CmxColor()](#CmxColor--) |  |
-| [CmxColor(int colorModel, long value)](#CmxColor-int-long-) | ينشئ CmxColor جديد |
+| [CmxColor(int colorModel, long value)](#CmxColor-int-long-) | ينشئ CmxColor جديدًا |
 ## الطرق
 
 | طريقة | الوصف |
@@ -27,7 +27,7 @@ public class CmxColor
 | [setColorModel(int value)](#setColorModel-int-) | يضبط نموذج اللون. |
 | [getValue()](#getValue--) | يحصل على قيمة اللون. |
 | [setValue(long value)](#setValue-long-) | يضبط قيمة اللون. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxColor() {#CmxColor--}
@@ -42,13 +42,13 @@ public CmxColor(int colorModel, long value)
 ```
 
 
-ينشئ CmxColor جديد
+ينشئ CmxColor جديدًا
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | colorModel | int | نموذج اللون. |
-| القيمة | long | قيمة اللون. |
+| value | long | قيمة اللون. |
 
 ### getColorModel() {#getColorModel--}
 ```
@@ -71,7 +71,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نموذج اللون. |
+| value | int | نموذج اللون. |
 
 ### getValue() {#getValue--}
 ```
@@ -94,7 +94,7 @@ public final void setValue(long value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | قيمة اللون. |
+| value | long | قيمة اللون. |
 
 ### toString() {#toString--}
 ```
@@ -102,7 +102,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

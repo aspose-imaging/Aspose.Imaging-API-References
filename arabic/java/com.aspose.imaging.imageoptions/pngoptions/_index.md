@@ -1,7 +1,7 @@
 ---
 title: "PngOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "أنشئ صورًا نقطية PNG عالية الجودة من نوع Portable Network Graphics بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تقدم خيارات قابلة للتخصيص لمستويات الضغط وعدد البتات لكل بكسل والعمق وبتات ألفا."
+description: "أنشئ صورًا نقطية PNG عالية الجودة بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تقدم خيارات قابلة للتخصيص لمستويات الضغط وعدد البتات لكل بكسل والعمق وبتات ألفا."
 type: docs
 weight: 38
 url: /ar/java/com.aspose.imaging.imageoptions/pngoptions/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PngOptions extends ImageOptionsBase
 ```
 
-أنشئ صورًا نقطية عالية الجودة من نوع Portable Network Graphics (PNG) بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع تقديم خيارات قابلة للتخصيص لمستويات الضغط وعدد البتات لكل بكسل والعمق وبتات ألفا. عالج حاويات بيانات تعريف XMP بسلاسة، مما يضمن إدارة شاملة لبيانات تعريف الصورة، ويمنحك القدرة على تخصيص صور PNG وفقًا لمواصفاتك الدقيقة بسهولة.
+أنشئ صورًا نقطية عالية الجودة من نوع Portable Network Graphics (PNG) بسهولة باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع تقديم خيارات قابلة للتخصيص لمستويات الضغط، وعدد البتات لكل بكسل، وبتات ألفا. عالج حاويات بيانات التعريف XMP بسلاسة، مما يضمن إدارة شاملة لبيانات تعريف الصورة، ويمكنك من تخصيص صور PNG وفقًا لمواصفاتك الدقيقة بسهولة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PngOptions()](#PngOptions--) | يُنشئ مثيلاً جديدًا من الفئة `PngOptions`. |
-| [PngOptions(PngOptions pngOptions)](#PngOptions-com.aspose.imaging.imageoptions.PngOptions-) | يُنشئ مثيلاً جديدًا من الفئة `PngOptions`. |
+| [PngOptions()](#PngOptions--) | يُنشئ مثيلاً جديدًا للفئة `PngOptions`. |
+| [PngOptions(PngOptions pngOptions)](#PngOptions-com.aspose.imaging.imageoptions.PngOptions-) | يُنشئ مثيلاً جديدًا للفئة `PngOptions`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -42,23 +42,23 @@ public class PngOptions extends ImageOptionsBase
 | [setBitDepth(byte value)](#setBitDepth-byte-) | يضبط قيم عمق البت في النطاق 1، 2، 4، 8، 16. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
-يوضح هذا المثال استخدام فئات مختلفة من مساحة الأسماء SaveOptions لأغراض التصدير. يتم تحميل صورة من نوع Gif إلى مثيل من الفئة Image ثم يتم تصديرها إلى عدة صيغ.
+يوضح هذا المثال استخدام فئات مختلفة من مساحة الأسماء SaveOptions لأغراض التصدير. يتم تحميل صورة من نوع Gif إلى مثيل من الفئة Image ثم تُصدَّر إلى عدة صيغ.
 ``` java
 String dir = "c:\\temp\\";
 
-//تحميل صورة موجودة (من نوع Gif) في مثيل من الفئة Image
+//حمّل صورة موجودة (من نوع Gif) في مثيل من الفئة Image.
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
-    //تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف BMP باستخدام الخيارات الافتراضية.
     image.save(dir + "output.bmp", new com.aspose.imaging.imageoptions.BmpOptions());
 
-    //تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف JPEG باستخدام الخيارات الافتراضية.
     image.save(dir + "output.jpeg", new com.aspose.imaging.imageoptions.JpegOptions());
 
-    //تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف PNG باستخدام الخيارات الافتراضية.
     image.save(dir + "output.png", new com.aspose.imaging.imageoptions.PngOptions());
 
-    //تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية
+    //تصدير إلى تنسيق ملف TIFF باستخدام الخيارات الافتراضية.
     image.save(dir + "output.tif", new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default));
 } finally {
     image.dispose();
@@ -79,7 +79,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // تصدير الصفحتين الأوليين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط إلى نقطية لأن PNG ليس تنسيقًا متعدد الصفحات.
+    // تصدير الصفحتين الأوليتين فقط. في الواقع، سيتم تحويل صفحة واحدة فقط إلى نقطية لأن تنسيق PNG ليس تنسيقًا متعدد الصفحات.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -104,7 +104,7 @@ public PngOptions()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `PngOptions`.
+يُنشئ مثيلاً جديدًا للفئة `PngOptions`.
 
 ### PngOptions(PngOptions pngOptions) {#PngOptions-com.aspose.imaging.imageoptions.PngOptions-}
 ```
@@ -112,7 +112,7 @@ public PngOptions(PngOptions pngOptions)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `PngOptions`.
+يُنشئ مثيلاً جديدًا للفئة `PngOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -152,14 +152,14 @@ public final void setColorType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع اللون. |
+| value | int | نوع اللون. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -170,8 +170,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -186,7 +186,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 // يمكنك أيضًا تحميل صورة بأي تنسيق مدعوم من ملف أو تدفق.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
@@ -209,20 +209,20 @@ try {
     // اضبط الدقة الأفقية والعمودية إلى 96 بكسل لكل بوصة.
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها ألفا.
+    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها قيمة ألفا.
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // اضبط أقصى مستوى للضغط.
+    // اضبط أعلى مستوى للضغط.
     saveOptions.setCompressionLevel(9);
 
     // هذا هو أفضل ضغط، لكنه أبطأ وقت تنفيذ.
-    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الفلتر الأنسب لكل صف بيانات.
+    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الأنسب لكل صف بيانات.
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // عدد البتات لكل قناة.
     saveOptions.setBitDepth((byte) 8);
 
-    // احفظ إلى ملف.
+    // حفظ إلى ملف.
     pngImage.save(dir + "output.png", saveOptions);
 } finally {
     pngImage.dispose();
@@ -237,10 +237,10 @@ public final boolean getProgressive()
 
 يحصل على قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تقدميًا.
 
-القيمة: `` إذا كان تقدميًا؛ وإلا ``.
+القيمة: `` إذا كان تدريجيًا؛ وإلا ``.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تقدميًا.
+منطقي - قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تدريجيًا.
 ### setProgressive(boolean value) {#setProgressive-boolean-}
 ```
 public final void setProgressive(boolean value)
@@ -249,19 +249,19 @@ public final void setProgressive(boolean value)
 
 يضبط قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تقدميًا.
 
-القيمة: `` إذا كان تقدميًا؛ وإلا ``.
+القيمة: `` إذا كان تدريجيًا؛ وإلا ``.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تقدميًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) تدريجيًا. |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -272,8 +272,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -299,10 +299,10 @@ createOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.Truec
 // أقصى مستوى للضغط.
 createOptions.setCompressionLevel(9);
 
-// استخدام الفلاتر يسمح بضغط الصور النغمية المستمرة بشكل أكثر فعالية.
+// استخدام الفلاتر يسمح بضغط الصور ذات النغمات المستمرة بشكل أكثر فعالية.
 createOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Sub);
 
-// استخدم التحميل التدريجي
+// استخدام التحميل التدريجي
 createOptions.setProgressive(true);
 
 // إنشاء صورة PNG بمعلمات مخصصة.
@@ -316,10 +316,10 @@ try {
 
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
 
-    // املأ الصورة بتدرج شبه شفاف.
+    // ملء الصورة بتدرج شبه شفاف.
     graphics.fillRectangle(gradientBrush, pngImage.getBounds());
 
-    // احفظ إلى ملف.
+    // حفظ إلى ملف.
     pngImage.save(dir + "output.explicitoptions.png");
 } finally {
     pngImage.dispose();
@@ -335,7 +335,7 @@ public final int getFilterType()
 يحصل على نوع الفلتر المستخدم أثناء عملية حفظ ملف png.
 
 **Returns:**
-int - نوع الفلتر المستخدم أثناء عملية حفظ ملف PNG.
+int - نوع الفلتر المستخدم أثناء عملية حفظ ملف png.
 ### setFilterType(int value) {#setFilterType-int-}
 ```
 public final void setFilterType(int value)
@@ -347,7 +347,7 @@ public final void setFilterType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الفلتر المستخدم أثناء عملية حفظ ملف PNG. |
+| value | int | نوع الفلتر المستخدم أثناء عملية حفظ ملف png. |
 
 
 **Example: The following example shows how different filter types affect the size of the output PNG image.**
@@ -382,7 +382,7 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
 int[] filterTypes = new int[]
@@ -451,7 +451,7 @@ public final void setCompressionLevel(int value)
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -462,8 +462,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -478,7 +478,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 // يمكنك أيضًا تحميل صورة بأي تنسيق مدعوم من ملف أو تدفق.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
@@ -501,20 +501,20 @@ try {
     // اضبط الدقة الأفقية والعمودية إلى 96 بكسل لكل بوصة.
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها ألفا.
+    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها قيمة ألفا.
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // اضبط أقصى مستوى للضغط.
+    // اضبط أعلى مستوى للضغط.
     saveOptions.setCompressionLevel(9);
 
     // هذا هو أفضل ضغط، لكنه أبطأ وقت تنفيذ.
-    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الفلتر الأنسب لكل صف بيانات.
+    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الأنسب لكل صف بيانات.
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // عدد البتات لكل قناة.
     saveOptions.setBitDepth((byte) 8);
 
-    // احفظ إلى ملف.
+    // حفظ إلى ملف.
     pngImage.save(dir + "output.png", saveOptions);
 } finally {
     pngImage.dispose();
@@ -552,7 +552,7 @@ public final byte getBitDepth()
 
 يحصل على قيم عمق البت في النطاق 1، 2، 4، 8، 16.
 
-انتبه إلى الحدود التالية:
+انتبه للحدود التالية:
 
 [PngColorType.IndexedColor](../../com.aspose.imaging.fileformats.png/pngcolortype\#IndexedColor) supports bit depth of 1, 2, 4, 8.
 
@@ -570,7 +570,7 @@ public final void setBitDepth(byte value)
 
 يضبط قيم عمق البت في النطاق 1، 2، 4، 8، 16.
 
-انتبه إلى الحدود التالية:
+انتبه للحدود التالية:
 
 [PngColorType.IndexedColor](../../com.aspose.imaging.fileformats.png/pngcolortype\#IndexedColor) supports bit depth of 1, 2, 4, 8.
 
@@ -581,7 +581,7 @@ public final void setBitDepth(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | قيم عمق البت في النطاق 1، 2، 4، 8، 16. |
+| value | byte | قيم عمق البت في النطاق 1، 2، 4، 8، 16. |
 
 
 **Example: The following example shows how to save an image to PNG format using various options.**
@@ -589,7 +589,7 @@ public final void setBitDepth(byte value)
 ``` java
 String dir = "c:\\temp\\";
 
-// إنشاء صورة PNG بحجم 100×100 بكسل.
+// أنشئ صورة PNG بحجم 100×100 بكسل.
 // يمكنك أيضًا تحميل صورة بأي تنسيق مدعوم من ملف أو تدفق.
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
@@ -612,20 +612,20 @@ try {
     // اضبط الدقة الأفقية والعمودية إلى 96 بكسل لكل بوصة.
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها ألفا.
+    // كل بكسل هو ثلاثية (أحمر، أخضر، أزرق) تليها قيمة ألفا.
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // اضبط أقصى مستوى للضغط.
+    // اضبط أعلى مستوى للضغط.
     saveOptions.setCompressionLevel(9);
 
     // هذا هو أفضل ضغط، لكنه أبطأ وقت تنفيذ.
-    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الفلتر الأنسب لكل صف بيانات.
+    // يعني الترشيح التكيفي أن عملية الحفظ ستختار الأنسب لكل صف بيانات.
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // عدد البتات لكل قناة.
     saveOptions.setBitDepth((byte) 8);
 
-    // احفظ إلى ملف.
+    // حفظ إلى ملف.
     pngImage.save(dir + "output.png", saveOptions);
 } finally {
     pngImage.dispose();

@@ -1,7 +1,7 @@
 ---
 title: "LzwCompressorException"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "استثناء ضاغط lzw."
+description: "استثناء ضغط lzw."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.coreexceptions.compressors/lzwcompressorexception/
@@ -12,20 +12,20 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class LzwCompressorException extends CompressorException
 ```
 
-استثناء ضاغط lzw.
+استثناء ضغط lzw.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [LzwCompressorException(String message)](#LzwCompressorException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `LzwCompressorException`. |
-| [LzwCompressorException(String message, Throwable innerException)](#LzwCompressorException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `LzwCompressorException`. |
+| [LzwCompressorException(String message)](#LzwCompressorException-java.lang.String-) | ينشئ مثيلًا جديدًا من الفئة `LzwCompressorException`. |
+| [LzwCompressorException(String message, Throwable innerException)](#LzwCompressorException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلًا جديدًا من الفئة `LzwCompressorException`. |
 ### LzwCompressorException(String message) {#LzwCompressorException-java.lang.String-}
 ```
 public LzwCompressorException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LzwCompressorException`.
+ينشئ مثيلًا جديدًا من الفئة `LzwCompressorException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public LzwCompressorException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `LzwCompressorException`.
+ينشئ مثيلًا جديدًا من الفئة `LzwCompressorException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

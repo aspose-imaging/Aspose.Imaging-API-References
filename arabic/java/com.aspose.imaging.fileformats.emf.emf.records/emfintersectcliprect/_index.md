@@ -1,7 +1,7 @@
 ---
 title: "EmfIntersectClipRect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_INTERSECTCLIPRECT يحدد منطقة قطع جديدة من تقاطع منطقة القطع الحالية والمستطيل المحدد."
+description: "السجل EMR_INTERSECTCLIPRECT يحدد منطقة تقليم جديدة من تقاطع منطقة التقليم الحالية والمستطيل المحدد."
 type: docs
 weight: 66
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfIntersectClipRect extends EmfClippingRecordType
 ```
 
-سجل EMR\_INTERSECTCLIPRECT يحدد منطقة قطع جديدة من تقاطع منطقة القطع الحالية والمستطيل المحدد. ملاحظة: الحقول التي لم يتم وصفها في هذا القسم محددة في القسم 2.3.2.
+السجل EMR\_INTERSECTCLIPRECT يحدد منطقة تقليم جديدة من تقاطع منطقة التقليم الحالية والمستطيل المحدد. ملاحظة: الحقول التي لم يتم وصفها في هذا القسم محددة في القسم 2.3.2.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfIntersectClipRect(EmfRecord source)](#EmfIntersectClipRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfIntersectClipRect`. |
+| [EmfIntersectClipRect(EmfRecord source)](#EmfIntersectClipRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfIntersectClipRect`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfIntersectClipRect(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfIntersectClipRect`.
+يُنشئ مثيلًا جديدًا للفئة `EmfIntersectClipRect`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

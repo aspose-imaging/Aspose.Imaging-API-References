@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetPixelV extends EmfDrawingRecordType
 ```
 
-سجل EMR\_SETPIXELV يعرّف لون البكسل عند الإحداثيات المنطقية المحددة.
+السجل EMR\_SETPIXELV يحدد لون البكسل عند الإحداثيات المنطقية المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetPixelV(EmfRecord source)](#EmfSetPixelV-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfSetPixelV`. |
-| [EmfSetPixelV()](#EmfSetPixelV--) | يُنشئ مثيلاً جديدًا للفئة [EmfSetPixelV](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv). |
+| [EmfSetPixelV(EmfRecord source)](#EmfSetPixelV-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا للفئة `EmfSetPixelV`. |
+| [EmfSetPixelV()](#EmfSetPixelV--) | ينشئ مثيلًا جديدًا للفئة [EmfSetPixelV](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPixel()](#getPixel--) | يحصل أو يضبط كائن WMF PointL 64‑بت ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإحداثيات المنطقية للبكسل. |
-| [setPixel(Point value)](#setPixel-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL 64‑بت ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإحداثيات المنطقية للبكسل. |
-| [getArgb32Color()](#getArgb32Color--) | يحصل أو يضبط كائن WMF ColorRef 32‑بت ([MS-WMF] القسم 2.2.8) الذي يحدد لون البكسل. |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يضبط كائن WMF ColorRef 32‑بت ([MS-WMF] القسم 2.2.8) الذي يحدد لون البكسل. |
+| [getPixel()](#getPixel--) | يحصل أو يضبط كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد الإحداثيات المنطقية للبكسل. |
+| [setPixel(Point value)](#setPixel-com.aspose.imaging.Point-) | يحصل أو يضبط كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد الإحداثيات المنطقية للبكسل. |
+| [getArgb32Color()](#getArgb32Color--) | يحصل أو يضبط كائن WMF ColorRef 32-بت ([MS-WMF] القسم 2.2.2.8) يحدد لون البكسل. |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | يحصل أو يضبط كائن WMF ColorRef 32-بت ([MS-WMF] القسم 2.2.2.8) يحدد لون البكسل. |
 ### EmfSetPixelV(EmfRecord source) {#EmfSetPixelV-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetPixelV(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfSetPixelV`.
+ينشئ مثيلًا جديدًا للفئة `EmfSetPixelV`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public EmfSetPixelV()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [EmfSetPixelV](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv).
+ينشئ مثيلًا جديدًا للفئة [EmfSetPixelV](../../com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv).
 
 ### getPixel() {#getPixel--}
 ```
@@ -54,7 +54,7 @@ public Point getPixel()
 ```
 
 
-يحصل أو يضبط كائن WMF PointL 64‑بت ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإحداثيات المنطقية للبكسل.
+يحصل أو يضبط كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد الإحداثيات المنطقية للبكسل.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -64,7 +64,7 @@ public void setPixel(Point value)
 ```
 
 
-يحصل أو يضبط كائن WMF PointL 64‑بت ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإحداثيات المنطقية للبكسل.
+يحصل أو يضبط كائن WMF PointL 64-بت ([MS-WMF] القسم 2.2.2.15) يحدد الإحداثيات المنطقية للبكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public int getArgb32Color()
 ```
 
 
-يحصل أو يضبط كائن WMF ColorRef 32‑بت ([MS-WMF] القسم 2.2.8) الذي يحدد لون البكسل.
+يحصل أو يضبط كائن WMF ColorRef 32-بت ([MS-WMF] القسم 2.2.2.8) يحدد لون البكسل.
 
 **Returns:**
 int
@@ -87,10 +87,10 @@ public void setArgb32Color(int value)
 ```
 
 
-يحصل أو يضبط كائن WMF ColorRef 32‑بت ([MS-WMF] القسم 2.2.8) الذي يحدد لون البكسل.
+يحصل أو يضبط كائن WMF ColorRef 32-بت ([MS-WMF] القسم 2.2.2.8) يحدد لون البكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

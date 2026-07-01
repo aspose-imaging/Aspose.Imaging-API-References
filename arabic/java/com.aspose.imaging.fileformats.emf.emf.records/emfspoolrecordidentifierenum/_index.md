@@ -12,17 +12,17 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public static final class EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum extends System.Enum
 ```
 
-يحدد نوع سجل EMR_COMMENT_EMFSPOOL
+يحدد نوع سجل EMR\_COMMENT\_EMFSPOOL
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [EmfSpoolFontDefinition](#EmfSpoolFontDefinition) | سلسلة ASCII "TONF"، التي تحدد أن هذا سجل يحتوي على بيانات تعريف خط EMFSPOOL المضمنة. |
+| [EmfSpoolFontDefinition](#EmfSpoolFontDefinition) | سلسلة ASCII "TONF"، التي تحدد أن هذا سجل يحتوي على بيانات تعريف خط EMFSPOOL مدمجة. |
 ### EmfSpoolFontDefinition {#EmfSpoolFontDefinition}
 ```
 public static final int EmfSpoolFontDefinition
 ```
 
 
-سلسلة ASCII "TONF"، التي تحدد أن هذا سجل يحتوي على بيانات تعريف خط EMFSPOOL المضمنة.
+سلسلة ASCII "TONF"، التي تحدد أن هذا سجل يحتوي على بيانات تعريف خط EMFSPOOL مدمجة.
 

@@ -1,18 +1,18 @@
 ---
 title: "EmfPlusSharpenEffect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد كائن SharpenEffect زيادة في فرق الشدة بين بكسلات الصورة."
+description: "كائن SharpenEffect يحدد زيادة في فرق الشدة بين بكسلات الصورة."
 type: docs
 weight: 72
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageEffectsObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype)
 ```
 public final class EmfPlusSharpenEffect extends EmfPlusImageEffectsObjectType
 ```
 
-يحدد كائن SharpenEffect زيادة في فرق الشدة بين بكسلات الصورة.
+كائن SharpenEffect يحدد زيادة في فرق الشدة بين بكسلات الصورة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public final class EmfPlusSharpenEffect extends EmfPlusImageEffectsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getRadius()](#getRadius--) | يحصل أو يضبط عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
-| [setRadius(float value)](#setRadius-float-) | يحصل أو يضبط عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
-| [getAmount()](#getAmount--) | يحصل أو يضبط عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. |
-| [setAmount(float value)](#setAmount-float-) | يحصل أو يضبط عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. |
+| [getRadius()](#getRadius--) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
+| [setRadius(float value)](#setRadius-float-) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. |
+| [getAmount()](#getAmount--) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. |
+| [setAmount(float value)](#setAmount-float-) | يحصل أو يعيّن عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. |
 ### EmfPlusSharpenEffect() {#EmfPlusSharpenEffect--}
 ```
 public EmfPlusSharpenEffect()
@@ -38,7 +38,7 @@ public float getRadius()
 ```
 
 
-يحصل أو يضبط عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. كلما زادت هذه القيمة، يزداد عدد البكسلات المشاركة في الحساب، ويجب أن يصبح البت ماب الناتج أكثر حدة.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. كلما زادت هذه القيمة، يزداد عدد البكسلات المشاركة في الحساب، ويجب أن يصبح البت ماب الناتج SHOULD أكثر حدة.
 
 القيمة: نصف القطر.
 
@@ -50,14 +50,14 @@ public void setRadius(float value)
 ```
 
 
-يحصل أو يضبط عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. كلما زادت هذه القيمة، يزداد عدد البكسلات المشاركة في الحساب، ويجب أن يصبح البت ماب الناتج أكثر حدة.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد نصف قطر الشحذ بالبكسل، والذي يحدد عدد البكسلات المشاركة في حساب القيمة الجديدة لبكسل معين. كلما زادت هذه القيمة، يزداد عدد البكسلات المشاركة في الحساب، ويجب أن يصبح البت ماب الناتج SHOULD أكثر حدة.
 
 القيمة: نصف القطر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getAmount() {#getAmount--}
 ```
@@ -65,7 +65,7 @@ public float getAmount()
 ```
 
 
-يحصل أو يضبط عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. 0 يعني أنه لا يجب تنفيذ الشحذ. 0 < القيمة \\u2264 100 كلما زادت هذه القيمة، يجب أن يزداد الفرق في الشدة بين البكسلات.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. 0 يحدد أن الشحذ MUST NOT يتم. 0 < value \\u2264 100 كلما زادت هذه القيمة، يجب أن يزداد الفرق في الشدة بين البكسلات SHOULD.
 
 القيمة: المقدار.
 
@@ -77,12 +77,12 @@ public void setAmount(float value)
 ```
 
 
-يحصل أو يضبط عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. 0 يعني أنه لا يجب تنفيذ الشحذ. 0 < القيمة \\u2264 100 كلما زادت هذه القيمة، يجب أن يزداد الفرق في الشدة بين البكسلات.
+يحصل أو يعيّن عددًا عائمًا 32-بت يحدد الفرق في الشدة بين بكسل معين والبكسلات المحيطة. 0 يحدد أن الشحذ MUST NOT يتم. 0 < value \\u2264 100 كلما زادت هذه القيمة، يجب أن يزداد الفرق في الشدة بين البكسلات SHOULD.
 
 القيمة: المقدار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

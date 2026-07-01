@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.wmf.graphics/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [WmfRecorderGraphics2D](../com.aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d) | مسجل Wmf. |

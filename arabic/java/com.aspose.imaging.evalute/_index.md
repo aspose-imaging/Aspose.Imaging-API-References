@@ -9,6 +9,6 @@ url: /ar/java/com.aspose.imaging.evalute/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [EvalException](../com.aspose.imaging.evalute/evalexception) | استثناء مخصص لأخطاء التقييم |

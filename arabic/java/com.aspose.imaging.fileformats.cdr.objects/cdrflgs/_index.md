@@ -1,7 +1,7 @@
 ---
 title: "CdrFlgs"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr أعلام"
+description: "أعلام cdr"
 type: docs
 weight: 21
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrflgs/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFlgs extends CdrObject
 ```
 
-ال cdr أعلام
+أعلام cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -51,5 +51,5 @@ public final void setValue(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة. |
+| value | int | القيمة. |
 

@@ -30,10 +30,10 @@ public final boolean getCompress()
 
 يحصل على قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Returns:**
-منطقي - قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
+boolean - قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
@@ -42,12 +42,12 @@ public final void setCompress(boolean value)
 
 SSets قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة.
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
+| value | boolean | قيمة تشير إلى ما إذا كان يجب ضغط الصورة الناتجة. |
 
 
 **Example: The following example shows how to convert a emf images to emz format**

@@ -17,23 +17,23 @@ public class Rational extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Rational(int numerator, int denominator)](#Rational-int-int-) | يُنشئ مثيلًا جديدًا للفئة `Rational`. |
+| [Rational(int numerator, int denominator)](#Rational-int-int-) | ينشئ مثلاً جديداً من الفئة `Rational`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getNumerator()](#getNumerator--) | يحصل على البسط. |
-| [getDenominator()](#getDenominator--) | يحصل أو يعيّن المقام. |
-| [setDenominator(int value)](#setDenominator-int-) | يحصل أو يعيّن المقام. |
+| [getDenominator()](#getDenominator--) | يحصل على أو يعيّن المقام. |
+| [setDenominator(int value)](#setDenominator-int-) | يحصل على أو يعيّن المقام. |
 | [getFloatValue()](#getFloatValue--) | يحصل على قيمة الفاصلة العائمة. |
-| [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة المحتواة كسلسلة في تنسيق XMP. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة المتضمنة كسلسلة بتنسيق XMP. |
 ### Rational(int numerator, int denominator) {#Rational-int-int-}
 ```
 public Rational(int numerator, int denominator)
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة `Rational`.
+ينشئ مثلاً جديداً من الفئة `Rational`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public int getDenominator()
 ```
 
 
-يحصل أو يعيّن المقام.
+يحصل على أو يعيّن المقام.
 
 **Returns:**
 int - المقام.
@@ -69,12 +69,12 @@ public void setDenominator(int value)
 ```
 
 
-يحصل أو يعيّن المقام.
+يحصل على أو يعيّن المقام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | المقام. |
+| value | int | المقام. |
 
 ### getFloatValue() {#getFloatValue--}
 ```
@@ -85,14 +85,14 @@ public float getFloatValue()
 يحصل على قيمة الفاصلة العائمة.
 
 **Returns:**
-float - قيمة الفاصلة العائمة.
+float - القيمة العائمة.
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
 public String getXmpRepresentation()
 ```
 
 
-يحصل على القيمة المحتواة كسلسلة في تنسيق XMP.
+يحصل على القيمة المتضمنة كسلسلة بتنسيق XMP.
 
 **Returns:**
 java.lang.String - يُرجِع القيمة النصية المحتواة بتنسيق XMP.

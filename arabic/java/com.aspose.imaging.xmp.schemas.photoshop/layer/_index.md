@@ -1,7 +1,7 @@
 ---
-title: "طبقة"
+title: "الطبقة"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل طبقة النص في Photoshop."
+description: "يمثل طبقة نص Photoshop."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.xmp.schemas.photoshop/layer/
@@ -15,13 +15,13 @@ com.aspose.ms.System.IEquatable
 public class Layer extends XmpTypeBase implements System.IEquatable<Layer>
 ```
 
-يمثل طبقة النص في Photoshop.
+يمثل طبقة نص Photoshop.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Layer(String layerName, String layerText)](#Layer-java.lang.String-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `Layer`. |
-| [Layer()](#Layer--) | ينشئ مثيلاً جديداً من الفئة `Layer`. |
+| [Layer(String layerName, String layerText)](#Layer-java.lang.String-java.lang.String-) | يقوم بتهيئة نسخة جديدة من الفئة `Layer`. |
+| [Layer()](#Layer--) | يقوم بتهيئة نسخة جديدة من الفئة `Layer`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,17 +30,17 @@ public class Layer extends XmpTypeBase implements System.IEquatable<Layer>
 | [setName(String value)](#setName-java.lang.String-) | يحصل أو يضبط اسم طبقة النص. |
 | [getText()](#getText--) | يحصل أو يضبط محتوى النص للطبقة. |
 | [setText(String value)](#setText-java.lang.String-) | يحصل أو يضبط محتوى النص للطبقة. |
-| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة النصية المحتواة بتنسيق XMP. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة. |
+| [getXmpRepresentation()](#getXmpRepresentation--) | يرجع القيمة المحتواة كسلسلة بصيغة XMP. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `System.Object` المحدد يساوي هذه النسخة. |
 | [isEquals(Layer other)](#isEquals-com.aspose.imaging.xmp.schemas.photoshop.Layer-) | يشير إلى ما إذا كان الكائن الحالي يساوي كائنًا آخر من نفس النوع. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### Layer(String layerName, String layerText) {#Layer-java.lang.String-java.lang.String-}
 ```
 public Layer(String layerName, String layerText)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `Layer`.
+يقوم بتهيئة نسخة جديدة من الفئة `Layer`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ public Layer()
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `Layer`.
+يقوم بتهيئة نسخة جديدة من الفئة `Layer`.
 
 ### getName() {#getName--}
 ```
@@ -81,7 +81,7 @@ public void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getText() {#getText--}
 ```
@@ -108,7 +108,7 @@ public void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -116,25 +116,25 @@ public String getXmpRepresentation()
 ```
 
 
-يرجع القيمة النصية المحتواة بتنسيق XMP.
+يرجع القيمة المحتواة كسلسلة بصيغة XMP.
 
 **Returns:**
-java.lang.String - يُرجع قيمة السلسلة المحتواة بتنسيق XMP.
+java.lang.String - يرجع القيمة المحتواة كسلسلة بصيغة XMP.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة.
+يحدد ما إذا كان `System.Object` المحدد يساوي هذه النسخة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للمقارنة مع هذا المثيل. |
+| obj | java.lang.Object | الـ `System.Object` للمقارنة مع هذه الحالة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `System.Object` المحدد يساوي هذا المثيل؛ وإلا، `false`.
+منطقي - `true` إذا كان الـ `System.Object` المحدد يساوي هذه الحالة؛ وإلا، `false`.
 ### isEquals(Layer other) {#isEquals-com.aspose.imaging.xmp.schemas.photoshop.Layer-}
 ```
 public boolean isEquals(Layer other)
@@ -149,14 +149,14 @@ public boolean isEquals(Layer other)
 | other | [Layer](../../com.aspose.imaging.xmp.schemas.photoshop/layer) | كائن للمقارنة مع هذا الكائن. |
 
 **Returns:**
-boolean - true إذا كان الكائن الحالي مساويًا للمعامل `other`؛ وإلا، false.
+boolean - true إذا كان الكائن الحالي يساوي المعامل `other`؛ وإلا false.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

@@ -14,27 +14,27 @@ public class TiffExifIfd
 
 فئة دليل ملف صورة TIFF Exif.
 
-يحتوي على مؤشر إلى Exif IFD. التوافقية، Exif IFD له نفس بنية IFD المحددة في TIFF. عادةً، لا يحتوي على بيانات صورة كما في حالة TIFF. راجع http://www.exiv2.org/tags.html و http://www.awaresystems.be/imaging/tiff/tifftags/exififd.html لمزيد من التفاصيل.
+يحتوي على مؤشر إلى Exif IFD. التوافقية، Exif IFD له نفس البنية كما في IFD المحدد في TIFF. عادةً، ومع ذلك، لا يحتوي على بيانات صورة كما في حالة TIFF. راجع http://www.exiv2.org/tags.html و http://www.awaresystems.be/imaging/tiff/tifftags/exififd.html لمزيد من التفاصيل.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffExifIfd()](#TiffExifIfd--) | ينشئ مثيلاً جديدًا من الفئة `TiffExifIfd`. |
-| [TiffExifIfd(long ifdOffset)](#TiffExifIfd-long-) | ينشئ مثيلاً جديدًا من الفئة `TiffExifIfd`. |
+| [TiffExifIfd()](#TiffExifIfd--) | ينشئ مثيلاً جديداً من الفئة `TiffExifIfd`. |
+| [TiffExifIfd(long ifdOffset)](#TiffExifIfd-long-) | ينشئ مثيلاً جديداً من الفئة `TiffExifIfd`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [hasValue()](#hasValue--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل يحتوي على قيمة. |
-| [getOffset()](#getOffset--) | يحصل أو يضبط المؤشر إلى EXIF IFD. |
-| [setOffset(long value)](#setOffset-long-) | يحصل أو يضبط المؤشر إلى EXIF IFD. |
+| [hasValue()](#hasValue--) | يحصل على قيمة تشير إلى ما إذا كان لهذا المثيل قيمة. |
+| [getOffset()](#getOffset--) | يحصل أو يعيّن المؤشر إلى EXIF IFD. |
+| [setOffset(long value)](#setOffset-long-) | يحصل أو يعيّن المؤشر إلى EXIF IFD. |
 ### TiffExifIfd() {#TiffExifIfd--}
 ```
 public TiffExifIfd()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffExifIfd`.
+ينشئ مثيلاً جديداً من الفئة `TiffExifIfd`.
 
 ### TiffExifIfd(long ifdOffset) {#TiffExifIfd-long-}
 ```
@@ -42,14 +42,14 @@ public TiffExifIfd(long ifdOffset)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffExifIfd`.
+ينشئ مثيلاً جديداً من الفئة `TiffExifIfd`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 |  | ifdOffset | long | مؤشر إلى Exif IFD. |
 
-التوافقية، Exif IFD له نفس بنية IFD المحددة في TIFF. عادةً، لا يحتوي على بيانات صورة كما في حالة TIFF. |
+التوافقية، Exif IFD له نفس البنية كما في IFD المحدد في TIFF. عادةً، ومع ذلك، لا يحتوي على بيانات صورة كما في حالة TIFF. |
 
 ### hasValue() {#hasValue--}
 ```
@@ -57,17 +57,17 @@ public boolean hasValue()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا المثيل يحتوي على قيمة.
+يحصل على قيمة تشير إلى ما إذا كان لهذا المثيل قيمة.
 
 **Returns:**
-منطقي - `true` إذا كان هذا المثيل يحتوي على قيمة؛ وإلا `false`.
+منطقي - `true` إذا كان لهذا المثيل قيمة؛ وإلا `false`.
 ### getOffset() {#getOffset--}
 ```
 public long getOffset()
 ```
 
 
-يحصل أو يضبط المؤشر إلى EXIF IFD.
+يحصل أو يعيّن المؤشر إلى EXIF IFD.
 
 **Returns:**
 طويل - المؤشر إلى EXIF IFD.
@@ -77,10 +77,10 @@ public void setOffset(long value)
 ```
 
 
-يحصل أو يضبط المؤشر إلى EXIF IFD.
+يحصل أو يعيّن المؤشر إلى EXIF IFD.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | المؤشر إلى EXIF IFD. |
+| value | long | المؤشر إلى EXIF IFD. |
 

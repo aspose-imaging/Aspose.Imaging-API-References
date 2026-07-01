@@ -7,7 +7,7 @@ weight: 13
 url: /ar/java/com.aspose.imaging/brush/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public abstract class Brush extends DisposableObject
 ```
@@ -54,7 +54,7 @@ public void setOpacity(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | قيمة شفافية الفرشاة. |
+| value | float | قيمة شفافية الفرشاة. |
 
 ### deepClone() {#deepClone--}
 ```

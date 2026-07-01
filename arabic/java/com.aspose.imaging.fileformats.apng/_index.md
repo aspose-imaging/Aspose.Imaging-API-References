@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.fileformats.apng/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ApngFrame](../com.aspose.imaging.fileformats.apng/apngframe) | أنشئ إطارات صور PNG المتحركة (APNG) من صور نقطية ذات صفحة واحدة باستخدام واجهة برمجة التطبيقات الخاصة بنا. |
 | [ApngImage](../com.aspose.imaging.fileformats.apng/apngimage) | واجهة برمجة التطبيقات لتنسيق ملف صورة PNG المتحركة (Animated Portable Network Graphics) هي حل متعدد الاستخدامات للمطورين الذين يرغبون في دمج محتوى متحرك في تطبيقاتهم. |

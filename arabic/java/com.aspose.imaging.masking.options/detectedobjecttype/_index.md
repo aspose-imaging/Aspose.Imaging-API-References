@@ -18,10 +18,10 @@ public final class DetectedObjectType extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Human](#Human) | نوع الكائن البشري. |
-| [Other](#Other) | نوع الكائن الآخر. |
+| [Other](#Other) | نوع كائن آخر. |
 
 ## Example: Saving image masking result with feathering based on image size.
-حفظ نتيجة قناع الصورة مع تمويه بناءً على حجم الصورة. يتم تنفيذ قناع الصورة باستخدام الخطوط الافتراضية المحسوبة تلقائياً. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضاً في خاصية AssumedObjects في AutoMaskingGraphCutOptions.
+حفظ نتيجة قناع الصورة مع تمويه بناءً على حجم الصورة. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects من AutoMaskingGraphCutOptions.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -65,7 +65,7 @@ for (MaskingResult res : results)
 
 
 ## Example: Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration.
-حفظ نتيجة قناع الصورة مع تمويه بناءً على حجم الصورة وإعادة استخدام خيارات القناع للتكرار الجديد. يتم تنفيذ قناع الصورة باستخدام الخطوط الافتراضية المحسوبة تلقائياً. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضاً في خاصية AssumedObjects في AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الخطوط الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر.
+حفظ نتيجة قناع الصورة مع تمويه بناءً على حجم الصورة وإعادة استخدام خيارات القناع للتكرار الجديد للقناع. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects من AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الضربات الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -92,8 +92,8 @@ try (RasterImage image = (RasterImage)Image.load("input.jpg"))
     }
 }
 
-// في هذه المرحلة يمكن تحليل الخطوط الأمامية/الخلفية المطبقة وعلى أساسها إضافية
-// يمكن توفير الخطوط الأمامية/الخلفية يدوياً.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 Point[] appliedBackgroundStrokes = options.getDefaultBackgroundStrokes();
 Point[] appliedForegroundStrokes = options.getDefaultForegroundStrokes();
 Rectangle[] appliedObjectRectangles = options.getDefaultObjectsRectangles();
@@ -112,12 +112,12 @@ for (MaskingResult res : results)
 
 try (RasterImage image = (RasterImage)Image.load("input.jpg"))
 {
-    // باستخدام AutoMaskingGraphCutOptions مرة أخرى لا حاجة لإجراء حسابات الخطوط الافتراضية للمرة الثانية.
+    // باستخدام AutoMaskingGraphCutOptions مرة أخرى لا حاجة لإجراء حسابات الضربات الافتراضية مرة ثانية.
     options.setCalculateDefaultStrokes(false);
-    // عند توفير كل من الخطوط الافتراضية وObjectsPoints في خاصية Args في AutoMaskingArgs، يتم دمج مصفوفات النقاط في النهاية.
+    // عند توفير كل من الضربات الافتراضية وObjectsPoints في خاصية Args من AutoMaskingArgs، يتم دمج مصفوفات النقاط في النهاية.
     // يُعتبر مصفوفة ObjectsPoints الأولى مصفوفة نقاط خلفية و
-    // يُعتبر مصفوفة ObjectsPoints الثانية مصفوفة نقاط أمامية.
-    // عند توفير كل من DefaultObjectsRectangles و ObjectsRectangles في خاصية Args من AutoMaskingArgs،
+    // المصفوفة الثانية من ObjectsPoints تُعتبر مصفوفة نقاط أمامية.
+    // عند توفير كل من DefaultObjectsRectangles وObjectsRectangles في خاصية Args من AutoMaskingArgs،
     // يتم استخدام المصفوفة فقط من Args.
     AutoMaskingArgs args = new AutoMaskingArgs();
     args.setObjectsPoints(new Point[][]
@@ -148,7 +148,7 @@ for (MaskingResult res : results)
 
 
 ## Example: Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration.
-حفظ نتيجة قناع الصورة مع التنعيم بناءً على حجم الصورة، وتعديل الضربات الافتراضية المستحصلة واستخدامها في تكرار القناع الجديد. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects من AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الضربات الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر باستخدام نسخة جديدة من GraphCutMaskingOptions.
+حفظ نتيجة قناع الصورة مع تمويه بناءً على حجم الصورة، تعديل الضربات الافتراضية المستلمة واستخدامها للتكرار الجديد للقناع. يتم تنفيذ قناع الصورة باستخدام الضربات الافتراضية المحسوبة تلقائيًا. بالإضافة إلى ذلك، يتم تحديد بيانات الكائنين المفترضين أيضًا في خاصية AssumedObjects من AutoMaskingGraphCutOptions. بعد الحصول على نتيجة القناع الأولية، يتم تعديل الضربات الخلفية/الأمامية المطبقة ويتم إجراء تكرار قناع آخر باستخدام نسخة جديدة من GraphCutMaskingOptions.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -175,8 +175,8 @@ try (RasterImage image = (RasterImage)Image.load("input.jpg"))
     }
 }
 
-// في هذه المرحلة يمكن تحليل الخطوط الأمامية/الخلفية المطبقة وعلى أساسها إضافية
-// يمكن توفير الخطوط الأمامية/الخلفية يدوياً.
+// في هذه المرحلة يمكن تحليل الضربات الأمامية/الخلفية المطبقة وبناءً عليها إضافية
+// يمكن توفير الضربات الأمامية/الخلفية يدويًا.
 
 Point[] appliedBackgroundStrokes = options.getDefaultBackgroundStrokes();
 Point[] appliedForegroundStrokes = options.getDefaultForegroundStrokes();
@@ -257,5 +257,5 @@ public static final int Other
 ```
 
 
-نوع الكائن الآخر.
+نوع كائن آخر.
 

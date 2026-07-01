@@ -7,7 +7,7 @@ weight: 12
 url: /ar/java/com.aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class PhotoshopPackage extends XmpPackage
 ```
@@ -17,7 +17,7 @@ public final class PhotoshopPackage extends XmpPackage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PhotoshopPackage()](#PhotoshopPackage--) | يُنشئ مثيلاً جديدًا لفئة `PhotoshopPackage`. |
+| [PhotoshopPackage()](#PhotoshopPackage--) | يُنشئ نسخة جديدة من الفئة `PhotoshopPackage`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -40,7 +40,7 @@ public final class PhotoshopPackage extends XmpPackage
 | [setDocumentAncestors(String[] ancestors)](#setDocumentAncestors-java.lang.String---) | يضبط أسلاف المستند. |
 | [setHeadline(String headline)](#setHeadline-java.lang.String-) | يضبط العنوان الرئيسي. |
 | [setHistory(String history)](#setHistory-java.lang.String-) | يضبط السجل. |
-| [setIccProfile(String iccProfile)](#setIccProfile-java.lang.String-) | يضبط ملف تعريف icc. |
+| [setIccProfile(String iccProfile)](#setIccProfile-java.lang.String-) | يضبط ملف تعريف ICC. |
 | [setInstructions(String instructions)](#setInstructions-java.lang.String-) | يضبط التعليمات. |
 | [setSource(String source)](#setSource-java.lang.String-) | يضبط المصدر. |
 | [setState(String state)](#setState-java.lang.String-) | يضبط الحالة. |
@@ -53,7 +53,7 @@ public PhotoshopPackage()
 ```
 
 
-يُنشئ مثيلاً جديدًا لفئة `PhotoshopPackage`.
+يُنشئ نسخة جديدة من الفئة `PhotoshopPackage`.
 
 ### URGENCY_MAX {#URGENCY-MAX}
 ```
@@ -82,8 +82,8 @@ public void addValue(String key, String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه مع القيمة المضافة. |
-| القيمة | java.lang.String | القيمة النصية. |
+| المفتاح | java.lang.String | التمثيل النصي للمفتاح الذي يتم التعرف عليه بالقيمة المضافة. |
+| value | java.lang.String | القيمة النصية. |
 
 ### setAuthorsPosition(String authorsPosition) {#setAuthorsPosition-java.lang.String-}
 ```
@@ -161,7 +161,7 @@ public void setCountry(String country)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| country | java.lang.String | البلد. |
+| country | java.lang.String | الدولة. |
 
 ### setCredit(String credit) {#setCredit-java.lang.String-}
 ```
@@ -174,7 +174,7 @@ public void setCredit(String credit)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| credit | java.lang.String | الاعتماد. |
+| رصيد | java.lang.String | الرصيد. |
 
 ### setCreatedDate(Date createdDate) {#setCreatedDate-java.util.Date-}
 ```
@@ -200,7 +200,7 @@ public void setDocumentAncestors(String[] ancestors)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ancestors | java.lang.String[] | الأسلاف. |
+| الأسلاف | java.lang.String[] | الأسلاف. |
 
 ### setHeadline(String headline) {#setHeadline-java.lang.String-}
 ```
@@ -213,7 +213,7 @@ public void setHeadline(String headline)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| headline | java.lang.String | العنوان الرئيسي. |
+| العنوان | java.lang.String | العنوان. |
 
 ### setHistory(String history) {#setHistory-java.lang.String-}
 ```
@@ -234,7 +234,7 @@ public void setIccProfile(String iccProfile)
 ```
 
 
-يضبط ملف تعريف icc.
+يضبط ملف تعريف ICC.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -291,7 +291,7 @@ public void setSupplementalCategories(String[] supplementalCategories)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supplementalCategories | java.lang.String[] | الفئات الإضافية. |
+| supplementalCategories | java.lang.String[] | الفئات التكميلية. |
 
 ### setTransmissionReference(String transmissionReference) {#setTransmissionReference-java.lang.String-}
 ```

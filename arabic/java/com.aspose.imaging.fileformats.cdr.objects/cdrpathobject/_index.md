@@ -1,18 +1,18 @@
 ---
 title: "CdrPathObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال Cdr مسار"
+description: "مسار Cdr"
 type: docs
 weight: 32
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrpathobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrPathObject extends CdrGraphicObject
 ```
 
-ال Cdr مسار
+مسار Cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | أنواع النقاط. |
+| value | byte[] | أنواع النقاط. |
 

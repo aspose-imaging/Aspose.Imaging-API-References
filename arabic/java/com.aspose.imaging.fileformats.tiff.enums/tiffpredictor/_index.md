@@ -17,7 +17,7 @@ public final class TiffPredictor extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | لم يُستخدم أي مخطط توقع. |
+| [None](#None) | لم يتم استخدام أي مخطط تنبؤ. |
 | [Horizontal](#Horizontal) | الفرق الأفقي. |
 ### None {#None}
 ```
@@ -25,7 +25,7 @@ public static final int None
 ```
 
 
-لم يُستخدم أي مخطط توقع.
+لم يتم استخدام أي مخطط تنبؤ.
 
 ### Horizontal {#Horizontal}
 ```

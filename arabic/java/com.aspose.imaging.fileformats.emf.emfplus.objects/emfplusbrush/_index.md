@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusBrush"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusBrush يحدد فرشاة رسومية لملء المناطق."
+description: "كائن EmfPlusBrush يحدد فرشاة رسومية لتعبئة المناطق."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusBrush extends EmfPlusGraphicsObjectType
 ```
 
-كائن EmfPlusBrush يحدد فرشاة رسومية لملء المناطق.
+كائن EmfPlusBrush يحدد فرشاة رسومية لتعبئة المناطق.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public final class EmfPlusBrush extends EmfPlusGraphicsObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBrushData()](#getBrushData--) | يحصل أو يعيّن بيانات Brush بيانات ذات طول متغيّر تُعرّف كائن الفرشاة المحدد في حقل Type. |
-| [setBrushData(EmfPlusBaseBrushData value)](#setBrushData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseBrushData-) | يحصل أو يعيّن بيانات Brush بيانات ذات طول متغيّر تُعرّف كائن الفرشاة المحدد في حقل Type. |
-| [getType()](#getType--) | يحصل أو يعيّن النوع. |
-| [setType(int value)](#setType-int-) | يحصل أو يعيّن النوع. |
+| [getBrushData()](#getBrushData--) | يحصل أو يعيّن بيانات الفرشاة Variable-length التي تُعرّف كائن الفرشاة المحدد في حقل Type. |
+| [setBrushData(EmfPlusBaseBrushData value)](#setBrushData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseBrushData-) | يحصل أو يعيّن بيانات الفرشاة Variable-length التي تُعرّف كائن الفرشاة المحدد في حقل Type. |
+| [getType()](#getType--) | يحصل أو يضبط النوع. |
+| [setType(int value)](#setType-int-) | يحصل أو يضبط النوع. |
 ### EmfPlusBrush() {#EmfPlusBrush--}
 ```
 public EmfPlusBrush()
@@ -38,7 +38,7 @@ public EmfPlusBaseBrushData getBrushData()
 ```
 
 
-يحصل أو يعيّن بيانات Brush بيانات ذات طول متغيّر تُعرّف كائن الفرشاة المحدد في حقل Type. يمكن أن يكون محتوى البيانات وتنسيقها مختلفين لكل نوع فرشاة. EmfPlusHatchBrushData (section 2.2.2.20) (done) كائن EmfPlusLinearGradientBrushData (section 2.2.2.24) (done) كائن EmfPlusPathGradientBrushData (section 2.2.2.29) (done) كائن EmfPlusSolidBrushData (section 2.2.2.43) (done) كائن EmfPlusTextureBrushData (section 2.2.2.45) (done)
+يحصل أو يعيّن بيانات الفرشاة Variable-length التي تُعرّف كائن الفرشاة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع الفرشاة. EmfPlusHatchBrushData (القسم 2.2.2.20) (تم) EmfPlusLinearGradientBrushData object (القسم 2.2.2.24) (تم) EmfPlusPathGradientBrushData object (القسم 2.2.2.29) (تم) EmfPlusSolidBrushData object (القسم 2.2.2.43) (تم) EmfPlusTextureBrushData object (القسم 2.2.2.45) (تم)
 
 القيمة: بيانات الفرشاة.
 
@@ -50,7 +50,7 @@ public void setBrushData(EmfPlusBaseBrushData value)
 ```
 
 
-يحصل أو يعيّن بيانات Brush بيانات ذات طول متغيّر تُعرّف كائن الفرشاة المحدد في حقل Type. يمكن أن يكون محتوى البيانات وتنسيقها مختلفين لكل نوع فرشاة. EmfPlusHatchBrushData (section 2.2.2.20) (done) كائن EmfPlusLinearGradientBrushData (section 2.2.2.24) (done) كائن EmfPlusPathGradientBrushData (section 2.2.2.29) (done) كائن EmfPlusSolidBrushData (section 2.2.2.43) (done) كائن EmfPlusTextureBrushData (section 2.2.2.45) (done)
+يحصل أو يعيّن بيانات الفرشاة Variable-length التي تُعرّف كائن الفرشاة المحدد في حقل Type. يمكن أن يكون المحتوى وتنسيق البيانات مختلفين لكل نوع من أنواع الفرشاة. EmfPlusHatchBrushData (القسم 2.2.2.20) (تم) EmfPlusLinearGradientBrushData object (القسم 2.2.2.24) (تم) EmfPlusPathGradientBrushData object (القسم 2.2.2.29) (تم) EmfPlusSolidBrushData object (القسم 2.2.2.43) (تم) EmfPlusTextureBrushData object (القسم 2.2.2.45) (تم)
 
 القيمة: بيانات الفرشاة.
 
@@ -65,7 +65,7 @@ public int getType()
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 القيمة: عدد صحيح غير موقع 32‑بت يحدد نوع الفرشاة، والذي يحدد محتويات حقل BrushData. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusBrushType`.
 
@@ -77,12 +77,12 @@ public void setType(int value)
 ```
 
 
-يحصل أو يعيّن النوع.
+يحصل أو يضبط النوع.
 
 القيمة: عدد صحيح غير موقع 32‑بت يحدد نوع الفرشاة، والذي يحدد محتويات حقل BrushData. يجب أن تكون هذه القيمة معرفة في تعداد `EmfPlusBrushType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

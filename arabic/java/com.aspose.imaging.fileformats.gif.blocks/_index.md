@@ -12,11 +12,11 @@ url: /ar/java/com.aspose.imaging.fileformats.gif.blocks/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [GifApplicationExtensionBlock](../com.aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock) | كتلة امتداد تطبيق GIF. |
-| [GifCommentBlock](../com.aspose.imaging.fileformats.gif.blocks/gifcommentblock) | كتلة تعليق GIF. |
-| [GifFrameBlock](../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | كتلة إطار GIF. |
-| [GifGraphicsControlBlock](../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) | كتلة التحكم في رسومات GIF. |
-| [GifPlainTextRenderingBlock](../com.aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock) | كتلة امتداد النص العادي GIF. |
-| [GifUnknownExtensionBlock](../com.aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock) | كتلة امتداد غير معروف GIF. |
+| [GifApplicationExtensionBlock](../com.aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock) | كتلة امتداد تطبيق Gif. |
+| [GifCommentBlock](../com.aspose.imaging.fileformats.gif.blocks/gifcommentblock) | كتلة تعليق Gif. |
+| [GifFrameBlock](../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | كتلة إطار Gif. |
+| [GifGraphicsControlBlock](../com.aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) | كتلة تحكم رسومات Gif. |
+| [GifPlainTextRenderingBlock](../com.aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock) | كتلة امتداد نص عادي Gif. |
+| [GifUnknownExtensionBlock](../com.aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock) | كتلة امتداد غير معروف Gif. |

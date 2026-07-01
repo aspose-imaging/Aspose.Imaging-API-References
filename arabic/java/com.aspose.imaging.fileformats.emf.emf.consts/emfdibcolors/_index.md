@@ -1,7 +1,7 @@
 ---
 title: "EmfDibColors"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد تعداد DIBColors كيفية تفسير القيم في جدول الألوان الخاص بـ DIB."
+description: "تعداد DIBColors يحدد كيفية تفسير القيم في جدول الألوان الخاص بـ DIB."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.consts/emfdibcolors/
@@ -12,13 +12,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfDibColors extends System.Enum
 ```
 
-يحدد تعداد DIBColors كيفية تفسير القيم في جدول الألوان الخاص بـ DIB.
+تعداد DIBColors يحدد كيفية تفسير القيم في جدول الألوان الخاص بـ DIB.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [DIB_RGB_COLORS](#DIB-RGB-COLORS) | جدول الألوان يحتوي على قيم RGB حرفية |
-| [DIB_PAL_COLORS](#DIB-PAL-COLORS) | جدول الألوان يتكون من مصفوفة من الفهارس 16-بت إلى كائن LogPalette (القسم 2.2.17) المحدد حاليًا في سياق جهاز التشغيل. |
+| [DIB_PAL_COLORS](#DIB-PAL-COLORS) | يتكون جدول الألوان من مصفوفة من الفهارس 16‑بت إلى كائن LogPalette (القسم 2.2.17) الذي يتم تعريفه حالياً في سياق جهاز التشغيل. |
 | [DIB_PAL_INDICES](#DIB-PAL-INDICES) | لا يوجد جدول ألوان. |
 ### DIB_RGB_COLORS {#DIB-RGB-COLORS}
 ```
@@ -34,7 +34,7 @@ public static final int DIB_PAL_COLORS
 ```
 
 
-جدول الألوان يتكون من مصفوفة من الفهارس 16-بت إلى كائن LogPalette (القسم 2.2.17) المحدد حاليًا في سياق جهاز التشغيل.
+يتكون جدول الألوان من مصفوفة من الفهارس 16‑بت إلى كائن LogPalette (القسم 2.2.17) الذي يتم تعريفه حالياً في سياق جهاز التشغيل.
 
 ### DIB_PAL_INDICES {#DIB-PAL-INDICES}
 ```

@@ -7,7 +7,7 @@ weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject), [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
+java.lang.Object، [com.aspose.imaging.fileformats.opendocument.OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject)، [com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject](../../com.aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject)
 ```
 public class OdCurveTo extends OdGraphicObject
 ```
@@ -17,7 +17,7 @@ CurveTo المحسّن
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdCurveTo(OdObject parent)](#OdCurveTo-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلاً جديداً من الفئة `OdCurveTo`. |
+| [OdCurveTo(OdObject parent)](#OdCurveTo-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdCurveTo`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,12 +30,12 @@ public OdCurveTo(OdObject parent)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `OdCurveTo`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdCurveTo`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getPoints() {#getPoints--}
 ```

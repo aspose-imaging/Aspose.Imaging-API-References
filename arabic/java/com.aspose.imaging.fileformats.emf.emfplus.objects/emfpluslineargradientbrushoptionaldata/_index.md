@@ -7,7 +7,7 @@ weight: 54
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusLinearGradientBrushOptionalData extends EmfPlusStructureObjectType
 ```
@@ -24,11 +24,11 @@ public final class EmfPlusLinearGradientBrushOptionalData extends EmfPlusStructu
 | --- | --- |
 | [getTransformMatrix()](#getTransformMatrix--) | يحصل أو يضبط كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد تحويل من مساحة العالم إلى مساحة الجهاز لفرشاة التدرج الخطي. |
 | [setTransformMatrix(Matrix value)](#setTransformMatrix-com.aspose.imaging.Matrix-) | يحصل أو يضبط كائن EmfPlusTransformMatrix اختياري (القسم 2.2.2.47) يحدد تحويل من مساحة العالم إلى مساحة الجهاز لفرشاة التدرج الخطي. |
-| [getBlendPattern()](#getBlendPattern--) | يحصل أو يضبط نمط مزج اختياري لفرشاة التدرج الخطي. |
-| [setBlendPattern(EmfPlusBlendBase[] value)](#setBlendPattern-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendBase---) | يحصل أو يضبط نمط مزج اختياري لفرشاة التدرج الخطي. |
-| [getBlendPatternAsPresetColors()](#getBlendPatternAsPresetColors--) | يحصل على نمط المزج كألوان مسبقة. |
-| [getBlendPatternAsBlendFactorsH()](#getBlendPatternAsBlendFactorsH--) | يحصل على نمط المزج كعوامل مزج أفقية. |
-| [getBlendPatternAsBlendFactorsV()](#getBlendPatternAsBlendFactorsV--) | يحصل على نمط المزج كعوامل مزج عمودية. |
+| [getBlendPattern()](#getBlendPattern--) | يحصل أو يضبط نمط دمج اختياري لفرشاة التدرج الخطي. |
+| [setBlendPattern(EmfPlusBlendBase[] value)](#setBlendPattern-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendBase---) | يحصل أو يضبط نمط دمج اختياري لفرشاة التدرج الخطي. |
+| [getBlendPatternAsPresetColors()](#getBlendPatternAsPresetColors--) | يحصل على نمط الدمج كلون مسبق. |
+| [getBlendPatternAsBlendFactorsH()](#getBlendPatternAsBlendFactorsH--) | يحصل على نمط الدمج كعوامل دمج أفقية. |
+| [getBlendPatternAsBlendFactorsV()](#getBlendPatternAsBlendFactorsV--) | يحصل على نمط الدمج كعوامل دمج رأسية. |
 ### EmfPlusLinearGradientBrushOptionalData() {#EmfPlusLinearGradientBrushOptionalData--}
 ```
 public EmfPlusLinearGradientBrushOptionalData()
@@ -64,7 +64,7 @@ public EmfPlusBlendBase[] getBlendPattern()
 ```
 
 
-يحصل أو يضبط نمط مزج اختياري لفرشاة التدرج الخطي. إذا كان هذا الحقل موجودًا، يجب أن يحتوي إما على كائن EmfPlusBlendColors (القسم 2.2.2.4)، أو على كائن أو كائنين EmfPlusBlendFactors (القسم 2.2.2.5)، ولكن لا يجب أن يحتوي على كليهما. الجدول أدناه يوضح التركيبات الصالحة لأعلام BrushData في EmfPlusLinearGradientBrushData وأنماط المزج المقابلة: EmfPlusBlendFactors
+يحصل أو يحدد نمط دمج اختياري لفرشاة التدرج الخطي. إذا كان هذا الحقل موجودًا، يجب أن يحتوي إما على كائن EmfPlusBlendColors (القسم 2.2.2.4)، أو على كائن أو كائنين EmfPlusBlendFactors (القسم 2.2.2.5)، ولكن لا يجب أن يحتوي على كليهما. الجدول أدناه يوضح التركيبات الصالحة لعلامات BrushData في EmfPlusLinearGradientBrushData والأنماط المقابلة للدمج: EmfPlusBlendFactors
 
 **Returns:**
 com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendBase[]
@@ -74,7 +74,7 @@ public void setBlendPattern(EmfPlusBlendBase[] value)
 ```
 
 
-يحصل أو يضبط نمط مزج اختياري لفرشاة التدرج الخطي. إذا كان هذا الحقل موجودًا، يجب أن يحتوي إما على كائن EmfPlusBlendColors (القسم 2.2.2.4)، أو على كائن أو كائنين EmfPlusBlendFactors (القسم 2.2.2.5)، ولكن لا يجب أن يحتوي على كليهما. الجدول أدناه يوضح التركيبات الصالحة لأعلام BrushData في EmfPlusLinearGradientBrushData وأنماط المزج المقابلة: EmfPlusBlendFactors
+يحصل أو يحدد نمط دمج اختياري لفرشاة التدرج الخطي. إذا كان هذا الحقل موجودًا، يجب أن يحتوي إما على كائن EmfPlusBlendColors (القسم 2.2.2.4)، أو على كائن أو كائنين EmfPlusBlendFactors (القسم 2.2.2.5)، ولكن لا يجب أن يحتوي على كليهما. الجدول أدناه يوضح التركيبات الصالحة لعلامات BrushData في EmfPlusLinearGradientBrushData والأنماط المقابلة للدمج: EmfPlusBlendFactors
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,9 +87,9 @@ public EmfPlusBlendColors getBlendPatternAsPresetColors()
 ```
 
 
-يحصل على نمط المزج كألوان مسبقة.
+يحصل على نمط الدمج كلون مسبق.
 
-القيمة: نمط المزج كألوان مسبقة.
+القيمة: نمط الدمج كلون مسبق.
 
 **Returns:**
 [EmfPlusBlendColors](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors)
@@ -99,9 +99,9 @@ public EmfPlusBlendFactors getBlendPatternAsBlendFactorsH()
 ```
 
 
-يحصل على نمط المزج كعوامل مزج أفقية.
+يحصل على نمط الدمج كعوامل دمج أفقية.
 
-القيمة: نمط المزج كعوامل مزج أفقية.
+القيمة: نمط الدمج كعوامل دمج أفقية.
 
 **Returns:**
 [EmfPlusBlendFactors](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendfactors)
@@ -111,9 +111,9 @@ public EmfPlusBlendFactors getBlendPatternAsBlendFactorsV()
 ```
 
 
-يحصل على نمط المزج كعوامل مزج عمودية.
+يحصل على نمط الدمج كعوامل دمج رأسية.
 
-القيمة: نمط المزج كعوامل مزج عمودية.
+القيمة: نمط الدمج كعوامل دمج عمودية.
 
 **Returns:**
 [EmfPlusBlendFactors](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendfactors)

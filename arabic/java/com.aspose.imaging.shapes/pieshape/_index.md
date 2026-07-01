@@ -17,28 +17,28 @@ public class PieShape extends EllipseShape
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PieShape()](#PieShape--) | ينشئ مثيلاً جديدًا من الفئة `PieShape`. |
-| [PieShape(RectangleF rectangle, float startAngle, float sweepAngle)](#PieShape-com.aspose.imaging.RectangleF-float-float-) | ينشئ مثيلاً جديدًا من الفئة `PieShape`. |
+| [PieShape()](#PieShape--) | يقوم بإنشاء نسخة جديدة من الفئة `PieShape` class. |
+| [PieShape(RectangleF rectangle, float startAngle, float sweepAngle)](#PieShape-com.aspose.imaging.RectangleF-float-float-) | يقوم بإنشاء نسخة جديدة من الفئة `PieShape` class. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getStartAngle()](#getStartAngle--) | يحصل أو يضبط زاوية البداية. |
-| [setStartAngle(float value)](#setStartAngle-float-) | يحصل أو يضبط زاوية البداية. |
-| [getSweepAngle()](#getSweepAngle--) | يحصل أو يضبط زاوية القطع. |
-| [setSweepAngle(float value)](#setSweepAngle-float-) | يحصل أو يضبط زاوية القطع. |
+| [getStartAngle()](#getStartAngle--) | يحصل أو يعيّن زاوية البدء. |
+| [setStartAngle(float value)](#setStartAngle-float-) | يحصل أو يعيّن زاوية البدء. |
+| [getSweepAngle()](#getSweepAngle--) | يحصل أو يعيّن زاوية المسح. |
+| [setSweepAngle(float value)](#setSweepAngle-float-) | يحصل أو يعيّن زاوية المسح. |
 | [getSegments()](#getSegments--) | يحصل على مقاطع الشكل. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة.
+هذا المثال ينشئ صورة جديدة ويرسم مجموعة متنوعة من الأشكال باستخدام Figures و GraphicsPath على سطح الصورة
 ``` java
-//ينشئ مثيلاً من BmpOptions ويضبط خصائصه المتنوعة.
+//ينشئ مثيلًا من BmpOptions ويضبط خصائصه المتنوعة
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//إنشاء مثيل من FileCreateSource وتعيينه كقيمة Source لمثيل BmpOptions.
+//أنشئ مثيلاً من FileCreateSource وعيّنه كخاصية Source لمثيل BmpOptions.
 //المعامل البولياني الثاني يحدد ما إذا كان الملف الذي سيتم إنشاؤه مؤقتًا أم لا.
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
@@ -57,7 +57,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -67,7 +67,7 @@ try {
     //إنشاء نسخة من فئة Figure
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //إضافة شكل إلى كائن Figure.
+    //إضافة شكل إلى كائن Figure
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -100,7 +100,7 @@ public PieShape()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `PieShape`.
+يقوم بإنشاء نسخة جديدة من الفئة `PieShape` class.
 
 ### PieShape(RectangleF rectangle, float startAngle, float sweepAngle) {#PieShape-com.aspose.imaging.RectangleF-float-float-}
 ```
@@ -108,14 +108,14 @@ public PieShape(RectangleF rectangle, float startAngle, float sweepAngle)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `PieShape`.
+يقوم بإنشاء نسخة جديدة من الفئة `PieShape` class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل. |
-| startAngle | float | زاوية البداية. |
-| sweepAngle | float | زاوية القطع. |
+| startAngle | float | زاوية البدء. |
+| sweepAngle | float | زاوية القوس. |
 
 ### getStartAngle() {#getStartAngle--}
 ```
@@ -123,7 +123,7 @@ public float getStartAngle()
 ```
 
 
-يحصل أو يضبط زاوية البداية.
+يحصل أو يعيّن زاوية البدء.
 
 القيمة: زاوية البداية.
 
@@ -135,14 +135,14 @@ public void setStartAngle(float value)
 ```
 
 
-يحصل أو يضبط زاوية البداية.
+يحصل أو يعيّن زاوية البدء.
 
 القيمة: زاوية البداية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getSweepAngle() {#getSweepAngle--}
 ```
@@ -150,9 +150,9 @@ public float getSweepAngle()
 ```
 
 
-يحصل أو يضبط زاوية القطع.
+يحصل أو يعيّن زاوية المسح.
 
-القيمة: زاوية القطع.
+القيمة: زاوية القوس.
 
 **Returns:**
 float
@@ -162,14 +162,14 @@ public void setSweepAngle(float value)
 ```
 
 
-يحصل أو يضبط زاوية القطع.
+يحصل أو يعيّن زاوية المسح.
 
-القيمة: زاوية القطع.
+القيمة: زاوية القوس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getSegments() {#getSegments--}
 ```

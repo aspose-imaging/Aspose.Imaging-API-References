@@ -1,18 +1,18 @@
 ---
 title: "OdGradientBrush"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ملء التدرج"
+description: "تعبئة التدرج"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.opendocument.objects.brush.OdBrush](../../com.aspose.imaging.fileformats.openddocument.objects.brush/odbrush)
+java.lang.Object, [com.aspose.imaging.fileformats.opendocument.objects.brush.OdBrush](../../com.aspose.imaging.fileformats.opendocument.objects.brush/odbrush)
 ```
 public class OdGradientBrush extends OdBrush
 ```
 
-ملء التدرج
+تعبئة التدرج
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,16 +22,16 @@ public class OdGradientBrush extends OdBrush
 
 | طريقة | الوصف |
 | --- | --- |
-| [getGradientStyle()](#getGradientStyle--) | إرجاع نمط التدرج. |
-| [setGradientStyle(int value)](#setGradientStyle-int-) | تعيين نمط التدرج. |
-| [getStartColor()](#getStartColor--) | إرجاع لون البداية. |
-| [setStartColor(int value)](#setStartColor-int-) | تعيين لون البداية. |
-| [getEndColor()](#getEndColor--) | إرجاع لون النهاية. |
-| [setEndColor(int value)](#setEndColor-int-) | تعيين لون النهاية. |
+| [getGradientStyle()](#getGradientStyle--) | يحصل على نمط التدرج. |
+| [setGradientStyle(int value)](#setGradientStyle-int-) | يضبط نمط التدرج. |
+| [getStartColor()](#getStartColor--) | يحصل على لون البداية. |
+| [setStartColor(int value)](#setStartColor-int-) | يضبط لون البداية. |
+| [getEndColor()](#getEndColor--) | يحصل على لون النهاية. |
+| [setEndColor(int value)](#setEndColor-int-) | يضبط لون النهاية. |
 | [getAngle()](#getAngle--) | يحصل على الزاوية. |
 | [setAngle(float value)](#setAngle-float-) | يضبط الزاوية. |
 | [getBrushStyle()](#getBrushStyle--) | يحصل على النمط. |
-| [deepClone()](#deepClone--) | استنسخ هذا الكائن. |
+| [deepClone()](#deepClone--) | استنساخ هذا الكائن. |
 ### OdGradientBrush() {#OdGradientBrush--}
 ```
 public OdGradientBrush()
@@ -44,7 +44,7 @@ public final int getGradientStyle()
 ```
 
 
-إرجاع نمط التدرج.
+يحصل على نمط التدرج.
 
 **Returns:**
 int - نمط التدرج.
@@ -54,12 +54,12 @@ public final void setGradientStyle(int value)
 ```
 
 
-تعيين نمط التدرج.
+يضبط نمط التدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نمط التدرج. |
+| value | int | نمط التدرج. |
 
 ### getStartColor() {#getStartColor--}
 ```
@@ -67,7 +67,7 @@ public final int getStartColor()
 ```
 
 
-إرجاع لون البداية.
+يحصل على لون البداية.
 
 **Returns:**
 int - لون البداية.
@@ -77,12 +77,12 @@ public final void setStartColor(int value)
 ```
 
 
-تعيين لون البداية.
+يضبط لون البداية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | لون البداية. |
+| value | int | لون البداية. |
 
 ### getEndColor() {#getEndColor--}
 ```
@@ -90,7 +90,7 @@ public final int getEndColor()
 ```
 
 
-إرجاع لون النهاية.
+يحصل على لون النهاية.
 
 **Returns:**
 int - لون النهاية.
@@ -100,12 +100,12 @@ public final void setEndColor(int value)
 ```
 
 
-تعيين لون النهاية.
+يضبط لون النهاية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | لون النهاية. |
+| value | int | لون النهاية. |
 
 ### getAngle() {#getAngle--}
 ```
@@ -128,7 +128,7 @@ public final void setAngle(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الزاوية. |
+| value | float | الزاوية. |
 
 ### getBrushStyle() {#getBrushStyle--}
 ```
@@ -146,7 +146,7 @@ public Object deepClone()
 ```
 
 
-استنسخ هذا الكائن.
+استنساخ هذا الكائن.
 
 **Returns:**
-java.lang.Object - إرجاع نسخة جديدة من فرشاة المصدر
+java.lang.Object - العنصر الجديد المعاد من فرشاة المصدر

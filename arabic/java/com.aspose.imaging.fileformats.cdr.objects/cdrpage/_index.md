@@ -1,7 +1,7 @@
 ---
 title: "CdrPage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr صفحة"
+description: "صفحة cdr"
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrpage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPage extends CdrObjectContainer
 ```
 
-ال cdr صفحة
+صفحة cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,7 +23,7 @@ public class CdrPage extends CdrObjectContainer
 | طريقة | الوصف |
 | --- | --- |
 | [getId()](#getId--) | يحصل على المعرف. |
-| [setId(int value)](#setId-int-) | يضبط المعرف. |
+| [setId(int value)](#setId-int-) | يضبط المعرّف. |
 ### CdrPage() {#CdrPage--}
 ```
 public CdrPage()
@@ -39,17 +39,17 @@ public final int getId()
 يحصل على المعرف.
 
 **Returns:**
-int - المعرف.
+int - المعرّف.
 ### setId(int value) {#setId-int-}
 ```
 public final void setId(int value)
 ```
 
 
-يضبط المعرف.
+يضبط المعرّف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | المعرف. |
+| value | int | المعرّف. |
 

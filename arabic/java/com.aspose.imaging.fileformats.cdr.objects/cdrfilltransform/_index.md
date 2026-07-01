@@ -1,7 +1,7 @@
 ---
 title: "CdrFillTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr ملء تحويل"
+description: "تحويل ملء cdr"
 type: docs
 weight: 20
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrfilltransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFillTransform extends CdrObjectContainer
 ```
 
-ال cdr ملء تحويل
+تحويل ملء cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,7 +22,7 @@ public class CdrFillTransform extends CdrObjectContainer
 
 | طريقة | الوصف |
 | --- | --- |
-| [getTransform()](#getTransform--) | يسترجع التحويل. |
+| [getTransform()](#getTransform--) | يحصل على التحويل. |
 | [setTransform(Matrix value)](#setTransform-com.aspose.imaging.Matrix-) | يضبط التحويل. |
 ### CdrFillTransform() {#CdrFillTransform--}
 ```
@@ -36,7 +36,7 @@ public final Matrix getTransform()
 ```
 
 
-يسترجع التحويل.
+يحصل على التحويل.
 
 **Returns:**
 [Matrix](../../com.aspose.imaging/matrix) - the transform

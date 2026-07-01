@@ -1,7 +1,7 @@
 ---
 title: "Units"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الوحدات الأساسية لمستند CMX."
+description: "الوحدات الأساسية لوثيقة CMX."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/units/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class Units extends System.Enum
 ```
 
-الوحدات الأساسية لمستند CMX.
+الوحدات الأساسية لوثيقة CMX.
 ## الحقول
 
 | حقل | الوصف |

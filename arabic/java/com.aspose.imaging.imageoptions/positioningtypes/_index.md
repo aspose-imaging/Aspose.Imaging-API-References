@@ -17,8 +17,8 @@ public final class PositioningTypes extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [DefinedByDocument](#DefinedByDocument) | الموضع المطلق على الصفحة المحدد بواسطة إعدادات صفحة المستند. |
-| [DefinedByOptions](#DefinedByOptions) | الموضع المطلق على الصفحة المحدد بواسطة إعدادات صفحة الخيارات. |
+| [DefinedByDocument](#DefinedByDocument) | التحديد المطلق على الصفحة الذي يتم تعريفه بواسطة إعدادات صفحة المستند. |
+| [DefinedByOptions](#DefinedByOptions) | التحديد المطلق على الصفحة الذي يتم تعريفه بواسطة إعدادات صفحة الخيارات. |
 | [Relative](#Relative) | الموضع النسبي والحجم. |
 ### DefinedByDocument {#DefinedByDocument}
 ```
@@ -26,7 +26,7 @@ public static final int DefinedByDocument
 ```
 
 
-الموضع المطلق على الصفحة المحدد بواسطة إعدادات صفحة المستند.
+التحديد المطلق على الصفحة الذي يتم تعريفه بواسطة إعدادات صفحة المستند.
 
 ### DefinedByOptions {#DefinedByOptions}
 ```
@@ -34,7 +34,7 @@ public static final int DefinedByOptions
 ```
 
 
-الموضع المطلق على الصفحة المحدد بواسطة إعدادات صفحة الخيارات.
+التحديد المطلق على الصفحة الذي يتم تعريفه بواسطة إعدادات صفحة الخيارات.
 
 ### Relative {#Relative}
 ```

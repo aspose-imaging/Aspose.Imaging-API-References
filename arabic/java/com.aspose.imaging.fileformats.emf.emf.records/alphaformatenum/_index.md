@@ -18,14 +18,14 @@ public static final class EmfBlendFunction.AlphaFormatEnum extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [NotTransparency](#NotTransparency) | البكسلات في صورة المصدر لا تحدد شفافية ألفا. |
-| [AC_SRC_ALPHA](#AC-SRC-ALPHA) | يشير إلى أن صورة المصدر هي 32 بت لكل بكسل وتحدد قيمة شفافية ألفا لكل بكسل. |
+| [AC_SRC_ALPHA](#AC-SRC-ALPHA) | يشير إلى أن صورة المصدر 32 بت لكل بكسل ويحدد قيمة شفافية ألفا لكل بكسل. |
 ### NotTransparency {#NotTransparency}
 ```
 public static final byte NotTransparency
 ```
 
 
-البكسلات في صورة المصدر لا تحدد شفافية ألفا. في هذه الحالة، تحدد قيمة SrcConstantAlpha مزيج صورة المصدر والصورة الوجهة. لاحظ أنه في المعادلات التالية يتم قسمة SrcConstantAlpha على 255، مما ينتج قيمة في النطاق من 0 إلى 1.
+البكسلات في صورة المصدر لا تحدد شفافية ألفا. في هذه الحالة، تحدد قيمة SrcConstantAlpha مزج صورة المصدر والصورة الوجهة. لاحظ أنه في المعادلات التالية يتم قسمة SrcConstantAlpha على 255، مما ينتج قيمة في النطاق من 0 إلى 1.
 
 ### AC_SRC_ALPHA {#AC-SRC-ALPHA}
 ```
@@ -33,5 +33,5 @@ public static final byte AC_SRC_ALPHA
 ```
 
 
-يشير إلى أن صورة المصدر هي 32 بت لكل بكسل وتحدد قيمة شفافية ألفا لكل بكسل.
+يشير إلى أن صورة المصدر 32 بت لكل بكسل ويحدد قيمة شفافية ألفا لكل بكسل.
 

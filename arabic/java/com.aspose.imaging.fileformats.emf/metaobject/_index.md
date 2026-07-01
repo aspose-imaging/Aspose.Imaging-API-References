@@ -15,7 +15,7 @@ java.lang.Cloneable
 public class MetaObject implements Cloneable
 ```
 
-الفئة الأساسية لكائنات EMF, WMF, EMF+
+الفئة الأساسية لكائنات EMF و WMF و EMF+
 ## المنشئات
 
 | المنشئ | الوصف |

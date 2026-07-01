@@ -23,13 +23,13 @@ public class ImageBlendingFilterOptions extends FilterOptionsBase
 | طريقة | الوصف |
 | --- | --- |
 | [getImage()](#getImage--) | يحصل على الصورة. |
-| [setImage(RasterImage value)](#setImage-com.aspose.imaging.RasterImage-) | يعيّن الصورة. |
+| [setImage(RasterImage value)](#setImage-com.aspose.imaging.RasterImage-) | يضبط الصورة. |
 | [getPosition()](#getPosition--) | يحصل على الموضع. |
-| [setPosition(Point value)](#setPosition-com.aspose.imaging.Point-) | يعيّن الموضع. |
-| [getBlendingMode()](#getBlendingMode--) | يحصل على وضع الدمج. |
-| [setBlendingMode(BlendingMode value)](#setBlendingMode-com.aspose.imaging.imagefilters.filteroptions.BlendingMode-) | يعيّن وضع الدمج. |
+| [setPosition(Point value)](#setPosition-com.aspose.imaging.Point-) | يضبط الموضع. |
+| [getBlendingMode()](#getBlendingMode--) | يحصل على وضع المزج. |
+| [setBlendingMode(BlendingMode value)](#setBlendingMode-com.aspose.imaging.imagefilters.filteroptions.BlendingMode-) | يضبط وضع المزج. |
 | [getOpacity()](#getOpacity--) | يحصل على الشفافية. |
-| [setOpacity(float value)](#setOpacity-float-) | يعيّن الشفافية. |
+| [setOpacity(float value)](#setOpacity-float-) | يضبط الشفافية. |
 ### ImageBlendingFilterOptions() {#ImageBlendingFilterOptions--}
 ```
 public ImageBlendingFilterOptions()
@@ -54,7 +54,7 @@ public final void setImage(RasterImage value)
 ```
 
 
-يعيّن الصورة.
+يضبط الصورة.
 
 القيمة: الصورة.
 
@@ -81,7 +81,7 @@ public final void setPosition(Point value)
 ```
 
 
-يعيّن الموضع.
+يضبط الموضع.
 
 القيمة: الموضع.
 
@@ -96,9 +96,9 @@ public final BlendingMode getBlendingMode()
 ```
 
 
-يحصل على وضع الدمج.
+يحصل على وضع المزج.
 
-القيمة: وضع الدمج.
+القيمة: وضع المزج.
 
 **Returns:**
 [BlendingMode](../../com.aspose.imaging.imagefilters.filteroptions/blendingmode) - the blending mode.
@@ -108,9 +108,9 @@ public final void setBlendingMode(BlendingMode value)
 ```
 
 
-يعيّن وضع الدمج.
+يضبط وضع المزج.
 
-القيمة: وضع الدمج.
+القيمة: وضع المزج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -135,12 +135,12 @@ public final void setOpacity(float value)
 ```
 
 
-يعيّن الشفافية.
+يضبط الشفافية.
 
 القيمة: الشفافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الشفافية. |
+| value | float | الشفافية. |
 

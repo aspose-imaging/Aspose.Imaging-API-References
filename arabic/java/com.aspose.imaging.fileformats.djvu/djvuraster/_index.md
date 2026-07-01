@@ -1,7 +1,7 @@
 ---
 title: "DjvuRaster"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة لتمثيل صورة نقطية Djvu حيث توجد نتيجة عملية ما"
+description: "فئة لتمثيل صورة نقطية Djvu حيث يقع نتيجة عملية ما"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.djvu/djvuraster/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class DjvuRaster extends RasterCachedImage
 ```
 
-فئة لتمثيل صورة نقطية Djvu حيث توجد نتيجة عملية ما
+فئة لتمثيل صورة نقطية Djvu حيث يقع نتيجة عملية ما
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DjvuRaster(int width, int height, IRasterImageArgb32PixelLoader loader)](#DjvuRaster-int-int-com.aspose.imaging.IRasterImageArgb32PixelLoader-) | إنشاء مثيل جديد من الفئة `DjvuRaster`. |
+| [DjvuRaster(int width, int height, IRasterImageArgb32PixelLoader loader)](#DjvuRaster-int-int-com.aspose.imaging.IRasterImageArgb32PixelLoader-) | يُنشئ مثيلًا جديدًا من الفئة `DjvuRaster`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,13 +32,13 @@ public DjvuRaster(int width, int height, IRasterImageArgb32PixelLoader loader)
 ```
 
 
-إنشاء مثيل جديد من الفئة `DjvuRaster`.
+يُنشئ مثيلًا جديدًا من الفئة `DjvuRaster`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 | loader | [IRasterImageArgb32PixelLoader](../../com.aspose.imaging/irasterimageargb32pixelloader) | المحمّل. |
 
 ### getWidth() {#getWidth--}

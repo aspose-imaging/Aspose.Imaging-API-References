@@ -17,7 +17,7 @@ public interface IHasExifData extends IHasMetadata
 
 | طريقة | الوصف |
 | --- | --- |
-| [getExifData()](#getExifData--) | يحصل على كائن Exif. |
+| [getExifData()](#getExifData--) | يحصل على نسخة Exif. |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | يضبط مثيل Exif. |
 ### getExifData() {#getExifData--}
 ```
@@ -25,7 +25,7 @@ public abstract ExifData getExifData()
 ```
 
 
-يحصل على كائن Exif.
+يحصل على نسخة Exif.
 
 **Returns:**
 [ExifData](../../com.aspose.imaging.exif/exifdata) - Exif instance.

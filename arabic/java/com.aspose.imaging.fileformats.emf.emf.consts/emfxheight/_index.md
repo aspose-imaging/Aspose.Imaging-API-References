@@ -18,7 +18,7 @@ public final class EmfXHeight extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [PAN_ANY](#PAN-ANY) | الارتفاع أي. |
-| [PAN_NO_FIT](#PAN-NO-FIT) | ال لا ملاءمة. |
+| [PAN_NO_FIT](#PAN-NO-FIT) | عدم الملاءمة. |
 | [PAN_XHEIGHT_CONSTANT_SMALL](#PAN-XHEIGHT-CONSTANT-SMALL) | ثابت/صغير |
 | [PAN_XHEIGHT_CONSTANT_STD](#PAN-XHEIGHT-CONSTANT-STD) | ثابت/قياسي |
 | [PAN_XHEIGHT_CONSTANT_LARGE](#PAN-XHEIGHT-CONSTANT-LARGE) | ثابت/كبير |
@@ -39,7 +39,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-ال لا ملاءمة.
+عدم الملاءمة.
 
 ### PAN_XHEIGHT_CONSTANT_SMALL {#PAN-XHEIGHT-CONSTANT-SMALL}
 ```

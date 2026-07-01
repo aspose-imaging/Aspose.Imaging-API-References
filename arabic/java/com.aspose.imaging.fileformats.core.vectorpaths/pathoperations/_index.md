@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class PathOperations extends System.Enum
 ```
 
-العمليات لدمج أشكال المسار (عمليات بوليانية).
+العمليات لتجميع أشكال المسار (العمليات البوليانية).
 ## الحقول
 
 | حقل | الوصف |
@@ -20,7 +20,7 @@ public final class PathOperations extends System.Enum
 | [ExcludeOverlappingShapes](#ExcludeOverlappingShapes) | استبعاد الأشكال المتداخلة (عملية XOR). |
 | [CombineShapes](#CombineShapes) | دمج الأشكال (عملية OR). |
 | [SubtractFrontShape](#SubtractFrontShape) | طرح الشكل الأمامي (عملية NOT). |
-| [IntersectShapeAreas](#IntersectShapeAreas) | تقاطع مساحات الأشكال (عملية AND). |
+| [IntersectShapeAreas](#IntersectShapeAreas) | تقاطع مساحات الشكل (عملية AND). |
 ### ExcludeOverlappingShapes {#ExcludeOverlappingShapes}
 ```
 public static final int ExcludeOverlappingShapes
@@ -51,5 +51,5 @@ public static final int IntersectShapeAreas
 ```
 
 
-تقاطع مساحات الأشكال (عملية AND).
+تقاطع مساحات الشكل (عملية AND).
 

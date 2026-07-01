@@ -12,7 +12,7 @@ java.lang.Object
 public final class RotateFlipExtensions
 ```
 
-يحتوي على أساليب امتداد لتحويل الفئات `System.Drawing.RotateFlipType` و `RotateFlipType`.
+يحتوي على طرق امتداد لتحويل الفئات `System.Drawing.RotateFlipType` و `RotateFlipType`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public static int toGdiRotateFlipType(int rotateFlipType)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rotateFlipType | int | نوع تدوير القلب. |
+| rotateFlipType | int | نوع الدوران/القلب. |
 
 **Returns:**
 int - نوع gdi RotateFlipType

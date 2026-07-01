@@ -1,18 +1,18 @@
 ---
 title: "WmfPointObject"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الكائن Point."
+description: "كائن Point."
 type: docs
 weight: 55
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpointobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPointObject extends WmfObject
 ```
 
-الكائن Point.
+كائن Point.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public class WmfPointObject extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPoint()](#getPoint--) | الحصول على أو تعيين النقطة. |
-| [setPoint(Point value)](#setPoint-com.aspose.imaging.Point-) | الحصول على أو تعيين النقطة. |
+| [getPoint()](#getPoint--) | يحصل أو يعيّن النقطة. |
+| [setPoint(Point value)](#setPoint-com.aspose.imaging.Point-) | يحصل أو يعيّن النقطة. |
 ### WmfPointObject() {#WmfPointObject--}
 ```
 public WmfPointObject()
@@ -36,7 +36,7 @@ public Point getPoint()
 ```
 
 
-الحصول على أو تعيين النقطة.
+يحصل أو يعيّن النقطة.
 
 القيمة: النقطة.
 
@@ -48,7 +48,7 @@ public void setPoint(Point value)
 ```
 
 
-الحصول على أو تعيين النقطة.
+يحصل أو يعيّن النقطة.
 
 القيمة: النقطة.
 

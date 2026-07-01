@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.svg.graphics/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [SvgGraphics2D](../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) | يوفر أوامر رسم لتكوين صورة Svg. |

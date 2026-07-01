@@ -1,7 +1,7 @@
 ---
 title: "GifApplicationExtensionBlock"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كتلة امتداد تطبيق GIF."
+description: "كتلة امتداد تطبيق Gif."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifApplicationExtensionBlock extends GifBlock
 ```
 
-كتلة امتداد تطبيق GIF.
+كتلة امتداد تطبيق Gif.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [GifApplicationExtensionBlock()](#GifApplicationExtensionBlock--) | يُنشئ مثلاً جديداً من الفئة `GifApplicationExtensionBlock`. |
-| [GifApplicationExtensionBlock(String applicationIdentifier, byte[] applicationAuthenticationCode, byte[] applicationData)](#GifApplicationExtensionBlock-java.lang.String-byte---byte---) | يُنشئ مثلاً جديداً من الفئة `GifApplicationExtensionBlock`. |
+| [GifApplicationExtensionBlock()](#GifApplicationExtensionBlock--) | ينشئ مثيلاً جديدًا من الفئة `GifApplicationExtensionBlock`. |
+| [GifApplicationExtensionBlock(String applicationIdentifier, byte[] applicationAuthenticationCode, byte[] applicationData)](#GifApplicationExtensionBlock-java.lang.String-byte---byte---) | ينشئ مثيلاً جديدًا من الفئة `GifApplicationExtensionBlock`. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | يحدد حجم رأس الكتلة. |
-| [EXTENSION_LABEL](#EXTENSION-LABEL) | تسمية الامتداد. |
+| [EXTENSION_LABEL](#EXTENSION-LABEL) | علامة الامتداد. |
 | [BLOCK_SIZE](#BLOCK-SIZE) | حجم كتلة اسم الامتداد + الإصدار |
 | [APPLICATION_IDENTIFIER_SIZE](#APPLICATION-IDENTIFIER-SIZE) | يحدد حجم معرف التطبيق. |
 | [APPLICATION_AUTHENTICATION_CODE_SIZE](#APPLICATION-AUTHENTICATION-CODE-SIZE) | يحدد حجم رمز مصادقة التطبيق. |
@@ -32,19 +32,19 @@ public class GifApplicationExtensionBlock extends GifBlock
 
 | طريقة | الوصف |
 | --- | --- |
-| [getApplicationAuthenticationCode()](#getApplicationAuthenticationCode--) | يحصل أو يضبط رمز مصادقة التطبيق. |
-| [setApplicationAuthenticationCode(byte[] value)](#setApplicationAuthenticationCode-byte---) | يحصل أو يضبط رمز مصادقة التطبيق. |
-| [getApplicationIdentifier()](#getApplicationIdentifier--) | يحصل أو يضبط معرف التطبيق. |
-| [setApplicationIdentifier(String value)](#setApplicationIdentifier-java.lang.String-) | يحصل أو يضبط معرف التطبيق. |
-| [getApplicationData()](#getApplicationData--) | يحصل أو يضبط بيانات التطبيق. |
-| [setApplicationData(byte[] value)](#setApplicationData-byte---) | يحصل أو يضبط بيانات التطبيق. |
+| [getApplicationAuthenticationCode()](#getApplicationAuthenticationCode--) | يحصل أو يعيّن رمز مصادقة التطبيق. |
+| [setApplicationAuthenticationCode(byte[] value)](#setApplicationAuthenticationCode-byte---) | يحصل أو يعيّن رمز مصادقة التطبيق. |
+| [getApplicationIdentifier()](#getApplicationIdentifier--) | يحصل أو يعيّن معرف التطبيق. |
+| [setApplicationIdentifier(String value)](#setApplicationIdentifier-java.lang.String-) | يحصل أو يعيّن معرف التطبيق. |
+| [getApplicationData()](#getApplicationData--) | يحصل أو يعيّن بيانات التطبيق. |
+| [setApplicationData(byte[] value)](#setApplicationData-byte---) | يحصل أو يعيّن بيانات التطبيق. |
 ### GifApplicationExtensionBlock() {#GifApplicationExtensionBlock--}
 ```
 public GifApplicationExtensionBlock()
 ```
 
 
-يُنشئ مثلاً جديداً من الفئة `GifApplicationExtensionBlock`.
+ينشئ مثيلاً جديدًا من الفئة `GifApplicationExtensionBlock`.
 
 ### GifApplicationExtensionBlock(String applicationIdentifier, byte[] applicationAuthenticationCode, byte[] applicationData) {#GifApplicationExtensionBlock-java.lang.String-byte---byte---}
 ```
@@ -52,7 +52,7 @@ public GifApplicationExtensionBlock(String applicationIdentifier, byte[] applica
 ```
 
 
-يُنشئ مثلاً جديداً من الفئة `GifApplicationExtensionBlock`.
+ينشئ مثيلاً جديدًا من الفئة `GifApplicationExtensionBlock`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -75,7 +75,7 @@ public static final byte EXTENSION_LABEL
 ```
 
 
-تسمية الامتداد.
+علامة الامتداد.
 
 ### BLOCK_SIZE {#BLOCK-SIZE}
 ```
@@ -107,7 +107,7 @@ public byte[] getApplicationAuthenticationCode()
 ```
 
 
-يحصل أو يضبط رمز مصادقة التطبيق.
+يحصل أو يعيّن رمز مصادقة التطبيق.
 
 القيمة: رمز مصادقة التطبيق.
 
@@ -119,14 +119,14 @@ public void setApplicationAuthenticationCode(byte[] value)
 ```
 
 
-يحصل أو يضبط رمز مصادقة التطبيق.
+يحصل أو يعيّن رمز مصادقة التطبيق.
 
 القيمة: رمز مصادقة التطبيق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 
 ### getApplicationIdentifier() {#getApplicationIdentifier--}
 ```
@@ -134,7 +134,7 @@ public String getApplicationIdentifier()
 ```
 
 
-يحصل أو يضبط معرف التطبيق.
+يحصل أو يعيّن معرف التطبيق.
 
 القيمة: معرف التطبيق.
 
@@ -146,14 +146,14 @@ public void setApplicationIdentifier(String value)
 ```
 
 
-يحصل أو يضبط معرف التطبيق.
+يحصل أو يعيّن معرف التطبيق.
 
 القيمة: معرف التطبيق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getApplicationData() {#getApplicationData--}
 ```
@@ -161,7 +161,7 @@ public byte[] getApplicationData()
 ```
 
 
-يحصل أو يضبط بيانات التطبيق.
+يحصل أو يعيّن بيانات التطبيق.
 
 القيمة: بيانات التطبيق.
 
@@ -173,12 +173,12 @@ public void setApplicationData(byte[] value)
 ```
 
 
-يحصل أو يضبط بيانات التطبيق.
+يحصل أو يعيّن بيانات التطبيق.
 
 القيمة: بيانات التطبيق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

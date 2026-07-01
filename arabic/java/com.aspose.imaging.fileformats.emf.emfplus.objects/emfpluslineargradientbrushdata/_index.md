@@ -22,16 +22,16 @@ public final class EmfPlusLinearGradientBrushData extends EmfPlusBaseBrushData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBrushDataFlags()](#getBrushDataFlags--) | يحصل أو يعيّن أعلام بيانات الفرشاة. |
-| [setBrushDataFlags(int value)](#setBrushDataFlags-int-) | يحصل أو يعيّن أعلام بيانات الفرشاة. |
-| [getEndArgb32Color()](#getEndArgb32Color--) | يحصل أو يعيّن اللون النهائي. |
-| [setEndArgb32Color(int value)](#setEndArgb32Color-int-) | يحصل أو يعيّن اللون النهائي. |
-| [getOptionalData()](#getOptionalData--) | يحصل أو يعيّن البيانات الاختيارية. |
-| [setOptionalData(EmfPlusLinearGradientBrushOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinearGradientBrushOptionalData-) | يحصل أو يعيّن البيانات الاختيارية. |
-| [getRectF()](#getRectF--) | يحصل أو يعيّن rect f. |
-| [setRectF(RectangleF value)](#setRectF-com.aspose.imaging.RectangleF-) | يحصل أو يعيّن rect f. |
-| [getStartArgb32Color()](#getStartArgb32Color--) | يحصل أو يضبط لون البداية. |
-| [setStartArgb32Color(int value)](#setStartArgb32Color-int-) | يحصل أو يضبط لون البداية. |
+| [getBrushDataFlags()](#getBrushDataFlags--) | يحصل أو يضبط أعلام بيانات الفرشاة. |
+| [setBrushDataFlags(int value)](#setBrushDataFlags-int-) | يحصل أو يضبط أعلام بيانات الفرشاة. |
+| [getEndArgb32Color()](#getEndArgb32Color--) | يحصل أو يضبط اللون النهائي. |
+| [setEndArgb32Color(int value)](#setEndArgb32Color-int-) | يحصل أو يضبط اللون النهائي. |
+| [getOptionalData()](#getOptionalData--) | يحصل أو يضبط البيانات الاختيارية. |
+| [setOptionalData(EmfPlusLinearGradientBrushOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinearGradientBrushOptionalData-) | يحصل أو يضبط البيانات الاختيارية. |
+| [getRectF()](#getRectF--) | يحصل أو يضبط المستطيل f. |
+| [setRectF(RectangleF value)](#setRectF-com.aspose.imaging.RectangleF-) | يحصل أو يضبط المستطيل f. |
+| [getStartArgb32Color()](#getStartArgb32Color--) | يحصل أو يضبط اللون الابتدائي. |
+| [setStartArgb32Color(int value)](#setStartArgb32Color-int-) | يحصل أو يضبط اللون الابتدائي. |
 | [getWrapMode()](#getWrapMode--) | يحصل أو يضبط وضع الالتفاف. |
 | [setWrapMode(int value)](#setWrapMode-int-) | يحصل أو يضبط وضع الالتفاف. |
 ### EmfPlusLinearGradientBrushData() {#EmfPlusLinearGradientBrushData--}
@@ -46,9 +46,9 @@ public int getBrushDataFlags()
 ```
 
 
-يحصل أو يعيّن أعلام بيانات الفرشاة.
+يحصل أو يضبط أعلام بيانات الفرشاة.
 
-القيمة: BrushDataFlags (4 بايت): عدد صحيح غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من `EmfPlusBrushDataFlags` (القسم 2.1.2.1).
+القيمة: BrushDataFlags (4 بايت): عدد صحيح غير موقع 32-بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من `EmfPlusBrushDataFlags` (القسم 2.1.2.1).
 
 **Returns:**
 int
@@ -58,14 +58,14 @@ public void setBrushDataFlags(int value)
 ```
 
 
-يحصل أو يعيّن أعلام بيانات الفرشاة.
+يحصل أو يضبط أعلام بيانات الفرشاة.
 
-القيمة: BrushDataFlags (4 بايت): عدد صحيح غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من `EmfPlusBrushDataFlags` (القسم 2.1.2.1).
+القيمة: BrushDataFlags (4 بايت): عدد صحيح غير موقع 32-بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من `EmfPlusBrushDataFlags` (القسم 2.1.2.1).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getEndArgb32Color() {#getEndArgb32Color--}
 ```
@@ -73,7 +73,7 @@ public int getEndArgb32Color()
 ```
 
 
-يحصل أو يعيّن اللون النهائي.
+يحصل أو يضبط اللون النهائي.
 
 القيمة: كائن EmfPlusARGB يحدد اللون عند نقطة الحد النهائية لفرشاة التدرج الخطي.
 
@@ -85,14 +85,14 @@ public void setEndArgb32Color(int value)
 ```
 
 
-يحصل أو يعيّن اللون النهائي.
+يحصل أو يضبط اللون النهائي.
 
 القيمة: كائن EmfPlusARGB يحدد اللون عند نقطة الحد النهائية لفرشاة التدرج الخطي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getOptionalData() {#getOptionalData--}
 ```
@@ -100,9 +100,9 @@ public EmfPlusLinearGradientBrushOptionalData getOptionalData()
 ```
 
 
-يحصل أو يعيّن البيانات الاختيارية.
+يحصل أو يضبط البيانات الاختيارية.
 
-القيمة: كائن اختياري `EmfPlusLinearGradientBrushOptionalData` (القسم 2.2.2.25) يحدد بيانات إضافية لفرشاة التدرج الخطي. المحتويات المحددة لهذا الحقل تُحدد بقيمة حقل BrushDataFlags.
+القيمة: كائن `EmfPlusLinearGradientBrushOptionalData` اختياري (القسم 2.2.2.25) يحدد بيانات إضافية لفرشاة التدرج الخطي. المحتويات المحددة لهذا الحقل تُحدد بناءً على قيمة حقل BrushDataFlags.
 
 **Returns:**
 [EmfPlusLinearGradientBrushOptionalData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata)
@@ -112,9 +112,9 @@ public void setOptionalData(EmfPlusLinearGradientBrushOptionalData value)
 ```
 
 
-يحصل أو يعيّن البيانات الاختيارية.
+يحصل أو يضبط البيانات الاختيارية.
 
-القيمة: كائن اختياري `EmfPlusLinearGradientBrushOptionalData` (القسم 2.2.2.25) يحدد بيانات إضافية لفرشاة التدرج الخطي. المحتويات المحددة لهذا الحقل تُحدد بقيمة حقل BrushDataFlags.
+القيمة: كائن `EmfPlusLinearGradientBrushOptionalData` اختياري (القسم 2.2.2.25) يحدد بيانات إضافية لفرشاة التدرج الخطي. المحتويات المحددة لهذا الحقل تُحدد بناءً على قيمة حقل BrushDataFlags.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -127,9 +127,9 @@ public RectangleF getRectF()
 ```
 
 
-يحصل أو يعيّن rect f.
+يحصل أو يضبط المستطيل f.
 
-القيمة: كائن EmfPlusRectF (القسم 2.2.2.39) يحدد نقطتي البداية والنهاية لخط التدرج. الزاوية العليا اليسرى للمستطيل هي نقطة البداية. الزاوية السفلى اليمنى هي نقطة النهاية.
+القيمة: كائن EmfPlusRectF (القسم 2.2.2.39) يحدد نقطتي البداية والنهاية لخط التدرج. الزاوية العلوية اليسرى للمستطيل هي نقطة البداية. الزاوية السفلية اليمنى هي نقطة النهاية.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -139,9 +139,9 @@ public void setRectF(RectangleF value)
 ```
 
 
-يحصل أو يعيّن rect f.
+يحصل أو يضبط المستطيل f.
 
-القيمة: كائن EmfPlusRectF (القسم 2.2.2.39) يحدد نقطتي البداية والنهاية لخط التدرج. الزاوية العليا اليسرى للمستطيل هي نقطة البداية. الزاوية السفلى اليمنى هي نقطة النهاية.
+القيمة: كائن EmfPlusRectF (القسم 2.2.2.39) يحدد نقطتي البداية والنهاية لخط التدرج. الزاوية العلوية اليسرى للمستطيل هي نقطة البداية. الزاوية السفلية اليمنى هي نقطة النهاية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -154,9 +154,9 @@ public int getStartArgb32Color()
 ```
 
 
-يحصل أو يضبط لون البداية.
+يحصل أو يضبط اللون الابتدائي.
 
-القيمة: كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون عند نقطة الحد البداية لفرشاة التدرج الخطي.
+القيمة: كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون عند نقطة الحد الابتدائية لفرشاة التدرج الخطي.
 
 **Returns:**
 int
@@ -166,14 +166,14 @@ public void setStartArgb32Color(int value)
 ```
 
 
-يحصل أو يضبط لون البداية.
+يحصل أو يضبط اللون الابتدائي.
 
-القيمة: كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون عند نقطة الحد البداية لفرشاة التدرج الخطي.
+القيمة: كائن EmfPlusARGB (القسم 2.2.2.1) يحدد اللون عند نقطة الحد الابتدائية لفرشاة التدرج الخطي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getWrapMode() {#getWrapMode--}
 ```
@@ -183,7 +183,7 @@ public int getWrapMode()
 
 يحصل أو يضبط وضع الالتفاف.
 
-القيمة: عدد صحيح موقع 32‑بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. عند الرسم خارج الحدود، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
+القيمة: عدد صحيح موقع 32-بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حد الفرشاة. عند الرسم خارج الحد، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
 
 **Returns:**
 int
@@ -195,10 +195,10 @@ public void setWrapMode(int value)
 
 يحصل أو يضبط وضع الالتفاف.
 
-القيمة: عدد صحيح موقع 32‑بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. عند الرسم خارج الحدود، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
+القيمة: عدد صحيح موقع 32-بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حد الفرشاة. عند الرسم خارج الحد، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

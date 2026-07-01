@@ -1,7 +1,7 @@
 ---
 title: "CdrPolygonTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال مضلع تحويل"
+description: "تحويل المضلع"
 type: docs
 weight: 35
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPolygonTransform extends CdrObjectContainer
 ```
 
-ال مضلع تحويل
+تحويل المضلع
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,13 +24,13 @@ public class CdrPolygonTransform extends CdrObjectContainer
 | --- | --- |
 | [getXRadius()](#getXRadius--) | يحصل على نصف القطر x. |
 | [setXRadius(double value)](#setXRadius-double-) | يضبط نصف القطر x. |
-| [getYRadius()](#getYRadius--) | يحصل على نصف القطر y. |
+| [getYRadius()](#getYRadius--) | يسترجع نصف القطر y. |
 | [setYRadius(double value)](#setYRadius-double-) | يضبط نصف القطر y. |
 | [getPosition()](#getPosition--) | يحصل على الموضع. |
-| [setPosition(PointD value)](#setPosition-com.aspose.imaging.fileformats.cdr.types.PointD-) | يعيّن الموضع. |
-| [getNumAngles()](#getNumAngles--) | يحصل على عدد الزوايا. |
+| [setPosition(PointD value)](#setPosition-com.aspose.imaging.fileformats.cdr.types.PointD-) | يضبط الموضع. |
+| [getNumAngles()](#getNumAngles--) | يسترجع عدد الزوايا. |
 | [setNumAngles(int value)](#setNumAngles-int-) | يضبط عدد الزوايا. |
-| [getNextPoint()](#getNextPoint--) | يحصل على النقطة التالية. |
+| [getNextPoint()](#getNextPoint--) | يسترجع النقطة التالية. |
 | [setNextPoint(int value)](#setNextPoint-int-) | يضبط النقطة التالية. |
 ### CdrPolygonTransform() {#CdrPolygonTransform--}
 ```
@@ -59,7 +59,7 @@ public final void setXRadius(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | نصف القطر x. |
+| value | double | نصف القطر x. |
 
 ### getYRadius() {#getYRadius--}
 ```
@@ -67,7 +67,7 @@ public final double getYRadius()
 ```
 
 
-يحصل على نصف القطر y.
+يسترجع نصف القطر y.
 
 **Returns:**
 double - نصف القطر y.
@@ -82,7 +82,7 @@ public final void setYRadius(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | نصف القطر y. |
+| value | double | نصف القطر y. |
 
 ### getPosition() {#getPosition--}
 ```
@@ -100,7 +100,7 @@ public final void setPosition(PointD value)
 ```
 
 
-يعيّن الموضع.
+يضبط الموضع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,7 +113,7 @@ public final int getNumAngles()
 ```
 
 
-يحصل على عدد الزوايا.
+يسترجع عدد الزوايا.
 
 **Returns:**
 int - عدد الزوايا.
@@ -128,7 +128,7 @@ public final void setNumAngles(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | عدد الزوايا. |
+| value | int | عدد الزوايا. |
 
 ### getNextPoint() {#getNextPoint--}
 ```
@@ -136,7 +136,7 @@ public final int getNextPoint()
 ```
 
 
-يحصل على النقطة التالية.
+يسترجع النقطة التالية.
 
 **Returns:**
 int - النقطة التالية.
@@ -151,5 +151,5 @@ public final void setNextPoint(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النقطة التالية. |
+| value | int | النقطة التالية. |
 

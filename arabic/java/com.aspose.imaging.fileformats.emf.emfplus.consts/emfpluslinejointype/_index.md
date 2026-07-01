@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusLineJoinType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحدد تعداد LineJoinType طرق ربط خطين يُرسمان بنفس قلم الرسومات وتلتقي نهايتهما."
+description: "تحدد تعداد LineJoinType طرق ربط خطين يتم رسمهما بنفس قلم الرسومات وتلتقي نهاياتهما."
 type: docs
 weight: 32
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinejointype/
@@ -12,26 +12,26 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusLineJoinType extends System.Enum
 ```
 
-تحدد تعداد LineJoinType طرق ربط خطين يُرسمان بنفس قلم الرسومات وتلتقي نهايتهما.
+تحدد تعداد LineJoinType طرق ربط خطين يتم رسمهما بنفس قلم الرسومات وتلتقي نهاياتهما.
 
 --------------------
 
-يتم تحديد خطوط الرسومات بواسطة كائنات [EmfPlusPen](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) (القسم 2.2.1.7). يجعل اتصال الخطوط مظهر تقاطع نهايتي الخطين أكثر استمرارية.
+يتم تحديد خطوط الرسومات بواسطة كائنات [EmfPlusPen](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) (القسم 2.2.1.7). يضيف تقاطع الخطوط مظهرًا أكثر استمرارية عند تقاطع نهايتي الخط.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [LineJoinTypeMiter](#LineJoinTypeMiter) | يحدد اتصال خط مقوَّس. |
-| [LineJoinTypeBevel](#LineJoinTypeBevel) | يحدد اتصال خط محدب. |
-| [LineJoinTypeRound](#LineJoinTypeRound) | يحدد اتصال خط مستدير. |
-| [LineJoinTypeMiterClipped](#LineJoinTypeMiterClipped) | يحدد اتصال خط مقطوع مقوَّس. |
+| [LineJoinTypeMiter](#LineJoinTypeMiter) | يحدد تقاطع خطوط مِتِر. |
+| [LineJoinTypeBevel](#LineJoinTypeBevel) | يحدد تقاطع خطوط مَشْطوف. |
+| [LineJoinTypeRound](#LineJoinTypeRound) | يحدد تقاطع خطوط مستدير. |
+| [LineJoinTypeMiterClipped](#LineJoinTypeMiterClipped) | يحدد تقاطع خطوط مِتِر مقطوع. |
 ### LineJoinTypeMiter {#LineJoinTypeMiter}
 ```
 public static final int LineJoinTypeMiter
 ```
 
 
-يحدد اتصال خط مقوَّس.
+يحدد تقاطع خطوط مِتِر.
 
 ### LineJoinTypeBevel {#LineJoinTypeBevel}
 ```
@@ -39,7 +39,7 @@ public static final int LineJoinTypeBevel
 ```
 
 
-يحدد اتصال خط محدب.
+يحدد تقاطع خطوط مَشْطوف.
 
 ### LineJoinTypeRound {#LineJoinTypeRound}
 ```
@@ -47,7 +47,7 @@ public static final int LineJoinTypeRound
 ```
 
 
-يحدد اتصال خط مستدير.
+يحدد تقاطع خطوط مستدير.
 
 ### LineJoinTypeMiterClipped {#LineJoinTypeMiterClipped}
 ```
@@ -55,5 +55,5 @@ public static final int LineJoinTypeMiterClipped
 ```
 
 
-يحدد اتصال خط مقطوع مقوَّس.
+يحدد تقاطع خطوط مِتِر مقطوع.
 

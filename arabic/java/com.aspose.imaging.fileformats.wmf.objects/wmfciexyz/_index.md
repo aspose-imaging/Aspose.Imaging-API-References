@@ -1,7 +1,7 @@
 ---
 title: "WmfCieXyz"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن CIEXYZ يعرّف معلومات حول كائن اللون الكرومي CIEXYZ."
+description: "كائن CIEXYZ يحدد معلومات حول كائن اللون الكروماتيكي CIEXYZ."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfciexyz/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class WmfCieXyz extends Struct<WmfCieXyz>
 ```
 
-كائن CIEXYZ يعرّف معلومات حول كائن اللون CIEXYZ.
+كائن CIEXYZ يحدد معلومات حول كائن اللون CIEXYZ.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,12 +22,12 @@ public class WmfCieXyz extends Struct<WmfCieXyz>
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCiexyzX()](#getCiexyzX--) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية x. |
-| [setCiexyzX(int value)](#setCiexyzX-int-) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية x. |
-| [getCiexyzY()](#getCiexyzY--) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية y. |
-| [setCiexyzY(int value)](#setCiexyzY-int-) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية y. |
-| [getCiexyzZ()](#getCiexyzZ--) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية z. |
-| [setCiexyzZ(int value)](#setCiexyzZ-int-) | يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية z. |
+| [getCiexyzX()](#getCiexyzX--) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي x. |
+| [setCiexyzX(int value)](#setCiexyzX-int-) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي x. |
+| [getCiexyzY()](#getCiexyzY--) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي y. |
+| [setCiexyzY(int value)](#setCiexyzY-int-) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي y. |
+| [getCiexyzZ()](#getCiexyzZ--) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي z. |
+| [setCiexyzZ(int value)](#setCiexyzZ-int-) | يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي z. |
 | [CloneTo(WmfCieXyz that)](#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) |  |
 | [Clone()](#Clone--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public int getCiexyzX()
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية x.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي x.
 
 **Returns:**
 int
@@ -55,12 +55,12 @@ public void setCiexyzX(int value)
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية x.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي x.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCiexyzY() {#getCiexyzY--}
 ```
@@ -68,7 +68,7 @@ public int getCiexyzY()
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية y.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي y.
 
 **Returns:**
 int
@@ -78,12 +78,12 @@ public void setCiexyzY(int value)
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية y.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCiexyzZ() {#getCiexyzZ--}
 ```
@@ -91,7 +91,7 @@ public int getCiexyzZ()
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية z.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي z.
 
 **Returns:**
 int
@@ -101,12 +101,12 @@ public void setCiexyzZ(int value)
 ```
 
 
-يحصل أو يعيّن نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللونية z.
+يحصل أو يضبط نوع نقطة ثابتة 32-بت 2.30 يحدد قيمة اللون الكروماتيكي z.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### CloneTo(WmfCieXyz that) {#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-}
 ```

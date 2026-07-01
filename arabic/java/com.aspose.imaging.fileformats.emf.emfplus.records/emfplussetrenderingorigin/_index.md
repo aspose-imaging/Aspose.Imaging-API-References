@@ -17,22 +17,22 @@ public final class EmfPlusSetRenderingOrigin extends EmfPlusPropertyRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusSetRenderingOrigin(EmfPlusRecord source)](#EmfPlusSetRenderingOrigin-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetRenderingOrigin`. |
+| [EmfPlusSetRenderingOrigin(EmfPlusRecord source)](#EmfPlusSetRenderingOrigin-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُهيئ نسخة جديدة من الفئة `EmfPlusSetRenderingOrigin`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getX()](#getX--) | يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي الأفقي لأصل العرض. |
-| [setX(int value)](#setX-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي الأفقي لأصل العرض. |
-| [getY()](#getY--) | يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي العمودي لأصل العرض. |
-| [setY(int value)](#setY-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي العمودي لأصل العرض. |
+| [getX()](#getX--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي الأفقي لأصل العرض. |
+| [setX(int value)](#setX-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي الأفقي لأصل العرض. |
+| [getY()](#getY--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي العمودي لأصل العرض. |
+| [setY(int value)](#setY-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي العمودي لأصل العرض. |
 ### EmfPlusSetRenderingOrigin(EmfPlusRecord source) {#EmfPlusSetRenderingOrigin-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusSetRenderingOrigin(EmfPlusRecord source)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `EmfPlusSetRenderingOrigin`.
+يُهيئ نسخة جديدة من الفئة `EmfPlusSetRenderingOrigin`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,9 +45,9 @@ public int getX()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي الأفقي لأصل العرض.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي الأفقي لأصل العرض.
 
-القيمة: x.
+القيمة: س.
 
 **Returns:**
 int
@@ -57,14 +57,14 @@ public void setX(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي الأفقي لأصل العرض.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي الأفقي لأصل العرض.
 
-القيمة: x.
+القيمة: س.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getY() {#getY--}
 ```
@@ -72,9 +72,9 @@ public int getY()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي العمودي لأصل العرض.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي العمودي لأصل العرض.
 
-القيمة: y.
+القيمة: ص.
 
 **Returns:**
 int
@@ -84,12 +84,12 @@ public void setY(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقعًا 32‑بت يحدد قيمة الإحداثي العمودي لأصل العرض.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد قيمة الإحداثي العمودي لأصل العرض.
 
-القيمة: y.
+القيمة: ص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

@@ -24,7 +24,7 @@ public final class ImageMetadata implements IMetadataContainer
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | يضبط بيانات Exif. |
 | [getXmpData()](#getXmpData--) | يحصل على بيانات Xmp. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | يضبط بيانات Xmp. |
-| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين كائن `metadata` إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
+| [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | يحاول تعيين كائن `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat). |
 ### getExifData() {#getExifData--}
 ```
 public ExifData getExifData()
@@ -77,7 +77,7 @@ public boolean trySetMetadata(IImageMetadataFormat metadata)
 ```
 
 
-يحاول تعيين كائن `metadata` إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
+يحاول تعيين كائن `metadata`، إذا كان كائن [Image](../../com.aspose.imaging/image) هذا يدعم ويطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -85,4 +85,4 @@ public boolean trySetMetadata(IImageMetadataFormat metadata)
 | metadata | [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) | البيانات الوصفية. |
 
 **Returns:**
-boolean - صحيح إذا كان `metadata` غير فارغ وكان كائن [IMetadataContainer](../../com.aspose.imaging/imetadatacontainer) يدعم و/أو يطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا، خطأ.
+boolean - صحيح إذا كان `metadata` غير فارغ وكان كائن [IMetadataContainer](../../com.aspose.imaging/imetadatacontainer) يدعم و/أو يطبق كائن [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat)؛ وإلا، false.

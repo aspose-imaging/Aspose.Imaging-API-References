@@ -1,7 +1,7 @@
 ---
 title: "XmpTypeBase"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل الفئة الأساسية للنوع XMP الأساسي."
+description: "يمثل الفئة الأساسية لنوع XMP الأساسي."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.xmp.types/xmptypebase/
@@ -15,7 +15,7 @@ java.lang.Object
 public abstract class XmpTypeBase implements IXmpType, System.ICloneable, Cloneable
 ```
 
-يمثل الفئة الأساسية للنوع XMP الأساسي.
+يمثل الفئة الأساسية لنوع XMP الأساسي.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -26,7 +26,7 @@ public abstract class XmpTypeBase implements IXmpType, System.ICloneable, Clonea
 | طريقة | الوصف |
 | --- | --- |
 | [toString()](#toString--) | يحصل على بيانات XMP هذه كسلسلة. |
-| [deepClone()](#deepClone--) | ينسخ هذه المثيلة. |
+| [deepClone()](#deepClone--) | ينسخ هذه النسخة. |
 ### XmpTypeBase() {#XmpTypeBase--}
 ```
 public XmpTypeBase()
@@ -49,7 +49,7 @@ public Object deepClone()
 ```
 
 
-ينسخ هذه المثيلة.
+ينسخ هذه النسخة.
 
 **Returns:**
-java.lang.Object - نسخة عضوية.
+java.lang.Object - نسخة مستنسخة عضوياً.

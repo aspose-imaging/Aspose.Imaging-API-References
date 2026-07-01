@@ -18,11 +18,11 @@ public final class VectorPathType extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [ClosedSubpathLengthRecord](#ClosedSubpathLengthRecord) | سجل طول المسار الفرعي المغلق |
-| [ClosedSubpathBezierKnotLinked](#ClosedSubpathBezierKnotLinked) | العقدة المرتبطة لمنحنى بيزيير للمسار الفرعي المغلق |
-| [ClosedSubpathBezierKnotUnlinked](#ClosedSubpathBezierKnotUnlinked) | العقدة غير المرتبطة لمنحنى بيزيير للمسار الفرعي المغلق |
+| [ClosedSubpathBezierKnotLinked](#ClosedSubpathBezierKnotLinked) | العقدة البيزية للمسار الفرعي المغلق مرتبطة |
+| [ClosedSubpathBezierKnotUnlinked](#ClosedSubpathBezierKnotUnlinked) | العقدة البيزية للمسار الفرعي المغلق غير مرتبطة |
 | [OpenSubpathLengthRecord](#OpenSubpathLengthRecord) | سجل طول المسار الفرعي المفتوح |
-| [OpenSubpathBezierKnotLinked](#OpenSubpathBezierKnotLinked) | العقدة المرتبطة لمنحنى بيزيير للمسار الفرعي المفتوح |
-| [OpenSubpathBezierKnotUnlinked](#OpenSubpathBezierKnotUnlinked) | العقدة غير المرتبطة لمنحنى بيزيير للمسار الفرعي المفتوح |
+| [OpenSubpathBezierKnotLinked](#OpenSubpathBezierKnotLinked) | العقدة البيزية للمسار الفرعي المفتوح مرتبطة |
+| [OpenSubpathBezierKnotUnlinked](#OpenSubpathBezierKnotUnlinked) | العقدة البيزية للمسار الفرعي المفتوح غير مرتبطة |
 | [PathFillRuleRecord](#PathFillRuleRecord) | سجل قاعدة تعبئة المسار |
 | [ClipboardRecord](#ClipboardRecord) | سجل الحافظة |
 | [InitialFillRuleRecord](#InitialFillRuleRecord) | سجل قاعدة التعبئة الأولية |
@@ -40,7 +40,7 @@ public static final short ClosedSubpathBezierKnotLinked
 ```
 
 
-العقدة المرتبطة لمنحنى بيزيير للمسار الفرعي المغلق
+العقدة البيزية للمسار الفرعي المغلق مرتبطة
 
 ### ClosedSubpathBezierKnotUnlinked {#ClosedSubpathBezierKnotUnlinked}
 ```
@@ -48,7 +48,7 @@ public static final short ClosedSubpathBezierKnotUnlinked
 ```
 
 
-العقدة غير المرتبطة لمنحنى بيزيير للمسار الفرعي المغلق
+العقدة البيزية للمسار الفرعي المغلق غير مرتبطة
 
 ### OpenSubpathLengthRecord {#OpenSubpathLengthRecord}
 ```
@@ -64,7 +64,7 @@ public static final short OpenSubpathBezierKnotLinked
 ```
 
 
-العقدة المرتبطة لمنحنى بيزيير للمسار الفرعي المفتوح
+العقدة البيزية للمسار الفرعي المفتوح مرتبطة
 
 ### OpenSubpathBezierKnotUnlinked {#OpenSubpathBezierKnotUnlinked}
 ```
@@ -72,7 +72,7 @@ public static final short OpenSubpathBezierKnotUnlinked
 ```
 
 
-العقدة غير المرتبطة لمنحنى بيزيير للمسار الفرعي المفتوح
+العقدة البيزية للمسار الفرعي المفتوح غير مرتبطة
 
 ### PathFillRuleRecord {#PathFillRuleRecord}
 ```

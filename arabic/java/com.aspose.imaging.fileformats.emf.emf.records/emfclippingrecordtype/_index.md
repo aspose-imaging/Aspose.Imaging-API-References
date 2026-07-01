@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfClippingRecordType extends EmfRecord
 ```
 
-تحدد أنواع سجلات القص وتدير مناطق القص. ملاحظة: سجل EMR\_SETMETARGN لا يحدد معلمات.
+أنواع سجلات القص تحدد وتدير مناطق القص. ملاحظة: سجل EMR\_SETMETARGN لا يحدد معلمات.

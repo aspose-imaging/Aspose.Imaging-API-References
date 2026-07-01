@@ -1,7 +1,7 @@
 ---
 title: "EmfPolyShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة القاعدة EMF poly shape."
+description: "فئة قاعدة EMF poly shape."
 type: docs
 weight: 96
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolyshape/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPolyShape extends EmfBoundedRecord
 ```
 
-فئة القاعدة EMF poly shape.
+فئة قاعدة EMF poly shape.
 ## الطرق
 
 | طريقة | الوصف |

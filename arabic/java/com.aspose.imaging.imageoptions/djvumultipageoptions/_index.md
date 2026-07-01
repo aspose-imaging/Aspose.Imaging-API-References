@@ -1,7 +1,7 @@
 ---
 title: "DjvuMultiPageOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "توفر واجهة برمجة التطبيقات لتنسيق ملفات رسومات DjVu للمطورين وصولًا سلسًا إلى مستندات DjVu المثالية للمستندات الممسوحة ضوئيًا والكتب."
+description: "توفر API لتنسيق ملفات رسومات DjVu للمطورين وصولًا سلسًا إلى مستندات DjVu المثالية للمستندات الممسوحة ضوئيًا والكتب."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.imageoptions/djvumultipageoptions/
@@ -12,27 +12,27 @@ java.lang.Object, [com.aspose.imaging.imageoptions.MultiPageOptions](../../com.a
 public class DjvuMultiPageOptions extends MultiPageOptions
 ```
 
-توفر واجهة برمجة التطبيقات لتنسيق ملفات رسومات DjVu للمطورين وصولًا سلسًا إلى مستندات DjVu، وهي مثالية للمستندات الممسوحة ضوئيًا والكتب. باستخدام خيارات تحميل الصور، يمكن للمطورين دمج ملفات DjVu بسهولة في تطبيقاتهم، مما يفتح الإمكانية للعمل مع محتوى متعدد الصفحات، بما في ذلك النصوص والرسومات والصور، لتوفير حلول معالجة مستندات متعددة الاستخدامات.
+توفر API لتنسيق ملفات رسومات DjVu للمطورين وصولًا سلسًا إلى مستندات DjVu، المثالية للمستندات الممسوحة ضوئيًا والكتب. مع خيارات تحميل الصور، يمكن للمطورين دمج ملفات DjVu بسهولة في تطبيقاتهم، مما يفتح الإمكانية للعمل مع محتوى متعدد الصفحات، بما في ذلك النصوص والرسومات والصور، لحلول معالجة مستندات متعددة الاستخدامات.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DjvuMultiPageOptions()](#DjvuMultiPageOptions--) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(int[] pages)](#DjvuMultiPageOptions-int---) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(int[] pages, Rectangle exportArea)](#DjvuMultiPageOptions-int---com.aspose.imaging.Rectangle-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(IntRange range)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(IntRange range, Rectangle exportArea)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange-com.aspose.imaging.Rectangle-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(IntRange[] ranges)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange---) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange---com.aspose.imaging.Rectangle-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(int page)](#DjvuMultiPageOptions-int-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
-| [DjvuMultiPageOptions(int page, Rectangle exportArea)](#DjvuMultiPageOptions-int-com.aspose.imaging.Rectangle-) | يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions()](#DjvuMultiPageOptions--) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(int[] pages)](#DjvuMultiPageOptions-int---) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(int[] pages, Rectangle exportArea)](#DjvuMultiPageOptions-int---com.aspose.imaging.Rectangle-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(IntRange range)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(IntRange range, Rectangle exportArea)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange-com.aspose.imaging.Rectangle-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(IntRange[] ranges)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange---) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)](#DjvuMultiPageOptions-com.aspose.imaging.IntRange---com.aspose.imaging.Rectangle-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(int page)](#DjvuMultiPageOptions-int-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
+| [DjvuMultiPageOptions(int page, Rectangle exportArea)](#DjvuMultiPageOptions-int-com.aspose.imaging.Rectangle-) | ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`. |
 ### DjvuMultiPageOptions() {#DjvuMultiPageOptions--}
 ```
 public DjvuMultiPageOptions()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 ### DjvuMultiPageOptions(int[] pages) {#DjvuMultiPageOptions-int---}
 ```
@@ -40,7 +40,7 @@ public DjvuMultiPageOptions(int[] pages)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public DjvuMultiPageOptions(IntRange range)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -80,7 +80,7 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -94,7 +94,7 @@ public DjvuMultiPageOptions(IntRange[] ranges)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -107,7 +107,7 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -121,12 +121,12 @@ public DjvuMultiPageOptions(int page)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | int | فهرس الصفحة. |
+| صفحة | int | فهرس الصفحة. |
 
 ### DjvuMultiPageOptions(int page, Rectangle exportArea) {#DjvuMultiPageOptions-int-com.aspose.imaging.Rectangle-}
 ```
@@ -134,11 +134,11 @@ public DjvuMultiPageOptions(int page, Rectangle exportArea)
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة `DjvuMultiPageOptions`.
+ينشئ مثيلًا جديدًا من الفئة `DjvuMultiPageOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | int | فهرس الصفحة. |
+| صفحة | int | فهرس الصفحة. |
 | exportArea | [Rectangle](../../com.aspose.imaging/rectangle) | منطقة التصدير. |
 

@@ -42,7 +42,7 @@ public class CmxOutline
 | [setStartArrowhead(CmxArrowSpec value)](#setStartArrowhead-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec-) | يضبط الشكل لبداية الخط |
 | [getEndArrowhead()](#getEndArrowhead--) | يحصل على الشكل لنهاية الخط |
 | [setEndArrowhead(CmxArrowSpec value)](#setEndArrowhead-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec-) | يضبط الشكل لنهاية الخط |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxOutline() {#CmxOutline--}
@@ -72,7 +72,7 @@ public final void setLineType(byte value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte | نوع الخط. |
+| value | byte | نوع الخط. |
 
 ### getCapsType() {#getCapsType--}
 ```
@@ -95,7 +95,7 @@ public final void setCapsType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع نهايات الخط. |
+| value | int | نوع نهايات الخط. |
 
 ### getJoinType() {#getJoinType--}
 ```
@@ -118,7 +118,7 @@ public final void setJoinType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع وصل الخط. |
+| value | int | نوع وصل الخط. |
 
 ### getLineWidth() {#getLineWidth--}
 ```
@@ -126,7 +126,7 @@ public final float getLineWidth()
 ```
 
 
-يحصل على عرض الخط. يستخدم وحدة قياس المسافة الشائعة للمستند.
+يحصل على عرض الخط. يستخدم وحدة قياس المسافة الشائعة في المستند.
 
 **Returns:**
 float - عرض الخط.
@@ -136,12 +136,12 @@ public final void setLineWidth(float value)
 ```
 
 
-يضبط عرض الخط. يستخدم وحدة قياس المسافة الشائعة للمستند.
+يضبط عرض الخط. يستخدم وحدة قياس المسافة الشائعة في المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض الخط. |
+| value | float | عرض الخط. |
 
 ### getStretch() {#getStretch--}
 ```
@@ -164,7 +164,7 @@ public final void setStretch(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | قيمة التمدد. |
+| value | float | قيمة التمدد. |
 
 ### getAngle() {#getAngle--}
 ```
@@ -187,7 +187,7 @@ public final void setAngle(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الزاوية. |
+| value | double | الزاوية. |
 
 ### getColor() {#getColor--}
 ```
@@ -210,7 +210,7 @@ public final void setColor(CmxColor value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CmxColor](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | لون المخطط. |
+| value | [CmxColor](../../com.aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | لون الحدود. |
 
 ### getStroke() {#getStroke--}
 ```
@@ -233,7 +233,7 @@ public final void setStroke(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | نمط الخط. |
+| value | int[] | نمط الخط. |
 
 ### getStartArrowhead() {#getStartArrowhead--}
 ```
@@ -256,7 +256,7 @@ public final void setStartArrowhead(CmxArrowSpec value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) | الشكل لبداية الخط |
+| value | [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) | شكل بداية الخط |
 
 ### getEndArrowhead() {#getEndArrowhead--}
 ```
@@ -279,7 +279,7 @@ public final void setEndArrowhead(CmxArrowSpec value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) | الشكل لنهاية الخط |
+| value | [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) | شكل نهاية الخط |
 
 ### toString() {#toString--}
 ```
@@ -287,7 +287,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

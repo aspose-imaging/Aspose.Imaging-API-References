@@ -7,7 +7,7 @@ weight: 33
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusCustomEndCapData extends EmfPlusStructureObjectType
 ```
@@ -22,8 +22,8 @@ public final class EmfPlusCustomEndCapData extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCustomEndCap()](#getCustomEndCap--) | يحصل أو يعيّن قبعة خط مخصصة تحدد الشكل الذي يُرسم في نهاية الخط. |
-| [setCustomEndCap(EmfPlusCustomLineCap value)](#setCustomEndCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | يحصل أو يعيّن قبعة خط مخصصة تحدد الشكل الذي يُرسم في نهاية الخط. |
+| [getCustomEndCap()](#getCustomEndCap--) | يحصل أو يعيّن غطاء خط مخصص يحدد الشكل المراد رسمه في نهاية الخط. |
+| [setCustomEndCap(EmfPlusCustomLineCap value)](#setCustomEndCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | يحصل أو يعيّن غطاء خط مخصص يحدد الشكل المراد رسمه في نهاية الخط. |
 ### EmfPlusCustomEndCapData() {#EmfPlusCustomEndCapData--}
 ```
 public EmfPlusCustomEndCapData()
@@ -36,7 +36,7 @@ public EmfPlusCustomLineCap getCustomEndCap()
 ```
 
 
-يحصل أو يعيّن قبعة خط مخصصة تحدد الشكل الذي يُرسم في نهاية الخط. يمكن أن تكون أيًا من الأشكال المتنوعة، بما في ذلك مربع، دائرة، أو ماسة.
+يحصل أو يعيّن غطاء خط مخصص يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك المربع أو الدائرة أو الماس.
 
 **Returns:**
 [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)
@@ -46,7 +46,7 @@ public void setCustomEndCap(EmfPlusCustomLineCap value)
 ```
 
 
-يحصل أو يعيّن قبعة خط مخصصة تحدد الشكل الذي يُرسم في نهاية الخط. يمكن أن تكون أيًا من الأشكال المتنوعة، بما في ذلك مربع، دائرة، أو ماسة.
+يحصل أو يعيّن غطاء خط مخصص يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك المربع أو الدائرة أو الماس.
 
 **Parameters:**
 | معامل | نوع | الوصف |

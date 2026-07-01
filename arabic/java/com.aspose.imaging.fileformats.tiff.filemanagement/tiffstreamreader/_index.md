@@ -17,49 +17,49 @@ public class TiffStreamReader extends TiffStreamSeeker
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffStreamReader(byte[] data)](#TiffStreamReader-byte---) | ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
-| [TiffStreamReader(byte[] data, int startIndex)](#TiffStreamReader-byte---int-) | ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
-| [TiffStreamReader(byte[] data, int startIndex, int dataLength)](#TiffStreamReader-byte---int-int-) | ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
-| [TiffStreamReader(StreamContainer streamContainer)](#TiffStreamReader-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
+| [TiffStreamReader(byte[] data)](#TiffStreamReader-byte---) | يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
+| [TiffStreamReader(byte[] data, int startIndex)](#TiffStreamReader-byte---int-) | يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
+| [TiffStreamReader(byte[] data, int startIndex, int dataLength)](#TiffStreamReader-byte---int-int-) | يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
+| [TiffStreamReader(StreamContainer streamContainer)](#TiffStreamReader-com.aspose.imaging.StreamContainer-) | يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getLength()](#getLength--) | يحصل على طول القارئ. |
-| [getThrowExceptions()](#getThrowExceptions--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى التدفق). |
-| [setThrowExceptions(boolean value)](#setThrowExceptions-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى التدفق). |
-| [readBytes(byte[] array, int arrayIndex, long position, long count)](#readBytes-byte---int-long-long-) | يقرأ مصفوفة من قيم البايت من التدفق. |
-| [readBytes(long position, long count)](#readBytes-long-long-) | يقرأ مصفوفة من قيم البايت غير الموقعة من التدفق. |
-| [readDouble(long position)](#readDouble-long-) | يقرأ قيمة مزدوجة واحدة من التدفق. |
-| [readDoubleArray(long position, long count)](#readDoubleArray-long-long-) | يقرأ مصفوفة من القيم المزدوجة من التدفق. |
-| [readFloat(long position)](#readFloat-long-) | يقرأ قيمة عائمة واحدة من التدفق. |
-| [readFloatArray(long position, long count)](#readFloatArray-long-long-) | يقرأ مصفوفة من القيم العائمة من التدفق. |
-| [readRational(long position)](#readRational-long-) | يقرأ قيمة عدد نسبي واحد من التدفق. |
-| [readSRational(long position)](#readSRational-long-) | يقرأ قيمة عدد نسبي موقّع واحد من التدفق. |
-| [readRationalArray(long position, long count)](#readRationalArray-long-long-) | يقرأ مصفوفة من القيم النسبية من التدفق. |
-| [readSRationalArray(long position, long count)](#readSRationalArray-long-long-) | يقرأ مصفوفة من القيم النسبية الموقعة من التدفق. |
-| [readSByte(long position)](#readSByte-long-) | يقرأ بيانات بايت موقعة من التدفق. |
-| [readSByteArray(long position, long count)](#readSByteArray-long-long-) | يقرأ مصفوفة من قيم البايت الموقعة من التدفق. |
-| [readSInt(long position)](#readSInt-long-) | يقرأ قيمة عدد صحيح موقّع من التدفق. |
-| [readSIntArray(long position, long count)](#readSIntArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الصحيحة الموقعة من التدفق. |
-| [readSShort(long position)](#readSShort-long-) | يقرأ قيمة قصير موقّع من التدفق. |
-| [readSShortArray(long position, long count)](#readSShortArray-long-long-) | يقرأ مصفوفة من قيم القصير الموقعة من التدفق. |
-| [readUInt(long position)](#readUInt-long-) | يقرأ قيمة عدد صحيح غير موقّع من التدفق. |
-| [readUIntArray(long position, long count)](#readUIntArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الصحيحة غير الموقعة من التدفق. |
-| [readUShort(long position)](#readUShort-long-) | يقرأ قيمة قصير غير موقّع من التدفق. |
-| [readUShortArray(long position, long count)](#readUShortArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الصحيحة غير الموقعة من التدفق. |
-| [readLong(long position)](#readLong-long-) | يقرأ قيمة عدد طويل غير موقّع من التدفق. |
-| [readLongArray(long position, long count)](#readLongArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الطويلة من التدفق. |
-| [readULong(long position)](#readULong-long-) | يقرأ قيمة عدد طويل غير موقّع من التدفق. |
-| [readULongArray(long position, long count)](#readULongArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الطويلة غير الموقعة من التدفق. |
-| [toStreamContainer(long startPosition)](#toStreamContainer-long-) | يحوّل البيانات الأساسية إلى حاوية التدفق. |
+| [getThrowExceptions()](#getThrowExceptions--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى الدفق). |
+| [setThrowExceptions(boolean value)](#setThrowExceptions-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى الدفق). |
+| [readBytes(byte[] array, int arrayIndex, long position, long count)](#readBytes-byte---int-long-long-) | يقرأ مصفوفة من قيم البايت من الدفق. |
+| [readBytes(long position, long count)](#readBytes-long-long-) | يقرأ مصفوفة من قيم البايت غير الموقعة من الدفق. |
+| [readDouble(long position)](#readDouble-long-) | يقرأ قيمة مزدوجة واحدة من الدفق. |
+| [readDoubleArray(long position, long count)](#readDoubleArray-long-long-) | يقرأ مصفوفة من القيم المزدوجة من الدفق. |
+| [readFloat(long position)](#readFloat-long-) | يقرأ قيمة عائمة واحدة من الدفق. |
+| [readFloatArray(long position, long count)](#readFloatArray-long-long-) | يقرأ مصفوفة من القيم العائمة من الدفق. |
+| [readRational(long position)](#readRational-long-) | يقرأ قيمة عدد كسرية واحدة من الدفق. |
+| [readSRational(long position)](#readSRational-long-) | يقرأ قيمة عدد كسرية موقعة واحدة من الدفق. |
+| [readRationalArray(long position, long count)](#readRationalArray-long-long-) | يقرأ مصفوفة من القيم الكسرية من الدفق. |
+| [readSRationalArray(long position, long count)](#readSRationalArray-long-long-) | يقرأ مصفوفة من القيم الكسرية الموقعة من الدفق. |
+| [readSByte(long position)](#readSByte-long-) | يقرأ بيانات بايت موقعة من الدفق. |
+| [readSByteArray(long position, long count)](#readSByteArray-long-long-) | يقرأ مصفوفة من قيم البايت الموقعة من الدفق. |
+| [readSInt(long position)](#readSInt-long-) | يقرأ قيمة عدد صحيح موقعة من الدفق. |
+| [readSIntArray(long position, long count)](#readSIntArray-long-long-) | يقرأ مصفوفة من قيم الأعداد الصحيحة الموقعة من الدفق. |
+| [readSShort(long position)](#readSShort-long-) | يقرأ قيمة عدد قصير موقعة من الدفق. |
+| [readSShortArray(long position, long count)](#readSShortArray-long-long-) | يقرأ مصفوفة من القيم القصيرة الموقعة من الدفق. |
+| [readUInt(long position)](#readUInt-long-) | اقرأ قيمة عدد صحيح غير موقعة من الدفق. |
+| [readUIntArray(long position, long count)](#readUIntArray-long-long-) | يقرأ مصفوفة من القيم العددية الصحيحة غير الموقعة من الدفق. |
+| [readUShort(long position)](#readUShort-long-) | اقرأ قيمة قصيرة غير موقعة من الدفق. |
+| [readUShortArray(long position, long count)](#readUShortArray-long-long-) | يقرأ مصفوفة من القيم العددية الصحيحة غير الموقعة من الدفق. |
+| [readLong(long position)](#readLong-long-) | اقرأ قيمة طويلة غير موقعة من الدفق. |
+| [readLongArray(long position, long count)](#readLongArray-long-long-) | يقرأ مصفوفة من القيم الطويلة من الدفق. |
+| [readULong(long position)](#readULong-long-) | اقرأ قيمة طويلة غير موقعة من الدفق. |
+| [readULongArray(long position, long count)](#readULongArray-long-long-) | يقرأ مصفوفة من القيم غير الموقعة من نوع ulong من الدفق. |
+| [toStreamContainer(long startPosition)](#toStreamContainer-long-) | يحوّل البيانات الأساسية إلى حاوية الدفق. |
 ### TiffStreamReader(byte[] data) {#TiffStreamReader-byte---}
 ```
 public TiffStreamReader(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
+يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public TiffStreamReader(byte[] data, int startIndex)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
+يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public TiffStreamReader(byte[] data, int startIndex, int dataLength)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
+يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -101,7 +101,7 @@ public TiffStreamReader(StreamContainer streamContainer)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
+يُنشئ مثيلاً جديداً من الفئة `TiffStreamReader`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -126,9 +126,9 @@ public boolean getThrowExceptions()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى التدفق).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى الدفق).
 
-القيمة: `true` إذا تم رمي الاستثناءات عند معالجة البيانات غير الصحيحة؛ وإلا، يتم تجاهل حالات الخطأ بصمت.
+القيمة: `true` إذا تم إلقاء الاستثناءات عند معالجة البيانات غير الصحيحة؛ وإلا، يتم تجاهل ظروف الخطأ بصمت.
 
 **Returns:**
 boolean
@@ -138,14 +138,14 @@ public void setThrowExceptions(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى التدفق).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كانت الاستثناءات تُرمى عند معالجة البيانات غير الصحيحة (القراءة أو الكتابة إلى الدفق).
 
-القيمة: `true` إذا تم رمي الاستثناءات عند معالجة البيانات غير الصحيحة؛ وإلا، يتم تجاهل حالات الخطأ بصمت.
+القيمة: `true` إذا تم إلقاء الاستثناءات عند معالجة البيانات غير الصحيحة؛ وإلا، يتم تجاهل ظروف الخطأ بصمت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### readBytes(byte[] array, int arrayIndex, long position, long count) {#readBytes-byte---int-long-long-}
 ```
@@ -153,13 +153,13 @@ public long readBytes(byte[] array, int arrayIndex, long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم البايت من التدفق.
+يقرأ مصفوفة من قيم البايت من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | مصفوفة | byte[] | المصفوفة للتعبئة. |
-| arrayIndex | int | فهرس المصفوفة للبدء بوضع القيم. |
+| arrayIndex | int | فهرس المصفوفة للبدء بوضع القيم فيه. |
 | position | long | موضع الدفق للقراءة منه. |
 | count | long | عدد العناصر للقراءة. |
 
@@ -171,7 +171,7 @@ public byte[] readBytes(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم البايت غير الموقعة من التدفق.
+يقرأ مصفوفة من قيم البايت غير الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -187,7 +187,7 @@ public double readDouble(long position)
 ```
 
 
-يقرأ قيمة مزدوجة واحدة من التدفق.
+يقرأ قيمة مزدوجة واحدة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -202,7 +202,7 @@ public double[] readDoubleArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من القيم المزدوجة من التدفق.
+يقرأ مصفوفة من القيم المزدوجة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -211,14 +211,14 @@ public double[] readDoubleArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-double[] - مصفوفة قيم مزدوجة.
+double[] - مصفوفة القيم المزدوجة.
 ### readFloat(long position) {#readFloat-long-}
 ```
 public float readFloat(long position)
 ```
 
 
-يقرأ قيمة عائمة واحدة من التدفق.
+يقرأ قيمة عائمة واحدة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -226,14 +226,14 @@ public float readFloat(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-float - القيمة العائمة المفردة.
+float - القيمة الفاصلة المفردة.
 ### readFloatArray(long position, long count) {#readFloatArray-long-long-}
 ```
 public float[] readFloatArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من القيم العائمة من التدفق.
+يقرأ مصفوفة من القيم العائمة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -242,14 +242,14 @@ public float[] readFloatArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-float[] - مصفوفة قيم عائمة.
+float[] - مصفوفة القيم الفاصلة.
 ### readRational(long position) {#readRational-long-}
 ```
 public TiffRational readRational(long position)
 ```
 
 
-يقرأ قيمة عدد نسبي واحد من التدفق.
+يقرأ قيمة عدد كسرية واحدة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -264,7 +264,7 @@ public TiffSRational readSRational(long position)
 ```
 
 
-يقرأ قيمة عدد نسبي موقّع واحد من التدفق.
+يقرأ قيمة عدد كسرية موقعة واحدة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -279,7 +279,7 @@ public TiffRational[] readRationalArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من القيم النسبية من التدفق.
+يقرأ مصفوفة من القيم الكسرية من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -295,7 +295,7 @@ public TiffSRational[] readSRationalArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من القيم النسبية الموقعة من التدفق.
+يقرأ مصفوفة من القيم الكسرية الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -311,7 +311,7 @@ public byte readSByte(long position)
 ```
 
 
-يقرأ بيانات بايت موقعة من التدفق.
+يقرأ بيانات بايت موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -319,14 +319,14 @@ public byte readSByte(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-byte - قيمة البايت الموقعة.
+byte - قيمة البايت الموقّعة.
 ### readSByteArray(long position, long count) {#readSByteArray-long-long-}
 ```
 public byte[] readSByteArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم البايت الموقعة من التدفق.
+يقرأ مصفوفة من قيم البايت الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -335,14 +335,14 @@ public byte[] readSByteArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-byte[] - مصفوفة قيم البايت الموقعة.
+byte[] - مصفوفة قيم البايت الموقّعة.
 ### readSInt(long position) {#readSInt-long-}
 ```
 public int readSInt(long position)
 ```
 
 
-يقرأ قيمة عدد صحيح موقّع من التدفق.
+يقرأ قيمة عدد صحيح موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -357,7 +357,7 @@ public int[] readSIntArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم الأعداد الصحيحة الموقعة من التدفق.
+يقرأ مصفوفة من قيم الأعداد الصحيحة الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -366,14 +366,14 @@ public int[] readSIntArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-int[] - مصفوفة قيم عدد صحيح موقعة.
+int[] - مصفوفة قيم الأعداد الصحيحة الموقّعة.
 ### readSShort(long position) {#readSShort-long-}
 ```
 public short readSShort(long position)
 ```
 
 
-يقرأ قيمة قصير موقّع من التدفق.
+يقرأ قيمة عدد قصير موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -381,14 +381,14 @@ public short readSShort(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-short - قيمة قصير موقّعة.
+short - قيمة short موقّعة.
 ### readSShortArray(long position, long count) {#readSShortArray-long-long-}
 ```
 public short[] readSShortArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم القصير الموقعة من التدفق.
+يقرأ مصفوفة من القيم القصيرة الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -397,14 +397,14 @@ public short[] readSShortArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-short[] - مصفوفة قيم قصير موقعة.
+short[] - مصفوفة قيم short الموقّعة.
 ### readUInt(long position) {#readUInt-long-}
 ```
 public long readUInt(long position)
 ```
 
 
-يقرأ قيمة عدد صحيح غير موقّع من التدفق.
+اقرأ قيمة عدد صحيح غير موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -419,7 +419,7 @@ public long[] readUIntArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم الأعداد الصحيحة غير الموقعة من التدفق.
+يقرأ مصفوفة من القيم العددية الصحيحة غير الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -428,14 +428,14 @@ public long[] readUIntArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-long[] - مصفوفة قيم عدد صحيح غير موقعة.
+long[] - مصفوفة قيم الأعداد الصحيحة غير الموقّعة.
 ### readUShort(long position) {#readUShort-long-}
 ```
 public int readUShort(long position)
 ```
 
 
-يقرأ قيمة قصير غير موقّع من التدفق.
+اقرأ قيمة قصيرة غير موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -443,14 +443,14 @@ public int readUShort(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-int - قيمة قصيرة غير موقعة.
+int - قيمة short غير موقّعة.
 ### readUShortArray(long position, long count) {#readUShortArray-long-long-}
 ```
 public int[] readUShortArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم الأعداد الصحيحة غير الموقعة من التدفق.
+يقرأ مصفوفة من القيم العددية الصحيحة غير الموقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -459,14 +459,14 @@ public int[] readUShortArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-int[] - مصفوفة من القيم الصحيحة غير الموقعة.
+int[] - مصفوفة قيم الأعداد الصحيحة غير الموقّعة.
 ### readLong(long position) {#readLong-long-}
 ```
 public final long readLong(long position)
 ```
 
 
-يقرأ قيمة عدد طويل غير موقّع من التدفق.
+اقرأ قيمة طويلة غير موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -474,14 +474,14 @@ public final long readLong(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-long - قيمة قصيرة غير موقعة.
+long - قيمة short غير موقّعة.
 ### readLongArray(long position, long count) {#readLongArray-long-long-}
 ```
 public final long[] readLongArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم الأعداد الطويلة من التدفق.
+يقرأ مصفوفة من القيم الطويلة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -490,14 +490,14 @@ public final long[] readLongArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-long[] - مصفوفة ulong.
+long[] - مصفوفة long.
 ### readULong(long position) {#readULong-long-}
 ```
 public final long readULong(long position)
 ```
 
 
-يقرأ قيمة عدد طويل غير موقّع من التدفق.
+اقرأ قيمة طويلة غير موقعة من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -505,14 +505,14 @@ public final long readULong(long position)
 | position | long | الموضع للقراءة منه. |
 
 **Returns:**
-long - قيمة قصيرة غير موقعة.
+long - قيمة short غير موقّعة.
 ### readULongArray(long position, long count) {#readULongArray-long-long-}
 ```
 public final long[] readULongArray(long position, long count)
 ```
 
 
-يقرأ مصفوفة من قيم الأعداد الطويلة غير الموقعة من التدفق.
+يقرأ مصفوفة من القيم غير الموقعة من نوع ulong من الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -521,19 +521,19 @@ public final long[] readULongArray(long position, long count)
 | count | long | عدد العناصر. |
 
 **Returns:**
-long[] - مصفوفة ulong.
+long[] - مصفوفة long.
 ### toStreamContainer(long startPosition) {#toStreamContainer-long-}
 ```
 public StreamContainer toStreamContainer(long startPosition)
 ```
 
 
-يحوّل البيانات الأساسية إلى حاوية التدفق.
+يحوّل البيانات الأساسية إلى حاوية الدفق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPosition | long | موضع البداية للبدء في التحويل منه. |
+| startPosition | long | موضع البداية للبدء بالتحويل من. |
 
 **Returns:**
 [StreamContainer](../../com.aspose.imaging/streamcontainer) - The `StreamContainer` with converted data.

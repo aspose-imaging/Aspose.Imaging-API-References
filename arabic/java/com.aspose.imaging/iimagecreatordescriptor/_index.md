@@ -12,13 +12,13 @@ url: /ar/java/com.aspose.imaging/iimagecreatordescriptor/
 public interface IImageCreatorDescriptor extends IImageDescriptor
 ```
 
-وصف منشئ الصورة الذي يحدد خصائص المنشئ. يُستخدم وصف المنشئ لتجاوز الحاجة إلى احتواء كل مثيل لمنشئ الصورة في الذاكرة ومشكلات تعدد الخيوط.
+المُعرّف الخاص بمنشئ الصورة الذي يحدد خصائص المنشئ. يُستخدم مُعرّف المنشئ لتجاوز الحاجة إلى احتواء كل مثال من منشئ الصورة في الذاكرة ومشكلات تعدد الخيوط.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [canCreate(ImageOptionsBase imageOptions)](#canCreate-com.aspose.imaging.ImageOptionsBase-) | يحدد ما إذا كان منشئ الصورة يمكنه إنشاء صورة جديدة باستخدام `imageOptions`. |
-| [createInstance()](#createInstance--) | ينشئ مثيلًا جديدًا للمنشئ. |
+| [createInstance()](#createInstance--) | ينشئ مثال منشئ جديد. |
 ### canCreate(ImageOptionsBase imageOptions) {#canCreate-com.aspose.imaging.ImageOptionsBase-}
 ```
 public abstract boolean canCreate(ImageOptionsBase imageOptions)
@@ -33,14 +33,14 @@ public abstract boolean canCreate(ImageOptionsBase imageOptions)
 | imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الصورة. |
 
 **Returns:**
-منطقية - `true` إذا كان منشئ الصورة الذي تم إنشاؤه بواسطة هذا الوصف يمكنه إنشاء بيانات الصورة باستخدام `imageOptions` المحدد؛ وإلا `false`.
+منطقي - `true` إذا كان منشئ الصورة الذي تم إنشاؤه بواسطة هذا الوصف يمكنه إنشاء بيانات الصورة باستخدام `imageOptions` المحدد؛ وإلا `false`.
 ### createInstance() {#createInstance--}
 ```
 public abstract IImageCreator createInstance()
 ```
 
 
-ينشئ مثيلًا جديدًا للمنشئ.
+ينشئ مثال منشئ جديد.
 
 **Returns:**
 [IImageCreator](../../com.aspose.imaging/iimagecreator) - A new creator instance.

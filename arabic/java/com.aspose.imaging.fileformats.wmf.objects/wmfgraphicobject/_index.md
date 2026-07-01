@@ -7,7 +7,7 @@ weight: 40
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfGraphicObject extends WmfObject
 ```
@@ -22,8 +22,8 @@ public class WmfGraphicObject extends WmfObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIndex()](#getIndex--) | الحصول أو تعيين الفهرس. |
-| [setIndex(int value)](#setIndex-int-) | الحصول أو تعيين الفهرس. |
+| [getIndex()](#getIndex--) | يحصل أو يعيّن الفهرس. |
+| [setIndex(int value)](#setIndex-int-) | يحصل أو يعيّن الفهرس. |
 ### WmfGraphicObject() {#WmfGraphicObject--}
 ```
 public WmfGraphicObject()
@@ -36,7 +36,7 @@ public int getIndex()
 ```
 
 
-الحصول أو تعيين الفهرس.
+يحصل أو يعيّن الفهرس.
 
 القيمة: الفهرس.
 
@@ -48,12 +48,12 @@ public void setIndex(int value)
 ```
 
 
-الحصول أو تعيين الفهرس.
+يحصل أو يعيّن الفهرس.
 
 القيمة: الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

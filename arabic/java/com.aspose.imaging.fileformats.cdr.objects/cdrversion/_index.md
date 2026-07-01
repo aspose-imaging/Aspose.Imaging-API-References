@@ -51,5 +51,5 @@ public final void setVersion(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الإصدار. |
+| value | int | الإصدار. |
 

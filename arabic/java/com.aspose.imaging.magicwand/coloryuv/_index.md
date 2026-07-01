@@ -18,16 +18,16 @@ public class ColorYUV extends Struct<ColorYUV>
 | المنشئ | الوصف |
 | --- | --- |
 | [ColorYUV()](#ColorYUV--) |  |
-| [ColorYUV(int Y, int U, int V)](#ColorYUV-int-int-int-) | يُنشئ مثيلًا جديدًا للهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) مع مكوّن الإضاءة المحدد ومكوّنات الإسقاط الزرقاء والحمراء. |
-| [ColorYUV(Color color)](#ColorYUV-com.aspose.imaging.Color-) | يُنشئ مثيلًا جديدًا للهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) من الـColor الموجود المحدد. |
+| [ColorYUV(int Y, int U, int V)](#ColorYUV-int-int-int-) | ينشئ نسخة جديدة من بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) مع مكوّن الإضاءة المحدد ومكوّنات الإسقاط الزرقاء والحمراء. |
+| [ColorYUV(Color color)](#ColorYUV-com.aspose.imaging.Color-) | ينشئ نسخة جديدة من بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) من [Color](../../com.aspose.imaging/color) المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getY()](#getY--) | يحصل على قيمة مكوّن الإضاءة لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
-| [getU()](#getU--) | يحصل على قيمة مكوّن الإسقاط الأزرق لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
-| [getV()](#getV--) | يحصل على قيمة مكوّن الإسقاط الأحمر لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
-| [toString()](#toString--) | يحوّل هذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة من قبل الإنسان. |
+| [getY()](#getY--) | يحصل على قيمة مكوّن الإضاءة لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
+| [getU()](#getU--) | يحصل على قيمة مكوّن الإسقاط الأزرق لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
+| [getV()](#getV--) | يحصل على قيمة مكوّن الإسقاط الأحمر لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv). |
+| [toString()](#toString--) | يحوّل هذه البنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة للإنسان. |
 | [CloneTo(ColorYUV that)](#CloneTo-com.aspose.imaging.magicwand.ColorYUV-) |  |
 | [Clone()](#Clone--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
@@ -44,7 +44,7 @@ public ColorYUV(int Y, int U, int V)
 ```
 
 
-يُنشئ مثيلًا جديدًا للهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) مع مكوّن الإضاءة المحدد ومكوّنات الإسقاط الزرقاء والحمراء.
+ينشئ نسخة جديدة من بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) مع مكوّن الإضاءة المحدد ومكوّنات الإسقاط الزرقاء والحمراء.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,12 +59,12 @@ public ColorYUV(Color color)
 ```
 
 
-يُنشئ مثيلًا جديدًا للهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) من الـColor الموجود المحدد.
+ينشئ نسخة جديدة من بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) من [Color](../../com.aspose.imaging/color) المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [Color](../../com.aspose.imaging/color) | اللون الذي يُنشأ منه الـ[ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) الجديد. |
+| color | [Color](../../com.aspose.imaging/color) | اللون الذي يُنشأ منه [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) الجديد. |
 
 ### getY() {#getY--}
 ```
@@ -72,40 +72,40 @@ public final double getY()
 ```
 
 
-يحصل على قيمة مكوّن الإضاءة لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+يحصل على قيمة مكوّن الإضاءة لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 
 **Returns:**
-double - قيمة مكوّن الإضاءة لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+double - قيمة مكوّن الإضاءة لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 ### getU() {#getU--}
 ```
 public final double getU()
 ```
 
 
-يحصل على قيمة مكوّن الإسقاط الأزرق لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+يحصل على قيمة مكوّن الإسقاط الأزرق لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 
 **Returns:**
-double - قيمة مكوّن الإسقاط الأزرق لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+double - قيمة مكوّن الإسقاط الأزرق لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 ### getV() {#getV--}
 ```
 public final double getV()
 ```
 
 
-يحصل على قيمة مكوّن الإسقاط الأحمر لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+يحصل على قيمة مكوّن الإسقاط الأحمر لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 
 **Returns:**
-double - قيمة مكوّن الإسقاط الأحمر لهذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
+double - قيمة مكوّن الإسقاط الأحمر لهذه بنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv).
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-يحوّل هذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة من قبل الإنسان.
+يحوّل هذه البنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة للإنسان.
 
 **Returns:**
-java.lang.String - يحوّل هذا الهيكل [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة من قبل الإنسان.
+java.lang.String - يحوّل هذه البنية [ColorYUV](../../com.aspose.imaging.magicwand/coloryuv) إلى سلسلة قابلة للقراءة للإنسان.
 ### CloneTo(ColorYUV that) {#CloneTo-com.aspose.imaging.magicwand.ColorYUV-}
 ```
 public void CloneTo(ColorYUV that)

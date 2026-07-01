@@ -1,7 +1,7 @@
 ---
 title: "EmfMoveToEx"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_MOVETOEX يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية."
+description: "سجل EMR_MOVETOEX يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية."
 type: docs
 weight: 74
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
@@ -17,21 +17,21 @@ public final class EmfMoveToEx extends EmfRecord
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfMoveToEx(EmfRecord record)](#EmfMoveToEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُهيئ مثيلاً جديدًا من الفئة `EmfMoveToEx`. |
-| [EmfMoveToEx()](#EmfMoveToEx--) | يُهيئ مثيلاً جديدًا من الفئة `EmfMoveToEx`. |
+| [EmfMoveToEx(EmfRecord record)](#EmfMoveToEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديداً من الفئة `EmfMoveToEx`. |
+| [EmfMoveToEx()](#EmfMoveToEx--) | يُنشئ مثيلاً جديداً من الفئة `EmfMoveToEx`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getOffset()](#getOffset--) | يحصل أو يعيّن كائن WMF PointL 64‑بت، المحدد في القسم 2.2.2.15 من [MS-WMF]، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية. |
-| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | يحصل أو يعيّن كائن WMF PointL 64‑بت، المحدد في القسم 2.2.2.15 من [MS-WMF]، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية. |
+| [getOffset()](#getOffset--) | الحصول أو تعيين كائن WMF PointL 64-بت، المحدد في [MS-WMF] القسم 2.2.2.15، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية. |
+| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | الحصول أو تعيين كائن WMF PointL 64-بت، المحدد في [MS-WMF] القسم 2.2.2.15، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية. |
 ### EmfMoveToEx(EmfRecord record) {#EmfMoveToEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfMoveToEx(EmfRecord record)
 ```
 
 
-يُهيئ مثيلاً جديدًا من الفئة `EmfMoveToEx`.
+يُنشئ مثيلاً جديداً من الفئة `EmfMoveToEx`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public EmfMoveToEx()
 ```
 
 
-يُهيئ مثيلاً جديدًا من الفئة `EmfMoveToEx`.
+يُنشئ مثيلاً جديداً من الفئة `EmfMoveToEx`.
 
 ### getOffset() {#getOffset--}
 ```
@@ -52,7 +52,7 @@ public Point getOffset()
 ```
 
 
-يحصل أو يعيّن كائن WMF PointL 64‑بت، المحدد في القسم 2.2.2.15 من [MS-WMF]، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية.
+الحصول أو تعيين كائن WMF PointL 64-بت، المحدد في [MS-WMF] القسم 2.2.2.15، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية.
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOffset(Point value)
 ```
 
 
-يحصل أو يعيّن كائن WMF PointL 64‑بت، المحدد في القسم 2.2.2.15 من [MS-WMF]، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية.
+الحصول أو تعيين كائن WMF PointL 64-بت، المحدد في [MS-WMF] القسم 2.2.2.15، والذي يحدد إحداثيات الموضع الحالي الجديد بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

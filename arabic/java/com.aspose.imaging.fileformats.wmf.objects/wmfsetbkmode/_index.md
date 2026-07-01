@@ -7,7 +7,7 @@ weight: 74
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetBkMode extends WmfObject
 ```
@@ -24,8 +24,8 @@ public class WmfSetBkMode extends WmfObject
 | --- | --- |
 | [getBkMode()](#getBkMode--) | يحصل أو يعيّن وضع bk. |
 | [setBkMode(short value)](#setBkMode-short-) | يحصل أو يعيّن وضع bk. |
-| [getReserved()](#getReserved--) | يحصل أو يعيّن الحجز. |
-| [setReserved(int value)](#setReserved-int-) | يحصل أو يعيّن الحجز. |
+| [getReserved()](#getReserved--) | يحصل أو يضبط الحجز. |
+| [setReserved(int value)](#setReserved-int-) | يحصل أو يضبط الحجز. |
 ### WmfSetBkMode() {#WmfSetBkMode--}
 ```
 public WmfSetBkMode()
@@ -43,7 +43,7 @@ public short getBkMode()
 القيمة: وضع bk.
 
 **Returns:**
-short
+قصير
 ### setBkMode(short value) {#setBkMode-short-}
 ```
 public void setBkMode(short value)
@@ -57,7 +57,7 @@ public void setBkMode(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -65,7 +65,7 @@ public int getReserved()
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
@@ -77,12 +77,12 @@ public void setReserved(int value)
 ```
 
 
-يحصل أو يعيّن الحجز.
+يحصل أو يضبط الحجز.
 
 القيمة: الحجز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

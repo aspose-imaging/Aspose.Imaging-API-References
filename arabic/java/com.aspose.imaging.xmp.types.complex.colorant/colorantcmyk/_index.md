@@ -1,7 +1,7 @@
 ---
 title: "ColorantCmyk"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل صبغة CMYK."
+description: "يمثّل صبغة CMYK."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantCmyk extends ColorantBase
 ```
 
-يمثل صبغة CMYK.
+يمثّل صبغة CMYK.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ColorantCmyk()](#ColorantCmyk--) | يُنشئ مثيلاً جديداً من الفئة `ColorantCmyk`. |
-| [ColorantCmyk(float black, float cyan, float magenta, float yellow)](#ColorantCmyk-float-float-float-float-) | يُنشئ مثيلاً جديداً من الفئة `ColorantCmyk`. |
+| [ColorantCmyk()](#ColorantCmyk--) | يُنشئ مثيلًا جديدًا من الفئة `ColorantCmyk`. |
+| [ColorantCmyk(float black, float cyan, float magenta, float yellow)](#ColorantCmyk-float-float-float-float-) | يُنشئ مثيلًا جديدًا من الفئة `ColorantCmyk`. |
 ## الحقول
 
 | حقل | الوصف |
@@ -29,14 +29,14 @@ public final class ColorantCmyk extends ColorantBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBlack()](#getBlack--) | يحصل أو يعيّن قيمة المكوّن الأسود. |
-| [setBlack(float value)](#setBlack-float-) | يحصل أو يعيّن قيمة المكوّن الأسود. |
-| [getCyan()](#getCyan--) | يحصل أو يعيّن قيمة المكوّن السماوي. |
-| [setCyan(float value)](#setCyan-float-) | يحصل أو يعيّن قيمة المكوّن السماوي. |
-| [getMagenta()](#getMagenta--) | يحصل أو يعيّن قيمة المكوّن الأرجواني. |
-| [setMagenta(float value)](#setMagenta-float-) | يحصل أو يعيّن قيمة المكوّن الأرجواني. |
-| [getYellow()](#getYellow--) | يحصل أو يعيّن قيمة المكوّن الأصفر. |
-| [setYellow(float value)](#setYellow-float-) | يحصل أو يعيّن قيمة المكوّن الأصفر. |
+| [getBlack()](#getBlack--) | يحصل أو يضبط قيمة المكوّن الأسود. |
+| [setBlack(float value)](#setBlack-float-) | يحصل أو يضبط قيمة المكوّن الأسود. |
+| [getCyan()](#getCyan--) | يحصل أو يضبط قيمة المكوّن السماوي. |
+| [setCyan(float value)](#setCyan-float-) | يحصل أو يضبط قيمة المكوّن السماوي. |
+| [getMagenta()](#getMagenta--) | يحصل أو يضبط قيمة المكوّن الأرجواني. |
+| [setMagenta(float value)](#setMagenta-float-) | يحصل أو يضبط قيمة المكوّن الأرجواني. |
+| [getYellow()](#getYellow--) | يحصل أو يضبط قيمة المكوّن الأصفر. |
+| [setYellow(float value)](#setYellow-float-) | يحصل أو يضبط قيمة المكوّن الأصفر. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### ColorantCmyk() {#ColorantCmyk--}
 ```
@@ -44,7 +44,7 @@ public ColorantCmyk()
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `ColorantCmyk`.
+يُنشئ مثيلًا جديدًا من الفئة `ColorantCmyk`.
 
 ### ColorantCmyk(float black, float cyan, float magenta, float yellow) {#ColorantCmyk-float-float-float-float-}
 ```
@@ -52,7 +52,7 @@ public ColorantCmyk(float black, float cyan, float magenta, float yellow)
 ```
 
 
-يُنشئ مثيلاً جديداً من الفئة `ColorantCmyk`.
+يُنشئ مثيلًا جديدًا من الفئة `ColorantCmyk`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -84,7 +84,7 @@ public float getBlack()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأسود.
+يحصل أو يضبط قيمة المكوّن الأسود.
 
 القيمة: قيمة المكوّن الأسود.
 
@@ -96,14 +96,14 @@ public void setBlack(float value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأسود.
+يحصل أو يضبط قيمة المكوّن الأسود.
 
 القيمة: قيمة المكوّن الأسود.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getCyan() {#getCyan--}
 ```
@@ -111,9 +111,9 @@ public float getCyan()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن السماوي.
+يحصل أو يضبط قيمة المكوّن السماوي.
 
-القيمة: قيمة مكوّن اللون السماوي.
+القيمة: قيمة المكوّن السماوي.
 
 **Returns:**
 float
@@ -123,14 +123,14 @@ public void setCyan(float value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن السماوي.
+يحصل أو يضبط قيمة المكوّن السماوي.
 
-القيمة: قيمة مكوّن اللون السماوي.
+القيمة: قيمة المكوّن السماوي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getMagenta() {#getMagenta--}
 ```
@@ -138,7 +138,7 @@ public float getMagenta()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأرجواني.
+يحصل أو يضبط قيمة المكوّن الأرجواني.
 
 القيمة: قيمة المكوّن الأرجواني.
 
@@ -150,14 +150,14 @@ public void setMagenta(float value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأرجواني.
+يحصل أو يضبط قيمة المكوّن الأرجواني.
 
 القيمة: قيمة المكوّن الأرجواني.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getYellow() {#getYellow--}
 ```
@@ -165,7 +165,7 @@ public float getYellow()
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأصفر.
+يحصل أو يضبط قيمة المكوّن الأصفر.
 
 القيمة: قيمة المكوّن الأصفر.
 
@@ -177,14 +177,14 @@ public void setYellow(float value)
 ```
 
 
-يحصل أو يعيّن قيمة المكوّن الأصفر.
+يحصل أو يضبط قيمة المكوّن الأصفر.
 
 القيمة: قيمة المكوّن الأصفر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

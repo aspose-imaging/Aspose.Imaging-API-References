@@ -1,7 +1,7 @@
 ---
 title: "WmfPitchAndFamily"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن PitchAndFamily يحدد خصائص العرض (pitch) والعائلة (family) لكائن Font القسم 2.2.1.2."
+description: "كائن PitchAndFamily يحدد خصائص العرض والعائلة لكائن Font (القسم 2.2.1.2)."
 type: docs
 weight: 54
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
@@ -18,16 +18,16 @@ public class WmfPitchAndFamily extends Struct<WmfPitchAndFamily>
 | المنشئ | الوصف |
 | --- | --- |
 | [WmfPitchAndFamily()](#WmfPitchAndFamily--) |  |
-| [WmfPitchAndFamily(byte byteData)](#WmfPitchAndFamily-byte-) | يُهيئ نسخة جديدة من بنية `WmfPitchAndFamily`. |
-| [WmfPitchAndFamily(byte pitch, byte family)](#WmfPitchAndFamily-byte-byte-) | يُهيئ نسخة جديدة من بنية `WmfPitchAndFamily`. |
+| [WmfPitchAndFamily(byte byteData)](#WmfPitchAndFamily-byte-) | ينشئ مثيلاً جديداً من البنية `WmfPitchAndFamily`. |
+| [WmfPitchAndFamily(byte pitch, byte family)](#WmfPitchAndFamily-byte-byte-) | ينشئ مثيلاً جديداً من البنية `WmfPitchAndFamily`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFamily()](#getFamily--) | يحصل على خاصية للخط تصف مظهره العام. |
-| [getPitch()](#getPitch--) | يحصل على خاصية للخط تصف عرض الأحرف. |
-| [getByteData()](#getByteData--) | يضبط البيانات ``. |
-| [setByteData(byte value)](#setByteData-byte-) | يضبط البيانات ``. |
+| [getFamily()](#getFamily--) | يحصل على خاصية من الخط تصف مظهره العام. |
+| [getPitch()](#getPitch--) | يحصل على خاصية من الخط تصف درجة الصوت للأحرف. |
+| [getByteData()](#getByteData--) | يضبط الـ `` البيانات. |
+| [setByteData(byte value)](#setByteData-byte-) | يضبط الـ `` البيانات. |
 | [toByte()](#toByte--) | إلى البايت. |
 | [CloneTo(WmfPitchAndFamily that)](#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfPitchAndFamily-) |  |
 | [Clone()](#Clone--) |  |
@@ -46,12 +46,12 @@ public WmfPitchAndFamily(byte byteData)
 ```
 
 
-يُهيئ نسخة جديدة من بنية `WmfPitchAndFamily`.
+ينشئ مثيلاً جديداً من البنية `WmfPitchAndFamily`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| byteData | byte | البيانات ``. |
+| byteData | byte | الـ `` البيانات. |
 
 ### WmfPitchAndFamily(byte pitch, byte family) {#WmfPitchAndFamily-byte-byte-}
 ```
@@ -59,12 +59,12 @@ public WmfPitchAndFamily(byte pitch, byte family)
 ```
 
 
-يُهيئ نسخة جديدة من بنية `WmfPitchAndFamily`.
+ينشئ مثيلاً جديداً من البنية `WmfPitchAndFamily`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| pitch | byte | العرض. |
+| درجة الصوت | byte | درجة الصوت. |
 | العائلة | byte | العائلة. |
 
 ### getFamily() {#getFamily--}
@@ -73,7 +73,7 @@ public byte getFamily()
 ```
 
 
-يحصل على خاصية من الخط تصف مظهره العام. يجب أن تكون هذه قيمة في تعداد FamilyFont.
+يحصل على خاصية من الخط تصف مظهره العام. يجب أن تكون هذه قيمة في تعداد FamilyFont
 
 القيمة: العائلة.
 
@@ -97,9 +97,9 @@ public byte getByteData()
 ```
 
 
-يضبط البيانات ``.
+يضبط الـ `` البيانات.
 
-القيمة: الـ `` data.
+القيمة: الـ `` البيانات.
 
 **Returns:**
 byte
@@ -109,14 +109,14 @@ public void setByteData(byte value)
 ```
 
 
-يضبط البيانات ``.
+يضبط الـ `` البيانات.
 
-القيمة: الـ `` data.
+القيمة: الـ `` البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### toByte() {#toByte--}
 ```
@@ -127,7 +127,7 @@ public byte toByte()
 إلى البايت.
 
 **Returns:**
-byte - قيمة البايت.
+بايت - قيمة البايت.
 ### CloneTo(WmfPitchAndFamily that) {#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfPitchAndFamily-}
 ```
 public void CloneTo(WmfPitchAndFamily that)

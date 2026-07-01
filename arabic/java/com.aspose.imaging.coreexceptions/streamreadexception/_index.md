@@ -17,10 +17,10 @@ public class StreamReadException extends FrameworkException
 
 | المنشئ | الوصف |
 | --- | --- |
-| [StreamReadException(String message)](#StreamReadException-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `StreamReadException`. |
-| [StreamReadException(String message, Throwable innerException)](#StreamReadException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديداً من الفئة `StreamReadException`. |
-| [StreamReadException(String message, Throwable innerException, int expectedReadCount, int actualReadCount)](#StreamReadException-java.lang.String-java.lang.Throwable-int-int-) | ينشئ مثيلاً جديداً من الفئة `StreamReadException`. |
-| [StreamReadException(String message, int expectedReadCount, int actualReadCount)](#StreamReadException-java.lang.String-int-int-) | ينشئ مثيلاً جديداً من الفئة `StreamReadException`. |
+| [StreamReadException(String message)](#StreamReadException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `StreamReadException`. |
+| [StreamReadException(String message, Throwable innerException)](#StreamReadException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `StreamReadException`. |
+| [StreamReadException(String message, Throwable innerException, int expectedReadCount, int actualReadCount)](#StreamReadException-java.lang.String-java.lang.Throwable-int-int-) | ينشئ مثيلاً جديدًا من الفئة `StreamReadException`. |
+| [StreamReadException(String message, int expectedReadCount, int actualReadCount)](#StreamReadException-java.lang.String-int-int-) | ينشئ مثيلاً جديدًا من الفئة `StreamReadException`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -33,7 +33,7 @@ public StreamReadException(String message)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `StreamReadException`.
+ينشئ مثيلاً جديدًا من الفئة `StreamReadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public StreamReadException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `StreamReadException`.
+ينشئ مثيلاً جديدًا من الفئة `StreamReadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,7 +60,7 @@ public StreamReadException(String message, Throwable innerException, int expecte
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `StreamReadException`.
+ينشئ مثيلاً جديدًا من الفئة `StreamReadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public StreamReadException(String message, int expectedReadCount, int actualRead
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `StreamReadException`.
+ينشئ مثيلاً جديدًا من الفئة `StreamReadException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

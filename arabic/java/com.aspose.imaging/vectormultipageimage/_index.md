@@ -1,7 +1,7 @@
 ---
 title: "VectorMultipageImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الصورة المتجهية متعددة الصفحات"
+description: "صورة المتجه متعددة الصفحات."
 type: docs
 weight: 118
 url: /ar/java/com.aspose.imaging/vectormultipageimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class VectorMultipageImage extends VectorImage implements IMultipageImage
 ```
 
-الصورة المتجهية متعددة الصفحات
+صورة المتجه متعددة الصفحات.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,7 +25,7 @@ public abstract class VectorMultipageImage extends VectorImage implements IMulti
 
 | طريقة | الوصف |
 | --- | --- |
-| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات. |
+| [isCached()](#isCached--) | يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد بتات الصورة لكل بكسل. |
 | [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
 | [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة. |
@@ -33,7 +33,7 @@ public abstract class VectorMultipageImage extends VectorImage implements IMulti
 | [getPageExportingAction()](#getPageExportingAction--) | يحصل على إجراء تصدير الصفحة. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | يضبط إجراء تصدير الصفحة. |
 | [getMetadata()](#getMetadata--) | يحصل على بيانات تعريف الصورة. |
-| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+| [cacheData()](#cacheData--) | يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer)). |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص المستطيل المحدد. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يُعيد تحجيم الصورة. |
 | [rotate(float angle)](#rotate-float-) | دوّر الصورة حول المركز. |
@@ -55,12 +55,12 @@ public boolean isCached()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+يحصل على قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 
 القيمة: `true` إذا تم تخزين بيانات الكائن مؤقتًا؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتاً حالياً ولا يلزم قراءة البيانات.
+boolean - قيمة تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا ولا يلزم قراءة البيانات.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -115,7 +115,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-يحصل على إجراء تصدير الصفحة. يرجى ملاحظة أن ضبط هذه الطريقة سيؤدي تلقائيًا إلى تحرير موارد الصفحة بعد تنفيذها. سيتم تنفيذها مباشرة قبل حفظ كل صفحة.
+يحصل على إجراء تصدير الصفحة. يرجى ملاحظة أن ضبط هذه الطريقة سيؤدي تلقائيًا إلى تحرير موارد الصفحة بعد تنفيذها. سيتم تنفيذها مباشرةً قبل حفظ كل صفحة.
 
 القيمة: إجراء تصدير الصفحة.
 
@@ -127,7 +127,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-يضبط إجراء تصدير الصفحة. يرجى ملاحظة أن ضبط هذه الطريقة سيؤدي تلقائيًا إلى تحرير موارد الصفحة بعد تنفيذها. سيتم تنفيذها مباشرة قبل حفظ كل صفحة.
+يضبط إجراء تصدير الصفحة. يرجى ملاحظة أن ضبط هذه الطريقة سيؤدي تلقائيًا إلى تحرير موارد الصفحة بعد تنفيذها. سيتم تنفيذها مباشرةً قبل حفظ كل صفحة.
 
 القيمة: إجراء تصدير الصفحة.
 
@@ -152,7 +152,7 @@ public void cacheData()
 ```
 
 
-يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
+يقوم بتخزين البيانات مؤقتًا ويضمن عدم تحميل بيانات إضافية من `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\\#getDataStreamContainer)).
 
 ### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}
 ```
@@ -193,7 +193,7 @@ public void rotate(float angle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
 
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```

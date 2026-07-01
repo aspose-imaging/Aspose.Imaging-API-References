@@ -1,7 +1,7 @@
 ---
 title: "EpsOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات EPS غير مستخدمة حاليًا"
+description: "خيارات EPS غير مستخدمة حاليًا."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.eps/epsoptions/
@@ -51,5 +51,5 @@ public void setSubType(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | النوع الفرعي لتنسيق EPS. |
+| value | قصير | النوع الفرعي لتنسيق EPS. |
 

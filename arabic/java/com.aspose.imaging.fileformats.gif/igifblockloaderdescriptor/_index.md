@@ -1,7 +1,7 @@
 ---
 title: "IGifBlockLoaderDescriptor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "وصف محمل كتلة GIF."
+description: "وصف محمل كتلة Gif."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.gif/igifblockloaderdescriptor/

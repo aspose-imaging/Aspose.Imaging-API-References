@@ -17,21 +17,21 @@ public final class WmfPenStyle extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Cosmetic](#Cosmetic) | التجميلية |
+| [Cosmetic](#Cosmetic) | التجميلي |
 | [EndcapRound](#EndcapRound) | نهايات الخط مستديرة. |
 | [JoinRound](#JoinRound) | وصلات الخط مستديرة. |
 | [Solid](#Solid) | القلم صلب. |
 | [Dash](#Dash) | القلم متقطع. |
 | [Dot](#Dot) | القلم منقط. |
 | [Dashdot](#Dashdot) | القلم يحتوي على شرطات ونقاط متناوبة. |
-| [Dashdotdot](#Dashdotdot) | القلم يحتوي على شرطات ونقاط مزدوجة. |
+| [Dashdotdot](#Dashdotdot) | القلم يحتوي على شرطات ونقط مزدوجة. |
 | [Null](#Null) | القلم غير مرئي. |
 | [Insideframe](#Insideframe) | القلم صلب. |
-| [Userstyle](#Userstyle) | القلم يستخدم مصفوفة تنسيق يقدمها المستخدم. |
-| [Alternate](#Alternate) | القلم يحدد كل بكسل بديل (هذا النمط ينطبق فقط على الأقلام التجميلية). |
+| [Userstyle](#Userstyle) | القلم يستخدم مصفوفة تنسيق يزودها المستخدم. |
+| [Alternate](#Alternate) | القلم يحدد كل بكسل بديل (هذا النمط ينطبق فقط على الأقلام التجميليّة). |
 | [EndcapSquare](#EndcapSquare) | نهايات الخط مربعة. |
 | [EndcapFlat](#EndcapFlat) | نهايات الخط مسطحة. |
-| [JoinBevel](#JoinBevel) | وصلات الخط مقعّدة. |
+| [JoinBevel](#JoinBevel) | وصلات الخط محدبة. |
 | [JoinMiter](#JoinMiter) | وصلات الخط مائلة عندما تكون ضمن الحد الحالي المحدد بواسطة سجل SETMITERLIMIT META\_ESCAPE. |
 ### Cosmetic {#Cosmetic}
 ```
@@ -39,7 +39,7 @@ public static final short Cosmetic
 ```
 
 
-التجميلية
+التجميلي
 
 ### EndcapRound {#EndcapRound}
 ```
@@ -95,7 +95,7 @@ public static final short Dashdotdot
 ```
 
 
-القلم يحتوي على شرطات ونقاط مزدوجة.
+القلم يحتوي على شرطات ونقط مزدوجة.
 
 ### Null {#Null}
 ```
@@ -111,7 +111,7 @@ public static final short Insideframe
 ```
 
 
-القلم صلب. عندما يُستخدم هذا القلم في أي سجل رسم يتطلب مستطيلًا محيطًا، يتم تقليل أبعاد الشكل بحيث يتناسب بالكامل داخل المستطيل المحيط، مع مراعاة عرض القلم.
+القلم صلب. عندما يُستخدم هذا القلم في أي سجل رسم يأخذ مستطيلًا محيطًا، يتم تقليص أبعاد الشكل بحيث يتناسب تمامًا مع المستطيل المحيط، مع مراعاة عرض القلم.
 
 ### Userstyle {#Userstyle}
 ```
@@ -119,7 +119,7 @@ public static final short Userstyle
 ```
 
 
-القلم يستخدم مصفوفة تنسيق يقدمها المستخدم.
+القلم يستخدم مصفوفة تنسيق يزودها المستخدم.
 
 ### Alternate {#Alternate}
 ```
@@ -127,7 +127,7 @@ public static final short Alternate
 ```
 
 
-القلم يحدد كل بكسل بديل (هذا النمط ينطبق فقط على الأقلام التجميلية).
+القلم يحدد كل بكسل بديل (هذا النمط ينطبق فقط على الأقلام التجميليّة).
 
 ### EndcapSquare {#EndcapSquare}
 ```
@@ -151,7 +151,7 @@ public static final short JoinBevel
 ```
 
 
-وصلات الخط مقعّدة.
+وصلات الخط محدبة.
 
 ### JoinMiter {#JoinMiter}
 ```
@@ -159,5 +159,5 @@ public static final short JoinMiter
 ```
 
 
-وصلات الخط مائلة عندما تكون ضمن الحد الحالي المحدد بواسطة سجل SETMITERLIMIT META\_ESCAPE. تكون الوصلة مقعّدة عندما تتجاوز الحد.
+وصلات الخط مائلة عندما تكون ضمن الحد الحالي المحدد بواسطة سجل SETMITERLIMIT META\_ESCAPE. تصبح الوصلة محدبة عندما تتجاوز الحد.
 

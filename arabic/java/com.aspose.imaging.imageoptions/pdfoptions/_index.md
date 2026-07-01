@@ -17,21 +17,21 @@ public class PdfOptions extends ImageOptionsBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PdfOptions()](#PdfOptions--) | يقوم بتهيئة نسخة جديدة من الفئة [PdfOptions](../../com.aspose.imaging.imageoptions/pdfoptions). |
+| [PdfOptions()](#PdfOptions--) | ينشئ مثيلًا جديدًا من الفئة [PdfOptions](../../com.aspose.imaging.imageoptions/pdfoptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [isUseOriginalImageResolution()](#isUseOriginalImageResolution--) | يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة |
-| [setUseOriginalImageResolution(boolean value)](#setUseOriginalImageResolution-boolean-) | يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة |
-| [getPdfDocumentInfo()](#getPdfDocumentInfo--) | يحصل أو يضبط البيانات الوصفية للمستند. |
-| [setPdfDocumentInfo(PdfDocumentInfo value)](#setPdfDocumentInfo-com.aspose.imaging.fileformats.pdf.PdfDocumentInfo-) | يحصل أو يضبط البيانات الوصفية للمستند. |
-| [getPdfCoreOptions()](#getPdfCoreOptions--) | خيارات النواة لملف PDF |
-| [setPdfCoreOptions(PdfCoreOptions value)](#setPdfCoreOptions-com.aspose.imaging.fileformats.pdf.PdfCoreOptions-) | خيارات النواة لملف PDF |
+| [isUseOriginalImageResolution()](#isUseOriginalImageResolution--) | يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة. |
+| [setUseOriginalImageResolution(boolean value)](#setUseOriginalImageResolution-boolean-) | يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة. |
+| [getPdfDocumentInfo()](#getPdfDocumentInfo--) | يحصل أو يضبط بيانات التعريف للمستند. |
+| [setPdfDocumentInfo(PdfDocumentInfo value)](#setPdfDocumentInfo-com.aspose.imaging.fileformats.pdf.PdfDocumentInfo-) | يحصل أو يضبط بيانات التعريف للمستند. |
+| [getPdfCoreOptions()](#getPdfCoreOptions--) | خيارات النواة لملف PDF. |
+| [setPdfCoreOptions(PdfCoreOptions value)](#setPdfCoreOptions-com.aspose.imaging.fileformats.pdf.PdfCoreOptions-) | خيارات النواة لملف PDF. |
 | [getPageSize()](#getPageSize--) | يحصل على حجم الصفحة. |
 | [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | يضبط حجم الصفحة. |
-| [isUseOriginalImageSize()](#isUseOriginalImageSize--) | يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة |
-| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة سَتُزال منذ الإصدار 25.3 |
+| [isUseOriginalImageSize()](#isUseOriginalImageSize--) | يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة. |
+| [setUseOriginalImageSize(boolean useOriginalImageSize)](#setUseOriginalImageSize-boolean-) | يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة سيتم إزالتها منذ الإصدار 25.3. |
 
 ## Example: The following example shows how to convert a multipage vector image to PDF format in general way without referencing to a particular image type.
 
@@ -46,7 +46,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // تصدير الصفحتين الأوليين فقط إلى الصفحات المقابلة في مستند PDF الناتج.
+    // صدّر الصفحتين الأوليتين فقط إلى الصفحات المقابلة في مستند PDF الناتج.
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -71,7 +71,7 @@ public PdfOptions()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من الفئة [PdfOptions](../../com.aspose.imaging.imageoptions/pdfoptions).
+ينشئ مثيلًا جديدًا من الفئة [PdfOptions](../../com.aspose.imaging.imageoptions/pdfoptions).
 
 ### isUseOriginalImageResolution() {#isUseOriginalImageResolution--}
 ```
@@ -79,7 +79,7 @@ public final boolean isUseOriginalImageResolution()
 ```
 
 
-يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة
+يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة.
 
 القيمة: مؤشر لاستخدام دقة DPI الأصلية للصورة
 
@@ -91,14 +91,14 @@ public final void setUseOriginalImageResolution(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة
+يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة.
 
 القيمة: مؤشر لاستخدام دقة DPI الأصلية للصورة
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى استخدام دقة DPI الأصلية للصورة |
+| value | boolean | قيمة تشير إلى استخدام دقة DPI الأصلية للصورة |
 
 ### getPdfDocumentInfo() {#getPdfDocumentInfo--}
 ```
@@ -106,7 +106,7 @@ public PdfDocumentInfo getPdfDocumentInfo()
 ```
 
 
-يحصل أو يضبط البيانات الوصفية للمستند.
+يحصل أو يضبط بيانات التعريف للمستند.
 
 **Returns:**
 [PdfDocumentInfo](../../com.aspose.imaging.fileformats.pdf/pdfdocumentinfo)
@@ -116,7 +116,7 @@ public void setPdfDocumentInfo(PdfDocumentInfo value)
 ```
 
 
-يحصل أو يضبط البيانات الوصفية للمستند.
+يحصل أو يضبط بيانات التعريف للمستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -129,7 +129,7 @@ public PdfCoreOptions getPdfCoreOptions()
 ```
 
 
-خيارات النواة لملف PDF
+خيارات النواة لملف PDF.
 
 **Returns:**
 [PdfCoreOptions](../../com.aspose.imaging.fileformats.pdf/pdfcoreoptions)
@@ -139,7 +139,7 @@ public void setPdfCoreOptions(PdfCoreOptions value)
 ```
 
 
-خيارات النواة لملف PDF
+خيارات النواة لملف PDF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -179,7 +179,7 @@ public boolean isUseOriginalImageSize()
 ```
 
 
-يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة
+يحصل على قيمة تشير إلى استخدام دقة DPI الأصلية للصورة.
 
 القيمة: مؤشر لاستخدام دقة DPI الأصلية للصورة
 
@@ -191,7 +191,7 @@ public void setUseOriginalImageSize(boolean useOriginalImageSize)
 ```
 
 
-يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة سَتُزال منذ الإصدار 25.3
+يضبط قيمة تشير إلى استخدام دقة DPI الأصلية للصورة سيتم إزالتها منذ الإصدار 25.3.
 
 القيمة: مؤشر لاستخدام دقة DPI الأصلية للصورة
 

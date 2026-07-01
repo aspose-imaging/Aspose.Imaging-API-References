@@ -1,7 +1,7 @@
 ---
 title: "RectangleProjectedShape"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثل شكلاً يتم إسقاطه على مستطيل موجه إلى اتجاه معين."
+description: "يمثل شكلاً يُسقط على مستطيل موجه إلى اتجاه معين."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.imaging.shapes/rectangleprojectedshape/
@@ -12,15 +12,15 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public abstract class RectangleProjectedShape extends Shape
 ```
 
-يمثل شكلاً يتم إسقاطه على مستطيل موجه بزاوية معينة. يتم تحديده بأربع نقاط يمكن تدويرها في الفضاء مع الحفاظ على طول الحواف نفسه و90 درجة بين الحواف المتجاورة.
+يمثل شكلاً يتم إسقاطه على مستطيل موجه إلى اتجاه معين. يُحدد بأربع نقاط يمكن تدويرها في الفضاء مع الحفاظ على نفس طول الحواف و 90 درجة بين الحواف المتجاورة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getLeftTop()](#getLeftTop--) | يحصل على النقطة اليسرى العليا للمستطيل. |
-| [getRightTop()](#getRightTop--) | يحصل على النقطة اليمنى العليا للمستطيل. |
-| [getLeftBottom()](#getLeftBottom--) | يحصل على النقطة اليسرى السفلى للمستطيل. |
-| [getRightBottom()](#getRightBottom--) | يحصل على النقطة اليمنى السفلى للمستطيل. |
+| [getLeftTop()](#getLeftTop--) | يحصل على نقطة الزاوية العليا اليسرى للمستطيل. |
+| [getRightTop()](#getRightTop--) | يحصل على نقطة الزاوية العليا اليمنى للمستطيل. |
+| [getLeftBottom()](#getLeftBottom--) | يحصل على نقطة الزاوية السفلية اليسرى للمستطيل. |
+| [getRightBottom()](#getRightBottom--) | يحصل على نقطة الزاوية السفلية اليمنى للمستطيل. |
 | [getCenter()](#getCenter--) | يحصل على مركز الشكل. |
 | [getBounds()](#getBounds--) | يحصل على حدود الكائن. |
 | [getRectangleWidth()](#getRectangleWidth--) | يحصل على عرض المستطيل. |
@@ -30,16 +30,16 @@ public abstract class RectangleProjectedShape extends Shape
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | يحصل على حدود الكائن. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | يطبق التحويل المحدد على الشكل. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان الـ `Object` المحدد يساوي هذه الحالة. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### getLeftTop() {#getLeftTop--}
 ```
 public PointF getLeftTop()
 ```
 
 
-يحصل على النقطة اليسرى العليا للمستطيل.
+يحصل على نقطة الزاوية العليا اليسرى للمستطيل.
 
-القيمة: النقطة اليسرى العليا للمستطيل.
+القيمة: نقطة الزاوية العليا اليسرى للمستطيل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -49,9 +49,9 @@ public PointF getRightTop()
 ```
 
 
-يحصل على النقطة اليمنى العليا للمستطيل.
+يحصل على نقطة الزاوية العليا اليمنى للمستطيل.
 
-القيمة: النقطة اليمنى العليا للمستطيل.
+القيمة: نقطة الزاوية العليا اليمنى للمستطيل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -61,9 +61,9 @@ public PointF getLeftBottom()
 ```
 
 
-يحصل على النقطة اليسرى السفلى للمستطيل.
+يحصل على نقطة الزاوية السفلية اليسرى للمستطيل.
 
-القيمة: النقطة اليسرى السفلى للمستطيل.
+القيمة: نقطة الزاوية السفلية اليسرى للمستطيل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -73,9 +73,9 @@ public PointF getRightBottom()
 ```
 
 
-يحصل على النقطة اليمنى السفلى للمستطيل.
+يحصل على نقطة الزاوية السفلية اليمنى للمستطيل.
 
-القيمة: النقطة اليمنى السفلى للمستطيل.
+القيمة: نقطة الزاوية السفلية اليمنى للمستطيل.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -135,7 +135,7 @@ public boolean hasSegments()
 
 يحصل على قيمة تشير إلى ما إذا كان الشكل يحتوي على مقاطع.
 
-القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا `false`.
+القيمة: `True` إذا كان الشكل يحتوي على مقاطع؛ وإلا، `false`.
 
 **Returns:**
 boolean
@@ -150,7 +150,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -165,8 +165,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | المصفوفة التي سيتم تطبيقها قبل حساب الحدود. |
-| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر ذلك على حجم حدود الكائن. |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | سيتم حساب المصفوفة التي سيتم تطبيقها قبل الحدود. |
+| pen | [Pen](../../com.aspose.imaging/pen) | القلم المستخدم للكائن. يمكن أن يؤثر هذا على حجم حدود الكائن. |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -181,7 +181,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل المراد تطبيقه. |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | التحويل الذي سيتم تطبيقه. |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -194,17 +194,17 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | ال `Object` للمقارنة مع هذه الحالة. |
+| obj | java.lang.Object | الكائن `Object` للمقارنة مع هذه المثيلة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `Object` المحدد يساوي هذه الحالة؛ وإلا `false`.
+منطقية - `true` إذا كان الـ `Object` المحدد مساويًا لهذه المثيلة؛ وإلا `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

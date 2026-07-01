@@ -22,16 +22,16 @@ public class WmfScanObject extends MetaObject
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCount()](#getCount--) | يحصل أو يعيّن العدد. |
-| [setCount(int value)](#setCount-int-) | يحصل أو يعيّن العدد. |
-| [getTop()](#getTop--) | يحصل أو يعيّن الأعلى. |
-| [setTop(int value)](#setTop-int-) | يحصل أو يعيّن الأعلى. |
-| [getBottom()](#getBottom--) | يحصل أو يعيّن الأسفل. |
-| [setBottom(int value)](#setBottom-int-) | يحصل أو يعيّن الأسفل. |
-| [getScanLines()](#getScanLines--) | يحصل أو يعيّن خطوط المسح. |
-| [setScanLines(Point[] value)](#setScanLines-com.aspose.imaging.Point---) | يحصل أو يعيّن خطوط المسح. |
-| [getCount2()](#getCount2--) | يحصل أو يعيّن count2. |
-| [setCount2(int value)](#setCount2-int-) | يحصل أو يعيّن count2. |
+| [getCount()](#getCount--) | الحصول أو تعيين العدد. |
+| [setCount(int value)](#setCount-int-) | الحصول أو تعيين العدد. |
+| [getTop()](#getTop--) | الحصول أو تعيين الأعلى. |
+| [setTop(int value)](#setTop-int-) | الحصول أو تعيين الأعلى. |
+| [getBottom()](#getBottom--) | الحصول أو تعيين الأسفل. |
+| [setBottom(int value)](#setBottom-int-) | الحصول أو تعيين الأسفل. |
+| [getScanLines()](#getScanLines--) | الحصول أو تعيين خطوط الفحص. |
+| [setScanLines(Point[] value)](#setScanLines-com.aspose.imaging.Point---) | الحصول أو تعيين خطوط الفحص. |
+| [getCount2()](#getCount2--) | الحصول أو تعيين count2. |
+| [setCount2(int value)](#setCount2-int-) | الحصول أو تعيين count2. |
 ### WmfScanObject() {#WmfScanObject--}
 ```
 public WmfScanObject()
@@ -44,9 +44,9 @@ public int getCount()
 ```
 
 
-يحصل أو يعيّن العدد.
+الحصول أو تعيين العدد.
 
-القيمة: عدد الإحداثيات الأفقية (محور x) في مصفوفة `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines`. يجب أن تكون هذه القيمة مضاعفًا للعدد 2، لأن نقاط النهاية اليسرى واليمنى مطلوبة لتحديد كل سطر مسح.
+القيمة: عدد الإحداثيات الأفقية (محور x) في مصفوفة `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines`. يجب أن تكون هذه القيمة مضاعفًا للعدد 2، لأن نقاط النهاية اليسرى واليمنى مطلوبة لتحديد كل خط فحص.
 
 **Returns:**
 int
@@ -56,14 +56,14 @@ public void setCount(int value)
 ```
 
 
-يحصل أو يعيّن العدد.
+الحصول أو تعيين العدد.
 
-القيمة: عدد الإحداثيات الأفقية (محور x) في مصفوفة `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines`. يجب أن تكون هذه القيمة مضاعفًا للعدد 2، لأن نقاط النهاية اليسرى واليمنى مطلوبة لتحديد كل سطر مسح.
+القيمة: عدد الإحداثيات الأفقية (محور x) في مصفوفة `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.ScanLines`. يجب أن تكون هذه القيمة مضاعفًا للعدد 2، لأن نقاط النهاية اليسرى واليمنى مطلوبة لتحديد كل خط فحص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getTop() {#getTop--}
 ```
@@ -71,9 +71,9 @@ public int getTop()
 ```
 
 
-يحصل أو يعيّن الأعلى.
+الحصول أو تعيين الأعلى.
 
-القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لسطر المسح العلوي.
+القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لخط الفحص العلوي.
 
 **Returns:**
 int
@@ -83,14 +83,14 @@ public void setTop(int value)
 ```
 
 
-يحصل أو يعيّن الأعلى.
+الحصول أو تعيين الأعلى.
 
-القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لسطر المسح العلوي.
+القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لخط الفحص العلوي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBottom() {#getBottom--}
 ```
@@ -98,9 +98,9 @@ public int getBottom()
 ```
 
 
-يحصل أو يعيّن الأسفل.
+الحصول أو تعيين الأسفل.
 
-القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لسطر المسح السفلي.
+القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لخط الفحص السفلي.
 
 **Returns:**
 int
@@ -110,14 +110,14 @@ public void setBottom(int value)
 ```
 
 
-يحصل أو يعيّن الأسفل.
+الحصول أو تعيين الأسفل.
 
-القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لسطر المسح السفلي.
+القيمة: الإحداثي العمودي (محور y)، بوحدات منطقية، لخط الفحص السفلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getScanLines() {#getScanLines--}
 ```
@@ -125,9 +125,9 @@ public Point[] getScanLines()
 ```
 
 
-يحصل أو يعيّن خطوط المسح.
+الحصول أو تعيين خطوط الفحص.
 
-القيمة: مصفوفة من أسطر المسح، كل منها محدد بإحداثيات أفقية (محور x) للنقاط اليسرى واليمنى لنهايته.
+القيمة: مصفوفة من خطوط الفحص، كل منها محدد بإحداثيات أفقية (محور x) للنقاط اليسرى واليمنى لنهايته.
 
 **Returns:**
 com.aspose.imaging.Point[]
@@ -137,9 +137,9 @@ public void setScanLines(Point[] value)
 ```
 
 
-يحصل أو يعيّن خطوط المسح.
+الحصول أو تعيين خطوط الفحص.
 
-القيمة: مصفوفة من أسطر المسح، كل منها محدد بإحداثيات أفقية (محور x) للنقاط اليسرى واليمنى لنهايته.
+القيمة: مصفوفة من خطوط الفحص، كل منها محدد بإحداثيات أفقية (محور x) للنقاط اليسرى واليمنى لنهايته.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -152,9 +152,9 @@ public int getCount2()
 ```
 
 
-يحصل أو يعيّن count2.
+الحصول أو تعيين count2.
 
-القيمة: نفس قيمة الحقل `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count`؛ وهي موجودة للسماح بالانتقال للأعلى في البنية.
+القيمة: نفس قيمة الحقل `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count`؛ وهو موجود للسماح بالتنقل الصاعد في البنية.
 
 **Returns:**
 int
@@ -164,12 +164,12 @@ public void setCount2(int value)
 ```
 
 
-يحصل أو يعيّن count2.
+الحصول أو تعيين count2.
 
-القيمة: نفس قيمة الحقل `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count`؛ وهي موجودة للسماح بالانتقال للأعلى في البنية.
+القيمة: نفس قيمة الحقل `com.aspose.imaging.fileFormats.wmf.objects.wmfScanObject.Count`؛ وهو موجود للسماح بالتنقل الصاعد في البنية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

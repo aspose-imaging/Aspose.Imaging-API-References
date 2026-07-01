@@ -1,5 +1,5 @@
 ---
-title: "FileFormat"
+title: "تنسيق الملف"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "أحد صيغ ملفات التصوير المدعومة."
 type: docs
@@ -35,19 +35,19 @@ public final class FileFormat extends System.Enum
 | [Svg](#Svg) | تنسيق ملف SVG |
 | [Wmf](#Wmf) | تنسيق ملف Wmf |
 | [Dng](#Dng) | تنسيق ملف DNG |
-| [Odg](#Odg) | تنسيق الرسوميات للمستند المفتوح |
-| [Eps](#Eps) | تنسيق Encapsulated PostScript |
+| [Odg](#Odg) | تنسيق المستند المفتوح الرسومي |
+| [Eps](#Eps) | تنسيق PostScript المغلف |
 | [Cdr](#Cdr) | تنسيق ملف CDR |
 | [Cmx](#Cmx) | تنسيق ملف CMX |
 | [Otg](#Otg) | تنسيق ملف otg |
 | [Html5Canvas](#Html5Canvas) | تنسيق Html5 Canvas |
-| [Apng](#Apng) | تنسيق ملف Png المتحرك. |
-| [Tga](#Tga) | تنسيق ملف Truevision TGA. |
+| [Apng](#Apng) | تنسيق ملف PNG المتحرك. |
+| [Tga](#Tga) | تنسيق ملف TGA من Truevision. |
 | [Dxf](#Dxf) | تنسيق AutoCAD Drawing Exchange. |
-| [Emz](#Emz) | الـ emz، مضغوط emf |
-| [Wmz](#Wmz) | الـ WMZ، مضغوط wmf |
-| [Svgz](#Svgz) | الـ SVGZ، مضغوط svg |
-| [FOdg](#FOdg) | الـ fodg، تنسيق odg المسطح |
+| [Emz](#Emz) | ملف emz، مضغوط emf |
+| [Wmz](#Wmz) | ملف WMZ، مضغوط wmf |
+| [Svgz](#Svgz) | ملف SVGZ، مضغوط svg |
+| [FOdg](#FOdg) | تنسيق fodg، تنسيق odg مسطح |
 | [Avif](#Avif) | تنسيق ملف AVIF. |
 | [BigTiff](#BigTiff) | تنسيق Big Tiff. |
 
@@ -254,7 +254,7 @@ public static final long Odg
 ```
 
 
-تنسيق الرسوميات للمستند المفتوح
+تنسيق المستند المفتوح الرسومي
 
 ### Eps {#Eps}
 ```
@@ -262,7 +262,7 @@ public static final long Eps
 ```
 
 
-تنسيق Encapsulated PostScript
+تنسيق PostScript المغلف
 
 ### Cdr {#Cdr}
 ```
@@ -302,7 +302,7 @@ public static final long Apng
 ```
 
 
-تنسيق ملف Png المتحرك.
+تنسيق ملف PNG المتحرك.
 
 ### Tga {#Tga}
 ```
@@ -310,7 +310,7 @@ public static final long Tga
 ```
 
 
-تنسيق ملف Truevision TGA.
+تنسيق ملف TGA من Truevision.
 
 ### Dxf {#Dxf}
 ```
@@ -326,7 +326,7 @@ public static final long Emz
 ```
 
 
-الـ emz، مضغوط emf
+ملف emz، مضغوط emf
 
 ### Wmz {#Wmz}
 ```
@@ -334,7 +334,7 @@ public static final long Wmz
 ```
 
 
-الـ WMZ، مضغوط wmf
+ملف WMZ، مضغوط wmf
 
 ### Svgz {#Svgz}
 ```
@@ -342,7 +342,7 @@ public static final long Svgz
 ```
 
 
-الـ SVGZ، مضغوط svg
+ملف SVGZ، مضغوط svg
 
 ### FOdg {#FOdg}
 ```
@@ -350,7 +350,7 @@ public static final long FOdg
 ```
 
 
-الـ fodg، تنسيق odg المسطح
+تنسيق fodg، تنسيق odg مسطح
 
 ### Avif {#Avif}
 ```

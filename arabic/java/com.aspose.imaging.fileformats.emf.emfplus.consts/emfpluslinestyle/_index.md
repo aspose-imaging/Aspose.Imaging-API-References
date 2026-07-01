@@ -24,8 +24,8 @@ public final class EmfPlusLineStyle extends System.Enum
 | [LineStyleSolid](#LineStyleSolid) | يحدد خطًا صلبًا. |
 | [LineStyleDash](#LineStyleDash) | يحدد خطًا متقطعًا. |
 | [LineStyleDot](#LineStyleDot) | يحدد خطًا منقطًا. |
-| [LineStyleDashDot](#LineStyleDashDot) | يحدد خطًا متناوبًا بين الشرطية والنقطة. |
-| [LineStyleDashDotDot](#LineStyleDashDotDot) | يحدد خطًا متناوبًا بين الشرطية والنقطتين. |
+| [LineStyleDashDot](#LineStyleDashDot) | يحدد خطًا متناوبًا بين الشرط والنقطة. |
+| [LineStyleDashDotDot](#LineStyleDashDotDot) | يحدد خطًا متناوبًا بين الشرط والنقطتين. |
 | [LineStyleCustom](#LineStyleCustom) | يحدد خطًا متقطعًا مخصصًا يحدده المستخدم. |
 ### LineStyleSolid {#LineStyleSolid}
 ```
@@ -57,7 +57,7 @@ public static final int LineStyleDashDot
 ```
 
 
-يحدد خطًا متناوبًا بين الشرطية والنقطة.
+يحدد خطًا متناوبًا بين الشرط والنقطة.
 
 ### LineStyleDashDotDot {#LineStyleDashDotDot}
 ```
@@ -65,7 +65,7 @@ public static final int LineStyleDashDotDot
 ```
 
 
-يحدد خطًا متناوبًا بين الشرطية والنقطتين.
+يحدد خطًا متناوبًا بين الشرط والنقطتين.
 
 ### LineStyleCustom {#LineStyleCustom}
 ```

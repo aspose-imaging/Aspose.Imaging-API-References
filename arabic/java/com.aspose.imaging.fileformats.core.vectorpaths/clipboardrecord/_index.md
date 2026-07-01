@@ -1,30 +1,30 @@
 ---
 title: "ClipboardRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "Clipboard Record Class"
+description: "فئة سجل الحافظة"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object، [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class ClipboardRecord extends VectorPathRecord
 ```
 
-Clipboard Record Class
+فئة سجل الحافظة
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ClipboardRecord()](#ClipboardRecord--) | ينشئ مثيلاً جديدًا من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord). |
-| [ClipboardRecord(byte[] data)](#ClipboardRecord-byte---) | ينشئ مثيلاً جديدًا من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord). |
+| [ClipboardRecord()](#ClipboardRecord--) | يُنشئ مثلاً جديداً من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord). |
+| [ClipboardRecord(byte[] data)](#ClipboardRecord-byte---) | يُنشئ مثلاً جديداً من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBoundingRect()](#getBoundingRect--) | يحصل على المستطيل الحدّي. |
-| [setBoundingRect(RectangleF value)](#setBoundingRect-com.aspose.imaging.RectangleF-) | يضبط المستطيل الحدّي. |
+| [getBoundingRect()](#getBoundingRect--) | يحصل على المستطيل الحدودي. |
+| [setBoundingRect(RectangleF value)](#setBoundingRect-com.aspose.imaging.RectangleF-) | يضبط المستطيل الحدودي. |
 | [getResolution()](#getResolution--) | يحصل على الدقة. |
 | [setResolution(float value)](#setResolution-float-) | يضبط الدقة. |
 | [getType()](#getType--) | يحصل على النوع. |
@@ -34,7 +34,7 @@ public ClipboardRecord()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord).
+يُنشئ مثلاً جديداً من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord).
 
 ### ClipboardRecord(byte[] data) {#ClipboardRecord-byte---}
 ```
@@ -42,7 +42,7 @@ public ClipboardRecord(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord).
+يُنشئ مثلاً جديداً من الفئة [ClipboardRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -55,9 +55,9 @@ public final RectangleF getBoundingRect()
 ```
 
 
-يحصل على المستطيل الحدّي.
+يحصل على المستطيل الحدودي.
 
-القيمة: المستطيل الحدّي.
+القيمة: المستطيل الحدودي.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bounding rect.
@@ -67,14 +67,14 @@ public final void setBoundingRect(RectangleF value)
 ```
 
 
-يضبط المستطيل الحدّي.
+يضبط المستطيل الحدودي.
 
-القيمة: المستطيل الحدّي.
+القيمة: المستطيل الحدودي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل الحدّي. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل الحدودي. |
 
 ### getResolution() {#getResolution--}
 ```
@@ -101,7 +101,7 @@ public final void setResolution(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الدقة. |
+| value | float | الدقة. |
 
 ### getType() {#getType--}
 ```

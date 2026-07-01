@@ -1,7 +1,7 @@
 ---
 title: "EmfGradientFill"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_GRADIENTFILL يحدد تعبئة المستطيلات أو المثلثات بتدرجات اللون."
+description: "سجل EMR_GRADIENTFILL يحدد ملء المستطيلات أو المثلثات بتدرجات اللون."
 type: docs
 weight: 65
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfGradientFill extends EmfDrawingRecordType
 ```
 
-السجل EMR\_GRADIENTFILL يحدد ملء المستطيلات أو المثلثات بتدرجات لونية.
+السجل EMR\_GRADIENTFILL يحدد ملء المستطيلات أو المثلثات بتدرجات اللون.
 
-سجل EMR\\_GRADIENTFILL الذي يحدد أن رؤوس المثلث الثلاثة يجب أن تملأ الشكل بتدرجات ناعمة للألوان.[85] سجل EMR\\_GRADIENTFILL الذي يحدد أن رؤوس المستطيل العلوية اليسرى والسفلية اليمنى يجب أن تملأ الشكل بتدرجات ناعمة للون. هناك وضعا تعبئة تدرج في تعداد GradientFill يمكن استخدامها عند رسم مستطيل. في وضع GRADIENT\\_FILL\\_RECT\\_H، يُملأ المستطيل من اليسار إلى اليمين. في وضع GRADIENT\\_FILL\\_RECT\\_V، يُملأ المستطيل من الأعلى إلى الأسفل. ملاحظة يجب أن يتجاهل سجل EMR\\_GRADIENTFILL حقول Alpha في كائنات TriVertex. يمكن استخدام سجل EMR\\_ALPHABLEND (القسم 2.3.1.1) الذي يتبع مباشرة سجل EMR\\_GRADIENTFILL لتطبيق تدرج شفافية ألفا على المنطقة المملوءة.
+سجل EMR\_GRADIENTFILL الذي يحدد أن رؤوس الثلاثة لمثلث يجب أن تُملأ الشكل بتدرجات لونية ناعمة.[85] سجل EMR\_GRADIENTFILL الذي يحدد أن رؤوس الزاوية العلوية اليسرى والسفلية اليمنى لمستطيل يجب أن تُملأ الشكل بتدرجات لونية ناعمة. هناك وضعا ملء تدرج في تعداد GradientFill يمكن استخدامهما عند رسم مستطيل. في وضع GRADIENT\_FILL\_RECT\_H، يُملأ المستطيل من اليسار إلى اليمين. في وضع GRADIENT\_FILL\_RECT\_V، يُملأ المستطيل من الأعلى إلى الأسفل. ملاحظة: يجب أن يتجاهل سجل EMR\_GRADIENTFILL حقول Alpha في كائنات TriVertex. يمكن استخدام سجل EMR\_ALPHABLEND (القسم 2.3.1.1) الذي يتبع مباشرةً سجل EMR\_GRADIENTFILL لتطبيق تدرج شفافية ألفا على المنطقة المملوءة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfGradientFill(EmfRecord source)](#EmfGradientFill-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا للفئة `EmfGradientFill`. |
+| [EmfGradientFill(EmfRecord source)](#EmfGradientFill-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfGradientFill`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,19 +28,19 @@ public final class EmfGradientFill extends EmfDrawingRecordType
 | [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد مستطيلًا محيطًا، بوحدات الجهاز شاملة-شاملة. |
 | [getNVer()](#getNVer--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد الرؤوس. |
 | [setNVer(int value)](#setNVer-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد الرؤوس. |
-| [getNTri()](#getNTri--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم تعبئتها. |
-| [setNTri(int value)](#setNTri-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم تعبئتها. |
-| [getUlMode()](#getUlMode--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد وضع تعبئة التدرج. |
-| [setUlMode(int value)](#setUlMode-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد وضع تعبئة التدرج. |
-| [getVertexData()](#getVertexData--) | يحصل أو يعيّن الكائنات التي تحدد رؤوس إما المستطيلات أو المثلثات والألوان التي تتCorrespond لها. |
-| [setVertexData(EmfVertexData value)](#setVertexData-com.aspose.imaging.fileformats.emf.emf.records.EmfVertexData-) | يحصل أو يعيّن الكائنات التي تحدد رؤوس إما المستطيلات أو المثلثات والألوان التي تتCorrespond لها. |
+| [getNTri()](#getNTri--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم ملؤها. |
+| [setNTri(int value)](#setNTri-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم ملؤها. |
+| [getUlMode()](#getUlMode--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد وضع ملء التدرج. |
+| [setUlMode(int value)](#setUlMode-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد وضع ملء التدرج. |
+| [getVertexData()](#getVertexData--) | يحصل أو يعيّن كائنات تحدد رؤوس المستطيلات أو المثلثات والألوان المقابلة لها. |
+| [setVertexData(EmfVertexData value)](#setVertexData-com.aspose.imaging.fileformats.emf.emf.records.EmfVertexData-) | يحصل أو يعيّن كائنات تحدد رؤوس المستطيلات أو المثلثات والألوان المقابلة لها. |
 ### EmfGradientFill(EmfRecord source) {#EmfGradientFill-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfGradientFill(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا للفئة `EmfGradientFill`.
+يُنشئ مثيلًا جديدًا للفئة `EmfGradientFill`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,7 +91,7 @@ public void setNVer(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getNTri() {#getNTri--}
 ```
@@ -99,7 +99,7 @@ public int getNTri()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم تعبئتها.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم ملؤها.
 
 **Returns:**
 int
@@ -109,12 +109,12 @@ public void setNTri(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم تعبئتها.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد عدد المستطيلات أو المثلثات التي سيتم ملؤها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getUlMode() {#getUlMode--}
 ```
@@ -137,7 +137,7 @@ public void setUlMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getVertexData() {#getVertexData--}
 ```
@@ -145,7 +145,7 @@ public EmfVertexData getVertexData()
 ```
 
 
-يحصل أو يعيّن الكائنات التي تحدد رؤوس إما المستطيلات أو المثلثات والألوان التي تتCorrespond لها.
+يحصل أو يعيّن كائنات تحدد رؤوس المستطيلات أو المثلثات والألوان المقابلة لها.
 
 **Returns:**
 [EmfVertexData](../../com.aspose.imaging.fileformats.emf.emf.records/emfvertexdata)
@@ -155,7 +155,7 @@ public void setVertexData(EmfVertexData value)
 ```
 
 
-يحصل أو يعيّن الكائنات التي تحدد رؤوس إما المستطيلات أو المثلثات والألوان التي تتCorrespond لها.
+يحصل أو يعيّن كائنات تحدد رؤوس المستطيلات أو المثلثات والألوان المقابلة لها.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -12,4 +12,4 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public abstract class EmfPlusControlRecordType extends EmfPlusRecord
 ```
 
-أنواع سجلات التحكم تحدد المعلمات العامة لمعالجة ملف EMF+.
+أنواع سجلات التحكم تحدد المعلمات العامة لمعالجة ملفات EMF+.

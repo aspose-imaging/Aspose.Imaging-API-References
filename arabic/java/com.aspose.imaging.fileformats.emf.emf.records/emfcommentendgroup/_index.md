@@ -1,7 +1,7 @@
 ---
 title: "EmfCommentEndGroup"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_COMMENT_ENDGROUP يحدد نهاية مجموعة من سجلات الرسم."
+description: "السجل EMR_COMMENT_ENDGROUP يحدد نهاية مجموعة من سجلات الرسم."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfCommentEndGroup extends EmfCommentPublicRecordType
 ```
 
-سجل EMR_COMMENT_ENDGROUP يحدد نهاية مجموعة من سجلات الرسم.
+سجل EMR\_COMMENT\_ENDGROUP يحدد نهاية مجموعة من سجلات الرسم.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfCommentEndGroup(EmfRecord source)](#EmfCommentEndGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بإنشاء نسخة جديدة من الفئة `EmfCommentEndGroup`. |
+| [EmfCommentEndGroup(EmfRecord source)](#EmfCommentEndGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfCommentEndGroup`. |
 ### EmfCommentEndGroup(EmfRecord source) {#EmfCommentEndGroup-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCommentEndGroup(EmfRecord source)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfCommentEndGroup`.
+يُنشئ نسخة جديدة من الفئة `EmfCommentEndGroup`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -59,7 +59,7 @@ public final void setMask(Iterable<Point> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Iterable<com.aspose.imaging.Point> | القناع. |
+| value | java.lang.Iterable<com.aspose.imaging.Point> | القناع. |
 
 ### getPrecalculationProgressEventHandler() {#getPrecalculationProgressEventHandler--}
 ```
@@ -86,7 +86,7 @@ public final void setPrecalculationProgressEventHandler(ProgressEventHandler val
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | معالج حدث تقدم عملية حساب النقاط الافتراضية مسبقًا. |
+| value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | معالج حدث تقدم عملية الحساب المسبق للنقاط الافتراضية. |
 
 ### getGraphicsPathMask() {#getGraphicsPathMask--}
 ```

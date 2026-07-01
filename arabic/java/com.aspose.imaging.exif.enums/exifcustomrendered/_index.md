@@ -17,15 +17,15 @@ public final class ExifCustomRendered extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [NormalProcess](#NormalProcess) | عملية العرض العادية. |
-| [CustomProcess](#CustomProcess) | عملية العرض المخصصة. |
+| [NormalProcess](#NormalProcess) | عملية عرض عادية. |
+| [CustomProcess](#CustomProcess) | عملية عرض مخصصة. |
 ### NormalProcess {#NormalProcess}
 ```
 public static final int NormalProcess
 ```
 
 
-عملية العرض العادية.
+عملية عرض عادية.
 
 ### CustomProcess {#CustomProcess}
 ```
@@ -33,5 +33,5 @@ public static final int CustomProcess
 ```
 
 
-عملية العرض المخصصة.
+عملية عرض مخصصة.
 

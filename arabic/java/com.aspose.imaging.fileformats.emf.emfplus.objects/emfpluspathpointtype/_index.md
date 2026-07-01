@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPathPointType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن EmfPlusPathPointType يحدد قيمة نوع مرتبطة بنقطة على رسومات"
+description: "كائن EmfPlusPathPointType يحدد قيمة نوع مرتبطة بنقطة على رسومات."
 type: docs
 weight: 61
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBas
 public final class EmfPlusPathPointType extends EmfPlusBasePointType
 ```
 
-كائن EmfPlusPathPointType يحدد قيمة نوع مرتبطة بنقطة على رسومات
+كائن EmfPlusPathPointType يحدد قيمة نوع مرتبطة بنقطة على رسومات.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public final class EmfPlusPathPointType extends EmfPlusBasePointType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getData()](#getData--) | يحصل أو يضبط البيانات. |
-| [setData(int value)](#setData-int-) | يحصل أو يضبط البيانات. |
-| [getType()](#getType--) | يحصل أو يعيّن نوع نقطة المسار كعدد صحيح غير موقع 4‑بت. |
-| [setType(int value)](#setType-int-) | يحصل أو يعيّن نوع نقطة المسار كعدد صحيح غير موقع 4‑بت. |
+| [getData()](#getData--) | يحصل أو يعيّن البيانات. |
+| [setData(int value)](#setData-int-) | يحصل أو يعيّن البيانات. |
+| [getType()](#getType--) | يحصل أو يعيّن نوع نقطة المسار عدد صحيح غير موقع 4‑بت. |
+| [setType(int value)](#setType-int-) | يحصل أو يعيّن نوع نقطة المسار عدد صحيح غير موقع 4‑بت. |
 | [getFlags()](#getFlags--) | يحصل أو يعيّن حقل علم 4‑بت يحدد خصائص نقطة المسار. |
 | [setFlags(int value)](#setFlags-int-) | يحصل أو يعيّن حقل علم 4‑بت يحدد خصائص نقطة المسار. |
 ### EmfPlusPathPointType() {#EmfPlusPathPointType--}
@@ -40,7 +40,7 @@ public int getData()
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
@@ -52,14 +52,14 @@ public void setData(int value)
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 القيمة: البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getType() {#getType--}
 ```
@@ -67,7 +67,7 @@ public int getType()
 ```
 
 
-يحصل أو يعيّن نوع نقطة المسار كعدد صحيح غير موقع 4‑بت. يجب أن تكون هذه القيمة معرفة في تعداد PathPointType (القسم 2.1.1.23).
+يحصل أو يعيّن نوع نقطة المسار عدد صحيح غير موقع 4‑بت. يجب أن تكون هذه القيمة معرفة في تعداد PathPointType (القسم 2.1.1.23).
 
 **Returns:**
 int
@@ -77,12 +77,12 @@ public void setType(int value)
 ```
 
 
-يحصل أو يعيّن نوع نقطة المسار كعدد صحيح غير موقع 4‑بت. يجب أن تكون هذه القيمة معرفة في تعداد PathPointType (القسم 2.1.1.23).
+يحصل أو يعيّن نوع نقطة المسار عدد صحيح غير موقع 4‑بت. يجب أن تكون هذه القيمة معرفة في تعداد PathPointType (القسم 2.1.1.23).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -105,5 +105,5 @@ public void setFlags(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

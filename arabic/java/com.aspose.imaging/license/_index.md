@@ -1,7 +1,7 @@
 ---
 title: "رخصة"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يوفر طرقًا لتراخيص المكوّن."
+description: "يوفر طرقًا لترخيص المكوّن."
 type: docs
 weight: 67
 url: /ar/java/com.aspose.imaging/license/
@@ -12,26 +12,26 @@ java.lang.Object
 public class License
 ```
 
-يوفر طرقًا لتراخيص المكوّن.
+يوفر طرقًا لترخيص المكوّن.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [License()](#License--) | يقوم بتهيئة نسخة جديدة من هذه الفئة. |
+| [License()](#License--) | يُهيئ نسخة جديدة من هذه الفئة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | يرخص المكوّن. |
-| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | يرخص المكوّن. |
-| [setLicense(File licenseFile)](#setLicense-java.io.File-) | يرخص المكوّن. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | يُرخص المكوّن. |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | يُرخص المكوّن. |
+| [setLicense(File licenseFile)](#setLicense-java.io.File-) | يُرخص المكوّن. |
 ### License() {#License--}
 ```
 public License()
 ```
 
 
-يقوم بتهيئة نسخة جديدة من هذه الفئة.
+يُهيئ نسخة جديدة من هذه الفئة.
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
 ```
@@ -39,7 +39,7 @@ public void setLicense(String licenseName)
 ```
 
 
-يرخص المكوّن.
+يُرخص المكوّن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -52,12 +52,12 @@ public void setLicense(InputStream stream)
 ```
 
 
-يرخص المكوّن.
+يُرخص المكوّن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق يحتوي على الرخصة. |
+| تدفق | java.io.InputStream | دفق يحتوي على الرخصة. |
 
 ### setLicense(File licenseFile) {#setLicense-java.io.File-}
 ```
@@ -65,7 +65,7 @@ public void setLicense(File licenseFile)
 ```
 
 
-يرخص المكوّن.
+يُرخص المكوّن.
 
 **Parameters:**
 | معامل | نوع | الوصف |

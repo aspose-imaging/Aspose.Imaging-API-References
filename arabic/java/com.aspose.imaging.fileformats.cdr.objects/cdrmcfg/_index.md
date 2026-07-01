@@ -1,7 +1,7 @@
 ---
 title: "CdrMcfg"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr كائن تكوين"
+description: "كائن تكوين cdr"
 type: docs
 weight: 26
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrmcfg/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrMcfg extends CdrObject
 ```
 
-ال cdr كائن تكوين
+كائن تكوين cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -41,7 +41,7 @@ public final double getWidth()
 يحصل على العرض.
 
 **Returns:**
-double - الـ عرض.
+double - العرض.
 ### setWidth(double value) {#setWidth-double-}
 ```
 public final void setWidth(double value)
@@ -53,7 +53,7 @@ public final void setWidth(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | العرض. |
+| value | double | العرض. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -64,7 +64,7 @@ public final double getHeight()
 يحصل على الارتفاع.
 
 **Returns:**
-double - الـ ارتفاع.
+double - الارتفاع.
 ### setHeight(double value) {#setHeight-double-}
 ```
 public final void setHeight(double value)
@@ -76,5 +76,5 @@ public final void setHeight(double value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الارتفاع. |
+| value | double | الارتفاع. |
 

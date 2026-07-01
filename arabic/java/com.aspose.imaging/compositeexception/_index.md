@@ -1,7 +1,7 @@
 ---
 title: "CompositeException"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الاستثناء المركب."
+description: "الاستثناء المركب"
 type: docs
 weight: 32
 url: /ar/java/com.aspose.imaging/compositeexception/
@@ -12,4 +12,4 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class CompositeException extends System.Exception
 ```
 
-الاستثناء المركب.
+الاستثناء المركب

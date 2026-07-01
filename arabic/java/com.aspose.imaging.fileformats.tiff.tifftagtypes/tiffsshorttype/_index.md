@@ -1,42 +1,42 @@
 ---
 title: "TiffSShortType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع TIFF الموقّع القصير."
+description: "نوع tiff الموقّع القصير."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffSShortType extends TiffCommonArrayType
 ```
 
-نوع TIFF الموقّع القصير.
+نوع tiff الموقّع القصير.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffSShortType(int tagId)](#TiffSShortType-int-) | ينشئ مثيلاً جديداً من الفئة `TiffSShortType`. |
+| [TiffSShortType(int tagId)](#TiffSShortType-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffSShortType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل أو يضبط القيم. |
-| [setValues(short[] value)](#setValues-short---) | يحصل أو يضبط القيم. |
+| [getValues()](#getValues--) | يحصل أو يعيّن القيم. |
+| [setValues(short[] value)](#setValues-short---) | يحصل أو يعيّن القيم. |
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffSShortType(int tagId) {#TiffSShortType-int-}
 ```
 public TiffSShortType(int tagId)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `TiffSShortType`.
+ينشئ مثيلاً جديدًا من الفئة `TiffSShortType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -49,7 +49,7 @@ public short[] getValues()
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: القيم.
 
@@ -61,14 +61,14 @@ public void setValues(short[] value)
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 القيمة: القيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short[] |  |
+| value | short[] |  |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -127,7 +127,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -135,7 +135,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -143,4 +143,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

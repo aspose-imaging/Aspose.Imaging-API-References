@@ -1,7 +1,7 @@
 ---
 title: "EmfPolygon16"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EMR_POLYGON16 يحدد مضلعًا يتكون من نقطتين أو أكثر متصلة بخطوط مستقيمة."
+description: "السجل EMR_POLYGON16 يحدد مضلعًا يتكون من نقطتين أو أكثر متصلة بخطوط مستقيمة."
 type: docs
 weight: 100
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolygon16/
@@ -12,22 +12,22 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolygon16 extends EmfPolyShape
 ```
 
-يسجل EMR\\_POLYGON16 يحدد مضلعًا يتكون من نقطتين أو أكثر متصلة بخطوط مستقيمة. يتم تحديد حدود المضلع باستخدام القلم الحالي وتعبئته باستخدام الفرشاة الحالية ووضع تعبئة المضلع. يتم إغلاق المضلع تلقائيًا برسم خط من آخر نقطة إلى الأولى.
+السجل EMR_POLYGON16 يحدد مضلعًا يتكون من نقطتين أو أكثر متصلة بخطوط مستقيمة. يتم تحديد حدود المضلع باستخدام القلم الحالي ويتم تعبئته باستخدام الفرشاة الحالية ووضع تعبئة المضلع. يتم إغلاق المضلع تلقائيًا برسم خط من آخر نقطة إلى الأولى.
 
-يجب أن يتم تحديد حدود المضلع باستخدام القلم الحالي وتعبئته باستخدام الفرشاة الحالية ووضع تعبئة المضلع. يجب أن يُغلق المضلع تلقائيًا برسم خط من آخر رأس إلى الأول.
+يجب تحديد حدود المضلع باستخدام القلم الحالي وتعبئته باستخدام الفرشاة الحالية ووضع تعبئة المضلع. يجب إغلاق المضلع تلقائيًا برسم خط من آخر رأس إلى الأول.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPolygon16(EmfRecord source)](#EmfPolygon16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPolygon16`. |
-| [EmfPolygon16()](#EmfPolygon16--) | ينشئ مثيلًا جديدًا من الفئة `EmfPolygon16`. |
+| [EmfPolygon16(EmfRecord source)](#EmfPolygon16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfPolygon16`. |
+| [EmfPolygon16()](#EmfPolygon16--) | يُنشئ مثيلًا جديدًا للفئة `EmfPolygon16`. |
 ### EmfPolygon16(EmfRecord source) {#EmfPolygon16-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolygon16(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPolygon16`.
+يُنشئ مثيلًا جديدًا للفئة `EmfPolygon16`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -40,5 +40,5 @@ public EmfPolygon16()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPolygon16`.
+يُنشئ مثيلًا جديدًا للفئة `EmfPolygon16`.
 

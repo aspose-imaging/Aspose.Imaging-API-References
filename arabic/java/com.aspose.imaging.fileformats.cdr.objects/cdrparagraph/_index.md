@@ -1,18 +1,18 @@
 ---
 title: "CdrParagraph"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr فقرة"
+description: "فقرة cdr"
 type: docs
 weight: 31
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrparagraph/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrParagraph extends CdrGraphicObject
 ```
 
-ال cdr فقرة
+فقرة cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -55,5 +55,5 @@ public final void setTextIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | فهرس النص. |
+| value | int | فهرس النص. |
 

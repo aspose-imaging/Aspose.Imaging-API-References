@@ -1,7 +1,7 @@
 ---
 title: "WmfCieXyzTriple"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "كائن CIEXYZTriple يعرّف معلومات حول كائن اللون CIEXYZTriple."
+description: "كائن CIEXYZTriple يحدد معلومات حول كائن اللون CIEXYZTriple."
 type: docs
 weight: 19
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/
@@ -12,7 +12,7 @@ java.lang.Object
 public class WmfCieXyzTriple
 ```
 
-كائن CIEXYZTriple يعرّف معلومات حول كائن اللون CIEXYZTriple.
+كائن CIEXYZTriple يحدد معلومات حول كائن اللون CIEXYZTriple.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,12 +22,12 @@ public class WmfCieXyzTriple
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCiexyzRed()](#getCiexyzRed--) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأحمر. |
-| [setCiexyzRed(WmfCieXyz value)](#setCiexyzRed-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأحمر. |
-| [getCiexyzGreen()](#getCiexyzGreen--) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأخضر. |
-| [setCiexyzGreen(WmfCieXyz value)](#setCiexyzGreen-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأخضر. |
-| [getCiexyzBlue()](#getCiexyzBlue--) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأزرق. |
-| [setCiexyzBlue(WmfCieXyz value)](#setCiexyzBlue-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأزرق. |
+| [getCiexyzRed()](#getCiexyzRed--) | يحصل أو يضبط كائن CIEXYZ 96‑بت يحدد قيم اللون الأحمر. |
+| [setCiexyzRed(WmfCieXyz value)](#setCiexyzRed-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يضبط كائن CIEXYZ 96‑بت يحدد قيم اللون الأحمر. |
+| [getCiexyzGreen()](#getCiexyzGreen--) | يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأخضر. |
+| [setCiexyzGreen(WmfCieXyz value)](#setCiexyzGreen-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأخضر. |
+| [getCiexyzBlue()](#getCiexyzBlue--) | يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأزرق. |
+| [setCiexyzBlue(WmfCieXyz value)](#setCiexyzBlue-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) | يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأزرق. |
 ### WmfCieXyzTriple() {#WmfCieXyzTriple--}
 ```
 public WmfCieXyzTriple()
@@ -40,7 +40,7 @@ public WmfCieXyz getCiexyzRed()
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأحمر.
+يحصل أو يضبط كائن CIEXYZ 96‑بت يحدد قيم اللون الأحمر.
 
 **Returns:**
 [WmfCieXyz](../../com.aspose.imaging.fileformats.wmf.objects/wmfciexyz)
@@ -50,7 +50,7 @@ public void setCiexyzRed(WmfCieXyz value)
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأحمر.
+يحصل أو يضبط كائن CIEXYZ 96‑بت يحدد قيم اللون الأحمر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public WmfCieXyz getCiexyzGreen()
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأخضر.
+يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأخضر.
 
 **Returns:**
 [WmfCieXyz](../../com.aspose.imaging.fileformats.wmf.objects/wmfciexyz)
@@ -73,7 +73,7 @@ public void setCiexyzGreen(WmfCieXyz value)
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأخضر.
+يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأخضر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public WmfCieXyz getCiexyzBlue()
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأزرق.
+يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأزرق.
 
 **Returns:**
 [WmfCieXyz](../../com.aspose.imaging.fileformats.wmf.objects/wmfciexyz)
@@ -96,7 +96,7 @@ public void setCiexyzBlue(WmfCieXyz value)
 ```
 
 
-يحصل أو يعيّن كائن CIEXYZ 96-بت الذي يحدد قيم اللون الأزرق.
+يحصل أو يعيّن كائن CIEXYZ 96‑بت يحدد قيم التشبع الأزرق.
 
 **Parameters:**
 | معامل | نوع | الوصف |

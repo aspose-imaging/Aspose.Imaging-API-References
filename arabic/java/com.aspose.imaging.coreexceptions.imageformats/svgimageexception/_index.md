@@ -17,15 +17,15 @@ public class SvgImageException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [SvgImageException(String message)](#SvgImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `SvgImageException`. |
-| [SvgImageException(String message, Throwable innerException)](#SvgImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `SvgImageException`. |
+| [SvgImageException(String message)](#SvgImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `SvgImageException`. |
+| [SvgImageException(String message, Throwable innerException)](#SvgImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `SvgImageException`. |
 ### SvgImageException(String message) {#SvgImageException-java.lang.String-}
 ```
 public SvgImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `SvgImageException`.
+ينشئ مثيلاً جديدًا من الفئة `SvgImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public SvgImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `SvgImageException`.
+ينشئ مثيلاً جديدًا من الفئة `SvgImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

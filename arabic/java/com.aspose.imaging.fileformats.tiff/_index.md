@@ -12,11 +12,11 @@ url: /ar/java/com.aspose.imaging.fileformats.tiff/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [TiffDataType](../com.aspose.imaging.fileformats.tiff/tiffdatatype) | نوع البيانات TIFF. |
+| [TiffDataType](../com.aspose.imaging.fileformats.tiff/tiffdatatype) | نوع بيانات TIFF. |
 | [TiffExifIfd](../com.aspose.imaging.fileformats.tiff/tiffexififd) | فئة دليل ملف صورة TIFF Exif. |
 | [TiffFrame](../com.aspose.imaging.fileformats.tiff/tiffframe) | إطار TIFF. |
-| [TiffImage](../com.aspose.imaging.fileformats.tiff/tiffimage) | معالجة صور النقطية لتنسيق Tagged Image File Format (TIFF) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع توفير دعم شامل لمختلف الدقات وقدرات تحرير متقدمة مثل تعديل بيانات EXIF والقنوات ألفا. |
+| [TiffImage](../com.aspose.imaging.fileformats.tiff/tiffimage) | معالجة صور النقطية لتنسيق Tagged Image File Format (TIFF) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مع توفير دعم شامل لمختلف الدقات وقدرات تحرير متقدمة مثل تعديل بيانات EXIF وقنوات ألفا. |
 | [TiffRational](../com.aspose.imaging.fileformats.tiff/tiffrational) | نوع TIFF Rational. |
 | [TiffSRational](../com.aspose.imaging.fileformats.tiff/tiffsrational) | نوع TIFF Rational. |

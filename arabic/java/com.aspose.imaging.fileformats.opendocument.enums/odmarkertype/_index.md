@@ -1,7 +1,7 @@
 ---
 title: "OdMarkerType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "أنواع علامات od للموصلات."
+description: "أنواع علامات od للموصلات"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.opendocument.enums/odmarkertype/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class OdMarkerType extends System.Enum
 ```
 
-أنواع علامات od للموصلات.
+أنواع علامات od للموصلات
 ## الحقول
 
 | حقل | الوصف |

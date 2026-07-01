@@ -22,16 +22,16 @@ public class OdFont
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFacename()](#getFacename--) | يحصل على اسم الخط. |
-| [setFacename(String value)](#setFacename-java.lang.String-) | يضبط اسم الخط. |
+| [getFacename()](#getFacename--) | يحصل على facename. |
+| [setFacename(String value)](#setFacename-java.lang.String-) | يضبط facename. |
 | [getHeight()](#getHeight--) | يحصل على الارتفاع. |
 | [setHeight(int value)](#setHeight-int-) | يضبط الارتفاع. |
 | [getBold()](#getBold--) | يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) هو الوزن. |
 | [setBold(boolean value)](#setBold-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) هو الوزن. |
-| [getItalic()](#getItalic--) | يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا. |
-| [setItalic(boolean value)](#setItalic-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا. |
-| [getStrikeout()](#getStrikeout--) | يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا. |
-| [setStrikeout(boolean value)](#setStrikeout-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا. |
+| [getItalic()](#getItalic--) | يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل. |
+| [setItalic(boolean value)](#setItalic-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل. |
+| [getStrikeout()](#getStrikeout--) | يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب. |
+| [setStrikeout(boolean value)](#setStrikeout-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب. |
 ### OdFont() {#OdFont--}
 ```
 public OdFont()
@@ -44,22 +44,22 @@ public final String getFacename()
 ```
 
 
-يحصل على اسم الخط.
+يحصل على facename.
 
 **Returns:**
-java.lang.String - اسم الخط.
+java.lang.String - facename.
 ### setFacename(String value) {#setFacename-java.lang.String-}
 ```
 public final void setFacename(String value)
 ```
 
 
-يضبط اسم الخط.
+يضبط facename.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الخط. |
+| value | java.lang.String | facename. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -82,7 +82,7 @@ public final void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الارتفاع. |
+| value | int | الارتفاع. |
 
 ### getBold() {#getBold--}
 ```
@@ -113,22 +113,22 @@ public final boolean getItalic()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا.
+boolean - قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل.
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
 public final void setItalic(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا.
+يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائلًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مائل. |
 
 ### getStrikeout() {#getStrikeout--}
 ```
@@ -136,20 +136,20 @@ public final boolean getStrikeout()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا.
+يحصل على قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا.
+boolean - قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب.
 ### setStrikeout(boolean value) {#setStrikeout-boolean-}
 ```
 public final void setStrikeout(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا.
+يضبط قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | boolean | قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوبًا. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) مشطوب. |
 

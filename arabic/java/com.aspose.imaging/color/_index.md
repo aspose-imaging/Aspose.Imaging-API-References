@@ -172,14 +172,14 @@ public class Color extends Struct<Color> implements Serializable
 | [fromArgb(int argb)](#fromArgb-int-) | ينشئ هيكل `com.aspose.imaging.Color` من قيمة ARGB 32-بت. |
 | [fromArgb(int alpha, int red, int green, int blue)](#fromArgb-int-int-int-int-) | ينشئ هيكل `com.aspose.imaging.Color` من القيم الأربعة لمكوّنات ARGB (ألفا، أحمر، أخضر، وأزرق). |
 | [fromArgb(byte alpha, byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-byte-) | ينشئ هيكل `com.aspose.imaging.Color` من القيم الأربعة لمكوّنات ARGB (ألفا، أحمر، أخضر، وأزرق). |
-| [fromArgb(int alpha, Color baseColor)](#fromArgb-int-com.aspose.imaging.Color-) | ينشئ بنية `com.aspose.imaging.Color` من البنية `com.aspose.imaging.Color` المحددة، ولكن مع قيمة ألفا المحددة الجديدة. |
-| [fromArgb(int red, int green, int blue)](#fromArgb-int-int-int-) | ينشئ بنية `com.aspose.imaging.Color` من قيم اللون ذات 8 بت المحددة (الأحمر، الأخضر، والأزرق). |
-| [fromArgb(byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-) | ينشئ بنية `com.aspose.imaging.Color` من قيم اللون ذات 8 بت المحددة (الأحمر، الأخضر، والأزرق). |
+| [fromArgb(int alpha, Color baseColor)](#fromArgb-int-com.aspose.imaging.Color-) | ينشئ بنية `com.aspose.imaging.Color` من بنية `com.aspose.imaging.Color` المحددة، ولكن مع قيمة ألفا المحددة الجديدة. |
+| [fromArgb(int red, int green, int blue)](#fromArgb-int-int-int-) | ينشئ بنية `com.aspose.imaging.Color` من قيم الألوان 8‑بت المحددة (الأحمر، الأخضر، والأزرق). |
+| [fromArgb(byte red, byte green, byte blue)](#fromArgb-byte-byte-byte-) | ينشئ بنية `com.aspose.imaging.Color` من قيم الألوان 8‑بت المحددة (الأحمر، الأخضر، والأزرق). |
 | [fromKnownColor(int color)](#fromKnownColor-int-) | ينشئ بنية `com.aspose.imaging.Color` من اللون المحدد مسبقًا. |
-| [fromName(String name)](#fromName-java.lang.String-) | ينشئ بنية `com.aspose.imaging.Color` من الاسم المحدد للون مسبقًا. |
+| [fromName(String name)](#fromName-java.lang.String-) | ينشئ بنية `com.aspose.imaging.Color` من الاسم المحدد للون مسبق التعريف. |
 | [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | التحويل من Color إلى CMYKColor. |
 | [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | التحويل من Color إلى CMYKColor. |
-| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
+| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | التحويل من Color إلى CmykColor باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
 | [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
 | [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات التعريف الافتراضية. |
 | [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | التحويل من Color إلى CMYKColor باستخدام تحويل icc. |
@@ -191,14 +191,14 @@ public class Color extends Struct<Color> implements Serializable
 | [isKnownColor()](#isKnownColor--) | يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه لونًا مسبقًا. |
 | [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه غير مهيأة. |
 | [isNamedColor()](#isNamedColor--) | يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه لونًا مسمىً أو عضوًا في تعداد `Aspose.Imaging.KnownColor`. |
-| [getName()](#getName--) | يحصل على اسم هذا `com.aspose.imaging.Color`. |
-| [getBrightness()](#getBrightness--) | يحصل على قيمة السطوع في نظام اللون-التشبع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`. |
-| [getHue()](#getHue--) | يحصل على قيمة الصبغة (hue) في نظام اللون-التشبع-السطوع (HSB) بالدرجات لهذه بنية `com.aspose.imaging.Color`. |
-| [getSaturation()](#getSaturation--) | يحصل على قيمة التشبع في نظام اللون-التشبع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`. |
-| [toArgb()](#toArgb--) | يحصل على قيمة ARGB ذات 32 بت لهذه بنية `com.aspose.imaging.Color`. |
+| [getName()](#getName--) | يحصل على اسم بنية `com.aspose.imaging.Color` هذه. |
+| [getBrightness()](#getBrightness--) | يحصل على قيمة السطوع في نظام اللون-الإشباع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`. |
+| [getHue()](#getHue--) | يحصل على قيمة الصبغة (hue) في نظام اللون-الإشباع-السطوع (HSB) بالدرجات لهذه بنية `com.aspose.imaging.Color`. |
+| [getSaturation()](#getSaturation--) | يحصل على قيمة الإشباع (saturation) في نظام اللون-الإشباع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`. |
+| [toArgb()](#toArgb--) | يحصل على قيمة ARGB 32‑بت لهذه بنية `com.aspose.imaging.Color`. |
 | [toKnownColor()](#toKnownColor--) | يحصل على قيمة `Aspose.Imaging.KnownColor` لهذه بنية `com.aspose.imaging.Color`. |
 | [toString()](#toString--) | يحوّل بنية `com.aspose.imaging.Color` هذه إلى سلسلة قابلة للقراءة من قبل الإنسان. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يفحص ما إذا كان الكائن المحدد بنية `com.aspose.imaging.Color` ومكافئًا لهذه البنية `com.aspose.imaging.Color`. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يفحص ما إذا كان الكائن المحدد بنية `com.aspose.imaging.Color` ومكافئًا لبنية `com.aspose.imaging.Color` هذه. |
 | [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه بنية `com.aspose.imaging.Color`. |
 | [CloneTo(Color that)](#CloneTo-com.aspose.imaging.Color-) |  |
 | [Clone()](#Clone--) |  |
@@ -1640,7 +1640,7 @@ public static boolean op_Equality(Color left, Color right)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | left | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.Color` الموجود إلى يسار عامل المساواة. |
-| right | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.Color` الموجود إلى يمين عامل المساواة. |
+| right | [Color](../../com.aspose.imaging/color) | الـ `com.aspose.imaging.Color` الموجود إلى يمين عامل المساواة. |
 
 **Returns:**
 منطقي - صحيح إذا كانت هياكل `com.aspose.imaging.Color` الاثنين متساوية؛ وإلا، خطأ.
@@ -1655,8 +1655,8 @@ public static boolean op_Inequality(Color left, Color right)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| left | [Color](../../com.aspose.imaging/color) | الـ `com.aspose.imaging.Color` الموجودة إلى يسار عامل عدم المساواة. |
-| right | [Color](../../com.aspose.imaging/color) | الـ `com.aspose.imaging.Color` الموجودة إلى يمين عامل عدم المساواة. |
+| left | [Color](../../com.aspose.imaging/color) | الـ `com.aspose.imaging.Color` الموجود إلى يسار عامل عدم المساواة. |
+| right | [Color](../../com.aspose.imaging/color) | الـ `com.aspose.imaging.Color` الموجود إلى يمين عامل عدم المساواة. |
 
 **Returns:**
 منطقي - صحيح إذا كانت هياكل `com.aspose.imaging.Color` الاثنين مختلفة؛ وإلا، خطأ.
@@ -1779,7 +1779,7 @@ public static Color fromArgb(int red, int green, int blue)
 ```
 
 
-ينشئ هيكل `com.aspose.imaging.Color` من قيم الألوان 8‑بت المحددة (أحمر، أخضر، وأزرق). قيمة ألفا هي ضمنيًا 255 (معتمة تمامًا). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32 بت لكل مكوّن لون، فإن قيمة كل مكوّن محدودة بـ 8 بت.
+ينشئ بنية `com.aspose.imaging.Color` من قيم الألوان ذات 8 بت المحددة (الأحمر، الأخضر، والأزرق). قيمة ألفا تكون ضمنياً 255 (معتمة تماماً). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32‑بت لكل مكوّن لون، فإن قيمة كل مكوّن محدودة بـ 8 بت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1796,7 +1796,7 @@ public static Color fromArgb(byte red, byte green, byte blue)
 ```
 
 
-ينشئ هيكل `com.aspose.imaging.Color` من قيم الألوان 8‑بت المحددة (أحمر، أخضر، وأزرق). قيمة ألفا هي ضمنيًا 255 (معتمة تمامًا). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32 بت لكل مكوّن لون، فإن قيمة كل مكوّن محدودة بـ 8 بت.
+ينشئ بنية `com.aspose.imaging.Color` من قيم الألوان ذات 8 بت المحددة (الأحمر، الأخضر، والأزرق). قيمة ألفا تكون ضمنياً 255 (معتمة تماماً). على الرغم من أن هذه الطريقة تسمح بتمرير قيمة 32‑بت لكل مكوّن لون، فإن قيمة كل مكوّن محدودة بـ 8 بت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1828,12 +1828,12 @@ public static Color fromName(String name)
 ```
 
 
-ينشئ بنية `com.aspose.imaging.Color` من الاسم المحدد للون مسبقًا.
+ينشئ بنية `com.aspose.imaging.Color` من الاسم المحدد للون مسبق التعريف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الاسم | java.lang.String | سلسلة تمثل اسم لون مُعرّف مسبقًا. الأسماء الصالحة هي نفسها أسماء عناصر تعداد `Aspose.Imaging.KnownColor`. |
+| الاسم | java.lang.String | سلسلة نصية تمثل اسم لون مسبق التعريف. الأسماء الصالحة هي نفسها أسماء عناصر تعداد `Aspose.Imaging.KnownColor`. |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The `com.aspose.imaging.Color` that this method creates.
@@ -1843,7 +1843,7 @@ public static CmykColor[] toCmyk(Color[] pixels)
 ```
 
 
-التحويل من Color إلى CMYKColor. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية [CmykColorHelper.toCmyk(Color[])](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color---).
+التحويل من Color إلى CMYKColor. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية [CmykColorHelper.toCmyk(Color[])](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color---).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1858,7 +1858,7 @@ public static CmykColor toCmyk(Color pixel)
 ```
 
 
-التحويل من Color إلى CMYKColor. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية [CmykColorHelper.toCmyk(Color)](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color-).
+التحويل من Color إلى CMYKColor. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية [CmykColorHelper.toCmyk(Color)](../../com.aspose.imaging/cmykcolorhelper\#toCmyk-Color-).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1873,7 +1873,7 @@ public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputSt
 ```
 
 
-التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية [CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)](../../com.aspose.imaging/cmykcolorhelper\#toCmykIcc-Color--InputStream--InputStream-).
+التحويل من Color إلى CmykColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية [CmykColorHelper.toCmykIcc(Color, InputStream, InputStream)](../../com.aspose.imaging/cmykcolorhelper\#toCmykIcc-Color--InputStream--InputStream-).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1883,14 +1883,14 @@ public static CmykColor toCmykIcc(Color pixel, InputStream rgbIccStream, InputSt
 | cmykIccStream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف icc cmyk. |
 
 **Returns:**
-[CmykColor](../../com.aspose.imaging/cmykcolor) - The CmykColor[].
+[CmykColor](../../com.aspose.imaging/cmykcolor) - The array of [CmykColor](../../com.aspose.imaging/cmykcolor).
 ### toCmykIcc(Color pixel) {#toCmykIcc-com.aspose.imaging.Color-}
 ```
 public static CmykColor toCmykIcc(Color pixel)
 ```
 
 
-التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية `CmykColorHelper.toCmykIcc(Color)`.
+التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية `CmykColorHelper.toCmykIcc(Color)`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1905,7 +1905,7 @@ public static CmykColor[] toCmykIcc(Color[] pixels)
 ```
 
 
-التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية `CmykColorHelper.toCmykIcc(Color[])`.
+التحويل من Color إلى CMYKColor باستخدام تحويل icc مع ملفات تعريف افتراضية. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية `CmykColorHelper.toCmykIcc(Color[])`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1920,7 +1920,7 @@ public static CmykColor[] toCmykIcc(Color[] pixels, InputStream rgbIccStream, In
 ```
 
 
-التحويل من Color إلى CMYKColor باستخدام تحويل icc. هذه الطريقة مهجورة. يرجى استخدام أكثر فعالية `CmykColorHelper.toCmykIcc(Color[], InputStream, InputStream)`.
+التحويل من Color إلى CMYKColor باستخدام تحويل icc. هذه الطريقة مهجورة. يرجى استخدام أكثر فاعلية `CmykColorHelper.toCmykIcc(Color[], InputStream, InputStream)`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1993,10 +1993,10 @@ public boolean isKnownColor()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان بنية `com.aspose.imaging.Color` هذه لونًا مُعرّفًا مسبقًا. الألوان المُعرّفة مسبقًا ممثلة بعناصر تعداد `Aspose.Imaging.KnownColor`.
+يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه لوناً مسبق التعريف. الألوان المسبقة التعريف ممثلة بعناصر تعداد `Aspose.Imaging.KnownColor`.
 
 **Returns:**
-boolean - صحيح إذا تم إنشاء هذا `com.aspose.imaging.Color` من لون مُعرّف مسبقًا باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا فإنها خاطئة.
+boolean - True إذا تم إنشاء هذا `com.aspose.imaging.Color` من لون مسبق التعريف باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا false.
 ### isEmpty() {#isEmpty--}
 ```
 public boolean isEmpty()
@@ -2006,7 +2006,7 @@ public boolean isEmpty()
 يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه غير مهيأة.
 
 **Returns:**
-boolean - تُعيد هذه الخاصية true إذا كان هذا اللون غير مبدئ؛ وإلا false.
+boolean - تُعيد هذه الخاصية true إذا كان هذا اللون غير مهيأ؛ وإلا false.
 ### isNamedColor() {#isNamedColor--}
 ```
 public boolean isNamedColor()
@@ -2016,14 +2016,14 @@ public boolean isNamedColor()
 يحصل على قيمة تشير إلى ما إذا كانت بنية `com.aspose.imaging.Color` هذه لونًا مسمىً أو عضوًا في تعداد `Aspose.Imaging.KnownColor`.
 
 **Returns:**
-boolean - صحيح إذا تم إنشاء هذا `com.aspose.imaging.Color` باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا false.
+منطقي - صحيح إذا تم إنشاء هذا `com.aspose.imaging.Color` باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا، خطأ.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-يحصل على اسم هذا `com.aspose.imaging.Color`.
+يحصل على اسم بنية `com.aspose.imaging.Color` هذه.
 
 **Returns:**
 java.lang.String - اسم هذا `com.aspose.imaging.Color`.
@@ -2033,40 +2033,40 @@ public float getBrightness()
 ```
 
 
-يحصل على قيمة السطوع في نظام اللون-التشبع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`.
+يحصل على قيمة السطوع في نظام اللون-الإشباع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-float - سطوع هذا `com.aspose.imaging.Color`. يتراوح السطوع من 0.0 إلى 1.0، حيث يمثل 0.0 اللون الأسود و1.0 اللون الأبيض.
+عائم - سطوع هذا `com.aspose.imaging.Color`. يتراوح السطوع من 0.0 إلى 1.0، حيث 0.0 يمثل الأسود و1.0 يمثل الأبيض.
 ### getHue() {#getHue--}
 ```
 public float getHue()
 ```
 
 
-يحصل على قيمة الصبغة (hue) في نظام اللون-التشبع-السطوع (HSB) بالدرجات لهذه بنية `com.aspose.imaging.Color`.
+يحصل على قيمة الصبغة (hue) في نظام اللون-الإشباع-السطوع (HSB) بالدرجات لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-float - درجة اللون (Hue) بالدرجات لهذا `com.aspose.imaging.Color`. تُقاس درجة اللون بالدرجات، وتتراوح من 0.0 إلى 360.0 في مساحة لون HSB.
+عائم - درجة اللون، بالدرجات، لهذا `com.aspose.imaging.Color`. تُقاس درجة اللون بالدرجات، وتتراوح من 0.0 إلى 360.0، في مساحة اللون HSB.
 ### getSaturation() {#getSaturation--}
 ```
 public float getSaturation()
 ```
 
 
-يحصل على قيمة التشبع في نظام اللون-التشبع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`.
+يحصل على قيمة الإشباع (saturation) في نظام اللون-الإشباع-السطوع (HSB) لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-float - تشبع هذا `com.aspose.imaging.Color`. يتراوح التشبع من 0.0 إلى 1.0، حيث 0.0 يعني تدرج رمادي و1.0 يعني أقصى تشبع.
+عائم - تشبع هذا `com.aspose.imaging.Color`. يتراوح التشبع من 0.0 إلى 1.0، حيث 0.0 يعني تدرج الرمادي و1.0 هو الأكثر تشبعًا.
 ### toArgb() {#toArgb--}
 ```
 public int toArgb()
 ```
 
 
-يحصل على قيمة ARGB ذات 32 بت لهذه بنية `com.aspose.imaging.Color`.
+يحصل على قيمة ARGB 32‑بت لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-int - قيمة ARGB 32‑بت لهذا `com.aspose.imaging.Color`.
+عدد صحيح - قيمة ARGB ذات 32 بت لهذا `com.aspose.imaging.Color`.
 ### toKnownColor() {#toKnownColor--}
 ```
 public int toKnownColor()
@@ -2076,7 +2076,7 @@ public int toKnownColor()
 يحصل على قيمة `Aspose.Imaging.KnownColor` لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-int - عنصر من تعداد `Aspose.Imaging.KnownColor`، إذا تم إنشاء `com.aspose.imaging.Color` من لون مسبق التعريف باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا يكون 0.
+عدد صحيح - عنصر من تعداد `Aspose.Imaging.KnownColor`، إذا تم إنشاء `com.aspose.imaging.Color` من لون محدد مسبقًا باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا، 0.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -2086,14 +2086,14 @@ public String toString()
 يحوّل بنية `com.aspose.imaging.Color` هذه إلى سلسلة قابلة للقراءة من قبل الإنسان.
 
 **Returns:**
-java.lang.String - سلسلة تمثل اسم هذا `com.aspose.imaging.Color`، إذا تم إنشاء `com.aspose.imaging.Color` من لون مسبق التعريف باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا تكون سلسلة تتكون من أسماء مكونات ARGB وقيمها.
+java.lang.String - سلسلة تمثل اسم هذا `com.aspose.imaging.Color`، إذا تم إنشاء `com.aspose.imaging.Color` من لون محدد مسبقًا باستخدام إما طريقة `Aspose.Imaging.Color.FromName(String)` أو طريقة `Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)`؛ وإلا، سلسلة تتكون من أسماء مكونات ARGB وقيمها.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يفحص ما إذا كان الكائن المحدد بنية `com.aspose.imaging.Color` ومكافئًا لهذه البنية `com.aspose.imaging.Color`.
+يفحص ما إذا كان الكائن المحدد بنية `com.aspose.imaging.Color` ومكافئًا لبنية `com.aspose.imaging.Color` هذه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -2101,7 +2101,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | الكائن المراد اختباره. |
 
 **Returns:**
-boolean - صحيح إذا كان `obj` بنية `com.aspose.imaging.Color` مكافئة لهذه البنية `com.aspose.imaging.Color`؛ وإلا يكون خاطئ.
+منطقي - صحيح إذا كان `obj` بنية `com.aspose.imaging.Color` مكافئة لهذه البنية `com.aspose.imaging.Color`؛ وإلا، خطأ.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -2111,7 +2111,7 @@ public int hashCode()
 يرجع رمز تجزئة (hash code) لهذه بنية `com.aspose.imaging.Color`.
 
 **Returns:**
-int - قيمة عددية تحدد رمز التجزئة لهذا `com.aspose.imaging.Color`.
+عدد صحيح - قيمة عددية تحدد رمز التجزئة لهذا `com.aspose.imaging.Color`.
 ### CloneTo(Color that) {#CloneTo-com.aspose.imaging.Color-}
 ```
 public void CloneTo(Color that)

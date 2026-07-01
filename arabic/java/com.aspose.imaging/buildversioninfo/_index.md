@@ -17,7 +17,7 @@ public final class BuildVersionInfo
 
 | حقل | الوصف |
 | --- | --- |
-| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | يحصل على رقم الإصدار للتجميع. |
+| [ASSEMBLY_VERSION](#ASSEMBLY-VERSION) | يحصل على رقم إصدار التجميع. |
 | [FILE_VERSION](#FILE-VERSION) | يحصل على رقم إصدار الملف. |
 | [PRODUCT](#PRODUCT) | يحصل على اسم المنتج. |
 | [PRODUCT_MAJOR](#PRODUCT-MAJOR) | يحصل على الإصدار الرئيسي للمنتج. |
@@ -30,7 +30,7 @@ public static final String ASSEMBLY_VERSION
 ```
 
 
-يحصل على رقم الإصدار للتجميع.
+يحصل على رقم إصدار التجميع.
 
 ### FILE_VERSION {#FILE-VERSION}
 ```

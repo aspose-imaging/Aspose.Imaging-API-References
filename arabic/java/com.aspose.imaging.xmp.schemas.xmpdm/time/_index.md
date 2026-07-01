@@ -1,5 +1,5 @@
 ---
-title: "Time"
+title: "الوقت"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "تمثيل قيمة الوقت بالثواني."
 type: docs
@@ -17,15 +17,15 @@ public final class Time extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Time(Rational scale, int value)](#Time-com.aspose.imaging.xmp.types.derived.Rational-int-) | ينشئ مثيلاً جديدًا من الفئة `Time`. |
+| [Time(Rational scale, int value)](#Time-com.aspose.imaging.xmp.types.derived.Rational-int-) | ينشئ مثيلاً جديدًا للفئة `Time`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getScale()](#getScale--) | يحصل أو يضبط المقياس لقيمة الوقت. |
 | [setScale(Rational value)](#setScale-com.aspose.imaging.xmp.types.derived.Rational-) | يحصل أو يضبط المقياس لقيمة الوقت. |
-| [getValue()](#getValue--) | يحصل أو يعيّن قيمة الوقت بالمقياس المحدد. |
-| [setValue(int value)](#setValue-int-) | يحصل أو يعيّن قيمة الوقت بالمقياس المحدد. |
+| [getValue()](#getValue--) | يحصل أو يضبط قيمة الوقت بالمقياس المحدد. |
+| [setValue(int value)](#setValue-int-) | يحصل أو يضبط قيمة الوقت بالمقياس المحدد. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### Time(Rational scale, int value) {#Time-com.aspose.imaging.xmp.types.derived.Rational-int-}
 ```
@@ -33,13 +33,13 @@ public Time(Rational scale, int value)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `Time`.
+ينشئ مثيلاً جديدًا للفئة `Time`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | scale | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | المقياس. |
-| القيمة | int | القيمة. |
+| value | int | القيمة. |
 
 ### getScale() {#getScale--}
 ```
@@ -49,7 +49,7 @@ public Rational getScale()
 
 يحصل أو يضبط المقياس لقيمة الوقت.
 
-لـ NTSC، استخدم 1001/30000، أو القيم الأقل دقة 100/2997. لـ PAL، استخدم 1/25. القيمة: المقياس لقيمة الوقت.
+لـ NTSC، استخدم 1001/30000، أو الأقل دقة 100/2997. لـ PAL، استخدم 1/25. القيمة: المقياس لقيمة الوقت.
 
 **Returns:**
 [Rational](../../com.aspose.imaging.xmp.types.derived/rational)
@@ -61,7 +61,7 @@ public void setScale(Rational value)
 
 يحصل أو يضبط المقياس لقيمة الوقت.
 
-لـ NTSC، استخدم 1001/30000، أو القيم الأقل دقة 100/2997. لـ PAL، استخدم 1/25. القيمة: المقياس لقيمة الوقت.
+لـ NTSC، استخدم 1001/30000، أو الأقل دقة 100/2997. لـ PAL، استخدم 1/25. القيمة: المقياس لقيمة الوقت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public int getValue()
 ```
 
 
-يحصل أو يعيّن قيمة الوقت بالمقياس المحدد.
+يحصل أو يضبط قيمة الوقت بالمقياس المحدد.
 
 القيمة: قيمة الوقت بالمقياس المحدد.
 
@@ -86,14 +86,14 @@ public void setValue(int value)
 ```
 
 
-يحصل أو يعيّن قيمة الوقت بالمقياس المحدد.
+يحصل أو يضبط قيمة الوقت بالمقياس المحدد.
 
 القيمة: قيمة الوقت بالمقياس المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

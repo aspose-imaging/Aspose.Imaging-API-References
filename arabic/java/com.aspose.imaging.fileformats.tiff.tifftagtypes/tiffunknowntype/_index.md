@@ -1,7 +1,7 @@
 ---
 title: "TiffUnknownType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "نوع TIFF غير معروف."
+description: "نوع tiff غير معروف."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
@@ -12,34 +12,34 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public final class TiffUnknownType extends TiffDataType
 ```
 
-نوع TIFF غير معروف. في حال عدم القدرة على التعرف على علامة TIFF يتم إنشاء هذا النوع.
+نوع TIFF غير معروف. في حال عدم إمكانية التعرف على علامة TIFF يتم إنشاء هذا النوع.
 
 لاحظ أن `TiffUnknownType` لا يتم تسلسله مرة أخرى إلى الدفق.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long count, long offsetOrValue)](#TiffUnknownType-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader-int-int-long-long-) | ينشئ مثيلاً جديدًا من الفئة `TiffUnknownType`. |
+| [TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long count, long offsetOrValue)](#TiffUnknownType-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader-int-int-long-long-) | يقوم بإنشاء نسخة جديدة من الفئة `TiffUnknownType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getCount()](#getCount--) | يحصل على عدد العناصر. |
-| [getOffsetOrValue()](#getOffsetOrValue--) | يحصل على قيمة الإزاحة لبيانات إضافية أو القيمة نفسها في حال كان العد 1. |
+| [getOffsetOrValue()](#getOffsetOrValue--) | يحصل على قيمة الإزاحة للبيانات الإضافية أو القيمة نفسها في حال كان العدد 1. |
 | [getStream()](#getStream--) | يحصل على الدفق لقراءة البيانات الإضافية منه. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getAdditionalDataSize(byte sizeOfTagValue)](#getAdditionalDataSize-byte-) | يحصل على حجم قيمة العلامة الإضافية بالبايت (في حال عدم قدرة العلامة على احتواء القيمة الكاملة). |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
-| [toString()](#toString--) | يعيد `System.String` التي تمثل هذا المثيل. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
+| [toString()](#toString--) | يعيد `System.String` الذي يمثل هذه الحالة. |
 ### TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long count, long offsetOrValue) {#TiffUnknownType-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader-int-int-long-long-}
 ```
 public TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long count, long offsetOrValue)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `TiffUnknownType`.
+يقوم بإنشاء نسخة جديدة من الفئة `TiffUnknownType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,7 +47,7 @@ public TiffUnknownType(TiffStreamReader stream, int tagType, int tagId, long cou
 | stream | [TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader) | الدفق للقراءة منه. |
 | tagType | int | نوع العلامة. |
 | tagId | int | معرف العلامة. |
-| count | long | قيمة العد. |
+| count | long | قيمة العدد. |
 | offsetOrValue | long | الإزاحة أو القيمة. |
 
 ### getCount() {#getCount--}
@@ -68,7 +68,7 @@ public long getOffsetOrValue()
 ```
 
 
-يحصل على قيمة الإزاحة لبيانات إضافية أو القيمة نفسها في حال كان العد 1.
+يحصل على قيمة الإزاحة للبيانات الإضافية أو القيمة نفسها في حال كان العدد 1.
 
 القيمة: الإزاحة أو القيمة.
 
@@ -134,7 +134,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object |  |
+| value | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -142,7 +142,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -150,14 +150,14 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-يعيد `System.String` التي تمثل هذا المثيل.
+يعيد `System.String` الذي يمثل هذه الحالة.
 
 **Returns:**
-java.lang.String - `System.String` يمثل هذا المثيل.
+java.lang.String - `System.String` الذي يمثل هذه الحالة.

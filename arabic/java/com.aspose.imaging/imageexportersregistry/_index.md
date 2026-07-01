@@ -19,9 +19,9 @@ public final class ImageExportersRegistry
 | --- | --- |
 | [getRegisteredFormats()](#getRegisteredFormats--) | يحصل على صيغ التصدير المسجلة. |
 | [getRegisteredExporterDescriptors()](#getRegisteredExporterDescriptors--) | يحصل على أوصاف المصدر المسجلة. |
-| [register(IImageExporterDescriptor exporterDescriptor)](#register-com.aspose.imaging.IImageExporterDescriptor-) | يسجل وصف مصدر الصورة المحدد. |
-| [getFirstSupportedDescriptor(Image image, ImageOptionsBase options)](#getFirstSupportedDescriptor-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | يحصل على أول وصف مدعوم تم العثور عليه مناسب لخيارات الحفظ المحددة والصورة. |
-| [createFirstSupportedExporter(Image image, ImageOptionsBase options)](#createFirstSupportedExporter-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | ينشئ أول مصدر تم العثور عليه مناسب لخيارات الحفظ المحددة والصورة. |
+| [register(IImageExporterDescriptor exporterDescriptor)](#register-com.aspose.imaging.IImageExporterDescriptor-) | يسجل وصف المصدر الصورة المحدد. |
+| [getFirstSupportedDescriptor(Image image, ImageOptionsBase options)](#getFirstSupportedDescriptor-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | يحصل على الوصف المدعوم الأول الذي تم العثور عليه المناسب لخيارات الحفظ المحددة والصورة. |
+| [createFirstSupportedExporter(Image image, ImageOptionsBase options)](#createFirstSupportedExporter-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | ينشئ المصدر الأول الذي تم العثور عليه المناسب لخيارات الحفظ المحددة والصورة. |
 | [registerExporter(IImageExporterDescriptor exporterDescriptor)](#registerExporter-com.aspose.imaging.IImageExporterDescriptor-) | يسجل المصدر. |
 | [unregisterExporter(IImageExporterDescriptor exporterDescriptor)](#unregisterExporter-com.aspose.imaging.IImageExporterDescriptor-) | يلغي تسجيل المصدر. |
 ### getRegisteredFormats() {#getRegisteredFormats--}
@@ -54,7 +54,7 @@ public static void register(IImageExporterDescriptor exporterDescriptor)
 ```
 
 
-يسجل وصف مصدر الصورة المحدد.
+يسجل وصف المصدر الصورة المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public static IImageExporterDescriptor getFirstSupportedDescriptor(Image image, 
 ```
 
 
-يحصل على أول وصف مدعوم تم العثور عليه مناسب لخيارات الحفظ المحددة والصورة.
+يحصل على الوصف المدعوم الأول الذي تم العثور عليه المناسب لخيارات الحفظ المحددة والصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -85,15 +85,15 @@ public static IImageExporter createFirstSupportedExporter(Image image, ImageOpti
 ```
 
 
-ينشئ أول مصدر تم العثور عليه مناسب لخيارات الحفظ المحددة والصورة.
+ينشئ المصدر الأول الذي تم العثور عليه المناسب لخيارات الحفظ المحددة والصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | [Image](../../com.aspose.imaging/image) | الصورة المراد تصديرها. |
-|  | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ لاستخدامها في التصدير. |
+|  | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | خيارات الحفظ التي يجب استخدامها للتصدير. |
 
-المصدر الأول سيكون في الواقع الأخير المسجل. |
+المصدّر الأول سيكون في الواقع الأخير المسجّل. |
 
 **Returns:**
 [IImageExporter](../../com.aspose.imaging/iimageexporter) - The exporter which supports the specified image and save options or null if no such exporter is found.
@@ -108,7 +108,7 @@ public static void registerExporter(IImageExporterDescriptor exporterDescriptor)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| exporterDescriptor | [IImageExporterDescriptor](../../com.aspose.imaging/iimageexporterdescriptor) | وصف المصدر للتسجيل. |
+| exporterDescriptor | [IImageExporterDescriptor](../../com.aspose.imaging/iimageexporterdescriptor) | وصف المصدّر لتسجيله. |
 
 ### unregisterExporter(IImageExporterDescriptor exporterDescriptor) {#unregisterExporter-com.aspose.imaging.IImageExporterDescriptor-}
 ```
@@ -121,5 +121,5 @@ public static void unregisterExporter(IImageExporterDescriptor exporterDescripto
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| exporterDescriptor | [IImageExporterDescriptor](../../com.aspose.imaging/iimageexporterdescriptor) | وصف المصدر لإلغاء التسجيل. |
+| exporterDescriptor | [IImageExporterDescriptor](../../com.aspose.imaging/iimageexporterdescriptor) | وصف المصدّر لإلغاء تسجيله. |
 

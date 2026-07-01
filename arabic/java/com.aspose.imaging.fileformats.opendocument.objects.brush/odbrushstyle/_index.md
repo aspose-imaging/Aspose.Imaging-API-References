@@ -17,18 +17,18 @@ public final class OdBrushStyle extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | نمط الفرشاة none |
-| [Solid](#Solid) | نمط الفرشاة solid |
-| [Hatched](#Hatched) | نمط الفرشاة hatched |
-| [Gradient](#Gradient) | نمط الفرشاة gradient |
-| [Pattern](#Pattern) | نمط الفرشاة pattern |
+| [None](#None) | نمط الفرشاة لا شيء |
+| [Solid](#Solid) | نمط الفرشاة متصل |
+| [Hatched](#Hatched) | نمط الفرشاة مخطط |
+| [Gradient](#Gradient) | نمط الفرشاة تدرج |
+| [Pattern](#Pattern) | نمط الفرشاة نمط |
 ### None {#None}
 ```
 public static final int None
 ```
 
 
-نمط الفرشاة none
+نمط الفرشاة لا شيء
 
 ### Solid {#Solid}
 ```
@@ -36,7 +36,7 @@ public static final int Solid
 ```
 
 
-نمط الفرشاة solid
+نمط الفرشاة متصل
 
 ### Hatched {#Hatched}
 ```
@@ -44,7 +44,7 @@ public static final int Hatched
 ```
 
 
-نمط الفرشاة hatched
+نمط الفرشاة مخطط
 
 ### Gradient {#Gradient}
 ```
@@ -52,7 +52,7 @@ public static final int Gradient
 ```
 
 
-نمط الفرشاة gradient
+نمط الفرشاة تدرج
 
 ### Pattern {#Pattern}
 ```
@@ -60,5 +60,5 @@ public static final int Pattern
 ```
 
 
-نمط الفرشاة pattern
+نمط الفرشاة نمط
 

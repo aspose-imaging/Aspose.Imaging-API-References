@@ -1,7 +1,7 @@
 ---
 title: "EmfCreateDibPatternBrushPt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل EMR_CREATEDIBPATTERNBRUSHPT يعرّف فرشاة نمطية لعمليات الرسومات."
+description: "سجل EMR_CREATEDIBPATTERNBRUSHPT يعرّف فرشاة نمطية لعمليات الرسومات."
 type: docs
 weight: 38
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
@@ -12,23 +12,23 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfCreateDibPatternBrushPt extends EmfObjectCreationRecordType
 ```
 
-السجل EMR\_CREATEDIBPATTERNBRUSHPT يعرّف فرشاة نمطية لعمليات الرسومات. يتم تحديد النمط بواسطة DIB.
+سجل EMR\_CREATEDIBPATTERNBRUSHPT يحدد فرشاة نمط للعمليات الرسومية. يتم تحديد النمط بواسطة DIB.
 
-يمكن اختيار كائن فرشاة النمط المحدد بواسطة هذا السجل إلى سياق جهاز التشغيل عبر سجل EMR\_SELECTOBJECT (القسم 2.3.8.5)، الذي يحدد فرشاة النمط لاستخدامها في عمليات الرسومات اللاحقة.
+يمكن اختيار كائن فرشاة النمط المحدد بواسطة هذا السجل إلى سياق جهاز التشغيل بواسطة سجل EMR\_SELECTOBJECT (القسم 2.3.8.5)، الذي يحدد فرشاة النمط التي ستُستخدم في عمليات رسومية لاحقة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfCreateDibPatternBrushPt(EmfRecord source)](#EmfCreateDibPatternBrushPt-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfCreateDibPatternBrushPt`. |
-| [EmfCreateDibPatternBrushPt()](#EmfCreateDibPatternBrushPt--) | ينشئ مثيلًا جديدًا من الفئة `EmfCreateDibPatternBrushPt`. |
+| [EmfCreateDibPatternBrushPt(EmfRecord source)](#EmfCreateDibPatternBrushPt-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُهيئ نسخة جديدة من الفئة `EmfCreateDibPatternBrushPt`. |
+| [EmfCreateDibPatternBrushPt()](#EmfCreateDibPatternBrushPt--) | يُهيئ نسخة جديدة من الفئة `EmfCreateDibPatternBrushPt`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhBrush()](#getIhBrush--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). |
-| [setIhBrush(int value)](#setIhBrush-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). |
-| [getUsage()](#getUsage--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس DIB. |
-| [setUsage(int value)](#setUsage-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس DIB. |
+| [getIhBrush()](#getIhBrush--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). |
+| [setIhBrush(int value)](#setIhBrush-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). |
+| [getUsage()](#getUsage--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة تفسير القيم في جدول الألوان في رأس DIB. |
+| [setUsage(int value)](#setUsage-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة تفسير القيم في جدول الألوان في رأس DIB. |
 | [getBitmapBuffer()](#getBitmapBuffer--) | يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). |
 | [setBitmapBuffer(WmfDeviceIndependentBitmap value)](#setBitmapBuffer-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). |
 ### EmfCreateDibPatternBrushPt(EmfRecord source) {#EmfCreateDibPatternBrushPt-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -37,7 +37,7 @@ public EmfCreateDibPatternBrushPt(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfCreateDibPatternBrushPt`.
+يُهيئ نسخة جديدة من الفئة `EmfCreateDibPatternBrushPt`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -50,7 +50,7 @@ public EmfCreateDibPatternBrushPt()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfCreateDibPatternBrushPt`.
+يُهيئ نسخة جديدة من الفئة `EmfCreateDibPatternBrushPt`.
 
 ### getIhBrush() {#getIhBrush--}
 ```
@@ -58,7 +58,7 @@ public int getIhBrush()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Returns:**
 int
@@ -68,12 +68,12 @@ public void setIhBrush(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس كائن فرشاة النمط في جدول كائنات EMF (القسم 3.1.1.1). يجب حفظ هذا الفهرس حتى يمكن إعادة استخدام هذا الكائن أو تعديله.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getUsage() {#getUsage--}
 ```
@@ -81,7 +81,7 @@ public int getUsage()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس DIB. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة تفسير القيم في جدول الألوان في رأس DIB. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9).
 
 **Returns:**
 int
@@ -91,12 +91,12 @@ public void setUsage(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32 بت يحدد كيفية تفسير القيم في جدول الألوان في رأس DIB. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9).
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد طريقة تفسير القيم في جدول الألوان في رأس DIB. يجب أن تكون هذه القيمة ضمن تعداد DIBColors (القسم 2.1.9).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBitmapBuffer() {#getBitmapBuffer--}
 ```
@@ -104,7 +104,7 @@ public WmfDeviceIndependentBitmap getBitmapBuffer()
 ```
 
 
-يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). لا يلزم أن يكون متجاورًا مع الجزء الثابت من سجل EMR_CREATEDIBPATTERNBRUSHPT.
+يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). لا يُشترط أن يكون متجاورًا مع الجزء الثابت من سجل EMR\_CREATEDIBPATTERNBRUSHPT.
 
 **Returns:**
 [WmfDeviceIndependentBitmap](../../com.aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap)
@@ -114,7 +114,7 @@ public void setBitmapBuffer(WmfDeviceIndependentBitmap value)
 ```
 
 
-يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). لا يلزم أن يكون متجاورًا مع الجزء الثابت من سجل EMR_CREATEDIBPATTERNBRUSHPT.
+يحصل أو يعيّن مخزنًا يحتوي على DIB مضغوط على شكل كائن WMF DeviceIndependentBitmap ([MS-WMF] القسم 2.2.2.9). لا يُشترط أن يكون متجاورًا مع الجزء الثابت من سجل EMR\_CREATEDIBPATTERNBRUSHPT.
 
 **Parameters:**
 | معامل | نوع | الوصف |

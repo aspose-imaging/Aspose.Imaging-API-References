@@ -1,7 +1,7 @@
 ---
 title: "DxfRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تحويل DXF إلى نقطية."
+description: "خيارات تصيير Dxf."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.imaging.imageoptions/dxfrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class DxfRasterizationOptions extends VectorRasterizationOptions
 ```
 
-خيارات تحويل DXF إلى نقطية.
+خيارات تصيير Dxf.
 
 (/)
 ## المنشئات

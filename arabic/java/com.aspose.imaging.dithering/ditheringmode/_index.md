@@ -22,10 +22,10 @@ public class DitheringMode
 
 | طريقة | الوصف |
 | --- | --- |
-| [getMethod()](#getMethod--) | اختيار خوارزمية التدرج النقطي. |
-| [setMethod(int value)](#setMethod-int-) | اختيار خوارزمية التدرج النقطي. |
-| [getBits()](#getBits--) | عامل أخذ العينات للصورة المتدرجة النقطية. |
-| [setBits(int value)](#setBits-int-) | عامل أخذ العينات للصورة المتدرجة النقطية. |
+| [getMethod()](#getMethod--) | اختيار خوارزمية التظليل. |
+| [setMethod(int value)](#setMethod-int-) | اختيار خوارزمية التظليل. |
+| [getBits()](#getBits--) | عامل العينة للصورة المظللة. |
+| [setBits(int value)](#setBits-int-) | عامل العينة للصورة المظللة. |
 | [getCustomPalette()](#getCustomPalette--) | لوحة الألوان المخصصة للتمويه. |
 | [setCustomPalette(IColorPalette value)](#setCustomPalette-com.aspose.imaging.IColorPalette-) | لوحة الألوان المخصصة للتمويه. |
 ### DitheringMode() {#DitheringMode--}
@@ -40,7 +40,7 @@ public int getMethod()
 ```
 
 
-اختيار خوارزمية التدرج النقطي.
+اختيار خوارزمية التظليل.
 
 **Returns:**
 int
@@ -50,12 +50,12 @@ public void setMethod(int value)
 ```
 
 
-اختيار خوارزمية التدرج النقطي.
+اختيار خوارزمية التظليل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getBits() {#getBits--}
 ```
@@ -63,7 +63,7 @@ public int getBits()
 ```
 
 
-عامل أخذ العينات للصورة المتدرجة النقطية.
+عامل العينة للصورة المظللة.
 
 **Returns:**
 int
@@ -73,12 +73,12 @@ public void setBits(int value)
 ```
 
 
-عامل أخذ العينات للصورة المتدرجة النقطية.
+عامل العينة للصورة المظللة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCustomPalette() {#getCustomPalette--}
 ```

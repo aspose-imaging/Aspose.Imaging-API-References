@@ -1,7 +1,7 @@
 ---
 title: "EmfCommentMultiFormats"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_COMMENT_MULTIFORMATS يحدد صورة بأشكال رسومية متعددة."
+description: "السجل EMR_COMMENT_MULTIFORMATS يحدد صورة بأكثر من تنسيق رسومي."
 type: docs
 weight: 30
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
@@ -12,29 +12,29 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfCommentMultiFormats extends EmfCommentPublicRecordType
 ```
 
-سجل EMR_COMMENT_MULTIFORMATS يحدد صورة بأكثر من تنسيق رسومي.
+سجل EMR\_COMMENT\_MULTIFORMATS يحدد صورة بأشكال رسومية متعددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfCommentMultiFormats(EmfRecord source)](#EmfCommentMultiFormats-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُهيئ نسخة جديدة من الفئة `EmfCommentMultiFormats`. |
+| [EmfCommentMultiFormats(EmfRecord source)](#EmfCommentMultiFormats-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfCommentMultiFormats`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getOutputRect()](#getOutputRect--) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج، بالإحداثيات المنطقية. |
 | [setOutputRect(Rectangle value)](#setOutputRect-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL ([MS-WMF] القسم 2.2.2.19) الذي يحدد المستطيل الناتج، بالإحداثيات المنطقية. |
-| [getAFormats()](#getAFormats--) | يحصل أو يعيّن مصفوفة بطول CountFormats من صيغ الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأولوية. |
-| [setAFormats(EmfFormat[] value)](#setAFormats-com.aspose.imaging.fileformats.emf.emf.objects.EmfFormat---) | يحصل أو يعيّن مصفوفة بطول CountFormats من صيغ الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأولوية. |
-| [getFormatData()](#getFormatData--) | يحصل أو يعيّن مصفوفة بطول متغيّر من البايتات لبيانات الصورة لجميع صيغ الرسومات الموجودة في هذا السجل. |
-| [setFormatData(byte[][] value)](#setFormatData-byte-----) | يحصل أو يعيّن مصفوفة بطول متغيّر من البايتات لبيانات الصورة لجميع صيغ الرسومات الموجودة في هذا السجل. |
+| [getAFormats()](#getAFormats--) | يحصل أو يعيّن مصفوفة بطول CountFormats من تنسيقات الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأفضليات. |
+| [setAFormats(EmfFormat[] value)](#setAFormats-com.aspose.imaging.fileformats.emf.emf.objects.EmfFormat---) | يحصل أو يعيّن مصفوفة بطول CountFormats من تنسيقات الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأفضليات. |
+| [getFormatData()](#getFormatData--) | يحصل أو يعيّن مصفوفة ذات طول متغيّر من البايتات لبيانات الصورة لجميع تنسيقات الرسومات الموجودة في هذا السجل. |
+| [setFormatData(byte[][] value)](#setFormatData-byte-----) | يحصل أو يعيّن مصفوفة ذات طول متغيّر من البايتات لبيانات الصورة لجميع تنسيقات الرسومات الموجودة في هذا السجل. |
 ### EmfCommentMultiFormats(EmfRecord source) {#EmfCommentMultiFormats-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCommentMultiFormats(EmfRecord source)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `EmfCommentMultiFormats`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfCommentMultiFormats`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public EmfFormat[] getAFormats()
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول CountFormats من صيغ الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأولوية.
+يحصل أو يعيّن مصفوفة بطول CountFormats من تنسيقات الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأفضليات.
 
 **Returns:**
 com.aspose.imaging.fileformats.emf.emf.objects.EmfFormat[]
@@ -80,7 +80,7 @@ public void setAFormats(EmfFormat[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول CountFormats من صيغ الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأولوية.
+يحصل أو يعيّن مصفوفة بطول CountFormats من تنسيقات الرسومات، المحددة بواسطة كائنات EmrFormat (القسم 2.2.4)، بترتيب الأفضليات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -93,7 +93,7 @@ public byte[][] getFormatData()
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول متغيّر من البايتات لبيانات الصورة لجميع صيغ الرسومات الموجودة في هذا السجل. حجم البيانات لكل صورة يُوفره حقل DataSize في كائن EmrFormat المقابل. وبالتالي، يكون الحجم الكلي لهذا الحقل هو مجموع قيم DataSize في جميع كائنات EmrFormat. صيغة الرسومات للبيانات لكل صورة تُحدد بواسطة حقل Signature في كائن EmrFormat المقابل.
+يحصل أو يعيّن مصفوفة ذات طول متغيّر من البايتات لبيانات الصورة لجميع تنسيقات الرسومات الموجودة في هذا السجل. يتم توفير حجم البيانات لكل صورة بواسطة حقل DataSize في كائن EmrFormat المقابل. وبالتالي، يكون الحجم الكلي لهذا الحقل هو مجموع قيم DataSize في جميع كائنات EmrFormat. يتم تحديد تنسيق الرسومات للبيانات الخاصة بكل صورة بواسطة حقل Signature في كائن EmrFormat المقابل.
 
 **Returns:**
 byte[][]
@@ -103,10 +103,10 @@ public void setFormatData(byte[][] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بطول متغيّر من البايتات لبيانات الصورة لجميع صيغ الرسومات الموجودة في هذا السجل. حجم البيانات لكل صورة يُوفره حقل DataSize في كائن EmrFormat المقابل. وبالتالي، يكون الحجم الكلي لهذا الحقل هو مجموع قيم DataSize في جميع كائنات EmrFormat. صيغة الرسومات للبيانات لكل صورة تُحدد بواسطة حقل Signature في كائن EmrFormat المقابل.
+يحصل أو يعيّن مصفوفة ذات طول متغيّر من البايتات لبيانات الصورة لجميع تنسيقات الرسومات الموجودة في هذا السجل. يتم توفير حجم البيانات لكل صورة بواسطة حقل DataSize في كائن EmrFormat المقابل. وبالتالي، يكون الحجم الكلي لهذا الحقل هو مجموع قيم DataSize في جميع كائنات EmrFormat. يتم تحديد تنسيق الرسومات للبيانات الخاصة بكل صورة بواسطة حقل Signature في كائن EmrFormat المقابل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[][] |  |
+| value | byte[][] |  |
 

@@ -1,7 +1,7 @@
 ---
 title: "OdRasterizationOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات تمثيل الرسوميات للملف Odg"
+description: "خيارات تمثيل الرسوم النقطية لـ ODG"
 type: docs
 weight: 32
 url: /ar/java/com.aspose.imaging.imageoptions/odrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class OdRasterizationOptions extends VectorRasterizationOptions
 ```
 
-خيارات تمثيل الرسوميات للملف Odg
+خيارات تمثيل الرسوم النقطية لـ ODG
 ## المنشئات
 
 | المنشئ | الوصف |

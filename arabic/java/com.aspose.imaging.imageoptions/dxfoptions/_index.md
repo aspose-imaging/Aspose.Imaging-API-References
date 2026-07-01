@@ -1,7 +1,7 @@
 ---
 title: "DxfOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "توفر واجهة برمجة التطبيقات لإنشاء صور متجهة بصيغة Drawing Interchange Format DXF حلولًا مخصصة لتوليد ملفات رسومات AutoCAD بدقة ومرونة."
+description: "توفر واجهة برمجة التطبيقات لإنشاء صور متجهة بصيغة Drawing Interchange Format (DXF) حلولًا مخصصة لتوليد ملفات رسومات AutoCAD بدقة ومرونة."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.imaging.imageoptions/dxfoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DxfOptions extends ImageOptionsBase
 ```
 
-توفر واجهة برمجة التطبيقات لإنشاء صور متجهة بصيغة Drawing Interchange Format (DXF) حلولًا مخصصة لتوليد ملفات رسومات AutoCAD بدقة ومرونة. صُممت خصيصًا للعمل مع خطوط النص ومنحنيات بيزيه، حيث يمكن للمطورين التعامل مع هذه العناصر بفعالية، وعدّ نقاط بيزيه، وتحويل المنحنيات إلى خطوط متعددة لتصدير سلس، مما يضمن التوافق والموثوقية في صور DXF المتجهة.
+توفر واجهة برمجة التطبيقات لإنشاء صور متجهة بصيغة Drawing Interchange Format (DXF) حلولًا مخصصة لتوليد ملفات رسومات AutoCAD بدقة ومرونة. صُممت خصيصًا للعمل مع خطوط النص ومنحنيات بيزييه، حيث يمكن للمطورين معالجة هذه العناصر بفعالية، وعدّ نقاط بيزييه، وتحويل المنحنيات إلى خطوط متعددة النقاط لتصدير سلس، مما يضمن التوافق والوفاء في صور DXF المتجهة.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -23,12 +23,12 @@ public class DxfOptions extends ImageOptionsBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBezierPointCount()](#getBezierPointCount--) | عدد النقاط التي يجب إنشاؤها عند تحويل منحنيات بيزييه إلى خطوط متعددة، الحد الأدنى 4. |
-| [setBezierPointCount(byte value)](#setBezierPointCount-byte-) | عدد النقاط التي يجب إنشاؤها عند تحويل منحنيات بيزييه إلى خطوط متعددة، الحد الأدنى 4. |
+| [getBezierPointCount()](#getBezierPointCount--) | عدد النقاط التي سيتم توليدها عند تحويل منحنيات بيزييه إلى خطوط متعددة النقاط، الحد الأدنى 4. |
+| [setBezierPointCount(byte value)](#setBezierPointCount-byte-) | عدد النقاط التي سيتم توليدها عند تحويل منحنيات بيزييه إلى خطوط متعددة النقاط، الحد الأدنى 4. |
 | [getConvertTextBeziers()](#getConvertTextBeziers--) | يعمل عندما يتم تعيين \#textAsLines إلى `true`. |
 | [setConvertTextBeziers(boolean value)](#setConvertTextBeziers-boolean-) | يعمل عندما يتم تعيين \#textAsLines إلى `true`. |
-| [getTextAsLines()](#getTextAsLines--) | ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة (افتراضي) أو ككيانات نصية قابلة للتحرير في Autocad. |
-| [setTextAsLines(boolean value)](#setTextAsLines-boolean-) | ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة (افتراضي) أو ككيانات نصية قابلة للتحرير في Autocad. |
+| [getTextAsLines()](#getTextAsLines--) | ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة النقاط (افتراضي) أو ككيانات نصية قابلة للتحرير في AutoCAD. |
+| [setTextAsLines(boolean value)](#setTextAsLines-boolean-) | ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة النقاط (افتراضي) أو ككيانات نصية قابلة للتحرير في AutoCAD. |
 
 ## Example: This example demonstrates export to Dxf format
 
@@ -70,7 +70,7 @@ public final byte getBezierPointCount()
 ```
 
 
-عدد النقاط التي يجب إنشاؤها عند تحويل منحنيات بيزييه إلى خطوط متعددة، الحد الأدنى 4. يُستخدم عندما يتم تعيين (/) و (/) كلاهما /// إلى `true`
+عدد النقاط التي سيتم توليدها عند تحويل منحنيات بيزييه إلى خطوط متعددة النقاط، الحد الأدنى 4. يُستخدم عندما يتم تعيين (/) و (/) كلاهما إلى `true`.
 
 **Returns:**
 byte
@@ -80,12 +80,12 @@ public final void setBezierPointCount(byte value)
 ```
 
 
-عدد النقاط التي يجب إنشاؤها عند تحويل منحنيات بيزييه إلى خطوط متعددة، الحد الأدنى 4. يُستخدم عندما يتم تعيين (/) و (/) كلاهما /// إلى `true`
+عدد النقاط التي سيتم توليدها عند تحويل منحنيات بيزييه إلى خطوط متعددة النقاط، الحد الأدنى 4. يُستخدم عندما يتم تعيين (/) و (/) كلاهما إلى `true`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getConvertTextBeziers() {#getConvertTextBeziers--}
 ```
@@ -108,7 +108,7 @@ public final void setConvertTextBeziers(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getTextAsLines() {#getTextAsLines--}
 ```
@@ -116,7 +116,7 @@ public final boolean getTextAsLines()
 ```
 
 
-ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة (افتراضي) أو ككيانات نصية قابلة للتحرير في Autocad. إذا تم تعيين هذا الخيار
+ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة النقاط (افتراضي) أو ككيانات نصية قابلة للتحرير في AutoCAD. إذا تم تعيين هذا الخيار
 
 **Returns:**
 boolean
@@ -126,10 +126,10 @@ public final void setTextAsLines(boolean value)
 ```
 
 
-ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة (افتراضي) أو ككيانات نصية قابلة للتحرير في Autocad. إذا تم تعيين هذا الخيار
+ما إذا كان يجب تصدير النص كحدود تتكون من خطوط متعددة النقاط (افتراضي) أو ككيانات نصية قابلة للتحرير في AutoCAD. إذا تم تعيين هذا الخيار
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 

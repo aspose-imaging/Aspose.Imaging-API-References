@@ -7,7 +7,7 @@ weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject)
 ```
 public class CmxPage extends DisposableObject
 ```
@@ -17,15 +17,15 @@ public class CmxPage extends DisposableObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CmxPage()](#CmxPage--) | يُنشئ مثيلاً جديدًا للفئة [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) |
+| [CmxPage()](#CmxPage--) | ينشئ مثيلاً جديداً من الفئة [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBoundBox()](#getBoundBox--) | يحصل على الصندوق المحيط. |
-| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق المحيط. |
-| [getFlags()](#getFlags--) | يحصل على العلامات. |
-| [setFlags(long value)](#setFlags-long-) | يضبط العلامات. |
+| [getBoundBox()](#getBoundBox--) | يحصل على صندوق الإحاطة. |
+| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط صندوق الإحاطة. |
+| [getFlags()](#getFlags--) | يحصل على الأعلام. |
+| [setFlags(long value)](#setFlags-long-) | يضبط الأعلام. |
 | [getLayers()](#getLayers--) | يحصل على طبقات الصفحة. |
 | [getPageNumber()](#getPageNumber--) | يحصل على رقم ترتيب الصفحة. |
 | [setPageNumber(int value)](#setPageNumber-int-) | يضبط رقم ترتيب الصفحة. |
@@ -41,7 +41,7 @@ public CmxPage()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage)
+ينشئ مثيلاً جديداً من الفئة [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage).
 
 ### getBoundBox() {#getBoundBox--}
 ```
@@ -49,7 +49,7 @@ public final RectangleF getBoundBox()
 ```
 
 
-يحصل على الصندوق المحيط.
+يحصل على صندوق الإحاطة.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bounding box.
@@ -59,12 +59,12 @@ public final void setBoundBox(RectangleF value)
 ```
 
 
-يضبط الصندوق المحيط.
+يضبط صندوق الإحاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المربع المحيط. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | صندوق الإحاطة. |
 
 ### getFlags() {#getFlags--}
 ```
@@ -72,7 +72,7 @@ public final long getFlags()
 ```
 
 
-يحصل على العلامات.
+يحصل على الأعلام.
 
 **Returns:**
 long - العلامات.
@@ -82,12 +82,12 @@ public final void setFlags(long value)
 ```
 
 
-يضبط العلامات.
+يضبط الأعلام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | العلامات. |
+| value | long | العلامات. |
 
 ### getLayers() {#getLayers--}
 ```
@@ -120,7 +120,7 @@ public final void setPageNumber(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | رقم ترتيب الصفحة. |
+| value | int | رقم ترتيب الصفحة. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -143,7 +143,7 @@ public final void setWidth(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض الصفحة. |
+| value | float | عرض الصفحة. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -166,7 +166,7 @@ public final void setHeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | ارتفاع الصفحة. |
+| value | float | ارتفاع الصفحة. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.awt/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [GraphicsRenderer](../com.aspose.imaging.awt/graphicsrenderer) | الفئة تتعامل مع رسم com.aspose.imaging.Image مباشرةً على java.awt.Graphic2D. |

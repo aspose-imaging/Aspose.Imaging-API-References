@@ -22,20 +22,20 @@ public final class EmfPlusPathGradientBrushData extends EmfPlusBaseBrushData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBrushDataFlags()](#getBrushDataFlags--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. |
-| [setBrushDataFlags(int value)](#setBrushDataFlags-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. |
-| [getWrapMode()](#getWrapMode--) | يحصل أو يضبط عددًا صحيحًا موقعًا 32‑بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. |
-| [setWrapMode(int value)](#setWrapMode-int-) | يحصل أو يضبط عددًا صحيحًا موقعًا 32‑بت من تعداد WrapMode (القسم 2.1.1.34) يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. |
-| [getCenterArgb32Color()](#getCenterArgb32Color--) | الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
-| [setCenterArgb32Color(int value)](#setCenterArgb32Color-int-) | الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
-| [getCenterPointF()](#getCenterPointF--) | الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
-| [setCenterPointF(PointF value)](#setCenterPointF-com.aspose.imaging.PointF-) | الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
-| [getSurroundingArgb32Colors()](#getSurroundingArgb32Colors--) | الحصول أو تعيين مصفوفة من كائنات SurroundingColorCount EmfPlusARGB التي تحدد الألوان للنقاط المنفصلة على حد الفرشاة. |
-| [setSurroundingArgb32Colors(int[] value)](#setSurroundingArgb32Colors-int---) | الحصول أو تعيين مصفوفة من كائنات SurroundingColorCount EmfPlusARGB التي تحدد الألوان للنقاط المنفصلة على حد الفرشاة. |
-| [getBoundaryData()](#getBoundaryData--) | الحصول أو تعيين حد فرشاة تدرج المسار، والذي يتم تحديده إما بمسار أو بمنحنى كاردينال مغلق. |
-| [setBoundaryData(EmfPlusBoundaryBase value)](#setBoundaryData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryBase-) | الحصول أو تعيين حد فرشاة تدرج المسار، والذي يتم تحديده إما بمسار أو بمنحنى كاردينال مغلق. |
-| [getOptionalData()](#getOptionalData--) | الحصول أو تعيين كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. |
-| [setOptionalData(EmfPlusPathGradientBrushOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathGradientBrushOptionalData-) | الحصول أو تعيين كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. |
+| [getBrushDataFlags()](#getBrushDataFlags--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. |
+| [setBrushDataFlags(int value)](#setBrushDataFlags-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. |
+| [getWrapMode()](#getWrapMode--) | يحصل أو يحدد عدد صحيح موقع 32 بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. |
+| [setWrapMode(int value)](#setWrapMode-int-) | يحصل أو يحدد عدد صحيح موقع 32 بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. |
+| [getCenterArgb32Color()](#getCenterArgb32Color--) | يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
+| [setCenterArgb32Color(int value)](#setCenterArgb32Color-int-) | يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
+| [getCenterPointF()](#getCenterPointF--) | يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
+| [setCenterPointF(PointF value)](#setCenterPointF-com.aspose.imaging.PointF-) | يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. |
+| [getSurroundingArgb32Colors()](#getSurroundingArgb32Colors--) | يحصل أو يحدد مصفوفة من كائنات EmfPlusARGB بعدد SurroundingColorCount التي تحدد الألوان للنقاط المنفصلة على حدود الفرشاة. |
+| [setSurroundingArgb32Colors(int[] value)](#setSurroundingArgb32Colors-int---) | يحصل أو يحدد مصفوفة من كائنات EmfPlusARGB بعدد SurroundingColorCount التي تحدد الألوان للنقاط المنفصلة على حدود الفرشاة. |
+| [getBoundaryData()](#getBoundaryData--) | يحصل أو يحدد حدود فرشاة تدرج المسار، والتي يتم تحديدها إما بمسار أو بمنحنى كارديال مغلق. |
+| [setBoundaryData(EmfPlusBoundaryBase value)](#setBoundaryData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryBase-) | يحصل أو يحدد حدود فرشاة تدرج المسار، والتي يتم تحديدها إما بمسار أو بمنحنى كارديال مغلق. |
+| [getOptionalData()](#getOptionalData--) | يحصل أو يحدد كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. |
+| [setOptionalData(EmfPlusPathGradientBrushOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathGradientBrushOptionalData-) | يحصل أو يحدد كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. |
 ### EmfPlusPathGradientBrushData() {#EmfPlusPathGradientBrushData--}
 ```
 public EmfPlusPathGradientBrushData()
@@ -48,7 +48,7 @@ public int getBrushDataFlags()
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من أعلام BrushData (القسم 2.1.2.1). الأعلام التالية ذات صلة بفرشاة تدرج المسار:
+يحصل أو يحدد عدد صحيح غير موقع 32 بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من علامات BrushData (القسم 2.1.2.1). العلامات التالية ذات صلة بفرشاة تدرج المسار:
 
 **Returns:**
 int
@@ -58,12 +58,12 @@ public void setBrushDataFlags(int value)
 ```
 
 
-الحصول أو تعيين عدد صحيح غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من أعلام BrushData (القسم 2.1.2.1). الأعلام التالية ذات صلة بفرشاة تدرج المسار:
+يحصل أو يحدد عدد صحيح غير موقع 32 بت يحدد البيانات في حقل OptionalData. يجب أن يتكون هذا القيمة من علامات BrushData (القسم 2.1.2.1). العلامات التالية ذات صلة بفرشاة تدرج المسار:
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getWrapMode() {#getWrapMode--}
 ```
@@ -71,7 +71,7 @@ public int getWrapMode()
 ```
 
 
-الحصول أو تعيين عدد صحيح موقع 32‑بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حد الفرشاة. عند الرسم خارج الحد، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
+يحصل أو يحدد عدد صحيح موقع 32 بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. عند الرسم خارج الحدود، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
 
 **Returns:**
 int
@@ -81,12 +81,12 @@ public void setWrapMode(int value)
 ```
 
 
-الحصول أو تعيين عدد صحيح موقع 32‑بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حد الفرشاة. عند الرسم خارج الحد، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
+يحصل أو يحدد عدد صحيح موقع 32 بت من تعداد WrapMode (القسم 2.1.1.34) الذي يحدد ما إذا كان سيتم رسم المنطقة خارج حدود الفرشاة. عند الرسم خارج الحدود، يحدد وضع الالتفاف كيفية تكرار تدرج اللون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCenterArgb32Color() {#getCenterArgb32Color--}
 ```
@@ -94,7 +94,7 @@ public int getCenterArgb32Color()
 ```
 
 
-الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجياً من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
+يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجيًا من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
 
 **Returns:**
 int
@@ -104,12 +104,12 @@ public void setCenterArgb32Color(int value)
 ```
 
 
-الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجياً من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
+يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجيًا من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getCenterPointF() {#getCenterPointF--}
 ```
@@ -117,7 +117,7 @@ public PointF getCenterPointF()
 ```
 
 
-الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجياً من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
+يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجيًا من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
@@ -127,7 +127,7 @@ public void setCenterPointF(PointF value)
 ```
 
 
-الحصول أو تعيين كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجياً من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
+يحصل أو يحدد كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون المركز لفرشاة تدرج المسار، وهو اللون الذي يظهر عند نقطة مركز الفرشاة. يتغير لون الفرشاة تدريجيًا من لون الحد إلى لون المركز كلما انتقل من الحد إلى نقطة المركز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -140,7 +140,7 @@ public int[] getSurroundingArgb32Colors()
 ```
 
 
-الحصول أو تعيين مصفوفة من كائنات SurroundingColorCount EmfPlusARGB التي تحدد الألوان للنقاط المنفصلة على حد الفرشاة.
+يحصل أو يحدد مصفوفة من كائنات EmfPlusARGB بعدد SurroundingColorCount التي تحدد الألوان للنقاط المنفصلة على حدود الفرشاة.
 
 **Returns:**
 int[]
@@ -150,12 +150,12 @@ public void setSurroundingArgb32Colors(int[] value)
 ```
 
 
-الحصول أو تعيين مصفوفة من كائنات SurroundingColorCount EmfPlusARGB التي تحدد الألوان للنقاط المنفصلة على حد الفرشاة.
+يحصل أو يحدد مصفوفة من كائنات EmfPlusARGB بعدد SurroundingColorCount التي تحدد الألوان للنقاط المنفصلة على حدود الفرشاة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 
 ### getBoundaryData() {#getBoundaryData--}
 ```
@@ -163,7 +163,7 @@ public EmfPlusBoundaryBase getBoundaryData()
 ```
 
 
-الحصول أو تعيين حد فرشاة تدرج المسار، والذي يتم تحديده إما بمسار أو بمنحنى كاردينال مغلق. إذا تم تعيين علم BrushDataPath في حقل BrushDataFlags، يجب أن يحتوي هذا الحقل على كائن EmfPlusBoundaryPathData (القسم 2.2.2.6)؛ وإلا، يجب أن يحتوي على كائن EmfPlusBoundaryPointData (القسم 2.2.2.7).
+يحصل أو يحدد حدود فرشاة تدرج المسار، والتي يتم تحديدها إما بمسار أو بمنحنى كارديال مغلق. إذا تم تعيين علامة BrushDataPath في حقل BrushDataFlags، يجب أن يحتوي هذا الحقل على كائن EmfPlusBoundaryPathData (القسم 2.2.2.6)؛ وإلا، يجب أن يحتوي على كائن EmfPlusBoundaryPointData (القسم 2.2.2.7).
 
 **Returns:**
 [EmfPlusBoundaryBase](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarybase)
@@ -173,7 +173,7 @@ public void setBoundaryData(EmfPlusBoundaryBase value)
 ```
 
 
-الحصول أو تعيين حد فرشاة تدرج المسار، والذي يتم تحديده إما بمسار أو بمنحنى كاردينال مغلق. إذا تم تعيين علم BrushDataPath في حقل BrushDataFlags، يجب أن يحتوي هذا الحقل على كائن EmfPlusBoundaryPathData (القسم 2.2.2.6)؛ وإلا، يجب أن يحتوي على كائن EmfPlusBoundaryPointData (القسم 2.2.2.7).
+يحصل أو يحدد حدود فرشاة تدرج المسار، والتي يتم تحديدها إما بمسار أو بمنحنى كارديال مغلق. إذا تم تعيين علامة BrushDataPath في حقل BrushDataFlags، يجب أن يحتوي هذا الحقل على كائن EmfPlusBoundaryPathData (القسم 2.2.2.6)؛ وإلا، يجب أن يحتوي على كائن EmfPlusBoundaryPointData (القسم 2.2.2.7).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -186,7 +186,7 @@ public EmfPlusPathGradientBrushOptionalData getOptionalData()
 ```
 
 
-الحصول أو تعيين كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. يتم تحديد المحتويات المحددة لهذا الحقل بقيمة حقل BrushDataFlags.
+يحصل أو يحدد كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. المحتويات المحددة لهذا الحقل يتم تحديدها بقيمة حقل BrushDataFlags.
 
 **Returns:**
 [EmfPlusPathGradientBrushOptionalData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata)
@@ -196,7 +196,7 @@ public void setOptionalData(EmfPlusPathGradientBrushOptionalData value)
 ```
 
 
-الحصول أو تعيين كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. يتم تحديد المحتويات المحددة لهذا الحقل بقيمة حقل BrushDataFlags.
+يحصل أو يحدد كائن EmfPlusPathGradientBrushOptionalData اختياري (القسم 2.2.2.30) الذي يحدد بيانات إضافية لفرشاة تدرج المسار. المحتويات المحددة لهذا الحقل يتم تحديدها بقيمة حقل BrushDataFlags.
 
 **Parameters:**
 | معامل | نوع | الوصف |

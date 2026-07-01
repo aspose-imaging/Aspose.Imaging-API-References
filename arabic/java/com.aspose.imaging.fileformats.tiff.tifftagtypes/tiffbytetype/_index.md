@@ -7,7 +7,7 @@ weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffbytetype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff.tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffByteType extends TiffCommonArrayType
 ```
@@ -17,26 +17,26 @@ public final class TiffByteType extends TiffCommonArrayType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffByteType(int tagId)](#TiffByteType-int-) | يقوم بإنشاء نسخة جديدة من الفئة `TiffByteType`. |
+| [TiffByteType(int tagId)](#TiffByteType-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffByteType`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValues()](#getValues--) | يحصل أو يضبط القيم. |
-| [setValues(byte[] value)](#setValues-byte---) | يحصل أو يضبط القيم. |
+| [getValues()](#getValues--) | يحصل أو يعيّن القيم. |
+| [setValues(byte[] value)](#setValues-byte---) | يحصل أو يعيّن القيم. |
 | [getValuesContainer()](#getValuesContainer--) | يحصل على حاوية القيم. |
 | [getElementSize()](#getElementSize--) | يحصل على حجم العنصر بالبايت. |
 | [getTagType()](#getTagType--) | يحصل على نوع العلامة. |
 | [getValue()](#getValue--) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | يحصل أو يضبط القيمة التي يحتويها هذا النوع من البيانات. |
-| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات الوسم الإضافية. |
+| [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | يكتب بيانات العلامة الإضافية. |
 ### TiffByteType(int tagId) {#TiffByteType-int-}
 ```
 public TiffByteType(int tagId)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `TiffByteType`.
+ينشئ مثيلاً جديدًا من الفئة `TiffByteType`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -49,7 +49,7 @@ public byte[] getValues()
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 **Returns:**
 byte[] - البيانات.
@@ -59,12 +59,12 @@ public void setValues(byte[] value)
 ```
 
 
-يحصل أو يضبط القيم.
+يحصل أو يعيّن القيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] | البيانات. |
+| value | byte[] | البيانات. |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -95,7 +95,7 @@ public int getTagType()
 يحصل على نوع العلامة.
 
 **Returns:**
-int - نوع الوسم.
+int - نوع العلامة.
 ### getValue() {#getValue--}
 ```
 public Object getValue()
@@ -117,7 +117,7 @@ public void setValue(Object value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Object | القيمة. |
+| value | java.lang.Object | القيمة. |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```
@@ -125,7 +125,7 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 ```
 
 
-يكتب بيانات الوسم الإضافية.
+يكتب بيانات العلامة الإضافية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -133,4 +133,4 @@ public long writeAdditionalData(TiffStreamWriter dataStream)
 | dataStream | [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) | دفق البيانات. |
 
 **Returns:**
-long - عدد البايتات الفعلي المكتوبة.
+long - عدد البايتات الفعلية المكتوبة.

@@ -1,7 +1,7 @@
 ---
 title: "BmpImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمكنك التعامل بسهولة مع ملفات Bitmap BMP و Device Independent Bitmap DIB مما يسهل التلاعب الفعال ومعالجة الصور النقطية."
+description: "يمكنك التعامل بسهولة مع ملفات Bitmap BMP و Device Independent Bitma DIB مما يسهل التلاعب الفعال ومعالجة الصور النقطية."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.imaging.fileformats.bmp/bmpimage/
@@ -12,29 +12,29 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class BmpImage extends RasterCachedImage
 ```
 
-يمكنك بسهولة التعامل مع ملفات Bitmap (BMP) و Device Independent Bitmap (DIB)، مما يسهل التلاعب الفعال ومعالجة الصور النقطية. من خلال تنفيذ عمليات مختلفة على الصور، تُبسّط هذه API سير العمل، وتوفر للمطورين مجموعة أدوات موثوقة للعمل مع صيغ BMP و DIB في تطبيقاتهم البرمجية.
+يمكنك التعامل بسهولة مع ملفات Bitmap (BMP) و Device Independent Bitmap (DIB)، مما يسهل التلاعب الفعال ومعالجة الصور النقطية. من خلال تنفيذ عمليات مختلفة على الصور، تُبسّط هذه API سير العمل، وتوفر للمطورين مجموعة أدوات موثوقة للعمل مع صيغ BMP و DIB في تطبيقاتهم البرمجية.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BmpImage(String path)](#BmpImage-java.lang.String-) | ابدأ باستخدام فئة BmpImage بسهولة مع هذا المُنشئ الذي يُنشئ نسخة جديدة. |
-| [BmpImage(String path, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.lang.String-int-long-double-double-) | أنشئ بسهولة نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) باستخدام هذا المُنشئ، مع تحديد المعلمات مثل المسار، bitsPerPixel، والضغط. |
-| [BmpImage(InputStream stream)](#BmpImage-java.io.InputStream-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق تهيئة نسخة جديدة بهذا المُنشئ، مع استخدام تدفق كمدخل. |
-| [BmpImage(InputStream stream, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.io.InputStream-int-long-double-double-) | ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة بإنشاء نسخة جديدة باستخدام تدفق، مع تحديد المعلمات مثل bitsPerPixel والضغط. |
-| [BmpImage(RasterImage rasterImage)](#BmpImage-com.aspose.imaging.RasterImage-) | أنشئ بسهولة نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) عن طريق تهيئتها باستخدام كائن RasterImage. |
-| [BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-) | ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة بإنشاء نسخة جديدة باستخدام rasterImage، مع تحديد المعلمات مثل bitsPerPixel والضغط. |
-| [BmpImage(int width, int height)](#BmpImage-int-int-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة بإنشاء نسخة جديدة مع معلمات العرض والارتفاع المحددة. |
-| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق تهيئة نسخة جديدة مع معلمات مثل العرض، الارتفاع، عمق البت، واللوحة. |
-| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-long-double-double-) | أنشئ بسهولة نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) باستخدام هذا المُنشئ، مع تحديد المعلمات مثل العرض، الارتفاع، bitsPerPixel، و palette. |
+| [BmpImage(String path)](#BmpImage-java.lang.String-) | ابدأ باستخدام فئة BmpImage بسهولة مع هذا المُنشئ الذي يُنشئ مثيلاً جديدًا. |
+| [BmpImage(String path, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.lang.String-int-long-double-double-) | أنشئ مثيلاً جديدًا لفئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة باستخدام هذا المُنشئ، مع تحديد المعلمات مثل المسار، bitsPerPixel، والضغط. |
+| [BmpImage(InputStream stream)](#BmpImage-java.io.InputStream-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق تهيئة مثيل جديد بهذا المُنشئ، مع استخدام تدفق كمدخل. |
+| [BmpImage(InputStream stream, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-java.io.InputStream-int-long-double-double-) | ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة بإنشاء مثيل جديد باستخدام تدفق، مع المعلمات المحددة مثل bitsPerPixel والضغط. |
+| [BmpImage(RasterImage rasterImage)](#BmpImage-com.aspose.imaging.RasterImage-) | أنشئ مثيلاً جديدًا لفئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق تهيئته باستخدام كائن RasterImage. |
+| [BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-) | ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة بإنشاء مثيل جديد باستخدام rasterImage مع المعلمات المحددة مثل bitsPerPixel والضغط. |
+| [BmpImage(int width, int height)](#BmpImage-int-int-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة بإنشاء مثيل جديد مع معلمات العرض والارتفاع المحددة. |
+| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-) | ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق تهيئة مثيل جديد مع معلمات مثل العرض، الارتفاع، عمق البت، واللوحة. |
+| [BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, long compression, double horizontalResolution, double verticalResolution)](#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-long-double-double-) | أنشئ مثيلاً جديدًا لفئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة باستخدام هذا المُنشئ، مع تحديد المعلمات مثل العرض، الارتفاع، bitsPerPixel، واللوحة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getBitmapInfoHeader()](#getBitmapInfoHeader--) | احصل بسرعة على التفاصيل الأساسية حول صورة البت ماب الخاصة بك باستخدام هذه الدالة البسيطة. |
-| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية السهلة الاستخدام. |
+| [getFileFormat()](#getFileFormat--) | استرجع بسهولة قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. |
 | [getRawDataFormat()](#getRawDataFormat--) | احصل بسهولة على تنسيق البيانات الخام الخاصة بك باستخدام هذه الدالة سهلة الاستخدام. |
 | [getRawLineSize()](#getRawLineSize--) | احصل بسرعة على حجم كل سطر خام بالبايت باستخدام هذه الخاصية البسيطة. |
-| [getCompression()](#getCompression--) | استرجع نوع الضغط المستخدم للصورة بسهولة باستخدام هذه الخاصية. |
+| [getCompression()](#getCompression--) | استرجع نوع الضغط المستخدم في الصورة بسهولة باستخدام هذه الخاصية. |
 | [getWidth()](#getWidth--) | احصل على عرض الصورة بسهولة باستخدام هذه الخاصية. |
 | [getHeight()](#getHeight--) | استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | احصل على عدد البتات لكل بكسل في الصورة بسهولة باستخدام هذه الخاصية. |
@@ -43,7 +43,7 @@ public final class BmpImage extends RasterCachedImage
 | [getVerticalResolution()](#getVerticalResolution--) | استرجع أو عيّن بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | استرجع أو عيّن بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. |
 | [hasAlpha()](#hasAlpha--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | قم بضبط دقة الـ [RasterImage](../../com.aspose.imaging/rasterimage) الخاصة بك بسهولة باستخدام هذه الطريقة سهلة الاستخدام. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | اضبط دقة الـ[RasterImage](../../com.aspose.imaging/rasterimage) الخاصة بك بسهولة باستخدام هذه الطريقة سهلة الاستخدام. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | استرجع الخيارات الافتراضية بسهولة باستخدام هذه الطريقة البسيطة. |
 
 ## Example: The following example shows how to create a BMP image of the specified size.
@@ -54,7 +54,7 @@ String dir = "c:\\temp\\";
 // إنشاء صورة BMP بحجم 100 × 100 بكسل.
 com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100);
 try {
-    // املأ الصورة بتدرج أحمر-أسود خطي بسيط.
+    // املأ الصورة بتدرج خطي بسيط من الأحمر إلى الأسود.
     int width = bmpImage.getWidth();
     int height = bmpImage.getHeight();
     for (int y = 0; y < height; y++) {
@@ -110,15 +110,15 @@ String outputPathBmp = "output.bmp";
 // تحميل صورة PNG من ملف.
 try (Image pngImage = Image.load(sourcePath))
 {
-    // يتم حفظ صورة BMP بدعم الشفافية بشكل افتراضي.
-    // إذا كنت تريد تحديد هذا الوضع صراحةً، يجب ضبط خاصية Compression في BmpOptions إلى BitmapCompression.Bitfields.
-    // طريقة الضغط BitmapCompression.Bitfields هي طريقة الضغط الافتراضية في BmpOptions.
-    // لذلك يمكن تحقيق نفس نتيجة تصدير صورة Bmp مع الشفافية بأحد الطرق التالية.
+    // يتم حفظ صورة BMP بدعم الشفافية افتراضيًا.
+    // إذا كنت تريد تحديد هذا الوضع صراحةً، يجب تعيين خاصية Compression في BmpOptions إلى BitmapCompression.Bitfields.
+    // طريقة ضغط BitmapCompression.Bitfields هي طريقة الضغط الافتراضية في BmpOptions.
+    // لذلك يمكن تحقيق نفس نتيجة تصدير صورة Bmp مع الشفافية إما بإحدى الطرق التالية.
     // مع خيارات افتراضية ضمنية:
     pngImage.save(outputPathPng);
     // مع خيارات افتراضية صريحة:
     pngImage.save(outputPathBmp, new BmpOptions());
-    // تحديد طريقة الضغط BitmapCompression.Bitfields:
+    // تحديد طريقة ضغط BitmapCompression.Bitfields:
     pngImage.save(outputPathBmp, new BmpOptions() {{ setCompression(BitmapCompression.Bitfields); }});
 }
 ```
@@ -132,8 +132,8 @@ String outputPath = "output.bmp";
 // تحميل صورة PNG من ملف.
 try (Image pngImage = Image.load(sourcePath))
 {
-    // يتم حفظ صورة BMP بدعم الشفافية بشكل افتراضي، ويتم ذلك باستخدام طريقة الضغط BitmapCompression.Bitfields.
-    // لحفظ صورة BMP باستخدام طريقة الضغط Rgb، يجب تحديد BmpOptions مع خاصية Compression مضبوطة على BitmapCompression.Rgb.
+    // يتم حفظ صورة BMP بدعم الشفافية افتراضيًا، ويتم ذلك باستخدام طريقة ضغط BitmapCompression.Bitfields.
+    // لحفظ صورة BMP باستخدام طريقة ضغط Rgb، يجب تحديد BmpOptions مع خاصية Compression مضبوطة على BitmapCompression.Rgb.
     pngImage.save(outputPath, new BmpOptions()
     {{
         setCompression(BitmapCompression.Rgb);
@@ -170,12 +170,12 @@ public BmpImage(String path)
 ```
 
 
-ابدأ باستخدام فئة BmpImage بسهولة مع هذا المُنشئ الذي ينشئ نسخة جديدة. مثالي للمطورين الذين يرغبون في البدء بسرعة مع كائنات [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسرعة وكفاءة.
+ابدأ باستخدام فئة BmpImage بسهولة مع هذا المُنشئ الذي يهيئ مثيلاً جديدًا. مثالي للمطورين الذين يرغبون في البدء بسرعة مع كائنات [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسرعة وكفاءة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| مسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### BmpImage(String path, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution) {#BmpImage-java.lang.String-int-long-double-double-}
 ```
@@ -183,16 +183,16 @@ public BmpImage(String path, int bitsPerPixel, long compression, double horizont
 ```
 
 
-أنشئ بسهولة نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) باستخدام هذا المُنشئ، مع تحديد المعلمات مثل المسار، bitsPerPixel، والضغط. مثالي للمطورين الذين يرغبون في تهيئة كائنات BmpImage بسرعة وكفاءة، مع تحكم دقيق في خصائص الصورة.
+أنشئ مثيلاً جديدًا لفئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة باستخدام هذا المُنشئ، مع تحديد المعلمات مثل المسار، bitsPerPixel، والضغط. مثالي للمطورين الذين يرغبون في تهيئة كائنات BmpImage بسرعة وكفاءة، مع تحكم دقيق في خصائص الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| مسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 | bitsPerPixel | int | عدد البتات لكل بكسل. |
 | ضغط | long | الضغط المراد استخدامه. |
-| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
-| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
+| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
+| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
 
 ### BmpImage(InputStream stream) {#BmpImage-java.io.InputStream-}
 ```
@@ -200,12 +200,12 @@ public BmpImage(InputStream stream)
 ```
 
 
-ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق تهيئة نسخة جديدة باستخدام هذا المُنشئ، مع استخدام تدفق كمدخل. مثالي للمطورين الذين يبحثون عن طريقة مريحة للعمل مع كائنات BmpImage من مصادر بيانات مختلفة، مما يضمن المرونة وسهولة التكامل.
+ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق إنشاء نسخة جديدة باستخدام هذا المُنشئ، مع استخدام تدفق كمدخل. مثالي للمطورين الذين يبحثون عن طريقة مريحة للعمل مع كائنات BmpImage من مصادر بيانات مختلفة، مما يضمن المرونة وسهولة التكامل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| تدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### BmpImage(InputStream stream, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution) {#BmpImage-java.io.InputStream-int-long-double-double-}
 ```
@@ -213,16 +213,16 @@ public BmpImage(InputStream stream, int bitsPerPixel, long compression, double h
 ```
 
 
-ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام تدفق، مع تحديد المعلمات مثل bitsPerPixel والضغط. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
+ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام تدفق، مع تحديد معلمات مثل bitsPerPixel و compression. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| تدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 | bitsPerPixel | int | عدد البتات لكل بكسل. |
 | ضغط | long | الضغط المراد استخدامه. |
-| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
-| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
+| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
+| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
 
 ### BmpImage(RasterImage rasterImage) {#BmpImage-com.aspose.imaging.RasterImage-}
 ```
@@ -230,12 +230,12 @@ public BmpImage(RasterImage rasterImage)
 ```
 
 
-أنشئ بسهولة نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) عن طريق تهيئتها باستخدام كائن RasterImage. مثالي للمطورين الذين يرغبون في تحويل الصور النقطية الحالية إلى تنسيق BmpImage بسلاسة، مما يضمن التوافق وسهولة التكامل في مشاريعهم.
+أنشئ نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق تهيئتها باستخدام كائن RasterImage. مثالي للمطورين الذين يرغبون في تحويل الصور النقطية الحالية إلى تنسيق BmpImage بسلاسة، مما يضمن التوافق وسهولة التكامل في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل ولوحة الألوان بها. |
+| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل واللوحة اللونية بها. |
 
 ### BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, double horizontalResolution, double verticalResolution) {#BmpImage-com.aspose.imaging.RasterImage-int-long-double-double-}
 ```
@@ -243,16 +243,16 @@ public BmpImage(RasterImage rasterImage, int bitsPerPixel, long compression, dou
 ```
 
 
-ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام rasterImage مع تحديد المعلمات مثل bitsPerPixel والضغط. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
+ابدأ العمل مع فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق إنشاء نسخة جديدة باستخدام rasterImage مع تحديد معلمات مثل bitsPerPixel و compression. مثالي للمطورين الذين يبحثون عن طريقة مباشرة للتعامل مع كائنات BmpImage، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل ولوحة الألوان بها. |
+| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل واللوحة اللونية بها. |
 | bitsPerPixel | int | عدد البتات لكل بكسل. |
 | ضغط | long | الضغط المراد استخدامه. |
-| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
-| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
+| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
+| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
 
 ### BmpImage(int width, int height) {#BmpImage-int-int-}
 ```
@@ -260,13 +260,13 @@ public BmpImage(int width, int height)
 ```
 
 
-ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق إنشاء نسخة جديدة مع تحديد معلمات العرض والارتفاع. مثالي للمطورين الذين يبحثون عن طريقة مريحة لإنشاء كائنات BmpImage بأبعاد مخصصة، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
+ابدأ استخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة عن طريق إنشاء نسخة جديدة مع تحديد معلمات العرض والارتفاع. مثالي للمطورين الذين يبحثون عن طريقة مريحة لإنشاء كائنات BmpImage بأبعاد مخصصة، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 
 ### BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette) {#BmpImage-int-int-int-com.aspose.imaging.IColorPalette-}
 ```
@@ -274,13 +274,13 @@ public BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette)
 ```
 
 
-ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق إنشاء نسخة جديدة مع معلمات مثل العرض، الارتفاع، عمق البت، ولوحة الألوان. مثالي للمطورين الذين يبحثون عن طريقة مباشرة لإنشاء كائنات BmpImage بأبعاد مخصصة وتكوينات لونية، مما يضمن المرونة والكفاءة في مشاريعهم.
+ابدأ باستخدام فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسلاسة عن طريق تهيئة نسخة جديدة مع معلمات مثل العرض، الارتفاع، عمق البت، واللوحة. مثالي للمطورين الذين يبحثون عن طريقة مباشرة لإنشاء كائنات BmpImage بأبعاد مخصصة وتكوينات لونية، مما يضمن المرونة والكفاءة في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 | bitsPerPixel | int | عدد البتات لكل بكسل. |
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | لوحة الألوان. |
 
@@ -290,18 +290,18 @@ public BmpImage(int width, int height, int bitsPerPixel, IColorPalette palette, 
 ```
 
 
-أنشئ نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة باستخدام هذا المُنشئ، مع تحديد معلمات مثل العرض، الارتفاع، bitsPerPixel، ولوحة الألوان. مثالي للمطورين الذين يبحثون عن طريقة مريحة لتوليد كائنات BmpImage بأبعاد مخصصة وتكوينات لونية، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
+أنشئ نسخة جديدة من فئة [BmpImage](../../com.aspose.imaging.fileformats.bmp/bmpimage) بسهولة باستخدام هذا المُنشئ، مع تحديد معلمات مثل العرض، الارتفاع، bitsPerPixel، واللوحة. مثالي للمطورين الذين يبحثون عن طريقة مريحة لإنشاء كائنات BmpImage بأبعاد مخصصة وتكوينات لونية، مما يضمن المرونة وسهولة التكامل في مشاريعهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 | bitsPerPixel | int | عدد البتات لكل بكسل. |
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | لوحة الألوان. |
 | ضغط | long | الضغط المراد استخدامه. |
-| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
-| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المُمرَّرة. |
+| horizontalResolution | double | الدقة الأفقية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
+| verticalResolution | double | الدقة العمودية. ملاحظة: بسبب التقريب قد تختلف الدقة الناتجة قليلاً عن القيمة المدخلة. |
 
 ### getBitmapInfoHeader() {#getBitmapInfoHeader--}
 ```
@@ -339,15 +339,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//عدد ألوان لوحة الألوان المطلوبة لعرض البت ماب: 0
-//عدد ألوان لوحة الألوان المستخدمة في البت ماب: 0
+//عدد ألوان اللوحة المطلوبة لعرض البت ماب: 0
+//عدد ألوان اللوحة المستخدمة في البت ماب: 0
 //ضغط البت ماب: 0
 //ارتفاع البت ماب: 100
 //عرض البت ماب: 100
 //حجم البيانات الخام للبت ماب بالبايت: 40000
 //عدد المستويات: 1
-//الدقة الأفقية للبت ماب، بوحدات بكسل لكل متر: 0
-//الدقة العمودية للبت ماب، بوحدات بكسل لكل متر: 0
+//الدقة الأفقية للبت ماب، بوحدة بكسل لكل متر: 0
+//الدقة العمودية للبت ماب، بوحدة بكسل لكل متر: 0
 //عدد البتات لكل بكسل: 32
 //قناع البتات الإضافية: null
 //حجم الرأس بالبايت: 40
@@ -359,7 +359,7 @@ public long getFileFormat()
 ```
 
 
-استرجع قيمة تنسيق الملف بسهولة باستخدام هذه الخاصية الصديقة للمستخدم. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
+يمكنك بسهولة استرجاع قيمة تنسيق الملف باستخدام هذه الخاصية سهلة الاستخدام. مثالية للمطورين الذين يبحثون عن وصول سريع إلى معلومات حول تنسيق الملف.
 
 **Returns:**
 long
@@ -368,9 +368,9 @@ long
 
 ``` java
 
-// فئة المساعدة المستخدمة في المثال الرئيسي أدناه.
+// فئة المساعد المستخدمة في المثال الرئيسي أدناه.
 class Utils {
-    // طريقة المساعدة للحصول على تمثيل نصي لتنسيق الملف.
+    // طريقة المساعد للحصول على تمثيل نصي لصيغة الملف.
     public String getFileFormatString(long fileFormat) {
         if (fileFormat == com.aspose.imaging.FileFormat.Bmp) {
             return "BMP";
@@ -414,10 +414,10 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
-// أنشئ صورة BMP بدقة 32 بت بحجم 100 × 100 بكسل.
+// إنشاء صورة BMP بدقة 32 بت بحجم 100 × 100 بكسل.
 com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100, 32, null);
 try {
     System.out.printf("FileFormat=%s, RawDataFormat=%s, HasAlpha=%s",
@@ -429,7 +429,7 @@ try {
     bmpImage.dispose();
 }
 
-// أنشئ صورة BMP بدقة 24 بت بحجم 100 × 100 بكسل.
+// إنشاء صورة BMP بعمق 24-bpp بحجم 100 × 100 بكسل.
 bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100, 24, null);
 try {
     System.out.printf("FileFormat=%s, RawDataFormat=%s, HasAlpha=%s",
@@ -441,9 +441,9 @@ try {
     bmpImage.dispose();
 }
 
-// في معظم الحالات لا يدعم BMP قناة ألفا لذا من المحتمل أن يكون المخرجات هكذا:
-// FileFormat=BMP, RawDataFormat=Rgb32Bpp, القنوات المستخدمة: 8,8,8,8, HasAlpha=false
-// FileFormat=BMP, RawDataFormat=Rgb24Bpp, القنوات المستخدمة: 8,8,8, HasAlpha=false
+// في معظم الحالات لا يدعم BMP قناة ألفا لذا من المحتمل أن يكون الناتج هكذا:
+// FileFormat=BMP, RawDataFormat=Rgb32Bpp, used channels: 8,8,8,8, HasAlpha=false
+// FileFormat=BMP, RawDataFormat=Rgb24Bpp, used channels: 8,8,8, HasAlpha=false
 ```
 
 ### getRawDataFormat() {#getRawDataFormat--}
@@ -452,7 +452,7 @@ public PixelDataFormat getRawDataFormat()
 ```
 
 
-احصل بسهولة على تنسيق بياناتك الخام باستخدام هذه الدالة الصديقة للمستخدم. مثالي للمطورين الذين يرغبون في الوصول بسرعة إلى المعلومات الحيوية حول تنسيق بياناتهم.
+احصل بسهولة على تنسيق البيانات الخام الخاصة بك باستخدام هذه الدالة السهلة الاستخدام. مثالي للمطورين الذين يرغبون في الوصول السريع إلى المعلومات الحيوية حول تنسيق بياناتهم.
 
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) - The raw data format.
@@ -477,7 +477,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + vres);
 
     if (hres != 96.0 || vres != 96.0) {
-        // قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -489,15 +489,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//تنسيق البكسل: Rgb24Bpp, القنوات المستخدمة: 8,8,8
+//تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
 //حجم السطر الخام بالبايت: 1500
 //ضغط البت ماب: 0
-//عرض البت ماب: 500
-//ارتفاع البت ماب: 500
+//عرض الـ bitmap: 500
+//ارتفاع الـ bitmap: 500
 //عدد البتات لكل بكسل: 24
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
-//تعيين قيم الدقة إلى 96 نقطة في البوصة
+//عيّن قيم الدقة إلى 96 نقطة في البوصة
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -508,10 +508,10 @@ public int getRawLineSize()
 ```
 
 
-يمكنك الوصول بسرعة إلى حجم كل سطر خام بالبايت باستخدام هذه الخاصية البسيطة. مثالي للمطورين الذين يحتاجون إلى معالجة بيانات الصورة الخام بكفاءة.
+احصل بسرعة على حجم كل سطر خام بالبايت باستخدام هذه الخاصية المبسطة. مثالي للمطورين الذين يحتاجون إلى معالجة بيانات الصورة الخام بكفاءة.
 
 **Returns:**
-int - حجم السطر الخام بالبايت.
+عدد صحيح - حجم السطر الخام بالبايت.
 
 **Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
 
@@ -533,7 +533,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + vres);
 
     if (hres != 96.0 || vres != 96.0) {
-        // قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -545,15 +545,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//تنسيق البكسل: Rgb24Bpp, القنوات المستخدمة: 8,8,8
+//تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
 //حجم السطر الخام بالبايت: 1500
 //ضغط البت ماب: 0
-//عرض البت ماب: 500
-//ارتفاع البت ماب: 500
+//عرض الـ bitmap: 500
+//ارتفاع الـ bitmap: 500
 //عدد البتات لكل بكسل: 24
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
-//تعيين قيم الدقة إلى 96 نقطة في البوصة
+//عيّن قيم الدقة إلى 96 نقطة في البوصة
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -573,9 +573,9 @@ long - ضغط الصورة [BitmapCompression](../../com.aspose.imaging.fileform
 
 ``` java
 
-// فئة المساعدة المستخدمة في المثال الرئيسي أدناه.
+// فئة المساعد المستخدمة في المثال الرئيسي أدناه.
 class Utils {
-    // طريقة المساعدة للحصول على تمثيل نصي لتنسيق الملف.
+    // طريقة المساعد للحصول على تمثيل نصي لصيغة الملف.
     public String getBitmapCompressionString(long bitmapCompression) {
         if (bitmapCompression == com.aspose.imaging.fileformats.bmp.BitmapCompression.Rgb) {
             return "RGB";
@@ -597,7 +597,7 @@ class Utils {
     }
 }
 
-// هنا المثال الرئيسي
+// إليك المثال الرئيسي
 Utils utils = new Utils();
 
 long[] compressions = new long[]
@@ -612,11 +612,11 @@ com.aspose.imaging.Color[] paletterColors = new com.aspose.imaging.Color[]
                 com.aspose.imaging.Color.getGreen(),
         };
 
-// أنشئ لوحة ألوان أحادية اللون تحتوي فقط على اللونين الأحمر والأخضر.
+// إنشاء لوحة ألوان أحادية اللون تحتوي فقط على اللونين الأحمر والأخضر.
 com.aspose.imaging.IColorPalette palette = new com.aspose.imaging.ColorPalette(paletterColors);
 
 for (long compression : compressions) {
-    // أنشئ صورة BMP بدقة 8 بت لكل بكسل بحجم 100 × 100 بكسل.
+    // إنشاء صورة BMP بعمق 8-bpp بحجم 100 × 100 بكسل.
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(100, 100, 8, palette, compression, 0.0, 0.0);
     try {
         com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(bmpImage);
@@ -649,9 +649,9 @@ for (long compression : compressions) {
 // عدد البتات لكل بكسل=8
 // أبعاد الصورة=100 × 100
 // حجم السطر الخام=100
-// حجم الإخراج بالبايت=11078
+// حجم الناتج بالبايت=11078
 // ---------------------------------------------
-// الضغط=RLE8
+// ضغط=RLE8
 // عدد البتات لكل بكسل=8
 // أبعاد الصورة=100 × 100
 // حجم السطر الخام=100
@@ -664,7 +664,7 @@ public int getWidth()
 ```
 
 
-يمكنك الوصول بسهولة إلى عرض الصورة باستخدام هذه الخاصية. مثالي للمطورين الذين يبحثون عن معلومات سريعة حول أبعاد الصورة.
+يمكنك الوصول إلى عرض الصورة بسهولة باستخدام هذه الخاصية. مثالي للمطورين الذين يبحثون عن معلومات سريعة حول أبعاد الصورة.
 
 **Returns:**
 int - عرض الصورة بالبكسل.
@@ -689,7 +689,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + vres);
 
     if (hres != 96.0 || vres != 96.0) {
-        // قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -701,15 +701,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//تنسيق البكسل: Rgb24Bpp, القنوات المستخدمة: 8,8,8
+//تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
 //حجم السطر الخام بالبايت: 1500
 //ضغط البت ماب: 0
-//عرض البت ماب: 500
-//ارتفاع البت ماب: 500
+//عرض الـ bitmap: 500
+//ارتفاع الـ bitmap: 500
 //عدد البتات لكل بكسل: 24
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
-//تعيين قيم الدقة إلى 96 نقطة في البوصة
+//عيّن قيم الدقة إلى 96 نقطة في البوصة
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -720,7 +720,7 @@ public int getHeight()
 ```
 
 
-استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى معلومات حول أبعاد الصورة.
+استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. مثالي للمطورين الذين يحتاجون إلى وصول سريع إلى معلومات أبعاد الصورة.
 
 **Returns:**
 int - ارتفاع الصورة بالبكسل.
@@ -745,7 +745,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + vres);
 
     if (hres != 96.0 || vres != 96.0) {
-        // قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -757,15 +757,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//تنسيق البكسل: Rgb24Bpp, القنوات المستخدمة: 8,8,8
+//تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
 //حجم السطر الخام بالبايت: 1500
 //ضغط البت ماب: 0
-//عرض البت ماب: 500
-//ارتفاع البت ماب: 500
+//عرض الـ bitmap: 500
+//ارتفاع الـ bitmap: 500
 //عدد البتات لكل بكسل: 24
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
-//تعيين قيم الدقة إلى 96 نقطة في البوصة
+//عيّن قيم الدقة إلى 96 نقطة في البوصة
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -776,7 +776,7 @@ public int getBitsPerPixel()
 ```
 
 
-يمكنك الوصول بسهولة إلى عدد البتات لكل بكسل للصورة باستخدام هذه الخاصية. مثالي للمطورين الذين يبحثون عن معلومات سريعة حول جودة الصورة وعمقها.
+يمكنك الوصول إلى عدد البتات لكل بكسل في الصورة بسهولة باستخدام هذه الخاصية. مثالي للمطورين الذين يبحثون عن معلومات سريعة حول جودة الصورة وعمقها.
 
 **Returns:**
 int - عدد بتات الصورة لكل بكسل.
@@ -801,7 +801,7 @@ try {
     System.out.println("The vertical resolution, in pixels per inch: " + vres);
 
     if (hres != 96.0 || vres != 96.0) {
-        // قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -813,15 +813,15 @@ try {
 }
 
 //قد يبدو الإخراج هكذا:
-//تنسيق البكسل: Rgb24Bpp, القنوات المستخدمة: 8,8,8
+//تنسيق البكسل: Rgb24Bpp، القنوات المستخدمة: 8,8,8
 //حجم السطر الخام بالبايت: 1500
 //ضغط البت ماب: 0
-//عرض البت ماب: 500
-//ارتفاع البت ماب: 500
+//عرض الـ bitmap: 500
+//ارتفاع الـ bitmap: 500
 //عدد البتات لكل بكسل: 24
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
-//تعيين قيم الدقة إلى 96 نقطة في البوصة
+//عيّن قيم الدقة إلى 96 نقطة في البوصة
 //الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 //الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -832,10 +832,10 @@ public double getHorizontalResolution()
 ```
 
 
-تتيح لك هذه الخاصية بسهولة الحصول على أو تعيين الدقة الأفقية، المقاسة بالبكسل لكل بوصة، لكائن [RasterImage](../../com.aspose.imaging/rasterimage). مثالية للمطورين الذين يحتاجون إلى تحكم دقيق في دقة الصورة لتطبيقاتهم.
+تسمح لك هذه الخاصية بالحصول بسهولة أو ضبط الدقة الأفقية، المقاسة بالبكسل لكل بوصة، لكائن [RasterImage](../../com.aspose.imaging/rasterimage). مثالي للمطورين الذين يحتاجون إلى تحكم دقيق في دقة الصورة لتطبيقاتهم.
 
 **Returns:**
-double - الدقة الأفقية.
+مزدوج - الدقة الأفقية.
 
 ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة \#setResolution(double, double).setResolution(double, double) لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
@@ -848,14 +848,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.bmp
 try {
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = (com.aspose.imaging.fileformats.bmp.BmpImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = bmpImage.getHorizontalResolution();
     double verticalResolution = bmpImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -869,7 +869,7 @@ try {
 // قد يبدو الإخراج هكذا:
 // الدقة الأفقية، بالبكسل لكل بوصة: 0.0
 // الدقة العمودية، بالبكسل لكل بوصة: 0.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
 // الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 // الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -880,12 +880,12 @@ public void setHorizontalResolution(double value)
 ```
 
 
-تتيح لك هذه الخاصية بسهولة الحصول على أو تعيين الدقة الأفقية، المقاسة بالبكسل لكل بوصة، لكائن [RasterImage](../../com.aspose.imaging/rasterimage). مثالية للمطورين الذين يحتاجون إلى تحكم دقيق في دقة الصورة لتطبيقاتهم.
+تسمح لك هذه الخاصية بالحصول بسهولة أو ضبط الدقة الأفقية، المقاسة بالبكسل لكل بوصة، لكائن [RasterImage](../../com.aspose.imaging/rasterimage). مثالي للمطورين الذين يحتاجون إلى تحكم دقيق في دقة الصورة لتطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة الأفقية. |
+|  | value | double | الدقة الأفقية. |
 
 --------------------
 
@@ -897,10 +897,10 @@ public double getVerticalResolution()
 ```
 
 
-استرجع أو عيّن بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. مثالية للمطورين الذين يتطلبون تحكمًا دقيقًا في دقة الصورة في تطبيقاتهم.
+استرجع أو اضبط بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. مثالي للمطورين الذين يتطلبون تحكمًا دقيقًا في دقة الصورة في تطبيقاتهم.
 
 **Returns:**
-double - الدقة العمودية.
+مزدوج - الدقة العمودية.
 
 --------------------
 
@@ -915,14 +915,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.bmp
 try {
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = (com.aspose.imaging.fileformats.bmp.BmpImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = bmpImage.getHorizontalResolution();
     double verticalResolution = bmpImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -936,7 +936,7 @@ try {
 // قد يبدو الإخراج هكذا:
 // الدقة الأفقية، بالبكسل لكل بوصة: 0.0
 // الدقة العمودية، بالبكسل لكل بوصة: 0.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
 // الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 // الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -947,12 +947,12 @@ public void setVerticalResolution(double value)
 ```
 
 
-استرجع أو عيّن بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. مثالية للمطورين الذين يتطلبون تحكمًا دقيقًا في دقة الصورة في تطبيقاتهم.
+استرجع أو اضبط بسهولة الدقة العمودية، المقاسة بالبكسل لكل بوصة، لهذا الكائن [RasterImage](../../com.aspose.imaging/rasterimage) باستخدام هذه الخاصية. مثالي للمطورين الذين يتطلبون تحكمًا دقيقًا في دقة الصورة في تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة العمودية. |
+|  | value | double | الدقة العمودية. |
 
 --------------------
 
@@ -974,13 +974,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-قم بضبط دقة [RasterImage](../../com.aspose.imaging/rasterimage) الخاصة بك بسهولة باستخدام هذه الطريقة السهلة الاستخدام. مثالية للمطورين الذين يسعون إلى تحكم دقيق في دقة الصورة في تطبيقاتهم.
+قم بضبط دقة [RasterImage](../../com.aspose.imaging/rasterimage) الخاص بك بسهولة باستخدام هذه الطريقة سهلة الاستخدام. مثالي للمطورين الذين يبحثون عن تحكم دقيق في دقة الصورة في تطبيقاتهم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dpiX | double | الدقة الأفقية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
-| dpiY | double | الدقة الرأسية، بوحدة النقاط في البوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiX | double | الدقة الأفقية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
+| dpiY | double | الدقة العمودية، بوحدة النقاط لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage). |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
@@ -992,14 +992,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.bmp
 try {
     com.aspose.imaging.fileformats.bmp.BmpImage bmpImage = (com.aspose.imaging.fileformats.bmp.BmpImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = bmpImage.getHorizontalResolution();
     double verticalResolution = bmpImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         bmpImage.setResolution(96.0, 96.0);
 
@@ -1013,7 +1013,7 @@ try {
 // قد يبدو الإخراج هكذا:
 // الدقة الأفقية، بالبكسل لكل بوصة: 0.0
 // الدقة العمودية، بالبكسل لكل بوصة: 0.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
 // الدقة الأفقية، بوحدة بكسل لكل بوصة: 96.012
 // الدقة العمودية، بوحدة بكسل لكل بوصة: 96.012
 ```
@@ -1024,12 +1024,12 @@ public ImageOptionsBase getDefaultOptions(Object[] args)
 ```
 
 
-استرجع الخيارات الافتراضية بسهولة باستخدام هذه الطريقة المباشرة. مثالية للمطورين الذين يبحثون عن وصول سريع إلى إعدادات أو تكوينات الصورة الافتراضية.
+استرجع الخيارات الافتراضية بسهولة باستخدام هذه الطريقة المباشرة. مثالي للمطورين الذين يبحثون عن وصول سريع إلى إعدادات الصورة الافتراضية أو التكوينات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| args | java.lang.Object[] | المعلمات. |
+| args | java.lang.Object[] | المعاملات. |
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options

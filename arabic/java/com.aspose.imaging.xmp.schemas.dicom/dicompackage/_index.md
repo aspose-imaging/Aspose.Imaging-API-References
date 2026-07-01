@@ -7,7 +7,7 @@ weight: 10
 url: /ar/java/com.aspose.imaging.xmp.schemas.dicom/dicompackage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class DicomPackage extends XmpPackage
 ```
@@ -17,24 +17,24 @@ public final class DicomPackage extends XmpPackage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DicomPackage()](#DicomPackage--) | يُهيئ نسخة جديدة من الفئة [DicomPackage](../../com.aspose.imaging.xmp.schemas.dicom/dicompackage). |
+| [DicomPackage()](#DicomPackage--) | يُنشئ مثلاً جديدًا من الفئة [DicomPackage](../../com.aspose.imaging.xmp.schemas.dicom/dicompackage). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [setEquipmentInstitution(String equipmentInstitution)](#setEquipmentInstitution-java.lang.String-) | يضبط مؤسسة الجهاز. |
-| [setEquipmentManufacturer(String equipmentManufacturer)](#setEquipmentManufacturer-java.lang.String-) | يضبط شركة تصنيع الجهاز. |
+| [setEquipmentManufacturer(String equipmentManufacturer)](#setEquipmentManufacturer-java.lang.String-) | يضبط مصنع الجهاز. |
 | [setPatientBirthDate(String patientBirthDate)](#setPatientBirthDate-java.lang.String-) | يضبط تاريخ ميلاد المريض. |
 | [setPatientId(String patientId)](#setPatientId-java.lang.String-) | يضبط هوية المريض. |
 | [setPatientName(String patientName)](#setPatientName-java.lang.String-) | يضبط وضع اللون. |
 | [setPatientSex(String patientSex)](#setPatientSex-java.lang.String-) | يضبط جنس المريض. |
 | [setSeriesDateTime(String seriesDateTime)](#setSeriesDateTime-java.lang.String-) | يضبط تاريخ ووقت السلسلة. |
 | [setSeriesDescription(String seriesDescription)](#setSeriesDescription-java.lang.String-) | يضبط وصف السلسلة. |
-| [setSeriesModality(String seriesModality)](#setSeriesModality-java.lang.String-) | يضبط نمط سلسلة المستند. |
+| [setSeriesModality(String seriesModality)](#setSeriesModality-java.lang.String-) | يضبط وضعية سلسلة المستند. |
 | [setSeriesNumber(String seriesNumber)](#setSeriesNumber-java.lang.String-) | يضبط رقم السلسلة. |
 | [setStudyDateTime(String studyDateTime)](#setStudyDateTime-java.lang.String-) | يضبط تاريخ ووقت الدراسة. |
 | [setStudyDescription(String studyDescription)](#setStudyDescription-java.lang.String-) | يضبط وصف الدراسة. |
-| [setStudyId(String studyId)](#setStudyId-java.lang.String-) | يضبط معرف الدراسة. |
+| [setStudyId(String studyId)](#setStudyId-java.lang.String-) | يضبط هوية الدراسة. |
 | [setStudyPhysician(String studyPhysician)](#setStudyPhysician-java.lang.String-) | يضبط طبيب الدراسة. |
 ### DicomPackage() {#DicomPackage--}
 ```
@@ -42,7 +42,7 @@ public DicomPackage()
 ```
 
 
-يُهيئ نسخة جديدة من الفئة [DicomPackage](../../com.aspose.imaging.xmp.schemas.dicom/dicompackage).
+يُنشئ مثلاً جديدًا من الفئة [DicomPackage](../../com.aspose.imaging.xmp.schemas.dicom/dicompackage).
 
 ### setEquipmentInstitution(String equipmentInstitution) {#setEquipmentInstitution-java.lang.String-}
 ```
@@ -63,12 +63,12 @@ public final void setEquipmentManufacturer(String equipmentManufacturer)
 ```
 
 
-يضبط شركة تصنيع الجهاز.
+يضبط مصنع الجهاز.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| equipmentManufacturer | java.lang.String | مصنّع الجهاز. |
+| equipmentManufacturer | java.lang.String | مصنع الجهاز. |
 
 ### setPatientBirthDate(String patientBirthDate) {#setPatientBirthDate-java.lang.String-}
 ```
@@ -94,7 +94,7 @@ public final void setPatientId(String patientId)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| patientId | java.lang.String | معرف المريض. |
+| patientId | java.lang.String | هوية المريض. |
 
 ### setPatientName(String patientName) {#setPatientName-java.lang.String-}
 ```
@@ -133,7 +133,7 @@ public final void setSeriesDateTime(String seriesDateTime)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| seriesDateTime | java.lang.String | تاريخ ووقت السلسلة. |
+| seriesDateTime | java.lang.String | وقت وتاريخ السلسلة. |
 
 ### setSeriesDescription(String seriesDescription) {#setSeriesDescription-java.lang.String-}
 ```
@@ -154,12 +154,12 @@ public final void setSeriesModality(String seriesModality)
 ```
 
 
-يضبط نمط سلسلة المستند.
+يضبط وضعية سلسلة المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| seriesModality | java.lang.String | نمط السلسلة. |
+| seriesModality | java.lang.String | طريقة السلسلة. |
 
 ### setSeriesNumber(String seriesNumber) {#setSeriesNumber-java.lang.String-}
 ```
@@ -185,7 +185,7 @@ public final void setStudyDateTime(String studyDateTime)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| studyDateTime | java.lang.String | الـ studyDateTime. |
+| studyDateTime | java.lang.String | وقت وتاريخ الدراسة. |
 
 ### setStudyDescription(String studyDescription) {#setStudyDescription-java.lang.String-}
 ```
@@ -206,7 +206,7 @@ public final void setStudyId(String studyId)
 ```
 
 
-يضبط معرف الدراسة.
+يضبط هوية الدراسة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

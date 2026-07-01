@@ -55,5 +55,5 @@ public final void setJpegDecoderQuality(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | جودة فك ترميز JPEG. |
+| value | int | جودة فك ترميز JPEG. |
 

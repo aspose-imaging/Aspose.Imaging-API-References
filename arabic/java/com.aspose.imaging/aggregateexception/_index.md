@@ -17,14 +17,14 @@ public class AggregateException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [AggregateException(Throwable[] innerExceptions)](#AggregateException-java.lang.Throwable---) | ينشئ مثيلاً جديداً من الفئة [AggregateException](../../com.aspose.imaging/aggregateexception). |
+| [AggregateException(Throwable[] innerExceptions)](#AggregateException-java.lang.Throwable---) | يُنشئ مثيلًا جديدًا من الفئة [AggregateException](../../com.aspose.imaging/aggregateexception). |
 ### AggregateException(Throwable[] innerExceptions) {#AggregateException-java.lang.Throwable---}
 ```
 public AggregateException(Throwable[] innerExceptions)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [AggregateException](../../com.aspose.imaging/aggregateexception).
+يُنشئ مثيلًا جديدًا من الفئة [AggregateException](../../com.aspose.imaging/aggregateexception).
 
 **Parameters:**
 | معامل | نوع | الوصف |

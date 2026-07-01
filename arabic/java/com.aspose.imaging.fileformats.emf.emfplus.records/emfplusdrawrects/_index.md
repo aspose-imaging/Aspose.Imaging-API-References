@@ -17,24 +17,24 @@ public final class EmfPlusDrawRects extends EmfPlusDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusDrawRects(EmfPlusRecord source)](#EmfPlusDrawRects-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ نسخة جديدة من الفئة `EmfPlusDrawRects`. |
+| [EmfPlusDrawRects(EmfPlusRecord source)](#EmfPlusDrawRects-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusDrawRects`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
-| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. |
+| [getCompressed()](#getCompressed--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. |
 | [getObjectId()](#getObjectId--) | يحصل أو يعيّن معرف الكائن. |
 | [setObjectId(byte value)](#setObjectId-byte-) | يحصل أو يعيّن معرف الكائن. |
-| [getRectData()](#getRectData--) | يحصل أو يعيّن بيانات المستطيل. مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل. |
-| [setRectData(RectangleF[] value)](#setRectData-com.aspose.imaging.RectangleF---) | يحصل أو يعيّن بيانات المستطيل. مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل. |
+| [getRectData()](#getRectData--) | يحصل أو يضبط بيانات المستطيل مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل. |
+| [setRectData(RectangleF[] value)](#setRectData-com.aspose.imaging.RectangleF---) | يحصل أو يضبط بيانات المستطيل مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل. |
 ### EmfPlusDrawRects(EmfPlusRecord source) {#EmfPlusDrawRects-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawRects(EmfPlusRecord source)
 ```
 
 
-ينشئ نسخة جديدة من الفئة `EmfPlusDrawRects`.
+ينشئ مثيلًا جديدًا من الفئة `EmfPlusDrawRects`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,9 +47,9 @@ public boolean getCompressed()
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Returns:**
 boolean
@@ -59,14 +59,14 @@ public void setCompressed(boolean value)
 ```
 
 
-يحصل أو يعيّن قيمة تشير إلى ما إذا كانت بيانات النقطة PointData مضغوطة. إذا تم التعيين، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يُحدد، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان PointData مضغوطاً. إذا تم الضبط، يحتوي RectData على كائن EmfPlusRect (القسم 2.2.2.38). إذا لم يتم الضبط، يحتوي RectData على كائن EmfPlusRectF (القسم 2.2.2.39).
 
-القيمة: `true` إذا كانت مضغوطة؛ وإلا `false`.
+القيمة: `true` إذا كان مضغوطًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -74,7 +74,7 @@ public byte getObjectId()
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم المستطيلات. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم المستطيلات. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
@@ -86,14 +86,14 @@ public void setObjectId(byte value)
 ```
 
 
-يحصل أو يعيّن معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم المستطيلات. يجب أن تكون القيمة بين الصفر و63 شاملًا.
+يحصل أو يضبط معرف الكائن. فهرس كائن EmfPlusPen (القسم 2.2.1.7) في جدول كائنات EMF+ لرسم المستطيلات. يجب أن تكون القيمة من الصفر إلى 63، شاملة.
 
 القيمة: معرف الكائن.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte |  |
+| value | byte |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -101,7 +101,7 @@ public RectangleF[] getRectData()
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل. مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل.
+يحصل أو يضبط بيانات المستطيل مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل.
 
 **Returns:**
 com.aspose.imaging.RectangleF[]
@@ -111,7 +111,7 @@ public void setRectData(RectangleF[] value)
 ```
 
 
-يحصل أو يعيّن بيانات المستطيل. مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل.
+يحصل أو يضبط بيانات المستطيل مصفوفة من كائنات EmfPlusRect أو EmfPlusRectF بطول Count التي تحدد بيانات المستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |

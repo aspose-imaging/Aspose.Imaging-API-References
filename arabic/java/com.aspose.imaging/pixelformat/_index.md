@@ -18,12 +18,12 @@ public final class PixelFormat extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Grayscale](#Grayscale) | مساحة اللون الرمادي |
-| [Bgr](#Bgr) | مساحة اللون BGR. |
-| [Rgb](#Rgb) | مساحة اللون RGB. |
-| [YCbCr](#YCbCr) | مساحة اللون YCbCr. |
-| [Cmyk](#Cmyk) | مساحة اللون CMYK. |
-| [Ycck](#Ycck) | مساحة اللون YCCK. |
-| [CieLab](#CieLab) | مساحة اللون CIE lab. |
+| [Bgr](#Bgr) | مساحة لون BGR. |
+| [Rgb](#Rgb) | مساحة لون RGB. |
+| [YCbCr](#YCbCr) | مساحة لون YCbCr. |
+| [Cmyk](#Cmyk) | مساحة لون CMYK. |
+| [Ycck](#Ycck) | مساحة لون YCCK. |
+| [CieLab](#CieLab) | مساحة لون CIE lab. |
 ### Grayscale {#Grayscale}
 ```
 public static final int Grayscale
@@ -38,7 +38,7 @@ public static final int Bgr
 ```
 
 
-مساحة اللون BGR.
+مساحة لون BGR.
 
 ### Rgb {#Rgb}
 ```
@@ -46,7 +46,7 @@ public static final int Rgb
 ```
 
 
-مساحة اللون RGB.
+مساحة لون RGB.
 
 ### YCbCr {#YCbCr}
 ```
@@ -54,7 +54,7 @@ public static final int YCbCr
 ```
 
 
-مساحة اللون YCbCr.
+مساحة لون YCbCr.
 
 ### Cmyk {#Cmyk}
 ```
@@ -62,7 +62,7 @@ public static final int Cmyk
 ```
 
 
-مساحة اللون CMYK.
+مساحة لون CMYK.
 
 ### Ycck {#Ycck}
 ```
@@ -70,7 +70,7 @@ public static final int Ycck
 ```
 
 
-مساحة اللون YCCK.
+مساحة لون YCCK.
 
 ### CieLab {#CieLab}
 ```
@@ -78,5 +78,5 @@ public static final int CieLab
 ```
 
 
-مساحة اللون CIE lab.
+مساحة لون CIE lab.
 

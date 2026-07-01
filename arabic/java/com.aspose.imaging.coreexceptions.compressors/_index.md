@@ -12,8 +12,8 @@ url: /ar/java/com.aspose.imaging.coreexceptions.compressors/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [DeflateCompressorException](../com.aspose.imaging.coreexceptions.compressors/deflatecompressorexception) | استثناء ضاغط Deflate. |
-| [LzwCompressorException](../com.aspose.imaging.coreexceptions.compressors/lzwcompressorexception) | استثناء ضاغط lzw. |
-| [RleCompressorException](../com.aspose.imaging.coreexceptions.compressors/rlecompressorexception) | استثناء ضاغط rle. |
+| [LzwCompressorException](../com.aspose.imaging.coreexceptions.compressors/lzwcompressorexception) | استثناء ضغط lzw. |
+| [RleCompressorException](../com.aspose.imaging.coreexceptions.compressors/rlecompressorexception) | استثناء ضغط rle. |

@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.eps.consts/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [EpsType](../com.aspose.imaging.fileformats.eps.consts/epstype) | أنواع فرعية لتنسيق Encapsulated PostScript |

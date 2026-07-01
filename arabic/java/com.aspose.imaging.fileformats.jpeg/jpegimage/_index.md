@@ -1,7 +1,7 @@
 ---
 title: "JpegImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تعديل صور JPEG النقطية بكفاءة باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تدعم ملفات تعريف ألوان متعددة مثل RGB و CMYK، وتتيح تخصيص عدد البتات لكل بكسل ومعالجة حاويات البيانات الوصفية EXIF و JFIF و XMP."
+description: "قم بالتلاعب بفعالية بصور JPEG النقطية باستخدام واجهة برمجة التطبيقات الخاصة بنا التي تدعم ملفات تعريف الألوان المتنوعة مثل RGB وCMYK، وتسمح بتخصيص عدد البتات لكل بكسل ودقة الصورة ومعالجة حاويات البيانات الوصفية EXIF وJFIF وXMP."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.fileformats.jpeg/jpegimage/
@@ -15,51 +15,51 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class JpegImage extends RasterCachedImage implements IHasJpegExifData
 ```
 
-تعديل صور JPEG النقطية بكفاءة باستخدام واجهة برمجة التطبيقات الخاصة بنا، التي تدعم ملفات تعريف ألوان متعددة مثل RGB و CMYK، وتتيح تخصيص عدد البتات لكل بكسل، ومعالجة حاويات البيانات الوصفية EXIF و JFIF و XMP. استمتع بالدوران التلقائي بناءً على بيانات الاتجاه واختر من مستويات ضغط مختلفة، بما في ذلك JPEG بدون فقد، لتحقيق توازن مثالي بين جودة الصورة وحجم الملف لمشاريعك.
+قم بالتلاعب بفعالية بصور JPEG النقطية باستخدام واجهة برمجة التطبيقات الخاصة بنا، التي تدعم ملفات تعريف الألوان المتنوعة مثل RGB وCMYK، وتسمح بتخصيص عدد البتات لكل بكسل ودقة الصورة، ومعالجة حاويات البيانات الوصفية EXIF وJFIF وXMP. استمتع بالدوران التلقائي بناءً على بيانات الاتجاه واختر من مستويات ضغط مختلفة، بما في ذلك JPEG غير الفاقد، لتحقيق توازن مثالي بين جودة الصورة وحجم الملف لمشاريعك.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [JpegImage(String path)](#JpegImage-java.lang.String-) | تبدأ فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة عن طريق استدعاء المُنشئ الخاص بها مع معامل المسار المحدد. |
-| [JpegImage(InputStream stream)](#JpegImage-java.io.InputStream-) | قم بتهيئة كائن صورة JPEG باستخدام فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معامل تدفق. |
+| [JpegImage(String path)](#JpegImage-java.lang.String-) | تقوم فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بالبدء بسهولة عن طريق استدعاء المُنشئ الخاص بها مع معامل المسار المحدد. |
+| [JpegImage(InputStream stream)](#JpegImage-java.io.InputStream-) | قم بتهيئة كائن صورة JPEG باستخدام فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) مع معامل تدفق. |
 | [JpegImage(RasterImage rasterImage)](#JpegImage-com.aspose.imaging.RasterImage-) | قم بتهيئة نسخة جديدة من فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معامل صورة نقطية. |
-| [JpegImage(int width, int height)](#JpegImage-int-int-) | أنشئ نسخة جديدة من فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معلمات العرض والارتفاع المحددة. |
+| [JpegImage(int width, int height)](#JpegImage-int-int-) | أنشئ نسخة جديدة من فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معاملات العرض والارتفاع المحددة. |
 | [JpegImage(JpegOptions jpegOptions, int width, int height)](#JpegImage-com.aspose.imaging.imageoptions.JpegOptions-int-int-) | قم بتهيئة كائن [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) جديد باستخدام خيارات JPEG المقدمة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | استرجع تنسيق الصورة بسهولة باستخدام هذه الخاصية. |
-| [getJpegOptions()](#getJpegOptions--) | احصل على إمكانية الوصول إلى خيارات JPEG المستخدمة أثناء إنشاء أو تحميل هذا الكائن [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عمق البكسل للصورة بسهولة باستخدام هذه الخاصية، مما يوفر رؤى حول غنى تمثيل اللون أو التدرج الرمادي. |
-| [getComment()](#getComment--) | إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. |
-| [setComment(String value)](#setComment-java.lang.String-) | إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. |
-| [getJpegExifData()](#getJpegExifData--) | يحصل على كائن Exif. |
-| [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | إدارة بيانات EXIF باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع البيانات الوصفية المرتبطة بالصورة. |
+| [getJpegOptions()](#getJpegOptions--) | احصل على الوصول إلى خيارات JPEG المستخدمة أثناء إنشاء أو تحميل هذه النسخة من [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | استرجع عمق البكسل للصورة بسهولة باستخدام هذه الخاصية، مما يوفر نظرة على غنى تمثيل اللون أو التدرج الرمادي. |
+| [getComment()](#getComment--) | قم بإدارة تعليقات ملف JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. |
+| [setComment(String value)](#setComment-java.lang.String-) | قم بإدارة تعليقات ملف JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. |
+| [getJpegExifData()](#getJpegExifData--) | يحصل على نسخة Exif. |
+| [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | قم بإدارة بيانات EXIF باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع البيانات الوصفية المرتبطة بالصورة. |
 | [getExifData()](#getExifData--) | يحصل على بيانات Exif؛ |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | يضبط بيانات Exif؛ |
 | [getHeight()](#getHeight--) | استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | تمنحك هذه الخاصية إمكانية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | تمنحك هذه الخاصية إمكانية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. |
-| [getJfif()](#getJfif--) | تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) أو تعديلها المرتبطة بصورة JPEG. |
-| [setJfif(JFIFData value)](#setJfif-com.aspose.imaging.fileformats.jpeg.JFIFData-) | تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) أو تعديلها المرتبطة بصورة JPEG. |
-| [getRawDataFormat()](#getRawDataFormat--) | تسترجع هذه الخاصية تنسيق البيانات الخام للصورة، والذي يوضح كيفية تنظيم وترميز بيانات الصورة. |
-| [getVerticalResolution()](#getVerticalResolution--) | تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، للكائن [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، للكائن [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | تمنحك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | تمنحك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. |
+| [getJfif()](#getJfif--) | تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) المرتبطة بصورة JPEG أو تعديلها. |
+| [setJfif(JFIFData value)](#setJfif-com.aspose.imaging.fileformats.jpeg.JFIFData-) | تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) المرتبطة بصورة JPEG أو تعديلها. |
+| [getRawDataFormat()](#getRawDataFormat--) | تسترجع هذه الخاصية تنسيق البيانات الخام للصورة، والذي يوضح كيفية هيكلة وترميز بيانات الصورة. |
+| [getVerticalResolution()](#getVerticalResolution--) | تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. |
 | [getWidth()](#getWidth--) | تسترجع هذه الخاصية عرض الصورة، معبرًا عنه بالبكسل. |
 | [getRgbColorProfile()](#getRgbColorProfile--) | ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وتمثيلًا صحيحًا. |
 | [setRgbColorProfile(StreamSource value)](#setRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وتمثيلًا صحيحًا. |
 | [getCmykColorProfile()](#getCmykColorProfile--) | ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وموثوقية عالية. |
 | [setCmykColorProfile(StreamSource value)](#setCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وموثوقية عالية. |
-| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | يعد RGBColorProfile ضروريًا للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
-| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | يعد RGBColorProfile ضروريًا للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
-| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | ملف تعريف اللون CMYK ضروري للتحويل الديق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
-| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | ملف تعريف اللون CMYK ضروري للتحويل الديق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
-| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | تسترجع أو تعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المضمّن يتم تجاهله. |
-| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | تسترجع أو تعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المضمّن يتم تجاهله. |
-| [getOriginalOptions()](#getOriginalOptions--) | يحصل على خيارات الصورة الأصلية لهذا الكائن [Image](../../com.aspose.imaging/image) instance. |
+| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | يعد RGBColorProfile ضروريًا للتحويل الدقيق للألوان لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
+| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | يعد RGBColorProfile ضروريًا للتحويل الدقيق للألوان لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
+| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | ملف تعريف اللون CMYK حيوي للتحويل الدقيق للألوان لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
+| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | ملف تعريف اللون CMYK حيوي للتحويل الدقيق للألوان لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. |
+| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | يسترجع أو يعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المضمّن يتم تجاهله. |
+| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | يسترجع أو يعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المضمّن يتم تجاهله. |
+| [getOriginalOptions()](#getOriginalOptions--) | يحصل على خيارات الصورة الأصلية لهذا الكائن [Image](../../com.aspose.imaging/image). |
 | [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لهذا الكائن الصورة عن طريق تعيين قيم `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) و `IHasExifData.ExifData`([IHasExifData.getExifData()](../../com.aspose.imaging.exif/ihasexifdata\#getExifData--)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-)) إلى `null`. |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | يحدد الدقة لـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يضمن دقة التحجيم وقدرات الطباعة. |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | يحدد الدقة للصورة [RasterImage](../../com.aspose.imaging/rasterimage) المحددة، مما يضمن التحجيم والطباعة بدقة. |
 
 ## Example: The example shows how to load a JpegImage from a file.
 
@@ -96,12 +96,12 @@ public JpegImage(String path)
 ```
 
 
-تبدأ فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة عن طريق استدعاء المُنشئ الخاص بها مع معامل المسار المحدد. يتيح هذا المُنشئ إنشاء صور JPEG بسلاسة، مما يضمن دمجًا سريعًا في مشاريعك بسهولة.
+تبدأ فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة عن طريق استدعاء المُنشئ مع معامل المسار المحدد. يتيح هذا المُنشئ إنشاء صور JPEG بسلاسة، مما يضمن دمجًا سريعًا في مشاريعك بسهولة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| مسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### JpegImage(InputStream stream) {#JpegImage-java.io.InputStream-}
 ```
@@ -109,12 +109,12 @@ public JpegImage(InputStream stream)
 ```
 
 
-ابدأ كائن صورة JPEG باستخدام فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) مع معامل تدفق. يبسط هذا المُنشئ عملية التعامل مع صور JPEG، مقدماً نهجًا بسيطًا لدمجها في مشاريعك بسهولة.
+قم بتهيئة كائن صورة JPEG باستخدام فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) مع معامل تدفق. يبسط هذا المُنشئ عملية التعامل مع صور JPEG، مقدماً نهجًا مباشرًا لدمجها في مشاريعك بسهولة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| تدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### JpegImage(RasterImage rasterImage) {#JpegImage-com.aspose.imaging.RasterImage-}
 ```
@@ -122,12 +122,12 @@ public JpegImage(RasterImage rasterImage)
 ```
 
 
-قم بتهيئة نسخة جديدة من الفئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معامل صورة نقطية. يوفر هذا المُنشئ طريقة مريحة لإنشاء صور JPEG مباشرةً من الصور النقطية، مما يُبسّط سير العمل عند التعامل مع صور JPEG في تطبيقاتك.
+قم بتهيئة نسخة جديدة من فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معامل صورة نقطية. يوفر هذا المُنشئ طريقة مريحة لإنشاء صور JPEG مباشرةً من الصور النقطية، مما يُبسّط سير العمل للتعامل مع صور JPEG في تطبيقاتك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل ولوحة الألوان بها. |
+| rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم تهيئة بيانات البكسل واللوحة اللونية بها. |
 
 ### JpegImage(int width, int height) {#JpegImage-int-int-}
 ```
@@ -135,13 +135,13 @@ public JpegImage(int width, int height)
 ```
 
 
-أنشئ نسخة جديدة من الفئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معلمات العرض والارتفاع المحددة. يتيح لك هذا المُنشئ إنشاء صور JPEG بأبعاد مخصصة، مما يمنحك مرونة في إدارة أحجام الصور في تطبيقك.
+أنشئ نسخة جديدة من فئة [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) باستخدام معامل العرض والارتفاع المحددين. يتيح لك هذا المُنشئ إنشاء صور JPEG بأبعاد مخصصة، مما يمنحك مرونة في إدارة أحجام الصور في تطبيقك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 
 ### JpegImage(JpegOptions jpegOptions, int width, int height) {#JpegImage-com.aspose.imaging.imageoptions.JpegOptions-int-int-}
 ```
@@ -149,14 +149,14 @@ public JpegImage(JpegOptions jpegOptions, int width, int height)
 ```
 
 
-قم بتهيئة كائن [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) جديد باستخدام خيارات JPEG المقدمة. يتيح لك هذا المُنشئ تخصيص إعدادات متعددة لصورة JPEG، مثل مستوى الضغط، الجودة، والمعلمات الإضافية، مما يمنحك تحكمًا دقيقًا في تنسيق الصورة الناتج.
+قم بتهيئة كائن [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) جديد باستخدام خيارات JPEG المقدمة. يمنحك هذا المُنشئ القدرة على تخصيص إعدادات مختلفة لصورة JPEG، مثل مستوى الضغط، الجودة، والمعلمات الإضافية، مما يوفر تحكمًا دقيقًا في تنسيق الصورة الناتج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | jpegOptions | [JpegOptions](../../com.aspose.imaging.imageoptions/jpegoptions) | خيارات JPEG. |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 
 ### getFileFormat() {#getFileFormat--}
 ```
@@ -164,7 +164,7 @@ public long getFileFormat()
 ```
 
 
-استرجع تنسيق الصورة بسهولة باستخدام هذه الخاصية. فهي توفر نظرة قيمة على تنسيق الملف، مما يساعد في التكامل السلس وفحوصات التوافق عبر مختلف المنصات والتطبيقات.
+استرجع تنسيق الصورة بسهولة باستخدام هذه الخاصية. توفر نظرة قيمة على تنسيق الملف، مما يساعد في دمج سلس وفحوصات التوافق عبر مختلف المنصات والتطبيقات.
 
 **Returns:**
 long
@@ -174,7 +174,7 @@ public JpegOptions getJpegOptions()
 ```
 
 
-احصل بسهولة على خيارات JPEG المستخدمة أثناء إنشاء أو تحميل هذه النسخة من [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage). تقدم هذه الخاصية تفاصيل قيمة حول الإعدادات المحددة المستخدمة، مما يمكّن المستخدمين من فهم وتكرار سير عمل معالجة الصور بفعالية. سواء كانت مستويات الضغط، إعدادات الجودة، أو معلمات أخرى، توفر هذه الخاصية رؤى أساسية لتعديل الصور بسلاسة.
+احصل على إمكانية الوصول إلى خيارات JPEG المستخدمة أثناء إنشاء أو تحميل هذا الكائن [JpegImage](../../com.aspose.imaging.fileformats.jpeg/jpegimage) بسهولة. تقدم هذه الخاصية تفاصيل قيمة حول الإعدادات المحددة المستخدمة، مما يمكّن المستخدمين من فهم وتكرار سير عمل معالجة الصور بفعالية. سواء كانت مستويات الضغط، إعدادات الجودة، أو معلمات أخرى، توفر هذه الخاصية رؤى أساسية لتعديل الصور بسلاسة.
 
 **Returns:**
 [JpegOptions](../../com.aspose.imaging.imageoptions/jpegoptions) - The JPEG options.
@@ -223,7 +223,7 @@ public int getBitsPerPixel()
 ```
 
 
-استرجع عمق البكسل للصورة بسهولة باستخدام هذه الخاصية، مما يقدم رؤى حول غنى تمثيل اللون أو التدرج الرمادي. سواء كانت صورة فوتوغرافية حية أو رسمًا أحادي اللون، توفر هذه الخاصية معلومات حيوية حول تعقيد الصورة البصري.
+استرجع عمق البكسل للصورة بسهولة باستخدام هذه الخاصية، مما يوفر رؤى حول غنى تمثيل اللون أو التدرج الرمادي. سواء كانت صورة فوتوغرافية نابضة بالحياة أو توضيح أحادي اللون، تقدم هذه الخاصية معلومات حيوية حول تعقيد الصورة البصري.
 
 **Returns:**
 int - عدد بتات الصورة لكل بكسل.
@@ -233,7 +233,7 @@ public String getComment()
 ```
 
 
-إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. سواء كان ذلك بوضع وسوم للصور مع البيانات الوصفية أو إلحاق سياق إضافي، توفر هذه الخاصية مرونة في تنظيم وتصنيف ملفات JPEG الخاصة بك.
+إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع تعليقات وصفية مرتبطة بالصورة. سواء كان ذلك بوضع وسوم للصور مع بيانات التعريف أو إلحاق سياق إضافي، توفر هذه الخاصية مرونة في تنظيم وتصنيف ملفات JPEG الخاصة بك.
 
 **Returns:**
 java.lang.String
@@ -243,12 +243,12 @@ public void setComment(String value)
 ```
 
 
-إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع التعليقات الوصفية المرتبطة بالصورة. سواء كان ذلك بوضع وسوم للصور مع البيانات الوصفية أو إلحاق سياق إضافي، توفر هذه الخاصية مرونة في تنظيم وتصنيف ملفات JPEG الخاصة بك.
+إدارة تعليقات ملفات JPEG باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع تعليقات وصفية مرتبطة بالصورة. سواء كان ذلك بوضع وسوم للصور مع بيانات التعريف أو إلحاق سياق إضافي، توفر هذه الخاصية مرونة في تنظيم وتصنيف ملفات JPEG الخاصة بك.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getJpegExifData() {#getJpegExifData--}
 ```
@@ -256,7 +256,7 @@ public JpegExifData getJpegExifData()
 ```
 
 
-يحصل على كائن Exif.
+يحصل على نسخة Exif.
 
 **Returns:**
 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Exif instance.
@@ -266,7 +266,7 @@ public void setJpegExifData(JpegExifData value)
 ```
 
 
-إدارة بيانات EXIF باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع البيانات الوصفية المرتبطة بالصورة. سواء كان ذلك باستخراج معلومات حول إعدادات الكاميرا أو تعديل البيانات الوصفية الموجودة، توفر هذه الخاصية مرونة في إدارة حاوية بيانات EXIF.
+إدارة بيانات EXIF باستخدام هذه الخاصية، مما يتيح لك إضافة أو استرجاع بيانات التعريف المرتبطة بالصورة. سواء كان ذلك باستخراج معلومات حول إعدادات الكاميرا أو تعديل بيانات التعريف الحالية، توفر هذه الخاصية مرونة في إدارة حاوية بيانات EXIF.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -338,27 +338,27 @@ try {
 //الرقم التسلسلي للكاميرا: 7100536
 //مساحة اللون: SRgb
 //السطوع:
-//التباين: عادي
+//التباين: طبيعي
 //جاما:
 //الحدة: 0
 //فتحة العدسة: 4.64(4643856 / 1000000)
 //وضع التعرض: يدوي
-//تحيز التعرض: 0.67(4 / 6)
+//انحياز التعرض: 0.67(4 / 6)
 //وقت التعرض: 0.01(1 / 160)
 //البعد البؤري: 145.00(1450 / 10)
 //وحدة دقة المستوى البؤري: سم
-//طراز العدسة: 70.0 - 200.0 مم f/ 4.0
+//نموذج العدسة: 70.0 - 200.0 مم f/ 4.0
 //سرعة الغالق: 7.32(7321928 / 1000000)
 //بيانات JPEG EXIF
 //------------------------------------------
-//شركة صانع الكاميرا: NIKON CORPORATION
+//شركة تصنيع الكاميرا: NIKON CORPORATION
 //طراز الكاميرا: NIKON D5
 //التفسير الضوئي: 0
 //الفنان:
 //حقوق النشر:
 //وصف الصورة:
-//الاتجاه: TopLeft
-//البرنامج: Adobe Photoshop Camera Raw 9.9(Macintosh)
+//الاتجاه: أعلى-يسار
+//البرنامج: Adobe Photoshop Camera Raw 9.9 (Macintosh)
 ```
 
 ### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
@@ -380,7 +380,7 @@ public int getHeight()
 ```
 
 
-استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. فهي توفر وصولًا سريعًا إلى البعد العمودي للصورة، مما يتيح لك تحديد حجمها ونسبة أبعادها بكفاءة دون الحاجة إلى حسابات معقدة أو طرق إضافية.
+استرجع ارتفاع الصورة بسهولة باستخدام هذه الخاصية. فهي توفر وصولًا سريعًا إلى البُعد العمودي للصورة، مما يتيح لك تحديد حجمها ونسبة أبعادها بكفاءة دون الحاجة إلى حسابات معقدة أو طرق إضافية.
 
 **Returns:**
 int - ارتفاع الصورة بالبكسل.
@@ -390,12 +390,12 @@ public double getHorizontalResolution()
 ```
 
 
-تمنحك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. من خلال ضبط أو استرجاع هذه القيمة، يمكنك التحكم بدقة في دقة الصورة، وضمان تلبية متطلباتك الخاصة للجودة والوضوح.
+تتيح لك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. من خلال تعيين أو استرجاع هذه القيمة، يمكنك التحكم بدقة في دقة الصورة، وضمان توافقها مع متطلباتك الخاصة للجودة والوضوح.
 
 **Returns:**
-double - الدقة الأفقية.
+مزدوج - الدقة الأفقية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
 
@@ -406,14 +406,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.jpg
 try {
     com.aspose.imaging.fileformats.jpeg.JpegImage jpegImage = (com.aspose.imaging.fileformats.jpeg.JpegImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = jpegImage.getHorizontalResolution();
     double verticalResolution = jpegImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         jpegImage.setResolution(96.0, 96.0);
 
@@ -425,11 +425,11 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 
 ### setHorizontalResolution(double value) {#setHorizontalResolution-double-}
@@ -438,14 +438,14 @@ public void setHorizontalResolution(double value)
 ```
 
 
-تمنحك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. من خلال ضبط أو استرجاع هذه القيمة، يمكنك التحكم بدقة في دقة الصورة، وضمان تلبية متطلباتك الخاصة للجودة والوضوح.
+تتيح لك هذه الخاصية الوصول إلى الدقة الأفقية لـ [RasterImage](../../com.aspose.imaging/rasterimage)، المقاسة بالبكسل لكل بوصة. من خلال تعيين أو استرجاع هذه القيمة، يمكنك التحكم بدقة في دقة الصورة، وضمان توافقها مع متطلباتك الخاصة للجودة والوضوح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة الأفقية. |
+|  | value | double | الدقة الأفقية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن المنصات المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة `setResolution` لتحديث قيمتي الدقة في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 96 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة `setResolution` لتحديث قيم الدقةتين في استدعاء واحد. |
 
 ### getJfif() {#getJfif--}
 ```
@@ -453,7 +453,7 @@ public JFIFData getJfif()
 ```
 
 
-تسمح لك هذه الخاصية بالوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) أو تعديلها المرتبطة بصورة JPEG. JFIF هو تنسيق قياسي لتبادل الصور المضغوطة بصيغة JPEG بين الحواسيب والأجهزة الأخرى. من خلال الحصول على هذه الخاصية أو ضبطها، يمكنك التفاعل مع بيانات JFIF، والتي قد تشمل معلومات مثل دقة الصورة، نسبة أبعادها، والصورة المصغرة.
+تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) المرتبطة بصورة JPEG أو تعديلها. JFIF هو تنسيق قياسي لتبادل الصور المضغوطة بتنسيق JPEG بين الحواسيب والأجهزة الأخرى. من خلال الحصول على هذه الخاصية أو تعيينها، يمكنك التفاعل مع بيانات JFIF، والتي قد تشمل معلومات مثل دقة الصورة، نسبة الأبعاد، والصورة المصغرة.
 
 **Returns:**
 [JFIFData](../../com.aspose.imaging.fileformats.jpeg/jfifdata)
@@ -463,7 +463,7 @@ public void setJfif(JFIFData value)
 ```
 
 
-تسمح لك هذه الخاصية بالوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) أو تعديلها المرتبطة بصورة JPEG. JFIF هو تنسيق قياسي لتبادل الصور المضغوطة بصيغة JPEG بين الحواسيب والأجهزة الأخرى. من خلال الحصول على هذه الخاصية أو ضبطها، يمكنك التفاعل مع بيانات JFIF، والتي قد تشمل معلومات مثل دقة الصورة، نسبة أبعادها، والصورة المصغرة.
+تتيح لك هذه الخاصية الوصول إلى بيانات JFIF (تنسيق تبادل ملفات JPEG) المرتبطة بصورة JPEG أو تعديلها. JFIF هو تنسيق قياسي لتبادل الصور المضغوطة بتنسيق JPEG بين الحواسيب والأجهزة الأخرى. من خلال الحصول على هذه الخاصية أو تعيينها، يمكنك التفاعل مع بيانات JFIF، والتي قد تشمل معلومات مثل دقة الصورة، نسبة الأبعاد، والصورة المصغرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -476,7 +476,7 @@ public PixelDataFormat getRawDataFormat()
 ```
 
 
-تسترجع هذه الخاصية تنسيق البيانات الخام للصورة، والذي يوضح كيفية تنظيم بيانات الصورة وترميزها. فهم تنسيق البيانات الخام أمر أساسي لمعالجة أو تعديل بيانات الصورة بفعالية. فهو يوفر رؤى حول التمثيل الأساسي للصورة، مثل ما إذا كانت مضغوطة، أو مُرمَّزة في مساحة ألوان معينة، أو مخزنة في تنسيق ملف محدد. الوصول إلى هذه الخاصية يتيح لك الحصول على معلومات قيمة حول بنية بيانات الصورة، مما يمكنك من تنفيذ عمليات مختلفة أو تحسينات مخصصة لتنسيقها المحدد.
+تسترجع هذه الخاصية تنسيق البيانات الخام للصورة، والذي يوضح كيفية تنظيم البيانات المشفرة للصورة. فهم تنسيق البيانات الخام أمر أساسي لمعالجة أو تعديل بيانات الصورة بفعالية. فهو يوفر رؤى حول التمثيل الأساسي للصورة، مثل ما إذا كانت مضغوطة، أو مشفرة في مساحة لون معينة، أو مخزنة بتنسيق ملف محدد. يتيح لك الوصول إلى هذه الخاصية الحصول على معلومات قيمة حول بنية بيانات الصورة، مما يمكنك من تنفيذ عمليات أو تحسينات مختلفة مخصصة لتنسيقها المحدد.
 
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
@@ -486,12 +486,12 @@ public double getVerticalResolution()
 ```
 
 
-تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، للـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. تعديل هذه الدقة يؤثر على حجم وجودة الصورة عند طباعتها أو عرضها بحجم مادي ثابت. من خلال ضبط هذه الخاصية، تتحكم في كثافة تجميع بكسلات الصورة عموديًا، مما يؤثر على حدة الصورة العامة ووضوحها.
+تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. تعديل هذه الدقة يؤثر على حجم وجودة الصورة عند طباعتها أو عرضها بحجم مادي ثابت. من خلال تعيين هذه الخاصية، تتحكم في كثافة تجميع بكسلات الصورة عموديًا، مما يؤثر على حدتها ووضوحها العام.
 
 **Returns:**
-double - الدقة العمودية.
+مزدوج - الدقة العمودية.
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 72 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 72 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقةتين في استدعاء واحد.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
 
@@ -502,14 +502,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.jpg
 try {
     com.aspose.imaging.fileformats.jpeg.JpegImage jpegImage = (com.aspose.imaging.fileformats.jpeg.JpegImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = jpegImage.getHorizontalResolution();
     double verticalResolution = jpegImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         jpegImage.setResolution(96.0, 96.0);
 
@@ -521,11 +521,11 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 
 ### setVerticalResolution(double value) {#setVerticalResolution-double-}
@@ -534,14 +534,14 @@ public void setVerticalResolution(double value)
 ```
 
 
-تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، للـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. تعديل هذه الدقة يؤثر على حجم وجودة الصورة عند طباعتها أو عرضها بحجم مادي ثابت. من خلال ضبط هذه الخاصية، تتحكم في كثافة تجميع بكسلات الصورة عموديًا، مما يؤثر على حدة الصورة العامة ووضوحها.
+تدير هذه الخاصية الدقة العمودية، المعبر عنها بالبكسل لكل بوصة، لـ [RasterImage](../../com.aspose.imaging/rasterimage) المرتبط. تعديل هذه الدقة يؤثر على حجم وجودة الصورة عند طباعتها أو عرضها بحجم مادي ثابت. من خلال تعيين هذه الخاصية، تتحكم في كثافة تجميع بكسلات الصورة عموديًا، مما يؤثر على حدتها ووضوحها العام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-|  | القيمة | double | الدقة العمودية. |
+|  | value | double | الدقة العمودية. |
 
-ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 72 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد. |
+ملاحظة: بشكل افتراضي تكون هذه القيمة دائمًا 72 لأن الأنظمة المختلفة لا يمكنها إرجاع دقة الشاشة. قد ترغب في استخدام طريقة SetResolution لتحديث قيم الدقةتين في استدعاء واحد. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -549,7 +549,7 @@ public int getWidth()
 ```
 
 
-تسترجع هذه الخاصية عرض الصورة، معبرًا عنه بالبكسل. إنها توفر معلومات أساسية حول أبعاد الصورة، مما يتيح عرضًا دقيقًا، ومعالجة، أو عرضًا لبيانات الصورة.
+تسترجع هذه الخاصية عرض الصورة، معبرًا عنه بالبكسل. فهي توفر معلومات أساسية حول أبعاد الصورة، مما يتيح عرضًا، تعديلًا أو عرضًا دقيقًا لبيانات الصورة.
 
 **Returns:**
 int - عرض الصورة بالبكسل.
@@ -559,7 +559,7 @@ public StreamSource getRgbColorProfile()
 ```
 
 
-ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للون وتمثيله. يجب إقرانه بملف تعريف اللون CMYKColorProfile للحفاظ على التناسق والوفاء في عرض اللون. هذا الاقتران أساسي للتطبيقات التي تتطلب إدارة لون دقيقة وإعادة إنتاج الصور، مما يضمن تفسير وعرض بيانات RGB بشكل صحيح.
+ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وتمثيلًا صحيحًا. يجب إقرانه بملف تعريف اللون CMYKColorProfile للحفاظ على التناسق والصدق في عرض الألوان. هذا الاقتران ضروري للتطبيقات التي تتطلب إدارة ألوان دقيقة وإعادة إنتاج الصور، مما يضمن تفسير بيانات RGB وعرضها بشكل صحيح.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -569,7 +569,7 @@ public void setRgbColorProfile(StreamSource value)
 ```
 
 
-ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للون وتمثيله. يجب إقرانه بملف تعريف اللون CMYKColorProfile للحفاظ على التناسق والوفاء في عرض اللون. هذا الاقتران أساسي للتطبيقات التي تتطلب إدارة لون دقيقة وإعادة إنتاج الصور، مما يضمن تفسير وعرض بيانات RGB بشكل صحيح.
+ملف تعريف اللون RGB لصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وتمثيلًا صحيحًا. يجب إقرانه بملف تعريف اللون CMYKColorProfile للحفاظ على التناسق والصدق في عرض الألوان. هذا الاقتران ضروري للتطبيقات التي تتطلب إدارة ألوان دقيقة وإعادة إنتاج الصور، مما يضمن تفسير بيانات RGB وعرضها بشكل صحيح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -578,7 +578,7 @@ public void setRgbColorProfile(StreamSource value)
 
 
 **Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
-المثال التالي يحمل PNG ويحفظه كـ CMYK JPEG باستخدام ملف تعريف ICC مخصص. ثم يحمل CMYK JPEG ويحفظه مرة أخرى كـ PNG. يتم إجراء تحويل اللون من RGB إلى CMYK ومن CMYK إلى RGB باستخدام ملفات تعريف ICC مخصصة.
+المثال التالي يقوم بتحميل ملف PNG وحفظه كصورة JPEG بنظام CMYK باستخدام ملف ICC مخصص. ثم يقوم بتحميل صورة JPEG بنظام CMYK وحفظها مرة أخرى كملف PNG. يتم تحويل الألوان من RGB إلى CMYK ومن CMYK إلى RGB باستخدام ملفات ICC مخصصة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -591,7 +591,7 @@ try {
         com.aspose.imaging.imageoptions.JpegOptions saveOptions = new com.aspose.imaging.imageoptions.JpegOptions();
         saveOptions.setColorType(com.aspose.imaging.fileformats.jpeg.JpegCompressionColorMode.Cmyk);
 
-        // استخدام ملفات تعريف ICC مخصصة
+        // استخدام ملفات ICC مخصصة
         saveOptions.setRgbColorProfile(new com.aspose.imaging.sources.StreamSource(rgbProfileStream));
         saveOptions.setCmykColorProfile(new com.aspose.imaging.sources.StreamSource(cmykProfileStream));
 
@@ -610,7 +610,7 @@ try {
     java.io.InputStream rgbProfileStream = new java.io.FileInputStream(dir + "eciRGB_v2.icc");
     java.io.InputStream cmykProfileStream = new java.io.FileInputStream(dir + "ISOcoated_v2_FullGamut4.icc");
     try {
-        // استخدام ملفات تعريف ICC مخصصة
+        // استخدام ملفات ICC مخصصة
         jpegImage.setRgbColorProfile(new com.aspose.imaging.sources.StreamSource(rgbProfileStream));
         jpegImage.setCmykColorProfile(new com.aspose.imaging.sources.StreamSource(cmykProfileStream));
 
@@ -631,7 +631,7 @@ public StreamSource getCmykColorProfile()
 ```
 
 
-ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للون والوفاء. يعمل بالتعاون مع RGBColorProfile لضمان تمثيل لون دقيق عبر مختلف الأجهزة والتطبيقات. هذا الاقتران ضروري للحفاظ على التناسق في عرض اللون وتحقيق جودة صورة مثالية.
+ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وموثوقية. يعمل بالتعاون مع RGBColorProfile لضمان تمثيل ألوان دقيق عبر مختلف الأجهزة والتطبيقات. هذا الاقتران أساسي للحفاظ على التناسق في عرض الألوان وتحقيق جودة صورة مثالية.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -641,7 +641,7 @@ public void setCmykColorProfile(StreamSource value)
 ```
 
 
-ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للون والوفاء. يعمل بالتعاون مع RGBColorProfile لضمان تمثيل لون دقيق عبر مختلف الأجهزة والتطبيقات. هذا الاقتران ضروري للحفاظ على التناسق في عرض اللون وتحقيق جودة صورة مثالية.
+ملف تعريف اللون CMYK المرتبط بصور JPEG بنظام CMYK وYCCK يضمن تحويلًا دقيقًا للألوان وموثوقية. يعمل بالتعاون مع RGBColorProfile لضمان تمثيل ألوان دقيق عبر مختلف الأجهزة والتطبيقات. هذا الاقتران أساسي للحفاظ على التناسق في عرض الألوان وتحقيق جودة صورة مثالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -650,7 +650,7 @@ public void setCmykColorProfile(StreamSource value)
 
 
 **Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
-المثال التالي يحمل PNG ويحفظه كـ CMYK JPEG باستخدام ملف تعريف ICC مخصص. ثم يحمل CMYK JPEG ويحفظه مرة أخرى كـ PNG. يتم إجراء تحويل اللون من RGB إلى CMYK ومن CMYK إلى RGB باستخدام ملفات تعريف ICC مخصصة.
+المثال التالي يقوم بتحميل ملف PNG وحفظه كصورة JPEG بنظام CMYK باستخدام ملف ICC مخصص. ثم يقوم بتحميل صورة JPEG بنظام CMYK وحفظها مرة أخرى كملف PNG. يتم تحويل الألوان من RGB إلى CMYK ومن CMYK إلى RGB باستخدام ملفات ICC مخصصة.
 ``` java
 String dir = "c:\\temp\\";
 
@@ -663,7 +663,7 @@ try {
         com.aspose.imaging.imageoptions.JpegOptions saveOptions = new com.aspose.imaging.imageoptions.JpegOptions();
         saveOptions.setColorType(com.aspose.imaging.fileformats.jpeg.JpegCompressionColorMode.Cmyk);
 
-        // استخدام ملفات تعريف ICC مخصصة
+        // استخدام ملفات ICC مخصصة
         saveOptions.setRgbColorProfile(new com.aspose.imaging.sources.StreamSource(rgbProfileStream));
         saveOptions.setCmykColorProfile(new com.aspose.imaging.sources.StreamSource(cmykProfileStream));
 
@@ -682,7 +682,7 @@ try {
     java.io.InputStream rgbProfileStream = new java.io.FileInputStream(dir + "eciRGB_v2.icc");
     java.io.InputStream cmykProfileStream = new java.io.FileInputStream(dir + "ISOcoated_v2_FullGamut4.icc");
     try {
-        // استخدام ملفات تعريف ICC مخصصة
+        // استخدام ملفات ICC مخصصة
         jpegImage.setRgbColorProfile(new com.aspose.imaging.sources.StreamSource(rgbProfileStream));
         jpegImage.setCmykColorProfile(new com.aspose.imaging.sources.StreamSource(cmykProfileStream));
 
@@ -703,7 +703,7 @@ public StreamSource getDestinationRgbColorProfile()
 ```
 
 
-RGBColorProfile أساسي للتحويل الدقيق للون لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. عند إقرانه بـ CMYKColorProfile، يضمن أن الألوان تُعرض بشكل صحيح ويحافظ على التناسق عبر الأجهزة والتطبيقات المختلفة. هذا الجمع ضروري للحفاظ على تمثيل اللون المقصود وتحقيق مخرجات صورة عالية الجودة.
+ملف تعريف اللون RGBColorProfile ضروري للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. عند إقرانه بملف تعريف اللون CMYKColorProfile، يضمن عرض الألوان بشكل صحيح ويحافظ على التناسق عبر مختلف الأجهزة والتطبيقات. هذا الجمع أساسي للحفاظ على تمثيل الألوان المقصود وتحقيق مخرجات صورة عالية الجودة.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -713,7 +713,7 @@ public void setDestinationRgbColorProfile(StreamSource value)
 ```
 
 
-RGBColorProfile أساسي للتحويل الدقيق للون لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. عند إقرانه بـ CMYKColorProfile، يضمن أن الألوان تُعرض بشكل صحيح ويحافظ على التناسق عبر الأجهزة والتطبيقات المختلفة. هذا الجمع ضروري للحفاظ على تمثيل اللون المقصود وتحقيق مخرجات صورة عالية الجودة.
+ملف تعريف اللون RGBColorProfile ضروري للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. عند إقرانه بملف تعريف اللون CMYKColorProfile، يضمن عرض الألوان بشكل صحيح ويحافظ على التناسق عبر مختلف الأجهزة والتطبيقات. هذا الجمع أساسي للحفاظ على تمثيل الألوان المقصود وتحقيق مخرجات صورة عالية الجودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -726,7 +726,7 @@ public StreamSource getDestinationCmykColorProfile()
 ```
 
 
-ملف تعريف اللون CMYK ضروري للتحويل الدقيق للون لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. يعمل بالتوازي مع RGBColorProfile لضمان تمثيل لون صحيح، مع الحفاظ على التناسق والجودة عبر الأجهزة والبرمجيات المختلفة. هذا التزامن أساسي لتحقيق عرض لون دقيق وموثوق في الصور المحفوظة نهائيًا.
+ملف تعريف اللون CMYK ضروري للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. يعمل بالتوازي مع RGBColorProfile لضمان تمثيل صحيح للألوان، مع الحفاظ على التناسق والجودة عبر مختلف الأجهزة والبرمجيات. هذا التزامن أساسي لتحقيق عرض ألوان دقيق وموثوق في الصور المحفوظة نهائيًا.
 
 **Returns:**
 [StreamSource](../../com.aspose.imaging.sources/streamsource)
@@ -736,7 +736,7 @@ public void setDestinationCmykColorProfile(StreamSource value)
 ```
 
 
-ملف تعريف اللون CMYK ضروري للتحويل الدقيق للون لصور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. يعمل بالتوازي مع RGBColorProfile لضمان تمثيل لون صحيح، مع الحفاظ على التناسق والجودة عبر الأجهزة والبرمجيات المختلفة. هذا التزامن أساسي لتحقيق عرض لون دقيق وموثوق في الصور المحفوظة نهائيًا.
+ملف تعريف اللون CMYK ضروري للتحويل الدقيق للألوان في صور JPEG بنظام CMYK وYCCK أثناء عملية الحفظ. يعمل بالتوازي مع RGBColorProfile لضمان تمثيل صحيح للألوان، مع الحفاظ على التناسق والجودة عبر مختلف الأجهزة والبرمجيات. هذا التزامن أساسي لتحقيق عرض ألوان دقيق وموثوق في الصور المحفوظة نهائيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -749,7 +749,7 @@ public boolean getIgnoreEmbeddedColorProfile()
 ```
 
 
-يسترجع أو يعدل العلامة التي تشير إلى ما إذا كان يتم تجاهل ملف تعريف اللون المدمج. من خلال ضبط هذه العلامة، يمكن للمستخدمين تحديد ما إذا كان يجب استخدام ملف تعريف اللون الافتراضي بدلاً من المدمج. يضمن هذا الخيار تحكمًا أكبر في إدارة اللون، مما يسهل التعديلات للتناسق والتوافق عبر مختلف الأنظمة والتطبيقات.
+تسترجع أو تعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المدمج سيتم تجاهله. من خلال تعيين هذه العلامة، يمكن للمستخدمين تحديد ما إذا كان يجب استخدام ملف تعريف اللون الافتراضي بدلاً من المدمج. يضمن هذا الخيار تحكمًا أكبر في إدارة الألوان، مما يسهل ضبط التناسق والتوافق عبر مختلف المنصات والتطبيقات.
 
 **Returns:**
 boolean
@@ -759,12 +759,12 @@ public void setIgnoreEmbeddedColorProfile(boolean value)
 ```
 
 
-يسترجع أو يعدل العلامة التي تشير إلى ما إذا كان يتم تجاهل ملف تعريف اللون المدمج. من خلال ضبط هذه العلامة، يمكن للمستخدمين تحديد ما إذا كان يجب استخدام ملف تعريف اللون الافتراضي بدلاً من المدمج. يضمن هذا الخيار تحكمًا أكبر في إدارة اللون، مما يسهل التعديلات للتناسق والتوافق عبر مختلف الأنظمة والتطبيقات.
+تسترجع أو تعدل العلامة التي تشير إلى ما إذا كان ملف تعريف اللون المدمج سيتم تجاهله. من خلال تعيين هذه العلامة، يمكن للمستخدمين تحديد ما إذا كان يجب استخدام ملف تعريف اللون الافتراضي بدلاً من المدمج. يضمن هذا الخيار تحكمًا أكبر في إدارة الألوان، مما يسهل ضبط التناسق والتوافق عبر مختلف المنصات والتطبيقات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -772,7 +772,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-يحصل على خيارات الصورة الأصلية لهذا الكائن [Image](../../com.aspose.imaging/image) instance.
+يحصل على خيارات الصورة الأصلية لهذا الكائن [Image](../../com.aspose.imaging/image).
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - A clone of original image options.
@@ -790,13 +790,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-يحدد الدقة للصورة المحددة [RasterImage](../../com.aspose.imaging/rasterimage)، مما يضمن تحجيمًا وطباعة دقيقة. تمكّن هذه الطريقة المستخدمين من تعديل دقة الصورة لتناسب متطلباتهم الخاصة، سواء للعرض الرقمي أو النسخ المادي. من خلال ضبط الدقة، يمكن للمستخدمين تحسين جودة الصورة وضمان التوافق مع مختلف أجهزة الإخراج والوسائط، مما يعزز التجربة البصرية العامة وقابلية استخدام الصورة.
+يحدد الدقة لـ [RasterImage](../../com.aspose.imaging/rasterimage) المحدد، مما يضمن قدرة دقيقة على التحجيم والطباعة. تمكّن هذه الطريقة المستخدمين من تعديل دقة الصورة لتتناسب مع متطلباتهم الخاصة، سواء للعرض الرقمي أو النسخ المادي. من خلال تعيين الدقة، يمكن للمستخدمين تحسين جودة الصورة وضمان التوافق مع مختلف أجهزة الإخراج والوسائط، مما يعزز التجربة البصرية العامة وقابلية استخدام الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| dpiX | double | الدقة الأفقية، بوحدات النقاط في البوصة، لـ `RasterImage`. |
-| dpiY | double | الدقة العمودية، بوحدات النقاط في البوصة، لـ `RasterImage`. |
+| dpiX | double | الدقة الأفقية، بوحدة النقاط لكل بوصة، لـ `RasterImage`. |
+| dpiY | double | الدقة العمودية، بوحدة النقاط لكل بوصة، لـ `RasterImage`. |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
@@ -808,14 +808,14 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.jpg
 try {
     com.aspose.imaging.fileformats.jpeg.JpegImage jpegImage = (com.aspose.imaging.fileformats.jpeg.JpegImage) image;
 
-    // احصل على الدقة الأفقية والعمودية لصورة BmpImage
+    // احصل على الدقة الأفقية والعمودية لـ BmpImage
     double horizontalResolution = jpegImage.getHorizontalResolution();
     double verticalResolution = jpegImage.getVerticalResolution();
     System.out.println("The horizontal resolution, in pixels per inch: " + horizontalResolution);
     System.out.println("The vertical resolution, in pixels per inch: " + verticalResolution);
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-        // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+        // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
         System.out.println("Set resolution values to 96 dpi");
         jpegImage.setResolution(96.0, 96.0);
 
@@ -827,10 +827,10 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 300.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 300.0
-// تعيين قيم الدقة إلى 96 نقطة في البوصة
-// الدقة الأفقية، بوحدات البكسل لكل بوصة: 96.0
-// الدقة العمودية، بوحدات البكسل لكل بوصة: 96.0
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 300.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 300.0
+// عيّن قيم الدقة إلى 96 نقطة في البوصة
+// الدقة الأفقية، بوحدة البكسل لكل بوصة: 96.0
+// الدقة العمودية، بوحدة البكسل لكل بوصة: 96.0
 ```
 

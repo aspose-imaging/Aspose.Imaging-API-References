@@ -25,7 +25,7 @@ public abstract class GifBlock implements IGifBlock
 
 | حقل | الوصف |
 | --- | --- |
-| [EXTENSION_INTRODUCER](#EXTENSION-INTRODUCER) | مُقدِّم الامتداد. |
+| [EXTENSION_INTRODUCER](#EXTENSION-INTRODUCER) | مُدخل الامتداد. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -45,7 +45,7 @@ public static final byte EXTENSION_INTRODUCER
 ```
 
 
-مُقدِّم الامتداد.
+مُدخل الامتداد.
 
 ### isChanged() {#isChanged--}
 ```
@@ -72,7 +72,7 @@ public void setChanged(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
@@ -85,5 +85,5 @@ public void save(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.OutputStream | الدفق لحفظ البيانات إليه. |
+| تدفق | java.io.OutputStream | الدفق لحفظ البيانات إليه. |
 

@@ -22,10 +22,10 @@ public class SvgLoadOptions extends LoadOptions
 
 | طريقة | الوصف |
 | --- | --- |
-| [getDefaultWidth()](#getDefaultWidth--) | يحصل أو يعيّن العرض الافتراضي. |
-| [setDefaultWidth(int value)](#setDefaultWidth-int-) | يحصل أو يعيّن العرض الافتراضي. |
-| [getDefaultHeight()](#getDefaultHeight--) | يحصل أو يعيّن الارتفاع الافتراضي. |
-| [setDefaultHeight(int value)](#setDefaultHeight-int-) | يحصل أو يعيّن الارتفاع الافتراضي. |
+| [getDefaultWidth()](#getDefaultWidth--) | يحصل أو يضبط العرض الافتراضي. |
+| [setDefaultWidth(int value)](#setDefaultWidth-int-) | يحصل أو يضبط العرض الافتراضي. |
+| [getDefaultHeight()](#getDefaultHeight--) | يحصل أو يضبط الارتفاع الافتراضي. |
+| [setDefaultHeight(int value)](#setDefaultHeight-int-) | يحصل أو يضبط الارتفاع الافتراضي. |
 ### SvgLoadOptions() {#SvgLoadOptions--}
 ```
 public SvgLoadOptions()
@@ -38,7 +38,7 @@ public int getDefaultWidth()
 ```
 
 
-يحصل أو يعيّن العرض الافتراضي. الخاصية DefaultWidth تُستخدم فقط عندما لا يتم تعيين العرض في الملف.
+يحصل أو يضبط العرض الافتراضي. الخاصية DefaultWidth تُستخدم فقط عندما لا يتم تعيين العرض في الملف.
 
 **Returns:**
 int - العرض الافتراضي.
@@ -48,12 +48,12 @@ public void setDefaultWidth(int value)
 ```
 
 
-يحصل أو يعيّن العرض الافتراضي. الخاصية DefaultWidth تُستخدم فقط عندما لا يتم تعيين العرض في الملف.
+يحصل أو يضبط العرض الافتراضي. الخاصية DefaultWidth تُستخدم فقط عندما لا يتم تعيين العرض في الملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | العرض الافتراضي. |
+| value | int | العرض الافتراضي. |
 
 ### getDefaultHeight() {#getDefaultHeight--}
 ```
@@ -61,7 +61,7 @@ public int getDefaultHeight()
 ```
 
 
-يحصل أو يعيّن الارتفاع الافتراضي. الخاصية DefaultHeight تُستخدم فقط عندما لا يتم تعيين الارتفاع في الملف.
+يحصل أو يضبط الارتفاع الافتراضي. الخاصية DefaultHeight تُستخدم فقط عندما لا يتم تعيين الارتفاع في الملف.
 
 **Returns:**
 int - الارتفاع الافتراضي.
@@ -71,10 +71,10 @@ public void setDefaultHeight(int value)
 ```
 
 
-يحصل أو يعيّن الارتفاع الافتراضي. الخاصية DefaultHeight تُستخدم فقط عندما لا يتم تعيين الارتفاع في الملف.
+يحصل أو يضبط الارتفاع الافتراضي. الخاصية DefaultHeight تُستخدم فقط عندما لا يتم تعيين الارتفاع في الملف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الارتفاع الافتراضي. |
+| value | int | الارتفاع الافتراضي. |
 

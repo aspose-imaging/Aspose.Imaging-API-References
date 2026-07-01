@@ -1,5 +1,5 @@
 ---
-title: "ضغط"
+title: "الضغط"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
 description: "يحتوي على إعدادات ضغط الصورة."
 type: docs
@@ -55,7 +55,7 @@ public final void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getJpeg() {#getJpeg--}
 ```

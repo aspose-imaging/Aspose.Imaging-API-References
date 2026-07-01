@@ -1,7 +1,7 @@
 ---
 title: "IObjectWithBounds"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثّل كائنًا بحدود."
+description: "يمثّل كائنًا بحدوده."
 type: docs
 weight: 139
 url: /ar/java/com.aspose.imaging/iobjectwithbounds/

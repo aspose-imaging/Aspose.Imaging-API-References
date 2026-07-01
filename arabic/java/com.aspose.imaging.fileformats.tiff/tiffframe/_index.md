@@ -17,33 +17,33 @@ public final class TiffFrame extends RasterCachedImage
 
 | المنشئ | الوصف |
 | --- | --- |
-| [TiffFrame(InputStream stream)](#TiffFrame-java.io.InputStream-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(InputStream stream, TiffOptions options)](#TiffFrame-java.io.InputStream-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(String path)](#TiffFrame-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(String path, TiffOptions options)](#TiffFrame-java.lang.String-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(RasterImage image)](#TiffFrame-com.aspose.imaging.RasterImage-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(RasterImage image, TiffOptions options)](#TiffFrame-com.aspose.imaging.RasterImage-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
-| [TiffFrame(TiffOptions options, int width, int height)](#TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-int-int-) | يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(InputStream stream)](#TiffFrame-java.io.InputStream-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(InputStream stream, TiffOptions options)](#TiffFrame-java.io.InputStream-com.aspose.imaging.imageoptions.TiffOptions-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(String path)](#TiffFrame-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(String path, TiffOptions options)](#TiffFrame-java.lang.String-com.aspose.imaging.imageoptions.TiffOptions-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(RasterImage image)](#TiffFrame-com.aspose.imaging.RasterImage-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(RasterImage image, TiffOptions options)](#TiffFrame-com.aspose.imaging.RasterImage-com.aspose.imaging.imageoptions.TiffOptions-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
+| [TiffFrame(TiffOptions options, int width, int height)](#TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-int-int-) | ينشئ مثيلاً جديدًا من الفئة `TiffFrame`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBackgroundColor()](#getBackgroundColor--) | يحصل على قيمة لون الخلفية. |
-| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يضبط قيمة لون الخلفية. |
+| [getBackgroundColor()](#getBackgroundColor--) | يحصل على قيمة للون الخلفية. |
+| [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | يضبط قيمة للون الخلفية. |
 | [hasAlpha()](#hasAlpha--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | يحصل على عدد بتات الصورة لكل بكسل. |
 | [getFrameOptions()](#getFrameOptions--) | يحصل على خيارات إنشاء الإطار. |
 | [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة. |
 | [getWidth()](#getWidth--) | يحصل على عرض الصورة. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | يحصل على الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`. |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | يضبط الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`. |
-| [getVerticalResolution()](#getVerticalResolution--) | يحصل على الدقة الرأسية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`. |
-| [setVerticalResolution(double value)](#setVerticalResolution-double-) | يضبط الدقة الرأسية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | يحصل على الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | يضبط الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [getVerticalResolution()](#getVerticalResolution--) | يحصل على الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
+| [setVerticalResolution(double value)](#setVerticalResolution-double-) | يضبط الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`. |
 | [getPathResources()](#getPathResources--) | يحصل على موارد المسار. |
 | [setPathResources(List<PathResource> value)](#setPathResources-java.util.List-com.aspose.imaging.fileformats.tiff.pathresources.PathResource--) | يضبط موارد المسار. |
-| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف الخاصة بهذه الصورة عن طريق تعيين قيم IHasXmpData.XmpData ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) و `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) إلى `null`. |
+| [removeMetadata()](#removeMetadata--) | يزيل بيانات التعريف لهذه المثيلة من الصورة عن طريق تعيين IHasXmpData.XmpData هذا ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) و `IHasExifData.ExifData` ([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) إلى `null`. |
 | [getOriginalOptions()](#getOriginalOptions--) | يحصل على الخيارات بناءً على إعدادات الملف الأصلي. |
-| [alignResolutions()](#alignResolutions--) | طريقة مساعدة لجعل الدقة الأفقية والرأسية متساوية. |
+| [alignResolutions()](#alignResolutions--) | طريقة مساعدة لجعل الدقة الأفقية والعمودية متساوية. |
 | [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | ينسخ الإطار بالكامل (نسخ مكررة). |
 | [createFrameFrom(TiffFrame tiffFrame, TiffOptions options)](#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) | ينشئ الإطار من `tiffFrame` المحدد باستخدام `options` المحددة. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | يُعيد تحجيم الصورة. |
@@ -59,27 +59,27 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createOptions =
         new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// تعيين 8 بت لكل مكوّن لوني.
+// عيّن 8 بتات لكل مكوّن لوني.
 createOptions.setBitsPerSample(new int[]{8, 8, 8});
 
-// تعيين ترتيب البايتات Big Endian (Motorola)
+// عيّن ترتيب البايت Big Endian (Motorola)
 createOptions.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOrder.BigEndian);
 
-// تعيين ضغط LZW.
+// قم بتعيين ضغط LZW.
 createOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.Lzw);
 
-// تعيين نموذج اللون RGB.
+// قم بتعيين نموذج اللون RGB.
 createOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 
-// ستُخزن جميع مكوّنات اللون في مستوى واحد.
+// سيتم تخزين جميع مكونات اللون داخل مستوى واحد.
 createOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // إنشاء إطار TIFF بحجم 100×100 بكسل.
-// لاحظ أنه لا يلزم التخلص من الإطار صراحةً إذا كان مُدرجًا في TiffImage.
-// عند التخلص من الحاوية، سيتم التخلص من جميع الإطارات تلقائيًا.
+// لاحظ أنك لا تحتاج إلى تحرير إطار صراحةً إذا كان مُدرجًا في TiffImage.
+// عند تحرير الحاوية سيتم تحرير جميع الإطارات تلقائيًا.
 com.aspose.imaging.fileformats.tiff.TiffFrame firstFrame = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions, 100, 100);
 
-// املأ الإطار بالكامل بالتدرج اللوني الأزرق-الأصفر.
+// املأ الإطار بالكامل بالتدرج الأزرق‑الأصفر.
 com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(firstFrame.getWidth(), firstFrame.getHeight()),
@@ -104,12 +104,12 @@ public TiffFrame(InputStream stream)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق التحميل للصورة وتتهيئة بيانات بكسل الإطار ولوحة الألوان باستخدامه. |
+| تدفق | java.io.InputStream | الدفق لتحميل صورة منه وتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 
 ### TiffFrame(InputStream stream, TiffOptions options) {#TiffFrame-java.io.InputStream-com.aspose.imaging.imageoptions.TiffOptions-}
 ```
@@ -117,12 +117,12 @@ public TiffFrame(InputStream stream, TiffOptions options)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | دفق التحميل للصورة وتتهيئة بيانات بكسل الإطار ولوحة الألوان باستخدامه. |
+| تدفق | java.io.InputStream | الدفق لتحميل صورة منه وتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات لاستخدامها مع الإطار الذي تم إنشاؤه حديثًا. |
 
 ### TiffFrame(String path) {#TiffFrame-java.lang.String-}
@@ -131,12 +131,12 @@ public TiffFrame(String path)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة وتتهيئة بيانات بكسل الإطار ولوحة الألوان باستخدامه. |
+| مسار | java.lang.String | المسار لتحميل صورة منه وتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 
 ### TiffFrame(String path, TiffOptions options) {#TiffFrame-java.lang.String-com.aspose.imaging.imageoptions.TiffOptions-}
 ```
@@ -144,12 +144,12 @@ public TiffFrame(String path, TiffOptions options)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة وتتهيئة بيانات بكسل الإطار ولوحة الألوان باستخدامه. |
+| مسار | java.lang.String | المسار لتحميل صورة منه وتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات لاستخدامها مع الإطار الذي تم إنشاؤه حديثًا. |
 
 ### TiffFrame(RasterImage image) {#TiffFrame-com.aspose.imaging.RasterImage-}
@@ -158,12 +158,12 @@ public TiffFrame(RasterImage image)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لتتهيئة بيانات بكسل الإطار ولوحة الألوان بها. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 
 ### TiffFrame(RasterImage image, TiffOptions options) {#TiffFrame-com.aspose.imaging.RasterImage-com.aspose.imaging.imageoptions.TiffOptions-}
 ```
@@ -171,12 +171,12 @@ public TiffFrame(RasterImage image, TiffOptions options)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لتتهيئة بيانات بكسل الإطار ولوحة الألوان بها. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة لتهيئة بيانات بكسل الإطار ولوحة الألوان. |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات لاستخدامها مع الإطار الذي تم إنشاؤه حديثًا. |
 
 ### TiffFrame(TiffOptions options, int width, int height) {#TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-int-int-}
@@ -185,14 +185,14 @@ public TiffFrame(TiffOptions options, int width, int height)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `TiffFrame`.
+ينشئ مثيلاً جديدًا من الفئة `TiffFrame`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | خيارات الإطار. |
-| العرض | int | العرض. |
-| الارتفاع | int | الارتفاع. |
+| width | int | العرض. |
+| height | int | الارتفاع. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
@@ -200,7 +200,7 @@ public Color getBackgroundColor()
 ```
 
 
-يحصل على قيمة لون الخلفية.
+يحصل على قيمة للون الخلفية.
 
 **Returns:**
 [Color](../../com.aspose.imaging/color)
@@ -210,7 +210,7 @@ public void setBackgroundColor(Color value)
 ```
 
 
-يضبط قيمة لون الخلفية.
+يضبط قيمة للون الخلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -226,7 +226,7 @@ public boolean hasAlpha()
 يحصل على قيمة تشير إلى ما إذا كان هذا الكائن يحتوي على ألفا.
 
 **Returns:**
-boolean - `true` إذا كان هذا الكائن يحتوي على ألفا؛ وإلا `false`.
+منطقي - `true` إذا كان لهذه الحالة ألفا؛ وإلا `false`.
 
 **Example: The following example loads a TIFF image and prints information about raw data format and alpha channel.**
 
@@ -238,7 +238,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // إذا كان الإطار النشط لملف TIFF يحتوي على قناة ألفا، فإن صورة TIFF بأكملها تُعتبر ذات قناة ألفا.
+    // إذا كان إطار TIFF النشط يحتوي على قناة ألفا، فسيُعتبر أن صورة TIFF بأكملها تحتوي على قناة ألفا.
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, tiffImage.getRawDataFormat(), tiffImage.hasAlpha());
 
     int i = 0;
@@ -250,9 +250,9 @@ try {
 }
 
 // قد يبدو الإخراج هكذا:
-// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
+// Frame=2, FileFormat=RgbIndexed1Bpp, القنوات المستخدمة: 1, HasAlpha=False
 ```
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
@@ -301,10 +301,10 @@ public double getHorizontalResolution()
 ```
 
 
-يحصل على الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`.
+يحصل على الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Returns:**
-double - الدقة الأفقية.
+مزدوج - الدقة الأفقية.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.**
 
@@ -318,14 +318,14 @@ try {
 
     int i = 0;
     for (com.aspose.imaging.fileformats.tiff.TiffFrame frame : tiffImage.getFrames()) {
-        // الحصول على الدقة الأفقية والعمودية لإطار TiffFrame.
+        // احصل على الدقة الأفقية والعمودية لإطار TiffFrame.
         double horizontalResolution = frame.getHorizontalResolution();
         double verticalResolution = frame.getVerticalResolution();
         System.out.printf("The horizontal resolution of frame %s, pixels per inch: %s\r\n", i, horizontalResolution);
         System.out.printf("The vertical resolution, of frame %s, pixels per inch: %s\r\n", i, verticalResolution);
 
         if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-            // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+            // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
             System.out.println("Set resolution values to 96 dpi");
             frame.setResolution(96.0, 96.0);
 
@@ -346,12 +346,12 @@ public void setHorizontalResolution(double value)
 ```
 
 
-يضبط الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`.
+يضبط الدقة الأفقية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الدقة الأفقية. |
+| value | double | الدقة الأفقية. |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -359,10 +359,10 @@ public double getVerticalResolution()
 ```
 
 
-يحصل على الدقة الرأسية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`.
+يحصل على الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Returns:**
-double - الدقة العمودية.
+مزدوج - الدقة العمودية.
 
 **Example: The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.**
 
@@ -376,14 +376,14 @@ try {
 
     int i = 0;
     for (com.aspose.imaging.fileformats.tiff.TiffFrame frame : tiffImage.getFrames()) {
-        // الحصول على الدقة الأفقية والعمودية لإطار TiffFrame.
+        // احصل على الدقة الأفقية والعمودية لإطار TiffFrame.
         double horizontalResolution = frame.getHorizontalResolution();
         double verticalResolution = frame.getVerticalResolution();
         System.out.printf("The horizontal resolution of frame %s, pixels per inch: %s\r\n", i, horizontalResolution);
         System.out.printf("The vertical resolution, of frame %s, pixels per inch: %s\r\n", i, verticalResolution);
 
         if (horizontalResolution != 96.0 || verticalResolution != 96.0) {
-            // استخدم طريقة SetResolution لتحديث قيمتي الدقة في استدعاء واحد.
+            // استخدم طريقة SetResolution لتحديث قيم الدقة الاثنين في استدعاء واحد.
             System.out.println("Set resolution values to 96 dpi");
             frame.setResolution(96.0, 96.0);
 
@@ -404,12 +404,12 @@ public void setVerticalResolution(double value)
 ```
 
 
-يضبط الدقة الرأسية، بوحدة البكسل لكل بوصة، لهذه `RasterImage`.
+يضبط الدقة العمودية، بوحدة البكسل لكل بوصة، لهذا `RasterImage`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | الدقة العمودية. |
+| value | double | الدقة العمودية. |
 
 ### getPathResources() {#getPathResources--}
 ```
@@ -520,7 +520,7 @@ public void setPathResources(List<PathResource> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> | موارد المسار. |
+| value | java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> | موارد المسار. |
 
 ### removeMetadata() {#removeMetadata--}
 ```
@@ -528,7 +528,7 @@ public void removeMetadata()
 ```
 
 
-يزيل بيانات التعريف الخاصة بهذه الصورة عن طريق تعيين قيم IHasXmpData.XmpData ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) و `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) إلى `null`.
+يزيل بيانات التعريف لهذه المثيلة من الصورة عن طريق تعيين IHasXmpData.XmpData هذا ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) و `IHasExifData.ExifData` ([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) إلى `null`.
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -536,7 +536,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-يحصل على الخيارات بناءً على إعدادات الملف الأصلي. يمكن أن يكون ذلك مفيدًا للحفاظ على عمق البت وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
+يحصل على الخيارات بناءً على إعدادات الملف الأصلي. يمكن أن يكون هذا مفيدًا للحفاظ على عمق البت وغيرها من معلمات الصورة الأصلية دون تغيير. على سبيل المثال، إذا قمنا بتحميل صورة PNG بالأبيض والأسود بعمق 1 بت لكل بكسل ثم حفظناها باستخدام طريقة [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-)، سيتم إنتاج صورة PNG ناتجة بعمق 8 بت لكل بكسل. لتجنب ذلك وحفظ صورة PNG بعمق 1 بت لكل بكسل، استخدم هذه الطريقة للحصول على خيارات الحفظ المقابلة ومررها إلى طريقة [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) كمعامل ثانٍ.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -546,7 +546,7 @@ public void alignResolutions()
 ```
 
 
-طريقة مساعدة لجعل الدقة الأفقية والرأسية متساوية.
+طريقة مساعدة لجعل الدقة الأفقية والعمودية متساوية.
 
 ### copyFrame(TiffFrame tiffFrame) {#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
@@ -559,7 +559,7 @@ public static TiffFrame copyFrame(TiffFrame tiffFrame)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | إطار TIFF للنسخ. |
+| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | إطار TIFF المراد نسخه. |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly copied tiff frame.
@@ -574,7 +574,7 @@ public static TiffFrame createFrameFrom(TiffFrame tiffFrame, TiffOptions options
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | إطار TIFF لإنشاء منه. |
+| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | إطار TIFF لإنشاءه من. |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | الخيارات الجديدة للاستخدام. |
 
 **Returns:**
@@ -588,14 +588,14 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// إنشاء مصدر ملف دائم، غير مؤقت.
+// إنشاء مصدر ملف دائم، وليس مؤقتًا.
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
 
 com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.create(createTiffOptions, 100, 100);
 try {
-    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلية للصورة.
+    // التدرج الخطي من الزاوية اليسرى العليا إلى الزاوية اليمنى السفلى للصورة.
     com.aspose.imaging.brushes.LinearGradientBrush brush =
             new com.aspose.imaging.brushes.LinearGradientBrush(
                     new com.aspose.imaging.Point(0, 0),
@@ -603,7 +603,7 @@ try {
                     com.aspose.imaging.Color.getRed(),
                     com.aspose.imaging.Color.getGreen());
 
-    // ملء الإطار النشط بفرشاة تدرج خطي.
+    // ملء الإطار النشط بفرشاة تدرج خطية.
     com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(tiffImage.getActiveFrame());
     gr.fillRectangle(brush, tiffImage.getBounds());
 
@@ -615,7 +615,7 @@ try {
     createTiffFrameOptions.setBitsPerSample(new int[]{8});
 
     // إنشاء نسخة بتدرج رمادي من الإطار النشط.
-    // يتم الحفاظ على بيانات البكسل ولكن يتم تحويلها إلى الصيغة المطلوبة.
+    // يتم الحفاظ على بيانات البكسل ولكنها تُحوَّل إلى الصيغة المطلوبة.
     com.aspose.imaging.fileformats.tiff.TiffFrame grayscaleFrame
             = com.aspose.imaging.fileformats.tiff.TiffFrame.createFrameFrom(tiffImage.getActiveFrame(), createTiffFrameOptions);
 
@@ -668,7 +668,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
-| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم صورتك وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدور محتويات الصورة الداخلية فقط. |
+| resizeProportionally | boolean | إذا تم تعيينه إلى `true` سيتغير حجم الصورة وفقًا لإسقاطات المستطيل المدور (نقاط الزوايا) وإلا سيبقى الأبعاد دون تغيير وتُدوَّر محتويات الصورة الداخلية فقط. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | لون الخلفية. |
 
 ### crop(Rectangle rectangle) {#crop-com.aspose.imaging.Rectangle-}

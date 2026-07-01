@@ -17,16 +17,16 @@ public final class EmfPlusHotkeyPrefix extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [HotkeyPrefixNone](#HotkeyPrefixNone) | يحدد أن بادئة الاختصار يجب ألا تُعرض. |
-| [HotkeyPrefixShow](#HotkeyPrefixShow) | يحدد أنه لا توجد بادئة اختصار معرفة. |
-| [HotkeyPrefixHide](#HotkeyPrefixHide) | يحدد أن بادئة الاختصار يجب أن تُعرض. |
+| [HotkeyPrefixNone](#HotkeyPrefixNone) | يحدد أنه يجب عدم عرض بادئة الاختصار. |
+| [HotkeyPrefixShow](#HotkeyPrefixShow) | يحدد أنه لم يتم تعريف أي بادئة اختصار. |
+| [HotkeyPrefixHide](#HotkeyPrefixHide) | يحدد أنه يجب عرض بادئة الاختصار. |
 ### HotkeyPrefixNone {#HotkeyPrefixNone}
 ```
 public static final int HotkeyPrefixNone
 ```
 
 
-يحدد أن بادئة الاختصار يجب ألا تُعرض.
+يحدد أنه يجب عدم عرض بادئة الاختصار.
 
 ### HotkeyPrefixShow {#HotkeyPrefixShow}
 ```
@@ -34,7 +34,7 @@ public static final int HotkeyPrefixShow
 ```
 
 
-يحدد أنه لا توجد بادئة اختصار معرفة.
+يحدد أنه لم يتم تعريف أي بادئة اختصار.
 
 ### HotkeyPrefixHide {#HotkeyPrefixHide}
 ```
@@ -42,5 +42,5 @@ public static final int HotkeyPrefixHide
 ```
 
 
-يحدد أن بادئة الاختصار يجب أن تُعرض.
+يحدد أنه يجب عرض بادئة الاختصار.
 

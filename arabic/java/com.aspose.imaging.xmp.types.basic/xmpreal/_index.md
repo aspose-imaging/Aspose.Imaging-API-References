@@ -17,14 +17,14 @@ public final class XmpReal extends XmpTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpReal(float value)](#XmpReal-float-) | يُنشئ مثيلاً جديدًا من الفئة `XmpReal`. |
-| [XmpReal(String value)](#XmpReal-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `XmpReal`. |
+| [XmpReal(float value)](#XmpReal-float-) | ينشئ مثيلاً جديداً من الفئة `XmpReal`. |
+| [XmpReal(String value)](#XmpReal-java.lang.String-) | ينشئ مثيلاً جديداً من الفئة `XmpReal`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getValue()](#getValue--) | يحصل أو يعيّن القيمة العائمة. |
-| [setValue(float value)](#setValue-float-) | يحصل أو يعيّن القيمة العائمة. |
+| [getValue()](#getValue--) | يحصل أو يضبط قيمة من نوع float. |
+| [setValue(float value)](#setValue-float-) | يحصل أو يضبط قيمة من نوع float. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### XmpReal(float value) {#XmpReal-float-}
 ```
@@ -32,12 +32,12 @@ public XmpReal(float value)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `XmpReal`.
+ينشئ مثيلاً جديداً من الفئة `XmpReal`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | قيمة عائمة. |
+| value | float | قيمة float. |
 
 ### XmpReal(String value) {#XmpReal-java.lang.String-}
 ```
@@ -45,12 +45,12 @@ public XmpReal(String value)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `XmpReal`.
+ينشئ مثيلاً جديداً من الفئة `XmpReal`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | القيمة. |
+| value | java.lang.String | القيمة. |
 
 ### getValue() {#getValue--}
 ```
@@ -58,7 +58,7 @@ public float getValue()
 ```
 
 
-يحصل أو يعيّن القيمة العائمة.
+يحصل أو يضبط قيمة من نوع float.
 
 القيمة: قيمة الفاصلة العائمة.
 
@@ -70,14 +70,14 @@ public void setValue(float value)
 ```
 
 
-يحصل أو يعيّن القيمة العائمة.
+يحصل أو يضبط قيمة من نوع float.
 
 القيمة: قيمة الفاصلة العائمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

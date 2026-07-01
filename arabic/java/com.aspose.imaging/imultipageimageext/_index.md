@@ -29,5 +29,5 @@ public abstract void addPage(RasterImage page)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة التي سيتم إضافتها. |
+| page | [RasterImage](../../com.aspose.imaging/rasterimage) | الصفحة المراد إضافتها. |
 

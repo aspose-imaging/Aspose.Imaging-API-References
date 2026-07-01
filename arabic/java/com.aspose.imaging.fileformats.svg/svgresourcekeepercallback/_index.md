@@ -1,7 +1,7 @@
 ---
 title: "SvgResourceKeeperCallback"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "استدعاء رد النداء لمُحافظ الموارد"
+description: "استدعاء رد النداء لمُحافظ الموارد."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.svg/svgresourcekeepercallback/
@@ -15,7 +15,7 @@ java.lang.Object
 public class SvgResourceKeeperCallback implements ISvgResourceKeeperCallback
 ```
 
-استدعاء رد النداء لمُحافظ الموارد
+استدعاء رد النداء لمُحافظ الموارد.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,9 +25,9 @@ public class SvgResourceKeeperCallback implements ISvgResourceKeeperCallback
 
 | طريقة | الوصف |
 | --- | --- |
-| [onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage)](#onImageResourceReady-byte---int-java.lang.String-boolean---) | يتم الاستدعاء عندما يكون مورد الصورة جاهزًا للتصدير. |
-| [onFontResourceReady(FontStoringArgs args)](#onFontResourceReady-com.aspose.svg.options.FontStoringArgs-) | يتم الاستدعاء عندما يكون مورد الخط جاهزًا للتصدير. |
-| [onSvgDocumentReady(byte[] htmlData, String suggestedFileName)](#onSvgDocumentReady-byte---java.lang.String-) | يتم الاستدعاء عندما يكون مستند SVG جاهزًا للتصدير. |
+| [onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage)](#onImageResourceReady-byte---int-java.lang.String-boolean---) | يُستدعى عندما يصبح مورد الصورة جاهزًا للتصدير. |
+| [onFontResourceReady(FontStoringArgs args)](#onFontResourceReady-com.aspose.svg.options.FontStoringArgs-) | يُستدعى عندما يصبح مورد الخط جاهزًا للتصدير. |
+| [onSvgDocumentReady(byte[] htmlData, String suggestedFileName)](#onSvgDocumentReady-byte---java.lang.String-) | يُستدعى عندما يصبح مستند SVG جاهزًا للتصدير. |
 ### SvgResourceKeeperCallback() {#SvgResourceKeeperCallback--}
 ```
 public SvgResourceKeeperCallback()
@@ -40,7 +40,7 @@ public String onImageResourceReady(byte[] imageData, int imageType, String sugge
 ```
 
 
-يتم الاستدعاء عندما يكون مورد الصورة جاهزًا للتصدير.
+يُستدعى عندما يصبح مورد الصورة جاهزًا للتصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -48,7 +48,7 @@ public String onImageResourceReady(byte[] imageData, int imageType, String sugge
 | imageData | byte[] | بيانات المورد. |
 | imageType | int | نوع الصورة. |
 | suggestedFileName | java.lang.String | اسم الملف المقترح. |
-| useEmbeddedImage | boolean[] | إذا تم تعيينه إلى `true` يجب استخدام الصورة المدمجة. |
+| useEmbeddedImage | boolean[] | إذا تم تعيينه إلى `true` يجب استخدام الصورة المضمنة. |
 
 **Returns:**
 java.lang.String - يُرجع المسار إلى المورد المحفوظ. يجب أن يكون المسار نسبيًا إلى مستند SVG الهدف.
@@ -58,7 +58,7 @@ public void onFontResourceReady(FontStoringArgs args)
 ```
 
 
-يتم الاستدعاء عندما يكون مورد الخط جاهزًا للتصدير.
+يُستدعى عندما يصبح مورد الخط جاهزًا للتصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,7 +71,7 @@ public String onSvgDocumentReady(byte[] htmlData, String suggestedFileName)
 ```
 
 
-يتم الاستدعاء عندما يكون مستند SVG جاهزًا للتصدير.
+يُستدعى عندما يصبح مستند SVG جاهزًا للتصدير.
 
 **Parameters:**
 | معامل | نوع | الوصف |

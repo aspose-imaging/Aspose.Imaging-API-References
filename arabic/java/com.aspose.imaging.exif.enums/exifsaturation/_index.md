@@ -1,7 +1,7 @@
 ---
 title: "ExifSaturation"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قوائم تعداد التشبع في EXIF."
+description: "قوائم تعداد التشبع للـ exif."
 type: docs
 weight: 22
 url: /ar/java/com.aspose.imaging.exif.enums/exifsaturation/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifSaturation extends System.Enum
 ```
 
-قوائم تعداد التشبع في EXIF.
+قوائم تعداد التشبع للـ exif.
 ## الحقول
 
 | حقل | الوصف |

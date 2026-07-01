@@ -17,15 +17,15 @@ public class ImageException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [ImageException(String message)](#ImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `ImageException`. |
-| [ImageException(String message, Throwable innerException)](#ImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `ImageException`. |
+| [ImageException(String message)](#ImageException-java.lang.String-) | يُنشئ مثيلاً جديدًا من الفئة `ImageException`. |
+| [ImageException(String message, Throwable innerException)](#ImageException-java.lang.String-java.lang.Throwable-) | يُنشئ مثيلاً جديدًا من الفئة `ImageException`. |
 ### ImageException(String message) {#ImageException-java.lang.String-}
 ```
 public ImageException(String message)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public ImageException(String message, Throwable innerException)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `ImageException`.
+يُنشئ مثيلاً جديدًا من الفئة `ImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "EmfOffsetClipRgn"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EMR_OFFSETCLIPRGN ينقل منطقة القص الحالية في سياق جهاز التشغيل بالإزاحات المحددة."
+description: "السجل EMR_OFFSETCLIPRGN ينقل منطقة القص الحالية في سياق جهاز التشغيل بالإزاحات المحددة."
 type: docs
 weight: 78
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfOffsetClipRgn extends EmfClippingRecordType
 ```
 
-سجل EMR\_OFFSETCLIPRGN ينقل منطقة القص الحالية في سياق جهاز التشغيل وفقًا للإزاحات المحددة.
+سجل EMR\_OFFSETCLIPRGN ينقل منطقة القص الحالية في سياق جهاز التشغيل حسب الإزاحات المحددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfOffsetClipRgn(EmfRecord source)](#EmfOffsetClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يقوم بإنشاء نسخة جديدة من الفئة `EmfOffsetClipRgn`. |
-| [EmfOffsetClipRgn()](#EmfOffsetClipRgn--) | يقوم بإنشاء نسخة جديدة من الفئة `EmfOffsetClipRgn`. |
+| [EmfOffsetClipRgn(EmfRecord source)](#EmfOffsetClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfOffsetClipRgn`. |
+| [EmfOffsetClipRgn()](#EmfOffsetClipRgn--) | ينشئ مثيلاً جديداً من الفئة `EmfOffsetClipRgn`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getOffset()](#getOffset--) | يحصل على كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإزاحات الأفقية والعمودية بوحدات منطقية. |
-| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإزاحات الأفقية والعمودية بوحدات منطقية. |
+| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | يعيّن كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإزاحات الأفقية والعمودية بوحدات منطقية. |
 ### EmfOffsetClipRgn(EmfRecord source) {#EmfOffsetClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfOffsetClipRgn(EmfRecord source)
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfOffsetClipRgn`.
+ينشئ مثيلاً جديداً من الفئة `EmfOffsetClipRgn`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public EmfOffsetClipRgn()
 ```
 
 
-يقوم بإنشاء نسخة جديدة من الفئة `EmfOffsetClipRgn`.
+ينشئ مثيلاً جديداً من الفئة `EmfOffsetClipRgn`.
 
 ### getOffset() {#getOffset--}
 ```
@@ -62,7 +62,7 @@ public void setOffset(Point value)
 ```
 
 
-يضبط كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإزاحات الأفقية والعمودية بوحدات منطقية.
+يعيّن كائن WMF PointL ([MS-WMF] القسم 2.2.2.15) الذي يحدد الإزاحات الأفقية والعمودية بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |

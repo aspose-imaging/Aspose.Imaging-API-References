@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfBitmapCoreHeader extends WmfBitmapBaseHeader
 ```
 
-كائن BitmapCoreHeader يحتوي على معلومات حول الأبعاد وتنسيق اللون للصور النقطية المستقلة عن الجهاز (DIB).
+كائن BitmapCoreHeader يحتوي على معلومات حول الأبعاد وتنسيق اللون لصورة نقطية مستقلة عن الجهاز (DIB).
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class WmfBitmapCoreHeader extends WmfBitmapBaseHeader
 
 | طريقة | الوصف |
 | --- | --- |
-| [getWidth()](#getWidth--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `width` للـ DIB، بوحدات البكسل. |
-| [setWidth(short value)](#setWidth-short-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `width` للـ DIB، بوحدات البكسل. |
-| [getHeight()](#getHeight--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `height` للـ DIB، بوحدات البكسل. |
-| [setHeight(short value)](#setHeight-short-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `height` للـ DIB، بوحدات البكسل. |
+| [getWidth()](#getWidth--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `width` للـ DIB، بوحدات البكسل. |
+| [setWidth(short value)](#setWidth-short-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `width` للـ DIB، بوحدات البكسل. |
+| [getHeight()](#getHeight--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `height` للـ DIB، بوحدات البكسل. |
+| [setHeight(short value)](#setHeight-short-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `height` للـ DIB، بوحدات البكسل. |
 ### WmfBitmapCoreHeader() {#WmfBitmapCoreHeader--}
 ```
 public WmfBitmapCoreHeader()
@@ -38,22 +38,22 @@ public short getWidth()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `width` للـ DIB، بوحدات البكسل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `width` للـ DIB، بوحدات البكسل.
 
 **Returns:**
-short
+قصير
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `width` للـ DIB، بوحدات البكسل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `width` للـ DIB، بوحدات البكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -61,20 +61,20 @@ public short getHeight()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `height` للـ DIB، بوحدات البكسل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `height` للـ DIB، بوحدات البكسل.
 
 **Returns:**
-short
+قصير
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 16 بت يحدد `height` للـ DIB، بوحدات البكسل.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت يحدد `height` للـ DIB، بوحدات البكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

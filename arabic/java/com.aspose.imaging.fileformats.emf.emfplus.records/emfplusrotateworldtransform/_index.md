@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusRotateWorldTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusRotateWorldTransform ينفّذ دورانًا على تحويل الفضاء العالمي الحالي."
+description: "سجل EmfPlusRotateWorldTransform ينفّذ دورانًا على تحويل الفضاء العالمي الحالي."
 type: docs
 weight: 50
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRotateWorldTransform extends EmfPlusTerminalServerRecordType
 ```
 
-يسجل EmfPlusRotateWorldTransform ينفّذ دورانًا على تحويل الفضاء العالمي الحالي.
+سجل EmfPlusRotateWorldTransform ينفّذ دورانًا على تحويل الفضاء العالمي الحالي.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusRotateWorldTransform(EmfPlusRecord source)](#EmfPlusRotateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfPlusRotateWorldTransform`. |
+| [EmfPlusRotateWorldTransform(EmfPlusRecord source)](#EmfPlusRotateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfPlusRotateWorldTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. |
-| [getAngle()](#getAngle--) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد زاوية الدوران بالدرجات. |
-| [setAngle(float value)](#setAngle-float-) | يحصل أو يعيّن قيمة عائمة 32-بت تحدد زاوية الدوران بالدرجات. |
+| [getAngle()](#getAngle--) | يحصل أو يعيّن قيمة عائمة 32‑bit تحدد زاوية الدوران بالدرجات. |
+| [setAngle(float value)](#setAngle-float-) | يحصل أو يعيّن قيمة عائمة 32‑bit تحدد زاوية الدوران بالدرجات. |
 ### EmfPlusRotateWorldTransform(EmfPlusRecord source) {#EmfPlusRotateWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusRotateWorldTransform(EmfPlusRecord source)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfPlusRotateWorldTransform`.
+يُنشئ مثيلًا جديدًا للفئة `EmfPlusRotateWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم التعيين، يجب أن يتم ضرب مصفوفة التحويل بعديًا. إذا تم إلغاء التعيين، يجب أن تكون مضروبة مسبقًا.
+يحصل على قيمة تشير إلى ما إذا كان [post multiplied matrix]. إذا تم تعيينها، يجب أن يُضرب مصفوف التحويل بعديًا. إذا لم يتم تعيينها، يجب أن يُضرب مسبقًا.
 
 القيمة: `true` إذا كان [post multiplied matrix]؛ وإلا `false`.
 
@@ -56,13 +56,7 @@ public float getAngle()
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد زاوية الدوران بالدرجات. يتم تنفيذ العملية عن طريق إنشاء مصفوفة تحويل جديدة من المخطط التالي:
----------------------------------
-| sin(Angle) | cos(Angle) | 0 |
-| cos(Angle) | sin(Angle) | 0 |
----------------------------------
-الشكل 2: مصفوفة تحويل الدوران
-يتم ضرب تحويل الفضاء العالمي الحالي بهذه المصفوفة، وتصبح النتيجة التحويل الحالي للفضاء العالمي الجديد. يحدد حقل Flags ترتيب الضرب.
+يحصل أو يعيّن قيمة عائمة 32‑bit تحدد زاوية الدوران بالدرجات. يتم تنفيذ العملية بإنشاء مصفوفة تحويل جديدة من المخطط التالي: --------------------------------- | sin(Angle) | cos(Angle) | 0 | | cos(Angle) | sin(Angle) | 0 | --------------------------------- الشكل 2: مصفوفة تحويل الدوران. يتم ضرب تحويل الفضاء العالمي الحالي بهذه المصفوفة، وتصبح النتيجة التحويل العالمي الحالي الجديد. يحدد حقل Flags ترتيب الضرب.
 
 القيمة: الزاوية.
 
@@ -74,18 +68,12 @@ public void setAngle(float value)
 ```
 
 
-يحصل أو يعيّن قيمة عائمة 32-بت تحدد زاوية الدوران بالدرجات. يتم تنفيذ العملية عن طريق إنشاء مصفوفة تحويل جديدة من المخطط التالي:
----------------------------------
-| sin(Angle) | cos(Angle) | 0 |
-| cos(Angle) | sin(Angle) | 0 |
----------------------------------
-الشكل 2: مصفوفة تحويل الدوران
-يتم ضرب تحويل الفضاء العالمي الحالي بهذه المصفوفة، وتصبح النتيجة التحويل الحالي للفضاء العالمي الجديد. يحدد حقل Flags ترتيب الضرب.
+يحصل أو يعيّن قيمة عائمة 32‑bit تحدد زاوية الدوران بالدرجات. يتم تنفيذ العملية بإنشاء مصفوفة تحويل جديدة من المخطط التالي: --------------------------------- | sin(Angle) | cos(Angle) | 0 | | cos(Angle) | sin(Angle) | 0 | --------------------------------- الشكل 2: مصفوفة تحويل الدوران. يتم ضرب تحويل الفضاء العالمي الحالي بهذه المصفوفة، وتصبح النتيجة التحويل العالمي الحالي الجديد. يحدد حقل Flags ترتيب الضرب.
 
 القيمة: الزاوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 

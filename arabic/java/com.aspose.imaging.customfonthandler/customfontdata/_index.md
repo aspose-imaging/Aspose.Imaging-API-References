@@ -17,7 +17,7 @@ public class CustomFontData
 
 | المنشئ | الوصف |
 | --- | --- |
-| [CustomFontData(String fontName, byte[] fontData)](#CustomFontData-java.lang.String-byte---) | ينشئ مثيلًا جديدًا للفئة [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata). |
+| [CustomFontData(String fontName, byte[] fontData)](#CustomFontData-java.lang.String-byte---) | ينشئ مثيلًا جديدًا من الفئة [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public CustomFontData(String fontName, byte[] fontData)
 ```
 
 
-ينشئ مثيلًا جديدًا للفئة [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata).
+ينشئ مثيلًا جديدًا من الفئة [CustomFontData](../../com.aspose.imaging.customfonthandler/customfontdata).
 
 **Parameters:**
 | معامل | نوع | الوصف |

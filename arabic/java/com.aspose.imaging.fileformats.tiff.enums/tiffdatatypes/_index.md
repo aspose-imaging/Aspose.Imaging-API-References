@@ -17,12 +17,12 @@ public final class TiffDataTypes extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Byte](#Byte) | عدد صحيح غير موقع 8‑بت. |
-| [Ascii](#Ascii) | بايتات 8‑بت مع البايت الأخير `null`. |
-| [Short](#Short) | عدد صحيح غير موقع 16‑بت. |
-| [Long](#Long) | عدد صحيح غير موقع 32‑بت. |
-| [Rational](#Rational) | كسر غير موقع 64‑بت. |
-| [Sbyte](#Sbyte) | عدد صحيح موقع 8‑بت. |
+| [Byte](#Byte) | عدد صحيح غير موقع 8-بت. |
+| [Ascii](#Ascii) | بايتات 8-بت مع البايت الأخير `null`. |
+| [Short](#Short) | عدد صحيح غير موقع 16-بت. |
+| [Long](#Long) | عدد صحيح غير موقع 32-بت. |
+| [Rational](#Rational) | كسر غير موقع 64-بت. |
+| [Sbyte](#Sbyte) | عدد صحيح موقع 8-بت. |
 | [Undefined](#Undefined) | بيانات غير مكتوبة 8-بت. |
 | [Sshort](#Sshort) | عدد صحيح موقع 16-بت. |
 | [Slong](#Slong) | عدد صحيح موقع 32-بت. |
@@ -39,7 +39,7 @@ public static final int Byte
 ```
 
 
-عدد صحيح غير موقع 8‑بت.
+عدد صحيح غير موقع 8-بت.
 
 ### Ascii {#Ascii}
 ```
@@ -47,7 +47,7 @@ public static final int Ascii
 ```
 
 
-بايتات 8‑بت مع البايت الأخير `null`.
+بايتات 8-بت مع البايت الأخير `null`.
 
 ### Short {#Short}
 ```
@@ -55,7 +55,7 @@ public static final int Short
 ```
 
 
-عدد صحيح غير موقع 16‑بت.
+عدد صحيح غير موقع 16-بت.
 
 ### Long {#Long}
 ```
@@ -63,7 +63,7 @@ public static final int Long
 ```
 
 
-عدد صحيح غير موقع 32‑بت.
+عدد صحيح غير موقع 32-بت.
 
 ### Rational {#Rational}
 ```
@@ -71,7 +71,7 @@ public static final int Rational
 ```
 
 
-كسر غير موقع 64‑بت.
+كسر غير موقع 64-بت.
 
 ### Sbyte {#Sbyte}
 ```
@@ -79,7 +79,7 @@ public static final int Sbyte
 ```
 
 
-عدد صحيح موقع 8‑بت.
+عدد صحيح موقع 8-بت.
 
 ### Undefined {#Undefined}
 ```

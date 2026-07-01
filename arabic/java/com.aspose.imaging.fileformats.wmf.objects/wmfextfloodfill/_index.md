@@ -1,7 +1,7 @@
 ---
 title: "WmfExtFloodFill"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_EXTFLOODFILL يملأ منطقة بالفرشاة التي تم تعريفها في سياق جهاز التشغيل."
+description: "سجل META_EXTFLOODFILL يملأ منطقة بالفرشاة المحددة في سياق جهاز التشغيل."
 type: docs
 weight: 35
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
@@ -38,7 +38,7 @@ public int getMode()
 
 يحصل أو يضبط الوضع.
 
-القيمة: عملية التعبئة التي سيتم تنفيذها.
+القيمة: عملية التعبئة التي يجب تنفيذها.
 
 **Returns:**
 int
@@ -50,10 +50,10 @@ public void setMode(int value)
 
 يحصل أو يضبط الوضع.
 
-القيمة: عملية التعبئة التي سيتم تنفيذها.
+القيمة: عملية التعبئة التي يجب تنفيذها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

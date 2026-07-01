@@ -14,20 +14,20 @@ public final class PathGradientBrush extends PathGradientBrushBase
 
 يحتوي على كائن `Aspose.Imaging.Brush` مع تدرج. لا يمكن وراثة هذه الفئة.
 
-لون المركز أبيض بشكل افتراضي. يمكن للمستخدم تغيير هذه القيمة في أي وقت لاحق.
+لون المركز أبيض افتراضيًا. يمكن للمستخدم تغيير هذه القيمة في أي وقت لاحق.
 
-يتم تهيئة مصفوفة ألوان المحيط بعنصر واحد يحتوي على اللون الأبيض بشكل افتراضي. قد يتم تغيير ألوان المحيط لاحقًا، ومع ذلك يلزم وجود عنصر واحد على الأقل عند إعداد ألوان المحيط.
+يتم تهيئة مصفوفة ألوان المحيط بعنصر واحد يحتوي على اللون الأبيض افتراضيًا. قد يتم تغيير ألوان المحيط لاحقًا، ولكن يلزم وجود عنصر واحد على الأقل عند إعداد ألوان المحيط.
 
 انظر إلى `Blend` لمزيد من التفاصيل حول تهيئتها.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [PathGradientBrush(PointF[] points)](#PathGradientBrush-com.aspose.imaging.PointF---) | يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة. |
-| [PathGradientBrush(PointF[] points, int wrapMode)](#PathGradientBrush-com.aspose.imaging.PointF---int-) | يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف. |
-| [PathGradientBrush(Point[] points)](#PathGradientBrush-com.aspose.imaging.Point---) | يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة. |
-| [PathGradientBrush(Point[] points, int wrapMode)](#PathGradientBrush-com.aspose.imaging.Point---int-) | يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف. |
-| [PathGradientBrush(GraphicsPath path)](#PathGradientBrush-com.aspose.imaging.GraphicsPath-) | يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالمسار المحدد. |
+| [PathGradientBrush(PointF[] points)](#PathGradientBrush-com.aspose.imaging.PointF---) | ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة. |
+| [PathGradientBrush(PointF[] points, int wrapMode)](#PathGradientBrush-com.aspose.imaging.PointF---int-) | ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف. |
+| [PathGradientBrush(Point[] points)](#PathGradientBrush-com.aspose.imaging.Point---) | ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة. |
+| [PathGradientBrush(Point[] points, int wrapMode)](#PathGradientBrush-com.aspose.imaging.Point---int-) | ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف. |
+| [PathGradientBrush(GraphicsPath path)](#PathGradientBrush-com.aspose.imaging.GraphicsPath-) | ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالمسار المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,19 +38,19 @@ public final class PathGradientBrush extends PathGradientBrushBase
 | [setCenterColor(Color value)](#setCenterColor-com.aspose.imaging.Color-) | يضبط اللون في مركز تدرج المسار. |
 | [getSurroundColors()](#getSurroundColors--) | يحصل على مصفوفة من الألوان التي تتطابق مع النقاط في المسار الذي يملأه هذا `PathGradientBrush`. |
 | [setSurroundColors(Color[] value)](#setSurroundColors-com.aspose.imaging.Color---) | يضبط مصفوفة من الألوان التي تتطابق مع النقاط في المسار الذي يملأه هذا `PathGradientBrush`. |
-| [getBlend()](#getBlend--) | يحصل على `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج. |
-| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | يضبط `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج. |
-| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدوده الخارجية. |
-| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدوده الخارجية. |
-| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | ينشئ تدرجًا بلون مركزي وتناقص خطي إلى لون محيط واحد. |
-| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | ينشئ تدرجًا بلون مركزي وتناقص خطي إلى كل لون محيط. |
+| [getBlend()](#getBlend--) | يحصل على `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج. |
+| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | يضبط `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج. |
+| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدود المسار. |
+| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدود المسار. |
+| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | ينشئ تدرجًا بلون مركزي وانخفاض خطي إلى لون محيط واحد. |
+| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | ينشئ تدرجًا بلون مركزي وانخفاض خطي إلى كل لون محيط. |
 ### PathGradientBrush(PointF[] points) {#PathGradientBrush-com.aspose.imaging.PointF---}
 ```
 public PathGradientBrush(PointF[] points)
 ```
 
 
-يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة.
+ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,13 +63,13 @@ public PathGradientBrush(PointF[] points, int wrapMode)
 ```
 
 
-يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف.
+ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | مصفوفة من هياكل `Aspose.Imaging.PointF` التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | int | `Aspose.Imaging.WrapMode` هو وضع يحدد كيفية تجانب التعبئات المرسومة باستخدام هذا `PathGradientBrush`. |
+| wrapMode | int | `Aspose.Imaging.WrapMode` يحدد كيفية تجانب التعبئات المرسومة بهذه `PathGradientBrush`. |
 
 ### PathGradientBrush(Point[] points) {#PathGradientBrush-com.aspose.imaging.Point---}
 ```
@@ -77,7 +77,7 @@ public PathGradientBrush(Point[] points)
 ```
 
 
-يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة.
+ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,13 +90,13 @@ public PathGradientBrush(Point[] points, int wrapMode)
 ```
 
 
-يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف.
+ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالنقاط المحددة ووضع الالتفاف.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | points | [Point\[\]](../../com.aspose.imaging/point) | مصفوفة من هياكل `Aspose.Imaging.Point` التي تمثل النقاط التي تشكل رؤوس المسار. |
-| wrapMode | int | `Aspose.Imaging.WrapMode` هو وضع يحدد كيفية تجانب التعبئات المرسومة باستخدام هذا `PathGradientBrush`. |
+| wrapMode | int | `Aspose.Imaging.WrapMode` يحدد كيفية تجانب التعبئات المرسومة بهذه `PathGradientBrush`. |
 
 ### PathGradientBrush(GraphicsPath path) {#PathGradientBrush-com.aspose.imaging.GraphicsPath-}
 ```
@@ -104,12 +104,12 @@ public PathGradientBrush(GraphicsPath path)
 ```
 
 
-يُنشئ نسخة جديدة من فئة `PathGradientBrush` بالمسار المحدد.
+ينشئ مثيلًا جديدًا من الفئة `PathGradientBrush` بالمسار المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | `GraphicsPath` الذي يحدد المنطقة التي يملأها هذا `PathGradientBrush`. |
+| path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | `GraphicsPath` الذي يحدد المنطقة التي تملأها هذه `PathGradientBrush`. |
 
 ### getInterpolationColors() {#getInterpolationColors--}
 ```
@@ -132,7 +132,7 @@ public void setInterpolationColors(ColorBlend value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ColorBlend](../../com.aspose.imaging/colorblend) | `com.aspose.imaging.ColorBlend` يحدد تدرجًا خطيًا متعدد الألوان. |
+| value | [ColorBlend](../../com.aspose.imaging/colorblend) | `com.aspose.imaging.ColorBlend` الذي يحدد تدرجًا خطيًا متعدد الألوان. |
 
 ### getCenterColor() {#getCenterColor--}
 ```
@@ -155,7 +155,7 @@ public void setCenterColor(Color value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.Color` الذي يمثل اللون في مركز تدرج المسار. |
+| value | [Color](../../com.aspose.imaging/color) | كائن `com.aspose.imaging.Color` يمثل اللون في مركز تدرج المسار. |
 
 ### getSurroundColors() {#getSurroundColors--}
 ```
@@ -166,7 +166,7 @@ public Color[] getSurroundColors()
 يحصل على مصفوفة من الألوان التي تتطابق مع النقاط في المسار الذي يملأه هذا `PathGradientBrush`.
 
 **Returns:**
-com.aspose.imaging.Color[] - مصفوفة من هياكل `com.aspose.imaging.Color` التي تمثل الألوان المرتبطة بكل نقطة في المسار الذي يملأه هذا `PathGradientBrush`.
+com.aspose.imaging.Color[] - مصفوفة من هياكل `com.aspose.imaging.Color` تمثل الألوان المرتبطة بكل نقطة في المسار الذي يملأه `PathGradientBrush`.
 ### setSurroundColors(Color[] value) {#setSurroundColors-com.aspose.imaging.Color---}
 ```
 public void setSurroundColors(Color[] value)
@@ -178,7 +178,7 @@ public void setSurroundColors(Color[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة من هياكل `com.aspose.imaging.Color` التي تمثل الألوان المرتبطة بكل نقطة في المسار الذي يملأه هذا `PathGradientBrush`. |
+| value | [Color\[\]](../../com.aspose.imaging/color) | مصفوفة من هياكل `com.aspose.imaging.Color` تمثل الألوان المرتبطة بكل نقطة في المسار الذي يملأه `PathGradientBrush`. |
 
 ### getBlend() {#getBlend--}
 ```
@@ -186,7 +186,7 @@ public Blend getBlend()
 ```
 
 
-يحصل على `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج.
+يحصل على `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج.
 
 **Returns:**
 [Blend](../../com.aspose.imaging/blend) - A `Aspose.Imaging.Blend` that represents a custom falloff for the gradient.
@@ -196,12 +196,12 @@ public void setBlend(Blend value)
 ```
 
 
-يضبط `Aspose.Imaging.Blend` يحدد المواضع والعوامل التي تعرف انخفاضًا مخصصًا للمتدرج.
+يضبط `Aspose.Imaging.Blend` يحدد المواقع والعوامل التي تعرف انخفاضًا مخصصًا للتدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [Blend](../../com.aspose.imaging/blend) | `Aspose.Imaging.Blend` الذي يمثل انخفاضًا مخصصًا للتدرج. |
+| value | [Blend](../../com.aspose.imaging/blend) | `Aspose.Imaging.Blend` يمثل انخفاضًا مخصصًا للتدرج. |
 
 ### setSigmaBellShape(float focus) {#setSigmaBellShape-float-}
 ```
@@ -209,12 +209,12 @@ public void setSigmaBellShape(float focus)
 ```
 
 
-ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدوده الخارجية. الانتقال من لون إلى آخر يعتمد على منحنى على شكل جرس.
+ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار باتجاه حدود المسار. الانتقال من لون إلى آخر يعتمد على منحنى على شكل جرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. القيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
+| التركيز | float | قيمة من 0 إلى 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. قيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
 
 ### setSigmaBellShape(float focus, float scale) {#setSigmaBellShape-float-float-}
 ```
@@ -222,13 +222,13 @@ public void setSigmaBellShape(float focus, float scale)
 ```
 
 
-ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار إلى حدوده الخارجية. الانتقال من لون إلى آخر يعتمد على منحنى على شكل جرس.
+ينشئ فرشاة تدرج تغير اللون بدءًا من مركز المسار باتجاه حدود المسار. الانتقال من لون إلى آخر يعتمد على منحنى على شكل جرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. القيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
-| المقياس | float | قيمة تتراوح بين 0 و 1 تحدد أقصى شدة للون المركز الذي يختلط مع لون الحد. القيمة 1 تسبب أعلى شدة ممكنة للون المركز، وهي القيمة الافتراضية. |
+| التركيز | float | قيمة من 0 إلى 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. قيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
+| المقياس | float | قيمة من 0 إلى 1 تحدد أقصى شدة للون المركز الذي يختلط مع لون الحد. قيمة 1 تسبب أعلى شدة ممكنة للون المركز، وهي القيمة الافتراضية. |
 
 ### setBlendTriangularShape(float focus) {#setBlendTriangularShape-float-}
 ```
@@ -236,12 +236,12 @@ public void setBlendTriangularShape(float focus)
 ```
 
 
-ينشئ تدرجًا بلون مركزي وتناقص خطي إلى لون محيط واحد.
+ينشئ تدرجًا بلون مركزي وانخفاض خطي إلى لون محيط واحد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. القيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
+| التركيز | float | قيمة من 0 إلى 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. قيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
 
 ### setBlendTriangularShape(float focus, float scale) {#setBlendTriangularShape-float-float-}
 ```
@@ -249,11 +249,11 @@ public void setBlendTriangularShape(float focus, float scale)
 ```
 
 
-ينشئ تدرجًا بلون مركزي وتناقص خطي إلى كل لون محيط.
+ينشئ تدرجًا بلون مركزي وانخفاض خطي إلى كل لون محيط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التركيز | float | قيمة تتراوح بين 0 و 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. القيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
-| المقياس | float | قيمة تتراوح بين 0 و 1 تحدد أقصى شدة للون المركز الذي يختلط مع لون الحد. القيمة 1 تسبب أعلى شدة ممكنة للون المركز، وهي القيمة الافتراضية. |
+| التركيز | float | قيمة من 0 إلى 1 تحدد الموضع، على أي شعاع من مركز المسار إلى حدوده، حيث يكون لون المركز بأعلى شدة. قيمة 1 (الافتراضية) تضع أعلى شدة في مركز المسار. |
+| المقياس | float | قيمة من 0 إلى 1 تحدد أقصى شدة للون المركز الذي يختلط مع لون الحد. قيمة 1 تسبب أعلى شدة ممكنة للون المركز، وهي القيمة الافتراضية. |
 

@@ -1,7 +1,7 @@
 ---
 title: "StringFormatExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحتوي على طرق امتداد لفئة StringFormat."
+description: "يحتوي على أساليب توسيع لفئة StringFormat."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.imaging.extensions/stringformatextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class StringFormatExtensions
 ```
 
-يحتوي على أساليب امتداد لفئة `StringFormat`.
+يحتوي على طرق امتداد لفئة `StringFormat`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public static System.Drawing.StringFormat toGdiStringFormat(StringFormat stringF
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| stringFormat | [StringFormat](../../com.aspose.imaging/stringformat) | `StringFormat` للتحويل. |
+| stringFormat | [StringFormat](../../com.aspose.imaging/stringformat) | الـ `StringFormat` للتحويل. |
 
 **Returns:**
 [StringFormat](../../com.aspose.ms.system.drawing/stringformat) - The converted `System.Drawing.StringFormat`.

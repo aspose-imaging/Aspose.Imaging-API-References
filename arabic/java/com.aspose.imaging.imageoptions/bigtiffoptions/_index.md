@@ -12,27 +12,27 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class BigTiffOptions extends TiffOptions
 ```
 
-تم تصميم API لإنشاء تنسيق صورة نقطية BigTIFF خصيصًا لتلبية المتطلبات الفريدة للتطبيقات التي تستخدم بيانات تصويرية واسعة النطاق من الماسحات الضوئية. تسهل هذه API توليد تنسيق BigTIFF بسلاسة، الذي يجمع عدة صور TIFF في صورة واحدة شاملة. يضمن معالجة فعّالة للبيانات التصويرية الضخمة، ويوفر للمطورين أداة قوية لإنشاء ومعالجة تنسيقات عالية الدقة ومتعددة الصور.
+تم تصميم واجهة برمجة التطبيقات لإنشاء تنسيق صورة نقطية BigTIFF خصيصًا لتلبية المتطلبات الفريدة للتطبيقات التي تستخدم بيانات تصويرية واسعة النطاق من الماسحات الضوئية. تُسهل هذه الواجهة توليد تنسيق BigTIFF بسلاسة، الذي يجمع عدة صور TIFF في صورة واحدة شاملة. تضمن معالجة فعّالة للبيانات التصويرية الضخمة، مما يوفّر للمطورين أداة قوية لإنشاء ومعالجة تنسيقات عالية الدقة ومتعددة الصور.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BigTiffOptions(int expectedFormat)](#BigTiffOptions-int-) | يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
-| [BigTiffOptions(TiffOptions options)](#BigTiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
-| [BigTiffOptions(TiffDataType[] tags)](#BigTiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
-| [BigTiffOptions(int expectedFormat, int byteOrder)](#BigTiffOptions-int-int-) | يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
+| [BigTiffOptions(int expectedFormat)](#BigTiffOptions-int-) | يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
+| [BigTiffOptions(TiffOptions options)](#BigTiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
+| [BigTiffOptions(TiffDataType[] tags)](#BigTiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
+| [BigTiffOptions(int expectedFormat, int byteOrder)](#BigTiffOptions-int-int-) | يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | ينسخ هذه المثيلة. |
+| [deepClone()](#deepClone--) | ينسخ هذه النسخة. |
 ### BigTiffOptions(int expectedFormat) {#BigTiffOptions-int-}
 ```
 public BigTiffOptions(int expectedFormat)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). بشكل افتراضي يتم استخدام نظام little endian.
+يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions). بشكل افتراضي يتم استخدام نظام النهاية الصغرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public BigTiffOptions(TiffOptions options)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
+يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -58,12 +58,12 @@ public BigTiffOptions(TiffDataType[] tags)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
+يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | الوسوم لتهيئة الخيارات. |
+| tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | العلامات لتهيئة الخيارات. |
 
 ### BigTiffOptions(int expectedFormat, int byteOrder) {#BigTiffOptions-int-int-}
 ```
@@ -71,13 +71,13 @@ public BigTiffOptions(int expectedFormat, int byteOrder)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
+يُنشئ مثيلاً جديدًا من الفئة [BigTiffOptions](../../com.aspose.imaging.imageoptions/bigtiffoptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | expectedFormat | int | تنسيق ملف Tiff المتوقع. |
-| byteOrder | int | ترتيب البايت لتنسيق ملف tiff المراد استخدامه. |
+| byteOrder | int | ترتيب بايت لتنسيق ملف tiff المراد استخدامه. |
 
 ### deepClone() {#deepClone--}
 ```
@@ -85,7 +85,7 @@ public ImageOptionsBase deepClone()
 ```
 
 
-ينسخ هذه المثيلة.
+ينسخ هذه النسخة.
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Returns a deep clone.

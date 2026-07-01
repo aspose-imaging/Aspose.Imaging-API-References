@@ -17,21 +17,21 @@ public interface IImageMask extends System.ICloneable
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSource()](#getSource--) | يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة. |
-| [getWidth()](#getWidth--) | يحصل على عرض هذا القناع، بوحدة البكسل. |
-| [getHeight()](#getHeight--) | يحصل على ارتفاع هذا القناع، بوحدة البكسل. |
-| [getBounds()](#getBounds--) | يحصل على حدود هذا القناع، بوحدة البكسل. |
-| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل. |
+| [getSource()](#getSource--) | يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت. |
+| [getWidth()](#getWidth--) | يحصل على العرض، بوحدات البكسل، لهذه القناع. |
+| [getHeight()](#getHeight--) | يحصل على الارتفاع، بوحدات البكسل، لهذه القناع. |
+| [getBounds()](#getBounds--) | يحصل على الحدود، بوحدات البكسل، لهذه القناع. |
+| [getSelectionBounds()](#getSelectionBounds--) | يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل. |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | يتحقق مما إذا كان البكسل المحدد غير شفاف. |
-| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كانت البكسل المحدد شفافة. |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة البايت. |
+| [isTransparent(int x, int y)](#isTransparent-int-int-) | يتحقق مما إذا كان البكسل المحدد شفافًا. |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | يحصل على شفافية البكسل المحدد بدقة بايت. |
 ### getSource() {#getSource--}
 ```
 public abstract RasterImage getSource()
 ```
 
 
-يحصل على صورة المصدر المستخدمة لإنشاء هذا القناع، إذا كانت موجودة.
+يحصل على الصورة المصدر المستخدمة لإنشاء هذه القناع، إذا وجدت.
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - the source image used to create this mask, if exists.
@@ -41,27 +41,27 @@ public abstract int getWidth()
 ```
 
 
-يحصل على عرض هذا القناع، بوحدة البكسل.
+يحصل على العرض، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - العرض، بوحدات البكسل، لهذا القناع.
+int - العرض، بوحدات البكسل، لهذه القناع.
 ### getHeight() {#getHeight--}
 ```
 public abstract int getHeight()
 ```
 
 
-يحصل على ارتفاع هذا القناع، بوحدة البكسل.
+يحصل على الارتفاع، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
-int - الارتفاع، بوحدات البكسل، لهذا القناع.
+int - الارتفاع، بوحدات البكسل، لهذه القناع.
 ### getBounds() {#getBounds--}
 ```
 public abstract Rectangle getBounds()
 ```
 
 
-يحصل على حدود هذا القناع، بوحدة البكسل.
+يحصل على الحدود، بوحدات البكسل، لهذه القناع.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds, in pixels, of this mask.
@@ -71,7 +71,7 @@ public abstract Rectangle getSelectionBounds()
 ```
 
 
-يحصل على حدود الجزء المحدد من القناع، بوحدة البكسل.
+يحصل على حدود الجزء المحدد من القناع، بوحدات البكسل.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - the bounds of the selected part of the mask, in pixels.
@@ -86,8 +86,8 @@ public abstract boolean isOpaque(int x, int y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد غير شفاف؛ وإلا false.
@@ -97,13 +97,13 @@ public abstract boolean isTransparent(int x, int y)
 ```
 
 
-يتحقق مما إذا كانت البكسل المحدد شفافة.
+يتحقق مما إذا كان البكسل المحدد شفافًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 boolean - true إذا كان البكسل المحدد شفافًا؛ وإلا false.
@@ -113,13 +113,13 @@ public abstract byte getByteOpacity(int x, int y)
 ```
 
 
-يحصل على شفافية البكسل المحدد بدقة البايت.
+يحصل على شفافية البكسل المحدد بدقة بايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي السيني للبكسل. |
-| ص | int | الإحداثي الصادي للبكسل. |
+| x | int | الإحداثي السيني للبكسل. |
+| y | int | الإحداثي الصادي للبكسل. |
 
 **Returns:**
 byte - قيمة بايت، تمثل شفافية البكسل المحدد.

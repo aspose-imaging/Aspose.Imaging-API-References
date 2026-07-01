@@ -17,16 +17,16 @@ public final class JfifDensityUnits extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [NoUnits](#NoUnits) | لا توجد وحدات. |
-| [PixelsPerInch](#PixelsPerInch) | عدد البكسلات لكل بوصة. |
-| [PixelsPerCm](#PixelsPerCm) | البكسلات لكل سم. |
+| [NoUnits](#NoUnits) | بدون وحدات |
+| [PixelsPerInch](#PixelsPerInch) | البكسلات لكل بوصة |
+| [PixelsPerCm](#PixelsPerCm) | البكسلات لكل سم |
 ### NoUnits {#NoUnits}
 ```
 public static final byte NoUnits
 ```
 
 
-لا توجد وحدات.
+بدون وحدات
 
 ### PixelsPerInch {#PixelsPerInch}
 ```
@@ -34,7 +34,7 @@ public static final byte PixelsPerInch
 ```
 
 
-عدد البكسلات لكل بوصة.
+البكسلات لكل بوصة
 
 ### PixelsPerCm {#PixelsPerCm}
 ```
@@ -42,5 +42,5 @@ public static final byte PixelsPerCm
 ```
 
 
-البكسلات لكل سم.
+البكسلات لكل سم
 

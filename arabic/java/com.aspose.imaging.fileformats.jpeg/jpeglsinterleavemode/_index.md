@@ -18,8 +18,8 @@ public final class JpegLsInterleaveMode extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [None](#None) | يتم ترميز البيانات وتخزينها كمكوّن لكل مكوّن: RRRGGGBBB. |
-| [Line](#Line) | وضع التداخل هو حسب السطر. |
-| [Sample](#Sample) | يتم ترميز البيانات وتخزينها حسب العينة. |
+| [Line](#Line) | وضع التداخل يكون حسب السطر. |
+| [Sample](#Sample) | يتم ترميز البيانات وتخزينها بواسطة العينة. |
 ### None {#None}
 ```
 public static final int None
@@ -42,5 +42,5 @@ public static final int Sample
 ```
 
 
-يتم ترميز البيانات وتخزينها حسب العينة. بالنسبة للصور الملونة يكون هذا التنسيق مثل RGBRGBRGB.
+يتم ترميز البيانات وتخزينها بواسطة العينة. بالنسبة للصور الملونة، هذا هو التنسيق مثل RGBRGBRGB.
 

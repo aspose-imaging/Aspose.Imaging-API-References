@@ -1,23 +1,23 @@
 ---
 title: "EmfPlusGetDc"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusGetDC يحدد أنه يجب معالجة سجلات EMF اللاحقة التي تُعثر عليها في ملف التعريف."
+description: "سجل EmfPlusGetDC يحدد أنه يجب معالجة سجلات EMF اللاحقة التي تُعثر عليها في ملف التعريف."
 type: docs
 weight: 39
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusControlRecordType](../../com.aspose.imaging/fileformats.emf.emfplus.records/emfpluscontrolrecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord), [com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusControlRecordType](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfpluscontrolrecordtype)
 ```
 public final class EmfPlusGetDc extends EmfPlusControlRecordType
 ```
 
-يسجل EmfPlusGetDC يحدد أنه يجب معالجة سجلات EMF اللاحقة التي تُعثر عليها في ملف التعريف.
+سجل EmfPlusGetDC يحدد أنه يجب معالجة سجلات EMF اللاحقة التي تُعثر عليها في ملف التعريف.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusGetDc(EmfPlusRecord source)](#EmfPlusGetDc-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلاً جديداً من الفئة `EmfPlusGetDc`. |
+| [EmfPlusGetDc(EmfPlusRecord source)](#EmfPlusGetDc-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusGetDc`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,7 +30,7 @@ public EmfPlusGetDc(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة `EmfPlusGetDc`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusGetDc`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -46,7 +46,7 @@ public short getFlags()
 يحصل أو يعيّن عددًا صحيحًا غير موقع 16‑بت غير مستخدم. يجب ضبط هذا الحقل على الصفر ويجب تجاهله عند الاستلام.
 
 **Returns:**
-short
+قصير
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
@@ -58,5 +58,5 @@ public void setFlags(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short |  |
+| value | قصير |  |
 

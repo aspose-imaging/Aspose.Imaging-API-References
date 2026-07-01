@@ -1,7 +1,7 @@
 ---
 title: "RawData"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "البيانات الخام بتنسيق DNG."
+description: "البيانات الخام بتنسيق DNG"
 type: docs
 weight: 12
 url: /ar/java/com.aspose.imaging.fileformats.dng.decoder/rawdata/
@@ -12,7 +12,7 @@ java.lang.Object
 public class RawData
 ```
 
-البيانات الخام بتنسيق DNG.
+البيانات الخام بتنسيق DNG
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,10 +22,10 @@ public class RawData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getImageDataParameters()](#getImageDataParameters--) | يحصل أو يعيّن معلمات بيانات الصورة. |
-| [setImageDataParameters(ImageParameters value)](#setImageDataParameters-com.aspose.imaging.fileformats.dng.decoder.ImageParameters-) | يحصل أو يعيّن معلمات بيانات الصورة. |
-| [getImageOtherParameters()](#getImageOtherParameters--) | يحصل أو يعيّن معلمات الصورة الأخرى. |
-| [setImageOtherParameters(ImageOtherParameters value)](#setImageOtherParameters-com.aspose.imaging.fileformats.dng.decoder.ImageOtherParameters-) | يحصل أو يعيّن معلمات الصورة الأخرى. |
+| [getImageDataParameters()](#getImageDataParameters--) | يحصل أو يضبط معلمات بيانات الصورة. |
+| [setImageDataParameters(ImageParameters value)](#setImageDataParameters-com.aspose.imaging.fileformats.dng.decoder.ImageParameters-) | يحصل أو يضبط معلمات بيانات الصورة. |
+| [getImageOtherParameters()](#getImageOtherParameters--) | يحصل أو يضبط معلمات الصورة الأخرى. |
+| [setImageOtherParameters(ImageOtherParameters value)](#setImageOtherParameters-com.aspose.imaging.fileformats.dng.decoder.ImageOtherParameters-) | يحصل أو يضبط معلمات الصورة الأخرى. |
 ### RawData() {#RawData--}
 ```
 public RawData()
@@ -40,9 +40,9 @@ public ImageParameters getImageDataParameters()
 ```
 
 
-يحصل أو يعيّن معلمات بيانات الصورة.
+يحصل أو يضبط معلمات بيانات الصورة.
 
-القيمة: الـ idata.
+القيمة: idata.
 
 **Returns:**
 [ImageParameters](../../com.aspose.imaging.fileformats.dng.decoder/imageparameters)
@@ -52,9 +52,9 @@ public void setImageDataParameters(ImageParameters value)
 ```
 
 
-يحصل أو يعيّن معلمات بيانات الصورة.
+يحصل أو يضبط معلمات بيانات الصورة.
 
-القيمة: الـ idata.
+القيمة: idata.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,9 +67,9 @@ public ImageOtherParameters getImageOtherParameters()
 ```
 
 
-يحصل أو يعيّن معلمات الصورة الأخرى.
+يحصل أو يضبط معلمات الصورة الأخرى.
 
-القيمة: الأخرى.
+القيمة: الآخر.
 
 **Returns:**
 [ImageOtherParameters](../../com.aspose.imaging.fileformats.dng.decoder/imageotherparameters)
@@ -79,9 +79,9 @@ public void setImageOtherParameters(ImageOtherParameters value)
 ```
 
 
-يحصل أو يعيّن معلمات الصورة الأخرى.
+يحصل أو يضبط معلمات الصورة الأخرى.
 
-القيمة: الأخرى.
+القيمة: الآخر.
 
 **Parameters:**
 | معامل | نوع | الوصف |

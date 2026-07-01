@@ -17,21 +17,21 @@ public final class CdrFillType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | نوع التعبئة الفارغ |
+| [None](#None) | نوع التعبئة بدون |
 | [Solid](#Solid) | نوع التعبئة الصلبة |
 | [Gradient](#Gradient) | نوع التعبئة المتدرجة |
 | [Pattern](#Pattern) | نوع التعبئة النمطية |
 | [Pattern1](#Pattern1) | نوع التعبئة النمطية |
-| [Bitmap](#Bitmap) | نوع التعبئة بتنسيق bitmap |
+| [Bitmap](#Bitmap) | نوع التعبئة bitmap |
 | [FullColor](#FullColor) | نوع التعبئة بالألوان الكاملة |
-| [Texture](#Texture) | نوع التعبئة بالنقشة |
+| [Texture](#Texture) | نوع التعبئة بالملمس |
 ### None {#None}
 ```
 public static final short None
 ```
 
 
-نوع التعبئة الفارغ
+نوع التعبئة بدون
 
 ### Solid {#Solid}
 ```
@@ -71,7 +71,7 @@ public static final short Bitmap
 ```
 
 
-نوع التعبئة بتنسيق bitmap
+نوع التعبئة bitmap
 
 ### FullColor {#FullColor}
 ```
@@ -87,5 +87,5 @@ public static final short Texture
 ```
 
 
-نوع التعبئة بالنقشة
+نوع التعبئة بالملمس
 

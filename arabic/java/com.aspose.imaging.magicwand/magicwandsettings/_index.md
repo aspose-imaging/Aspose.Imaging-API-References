@@ -1,7 +1,7 @@
 ---
 title: "MagicWandSettings"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "فئة إعدادات اختيار magic wand."
+description: "فئة إعدادات اختيار Magic Wand."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.imaging.magicwand/magicwandsettings/
@@ -12,26 +12,26 @@ java.lang.Object
 public class MagicWandSettings
 ```
 
-فئة إعدادات اختيار magic wand.
+فئة إعدادات اختيار Magic Wand.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [MagicWandSettings(Point point)](#MagicWandSettings-com.aspose.imaging.Point-) | يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings). |
-| [MagicWandSettings(int x, int y)](#MagicWandSettings-int-int-) | يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings). |
+| [MagicWandSettings(Point point)](#MagicWandSettings-com.aspose.imaging.Point-) | يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class. |
+| [MagicWandSettings(int x, int y)](#MagicWandSettings-int-int-) | يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getAreaOfInterest()](#getAreaOfInterest--) | يحصل على حدود المنطقة لعمل الخوارزمية. |
-| [setAreaOfInterest(Rectangle value)](#setAreaOfInterest-com.aspose.imaging.Rectangle-) | يحدد حدود المنطقة لعمل الخوارزمية. |
+| [setAreaOfInterest(Rectangle value)](#setAreaOfInterest-com.aspose.imaging.Rectangle-) | يضبط حدود المنطقة لعمل الخوارزمية. |
 | [getPoint()](#getPoint--) | يحصل على نقطة المرجع لعمل الخوارزمية. |
-| [getThreshold()](#getThreshold--) | يحصل على مستوى التحمل لمقارنة ألوان البكسل. |
-| [setThreshold(int value)](#setThreshold-int-) | يحدد مستوى التحمل لمقارنة ألوان البكسل. |
+| [getThreshold()](#getThreshold--) | يحصل على مستوى التحمل لمقارنة ألوان البكسلات. |
+| [setThreshold(int value)](#setThreshold-int-) | يضبط مستوى التحمل لمقارنة ألوان البكسلات. |
 | [getContiguousMode()](#getContiguousMode--) | يحصل على قيمة تشير إلى ما إذا كانت أداة السحر ستحدد البكسلات المتجاورة فقط. |
-| [setContiguousMode(boolean value)](#setContiguousMode-boolean-) | يضبط قيمة تشير إلى ما إذا كانت عصا السحر ستحدد فقط البكسلات المتجاورة. |
-| [getDirectionalMode()](#getDirectionalMode--) | يحصل على وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات. |
-| [setDirectionalMode(int value)](#setDirectionalMode-int-) | يضبط وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات. |
+| [setContiguousMode(boolean value)](#setContiguousMode-boolean-) | يضبط قيمة تشير إلى ما إذا كانت أداة السحر ستحدد البكسلات المتجاورة فقط. |
+| [getDirectionalMode()](#getDirectionalMode--) | يحصل على وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات. |
+| [setDirectionalMode(int value)](#setDirectionalMode-int-) | يضبط وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات. |
 | [getColorCompareMode()](#getColorCompareMode--) | يحصل على الخوارزمية التي تُقارن بها الألوان. |
 | [setColorCompareMode(int value)](#setColorCompareMode-int-) | يضبط الخوارزمية التي تُقارن بها الألوان. |
 | [getColorComparisonDelegate()](#getColorComparisonDelegate--) | يحصل على خوارزمية مقارنة الألوان المخصصة إذا تم تعيين `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) إلى [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
@@ -44,13 +44,13 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (120, 100) مع عتبة مخصصة تساوي 150
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (120, 100) مع عتبة مخصصة مساوية لـ 150
     MagicWandTool
             .select(image, new MagicWandSettings(120, 100) {{ setThreshold(150); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة مع خيار نوع لون الشفافية القسري
+    // احفظ الصورة مع خيار فرض نوع لون الشفافية
     image.save(outputFilePath, new PngOptions()
     {{
         setColorType(PngColorType.TruecolorWithAlpha);
@@ -67,11 +67,11 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked-complex.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على نغمة ولون البكسل (845, 128)
+    // أنشئ قناعًا جديدًا باستخدام أداة العصا السحرية بناءً على درجة اللون ولون البكسل (845, 128)
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية
+            // ادمج القناع الحالي مع القناع المحدد الذي تم إنشاؤه بواسطة أداة العصا السحرية
             .union(new MagicWandSettings(416, 387))
-            // اعكس القناع الحالي
+            // عكس القناع الحالي
             .invert()
             // اطرح القناع المحدد الذي تم إنشاؤه بأداة العصا السحرية مع العتبة المحددة من القناع الحالي
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
@@ -80,12 +80,12 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // نقّح القناع باستخدام الإعدادات المحددة
+            // تنعيم القناع بالإعدادات المحددة
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
-            // طبق القناع على الصورة
+            // تطبيق القناع على الصورة
             .apply();
 
-    // احفظ الصورة
+    // حفظ الصورة
     image.save(outputFilePath);
 }
 
@@ -97,12 +97,12 @@ public MagicWandSettings(Point point)
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings).
+يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | نقطة الإشارة. |
+| point | [Point](../../com.aspose.imaging/point) | نقطة المرجع. |
 
 ### MagicWandSettings(int x, int y) {#MagicWandSettings-int-int-}
 ```
@@ -110,13 +110,13 @@ public MagicWandSettings(int x, int y)
 ```
 
 
-يُنشئ مثيلًا جديدًا للفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings).
+يقوم بإنشاء نسخة جديدة من الفئة [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) class.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| س | int | الإحداثي x لنقطة الإشارة. |
-| ص | int | الإحداثي y لنقطة الإشارة. |
+| x | int | الإحداثي السيني لنقطة المرجع. |
+| y | int | الإحداثي الصادي لنقطة المرجع. |
 
 ### getAreaOfInterest() {#getAreaOfInterest--}
 ```
@@ -136,7 +136,7 @@ public final void setAreaOfInterest(Rectangle value)
 ```
 
 
-يحدد حدود المنطقة لعمل الخوارزمية.
+يضبط حدود المنطقة لعمل الخوارزمية.
 
 القيمة: المستطيل الذي يمثل حدود منطقة الاهتمام.
 
@@ -163,7 +163,7 @@ public final int getThreshold()
 ```
 
 
-يحصل على مستوى التحمل لمقارنة ألوان البكسل.
+يحصل على مستوى التحمل لمقارنة ألوان البكسلات.
 
 القيمة: العتبة لمقارنة الألوان.
 
@@ -175,14 +175,14 @@ public final void setThreshold(int value)
 ```
 
 
-يحدد مستوى التحمل لمقارنة ألوان البكسل.
+يضبط مستوى التحمل لمقارنة ألوان البكسلات.
 
 القيمة: العتبة لمقارنة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | مستوى التحمل لمقارنة ألوان البكسلات. |
+| value | int | مستوى التحمل لمقارنة ألوان البكسلات. |
 
 ### getContiguousMode() {#getContiguousMode--}
 ```
@@ -195,21 +195,21 @@ public final boolean getContiguousMode()
 القيمة: `true` إذا كان العنصر مفعلاً؛ وإلا `false`. القيمة الافتراضية هي `true`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت عصا السحر ستحدد فقط البكسلات المتجاورة.
+boolean - قيمة تشير إلى ما إذا كانت أداة السحر ستحدد فقط البكسلات المتجاورة.
 ### setContiguousMode(boolean value) {#setContiguousMode-boolean-}
 ```
 public final void setContiguousMode(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كانت عصا السحر ستحدد فقط البكسلات المتجاورة.
+يضبط قيمة تشير إلى ما إذا كانت أداة السحر ستحدد البكسلات المتجاورة فقط.
 
 القيمة: `true` إذا كان العنصر مفعلاً؛ وإلا `false`. القيمة الافتراضية هي `true`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كانت عصا السحر ستحدد فقط البكسلات المتجاورة. |
+| value | boolean | قيمة تشير إلى ما إذا كانت أداة السحر ستحدد فقط البكسلات المتجاورة. |
 
 ### getDirectionalMode() {#getDirectionalMode--}
 ```
@@ -217,26 +217,26 @@ public final int getDirectionalMode()
 ```
 
 
-يحصل على وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات.
+يحصل على وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات.
 
-القيمة: وضع خوارزمية البحث بالتعبئة المتدفقة.
+القيمة: وضع خوارزمية البحث بالملء المتسلسل.
 
 **Returns:**
-int - وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات.
+int - وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات.
 ### setDirectionalMode(int value) {#setDirectionalMode-int-}
 ```
 public final void setDirectionalMode(int value)
 ```
 
 
-يضبط وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات.
+يضبط وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات.
 
-القيمة: وضع خوارزمية البحث بالتعبئة المتدفقة.
+القيمة: وضع خوارزمية البحث بالملء المتسلسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع خوارزمية البحث بالتعبئة المتدفقة: بحث بأربعة أو ثمانية اتجاهات. |
+| value | int | وضع خوارزمية البحث بالملء المتسلسل: بحث بأربع أو ثمان اتجاهات. |
 
 ### getColorCompareMode() {#getColorCompareMode--}
 ```
@@ -263,7 +263,7 @@ public final void setColorCompareMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الخوارزمية التي تُقارن بها الألوان. |
+| value | int | الخوارزمية التي تُقارن بها الألوان. |
 
 ### getColorComparisonDelegate() {#getColorComparisonDelegate--}
 ```
@@ -273,7 +273,7 @@ public final MagicWandSettings.ColorComparison getColorComparisonDelegate()
 
 يحصل على خوارزمية مقارنة الألوان المخصصة إذا تم تعيين `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) إلى [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
 
-القيمة: مفوض مقارنة اللون.
+القيمة: المندوب لمقارنة الألوان.
 
 **Returns:**
 [ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) - the custom color comparison algorithm if `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) is set to [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
@@ -285,10 +285,10 @@ public final void setColorComparisonDelegate(MagicWandSettings.ColorComparison v
 
 يضبط خوارزمية مقارنة الألوان المخصصة إذا تم تعيين `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) إلى [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom).
 
-القيمة: مفوض مقارنة اللون.
+القيمة: المندوب لمقارنة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) | خوارزمية مقارنة اللون المخصصة إذا تم تعيين `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) إلى [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
+| value | [ColorComparison](../../com.aspose.imaging.magicwand/colorcomparison) | خوارزمية مقارنة الألوان المخصصة إذا تم تعيين `ColorCompareMode`(\#getColorCompareMode.getColorCompareMode/\#setColorCompareMode(int).setColorCompareMode(int)) إلى [ColorComparisonMode.Custom](../../com.aspose.imaging.magicwand/colorcomparisonmode\#Custom). |
 

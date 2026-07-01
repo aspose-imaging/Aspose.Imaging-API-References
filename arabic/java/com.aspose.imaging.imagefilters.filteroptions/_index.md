@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.imagefilters.filteroptions/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [AdaptiveWhiteStretchFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/adaptivewhitestretchfilteroptions) | يوفر خيارات لتكوين مرشح التمدد الأبيض التكيفي. |
 | [AutoWhiteBalanceFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions) | يوفر خيارات التكوين لمرشح التوازن الأبيض التلقائي. |
@@ -22,18 +22,18 @@ url: /ar/java/com.aspose.imaging.imagefilters.filteroptions/
 | [ConvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions) | خيارات مرشح الالتفاف. |
 | [DeconvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions) | خيارات مرشح فك الالتفاف، فئة مجردة |
 | [FilterOptionsBase](../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | فئة خيارات مرشح الأساس. |
-| [GaussWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) | خيارات مرشح غاوس وينر لإزالة الضبابية من الصورة. |
+| [GaussWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions) | خيارات مرشح غاوس واينر لإزالة تشويش الصورة. |
 | [GaussianBlurFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions) | خيارات مرشح الضبابية الغاوسية. |
 | [GaussianDeconvolutionFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/gaussiandeconvolutionfilteroptions) | خيارات مرشح فك الالتفاف باستخدام الضبابية الغاوسية. |
 | [ImageBlendingFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/imageblendingfilteroptions) | خيارات مرشح دمج الصورة |
-| [MedianFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/medianfilteroptions) | مرشح الوسيط |
-| [MotionWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) | خيارات مرشح إزالة الضبابية الحركية. |
+| [MedianFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/medianfilteroptions) | مرشح متوسط |
+| [MotionWienerFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions) | خيارات مرشح إزالة تشويش الحركة. |
 | [ShadowFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/shadowfilteroptions) | خيارات مرشح الظل |
-| [SharpenFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) | خيارات مرشح التشديد. |
+| [SharpenFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions) | خيارات مرشح تحسين الحدة. |
 | [SmallRectangularFilterOptions](../com.aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions) | خيارات مرشح مستطيل صغير |
 
 ## التعدادات
 
-| التعداد | الوصف |
+| تعداد | الوصف |
 | --- | --- |
 | [BlendingMode](../com.aspose.imaging.imagefilters.filteroptions/blendingmode) | وضع الدمج |

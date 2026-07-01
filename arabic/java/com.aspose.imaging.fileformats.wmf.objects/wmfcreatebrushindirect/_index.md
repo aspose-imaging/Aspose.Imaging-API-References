@@ -7,7 +7,7 @@ weight: 20
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging/fileformats/wmf.objects/wmfgraphicobject)
 ```
 public class WmfCreateBrushInDirect extends WmfGraphicObject
 ```
@@ -17,20 +17,20 @@ public class WmfCreateBrushInDirect extends WmfGraphicObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfCreateBrushInDirect()](#WmfCreateBrushInDirect--) | يُنشئ مثيلاً جديدًا من الفئة `WmfCreateBrushInDirect`. |
+| [WmfCreateBrushInDirect()](#WmfCreateBrushInDirect--) | يُنشئ مثيلًا جديدًا من الفئة `WmfCreateBrushInDirect`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getLogBrush()](#getLogBrush--) | يحصل أو يضبط فرشاة السجل. |
-| [setLogBrush(EmfLogBrushEx value)](#setLogBrush-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogBrushEx-) | يحصل أو يضبط فرشاة السجل. |
+| [getLogBrush()](#getLogBrush--) | يحصل أو يضبط الـ log brush. |
+| [setLogBrush(EmfLogBrushEx value)](#setLogBrush-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogBrushEx-) | يحصل أو يضبط الـ log brush. |
 ### WmfCreateBrushInDirect() {#WmfCreateBrushInDirect--}
 ```
 public WmfCreateBrushInDirect()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `WmfCreateBrushInDirect`.
+يُنشئ مثيلًا جديدًا من الفئة `WmfCreateBrushInDirect`.
 
 ### getLogBrush() {#getLogBrush--}
 ```
@@ -38,7 +38,7 @@ public EmfLogBrushEx getLogBrush()
 ```
 
 
-يحصل أو يضبط فرشاة السجل.
+يحصل أو يضبط الـ log brush.
 
 القيمة: فرشاة السجل.
 
@@ -50,7 +50,7 @@ public void setLogBrush(EmfLogBrushEx value)
 ```
 
 
-يحصل أو يضبط فرشاة السجل.
+يحصل أو يضبط الـ log brush.
 
 القيمة: فرشاة السجل.
 

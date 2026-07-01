@@ -1,13 +1,13 @@
 ---
 title: "WmfSelectClipRegion"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يقوم سجل META_SELECTCLIPREGION بتحديد كائن Region (القسم 2.2.1.5) ليكون منطقة القص الحالية."
+description: "السجل META_SELECTCLIPREGION يحدد كائن المنطقة القسم 2.2.1.5 ليكون منطقة القص الحالية."
 type: docs
 weight: 70
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSelectClipRegion extends WmfObject
 ```
@@ -17,8 +17,8 @@ public class WmfSelectClipRegion extends WmfObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfSelectClipRegion()](#WmfSelectClipRegion--) | يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`. |
-| [WmfSelectClipRegion(WmfGraphicObject region)](#WmfSelectClipRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`. |
+| [WmfSelectClipRegion()](#WmfSelectClipRegion--) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`. |
+| [WmfSelectClipRegion(WmfGraphicObject region)](#WmfSelectClipRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-) | ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,7 +31,7 @@ public WmfSelectClipRegion()
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`.
+ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`.
 
 ### WmfSelectClipRegion(WmfGraphicObject region) {#WmfSelectClipRegion-com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject-}
 ```
@@ -39,7 +39,7 @@ public WmfSelectClipRegion(WmfGraphicObject region)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `WmfSelectClipRegion`.
+ينشئ مثيلًا جديدًا من الفئة `WmfSelectClipRegion`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,5 +71,5 @@ public void setObjectIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

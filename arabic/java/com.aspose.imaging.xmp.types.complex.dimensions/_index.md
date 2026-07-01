@@ -1,17 +1,17 @@
 ---
 title: "com.aspose.imaging.xmp.types.complex.dimensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الحزمة تحتوي على فئات تمثل البنية التي تحتوي على أبعاد كائن مرسوم."
+description: "الحزمة تحتوي على فئات تمثل البنية التي تحتوي على الأبعاد لكائن مرسوم."
 type: docs
 weight: 126
 url: /ar/java/com.aspose.imaging.xmp.types.complex.dimensions/
 ---
 
-الحزمة تحتوي على فئات تمثل البنية التي تحتوي على أبعاد كائن مرسوم.
+الحزمة تحتوي على فئات تمثل البنية التي تحتوي على الأبعاد لكائن مرسوم.
 
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [Dimensions](../com.aspose.imaging.xmp.types.complex.dimensions/dimensions) | يحتوي على أبعاد لكائن مرسوم. |

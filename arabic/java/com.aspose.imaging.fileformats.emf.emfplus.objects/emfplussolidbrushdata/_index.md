@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSolidBrushData"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحدد كائن EmfPlusSolidBrushData لونًا صلبًا لفرشاة رسومية."
+description: "كائن EmfPlusSolidBrushData يحدد لونًا صلبًا لفرشاة رسومية."
 type: docs
 weight: 73
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSolidBrushData extends EmfPlusBaseBrushData
 ```
 
-يحدد كائن EmfPlusSolidBrushData لونًا صلبًا لفرشاة رسومية.
+كائن EmfPlusSolidBrushData يحدد لونًا صلبًا لفرشاة رسومية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,8 +22,8 @@ public final class EmfPlusSolidBrushData extends EmfPlusBaseBrushData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getSolidArgb32Color()](#getSolidArgb32Color--) | يسترجع أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة. |
-| [setSolidArgb32Color(int value)](#setSolidArgb32Color-int-) | يسترجع أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة. |
+| [getSolidArgb32Color()](#getSolidArgb32Color--) | يحصل أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة. |
+| [setSolidArgb32Color(int value)](#setSolidArgb32Color-int-) | يحصل أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة. |
 ### EmfPlusSolidBrushData() {#EmfPlusSolidBrushData--}
 ```
 public EmfPlusSolidBrushData()
@@ -36,7 +36,7 @@ public int getSolidArgb32Color()
 ```
 
 
-يسترجع أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة.
+يحصل أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة.
 
 **Returns:**
 int
@@ -46,10 +46,10 @@ public void setSolidArgb32Color(int value)
 ```
 
 
-يسترجع أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة.
+يحصل أو يعيّن كائن EmfPlusARGB (القسم 2.2.2.1) الذي يحدد لون الفرشاة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

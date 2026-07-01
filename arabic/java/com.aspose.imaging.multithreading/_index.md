@@ -12,7 +12,7 @@ url: /ar/java/com.aspose.imaging.multithreading/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [InterruptMonitor](../com.aspose.imaging.multithreading/interruptmonitor) | يمثل معلومات حول الانقطاع. |
 

@@ -18,9 +18,9 @@ public final class RenderErrorCode extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [MissingHeader](#MissingHeader) | الرأس مفقود |
-| [MissingLayouts](#MissingLayouts) | معلومات التخطيطات مفقودة |
-| [MissingBlocks](#MissingBlocks) | معلومات الكتلة مفقودة |
-| [MissingDimensionStyles](#MissingDimensionStyles) | معلومات أنماط الأبعاد مفقودة |
+| [MissingLayouts](#MissingLayouts) | معلومات التخطيطات مفقودة. |
+| [MissingBlocks](#MissingBlocks) | معلومات الكتلة مفقودة. |
+| [MissingDimensionStyles](#MissingDimensionStyles) | معلومات أنماط الأبعاد مفقودة. |
 | [MissingStyles](#MissingStyles) | معلومات الأنماط مفقودة |
 ### MissingHeader {#MissingHeader}
 ```
@@ -36,7 +36,7 @@ public static final int MissingLayouts
 ```
 
 
-معلومات التخطيطات مفقودة
+معلومات التخطيطات مفقودة.
 
 ### MissingBlocks {#MissingBlocks}
 ```
@@ -44,7 +44,7 @@ public static final int MissingBlocks
 ```
 
 
-معلومات الكتلة مفقودة
+معلومات الكتلة مفقودة.
 
 ### MissingDimensionStyles {#MissingDimensionStyles}
 ```
@@ -52,7 +52,7 @@ public static final int MissingDimensionStyles
 ```
 
 
-معلومات أنماط الأبعاد مفقودة
+معلومات أنماط الأبعاد مفقودة.
 
 ### MissingStyles {#MissingStyles}
 ```

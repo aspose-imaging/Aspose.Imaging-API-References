@@ -1,7 +1,7 @@
 ---
 title: "EmfRecord"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "الفئة الأساسية لسجلات EMF جميع سجلات EMF يجب أن يكون لها طول يكون مضاعفًا ل 4 بايتات."
+description: "الفئة الأساسية لسجلات EMF يجب أن يكون طول جميع سجلات EMF مضاعفًا ل 4 بايت."
 type: docs
 weight: 106
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfrecord/
@@ -15,14 +15,14 @@ com.aspose.internal.fileformats.emf.IRecord
 public class EmfRecord extends MetaObject implements IRecord
 ```
 
-الفئة الأساسية لسجلات EMF. يجب أن يكون طول جميع سجلات EMF مضاعفًا لعدد 4 بايتات. يتم توضيح ذلك في البُنى العامة لأنواع سجلات EMF السابقة عن طريق تضمين حقول AlignmentPadding حيثما كان ذلك مناسبًا في نهايات هذه البُنى. يجب دائمًا تجاهل محتويات حقول AlignmentPadding. لتقليل الحجم، لا يتم عرض هذه الحقول في كل تعريف فردي لسجل EMF.
+الفئة الأساسية لسجلات EMF. يجب أن يكون طول جميع سجلات EMF مضاعفًا لعدد 4 بايتات. يتم تمثيل ذلك في الهياكل العامة لأنواع سجلات EMF السابقة من خلال تضمين حقول AlignmentPadding حيث يلزم في نهايات هذه الهياكل. يجب دائمًا تجاهل محتويات حقول AlignmentPadding. لتقليل الحجم، لا تُظهر هذه الحقول في كل تعريف فردي لسجل EMF.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfRecord()](#EmfRecord--) | ينشئ مثيلًا جديدًا من الفئة `EmfRecord`. |
-| [EmfRecord(EmfRecord source)](#EmfRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfRecord`. |
-| [EmfRecord(int type)](#EmfRecord-int-) | ينشئ مثيلًا جديدًا من الفئة `EmfRecord`. |
+| [EmfRecord()](#EmfRecord--) | يُنشئ مثيلًا جديدًا للفئة `EmfRecord`. |
+| [EmfRecord(EmfRecord source)](#EmfRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا للفئة `EmfRecord`. |
+| [EmfRecord(int type)](#EmfRecord-int-) | يُنشئ مثيلًا جديدًا للفئة `EmfRecord`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,14 +30,14 @@ public class EmfRecord extends MetaObject implements IRecord
 | [getType()](#getType--) | يحصل على النوع. |
 | [setType(int value)](#setType-int-) | يضبط النوع. |
 | [getSize()](#getSize--) | يحصل على حجم السجل |
-| [setSize(int value)](#setSize-int-) | يعيّن حجم السجل |
+| [setSize(int value)](#setSize-int-) | يضبط حجم السجل |
 ### EmfRecord() {#EmfRecord--}
 ```
 public EmfRecord()
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfRecord`.
+يُنشئ مثيلًا جديدًا للفئة `EmfRecord`.
 
 ### EmfRecord(EmfRecord source) {#EmfRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
@@ -45,7 +45,7 @@ public EmfRecord(EmfRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfRecord`.
+يُنشئ مثيلًا جديدًا للفئة `EmfRecord`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -58,7 +58,7 @@ public EmfRecord(int type)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfRecord`.
+يُنشئ مثيلًا جديدًا للفئة `EmfRecord`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public void setType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | النوع. |
+| value | int | النوع. |
 
 ### getSize() {#getSize--}
 ```
@@ -104,10 +104,10 @@ public void setSize(int value)
 ```
 
 
-يعيّن حجم السجل
+يضبط حجم السجل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 

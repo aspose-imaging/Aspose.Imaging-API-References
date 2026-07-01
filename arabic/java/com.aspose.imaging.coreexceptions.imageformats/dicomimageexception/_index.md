@@ -17,15 +17,15 @@ public class DicomImageException extends System.Exception
 
 | المنشئ | الوصف |
 | --- | --- |
-| [DicomImageException(String message)](#DicomImageException-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `DicomImageException`. |
-| [DicomImageException(String message, Throwable innerException)](#DicomImageException-java.lang.String-java.lang.Throwable-) | يُهيئ نسخة جديدة من الفئة `DicomImageException`. |
+| [DicomImageException(String message)](#DicomImageException-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `DicomImageException`. |
+| [DicomImageException(String message, Throwable innerException)](#DicomImageException-java.lang.String-java.lang.Throwable-) | ينشئ مثيلاً جديدًا من الفئة `DicomImageException`. |
 ### DicomImageException(String message) {#DicomImageException-java.lang.String-}
 ```
 public DicomImageException(String message)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `DicomImageException`.
+ينشئ مثيلاً جديدًا من الفئة `DicomImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -38,7 +38,7 @@ public DicomImageException(String message, Throwable innerException)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `DicomImageException`.
+ينشئ مثيلاً جديدًا من الفئة `DicomImageException`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,7 +1,7 @@
 ---
 title: "ColorMatrixExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "طرق توسيع ColorMatrix."
+description: "طرق امتداد ColorMatrix."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.imaging.extensions/colormatrixextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class ColorMatrixExtensions
 ```
 
-أساليب امتداد `ColorMatrix`.
+طرق امتداد `ColorMatrix`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -29,7 +29,7 @@ public static System.Drawing.Imaging.ColorMatrix toGdiColorMatrix(ColorMatrix co
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| colorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة الألوان للتحويل. |
+| colorMatrix | [ColorMatrix](../../com.aspose.imaging/colormatrix) | مصفوفة الألوان المراد تحويلها. |
 
 **Returns:**
 [ColorMatrix](../../com.aspose.ms.system.drawing.imaging/colormatrix) - The converted `System.Drawing.Imaging.ColorMatrix`.

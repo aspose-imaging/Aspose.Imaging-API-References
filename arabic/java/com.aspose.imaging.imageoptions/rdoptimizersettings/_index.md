@@ -17,29 +17,29 @@ public class RdOptimizerSettings
 
 | المنشئ | الوصف |
 | --- | --- |
-| [RdOptimizerSettings()](#RdOptimizerSettings--) | ينشئ مثيلاً جديدًا من الفئة `RdOptimizerSettings`. |
+| [RdOptimizerSettings()](#RdOptimizerSettings--) | ينشئ مثيلًا جديدًا من الفئة `RdOptimizerSettings`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBppScale()](#getBppScale--) | يحصل على معامل مقياس BPP (بت لكل بكسل). |
-| [setBppScale(int value)](#setBppScale-int-) | يضبط معامل مقياس BPP (بت لكل بكسل). |
-| [getBppMax()](#getBppMax--) | يحصل على القيمة القصوى R للنظر فيها بالبت لكل بكسل |
-| [setBppMax(double value)](#setBppMax-double-) | يضبط القيمة القصوى R للنظر فيها بالبت لكل بكسل |
+| [getBppScale()](#getBppScale--) | يحصل على معامل مقياس BPP (بتات لكل بكسل). |
+| [setBppScale(int value)](#setBppScale-int-) | يضبط معامل مقياس BPP (بتات لكل بكسل). |
+| [getBppMax()](#getBppMax--) | يحصل على القيمة القصوى R للنظر فيها ببتات لكل بكسل |
+| [setBppMax(double value)](#setBppMax-double-) | يضبط القيمة القصوى R للنظر فيها ببتات لكل بكسل |
 | [getMaxQ()](#getMaxQ--) | يحصل على القيمة القصوى للتكميم. |
 | [setMaxQ(int value)](#setMaxQ-int-) | يضبط القيمة القصوى للتكميم. |
-| [getMinQ()](#getMinQ--) | يحصل على القيمة الدنيا المسموح بها للتكميم. |
+| [getMinQ()](#getMinQ--) | يحصل على الحد الأدنى المسموح به لقيمة التكميم. |
 | [getMaxPixelValue()](#getMaxPixelValue--) | يحصل على القيمة القصوى للبكسل. |
 | [getPsnrMax()](#getPsnrMax--) | يحصل على القيمة القصوى المتوقعة لـ PSNR. |
 | [getDiscretizedBppMax()](#getDiscretizedBppMax--) | يحصل على القيمة القصوى R للنظر فيها. |
-| [create()](#create--) | ينشئ هذا المثيل. |
+| [create()](#create--) | ينشئ هذا الكائن. |
 ### RdOptimizerSettings() {#RdOptimizerSettings--}
 ```
 public RdOptimizerSettings()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `RdOptimizerSettings`.
+ينشئ مثيلًا جديدًا من الفئة `RdOptimizerSettings`.
 
 ### getBppScale() {#getBppScale--}
 ```
@@ -47,7 +47,7 @@ public int getBppScale()
 ```
 
 
-يحصل على معامل مقياس BPP (بت لكل بكسل).
+يحصل على معامل مقياس BPP (بتات لكل بكسل).
 
 **Returns:**
 int - مقياس BPP.
@@ -57,12 +57,12 @@ public void setBppScale(int value)
 ```
 
 
-يضبط معامل مقياس BPP (بت لكل بكسل).
+يضبط معامل مقياس BPP (بتات لكل بكسل).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | مقياس BPP. |
+| value | int | مقياس BPP. |
 
 ### getBppMax() {#getBppMax--}
 ```
@@ -70,22 +70,22 @@ public double getBppMax()
 ```
 
 
-يحصل على القيمة القصوى R للنظر فيها بالبت لكل بكسل
+يحصل على القيمة القصوى R للنظر فيها ببتات لكل بكسل
 
 **Returns:**
-double - القيمة القصوى R للنظر فيها بالبت لكل بكسل.
+double - القيمة القصوى R للنظر فيها بوحدة البت لكل بكسل.
 ### setBppMax(double value) {#setBppMax-double-}
 ```
 public void setBppMax(double value)
 ```
 
 
-يضبط القيمة القصوى R للنظر فيها بالبت لكل بكسل
+يضبط القيمة القصوى R للنظر فيها ببتات لكل بكسل
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | double | القيمة القصوى R للنظر فيها بوحدات البت لكل بكسل. |
+| value | double | القيمة القصوى R للنظر فيها بوحدة البت لكل بكسل. |
 
 ### getMaxQ() {#getMaxQ--}
 ```
@@ -108,7 +108,7 @@ public void setMaxQ(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة القصوى للتكميم. |
+| value | int | القيمة القصوى للتكميم. |
 
 ### getMinQ() {#getMinQ--}
 ```
@@ -116,10 +116,10 @@ public int getMinQ()
 ```
 
 
-يحصل على القيمة الدنيا المسموح بها للتكميم.
+يحصل على الحد الأدنى المسموح به لقيمة التكميم.
 
 **Returns:**
-int - الحد الأدنى الأدنى المسموح به للتكميم.
+int - الحد الأدنى المسموح به لقيمة التكميم.
 ### getMaxPixelValue() {#getMaxPixelValue--}
 ```
 public int getMaxPixelValue()
@@ -129,7 +129,7 @@ public int getMaxPixelValue()
 يحصل على القيمة القصوى للبكسل.
 
 **Returns:**
-int - القيمة القصوى القصوى للبكسل.
+int - القيمة القصوى للبكسل.
 ### getPsnrMax() {#getPsnrMax--}
 ```
 public int getPsnrMax()
@@ -139,7 +139,7 @@ public int getPsnrMax()
 يحصل على القيمة القصوى المتوقعة لـ PSNR.
 
 **Returns:**
-int - القيمة القصوى القصوى للبكسل.
+int - القيمة القصوى للبكسل.
 ### getDiscretizedBppMax() {#getDiscretizedBppMax--}
 ```
 public int getDiscretizedBppMax()
@@ -156,7 +156,7 @@ public static RdOptimizerSettings create()
 ```
 
 
-ينشئ هذا المثيل.
+ينشئ هذا الكائن.
 
 **Returns:**
 [RdOptimizerSettings](../../com.aspose.imaging.imageoptions/rdoptimizersettings) - returns RDOptimizerSettings class instance

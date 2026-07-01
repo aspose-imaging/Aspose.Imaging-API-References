@@ -17,7 +17,7 @@ public class OdTextSpan extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdTextSpan(OdObject parent)](#OdTextSpan-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdTextSpan`. |
+| [OdTextSpan(OdObject parent)](#OdTextSpan-com.aspose.imaging.fileformats.opendocument.OdObject-) | يقوم بإنشاء نسخة جديدة من الفئة `OdTextSpan`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,12 +30,12 @@ public OdTextSpan(OdObject parent)
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `OdTextSpan`.
+يقوم بإنشاء نسخة جديدة من الفئة `OdTextSpan`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getText() {#getText--}
 ```
@@ -58,5 +58,5 @@ public final void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | النص. |
+| value | java.lang.String | النص. |
 

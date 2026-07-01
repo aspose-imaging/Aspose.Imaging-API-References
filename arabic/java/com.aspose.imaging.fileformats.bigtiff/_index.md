@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.bigtiff/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) | مع الفئة [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) يمكنك بسهولة معالجة ملفات تنسيق صورة BigTiff. |
+| [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) | مع الفئة [BigTiffImage](../com.aspose.imaging.fileformats.bigtiff/bigtiffimage) يمكنك بسهولة التعامل مع ملفات تنسيق صورة BigTiff. |

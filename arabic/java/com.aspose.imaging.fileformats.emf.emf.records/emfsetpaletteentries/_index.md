@@ -1,7 +1,7 @@
 ---
 title: "EmfSetPaletteEntries"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_SETPALETTEENTRIES يحدد قيم ألوان RGB في نطاق من الإدخالات لكائن LogPalette الموجود (القسم 2.2.17)."
+description: "سجل EMR_SETPALETTEENTRIES يحدد قيم ألوان RGB في نطاق من الإدخالات لكائن LogPalette الموجود في القسم 2.2.17."
 type: docs
 weight: 134
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
@@ -12,31 +12,31 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetPaletteEntries extends EmfObjectManipulationRecordType
 ```
 
-سجل EMR\_SETPALETTEENTRIES يعرّف قيم ألوان RGB في نطاق من الإدخالات لكائن LogPalette الموجود (القسم 2.2.17).
+السجل EMR\_SETPALETTEENTRIES يعرّف قيم ألوان RGB في مجموعة من الإدخالات لكائن LogPalette الموجود (القسم 2.2.17).
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfSetPaletteEntries(EmfRecord source)](#EmfSetPaletteEntries-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfSetPaletteEntries`. |
+| [EmfSetPaletteEntries(EmfRecord source)](#EmfSetPaletteEntries-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfSetPaletteEntries`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getIhPal()](#getIhPal--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس جدول كائنات EMF للوحة الألوان. |
-| [setIhPal(int value)](#setIhPal-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس جدول كائنات EMF للوحة الألوان. |
-| [getStart()](#getStart--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس الإدخال الأول لتعيينه. |
-| [setStart(int value)](#setStart-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس الإدخال الأول لتعيينه. |
-| [getNumberofEntries()](#getNumberofEntries--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الإدخالات. |
-| [setNumberofEntries(int value)](#setNumberofEntries-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الإدخالات. |
-| [getArgb32PalEntries()](#getArgb32PalEntries--) | يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18) بطول NumberOfEntries، التي تحدد بيانات إدخال اللوحة. |
-| [setArgb32PalEntries(int[] value)](#setArgb32PalEntries-int---) | يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18) بطول NumberOfEntries، التي تحدد بيانات إدخال اللوحة. |
+| [getIhPal()](#getIhPal--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس جدول كائنات EMF للوحة الألوان. |
+| [setIhPal(int value)](#setIhPal-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس جدول كائنات EMF للوحة الألوان. |
+| [getStart()](#getStart--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس الإدخال الأول لتعيينه. |
+| [setStart(int value)](#setStart-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس الإدخال الأول لتعيينه. |
+| [getNumberofEntries()](#getNumberofEntries--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد عدد الإدخالات. |
+| [setNumberofEntries(int value)](#setNumberofEntries-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد عدد الإدخالات. |
+| [getArgb32PalEntries()](#getArgb32PalEntries--) | يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18)، بطول NumberOfEntries، التي تحدد بيانات إدخال لوحة الألوان. |
+| [setArgb32PalEntries(int[] value)](#setArgb32PalEntries-int---) | يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18)، بطول NumberOfEntries، التي تحدد بيانات إدخال لوحة الألوان. |
 ### EmfSetPaletteEntries(EmfRecord source) {#EmfSetPaletteEntries-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetPaletteEntries(EmfRecord source)
 ```
 
 
-يُنشئ نسخة جديدة من الفئة `EmfSetPaletteEntries`.
+ينشئ مثيلًا جديدًا من الفئة `EmfSetPaletteEntries`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -49,7 +49,7 @@ public int getIhPal()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس جدول كائنات EMF للوحة الألوان.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس جدول كائنات EMF للوحة الألوان.
 
 **Returns:**
 int
@@ -59,12 +59,12 @@ public void setIhPal(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس جدول كائنات EMF للوحة الألوان.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس جدول كائنات EMF للوحة الألوان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getStart() {#getStart--}
 ```
@@ -72,7 +72,7 @@ public int getStart()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس الإدخال الأول لتعيينه.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس الإدخال الأول لتعيينه.
 
 **Returns:**
 int
@@ -82,12 +82,12 @@ public void setStart(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد فهرس الإدخال الأول لتعيينه.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد فهرس الإدخال الأول لتعيينه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getNumberofEntries() {#getNumberofEntries--}
 ```
@@ -95,7 +95,7 @@ public int getNumberofEntries()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الإدخالات.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد عدد الإدخالات.
 
 **Returns:**
 int
@@ -105,12 +105,12 @@ public void setNumberofEntries(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد عدد الإدخالات.
+يحصل أو يعيّن عددًا صحيحًا غير موقع 32-بت يحدد عدد الإدخالات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getArgb32PalEntries() {#getArgb32PalEntries--}
 ```
@@ -118,7 +118,7 @@ public int[] getArgb32PalEntries()
 ```
 
 
-يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18) بطول NumberOfEntries، التي تحدد بيانات إدخال اللوحة. لا تحتوي أعضاء Values على أي قيم.
+يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18)، بطول NumberOfEntries، التي تحدد بيانات إدخال لوحة الألوان. لا تحتوي أعضاء \"Values\" على أي قيم.
 
 **Returns:**
 int[]
@@ -128,10 +128,10 @@ public void setArgb32PalEntries(int[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18) بطول NumberOfEntries، التي تحدد بيانات إدخال اللوحة. لا تحتوي أعضاء Values على أي قيم.
+يحصل أو يعيّن مصفوفة من كائنات LogPaletteEntry (القسم 2.2.18)، بطول NumberOfEntries، التي تحدد بيانات إدخال لوحة الألوان. لا تحتوي أعضاء \"Values\" على أي قيم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 

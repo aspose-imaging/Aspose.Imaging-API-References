@@ -1,7 +1,7 @@
 ---
 title: "IImageExporter"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "مصدّر الصورة."
+description: "مُصدّر الصورة."
 type: docs
 weight: 131
 url: /ar/java/com.aspose.imaging/iimageexporter/

@@ -7,7 +7,7 @@ weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader), [com.aspose.imaging.fileformats.tiff.filemanagement.TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffstreamreader), [com.aspose.imaging.fileformats.tiff.filemanagement.TiffBigEndianStreamReader](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffbigendianstreamreader)
 ```
 public class BigTiffReaderBE extends TiffBigEndianStreamReader
 ```
@@ -17,10 +17,10 @@ public class BigTiffReaderBE extends TiffBigEndianStreamReader
 
 | المنشئ | الوصف |
 | --- | --- |
-| [BigTiffReaderBE(byte[] data)](#BigTiffReaderBE-byte---) | ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe). |
-| [BigTiffReaderBE(StreamContainer streamContainer)](#BigTiffReaderBE-com.aspose.imaging.StreamContainer-) | ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe). |
-| [BigTiffReaderBE(byte[] data, int startIndex)](#BigTiffReaderBE-byte---int-) | ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe). |
-| [BigTiffReaderBE(byte[] data, int startIndex, int dataLength)](#BigTiffReaderBE-byte---int-int-) | ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe). |
+| [BigTiffReaderBE(byte[] data)](#BigTiffReaderBE-byte---) | يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe). |
+| [BigTiffReaderBE(StreamContainer streamContainer)](#BigTiffReaderBE-com.aspose.imaging.StreamContainer-) | يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe). |
+| [BigTiffReaderBE(byte[] data, int startIndex)](#BigTiffReaderBE-byte---int-) | يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe). |
+| [BigTiffReaderBE(byte[] data, int startIndex, int dataLength)](#BigTiffReaderBE-byte---int-int-) | يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -32,7 +32,7 @@ public BigTiffReaderBE(byte[] data)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe).
+يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -45,7 +45,7 @@ public BigTiffReaderBE(StreamContainer streamContainer)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe).
+يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -58,7 +58,7 @@ public BigTiffReaderBE(byte[] data, int startIndex)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe).
+يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,7 +72,7 @@ public BigTiffReaderBE(byte[] data, int startIndex, int dataLength)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة [BigTiffReaderBE](../../com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffreaderbe).
+يُنشئ مثلاً جديداً من الفئة [BigTiffReaderBE](../../com.aspose.imaging/fileformats/tiff/filemanagement/bigtiff/bigtiffreaderbe).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -90,4 +90,4 @@ public byte getSizeOfTagValue()
 يحصل على حجم طول قيمة العلامة.
 
 **Returns:**
-بايت - حجم طول قيمة العلامة.
+byte - حجم طول قيمة العلامة.

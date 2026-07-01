@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.fileformats.avif/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [AvifImage](../com.aspose.imaging.fileformats.avif/avifimage) | صورة Avif. |

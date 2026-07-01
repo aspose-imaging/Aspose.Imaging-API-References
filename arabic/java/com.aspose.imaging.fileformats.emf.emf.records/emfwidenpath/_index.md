@@ -17,12 +17,12 @@ public final class EmfWidenPath extends EmfPathBracketRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfWidenPath()](#EmfWidenPath--) | يُنشئ مثيلاً جديدًا للفئة `EmfWidenPath`. |
+| [EmfWidenPath()](#EmfWidenPath--) | ينشئ مثيلاً جديدًا من الفئة `EmfWidenPath`. |
 ### EmfWidenPath() {#EmfWidenPath--}
 ```
 public EmfWidenPath()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `EmfWidenPath`.
+ينشئ مثيلاً جديدًا من الفئة `EmfWidenPath`.
 

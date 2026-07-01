@@ -17,8 +17,8 @@ public final class Dimensions extends ComplexTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Dimensions()](#Dimensions--) | يُنشئ مثيلاً جديدًا للفئة `Dimensions`. |
-| [Dimensions(float width, float height)](#Dimensions-float-float-) | يُنشئ مثيلاً جديدًا للفئة `Dimensions`. |
+| [Dimensions()](#Dimensions--) | ينشئ مثيلاً جديدًا من الفئة `Dimensions`. |
+| [Dimensions(float width, float height)](#Dimensions-float-float-) | ينشئ مثيلاً جديدًا من الفئة `Dimensions`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -27,8 +27,8 @@ public final class Dimensions extends ComplexTypeBase
 | [setWidth(float value)](#setWidth-float-) | يحصل أو يعيّن العرض. |
 | [getHeight()](#getHeight--) | يحصل أو يعيّن الارتفاع. |
 | [setHeight(float value)](#setHeight-float-) | يحصل أو يعيّن الارتفاع. |
-| [getUnits()](#getUnits--) | يحصل أو يضبط الوحدات. |
-| [setUnits(String value)](#setUnits-java.lang.String-) | يحصل أو يضبط الوحدات. |
+| [getUnits()](#getUnits--) | يحصل على الوحدات أو يضبطها. |
+| [setUnits(String value)](#setUnits-java.lang.String-) | يحصل على الوحدات أو يضبطها. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### Dimensions() {#Dimensions--}
 ```
@@ -36,7 +36,7 @@ public Dimensions()
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `Dimensions`.
+ينشئ مثيلاً جديدًا من الفئة `Dimensions`.
 
 ### Dimensions(float width, float height) {#Dimensions-float-float-}
 ```
@@ -44,13 +44,13 @@ public Dimensions(float width, float height)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `Dimensions`.
+ينشئ مثيلاً جديدًا من الفئة `Dimensions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | float | العرض. |
-| الارتفاع | float | الارتفاع. |
+| width | float | العرض. |
+| height | float | الارتفاع. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -73,7 +73,7 @@ public void setWidth(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -96,7 +96,7 @@ public void setHeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getUnits() {#getUnits--}
 ```
@@ -104,9 +104,9 @@ public String getUnits()
 ```
 
 
-يحصل أو يضبط الوحدات.
+يحصل على الوحدات أو يضبطها.
 
-على سبيل المثال: inch, mm, pixel, pica, point إلخ. القيمة: الوحدات.
+على سبيل المثال: بوصة، مم، بكسل، بيكا، نقطة إلخ. القيمة: الوحدات.
 
 **Returns:**
 java.lang.String
@@ -116,14 +116,14 @@ public void setUnits(String value)
 ```
 
 
-يحصل أو يضبط الوحدات.
+يحصل على الوحدات أو يضبطها.
 
-على سبيل المثال: inch, mm, pixel, pica, point إلخ. القيمة: الوحدات.
+على سبيل المثال: بوصة، مم، بكسل، بيكا، نقطة إلخ. القيمة: الوحدات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

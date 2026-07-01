@@ -1,7 +1,7 @@
 ---
 title: "RectangleExtensions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يحتوي على طرق امتداد لـ Rectangle."
+description: "يحتوي على أساليب توسيع لـ Rectangle."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.imaging.extensions/rectangleextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class RectangleExtensions
 ```
 
-يحتوي على أساليب امتداد لـ `Rectangle`.
+يحتوي على طرق امتداد لـ `Rectangle`.
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,7 +31,7 @@ public static Rectangle toGdiRectangle(Rectangle rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل للتحويل. |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | المستطيل المراد تحويله. |
 
 **Returns:**
 [Rectangle](../../java.awt/rectangle) - The converted `System.Drawing.Rectangle`.
@@ -46,10 +46,10 @@ public static Rectangle2D.Float toGdiRectangle(RectangleF rectangle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل للتحويل. |
+| rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | المستطيل المراد تحويله. |
 
 **Returns:**
-java.awt.geom.Rectangle2D.Float - `System.Drawing.RectangleF` المحوَّل.
+java.awt.geom.Rectangle2D.Float - الـ `System.Drawing.RectangleF` المحول.
 ### unionWith(RectangleF rectangle, RectangleF otherRectangle) {#unionWith-com.aspose.imaging.RectangleF-com.aspose.imaging.RectangleF-}
 ```
 public static RectangleF unionWith(RectangleF rectangle, RectangleF otherRectangle)

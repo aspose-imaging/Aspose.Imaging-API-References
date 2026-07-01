@@ -12,20 +12,20 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class TiffPlanarConfigs extends System.Enum
 ```
 
-تنظيم التخزين. القيم الممكنة لعلامة PLANARCONFIG.
+تنظيم التخزين. القيم المحتملة لعلامة PLANARCONFIG.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Contiguous](#Contiguous) | طائرة صورة واحدة. |
-| [Separate](#Separate) | طائرات بيانات منفصلة. |
+| [Contiguous](#Contiguous) | طبقة صورة واحدة. |
+| [Separate](#Separate) | طبقات منفصلة من البيانات. |
 ### Contiguous {#Contiguous}
 ```
 public static final int Contiguous
 ```
 
 
-طائرة صورة واحدة.
+طبقة صورة واحدة.
 
 ### Separate {#Separate}
 ```
@@ -33,5 +33,5 @@ public static final int Separate
 ```
 
 
-طائرات بيانات منفصلة.
+طبقات منفصلة من البيانات.
 

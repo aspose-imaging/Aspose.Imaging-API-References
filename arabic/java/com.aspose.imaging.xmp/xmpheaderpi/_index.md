@@ -20,25 +20,25 @@ public final class XmpHeaderPi implements IXmlValue, System.IEquatable<XmpHeader
 
 | المنشئ | الوصف |
 | --- | --- |
-| [XmpHeaderPi()](#XmpHeaderPi--) | ينشئ مثيلاً جديدًا للفئة `XmpHeaderPi`. |
-| [XmpHeaderPi(String guid)](#XmpHeaderPi-java.lang.String-) | ينشئ مثيلاً جديدًا للفئة `XmpHeaderPi`. |
+| [XmpHeaderPi()](#XmpHeaderPi--) | يقوم بتهيئة نسخة جديدة من الفئة `XmpHeaderPi`. |
+| [XmpHeaderPi(String guid)](#XmpHeaderPi-java.lang.String-) | يقوم بتهيئة نسخة جديدة من الفئة `XmpHeaderPi`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getGuid()](#getGuid--) | يمثل معرف رأس (Guid). |
 | [setGuid(String value)](#setGuid-java.lang.String-) | يمثل معرف رأس (Guid). |
-| [getXmlValue()](#getXmlValue--) | يحوّل قيمة XMP إلى تمثيل XML. |
+| [getXmlValue()](#getXmlValue--) | يقوم بتحويل قيمة XMP إلى تمثيل XML. |
 | [isEquals(XmpHeaderPi other)](#isEquals-com.aspose.imaging.xmp.XmpHeaderPi-) | يشير إلى ما إذا كان الكائن الحالي يساوي كائنًا آخر من نفس النوع. |
-| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة. |
-| [hashCode()](#hashCode--) | يرجع رمز تجزئة (hash code) لهذه المثيل. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يحدد ما إذا كان `System.Object` المحدد يساوي هذه النسخة. |
+| [hashCode()](#hashCode--) | يعيد قيمة تجزئة (hash code) لهذا الكائن. |
 ### XmpHeaderPi() {#XmpHeaderPi--}
 ```
 public XmpHeaderPi()
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة `XmpHeaderPi`.
+يقوم بتهيئة نسخة جديدة من الفئة `XmpHeaderPi`.
 
 ### XmpHeaderPi(String guid) {#XmpHeaderPi-java.lang.String-}
 ```
@@ -46,12 +46,12 @@ public XmpHeaderPi(String guid)
 ```
 
 
-ينشئ مثيلاً جديدًا للفئة `XmpHeaderPi`.
+يقوم بتهيئة نسخة جديدة من الفئة `XmpHeaderPi`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| guid | java.lang.String | المعرف الفريد. |
+| guid | java.lang.String | المعرّف الفريد. |
 
 ### getGuid() {#getGuid--}
 ```
@@ -78,7 +78,7 @@ public void setGuid(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmlValue() {#getXmlValue--}
 ```
@@ -86,7 +86,7 @@ public String getXmlValue()
 ```
 
 
-يحوّل قيمة XMP إلى تمثيل XML.
+يقوم بتحويل قيمة XMP إلى تمثيل XML.
 
 **Returns:**
 java.lang.String - يُعيد قيمة XMP المحوّلة إلى تمثيل XML.
@@ -104,29 +104,29 @@ public boolean isEquals(XmpHeaderPi other)
 | other | [XmpHeaderPi](../../com.aspose.imaging.xmp/xmpheaderpi) | كائن للمقارنة مع هذا الكائن. |
 
 **Returns:**
-boolean - true إذا كان الكائن الحالي مساويًا للمعامل `other`؛ وإلا، false.
+boolean - true إذا كان الكائن الحالي يساوي المعامل `other`؛ وإلا false.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-يحدد ما إذا كان `System.Object` المحدد يساوي هذه المثيلة.
+يحدد ما إذا كان `System.Object` المحدد يساوي هذه النسخة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للمقارنة مع هذا المثيل. |
+| obj | java.lang.Object | الـ `System.Object` للمقارنة مع هذه الحالة. |
 
 **Returns:**
-منطقي - `true` إذا كان الـ `System.Object` المحدد يساوي هذا المثيل؛ وإلا، `false`.
+منطقي - `true` إذا كان الـ `System.Object` المحدد يساوي هذه الحالة؛ وإلا، `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
 ```
 
 
-يرجع رمز تجزئة (hash code) لهذه المثيل.
+يعيد قيمة تجزئة (hash code) لهذا الكائن.
 
 **Returns:**
-int - رمز تجزئة (hash code) لهذه المثيل، مناسب للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.
+int - قيمة تجزئة (hash code) لهذا الكائن، مناسبة للاستخدام في خوارزميات التجزئة وهياكل البيانات مثل جدول التجزئة.

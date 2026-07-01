@@ -7,7 +7,7 @@ weight: 16
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging/fileformats/cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxProcedure extends CmxContainer
 ```
@@ -22,8 +22,8 @@ public class CmxProcedure extends CmxContainer
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBoundBox()](#getBoundBox--) | يحصل على الصندوق المحيط. |
-| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق المحيط. |
+| [getBoundBox()](#getBoundBox--) | يحصل على صندوق الإحاطة. |
+| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط صندوق الإحاطة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxProcedure() {#CmxProcedure--}
@@ -38,7 +38,7 @@ public final RectangleF getBoundBox()
 ```
 
 
-يحصل على الصندوق المحيط.
+يحصل على صندوق الإحاطة.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bounding box.
@@ -48,12 +48,12 @@ public final void setBoundBox(RectangleF value)
 ```
 
 
-يضبط الصندوق المحيط.
+يضبط صندوق الإحاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المربع المحيط. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | صندوق الإحاطة. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

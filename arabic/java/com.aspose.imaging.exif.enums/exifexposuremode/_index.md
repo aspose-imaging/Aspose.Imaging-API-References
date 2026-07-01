@@ -19,7 +19,7 @@ public final class ExifExposureMode extends System.Enum
 | --- | --- |
 | [Auto](#Auto) | تعريض تلقائي. |
 | [Manual](#Manual) | تعريض يدوي. |
-| [AutoBracket](#AutoBracket) | القوس التلقائي. |
+| [AutoBracket](#AutoBracket) | قوس تلقائي. |
 ### Auto {#Auto}
 ```
 public static final int Auto
@@ -42,5 +42,5 @@ public static final int AutoBracket
 ```
 
 
-القوس التلقائي.
+قوس تلقائي.
 

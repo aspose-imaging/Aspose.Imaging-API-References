@@ -18,33 +18,33 @@ public class Size extends Struct<Size>
 | المنشئ | الوصف |
 | --- | --- |
 | [Size()](#Size--) |  |
-| [Size(Point point)](#Size-com.aspose.imaging.Point-) | ينشئ نسخة جديدة من بنية `Aspose.Imaging.Size` من الـ `Aspose.Imaging.Point` المحدد. |
-| [Size(int width, int height)](#Size-int-int-) | ينشئ نسخة جديدة من بنية `Aspose.Imaging.Size` من الأبعاد المحددة. |
+| [Size(Point point)](#Size-com.aspose.imaging.Point-) | ينشئ مثيلاً جديداً من بنية `Aspose.Imaging.Size` من `Aspose.Imaging.Point` المحدد. |
+| [Size(int width, int height)](#Size-int-int-) | ينشئ مثيلاً جديداً من بنية `Aspose.Imaging.Size` من الأبعاد المحددة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | يحصل على نسخة جديدة من بنية `Aspose.Imaging.Size` التي تكون قيم `Aspose.Imaging.Size.Width` و `Aspose.Imaging.Size.Height` فيها صفر. |
-| [to_SizeF(Size size)](#to-SizeF-com.aspose.imaging.Size-) | يحوّل الـ `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.SizeF`. |
+| [getEmpty()](#getEmpty--) | يحصل على مثيل جديد من بنية `Aspose.Imaging.Size` حيث تكون قيم `Aspose.Imaging.Size.Width` و `Aspose.Imaging.Size.Height` مضبوطة على الصفر. |
+| [to_SizeF(Size size)](#to-SizeF-com.aspose.imaging.Size-) | يحوّل `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.SizeF`. |
 | [op_Addition(Size size1, Size size2)](#op-Addition-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يضيف عرض وارتفاع بنية `Aspose.Imaging.Size` واحدة إلى عرض وارتفاع بنية `Aspose.Imaging.Size` أخرى. |
 | [op_Subtraction(Size size1, Size size2)](#op-Subtraction-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يطرح عرض وارتفاع بنية `Aspose.Imaging.Size` واحدة من عرض وارتفاع بنية `Aspose.Imaging.Size` أخرى. |
-| [op_Equality(Size size1, Size size2)](#op-Equality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يفحص ما إذا كانت بنية `Aspose.Imaging.Size` اثنتين متساويتين. |
-| [op_Inequality(Size size1, Size size2)](#op-Inequality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يفحص ما إذا كانت بنية `Aspose.Imaging.Size` اثنتين مختلفة. |
-| [to_Point(Size size)](#to-Point-com.aspose.imaging.Size-) | يحوّل الـ `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.Point`. |
+| [op_Equality(Size size1, Size size2)](#op-Equality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يفحص ما إذا كانت بنيتا `Aspose.Imaging.Size` متساويتين. |
+| [op_Inequality(Size size1, Size size2)](#op-Inequality-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يفحص ما إذا كانت بنيتا `Aspose.Imaging.Size` مختلفتين. |
+| [to_Point(Size size)](#to-Point-com.aspose.imaging.Size-) | يحوّل `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.Point`. |
 | [add(Size size1, Size size2)](#add-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يضيف عرض وارتفاع بنية `Aspose.Imaging.Size` واحدة إلى عرض وارتفاع بنية `Aspose.Imaging.Size` أخرى. |
-| [ceiling(SizeF size)](#ceiling-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب القيم إلى القيم الصحيحة الأعلى. |
+| [ceiling(SizeF size)](#ceiling-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب قيم بنية `Aspose.Imaging.Size` إلى القيم الصحيحة الأعلى التالية. |
 | [subtract(Size size1, Size size2)](#subtract-com.aspose.imaging.Size-com.aspose.imaging.Size-) | يطرح عرض وارتفاع بنية `Aspose.Imaging.Size` واحدة من عرض وارتفاع بنية `Aspose.Imaging.Size` أخرى. |
-| [truncate(SizeF size)](#truncate-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق قطع القيم إلى القيم الصحيحة الأدنى. |
-| [round(SizeF size)](#round-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب القيم إلى أقرب قيمة صحيحة. |
+| [truncate(SizeF size)](#truncate-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق قطع قيم بنية `Aspose.Imaging.SizeF` إلى القيم الصحيحة الأدنى التالية. |
+| [round(SizeF size)](#round-com.aspose.imaging.SizeF-) | يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب قيم بنية `Aspose.Imaging.SizeF` إلى أقرب قيمة صحيحة. |
 | [isEquals(Size obj1, Size obj2)](#isEquals-com.aspose.imaging.Size-com.aspose.imaging.Size-) |  |
-| [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان هذا `Aspose.Imaging.Size` عرضه وارتفاعه صفر. |
-| [getWidth()](#getWidth--) | يحصل أو يعيّن المكوّن الأفقي لهذا `Aspose.Imaging.Size`. |
-| [setWidth(int value)](#setWidth-int-) | يحصل أو يعيّن المكوّن الأفقي لهذا `Aspose.Imaging.Size`. |
+| [isEmpty()](#isEmpty--) | يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Size` هذا لديه عرض وارتفاع يساويان 0. |
+| [getWidth()](#getWidth--) | يحصل أو يضبط المكوّن الأفقي لهذا `Aspose.Imaging.Size`. |
+| [setWidth(int value)](#setWidth-int-) | يحصل أو يضبط المكوّن الأفقي لهذا `Aspose.Imaging.Size`. |
 | [getHeight()](#getHeight--) | يحصل أو يضبط المكوّن العمودي لهذا `Aspose.Imaging.Size`. |
 | [setHeight(int value)](#setHeight-int-) | يحصل أو يضبط المكوّن العمودي لهذا `Aspose.Imaging.Size`. |
 | [equals(Object obj)](#equals-java.lang.Object-) | يفحص ما إذا كان الكائن المحدد هو `Aspose.Imaging.Size` بنفس الأبعاد كما هذا `Aspose.Imaging.Size`. |
 | [hashCode()](#hashCode--) | يرجع رمز تجزئة لهذا الهيكل `Aspose.Imaging.Size`. |
-| [toString()](#toString--) | ينشئ سلسلة قابلة للقراءة من قبل الإنسان تمثل هذا `Aspose.Imaging.Size`. |
+| [toString()](#toString--) | ينشئ سلسلة قابلة للقراءة تمثّل هذا `Aspose.Imaging.Size`. |
 | [CloneTo(Size that)](#CloneTo-com.aspose.imaging.Size-) |  |
 | [Clone()](#Clone--) |  |
 ### Size() {#Size--}
@@ -59,7 +59,7 @@ public Size(Point point)
 ```
 
 
-ينشئ نسخة جديدة من بنية `Aspose.Imaging.Size` من الـ `Aspose.Imaging.Point` المحدد.
+ينشئ مثيلاً جديداً من بنية `Aspose.Imaging.Size` من `Aspose.Imaging.Point` المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -72,13 +72,13 @@ public Size(int width, int height)
 ```
 
 
-ينشئ نسخة جديدة من بنية `Aspose.Imaging.Size` من الأبعاد المحددة.
+ينشئ مثيلاً جديداً من بنية `Aspose.Imaging.Size` من الأبعاد المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | مكوّن العرض للـ `Aspose.Imaging.Size` الجديد. |
-| الارتفاع | int | مكوّن الارتفاع للـ `Aspose.Imaging.Size` الجديد. |
+| width | int | مكوّن العرض للـ `Aspose.Imaging.Size` الجديد. |
+| height | int | مكوّن الارتفاع للـ `Aspose.Imaging.Size` الجديد. |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -86,7 +86,7 @@ public static Size getEmpty()
 ```
 
 
-يحصل على نسخة جديدة من بنية `Aspose.Imaging.Size` التي تكون قيم `Aspose.Imaging.Size.Width` و `Aspose.Imaging.Size.Height` فيها صفر.
+يحصل على مثيل جديد من بنية `Aspose.Imaging.Size` حيث تكون قيم `Aspose.Imaging.Size.Width` و `Aspose.Imaging.Size.Height` مضبوطة على الصفر.
 
 **Returns:**
 [Size](../../com.aspose.imaging/size)
@@ -96,12 +96,12 @@ public static SizeF to_SizeF(Size size)
 ```
 
 
-يحوّل الـ `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.SizeF`.
+يحوّل `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.SizeF`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| size | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` للتحويل. |
+| size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` للتحويل. |
 
 **Returns:**
 [SizeF](../../com.aspose.imaging/sizef) - The `Aspose.Imaging.SizeF` structure to which this operator converts.
@@ -116,8 +116,8 @@ public static Size op_Addition(Size size1, Size size2)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| size1 | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` الأول للإضافة. |
-| size2 | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` الثاني للإضافة. |
+| size1 | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` الأول للإضافة. |
+| size2 | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` الثاني للإضافة. |
 
 **Returns:**
 [Size](../../com.aspose.imaging/size) - A `Aspose.Imaging.Size` structure that is the result of the addition operation.
@@ -143,7 +143,7 @@ public static boolean op_Equality(Size size1, Size size2)
 ```
 
 
-يفحص ما إذا كانت بنية `Aspose.Imaging.Size` اثنتين متساويتين.
+يفحص ما إذا كانت بنيتا `Aspose.Imaging.Size` متساويتين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -152,14 +152,14 @@ public static boolean op_Equality(Size size1, Size size2)
 | size2 | [Size](../../com.aspose.imaging/size) | الهيكل `Aspose.Imaging.Size` على الجانب الأيمن من عامل المساواة. |
 
 **Returns:**
-منطقي - صحيح إذا كان `size1` و `size2` لهما عرض وارتفاع متساويين؛ وإلا، خطأ.
+منطقي - صحيح إذا كان `size1` و `size2` لهما نفس العرض والارتفاع؛ وإلا، خطأ.
 ### op_Inequality(Size size1, Size size2) {#op-Inequality-com.aspose.imaging.Size-com.aspose.imaging.Size-}
 ```
 public static boolean op_Inequality(Size size1, Size size2)
 ```
 
 
-يفحص ما إذا كانت بنية `Aspose.Imaging.Size` اثنتين مختلفة.
+يفحص ما إذا كانت بنيتا `Aspose.Imaging.Size` مختلفتين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -168,19 +168,19 @@ public static boolean op_Inequality(Size size1, Size size2)
 | size2 | [Size](../../com.aspose.imaging/size) | الهيكل `Aspose.Imaging.Size` على الجانب الأيمن من عامل عدم المساواة. |
 
 **Returns:**
-منطقي - صحيح إذا كان `size1` و `size2` يختلفان إما في العرض أو الارتفاع؛ خطأ إذا كان `size1` و `size2` متساويين.
+منطقي - صحيح إذا كان `size1` و `size2` يختلفان إما في العرض أو الارتفاع؛ خطأ إذا كانا متساويين.
 ### to_Point(Size size) {#to-Point-com.aspose.imaging.Size-}
 ```
 public static Point to_Point(Size size)
 ```
 
 
-يحوّل الـ `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.Point`.
+يحوّل `Aspose.Imaging.Size` المحدد إلى `Aspose.Imaging.Point`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| size | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` للتحويل. |
+| size | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` للتحويل. |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The `Aspose.Imaging.Point` structure to which this operator converts.
@@ -195,8 +195,8 @@ public static Size add(Size size1, Size size2)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| size1 | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` الأول للإضافة. |
-| size2 | [Size](../../com.aspose.imaging/size) | الـ `Aspose.Imaging.Size` الثاني للإضافة. |
+| size1 | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` الأول للإضافة. |
+| size2 | [Size](../../com.aspose.imaging/size) | `Aspose.Imaging.Size` الثاني للإضافة. |
 
 **Returns:**
 [Size](../../com.aspose.imaging/size) - A `Aspose.Imaging.Size` structure that is the result of the addition operation.
@@ -206,7 +206,7 @@ public static Size ceiling(SizeF size)
 ```
 
 
-يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب القيم إلى القيم الصحيحة الأعلى.
+يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب قيم بنية `Aspose.Imaging.Size` إلى القيم الصحيحة الأعلى التالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -237,7 +237,7 @@ public static Size truncate(SizeF size)
 ```
 
 
-يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق قطع القيم إلى القيم الصحيحة الأدنى.
+يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق قطع قيم بنية `Aspose.Imaging.SizeF` إلى القيم الصحيحة الأدنى التالية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -252,7 +252,7 @@ public static Size round(SizeF size)
 ```
 
 
-يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب القيم إلى أقرب قيمة صحيحة.
+يحوّل بنية `Aspose.Imaging.SizeF` المحددة إلى بنية `Aspose.Imaging.Size` عن طريق تقريب قيم بنية `Aspose.Imaging.SizeF` إلى أقرب قيمة صحيحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -283,7 +283,7 @@ public boolean isEmpty()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا `Aspose.Imaging.Size` عرضه وارتفاعه صفر.
+يحصل على قيمة تشير إلى ما إذا كان `Aspose.Imaging.Size` هذا لديه عرض وارتفاع يساويان 0.
 
 **Returns:**
 boolean
@@ -293,7 +293,7 @@ public int getWidth()
 ```
 
 
-يحصل أو يعيّن المكوّن الأفقي لهذا `Aspose.Imaging.Size`.
+يحصل أو يضبط المكوّن الأفقي لهذا `Aspose.Imaging.Size`.
 
 **Returns:**
 int
@@ -303,12 +303,12 @@ public void setWidth(int value)
 ```
 
 
-يحصل أو يعيّن المكوّن الأفقي لهذا `Aspose.Imaging.Size`.
+يحصل أو يضبط المكوّن الأفقي لهذا `Aspose.Imaging.Size`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -331,7 +331,7 @@ public void setHeight(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -344,10 +344,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object | الـ `System.Object` للاختبار. |
+| obj | java.lang.Object | الكائن `System.Object` للاختبار. |
 
 **Returns:**
-منطقي - صحيح إذا كان `obj` هو `Aspose.Imaging.Size` وله نفس العرض والارتفاع كما هذا `Aspose.Imaging.Size`؛ وإلا، خطأ.
+منطقي - صحيح إذا كان `obj` هو `Aspose.Imaging.Size` وله نفس العرض والارتفاع كهذا `Aspose.Imaging.Size`؛ وإلا، خطأ.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -357,17 +357,17 @@ public int hashCode()
 يرجع رمز تجزئة لهذا الهيكل `Aspose.Imaging.Size`.
 
 **Returns:**
-عدد صحيح - قيمة عددية تحدد رمز التجزئة لهذا الهيكل `Aspose.Imaging.Size`.
+عدد صحيح - قيمة عددية تحدد قيمة تجزئة لهذا الهيكل `Aspose.Imaging.Size`.
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-ينشئ سلسلة قابلة للقراءة من قبل الإنسان تمثل هذا `Aspose.Imaging.Size`.
+ينشئ سلسلة قابلة للقراءة تمثّل هذا `Aspose.Imaging.Size`.
 
 **Returns:**
-java.lang.String - سلسلة تمثل هذا `Aspose.Imaging.Size`.
+java.lang.String - سلسلة تمثّل هذا `Aspose.Imaging.Size`.
 ### CloneTo(Size that) {#CloneTo-com.aspose.imaging.Size-}
 ```
 public void CloneTo(Size that)

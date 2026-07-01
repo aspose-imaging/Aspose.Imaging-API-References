@@ -17,7 +17,7 @@ public final class WmfRecorderGraphics2D extends MetafileRecorderGraphics2D
 
 | المنشئ | الوصف |
 | --- | --- |
-| [WmfRecorderGraphics2D(Rectangle frame, int inch)](#WmfRecorderGraphics2D-com.aspose.imaging.Rectangle-int-) | يُهيئ نسخة جديدة من الفئة `WmfRecorderGraphics2D`. |
+| [WmfRecorderGraphics2D(Rectangle frame, int inch)](#WmfRecorderGraphics2D-com.aspose.imaging.Rectangle-int-) | ينشئ مثيلًا جديدًا من الفئة `WmfRecorderGraphics2D`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -25,7 +25,7 @@ public final class WmfRecorderGraphics2D extends MetafileRecorderGraphics2D
 | [getBackgroundMode()](#getBackgroundMode--) | يحصل أو يعيّن وضع الخلفية. |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | يحصل أو يعيّن وضع الخلفية. |
 | [endRecording()](#endRecording--) | ينهي التسجيل. |
-| [fromWmfImage(WmfImage wmfImage)](#fromWmfImage-com.aspose.imaging.fileformats.wmf.WmfImage-) | يحصل على نسخة من مسجل Wmf لصورة Wmf الحالية. |
+| [fromWmfImage(WmfImage wmfImage)](#fromWmfImage-com.aspose.imaging.fileformats.wmf.WmfImage-) | يحصل على مثيل من مسجل Wmf للصورة الحالية من نوع Wmf. |
 
 ## Example: This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D.
 
@@ -47,7 +47,7 @@ com.aspose.imaging.fileformats.wmf.graphics.WmfRecorderGraphics2D graphics =
 // ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, imageWidth, imageHeight);
 
-// املأ مستطيلًا بلون الدخان الأبيض.
+// املأ مستطيلًا بلون دخان أبيض.
 graphics.fillRectangle(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()),
         new com.aspose.imaging.Rectangle(10, 10, 580, 380));
@@ -64,7 +64,7 @@ graphics.fillPie(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم منحنى بيزيه مكعب باستخدام قلم أحمر بعرض بكسلين.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(200, 133),
@@ -125,15 +125,15 @@ figureToDraw.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(200, 200, 200, 200), 0, 360),
         });
 
-// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسلات.
+// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.drawPath(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getOrange(), 5), pathToDraw);
 
-// من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+// من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
 com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
 saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-// احصل على صورة WMF النهائية التي تشمل جميع أوامر الرسم.
+// احصل على صورة WMF النهائية التي تتضمن جميع أوامر الرسم
 com.aspose.imaging.fileformats.wmf.WmfImage wmfImage = graphics.endRecording();
 try {
     wmfImage.save(dir + "test.output.wmf");
@@ -148,7 +148,7 @@ public WmfRecorderGraphics2D(Rectangle frame, int inch)
 ```
 
 
-يُهيئ نسخة جديدة من الفئة `WmfRecorderGraphics2D`.
+ينشئ مثيلًا جديدًا من الفئة `WmfRecorderGraphics2D`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -181,7 +181,7 @@ public void setBackgroundMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### endRecording() {#endRecording--}
 ```
@@ -199,12 +199,12 @@ public static WmfRecorderGraphics2D fromWmfImage(WmfImage wmfImage)
 ```
 
 
-يحصل على نسخة من مسجل Wmf لصورة Wmf الحالية.
+يحصل على مثيل من مسجل Wmf للصورة الحالية من نوع Wmf.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| wmfImage | [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) | صورة Wmf التي تريد الحصول على مسجل لها. |
+| wmfImage | [WmfImage](../../com.aspose.imaging.fileformats.wmf/wmfimage) | صورة Wmf للحصول على مسجل لها. |
 
 **Returns:**
 [WmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d) - An instance of the [WmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d) class.

@@ -7,7 +7,7 @@ weight: 67
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord)، [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emf.records.EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord), [com.aspose.imaging.fileformats.emf.emf.records.EmfStateRecordType](../../com.aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype)
 ```
 public final class EmfInvertRgn extends EmfStateRecordType
 ```
@@ -17,24 +17,24 @@ public final class EmfInvertRgn extends EmfStateRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfInvertRgn(EmfRecord source)](#EmfInvertRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ نسخة جديدة من الفئة `EmfInvertRgn`. |
+| [EmfInvertRgn(EmfRecord source)](#EmfInvertRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلًا جديدًا من الفئة `EmfInvertRgn`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط. |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط. |
-| [getRgnDataSize()](#getRgnDataSize--) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات المنطقة، بالبايت. |
-| [setRgnDataSize(int value)](#setRgnDataSize-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات المنطقة، بالبايت. |
-| [getRgnData()](#getRgnData--) | يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize التي تحدد كائن RegionData، بوحدات منطقية. |
-| [setRgnData(byte[] value)](#setRgnData-byte---) | يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize التي تحدد كائن RegionData، بوحدات منطقية. |
+| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي. |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي. |
+| [getRgnDataSize()](#getRgnDataSize--) | يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد حجم بيانات المنطقة، بالبايت. |
+| [setRgnDataSize(int value)](#setRgnDataSize-int-) | يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد حجم بيانات المنطقة، بالبايت. |
+| [getRgnData()](#getRgnData--) | يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize تحدد كائن RegionData، بوحدات منطقية. |
+| [setRgnData(byte[] value)](#setRgnData-byte---) | يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize تحدد كائن RegionData، بوحدات منطقية. |
 ### EmfInvertRgn(EmfRecord source) {#EmfInvertRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfInvertRgn(EmfRecord source)
 ```
 
 
-يُنشئ نسخة جديدة من الفئة `EmfInvertRgn`.
+يُنشئ مثيلًا جديدًا من الفئة `EmfInvertRgn`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -47,7 +47,7 @@ public Rectangle getBounds()
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط.
+يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -57,7 +57,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط.
+يحصل أو يعيّن كائن WMF RectL بحجم 128 بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public int getRgnDataSize()
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات المنطقة، بالبايت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد حجم بيانات المنطقة، بالبايت.
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setRgnDataSize(int value)
 ```
 
 
-يحصل أو يعيّن عددًا صحيحًا غير موقع 32‑بت يحدد حجم بيانات المنطقة، بالبايت.
+يحصل أو يعيّن عددًا صحيحًا غير موقع بحجم 32 بت يحدد حجم بيانات المنطقة، بالبايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getRgnData() {#getRgnData--}
 ```
@@ -93,7 +93,7 @@ public byte[] getRgnData()
 ```
 
 
-يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize التي تحدد كائن RegionData، بوحدات منطقية.
+يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize تحدد كائن RegionData، بوحدات منطقية.
 
 **Returns:**
 byte[]
@@ -103,10 +103,10 @@ public void setRgnData(byte[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize التي تحدد كائن RegionData، بوحدات منطقية.
+يحصل أو يعيّن مصفوفة بايت بطول RgnDataSize تحدد كائن RegionData، بوحدات منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | byte[] |  |
+| value | byte[] |  |
 

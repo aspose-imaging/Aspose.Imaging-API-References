@@ -30,7 +30,7 @@ public class PathResource
 | [setRecords(List<VectorPathRecord> value)](#setRecords-java.util.List-com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord--) | يضبط السجلات. |
 
 ## Example: The following example shows how to create Clipping Path in TIFF image.
-المثال التالي يوضح كيفية إنشاء Clipping Path في صورة TIFF. للقيام بذلك تحتاج إلى إنشاء نسخة من الفئة PathResource. يوضح الشيفرة التالية الطريقة التي يمكنك من خلالها إنشاء مسار فارغ في صورة TIFF.
+يوضح المثال التالي كيفية إنشاء مسار قص في صورة TIFF. للقيام بذلك تحتاج إلى إنشاء مثال من فئة PathResource. يوضح الشيفرة التالية الطريقة التي يمكنك من خلالها إنشاء مسار فارغ في صورة TIFF.
 ``` java
 TiffOptions options = new TiffOptions(TiffExpectedFormat.Default);
 TiffFrame frame = new TiffFrame(options, 800, 600);
@@ -133,11 +133,11 @@ static void main()
 {
     try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
     {
-        // إنشاء Figure مستطيلة لـ GraphicsPath
+        // إنشاء شكل مستطيل لـ GraphicsPath
         Figure figure = new Figure();
         figure.addShape(createBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
-        // إنشاء GraphicsPath باستخدام Figure الخاص بنا
+        // إنشاء GraphicsPath باستخدام الشكل الخاص بنا
         GraphicsPath graphicsPath = new GraphicsPath();
         graphicsPath.addFigure(figure);
 
@@ -201,7 +201,7 @@ public final void setBlockId(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | معرف الكتلة. |
+| value | قصير | معرف الكتلة. |
 
 ### getName() {#getName--}
 ```
@@ -228,7 +228,7 @@ public final void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الاسم. |
+| value | java.lang.String | الاسم. |
 
 ### getRecords() {#getRecords--}
 ```
@@ -255,5 +255,5 @@ public final void setRecords(List<VectorPathRecord> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.List<com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord> | السجلات. |
+| value | java.util.List<com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord> | السجلات. |
 

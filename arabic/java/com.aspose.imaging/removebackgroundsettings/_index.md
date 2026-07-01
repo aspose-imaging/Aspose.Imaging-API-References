@@ -61,7 +61,7 @@ public final void setDetectionLevel(Integer value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.Integer | مستوى الكشف. |
+| value | java.lang.Integer | مستوى الكشف. |
 
 ### getBounds() {#getBounds--}
 ```

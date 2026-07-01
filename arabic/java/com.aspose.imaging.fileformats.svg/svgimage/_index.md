@@ -1,7 +1,7 @@
 ---
 title: "SvgImage"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "تحكم في ملفات صور SVG (Scalar Vector Graphics) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML لتخصيص سلس وقابلية التوسع."
+description: "تعديل ملفات رسومات المتجهات القياسية SVG باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML للتخصيص السلس والقابلية للتوسع."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.svg/svgimage/
@@ -15,14 +15,14 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class SvgImage extends VectorImage implements IHasXmpData
 ```
 
-تحكم في ملفات صور SVG (Scalar Vector Graphics) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML لتخصيص سلس وقابلية التوسع. يمكنك بسهولة تحميل صور SVG، تحويل العناصر المتجهة إلى نقطية، وتحويلها إلى صيغ أخرى، مع التحكم في مستويات الضغط لتحسين حجم الملف وجودته لمشاريعك.
+تعديل ملفات رسومات المتجهات القياسية (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML للتخصيص السلس والقابلية للتوسع. يمكنكم بسهولة تحميل صور SVG، تحويل العناصر المتجهة إلى نقطية، وتحويلها إلى صيغ أخرى، مع التحكم في مستويات الضغط لتحسين حجم الملف والجودة لمشاريعكم.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
 | [SvgImage(String path)](#SvgImage-java.lang.String-) | ينشئ كائنًا جديدًا من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. |
-| [SvgImage(InputStream stream)](#SvgImage-java.io.InputStream-) | ينشئ نسخة جديدة من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، محملاً الصورة من الدفق المقدم. |
-| [SvgImage(int width, int height)](#SvgImage-int-int-) | ينشئ كائنًا جديدًا من [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) بالأبعاد المحددة للعرض والارتفاع. |
+| [SvgImage(InputStream stream)](#SvgImage-java.io.InputStream-) | ينشئ نسخة جديدة من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، مع تحميل الصورة من الدفق المقدم. |
+| [SvgImage(int width, int height)](#SvgImage-int-int-) | ينشئ كائنًا جديدًا من [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) بالعرض والارتفاع المحددين. |
 | [SvgImage(SvgOptions svgOptions, int width, int height)](#SvgImage-com.aspose.imaging.imageoptions.SvgOptions-int-int-) | ينشئ نسخة جديدة من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مع خيارات SVG المحددة، وعرض الصورة، ومعلمات الارتفاع. |
 ## الطرق
 
@@ -32,21 +32,21 @@ public final class SvgImage extends VectorImage implements IHasXmpData
 | [getBitsPerPixel()](#getBitsPerPixel--) | يسترجع عدد البتات لكل بكسل في الصورة. |
 | [getFileFormat()](#getFileFormat--) | يسترجع تنسيق ملف الصورة، موفرًا بيانات تعريفية أساسية للمعالجة وفحوصات التوافق. |
 | [cacheData()](#cacheData--) | قم بتخزين البيانات مؤقتًا وتأكد من عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
-| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | غيّر حجم الصورة لتتناسب مع الأبعاد المحددة مع الحفاظ على نسبة العرض إلى الارتفاع. |
+| [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | قم بتغيير حجم الصورة لتناسب الأبعاد المحددة مع الحفاظ على نسبة العرض إلى الارتفاع. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | يقص المستطيل المحدد. |
 | [rotate(float angle)](#rotate-float-) | دوّر الصورة حول المركز. |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يطبق لوحة ألوان محددة على الصورة، مما يتيح تخصيص مخططات الألوان لأغراض جمالية أو وظيفية. |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | يطبق لوحة ألوان محددة على الصورة، مما يتيح تخصيص أنظمة الألوان لأغراض جمالية أو وظيفية. |
 
 ## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
 
 ``` java
 String dir = "c:\\temp\\";
 
-// حمّل صورة SVG من دفق ملف.
+// تحميل صورة SVG من تدفق ملف.
 java.io.InputStream stream = new java.io.FileInputStream(dir + "test.svg");
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = new com.aspose.imaging.fileformats.svg.SvgImage(stream);
 try {
-    // من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
     com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
     com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
@@ -123,12 +123,12 @@ public SvgImage(String path)
 ```
 
 
-ينشئ كائنًا جديدًا من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. يُسهل هذا المُنشئ إنشاء نسخ من صور SVG من ملفات خارجية، مما يتيح دمجًا سلسًا في أنظمة البرمجيات وتدفقات العمل.
+ينشئ كائنًا جديدًا من فئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، باستخدام المسار المحدد لتحديد موقع الصورة وتحميلها. يسهّل هذا المُنشئ إنشاء مثيلات صورة SVG من ملفات خارجية، مما يتيح دمجًا سلسًا في أنظمة البرمجيات وسير العمل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| مسار | java.lang.String | المسار لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### SvgImage(InputStream stream) {#SvgImage-java.io.InputStream-}
 ```
@@ -136,12 +136,12 @@ public SvgImage(InputStream stream)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، محملاً الصورة من الدفق المقدم. يتيح هذا المُنشئ تحميل صور SVG مباشرةً من الدفقات، مما يعزز المرونة والكفاءة في معالجة موارد الصور داخل تطبيقات البرمجيات.
+ينشئ مثيلًا جديدًا من فئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage)، محملاً الصورة من التدفق المقدم. يتيح هذا المُنشئ التحميل المباشر لصور SVG من التدفقات، مما يعزز المرونة والكفاءة في معالجة موارد الصور داخل تطبيقات البرمجيات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| التدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
+| تدفق | java.io.InputStream | التدفق لتحميل الصورة منه وتهيئة بيانات البكسل واللوحة اللونية. |
 
 ### SvgImage(int width, int height) {#SvgImage-int-int-}
 ```
@@ -149,13 +149,13 @@ public SvgImage(int width, int height)
 ```
 
 
-ينشئ كائنًا جديدًا من [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) بالأبعاد المحددة للعرض والارتفاع. يتيح هذا المُنشئ للمطورين إنشاء صور SVG بأبعاد محددة مسبقًا، مما يسهل التحكم الدقيق في حجم الصورة أثناء التهيئة.
+ينشئ كائنًا جديدًا من [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) بالعرض والارتفاع المحددين. يتيح هذا المُنشئ للمطورين إنشاء صور SVG بأبعاد مسبقة التعريف، مما يسهل التحكم الدقيق في حجم الصورة أثناء التهيئة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 
 ### SvgImage(SvgOptions svgOptions, int width, int height) {#SvgImage-com.aspose.imaging.imageoptions.SvgOptions-int-int-}
 ```
@@ -163,14 +163,14 @@ public SvgImage(SvgOptions svgOptions, int width, int height)
 ```
 
 
-ينشئ نسخة جديدة من الفئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مع خيارات SVG المحددة، وعرض الصورة، ومعلمات الارتفاع. يتيح هذا المُنشئ للمطورين تهيئة صور SVG بخيارات وأبعاد مخصصة، موفرًا مرونة في إدارة محتوى SVG وتخطيطه.
+ينشئ مثيلًا جديدًا من فئة [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) مع خيارات SVG المحددة، وعرض الصورة، ومعلمات الارتفاع. يتيح هذا المُنشئ للمطورين تهيئة صور SVG بخيارات وأبعاد مخصصة، مما يوفر مرونة في إدارة محتوى SVG وتخطيطه.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | svgOptions | [SvgOptions](../../com.aspose.imaging.imageoptions/svgoptions) | خيارات SVG. |
-| العرض | int | عرض الصورة. |
-| الارتفاع | int | ارتفاع الصورة. |
+| width | int | عرض الصورة. |
+| height | int | ارتفاع الصورة. |
 
 ### isCached() {#isCached--}
 ```
@@ -178,7 +178,7 @@ public boolean isCached()
 ```
 
 
-تسترجع قيمة منطقية تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى عمليات قراءة بيانات إضافية. توفر هذه الخاصية نظرة على حالة التخزين المؤقت الحالية، مما يحسن استرجاع البيانات وتدفقات المعالجة لأداء وكفاءة محسّنة.
+يسترجع قيمة منطقية تشير إلى ما إذا كانت بيانات الكائن مخزنة مؤقتًا حاليًا، مما يلغي الحاجة إلى عمليات قراءة بيانات إضافية. توفر هذه الخاصية نظرة على حالة التخزين المؤقت الحالية، مما يحسن استرجاع البيانات وسير عمليات المعالجة لأداء وكفاءة محسّنة.
 
 **Returns:**
 منطقي - `true` إذا كانت بيانات الكائن مخزنة مؤقتًا؛ وإلا `false`.
@@ -188,7 +188,7 @@ public int getBitsPerPixel()
 ```
 
 
-تسترجع عدد البتات لكل بكسل في الصورة. من المهم ملاحظة أن هذا المعامل غير قابل للتطبيق على الصور المتجهية، لأنها لا تُقاس بالبكسل. توفر هذه الخاصية معلومات حيوية حول عمق ألوان الصورة، مما يساعد في مهام المعالجة والتلاعب.
+يسترجع عدد البتات لكل بكسل في الصورة. من المهم ملاحظة أن هذا المعامل غير قابل للتطبيق على الصور المتجهية، لأنها لا تُقاس بالبكسل. توفر هذه الخاصية معلومات حيوية حول عمق ألوان الصورة، مما يساعد في مهام المعالجة والتعديل.
 
 **Returns:**
 int - عدد بتات الصورة لكل بكسل.
@@ -198,7 +198,7 @@ public long getFileFormat()
 ```
 
 
-تسترجع تنسيق ملف الصورة، موفرةً بيانات تعريفية أساسية للمعالجة وفحوصات التوافق. تُعد هذه الخاصية أداة أساسية لتحديد استراتيجيات الترميز وفك الترميز المناسبة للتعامل مع بيانات الصورة بفعالية عبر الأنظمة والتطبيقات المختلفة.
+يسترجع تنسيق ملف الصورة، موفرًا بيانات تعريفية أساسية للمعالجة وفحوصات التوافق. تُعد هذه الخاصية أساسية في تحديد استراتيجيات الترميز وفك الترميز المناسبة للتعامل مع بيانات الصورة بفعالية عبر أنظمة وتطبيقات مختلفة.
 
 **Returns:**
 long - تنسيق الملف
@@ -208,7 +208,7 @@ public void cacheData()
 ```
 
 
-قم بتخزين البيانات مؤقتًا وتأكد من عدم تحميل بيانات إضافية من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). تعزز هذه التحسينات الأداء من خلال القضاء على عمليات استرجاع البيانات المتكررة، وهو مفيد بشكل خاص في السيناريوهات التي تتطلب وصولًا متكررًا إلى بيانات الصورة.
+قم بتخزين البيانات مؤقتًا وتأكد من عدم تحميل المزيد من البيانات من `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). تُحسّن هذه العملية الأداء عن طريق القضاء على عمليات استرجاع البيانات المتكررة، وهو مفيد بشكل خاص في السيناريوهات التي تتطلب وصولًا متكررًا إلى بيانات الصورة.
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
@@ -216,7 +216,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-قم بتغيير حجم الصورة لتناسب الأبعاد المحددة مع الحفاظ على نسبة العرض إلى الارتفاع. توفر هذه الطريقة طريقة مريحة لضبط حجم الصورة دون تشويه نسبها، مما يضمن عرضًا أو تخزينًا مثاليًا وفقًا للأبعاد المطلوبة.
+غيّر حجم الصورة لتتناسب مع الأبعاد المحددة مع الحفاظ على نسبة العرض إلى الارتفاع. توفر هذه الطريقة وسيلة مريحة لضبط حجم الصورة دون تشويه نسبها، مما يضمن عرضًا أو تخزينًا مثاليًا وفقًا للأبعاد المطلوبة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -249,7 +249,7 @@ public void rotate(float angle)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | float | زاوية الدوران بالدرجات. القيم الموجبة تدور باتجاه عقارب الساعة. |
+| angle | float | زاوية الدوران بالدرجات. القيم الموجبة ستدور باتجاه عقارب الساعة. |
 
 ### setPalette(IColorPalette palette, boolean updateColors) {#setPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```

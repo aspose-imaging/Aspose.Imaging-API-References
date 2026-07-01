@@ -1,7 +1,7 @@
 ---
 title: "WmfExcludeClipRect"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "السجل META_EXCLUDECLIPRECT يضبط منطقة القص في سياق جهاز التشغيل إلى منطقة القص الحالية مطروحًا منها المستطيل المحدد."
+description: "السجل META_EXCLUDECLIPRECT يحدد منطقة القص في سياق جهاز التشغيل إلى منطقة القص الحالية مطروحًا منها المستطيل المحدد."
 type: docs
 weight: 34
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfExcludeClipRect extends WmfRectangle
 ```
 
-سجل META\_EXCLUDECLIPRECT يضبط منطقة القص في سياق جهاز التشغيل إلى منطقة القص الحالية مطروحًا منها المستطيل المحدد.
+سجل META\_EXCLUDECLIPRECT يحدد منطقة القص في سياق جهاز التشغيل لتصبح منطقة القص الحالية ناقص المستطيل المحدد.
 ## المنشئات
 
 | المنشئ | الوصف |

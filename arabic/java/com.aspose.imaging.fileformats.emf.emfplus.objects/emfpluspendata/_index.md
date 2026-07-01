@@ -7,7 +7,7 @@ weight: 64
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusPenData extends EmfPlusStructureObjectType
 ```
@@ -22,14 +22,14 @@ public final class EmfPlusPenData extends EmfPlusStructureObjectType
 
 | طريقة | الوصف |
 | --- | --- |
-| [getPenDataFlags()](#getPenDataFlags--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. |
-| [setPenDataFlags(int value)](#setPenDataFlags-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. |
-| [getPenUnit()](#getPenUnit--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد وحدات القياس للقلم. |
-| [setPenUnit(int value)](#setPenUnit-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد وحدات القياس للقلم. |
-| [getPenWidth()](#getPenWidth--) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. |
-| [setPenWidth(float value)](#setPenWidth-float-) | يحصل أو يضبط قيمة عائمة 32-بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. |
-| [getOptionalData()](#getOptionalData--) | يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (section 2.2.2.34) يحدد بيانات إضافية لكائن القلم. |
-| [setOptionalData(EmfPlusPenOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData-) | يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (section 2.2.2.34) يحدد بيانات إضافية لكائن القلم. |
+| [getPenDataFlags()](#getPenDataFlags--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. |
+| [setPenDataFlags(int value)](#setPenDataFlags-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. |
+| [getPenUnit()](#getPenUnit--) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد وحدات القياس للقلم. |
+| [setPenUnit(int value)](#setPenUnit-int-) | يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد وحدات القياس للقلم. |
+| [getPenWidth()](#getPenWidth--) | يحصل أو يضبط قيمة عائمة 32‑بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. |
+| [setPenWidth(float value)](#setPenWidth-float-) | يحصل أو يضبط قيمة عائمة 32‑بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. |
+| [getOptionalData()](#getOptionalData--) | يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (القسم 2.2.2.34) الذي يحدد بيانات إضافية لكائن القلم. |
+| [setOptionalData(EmfPlusPenOptionalData value)](#setOptionalData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData-) | يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (القسم 2.2.2.34) الذي يحدد بيانات إضافية لكائن القلم. |
 ### EmfPlusPenData() {#EmfPlusPenData--}
 ```
 public EmfPlusPenData()
@@ -42,7 +42,7 @@ public int getPenDataFlags()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من أعلام PenData (section 2.1.2.7).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من أعلام PenData (القسم 2.1.2.7).
 
 **Returns:**
 int
@@ -52,12 +52,12 @@ public void setPenDataFlags(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من أعلام PenData (section 2.1.2.7).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد البيانات في حقل OptionalData. يجب أن تتكون هذه القيمة من أعلام PenData (القسم 2.1.2.7).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPenUnit() {#getPenUnit--}
 ```
@@ -65,7 +65,7 @@ public int getPenUnit()
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد وحدات القياس للقلم. يجب أن تكون القيمة من تعداد UnitType (section 2.1.1.33).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد وحدات القياس للقلم. يجب أن تكون القيمة من تعداد UnitType (القسم 2.1.1.33).
 
 **Returns:**
 int
@@ -75,12 +75,12 @@ public void setPenUnit(int value)
 ```
 
 
-يحصل أو يضبط عددًا صحيحًا غير موقع 32-بت يحدد وحدات القياس للقلم. يجب أن تكون القيمة من تعداد UnitType (section 2.1.1.33).
+يحصل أو يضبط عددًا صحيحًا غير موقع 32‑بت يحدد وحدات القياس للقلم. يجب أن تكون القيمة من تعداد UnitType (القسم 2.1.1.33).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int |  |
+| value | int |  |
 
 ### getPenWidth() {#getPenWidth--}
 ```
@@ -88,7 +88,7 @@ public float getPenWidth()
 ```
 
 
-يحصل أو يضبط قيمة عائمة 32-بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. إذا تم تحديد عرض صفر، يتم استخدام قيمة حد أدنى تُحدد بواسطة الوحدات.
+يحصل أو يضبط قيمة عائمة 32‑بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. إذا تم تحديد عرض صفر، يتم استخدام قيمة دنيا يتم تحديدها بناءً على الوحدات.
 
 **Returns:**
 float
@@ -98,12 +98,12 @@ public void setPenWidth(float value)
 ```
 
 
-يحصل أو يضبط قيمة عائمة 32-بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. إذا تم تحديد عرض صفر، يتم استخدام قيمة حد أدنى تُحدد بواسطة الوحدات.
+يحصل أو يضبط قيمة عائمة 32‑بت تحدد عرض الخط المرسوم بالقلم بالوحدات المحددة في حقل PenUnit. إذا تم تحديد عرض صفر، يتم استخدام قيمة دنيا يتم تحديدها بناءً على الوحدات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float |  |
+| value | float |  |
 
 ### getOptionalData() {#getOptionalData--}
 ```
@@ -111,7 +111,7 @@ public EmfPlusPenOptionalData getOptionalData()
 ```
 
 
-يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (section 2.2.2.34) يحدد بيانات إضافية لكائن القلم. يتم تحديد محتويات هذا الحقل بناءً على قيمة حقل PenDataFlags.
+يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (القسم 2.2.2.34) الذي يحدد بيانات إضافية لكائن القلم. المحتويات المحددة لهذا الحقل يتم تحديدها بواسطة قيمة حقل PenDataFlags.
 
 **Returns:**
 [EmfPlusPenOptionalData](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata)
@@ -121,7 +121,7 @@ public void setOptionalData(EmfPlusPenOptionalData value)
 ```
 
 
-يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (section 2.2.2.34) يحدد بيانات إضافية لكائن القلم. يتم تحديد محتويات هذا الحقل بناءً على قيمة حقل PenDataFlags.
+يحصل أو يضبط كائن EmfPlusPenOptionalData اختياري (القسم 2.2.2.34) الذي يحدد بيانات إضافية لكائن القلم. المحتويات المحددة لهذا الحقل يتم تحديدها بواسطة قيمة حقل PenDataFlags.
 
 **Parameters:**
 | معامل | نوع | الوصف |

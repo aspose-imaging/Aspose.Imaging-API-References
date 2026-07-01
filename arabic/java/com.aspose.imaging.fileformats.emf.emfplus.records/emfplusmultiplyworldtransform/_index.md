@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusMultiplyWorldTransform"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يسجل EmfPlusMultiplyWorldTransform يضرب تحويل الفضاء العالمي الحالي بمصفوفة تحويل محددة."
+description: "سجل EmfPlusMultiplyWorldTransform يضرب تحويل الفضاء العالمي الحالي بمصفوفة تحويل محددة."
 type: docs
 weight: 41
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusMultiplyWorldTransform extends EmfPlusTerminalServerRecordType
 ```
 
-يسجل EmfPlusMultiplyWorldTransform يضرب تحويل الفضاء العالمي الحالي بمصفوفة تحويل محددة.
+سجل EmfPlusMultiplyWorldTransform يضرب تحويل الفضاء العالمي الحالي بمصفوفة تحويل محددة.
 ## المنشئات
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfPlusMultiplyWorldTransform(EmfPlusRecord source)](#EmfPlusMultiplyWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | ينشئ مثيلًا جديدًا من الفئة `EmfPlusMultiplyWorldTransform`. |
+| [EmfPlusMultiplyWorldTransform(EmfPlusRecord source)](#EmfPlusMultiplyWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-) | يُنشئ مثيلاً جديدًا للفئة `EmfPlusMultiplyWorldTransform`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,7 +31,7 @@ public EmfPlusMultiplyWorldTransform(EmfPlusRecord source)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `EmfPlusMultiplyWorldTransform`.
+يُنشئ مثيلاً جديدًا للفئة `EmfPlusMultiplyWorldTransform`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت [مصفوفة مضروبة لاحقًا]. إذا تم التعيين، يجب أن تُضرب مصفوفة التحويل لاحقًا. إذا لم يتم التعيين، يجب أن تُضرب مسبقًا.
+يحصل على قيمة تُظهر ما إذا كان [post multiplied matrix]. إذا تم ضبطه، يجب أن تُضرب مصفوفة التحويل بعديًا. إذا لم يُضبط، يجب أن تُضرب مسبقًا.
 
 القيمة: `true` إذا كان [post multiplied matrix]؛ وإلا `false`.
 

@@ -1,7 +1,7 @@
 ---
 title: "IPartialArgb32PixelLoader"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يتوافق مع بكسلات ARGB 32-بت المحمّلة جزئيًا."
+description: "يتوافق مع بكسلات ARGB 32-بت التي تم تحميلها جزئيًا."
 type: docs
 weight: 141
 url: /ar/java/com.aspose.imaging/ipartialargb32pixelloader/

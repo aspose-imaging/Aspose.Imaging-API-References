@@ -23,9 +23,9 @@ public class DngLoadOptions extends LoadOptions
 | طريقة | الوصف |
 | --- | --- |
 | [getFbdd()](#getFbdd--) | يحصل على FBDD. |
-| [setFbdd(int value)](#setFbdd-int-) | يعيّن FBDD. |
-| [getAdjustWhiteBalance()](#getAdjustWhiteBalance--) | يحصل على العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة. |
-| [setAdjustWhiteBalance(boolean value)](#setAdjustWhiteBalance-boolean-) | يعيّن العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة. |
+| [setFbdd(int value)](#setFbdd-int-) | يضبط FBDD. |
+| [getAdjustWhiteBalance()](#getAdjustWhiteBalance--) | يحصل على العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة. |
+| [setAdjustWhiteBalance(boolean value)](#setAdjustWhiteBalance-boolean-) | يضبط العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة. |
 ### DngLoadOptions() {#DngLoadOptions--}
 ```
 public DngLoadOptions()
@@ -41,19 +41,19 @@ public int getFbdd()
 يحصل على FBDD.
 
 **Returns:**
-int - تقليل الضوضاء قبل demosaic.
+int - تقليل الضوضاء قبل عملية الديموزايك.
 ### setFbdd(int value) {#setFbdd-int-}
 ```
 public void setFbdd(int value)
 ```
 
 
-يعيّن FBDD.
+يضبط FBDD.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تقليل الضوضاء قبل demosaic. |
+| value | int | تقليل الضوضاء قبل عملية الديموزايك. |
 
 ### getAdjustWhiteBalance() {#getAdjustWhiteBalance--}
 ```
@@ -61,24 +61,24 @@ public final boolean getAdjustWhiteBalance()
 ```
 
 
-يحصل على العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة.
+يحصل على العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة.
 
-Value: علامة تعديل توازن اللون الأبيض.
+القيمة: علامة تعديل توازن اللون الأبيض.
 
 **Returns:**
-boolean - العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة.
+boolean - العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة.
 ### setAdjustWhiteBalance(boolean value) {#setAdjustWhiteBalance-boolean-}
 ```
 public final void setAdjustWhiteBalance(boolean value)
 ```
 
 
-يعيّن العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة.
+يضبط العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة.
 
-Value: علامة تعديل توازن اللون الأبيض.
+القيمة: علامة تعديل توازن اللون الأبيض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحمّلة. |
+| value | boolean | العلامة التي تشير إلى أنه يجب تعديل توازن اللون الأبيض لصورة DNG المحملة. |
 

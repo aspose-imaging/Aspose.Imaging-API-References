@@ -7,7 +7,7 @@ weight: 13
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging/fileformats/cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxLayer extends CmxContainer
 ```
@@ -27,8 +27,8 @@ public class CmxLayer extends CmxContainer
 
 | طريقة | الوصف |
 | --- | --- |
-| [getFlags()](#getFlags--) | يحصل على العلامات. |
-| [setFlags(long value)](#setFlags-long-) | يضبط العلامات. |
+| [getFlags()](#getFlags--) | يحصل على الأعلام. |
+| [setFlags(long value)](#setFlags-long-) | يضبط الأعلام. |
 | [getName()](#getName--) | يحصل على اسم الطبقة. |
 | [setName(String value)](#setName-java.lang.String-) | يضبط اسم الطبقة. |
 | [getNumber()](#getNumber--) | يحصل على رقم ترتيب الطبقة. |
@@ -57,7 +57,7 @@ public final long getFlags()
 ```
 
 
-يحصل على العلامات.
+يحصل على الأعلام.
 
 **Returns:**
 long - العلامات.
@@ -67,12 +67,12 @@ public final void setFlags(long value)
 ```
 
 
-يضبط العلامات.
+يضبط الأعلام.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | long | العلامات. |
+| value | long | العلامات. |
 
 ### getName() {#getName--}
 ```
@@ -95,7 +95,7 @@ public final void setName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم الطبقة. |
+| value | java.lang.String | اسم الطبقة. |
 
 ### getNumber() {#getNumber--}
 ```
@@ -118,7 +118,7 @@ public final void setNumber(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | رقم ترتيب الطبقة. |
+| value | int | رقم ترتيب الطبقة. |
 
 ### isVisible() {#isVisible--}
 ```
@@ -141,7 +141,7 @@ public final void setVisible(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كانت هذه الطبقة مرئية. |
+| value | boolean | قيمة تشير إلى ما إذا كانت هذه الطبقة مرئية. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

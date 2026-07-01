@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.xmp.types.complex.resourceevent/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [ResourceEvent](../com.aspose.imaging.xmp.types.complex.resourceevent/resourceevent) | يحتوي على أبعاد لكائن مرسوم. |

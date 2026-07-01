@@ -1,7 +1,7 @@
 ---
 title: "ExifSceneCaptureType"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "قوائم تعداد نوع التقاط المشهد في EXIF."
+description: "قوائم تعداد نوع التقاط المشهد للـ exif."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.imaging.exif.enums/exifscenecapturetype/
@@ -12,22 +12,22 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ExifSceneCaptureType extends System.Enum
 ```
 
-قوائم تعداد نوع التقاط المشهد في EXIF.
+قوائم تعداد نوع التقاط المشهد للـ exif.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Standard](#Standard) | المشهد القياسي. |
-| [Landscape](#Landscape) | المشهد الطبيعي. |
-| [Portrait](#Portrait) | المشهد العمودي. |
-| [NightScene](#NightScene) | المشهد الليلي. |
+| [Standard](#Standard) | مشهد قياسي. |
+| [Landscape](#Landscape) | مشهد طبيعي. |
+| [Portrait](#Portrait) | مشهد بورتريه. |
+| [NightScene](#NightScene) | مشهد ليلي. |
 ### Standard {#Standard}
 ```
 public static final int Standard
 ```
 
 
-المشهد القياسي.
+مشهد قياسي.
 
 ### Landscape {#Landscape}
 ```
@@ -35,7 +35,7 @@ public static final int Landscape
 ```
 
 
-المشهد الطبيعي.
+مشهد طبيعي.
 
 ### Portrait {#Portrait}
 ```
@@ -43,7 +43,7 @@ public static final int Portrait
 ```
 
 
-المشهد العمودي.
+مشهد بورتريه.
 
 ### NightScene {#NightScene}
 ```
@@ -51,5 +51,5 @@ public static final int NightScene
 ```
 
 
-المشهد الليلي.
+مشهد ليلي.
 

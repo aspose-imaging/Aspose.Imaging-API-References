@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBa
 public class AutoWhiteBalanceFilterOptions extends FilterOptionsBase
 ```
 
-يوفر خيارات تكوين لمرشح Auto White Balance. يسمح بضبط معلمات تمديد التباين وتوسيع القنوات لتحسين مظهر الصور الرقمية.
+يوفر خيارات التكوين لمرشح Auto White Balance. يسمح بضبط معلمات تمديد التباين وتوسيع القنوات لتحسين مظهر الصور الرقمية.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,16 +22,16 @@ public class AutoWhiteBalanceFilterOptions extends FilterOptionsBase
 | [AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile)](#AutoWhiteBalanceFilterOptions-int-int-) |  |
 | [AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile, int targetValue)](#AutoWhiteBalanceFilterOptions-int-int-int-) |  |
 | [AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile, int targetValue, float maxScale)](#AutoWhiteBalanceFilterOptions-int-int-int-float-) |  |
-| [AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile, int targetValue, float maxScale, int protectedDarkOffset)](#AutoWhiteBalanceFilterOptions-int-int-int-float-int-) | ينشئ مثلاً جديداً من الفئة [AutoWhiteBalanceFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions). |
+| [AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile, int targetValue, float maxScale, int protectedDarkOffset)](#AutoWhiteBalanceFilterOptions-int-int-int-float-int-) | يُنشئ مثيلًا جديدًا من الفئة [AutoWhiteBalanceFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [getTargetHighPercentile()](#getTargetHighPercentile--) | يحصل على النسبة المئوية العليا المستهدفة لتمديد التباين. |
 | [getTargetValue()](#getTargetValue--) | يحصل على القيمة المستهدفة للنسبة المئوية العليا. |
-| [getMaxScale()](#getMaxScale--) | يحصل على عامل التحجيم الأقصى لكل قناة. |
-| [getLowPercentile()](#getLowPercentile--) | النسبة المئوية الدنيا لنقطة الأسود، تُستخدم لحماية الظلام (الافتراضي: 3). |
-| [getProtectedDarkOffset()](#getProtectedDarkOffset--) | الإزاحة من النسبة المئوية الدنيا التي أدناه لا يتم تمديد البكسلات الداكنة (حماية). |
+| [getMaxScale()](#getMaxScale--) | يُرجع عامل التحجيم الأقصى لكل قناة. |
+| [getLowPercentile()](#getLowPercentile--) | النسبة المئوية المنخفضة لنقطة الأسود، تُستخدم للحماية من الظلام (الافتراضي: 3). |
+| [getProtectedDarkOffset()](#getProtectedDarkOffset--) | الإزاحة من النسبة المئوية المنخفضة التي أدناه لا يتم تمديد البكسلات الداكنة (حماية). |
 ### AutoWhiteBalanceFilterOptions() {#AutoWhiteBalanceFilterOptions--}
 ```
 public AutoWhiteBalanceFilterOptions()
@@ -94,16 +94,16 @@ public AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile
 ```
 
 
-ينشئ مثلاً جديداً من الفئة [AutoWhiteBalanceFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions).
+يُنشئ مثيلًا جديدًا من الفئة [AutoWhiteBalanceFilterOptions](../../com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| lowPercentile | int | النسبة المئوية الدنيا لنقطة الأسود، تُستخدم لحماية الظلام (الافتراضي: 3). |
-| targetHighPercentile | int | النسبة المئوية العليا المستهدفة لتمديد التباين (الافتراضي 97). |
-| targetValue | int | القيمة المستهدفة للنسبة المئوية العليا (الافتراضي 255). |
+| lowPercentile | int | النسبة المئوية المنخفضة لنقطة الأسود، تُستخدم للحماية من الظلام (الافتراضي: 3). |
+| targetHighPercentile | int | النسبة المئوية العالية المستهدفة لتوسيع التباين (الافتراضي 97). |
+| targetValue | int | القيمة المستهدفة للنسبة المئوية العالية (الافتراضي 255). |
 | maxScale | float | عامل التحجيم الأقصى لكل قناة (الافتراضي 1.4f). |
-| protectedDarkOffset | int | الإزاحة من النسبة المئوية الدنيا التي أدناه لا يتم تمديد البكسلات الداكنة (حماية). |
+| protectedDarkOffset | int | الإزاحة من النسبة المئوية المنخفضة التي أدناه لا يتم تمديد البكسلات الداكنة (حماية). |
 
 ### getTargetHighPercentile() {#getTargetHighPercentile--}
 ```
@@ -111,27 +111,27 @@ public final int getTargetHighPercentile()
 ```
 
 
-يحصل على النسبة المئوية العليا المستهدفة لتوسيع التباين. يحدد أي نسبة إضاءة سيتم ربطها بالقيمة المستهدفة.
+يُرجع النسبة المئوية العالية المستهدفة لتوسيع التباين. يحدد أي نسبة إضاءة سيتم ربطها بالقيمة المستهدفة.
 
 **Returns:**
-int - النسبة المئوية العليا المستهدفة لتوسيع التباين.
+int - النسبة المئوية العالية المستهدفة لتوسيع التباين.
 ### getTargetValue() {#getTargetValue--}
 ```
 public final int getTargetValue()
 ```
 
 
-يحصل على القيمة المستهدفة للنسبة المئوية العليا. ستُستخدم هذه القيمة كمرجع أبيض لتوسيع التباين.
+يُرجع القيمة المستهدفة للنسبة المئوية العالية. ستُستخدم هذه القيمة كمرجع أبيض لتوسيع التباين.
 
 **Returns:**
-int - القيمة المستهدفة للنسبة المئوية العليا.
+int - القيمة المستهدفة للنسبة المئوية العالية.
 ### getMaxScale() {#getMaxScale--}
 ```
 public final float getMaxScale()
 ```
 
 
-يحصل على عامل التحجيم الأقصى لكل قناة. يحد من تضخيم أي قناة لتجنب تغيرات اللون المفرطة.
+يُرجع عامل التحجيم الأقصى لكل قناة. يحد من تضخيم أي قناة لتجنب التحولات اللونية المفرطة.
 
 **Returns:**
 float - عامل التحجيم الأقصى لكل قناة.
@@ -141,7 +141,7 @@ public final int getLowPercentile()
 ```
 
 
-النسبة المئوية الدنيا لنقطة الأسود، تُستخدم لحماية الظلام (الافتراضي: 3).
+النسبة المئوية المنخفضة لنقطة الأسود، تُستخدم للحماية من الظلام (الافتراضي: 3).
 
 **Returns:**
 int
@@ -151,7 +151,7 @@ public final int getProtectedDarkOffset()
 ```
 
 
-الإزاحة من النسبة المئوية الدنيا التي أدناه لا يتم تمديد البكسلات الداكنة (حماية).
+الإزاحة من النسبة المئوية المنخفضة التي أدناه لا يتم تمديد البكسلات الداكنة (حماية).
 
 **Returns:**
 int

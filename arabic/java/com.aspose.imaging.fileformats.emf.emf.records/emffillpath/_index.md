@@ -1,7 +1,7 @@
 ---
 title: "EmfFillPath"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل EMR_FILLPATH يغلق أي أشكال مفتوحة في المسار الحالي ويملأ داخل المسارات باستخدام الفرشاة الحالية ووضعية تعبئة المضلع."
+description: "سجل EMR_FILLPATH يغلق أي أشكال مفتوحة في المسار الحالي ويملأ داخل المسارات باستخدام الفرشاة الحالية ووضعية ملء المضلع."
 type: docs
 weight: 58
 url: /ar/java/com.aspose.imaging.fileformats.emf.emf.records/emffillpath/
@@ -17,21 +17,21 @@ public final class EmfFillPath extends EmfDrawingRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfFillPath(EmfRecord source)](#EmfFillPath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديدًا من الفئة `EmfFillPath`. |
-| [EmfFillPath()](#EmfFillPath--) | يُنشئ مثيلاً جديدًا من الفئة `EmfFillPath`. |
+| [EmfFillPath(EmfRecord source)](#EmfFillPath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-) | يُنشئ مثيلاً جديداً من الفئة `EmfFillPath`. |
+| [EmfFillPath()](#EmfFillPath--) | يُنشئ مثيلاً جديداً من الفئة `EmfFillPath`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBounds()](#getBounds--) | يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي بوحدات الجهاز. |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي بوحدات الجهاز. |
+| [getBounds()](#getBounds--) | الحصول أو تعيين كائن WMF RectL 128-بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط بوحدات الجهاز. |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | الحصول أو تعيين كائن WMF RectL 128-بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط بوحدات الجهاز. |
 ### EmfFillPath(EmfRecord source) {#EmfFillPath-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfFillPath(EmfRecord source)
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfFillPath`.
+يُنشئ مثيلاً جديداً من الفئة `EmfFillPath`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -44,7 +44,7 @@ public EmfFillPath()
 ```
 
 
-يُنشئ مثيلاً جديدًا من الفئة `EmfFillPath`.
+يُنشئ مثيلاً جديداً من الفئة `EmfFillPath`.
 
 ### getBounds() {#getBounds--}
 ```
@@ -52,7 +52,7 @@ public Rectangle getBounds()
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي بوحدات الجهاز.
+الحصول أو تعيين كائن WMF RectL 128-بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط بوحدات الجهاز.
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -62,7 +62,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-يحصل أو يعيّن كائن WMF RectL 128‑بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل الحدّي بوحدات الجهاز.
+الحصول أو تعيين كائن WMF RectL 128-بت، المحدد في [MS-WMF] القسم 2.2.2.19، والذي يحدد المستطيل المحيط بوحدات الجهاز.
 
 **Parameters:**
 | معامل | نوع | الوصف |

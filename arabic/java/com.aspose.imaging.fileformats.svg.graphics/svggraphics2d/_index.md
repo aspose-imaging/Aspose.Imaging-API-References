@@ -17,8 +17,8 @@ public class SvgGraphics2D
 
 | المنشئ | الوصف |
 | --- | --- |
-| [SvgGraphics2D(int width, int height, int dpi)](#SvgGraphics2D-int-int-int-) | ينشئ مثيلاً جديداً من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
-| [SvgGraphics2D(SvgImage image)](#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-) | ينشئ مثيلاً جديداً من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
+| [SvgGraphics2D(int width, int height, int dpi)](#SvgGraphics2D-int-int-int-) | يُنشئ نسخة جديدة من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
+| [SvgGraphics2D(SvgImage image)](#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-) | يُنشئ نسخة جديدة من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,14 +28,14 @@ public class SvgGraphics2D
 | [drawImage(Rectangle srcRect, Rectangle destRect, RasterImage image)](#drawImage-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RasterImage-) | يرسم الجزء المحدد من الصورة المحددة في الموقع المحدد وبالحجم المحدد. |
 | [drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle)](#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-) | يرسم قوسًا يمثل جزءًا من إهليلج محدد بواسطة بنية Rectangle. |
 | [fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle)](#fillArc-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-) | يملأ قوسًا يمثل جزءًا من إهليلج محدد بواسطة بنية Rectangle. |
-| [drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يرسم منحنى بيزيه مكعب. |
+| [drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | يرسم منحنى بيزير مكعب. |
 | [drawString(Font font, String text, Point origin, Color textColor)](#drawString-com.aspose.imaging.Font-java.lang.String-com.aspose.imaging.Point-com.aspose.imaging.Color-) | يرسم سلسلة النص. |
 | [drawLine(Pen pen, int x1, int y1, int x2, int y2)](#drawLine-com.aspose.imaging.Pen-int-int-int-int-) | يرسم الخط. |
 | [drawPath(Pen pen, GraphicsPath path)](#drawPath-com.aspose.imaging.Pen-com.aspose.imaging.GraphicsPath-) | يرسم المسار. |
-| [fillPath(Pen pen, Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | يملىء المسار. |
+| [fillPath(Pen pen, Brush brush, GraphicsPath path)](#fillPath-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.GraphicsPath-) | يملأ المسار. |
 | [drawRectangle(Pen pen, int x, int y, int width, int height)](#drawRectangle-com.aspose.imaging.Pen-int-int-int-int-) | يرسم المستطيل. |
 | [fillRectangle(Pen pen, Brush brush, int x, int y, int width, int height)](#fillRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Brush-int-int-int-int-) | يملأ المستطيل. |
-| [endRecording()](#endRecording--) | يحصل على صورة Svg النهائية التي تتضمن جميع أوامر الرسم التي تم تنفيذها عبر كائن [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
+| [endRecording()](#endRecording--) | يحصل على صورة Svg النهائية التي تشمل جميع أوامر الرسم التي تم تنفيذها عبر كائن [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d). |
 
 ## Example: This example shows how to create an SVG image of the specified size and draw different shapes on it using SvgGraphics2D.
 
@@ -51,7 +51,7 @@ com.aspose.imaging.fileformats.svg.graphics.SvgGraphics2D graphics = new com.asp
 // ارسم مستطيلًا أسود على حدود الصورة باستخدام قلم أسود بعرض بكسل واحد.
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, imageWidth, imageHeight);
 
-// املأ مستطيلًا بلون الدخان الأبيض.
+// املأ مستطيلًا بلون دخان أبيض.
 graphics.fillRectangle(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getWhiteSmoke(), 1),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()), 10, 10, 580, 380);
@@ -70,7 +70,7 @@ graphics.fillArc(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getLightCor
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// ارسم منحنى بيزيه مكعب باستخدام قلم أحمر بعرض بكسلين.
+// ارسم منحنى بيزير مكعب باستخدام قلم أحمر بعرض بكسلين.
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.PointF(0, 0),
         new com.aspose.imaging.PointF(200, 133),
@@ -135,10 +135,10 @@ figureToDraw.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(200, 200, 200, 200), 0, 360),
         });
 
-// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسلات.
+// ارسم المسار باستخدام قلم برتقالي بعرض 5 بكسل.
 graphics.drawPath(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getOrange(), 5), pathToDraw);
 
-// احصل على صورة SVG النهائية التي تتضمن جميع أوامر الرسم
+// احصل على صورة SVG النهائية التي تشمل جميع أوامر الرسم
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = graphics.endRecording();
 try {
     svgImage.save(dir + "test.output.svg");
@@ -153,14 +153,14 @@ public SvgGraphics2D(int width, int height, int dpi)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
+يُنشئ نسخة جديدة من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| العرض | int | عرض صورة Svg الناتجة. |
-| الارتفاع | int | عرض صورة Svg الناتجة. |
-| dpi | int | دقة الجهاز، مثال: 96 نقطة لكل بوصة. |
+| width | int | عرض صورة Svg الناتجة. |
+| height | int | عرض صورة Svg الناتجة. |
+| dpi | int | دقة الجهاز، مثال 96 نقطة في البوصة. |
 
 ### SvgGraphics2D(SvgImage image) {#SvgGraphics2D-com.aspose.imaging.fileformats.svg.SvgImage-}
 ```
@@ -168,12 +168,12 @@ public SvgGraphics2D(SvgImage image)
 ```
 
 
-ينشئ مثيلاً جديداً من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
+يُنشئ نسخة جديدة من الفئة [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image | [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) | الصورة التي سيتم تنفيذ عمليات الرسم عليها. |
+| image | [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) | الصورة التي تُجرى عليها عمليات الرسم. |
 
 ### drawImage(RasterImage image, Point origin) {#drawImage-com.aspose.imaging.RasterImage-com.aspose.imaging.Point-}
 ```
@@ -216,8 +216,8 @@ public final void drawImage(Rectangle srcRect, Rectangle destRect, RasterImage i
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | srcRect | [Rectangle](../../com.aspose.imaging/rectangle) | الجزء من كائن الصورة الذي سيتم رسمه. |
-| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | موقع وحجم الصورة المرسومة. يتم تحجيم الصورة لتناسب المستطيل. |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة التي سيتم رسمها. |
+| destRect | [Rectangle](../../com.aspose.imaging/rectangle) | الموقع والحجم للصورة المرسومة. يتم تحجيم الصورة لتناسب المستطيل. |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | الصورة المراد رسمها. |
 
 ### drawArc(Pen pen, Rectangle rect, float startAngle, float arcAngle) {#drawArc-com.aspose.imaging.Pen-com.aspose.imaging.Rectangle-float-float-}
 ```
@@ -232,8 +232,8 @@ public final void drawArc(Pen pen, Rectangle rect, float startAngle, float arcAn
 | --- | --- | --- |
 | pen | [Pen](../../com.aspose.imaging/pen) | القلم لرسم حدود الشكل. |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | حدود القطع الناقص. |
-| startAngle | float | الزاوية بالدرجات مقاسة باتجاه عقارب الساعة من محور x إلى نقطة بدء القوس. |
-| arcAngle | float | الزاوية بالدرجات مقاسة باتجاه عقارب الساعة من معامل startAngle إلى نقطة النهاية للقوس. |
+| startAngle | float | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من محور x إلى نقطة بدء القوس. |
+| arcAngle | float | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من معامل startAngle إلى نقطة نهاية القوس. |
 
 ### fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle, float arcAngle) {#fillArc-com.aspose.imaging.Pen-com.aspose.imaging.Brush-com.aspose.imaging.Rectangle-float-float-}
 ```
@@ -249,8 +249,8 @@ public final void fillArc(Pen pen, Brush brush, Rectangle rect, float startAngle
 | pen | [Pen](../../com.aspose.imaging/pen) | القلم لرسم حدود الشكل. |
 | brush | [Brush](../../com.aspose.imaging/brush) | الفرشاة لملء داخل الشكل. |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | حدود القطع الناقص. |
-| startAngle | float | الزاوية بالدرجات مقاسة باتجاه عقارب الساعة من محور x إلى نقطة بدء القوس. |
-| arcAngle | float | الزاوية بالدرجات مقاسة باتجاه عقارب الساعة من معامل startAngle إلى نقطة النهاية للقوس. |
+| startAngle | float | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من محور x إلى نقطة بدء القوس. |
+| arcAngle | float | الزاوية بالدرجات المقاسة باتجاه عقارب الساعة من معامل startAngle إلى نقطة نهاية القوس. |
 
 ### drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4) {#drawCubicBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
 ```
@@ -258,7 +258,7 @@ public final void drawCubicBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, P
 ```
 
 
-يرسم منحنى بيزيه مكعب.
+يرسم منحنى بيزير مكعب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -282,7 +282,7 @@ public final void drawString(Font font, String text, Point origin, Color textCol
 | --- | --- | --- |
 | font | [Font](../../com.aspose.imaging/font) | الخط المستخدم لعرض النص. |
 | text | java.lang.String | سلسلة النص Unicode. |
-| origin | [Point](../../com.aspose.imaging/point) | الزاوية العلوية اليسرى لتد النص. |
+| origin | [Point](../../com.aspose.imaging/point) | الزاوية العلوية اليسرى لتشغيل النص. |
 | textColor | [Color](../../com.aspose.imaging/color) | لون النص. |
 
 ### drawLine(Pen pen, int x1, int y1, int x2, int y2) {#drawLine-com.aspose.imaging.Pen-int-int-int-int-}
@@ -322,7 +322,7 @@ public final void fillPath(Pen pen, Brush brush, GraphicsPath path)
 ```
 
 
-يملىء المسار.
+يملأ المسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -343,10 +343,10 @@ public final void drawRectangle(Pen pen, int x, int y, int width, int height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | pen | [Pen](../../com.aspose.imaging/pen) | القلم لرسم حدود الشكل. |
-| س | int | الإحداثي السيني للزاوية العلوية اليسرى للمستطيل المراد رسمه. |
-| ص | int | الإحداثي الصادي للزاوية العلوية اليسرى للمستطيل المراد رسمه. |
-| العرض | int | عرض المستطيل المراد رسمه. |
-| الارتفاع | int | ارتفاع المستطيل المراد رسمه. |
+| x | int | الإحداثي السيني للزاوية العليا اليسرى للمستطيل المراد رسمه. |
+| y | int | الإحداثي الصادي للزاوية العليا اليسرى للمستطيل المراد رسمه. |
+| width | int | عرض المستطيل المراد رسمه. |
+| height | int | ارتفاع المستطيل المراد رسمه. |
 
 ### fillRectangle(Pen pen, Brush brush, int x, int y, int width, int height) {#fillRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Brush-int-int-int-int-}
 ```
@@ -361,10 +361,10 @@ public final void fillRectangle(Pen pen, Brush brush, int x, int y, int width, i
 | --- | --- | --- |
 | pen | [Pen](../../com.aspose.imaging/pen) | القلم لرسم حدود الشكل. |
 | brush | [Brush](../../com.aspose.imaging/brush) | الفرشاة لملء داخل الشكل. |
-| س | int | الإحداثي السيني للزاوية العلوية اليسرى للمستطيل المراد رسمه. |
-| ص | int | الإحداثي الصادي للزاوية العلوية اليسرى للمستطيل المراد رسمه. |
-| العرض | int | عرض المستطيل المراد رسمه. |
-| الارتفاع | int | ارتفاع المستطيل المراد رسمه. |
+| x | int | الإحداثي السيني للزاوية العليا اليسرى للمستطيل المراد رسمه. |
+| y | int | الإحداثي الصادي للزاوية العليا اليسرى للمستطيل المراد رسمه. |
+| width | int | عرض المستطيل المراد رسمه. |
+| height | int | ارتفاع المستطيل المراد رسمه. |
 
 ### endRecording() {#endRecording--}
 ```
@@ -372,7 +372,7 @@ public final SvgImage endRecording()
 ```
 
 
-يحصل على صورة Svg النهائية التي تتضمن جميع أوامر الرسم التي تم تنفيذها عبر كائن [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
+يحصل على صورة Svg النهائية التي تشمل جميع أوامر الرسم التي تم تنفيذها عبر كائن [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d).
 
 **Returns:**
 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) - The final Svg image.

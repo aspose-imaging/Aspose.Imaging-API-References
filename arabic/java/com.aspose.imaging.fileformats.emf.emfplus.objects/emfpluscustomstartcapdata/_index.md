@@ -7,7 +7,7 @@ weight: 38
 url: /ar/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject), [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
+java.lang.Object، [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging/fileformats.emf/metaobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusObject](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusobject)، [com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType](../../com.aspose.imaging/fileformats.emf.emfplus.objects/emfplusstructureobjecttype)
 ```
 public final class EmfPlusCustomStartCapData extends EmfPlusStructureObjectType
 ```
@@ -36,7 +36,7 @@ public EmfPlusCustomLineCap getCustomStartCap()
 ```
 
 
-يحصل أو يضبط غطاء الخط المخصص الذي يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك مربع أو دائرة أو ماسة.
+يحصل أو يضبط غطاء الخط المخصص الذي يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك المربع أو الدائرة أو الماس.
 
 **Returns:**
 [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)
@@ -46,7 +46,7 @@ public void setCustomStartCap(EmfPlusCustomLineCap value)
 ```
 
 
-يحصل أو يضبط غطاء الخط المخصص الذي يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك مربع أو دائرة أو ماسة.
+يحصل أو يضبط غطاء الخط المخصص الذي يحدد الشكل المراد رسمه في نهاية الخط. يمكن أن يكون أيًا من الأشكال المتنوعة، بما في ذلك المربع أو الدائرة أو الماس.
 
 **Parameters:**
 | معامل | نوع | الوصف |

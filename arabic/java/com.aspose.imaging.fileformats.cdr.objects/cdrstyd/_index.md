@@ -1,7 +1,7 @@
 ---
 title: "CdrStyd"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr نمط"
+description: "نمط cdr"
 type: docs
 weight: 39
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrstyd/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrStyd extends CdrObjectContainer
 ```
 
-ال cdr نمط
+نمط cdr
 ## المنشئات
 
 | المنشئ | الوصف |

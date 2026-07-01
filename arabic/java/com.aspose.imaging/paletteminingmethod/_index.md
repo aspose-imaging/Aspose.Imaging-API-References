@@ -25,7 +25,7 @@ public final class PaletteMiningMethod extends System.Enum
 
 ``` java
 
-// يحمّل صورة PNG        
+// يحمّل صورة png        
 String sourceFilePath = "OriginalRings.png";
 String outputFilePath = "OriginalRingsOutput.png";
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePath))
@@ -36,8 +36,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // استخدم أقصى ضغط
     options.setCompressionLevel(9);
-    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة الملوّنة باللوحة
-    // تكاد تكون غير قابلة للتمييز بصريًا عن صورة غير ملوّنة باللوحة.
+    // احصل على أقرب لوحة ألوان 8‑بت تغطي أكبر عدد ممكن من البكسلات، بحيث تكون الصورة مُلوَّنة بلوحة ألوان.
+    // يكاد يكون غير قابل للتمييز بصريًا عن نسخة غير ملوّنة.
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      

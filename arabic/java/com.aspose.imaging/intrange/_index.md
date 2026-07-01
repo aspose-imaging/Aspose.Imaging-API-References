@@ -17,9 +17,9 @@ public class IntRange
 
 | المنشئ | الوصف |
 | --- | --- |
-| [IntRange(int start, int count)](#IntRange-int-int-) | يُنشئ مثيلاً جديدًا للفئة `IntRange`. |
-| [IntRange(int start, int count, int delta)](#IntRange-int-int-int-) | يُنشئ مثيلاً جديدًا للفئة `IntRange`. |
-| [IntRange(int[] range)](#IntRange-int---) | يُنشئ مثيلاً جديدًا للفئة `IntRange`. |
+| [IntRange(int start, int count)](#IntRange-int-int-) | يُنشئ مثيلًا جديدًا للفئة `IntRange`. |
+| [IntRange(int start, int count, int delta)](#IntRange-int-int-int-) | يُنشئ مثيلًا جديدًا للفئة `IntRange`. |
+| [IntRange(int[] range)](#IntRange-int---) | يُنشئ مثيلًا جديدًا للفئة `IntRange`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -34,7 +34,7 @@ public IntRange(int start, int count)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `IntRange`.
+يُنشئ مثيلًا جديدًا للفئة `IntRange`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -48,7 +48,7 @@ public IntRange(int start, int count, int delta)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `IntRange`.
+يُنشئ مثيلًا جديدًا للفئة `IntRange`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public IntRange(int[] range)
 ```
 
 
-يُنشئ مثيلاً جديدًا للفئة `IntRange`.
+يُنشئ مثيلًا جديدًا للفئة `IntRange`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,7 +91,7 @@ public void setRange(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | النطاق. |
+| value | int[] | النطاق. |
 
 ### getArrayOneItemFromIndex(int index) {#getArrayOneItemFromIndex-int-}
 ```
@@ -107,7 +107,7 @@ public int[] getArrayOneItemFromIndex(int index)
 | index | int | فهرس النطاق. |
 
 **Returns:**
-int[] - المصفوفة من `System.Int32`
+int[] - مصفوفة من `System.Int32`
 ### getRange(int start, int count, int delta) {#getRange-int-int-int-}
 ```
 public static int[] getRange(int start, int count, int delta)
@@ -124,4 +124,4 @@ public static int[] getRange(int start, int count, int delta)
 | delta | int | الفرق. |
 
 **Returns:**
-int[] - مصفوفة العناصر
+int[] - مصفوفة من العناصر

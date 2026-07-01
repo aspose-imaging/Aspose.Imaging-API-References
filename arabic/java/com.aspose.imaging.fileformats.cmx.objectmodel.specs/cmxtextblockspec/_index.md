@@ -133,7 +133,7 @@ public final void setText(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | النص. |
+| value | java.lang.String | النص. |
 
 ### getCharLocations() {#getCharLocations--}
 ```

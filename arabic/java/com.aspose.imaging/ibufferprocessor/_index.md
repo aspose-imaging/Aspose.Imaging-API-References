@@ -1,7 +1,7 @@
 ---
 title: "IBufferProcessor"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "معالج المخزن المؤقت."
+description: "معالج الذاكرة المؤقتة."
 type: docs
 weight: 124
 url: /ar/java/com.aspose.imaging/ibufferprocessor/

@@ -18,61 +18,61 @@ public final class HatchStyle extends System.Enum
 | حقل | الوصف |
 | --- | --- |
 | [Horizontal](#Horizontal) | نمط من الخطوط الأفقية. |
-| [Min](#Min) | يحدد نمط التهشير Horizontal. |
+| [Min](#Min) | يحدد نمط الترصيع Horizontal. |
 | [Vertical](#Vertical) | نمط من الخطوط العمودية. |
-| [ForwardDiagonal](#ForwardDiagonal) | نمط من الخطوط القطرية من الأعلى الأيسر إلى الأسفل الأيمن. |
-| [BackwardDiagonal](#BackwardDiagonal) | نمط من الخطوط القطرية من الأعلى الأيمن إلى الأسفل الأيسر. |
+| [ForwardDiagonal](#ForwardDiagonal) | نمط من الخطوط على القطر من الزاوية العليا اليسرى إلى الزاوية السفلى اليمنى. |
+| [BackwardDiagonal](#BackwardDiagonal) | نمط من الخطوط على القطر من الزاوية العليا اليمنى إلى الزاوية السفلى اليسرى. |
 | [Cross](#Cross) | يحدد خطوطًا أفقية وعمودية تتقاطع. |
-| [LargeGrid](#LargeGrid) | يحدد نمط التهشير Cross. |
-| [Max](#Max) | يحدد نمط التهشير SolidDiamond. |
-| [DiagonalCross](#DiagonalCross) | نمط من الخطوط القطرية المتشابكة. |
-| [Percent05](#Percent05) | يحدد تهشير بنسبة 5٪. |
-| [Percent10](#Percent10) | يحدد تهشير بنسبة 10٪. |
-| [Percent20](#Percent20) | يحدد تهشير بنسبة 20٪. |
-| [Percent25](#Percent25) | يحدد تهشير بنسبة 25٪. |
-| [Percent30](#Percent30) | يحدد تهشير بنسبة 30٪. |
-| [Percent40](#Percent40) | يحدد تهشير بنسبة 40٪. |
-| [Percent50](#Percent50) | يحدد تهشير بنسبة 50٪. |
+| [LargeGrid](#LargeGrid) | يحدد نمط الترصيع Cross. |
+| [Max](#Max) | يحدد نمط الترصيع SolidDiamond. |
+| [DiagonalCross](#DiagonalCross) | نمط من الخطوط القطرية المتقاطعة. |
+| [Percent05](#Percent05) | يحدد ترصيع بنسبة 5٪. |
+| [Percent10](#Percent10) | يحدد ترصيع بنسبة 10٪. |
+| [Percent20](#Percent20) | يحدد ترصيع بنسبة 20٪. |
+| [Percent25](#Percent25) | يحدد ترصيع بنسبة 25٪. |
+| [Percent30](#Percent30) | يحدد ترصيع بنسبة 30٪. |
+| [Percent40](#Percent40) | يحدد ترصيع بنسبة 40٪. |
+| [Percent50](#Percent50) | يحدد ترصيع بنسبة 50٪. |
 | [Percent60](#Percent60) | يحدد تعبئة بنسبة 60٪. |
 | [Percent70](#Percent70) | يحدد تعبئة بنسبة 70٪. |
 | [Percent75](#Percent75) | يحدد تعبئة بنسبة 75٪. |
 | [Percent80](#Percent80) | يحدد تعبئة بنسبة 80٪. |
 | [Percent90](#Percent90) | يحدد تعبئة بنسبة 90٪. |
-| [LightDownwardDiagonal](#LightDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية وتكون متباعدة بنسبة 50٪ أقرب من ForwardDiagonal، لكنها غير مضادة للتنعيم. |
-| [LightUpwardDiagonal](#LightUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية وتكون متباعدة بنسبة 50٪ أقرب من BackwardDiagonal، لكنها غير مضادة للتنعيم. |
-| [DarkDownwardDiagonal](#DarkDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية، وتكون متباعدة بنسبة 50٪ أقرب من ForwardDiagonal، وتكون عرضها ضعف ForwardDiagonal. |
-| [DarkUpwardDiagonal](#DarkUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية، وتكون متباعدة بنسبة 50٪ أقرب من BackwardDiagonal، وتكون عرضها ضعف BackwardDiagonal، لكن الخطوط غير مضادة للتنعيم. |
-| [WideDownwardDiagonal](#WideDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة ForwardDiagonal، وتكون عرضها ثلاثة أضعافه، لكنها غير مضادة للتنعيم. |
-| [WideUpwardDiagonal](#WideUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة BackwardDiagonal، وتكون عرضها ثلاثة أضعافه، لكنها غير مضادة للتنعيم. |
-| [LightVertical](#LightVertical) | يحدد خطوطًا رأسية تكون متباعدة بنسبة 50٪ أقرب من Vertical. |
-| [LightHorizontal](#LightHorizontal) | يحدد خطوطًا أفقية تكون متباعدة بنسبة 50٪ أقرب من Horizontal. |
-| [NarrowVertical](#NarrowVertical) | يحدد خطوطًا رأسية تكون متباعدة بنسبة 75٪ أقرب من نمط التعبئة Vertical (أو بنسبة 25٪ أقرب من LightVertical). |
-| [NarrowHorizontal](#NarrowHorizontal) | يحدد خطوطًا أفقية تكون متباعدة بنسبة 75٪ أقرب من نمط التعبئة Horizontal (أو بنسبة 25٪ أقرب من LightHorizontal). |
-| [DarkVertical](#DarkVertical) | يحدد خطوطًا رأسية تكون متباعدة بنسبة 50٪ أقرب من Vertical وتكون عرضها ضعف عرض Vertical. |
-| [DarkHorizontal](#DarkHorizontal) | يحدد خطوطًا أفقية تكون متباعدة بنسبة 50٪ أقرب من Horizontal وتكون عرضها ضعف عرض Horizontal. |
-| [DashedDownwardDiagonal](#DashedDownwardDiagonal) | يحدد خطوطًا مائلة منقطة، تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية. |
-| [DashedUpwardDiagonal](#DashedUpwardDiagonal) | يحدد خطوطًا مائلة منقطة، تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية. |
+| [LightDownwardDiagonal](#LightDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ ForwardDiagonal، لكنها غير مضادة للتنعيم. |
+| [LightUpwardDiagonal](#LightUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ BackwardDiagonal، لكنها غير مضادة للتنعيم. |
+| [DarkDownwardDiagonal](#DarkDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية، وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ ForwardDiagonal، وتكون عرضها ضعف عرض ForwardDiagonal. |
+| [DarkUpwardDiagonal](#DarkUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية، وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ BackwardDiagonal، وتكون عرضها ضعف عرض BackwardDiagonal، لكنها غير مضادة للتنعيم. |
+| [WideDownwardDiagonal](#WideDownwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة ForwardDiagonal، وتكون عرضها ثلاثة أضعاف عرضه، لكنها غير مضادة للتنعيم. |
+| [WideUpwardDiagonal](#WideUpwardDiagonal) | يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة BackwardDiagonal، وتكون عرضها ثلاثة أضعاف عرضه، لكنها غير مضادة للتنعيم. |
+| [LightVertical](#LightVertical) | يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Vertical. |
+| [LightHorizontal](#LightHorizontal) | يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Horizontal. |
+| [NarrowVertical](#NarrowVertical) | يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 75٪ مقارنةً بنمط التعبئة Vertical (أو أقرب بنسبة 25٪ مقارنةً بـ LightVertical). |
+| [NarrowHorizontal](#NarrowHorizontal) | يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 75٪ مقارنةً بنمط التعبئة Horizontal (أو أقرب بنسبة 25٪ مقارنةً بـ LightHorizontal). |
+| [DarkVertical](#DarkVertical) | يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Vertical وتكون عرضها ضعف عرضها. |
+| [DarkHorizontal](#DarkHorizontal) | يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Horizontal وتكون عرضها ضعف عرض Horizontal. |
+| [DashedDownwardDiagonal](#DashedDownwardDiagonal) | يحدد خطوطًا مائلة منقطة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية. |
+| [DashedUpwardDiagonal](#DashedUpwardDiagonal) | يحدد خطوطًا مائلة منقطة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية. |
 | [DashedHorizontal](#DashedHorizontal) | يحدد خطوطًا أفقية منقطة. |
-| [DashedVertical](#DashedVertical) | يحدد خطوطًا رأسية منقطة. |
-| [SmallConfetti](#SmallConfetti) | يحدد نمط تعبئة له مظهر قُرص. |
-| [LargeConfetti](#LargeConfetti) | يحدد نمط تعبئة له مظهر قُرص، ويتكون من قطع أكبر من SmallConfetti. |
+| [DashedVertical](#DashedVertical) | يحدد خطوطًا عمودية منقطة. |
+| [SmallConfetti](#SmallConfetti) | يحدد نمط تعبئة له مظهر القُرصات. |
+| [LargeConfetti](#LargeConfetti) | يحدد نمط تعبئة له مظهر القُرصات، ويتكون من قطع أكبر من SmallConfetti. |
 | [ZigZag](#ZigZag) | يحدد خطوطًا أفقية مكوّنة من متعرجات. |
-| [Wave](#Wave) | يحدد خطوطًا أفقية مكوّنة من علامة التلدة. |
-| [DiagonalBrick](#DiagonalBrick) | يحدد نمط تعبئة له مظهر الطوب المتراكم المائل إلى اليسار من النقاط العلوية إلى النقاط السفلية. |
-| [HorizontalBrick](#HorizontalBrick) | يحدد نمط تعبئة له مظهر الطوب المتراكم أفقياً. |
-| [Weave](#Weave) | يحدد نمط تعبئة له مظهر مادة منسوجة. |
-| [Plaid](#Plaid) | يحدد نمط تعبئة له مظهر قماش مربّع. |
-| [Divot](#Divot) | يحدد نمط تعبئة له مظهر نقوش. |
-| [DottedGrid](#DottedGrid) | يحدد خطوطًا أفقية ورأسية، كل منها مكوّن من نقاط، تتقاطع. |
-| [DottedDiamond](#DottedDiamond) | يحدد خطوطًا قطرية مائلة للأمام ومائلة للخلف، كل منها مكوّن من نقاط، تتقاطع. |
-| [Shingle](#Shingle) | يحدد نمط تعبئة له مظهر ألواح مائلة مكدسة قطريًا مائلة إلى اليمين من النقاط العلوية إلى النقاط السفلية. |
-| [Trellis](#Trellis) | يحدد نمط تعبئة له مظهر شبكة تعريش. |
-| [Sphere](#Sphere) | يحدد نمط تعبئة له مظهر كرات موضوعة بجوار بعضها البعض. |
-| [SmallGrid](#SmallGrid) | يحدد خطوطًا أفقية ورأسية تتقاطع وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بنمط التعبئة Cross. |
-| [SmallCheckerBoard](#SmallCheckerBoard) | يحدد نمط تعبئة له مظهر لوحة شطرنج. |
-| [LargeCheckerBoard](#LargeCheckerBoard) | يحدد نمط تعبئة له مظهر لوحة شطرنج بمربعات حجمها ضعف حجم SmallCheckerBoard. |
-| [OutlinedDiamond](#OutlinedDiamond) | يحدد خطوطًا قطرية مائلة للأمام ومائلة للخلف تتقاطع ولكنها غير مضادة للتنعيم. |
-| [SolidDiamond](#SolidDiamond) | يحدد نمط تعبئة له مظهر لوحة شطرنج موضوعة قطريًا. |
+| [Wave](#Wave) | يحدد خطوطًا أفقية مكوّنة من علامة المد. |
+| [DiagonalBrick](#DiagonalBrick) | يحدد نمط تعبئة يبدو كطوب متراكم يميل إلى اليسار من النقاط العليا إلى النقاط السفلى. |
+| [HorizontalBrick](#HorizontalBrick) | يحدد نمط تعبئة يبدو كطوب متراكم أفقياً. |
+| [Weave](#Weave) | يحدد نمط تعبئة يبدو كمادة منسوجة. |
+| [Plaid](#Plaid) | يحدد نمط تعبئة يبدو كمادة مربّعة. |
+| [Divot](#Divot) | يحدد نمط تعبئة يبدو كحفر. |
+| [DottedGrid](#DottedGrid) | يحدد خطوطاً أفقية ورأسية، كل منها مكوّن من نقاط، تتقاطع. |
+| [DottedDiamond](#DottedDiamond) | يحدد خطوطاً مائلة إلى الأمام وإلى الخلف، كل منها مكوّن من نقاط، تتقاطع. |
+| [Shingle](#Shingle) | يحدد نمط تعبئة يبدو كقوبيلات متراكمّة مائلة تميل إلى اليمين من النقاط العليا إلى النقاط السفلى. |
+| [Trellis](#Trellis) | يحدد نمط تعبئة يبدو كتعريشة. |
+| [Sphere](#Sphere) | يحدد نمط تعبئة يبدو ككُرات موضوعة بجوار بعضها البعض. |
+| [SmallGrid](#SmallGrid) | يحدد خطوطاً أفقية ورأسية تتقاطع وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بنمط التعبئة Cross. |
+| [SmallCheckerBoard](#SmallCheckerBoard) | يحدد نمط تعبئة يبدو كرقعة شطرنج. |
+| [LargeCheckerBoard](#LargeCheckerBoard) | يحدد نمط تعبئة يبدو كرقعة شطرنج بمربعاتها ضعف حجم SmallCheckerBoard. |
+| [OutlinedDiamond](#OutlinedDiamond) | يحدد خطوطاً مائلة إلى الأمام وإلى الخلف تتقاطع ولكنها غير مضادة للتنعيم. |
+| [SolidDiamond](#SolidDiamond) | يحدد نمط تعبئة يبدو كرقعة شطرنج موضوعة مائلًا. |
 ### Horizontal {#Horizontal}
 ```
 public static final int Horizontal
@@ -87,7 +87,7 @@ public static final int Min
 ```
 
 
-يحدد نمط التهشير Horizontal.
+يحدد نمط الترصيع Horizontal.
 
 ### Vertical {#Vertical}
 ```
@@ -103,7 +103,7 @@ public static final int ForwardDiagonal
 ```
 
 
-نمط من الخطوط القطرية من الأعلى الأيسر إلى الأسفل الأيمن.
+نمط من الخطوط على القطر من الزاوية العليا اليسرى إلى الزاوية السفلى اليمنى.
 
 ### BackwardDiagonal {#BackwardDiagonal}
 ```
@@ -111,7 +111,7 @@ public static final int BackwardDiagonal
 ```
 
 
-نمط من الخطوط القطرية من الأعلى الأيمن إلى الأسفل الأيسر.
+نمط من الخطوط على القطر من الزاوية العليا اليمنى إلى الزاوية السفلى اليسرى.
 
 ### Cross {#Cross}
 ```
@@ -127,7 +127,7 @@ public static final int LargeGrid
 ```
 
 
-يحدد نمط التهشير Cross.
+يحدد نمط الترصيع Cross.
 
 ### Max {#Max}
 ```
@@ -135,7 +135,7 @@ public static final int Max
 ```
 
 
-يحدد نمط التهشير SolidDiamond.
+يحدد نمط الترصيع SolidDiamond.
 
 ### DiagonalCross {#DiagonalCross}
 ```
@@ -143,7 +143,7 @@ public static final int DiagonalCross
 ```
 
 
-نمط من الخطوط القطرية المتشابكة.
+نمط من الخطوط القطرية المتقاطعة.
 
 ### Percent05 {#Percent05}
 ```
@@ -231,7 +231,7 @@ public static final int Percent80
 ```
 
 
-يحدد نمط تظليل بنسبة 80 بالمائة. نسبة لون المقدمة إلى لون الخلفية هي 80:100.
+يحدد نمط تعبئة بنسبة 80٪. نسبة لون المقدمة إلى لون الخلفية هي 80:100.
 
 ### Percent90 {#Percent90}
 ```
@@ -239,7 +239,7 @@ public static final int Percent90
 ```
 
 
-يحدد نمط تظليل بنسبة 90 بالمائة. نسبة لون المقدمة إلى لون الخلفية هي 90:10.
+يحدد نمط تعبئة بنسبة 90٪. نسبة لون المقدمة إلى لون الخلفية هي 90:10.
 
 ### LightDownwardDiagonal {#LightDownwardDiagonal}
 ```
@@ -247,7 +247,7 @@ public static final int LightDownwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية وتكون متباعدة بنسبة 50٪ أقرب من ForwardDiagonal، لكنها غير مضادة للتنعيم.
+يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ ForwardDiagonal، لكنها غير مضادة للتنعيم.
 
 ### LightUpwardDiagonal {#LightUpwardDiagonal}
 ```
@@ -255,7 +255,7 @@ public static final int LightUpwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية وتكون متباعدة بنسبة 50٪ أقرب من BackwardDiagonal، لكنها غير مضادة للتنعيم.
+يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ BackwardDiagonal، لكنها غير مضادة للتنعيم.
 
 ### DarkDownwardDiagonal {#DarkDownwardDiagonal}
 ```
@@ -263,7 +263,7 @@ public static final int DarkDownwardDiagonal
 ```
 
 
-يحدد خطوطًا قطرية تميل إلى اليمين من النقاط العليا إلى النقاط السفلى، وتكون المسافة بينها أقرب بنسبة 50 بالمائة مقارنةً، وعرضها ضعف عرض ForwardDiagonal. هذا النمط غير مضاد للتنعيم.
+يحدد خطوطًا قطرية تميل إلى اليمين من النقاط العليا إلى النقاط السفلى، وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً، وعرضها ضعف عرض ForwardDiagonal. هذا النمط غير مضاد للتنعيم.
 
 ### DarkUpwardDiagonal {#DarkUpwardDiagonal}
 ```
@@ -271,7 +271,7 @@ public static final int DarkUpwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية، وتكون متباعدة بنسبة 50٪ أقرب من BackwardDiagonal، وتكون عرضها ضعف BackwardDiagonal، لكن الخطوط غير مضادة للتنعيم.
+يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية، وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ BackwardDiagonal، وتكون عرضها ضعف عرض BackwardDiagonal، لكنها غير مضادة للتنعيم.
 
 ### WideDownwardDiagonal {#WideDownwardDiagonal}
 ```
@@ -279,7 +279,7 @@ public static final int WideDownwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة ForwardDiagonal، وتكون عرضها ثلاثة أضعافه، لكنها غير مضادة للتنعيم.
+يحدد خطوطًا مائلة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة ForwardDiagonal، وتكون عرضها ثلاثة أضعاف عرضه، لكنها غير مضادة للتنعيم.
 
 ### WideUpwardDiagonal {#WideUpwardDiagonal}
 ```
@@ -287,7 +287,7 @@ public static final int WideUpwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة BackwardDiagonal، وتكون عرضها ثلاثة أضعافه، لكنها غير مضادة للتنعيم.
+يحدد خطوطًا مائلة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية، وتملك نفس التباعد كنمط التعبئة BackwardDiagonal، وتكون عرضها ثلاثة أضعاف عرضه، لكنها غير مضادة للتنعيم.
 
 ### LightVertical {#LightVertical}
 ```
@@ -295,7 +295,7 @@ public static final int LightVertical
 ```
 
 
-يحدد خطوطًا رأسية تكون متباعدة بنسبة 50٪ أقرب من Vertical.
+يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Vertical.
 
 ### LightHorizontal {#LightHorizontal}
 ```
@@ -303,7 +303,7 @@ public static final int LightHorizontal
 ```
 
 
-يحدد خطوطًا أفقية تكون متباعدة بنسبة 50٪ أقرب من Horizontal.
+يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Horizontal.
 
 ### NarrowVertical {#NarrowVertical}
 ```
@@ -311,7 +311,7 @@ public static final int NarrowVertical
 ```
 
 
-يحدد خطوطًا رأسية تكون متباعدة بنسبة 75٪ أقرب من نمط التعبئة Vertical (أو بنسبة 25٪ أقرب من LightVertical).
+يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 75٪ مقارنةً بنمط التعبئة Vertical (أو أقرب بنسبة 25٪ مقارنةً بـ LightVertical).
 
 ### NarrowHorizontal {#NarrowHorizontal}
 ```
@@ -319,7 +319,7 @@ public static final int NarrowHorizontal
 ```
 
 
-يحدد خطوطًا أفقية تكون متباعدة بنسبة 75٪ أقرب من نمط التعبئة Horizontal (أو بنسبة 25٪ أقرب من LightHorizontal).
+يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 75٪ مقارنةً بنمط التعبئة Horizontal (أو أقرب بنسبة 25٪ مقارنةً بـ LightHorizontal).
 
 ### DarkVertical {#DarkVertical}
 ```
@@ -327,7 +327,7 @@ public static final int DarkVertical
 ```
 
 
-يحدد خطوطًا رأسية تكون متباعدة بنسبة 50٪ أقرب من Vertical وتكون عرضها ضعف عرض Vertical.
+يحدد خطوطًا عمودية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Vertical وتكون عرضها ضعف عرضها.
 
 ### DarkHorizontal {#DarkHorizontal}
 ```
@@ -335,7 +335,7 @@ public static final int DarkHorizontal
 ```
 
 
-يحدد خطوطًا أفقية تكون متباعدة بنسبة 50٪ أقرب من Horizontal وتكون عرضها ضعف عرض Horizontal.
+يحدد خطوطًا أفقية تكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بـ Horizontal وتكون عرضها ضعف عرض Horizontal.
 
 ### DashedDownwardDiagonal {#DashedDownwardDiagonal}
 ```
@@ -343,7 +343,7 @@ public static final int DashedDownwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة منقطة، تنحني إلى اليمين من النقاط العلوية إلى النقاط السفلية.
+يحدد خطوطًا مائلة منقطة تنحني إلى اليمين من النقاط العليا إلى النقاط السفلية.
 
 ### DashedUpwardDiagonal {#DashedUpwardDiagonal}
 ```
@@ -351,7 +351,7 @@ public static final int DashedUpwardDiagonal
 ```
 
 
-يحدد خطوطًا مائلة منقطة، تنحني إلى اليسار من النقاط العلوية إلى النقاط السفلية.
+يحدد خطوطًا مائلة منقطة تنحني إلى اليسار من النقاط العليا إلى النقاط السفلية.
 
 ### DashedHorizontal {#DashedHorizontal}
 ```
@@ -367,7 +367,7 @@ public static final int DashedVertical
 ```
 
 
-يحدد خطوطًا رأسية منقطة.
+يحدد خطوطًا عمودية منقطة.
 
 ### SmallConfetti {#SmallConfetti}
 ```
@@ -375,7 +375,7 @@ public static final int SmallConfetti
 ```
 
 
-يحدد نمط تعبئة له مظهر قُرص.
+يحدد نمط تعبئة له مظهر القُرصات.
 
 ### LargeConfetti {#LargeConfetti}
 ```
@@ -383,7 +383,7 @@ public static final int LargeConfetti
 ```
 
 
-يحدد نمط تعبئة له مظهر قُرص، ويتكون من قطع أكبر من SmallConfetti.
+يحدد نمط تعبئة له مظهر القُرصات، ويتكون من قطع أكبر من SmallConfetti.
 
 ### ZigZag {#ZigZag}
 ```
@@ -399,7 +399,7 @@ public static final int Wave
 ```
 
 
-يحدد خطوطًا أفقية مكوّنة من علامة التلدة.
+يحدد خطوطًا أفقية مكوّنة من علامة المد.
 
 ### DiagonalBrick {#DiagonalBrick}
 ```
@@ -407,7 +407,7 @@ public static final int DiagonalBrick
 ```
 
 
-يحدد نمط تعبئة له مظهر الطوب المتراكم المائل إلى اليسار من النقاط العلوية إلى النقاط السفلية.
+يحدد نمط تعبئة يبدو كطوب متراكم يميل إلى اليسار من النقاط العليا إلى النقاط السفلى.
 
 ### HorizontalBrick {#HorizontalBrick}
 ```
@@ -415,7 +415,7 @@ public static final int HorizontalBrick
 ```
 
 
-يحدد نمط تعبئة له مظهر الطوب المتراكم أفقياً.
+يحدد نمط تعبئة يبدو كطوب متراكم أفقياً.
 
 ### Weave {#Weave}
 ```
@@ -423,7 +423,7 @@ public static final int Weave
 ```
 
 
-يحدد نمط تعبئة له مظهر مادة منسوجة.
+يحدد نمط تعبئة يبدو كمادة منسوجة.
 
 ### Plaid {#Plaid}
 ```
@@ -431,7 +431,7 @@ public static final int Plaid
 ```
 
 
-يحدد نمط تعبئة له مظهر قماش مربّع.
+يحدد نمط تعبئة يبدو كمادة مربّعة.
 
 ### Divot {#Divot}
 ```
@@ -439,7 +439,7 @@ public static final int Divot
 ```
 
 
-يحدد نمط تعبئة له مظهر نقوش.
+يحدد نمط تعبئة يبدو كحفر.
 
 ### DottedGrid {#DottedGrid}
 ```
@@ -447,7 +447,7 @@ public static final int DottedGrid
 ```
 
 
-يحدد خطوطًا أفقية ورأسية، كل منها مكوّن من نقاط، تتقاطع.
+يحدد خطوطاً أفقية ورأسية، كل منها مكوّن من نقاط، تتقاطع.
 
 ### DottedDiamond {#DottedDiamond}
 ```
@@ -455,7 +455,7 @@ public static final int DottedDiamond
 ```
 
 
-يحدد خطوطًا قطرية مائلة للأمام ومائلة للخلف، كل منها مكوّن من نقاط، تتقاطع.
+يحدد خطوطاً مائلة إلى الأمام وإلى الخلف، كل منها مكوّن من نقاط، تتقاطع.
 
 ### Shingle {#Shingle}
 ```
@@ -463,7 +463,7 @@ public static final int Shingle
 ```
 
 
-يحدد نمط تعبئة له مظهر ألواح مائلة مكدسة قطريًا مائلة إلى اليمين من النقاط العلوية إلى النقاط السفلية.
+يحدد نمط تعبئة يبدو كقوبيلات متراكمّة مائلة تميل إلى اليمين من النقاط العليا إلى النقاط السفلى.
 
 ### Trellis {#Trellis}
 ```
@@ -471,7 +471,7 @@ public static final int Trellis
 ```
 
 
-يحدد نمط تعبئة له مظهر شبكة تعريش.
+يحدد نمط تعبئة يبدو كتعريشة.
 
 ### Sphere {#Sphere}
 ```
@@ -479,7 +479,7 @@ public static final int Sphere
 ```
 
 
-يحدد نمط تعبئة له مظهر كرات موضوعة بجوار بعضها البعض.
+يحدد نمط تعبئة يبدو ككُرات موضوعة بجوار بعضها البعض.
 
 ### SmallGrid {#SmallGrid}
 ```
@@ -487,7 +487,7 @@ public static final int SmallGrid
 ```
 
 
-يحدد خطوطًا أفقية ورأسية تتقاطع وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بنمط التعبئة Cross.
+يحدد خطوطاً أفقية ورأسية تتقاطع وتكون المسافة بينها أقرب بنسبة 50٪ مقارنةً بنمط التعبئة Cross.
 
 ### SmallCheckerBoard {#SmallCheckerBoard}
 ```
@@ -495,7 +495,7 @@ public static final int SmallCheckerBoard
 ```
 
 
-يحدد نمط تعبئة له مظهر لوحة شطرنج.
+يحدد نمط تعبئة يبدو كرقعة شطرنج.
 
 ### LargeCheckerBoard {#LargeCheckerBoard}
 ```
@@ -503,7 +503,7 @@ public static final int LargeCheckerBoard
 ```
 
 
-يحدد نمط تعبئة له مظهر لوحة شطرنج بمربعات حجمها ضعف حجم SmallCheckerBoard.
+يحدد نمط تعبئة يبدو كرقعة شطرنج بمربعاتها ضعف حجم SmallCheckerBoard.
 
 ### OutlinedDiamond {#OutlinedDiamond}
 ```
@@ -511,7 +511,7 @@ public static final int OutlinedDiamond
 ```
 
 
-يحدد خطوطًا قطرية مائلة للأمام ومائلة للخلف تتقاطع ولكنها غير مضادة للتنعيم.
+يحدد خطوطاً مائلة إلى الأمام وإلى الخلف تتقاطع ولكنها غير مضادة للتنعيم.
 
 ### SolidDiamond {#SolidDiamond}
 ```
@@ -519,5 +519,5 @@ public static final int SolidDiamond
 ```
 
 
-يحدد نمط تعبئة له مظهر لوحة شطرنج موضوعة قطريًا.
+يحدد نمط تعبئة يبدو كرقعة شطرنج موضوعة مائلًا.
 

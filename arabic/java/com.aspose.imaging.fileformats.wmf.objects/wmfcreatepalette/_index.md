@@ -1,18 +1,18 @@
 ---
 title: "WmfCreatePalette"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "سجل META_CREATEPALETTE ينشئ كائن لوحة ألوان القسم 2.2.1.3."
+description: "السجل META_CREATEPALETTE ينشئ كائن Palette القسم 2.2.1.3."
 type: docs
 weight: 22
 url: /ar/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfgraphicobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject), [com.aspose.imaging.fileformats.wmf.objects.WmfGraphicObject](../../com.aspose.imaging/fileformats/wmf.objects/wmfgraphicobject)
 ```
 public class WmfCreatePalette extends WmfGraphicObject
 ```
 
-سجل META\_CREATEPALETTE ينشئ كائن Palette (القسم 2.2.1.3).
+سجل META\_CREATEPALETTE ينشئ كائن لوحة ألوان (القسم 2.2.1.3).
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -22,13 +22,13 @@ public class WmfCreatePalette extends WmfGraphicObject
 
 | حقل | الوصف |
 | --- | --- |
-| [PALETTE_START](#PALETTE-START) | علامة بدء لوحة الألوان |
+| [PALETTE_START](#PALETTE-START) | علامة بداية اللوحة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getLogPalette()](#getLogPalette--) | يحصل على لوحة الألوان المنطقية. |
-| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | يعيّن لوحة الألوان المنطقية. |
+| [getLogPalette()](#getLogPalette--) | يحصل على اللوحة المنطقية. |
+| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | يضبط اللوحة المنطقية. |
 ### WmfCreatePalette() {#WmfCreatePalette--}
 ```
 public WmfCreatePalette()
@@ -43,7 +43,7 @@ public static final int PALETTE_START
 ```
 
 
-علامة بدء لوحة الألوان
+علامة بداية اللوحة.
 
 ### getLogPalette() {#getLogPalette--}
 ```
@@ -51,7 +51,7 @@ public EmfLogPalette getLogPalette()
 ```
 
 
-يحصل على لوحة الألوان المنطقية.
+يحصل على اللوحة المنطقية.
 
 **Returns:**
 [EmfLogPalette](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogpalette) - The logical palette.
@@ -61,10 +61,10 @@ public void setLogPalette(EmfLogPalette value)
 ```
 
 
-يعيّن لوحة الألوان المنطقية.
+يضبط اللوحة المنطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [EmfLogPalette](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogpalette) | لوحة الألوان المنطقية. |
+| value | [EmfLogPalette](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogpalette) | اللوحة المنطقية. |
 

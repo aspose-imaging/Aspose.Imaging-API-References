@@ -17,15 +17,15 @@ public final class AsyncTask
 
 | طريقة | الوصف |
 | --- | --- |
-| [create(AsyncTaskAction taskAction)](#create-com.aspose.imaging.asynctask.AsyncTaskAction-) | ينشئ المهمة غير المتزامنة بدون أي نتيجة. |
-| [create(AsyncTaskFunc taskFunc)](#create-com.aspose.imaging.asynctask.AsyncTaskFunc-) | ينشئ المهمة غير المتزامنة مع نتيجة من نوع عام. |
+| [create(AsyncTaskAction taskAction)](#create-com.aspose.imaging.asynctask.AsyncTaskAction-) | ينشئ المهمة غير المتزامنة دون أي نتيجة. |
+| [create(AsyncTaskFunc taskFunc)](#create-com.aspose.imaging.asynctask.AsyncTaskFunc-) | ينشئ المهمة غير المتزامنة مع نتيجة من النوع العام. |
 ### create(AsyncTaskAction taskAction) {#create-com.aspose.imaging.asynctask.AsyncTaskAction-}
 ```
 public static IAsyncTask create(AsyncTaskAction taskAction)
 ```
 
 
-ينشئ المهمة غير المتزامنة بدون أي نتيجة.
+ينشئ المهمة غير المتزامنة دون أي نتيجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -40,7 +40,7 @@ public static IAsyncTask create(AsyncTaskFunc taskFunc)
 ```
 
 
-ينشئ المهمة غير المتزامنة مع نتيجة من نوع عام.
+ينشئ المهمة غير المتزامنة مع نتيجة من النوع العام.
 
 **Parameters:**
 | معامل | نوع | الوصف |

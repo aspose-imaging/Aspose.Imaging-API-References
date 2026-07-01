@@ -16,13 +16,13 @@ public final class EmfPlusPathPointTypeEnum extends System.Enum
 
 --------------------
 
-يتم تحديد أنواع نقاط مسار الرسومات بواسطة كائنات [EmfPlusPathPointType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype) (القسم 2.2.2.31).
+أنواع نقاط مسار الرسومات يتم تحديدها بواسطة كائنات [EmfPlusPathPointType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype) (القسم 2.2.2.31).
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [PathPointTypeStart](#PathPointTypeStart) | يحدد أن النقطة هي نقطة البداية لمسار. |
-| [PathPointTypeLine](#PathPointTypeLine) | يحدد أن النقطة هي واحدة من نقطتي النهاية لخط. |
+| [PathPointTypeLine](#PathPointTypeLine) | يحدد أن النقطة هي إحدى نقطتي النهاية لخط. |
 | [PathPointTypeBezier](#PathPointTypeBezier) | يحدد أن النقطة هي نقطة نهاية أو نقطة تحكم لمنحنى بيزيه مكعب. |
 ### PathPointTypeStart {#PathPointTypeStart}
 ```
@@ -38,7 +38,7 @@ public static final int PathPointTypeLine
 ```
 
 
-يحدد أن النقطة هي واحدة من نقطتي النهاية لخط.
+يحدد أن النقطة هي إحدى نقطتي النهاية لخط.
 
 ### PathPointTypeBezier {#PathPointTypeBezier}
 ```

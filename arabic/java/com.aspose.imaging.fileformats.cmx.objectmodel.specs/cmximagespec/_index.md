@@ -25,19 +25,19 @@ public class CmxImageSpec implements ICmxObjectSpec
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBoundBox()](#getBoundBox--) | يحصل على الصندوق المحدد. |
-| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق المحدد. |
+| [getBoundBox()](#getBoundBox--) | يحصل على الصندوق الحدودي. |
+| [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق الحدودي. |
 | [getCropBox()](#getCropBox--) | يحصل على صندوق القص. |
-| [setCropBox(RectangleF value)](#setCropBox-com.aspose.imaging.RectangleF-) | يضبط صندوق القص. |
+| [setCropBox(RectangleF value)](#setCropBox-com.aspose.imaging.RectangleF-) | يضبط مربع القص. |
 | [getMatrix()](#getMatrix--) | يحصل على مصفوفة التحويل. |
 | [setMatrix(Matrix value)](#setMatrix-com.aspose.imaging.Matrix-) | يضبط مصفوفة التحويل. |
 | [getImageType()](#getImageType--) | يحصل على نوع الصورة. |
 | [setImageType(int value)](#setImageType-int-) | يضبط نوع الصورة. |
 | [getImages()](#getImages--) | يحصل على الصور. |
 | [setImages(CmxRasterImage[] value)](#setImages-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxRasterImage---) | يضبط الصور. |
-| [isCmx3Image()](#isCmx3Image--) | يحصل على قيمة تشير إلى ما إذا كان هذا المثيل صورة CMX3. |
-| [setCmx3Image(boolean value)](#setCmx3Image-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا المثيل صورة CMX3. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [isCmx3Image()](#isCmx3Image--) | يحصل على قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3. |
+| [setCmx3Image(boolean value)](#setCmx3Image-boolean-) | يضبط قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [toArray()](#toArray--) |  |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
@@ -53,7 +53,7 @@ public final RectangleF getBoundBox()
 ```
 
 
-يحصل على الصندوق المحدد.
+يحصل على الصندوق الحدودي.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bound box.
@@ -63,12 +63,12 @@ public final void setBoundBox(RectangleF value)
 ```
 
 
-يضبط الصندوق المحدد.
+يضبط الصندوق الحدودي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | الصندوق المحدد. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | مربع الإحاطة. |
 
 ### getCropBox() {#getCropBox--}
 ```
@@ -86,7 +86,7 @@ public final void setCropBox(RectangleF value)
 ```
 
 
-يضبط صندوق القص.
+يضبط مربع القص.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -137,7 +137,7 @@ public final void setImageType(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | نوع الصورة. |
+| value | int | نوع الصورة. |
 
 ### getImages() {#getImages--}
 ```
@@ -168,26 +168,26 @@ public final boolean isCmx3Image()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كان هذا المثيل صورة CMX3.
+يحصل على قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3.
 
-القيمة: `true` إذا كانت هذه العينة صورة CMX3؛ وإلا `false`.
+القيمة: `true` إذا كان هذا الكائن صورة CMX3؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت هذه العينة صورة CMX3.
+boolean - قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3.
 ### setCmx3Image(boolean value) {#setCmx3Image-boolean-}
 ```
 public final void setCmx3Image(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا كان هذا المثيل صورة CMX3.
+يضبط قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3.
 
-القيمة: `true` إذا كانت هذه العينة صورة CMX3؛ وإلا `false`.
+القيمة: `true` إذا كان هذا الكائن صورة CMX3؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كانت هذه العينة صورة CMX3. |
+| value | boolean | قيمة تشير إلى ما إذا كان هذا الكائن صورة CMX3. |
 
 ### toString() {#toString--}
 ```
@@ -195,7 +195,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

@@ -17,7 +17,7 @@ public class OdPath extends OdStyledObject
 
 | المنشئ | الوصف |
 | --- | --- |
-| [OdPath(OdObject parent)](#OdPath-com.aspose.imaging.fileformats.opendocument.OdObject-) | ينشئ مثيلًا جديدًا من الفئة `OdPath`. |
+| [OdPath(OdObject parent)](#OdPath-com.aspose.imaging.fileformats.opendocument.OdObject-) | يُنشئ مثيلًا جديدًا من الفئة `OdPath`. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -28,22 +28,22 @@ public class OdPath extends OdStyledObject
 | [setTextStyleName(String value)](#setTextStyleName-java.lang.String-) | يحصل أو يضبط اسم نمط النص. |
 | [getLayer()](#getLayer--) | يحصل أو يضبط الطبقة. |
 | [setLayer(String value)](#setLayer-java.lang.String-) | يحصل أو يضبط الطبقة. |
-| [getData()](#getData--) | يحصل أو يضبط البيانات. |
-| [setData(String value)](#setData-java.lang.String-) | يحصل أو يضبط البيانات. |
-| [getEnhancedPath()](#getEnhancedPath--) | يحصل أو يعيّن المسار المحسّن. |
-| [setEnhancedPath(OdGraphicObject[] value)](#setEnhancedPath-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يعيّن المسار المحسّن. |
+| [getData()](#getData--) | يحصل أو يعيّن البيانات. |
+| [setData(String value)](#setData-java.lang.String-) | يحصل أو يعيّن البيانات. |
+| [getEnhancedPath()](#getEnhancedPath--) | يحصل أو يضبط المسار المعزز. |
+| [setEnhancedPath(OdGraphicObject[] value)](#setEnhancedPath-com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject---) | يحصل أو يضبط المسار المعزز. |
 ### OdPath(OdObject parent) {#OdPath-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdPath(OdObject parent)
 ```
 
 
-ينشئ مثيلًا جديدًا من الفئة `OdPath`.
+يُنشئ مثيلًا جديدًا من الفئة `OdPath`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الوالد. |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | الأصل. |
 
 ### getStyleName() {#getStyleName--}
 ```
@@ -66,7 +66,7 @@ public void setStyleName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم النمط. |
+| value | java.lang.String | اسم النمط. |
 
 ### getTextStyleName() {#getTextStyleName--}
 ```
@@ -89,7 +89,7 @@ public void setTextStyleName(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | اسم نمط النص. |
+| value | java.lang.String | اسم نمط النص. |
 
 ### getLayer() {#getLayer--}
 ```
@@ -112,7 +112,7 @@ public void setLayer(String value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | الطبقة. |
+| value | java.lang.String | الطبقة. |
 
 ### getData() {#getData--}
 ```
@@ -120,7 +120,7 @@ public String getData()
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 **Returns:**
 java.lang.String - البيانات.
@@ -130,12 +130,12 @@ public void setData(String value)
 ```
 
 
-يحصل أو يضبط البيانات.
+يحصل أو يعيّن البيانات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | البيانات. |
+| value | java.lang.String | البيانات. |
 
 ### getEnhancedPath() {#getEnhancedPath--}
 ```
@@ -143,7 +143,7 @@ public OdGraphicObject[] getEnhancedPath()
 ```
 
 
-يحصل أو يعيّن المسار المحسّن.
+يحصل أو يضبط المسار المعزز.
 
 **Returns:**
 com.aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject[] - المسار المعزز.
@@ -153,7 +153,7 @@ public void setEnhancedPath(OdGraphicObject[] value)
 ```
 
 
-يحصل أو يعيّن المسار المحسّن.
+يحصل أو يضبط المسار المعزز.
 
 **Parameters:**
 | معامل | نوع | الوصف |

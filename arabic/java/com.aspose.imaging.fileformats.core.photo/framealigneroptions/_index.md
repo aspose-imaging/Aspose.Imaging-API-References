@@ -1,7 +1,7 @@
 ---
 title: "FrameAlignerOptions"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "خيارات محاذاة الإطار."
+description: "خيارات محاذاة الإطارات"
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.core.photo/framealigneroptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public class FrameAlignerOptions
 ```
 
-خيارات محاذاة الإطار.
+خيارات محاذاة الإطارات
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -28,8 +28,8 @@ public class FrameAlignerOptions
 | [setThreshold(float value)](#setThreshold-float-) | يضبط العتبة. |
 | [getMaxOffset()](#getMaxOffset--) | يحصل على الإزاحة القصوى. |
 | [setMaxOffset(int value)](#setMaxOffset-int-) | يضبط الإزاحة القصوى. |
-| [getModifyImages()](#getModifyImages--) | يحصل على قيمة تشير إلى ما إذا [modify image]. |
-| [setModifyImages(boolean value)](#setModifyImages-boolean-) | يضبط قيمة تشير إلى ما إذا [modify image]. |
+| [getModifyImages()](#getModifyImages--) | يحصل على قيمة تشير إلى ما إذا كان [modify image]. |
+| [setModifyImages(boolean value)](#setModifyImages-boolean-) | يضبط قيمة تشير إلى ما إذا كان [modify image]. |
 
 ## Example: The example shows how to align a series of images relative to the first one.
 
@@ -129,7 +129,7 @@ public final void setStandardImageIndex(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | فهرس الصورة القياسية. |
+| value | int | فهرس الصورة القياسية. |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -224,7 +224,7 @@ public final void setThreshold(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | العتبة. |
+| value | float | العتبة. |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -268,10 +268,10 @@ public final int getMaxOffset()
 
 يحصل على الإزاحة القصوى.
 
-القيمة: الحد الأقصى للإزاحة.
+القيمة: الإزاحة القصوى.
 
 **Returns:**
-int - الحد الأقصى للإزاحة.
+int - الإزاحة القصوى.
 
 **Example: The example shows how to align a series of images relative to the first one.**
 
@@ -314,12 +314,12 @@ public final void setMaxOffset(int value)
 
 يضبط الإزاحة القصوى.
 
-القيمة: الحد الأقصى للإزاحة.
+القيمة: الإزاحة القصوى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الحد الأقصى للإزاحة. |
+| value | int | الإزاحة القصوى. |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -361,9 +361,9 @@ public final boolean getModifyImages()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا [modify image].
+يحصل على قيمة تشير إلى ما إذا كان [modify image].
 
-القيمة: `true` إذا [modify image]؛ وإلا `false`.
+القيمة: `true` إذا كان [modify image]؛ وإلا `false`.
 
 **Returns:**
 boolean - قيمة تشير إلى ما إذا كان [modify image].
@@ -407,14 +407,14 @@ public final void setModifyImages(boolean value)
 ```
 
 
-يضبط قيمة تشير إلى ما إذا [modify image].
+يضبط قيمة تشير إلى ما إذا كان [modify image].
 
-القيمة: `true` إذا [modify image]؛ وإلا `false`.
+القيمة: `true` إذا كان [modify image]؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان [modify image]. |
+| value | boolean | قيمة تشير إلى ما إذا كان [modify image]. |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**

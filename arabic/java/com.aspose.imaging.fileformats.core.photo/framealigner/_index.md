@@ -1,7 +1,7 @@
 ---
 title: "FrameAligner"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "محاذاة الإطارات."
+description: "محاذاة الإطارات"
 type: docs
 weight: 10
 url: /ar/java/com.aspose.imaging.fileformats.core.photo/framealigner/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class FrameAligner
 ```
 
-محاذاة الإطارات.
+محاذاة الإطارات
 ## الطرق
 
 | طريقة | الوصف |
@@ -67,4 +67,4 @@ public static List<Point> process(RasterImage[] images, FrameAlignerOptions opti
 | options | [FrameAlignerOptions](../../com.aspose.imaging.fileformats.core.photo/framealigneroptions) | الخيارات. |
 
 **Returns:**
-java.util.List<com.aspose.imaging.Point> - قائمة الإزاحات للصور
+java.util.List<com.aspose.imaging.Point> - القائمة من الإزاحات حسب الصور

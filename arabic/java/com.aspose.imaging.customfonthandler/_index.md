@@ -12,6 +12,6 @@ url: /ar/java/com.aspose.imaging.customfonthandler/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
 | [CustomFontData](../com.aspose.imaging.customfonthandler/customfontdata) | فئة بيانات الخط المخصص |

@@ -1,18 +1,18 @@
 ---
 title: "CdrPpdt"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr عقدة متجه كائن"
+description: "كائن متجه عقدة cdr"
 type: docs
 weight: 36
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrppdt/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
 ```
 public class CdrPpdt extends CdrGraphicObject
 ```
 
-ال cdr عقدة متجه كائن
+كائن متجه عقدة cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -24,7 +24,7 @@ public class CdrPpdt extends CdrGraphicObject
 | --- | --- |
 | [getPoints()](#getPoints--) | يحصل على النقاط. |
 | [setPoints(PointD[] value)](#setPoints-com.aspose.imaging.fileformats.cdr.types.PointD---) | يضبط النقاط. |
-| [getKnotVector()](#getKnotVector--) | يحصل على متجهات العقد. |
+| [getKnotVector()](#getKnotVector--) | يسترجع متجهات العقد. |
 | [setKnotVector(int[] value)](#setKnotVector-int---) | يضبط متجهات العقد. |
 ### CdrPpdt() {#CdrPpdt--}
 ```
@@ -61,7 +61,7 @@ public final int[] getKnotVector()
 ```
 
 
-يحصل على متجهات العقد.
+يسترجع متجهات العقد.
 
 **Returns:**
 int[] - متجهات العقد.
@@ -76,5 +76,5 @@ public final void setKnotVector(int[] value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] | متجهات العقد. |
+| value | int[] | متجهات العقد. |
 

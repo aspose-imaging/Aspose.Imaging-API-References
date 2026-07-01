@@ -1,7 +1,7 @@
 ---
 title: "CmxEllipseSpec"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "يمثّل المعلومات الهندسية المحددة لقطع ناقص."
+description: "يمثّل المعلومات الهندسية المحددة لبيضاوي."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/
@@ -15,7 +15,7 @@ java.lang.Object
 public class CmxEllipseSpec implements ICmxObjectSpec
 ```
 
-يمثّل المعلومات الهندسية المحددة لقطع ناقص.
+يمثّل المعلومات الهندسية المحددة لبيضاوي.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -41,9 +41,9 @@ public class CmxEllipseSpec implements ICmxObjectSpec
 | [setDiameterX(float value)](#setDiameterX-float-) | يضبط القطر للبعد X للمستطيل. |
 | [getDiameterY()](#getDiameterY--) | يحصل على القطر للبعد Y للمستطيل. |
 | [setDiameterY(float value)](#setDiameterY-float-) | يضبط القطر للبعد Y للمستطيل. |
-| [getBoundingBox()](#getBoundingBox--) | يحصل على الصندوق المحيط. |
-| [setBoundingBox(RectangleF value)](#setBoundingBox-com.aspose.imaging.RectangleF-) | يضبط الصندوق المحيط. |
-| [toString()](#toString--) | يعيد سلسلة تمثل هذه الحالة. |
+| [getBoundingBox()](#getBoundingBox--) | يحصل على صندوق الإحاطة. |
+| [setBoundingBox(RectangleF value)](#setBoundingBox-com.aspose.imaging.RectangleF-) | يضبط صندوق الإحاطة. |
+| [toString()](#toString--) | يرجع String يمثل هذه المثيلة. |
 | [equals(Object o)](#equals-java.lang.Object-) | تحقق مما إذا كانت الكائنات متساوية. |
 | [hashCode()](#hashCode--) | احصل على رمز التجزئة للكائن الحالي. |
 ### CmxEllipseSpec() {#CmxEllipseSpec--}
@@ -58,7 +58,7 @@ public final float getAngle1()
 ```
 
 
-يحصل على الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) `false`. يتم القياس بالراديان.
+يحصل على الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
 
 **Returns:**
 float - الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة.
@@ -68,12 +68,12 @@ public final void setAngle1(float value)
 ```
 
 
-يضبط الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) `false`. يتم القياس بالراديان.
+يضبط الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الزاوية الأولى المستخدمة لتعريف قطاع الفطيرة. |
+| value | float | الزاوية الأولى المستخدمة لتحديد قطاع الفطيرة. |
 
 ### getAngle2() {#getAngle2--}
 ```
@@ -81,22 +81,22 @@ public final float getAngle2()
 ```
 
 
-يحصل على الزاوية الثانية المستخدمة لتعريف قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
+يحصل على الزاوية الثانية المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
 
 **Returns:**
-float - الزاوية الثانية المستخدمة لتعريف قطاع الفطيرة.
+float - الزاوية الثانية المستخدمة لتحديد قطاع الفطيرة.
 ### setAngle2(float value) {#setAngle2-float-}
 ```
 public final void setAngle2(float value)
 ```
 
 
-يضبط الزاوية الثانية المستخدمة لتعريف قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
+يضبط الزاوية الثانية المستخدمة لتحديد قطاع الفطيرة. لا يؤثر إذا كان `Pie`(\#getPie.getPie/\#setPie(boolean).setPie(boolean)) هو `false`. يقاس بالراديان.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الزاوية الثانية المستخدمة لتعريف قطاع الفطيرة. |
+| value | float | الزاوية الثانية المستخدمة لتحديد قطاع الفطيرة. |
 
 ### getRotation() {#getRotation--}
 ```
@@ -119,7 +119,7 @@ public final void setRotation(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | زاوية دوران القطع الناقص. |
+| value | float | زاوية دوران القطع الناقص. |
 
 ### getPie() {#getPie--}
 ```
@@ -165,7 +165,7 @@ public final void setCenterX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي X لمركز المستطيل. |
+| value | float | إحداثي X لمركز المستطيل. |
 
 ### getCenterY() {#getCenterY--}
 ```
@@ -173,7 +173,7 @@ public final float getCenterY()
 ```
 
 
-يحصل على إحداثي Y لمركز المستطيل. يقاس بوحدات المسافة الشائعة في المستند.
+يحصل على إحداثي Y لمركز المستطيل. يُقاس بوحدات المسافة الشائعة في المستند.
 
 **Returns:**
 float - إحداثي Y لمركز المستطيل.
@@ -183,12 +183,12 @@ public final void setCenterY(float value)
 ```
 
 
-يضبط إحداثي Y لمركز المستطيل. يقاس بوحدات المسافة الشائعة في المستند.
+يضبط إحداثي Y لمركز المستطيل. يُقاس بوحدات المسافة الشائعة في المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي Y لمركز المستطيل. |
+| value | float | إحداثي Y لمركز المستطيل. |
 
 ### getDiameterX() {#getDiameterX--}
 ```
@@ -211,7 +211,7 @@ public final void setDiameterX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القطر للبعد X للمستطيل. |
+| value | float | القطر للبعد X للمستطيل. |
 
 ### getDiameterY() {#getDiameterY--}
 ```
@@ -229,12 +229,12 @@ public final void setDiameterY(float value)
 ```
 
 
-يضبط القطر للبعد Y للمستطيل. يقاس بوحدات المسافة المشتركة للمستند.
+يضبط القطر للبعد Y للمستطيل. يقيس بوحدات المسافة المشتركة في المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القطر للبعد Y للمستطيل. |
+| value | float | القطر للبعد Y للمستطيل. |
 
 ### getBoundingBox() {#getBoundingBox--}
 ```
@@ -242,9 +242,9 @@ public final RectangleF getBoundingBox()
 ```
 
 
-يحصل على الصندوق المحيط.
+يحصل على صندوق الإحاطة.
 
-القيمة: المربع المحيط.
+القيمة: صندوق الإحاطة.
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - the bounding box.
@@ -254,14 +254,14 @@ public final void setBoundingBox(RectangleF value)
 ```
 
 
-يضبط الصندوق المحيط.
+يضبط صندوق الإحاطة.
 
-القيمة: المربع المحيط.
+القيمة: صندوق الإحاطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | المربع المحيط. |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | صندوق الإحاطة. |
 
 ### toString() {#toString--}
 ```
@@ -269,7 +269,7 @@ public String toString()
 ```
 
 
-يعيد سلسلة تمثل هذه الحالة.
+يرجع String يمثل هذه المثيلة.
 
 **Returns:**
 java.lang.String - سلسلة تمثل هذه الحالة.

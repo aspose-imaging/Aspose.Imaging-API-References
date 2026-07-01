@@ -17,7 +17,7 @@ public interface IHasJpegExifData extends IHasExifData
 
 | طريقة | الوصف |
 | --- | --- |
-| [getJpegExifData()](#getJpegExifData--) | يحصل على كائن Exif. |
+| [getJpegExifData()](#getJpegExifData--) | يحصل على نسخة Exif. |
 | [setJpegExifData(JpegExifData value)](#setJpegExifData-com.aspose.imaging.exif.JpegExifData-) | يضبط مثيل Exif. |
 ### getJpegExifData() {#getJpegExifData--}
 ```
@@ -25,7 +25,7 @@ public abstract JpegExifData getJpegExifData()
 ```
 
 
-يحصل على كائن Exif.
+يحصل على نسخة Exif.
 
 **Returns:**
 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Exif instance.

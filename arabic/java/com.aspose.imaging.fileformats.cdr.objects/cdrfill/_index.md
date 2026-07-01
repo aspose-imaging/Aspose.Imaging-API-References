@@ -1,7 +1,7 @@
 ---
 title: "CdrFill"
 second_title: "مرجع API لـ Aspose.Imaging للـ Java"
-description: "ال cdr ملء"
+description: "ملء cdr"
 type: docs
 weight: 19
 url: /ar/java/com.aspose.imaging.fileformats.cdr.objects/cdrfill/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFill extends CdrDictionaryItem
 ```
 
-ال cdr ملء
+ملء cdr
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -59,7 +59,7 @@ public final void setFillType(short value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | short | نوع التعبئة. |
+| value | قصير | نوع التعبئة. |
 
 ### getColor1() {#getColor1--}
 ```

@@ -12,7 +12,7 @@ java.lang.Object
 public class VectorRasterizationOptions
 ```
 
-خيارات تمثيل المتجهات إلى رستر. يرجى ملاحظة أن [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) لن تستمد بعد الآن من [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) منذ إصدار Aspose.Imaging 24.12.
+خيارات تحويل المتجه إلى نقطية. يرجى ملاحظة أن [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) لن تستمد بعد الآن من [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) منذ إصدار Aspose.Imaging 24.12.
 ## المنشئات
 
 | المنشئ | الوصف |
@@ -25,10 +25,10 @@ public class VectorRasterizationOptions
 | --- | --- |
 | [getSmoothingMode()](#getSmoothingMode--) | يحصل على وضع التنعيم. |
 | [setSmoothingMode(int value)](#setSmoothingMode-int-) | يضبط وضع التنعيم. |
-| [getBorderX()](#getBorderX--) | يحصل على أو يضبط الحد X. |
-| [setBorderX(float value)](#setBorderX-float-) | يحصل على أو يضبط الحد X. |
-| [getBorderY()](#getBorderY--) | يحصل على أو يضبط الحد Y. |
-| [setBorderY(float value)](#setBorderY-float-) | يحصل على أو يضبط الحد Y. |
+| [getBorderX()](#getBorderX--) | يحصل أو يضبط الحد X. |
+| [setBorderX(float value)](#setBorderX-float-) | يحصل أو يضبط الحد X. |
+| [getBorderY()](#getBorderY--) | يحصل أو يضبط الحد Y. |
+| [setBorderY(float value)](#setBorderY-float-) | يحصل أو يضبط الحد Y. |
 | [getCenterDrawing()](#getCenterDrawing--) | يحصل على قيمة تشير إلى ما إذا كان الرسم مركزيًا. |
 | [setCenterDrawing(boolean value)](#setCenterDrawing-boolean-) | يضبط قيمة تشير إلى ما إذا كان الرسم مركزيًا. |
 | [getPageHeight()](#getPageHeight--) | يحصل على ارتفاع الصفحة. |
@@ -47,7 +47,7 @@ public class VectorRasterizationOptions
 | [setPositioning(int value)](#setPositioning-int-) | يضبط التموضع. |
 | [getReplaceTextMapping()](#getReplaceTextMapping--) | يحصل على خريطة استبدال النص. |
 | [setReplaceTextMapping(HashMap<String,String> value)](#setReplaceTextMapping-java.util.HashMap-java.lang.String-java.lang.String--) | يضبط خريطة استبدال النص. |
-| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | ينسخ هذه الحالة إلى `vectorRasterizationOptions`. |
+| [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | ينسخ هذا المثيل إلى `vectorRasterizationOptions`. |
 | [deepClone()](#deepClone--) | ينشئ نسخة سطحية من الكائن. |
 ### VectorRasterizationOptions() {#VectorRasterizationOptions--}
 ```
@@ -87,7 +87,7 @@ public final void setSmoothingMode(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | وضع التنعيم. |
+| value | int | وضع التنعيم. |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -98,29 +98,29 @@ String dir = "c:\\temp\\";
 // استخدام Aspose.Imaging.Image.Load هو طريقة موحدة لتحميل الصورة.
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = (com.aspose.imaging.fileformats.svg.SvgImage) com.aspose.imaging.Image.load(dir + "test.svg");
 try {
-    // من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
     com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 
-    // تعيين اللون الافتراضي لخلفية صورة. القيمة الافتراضية هي الأبيض.
+    // حدد اللون الافتراضي للخلفية لصورة. القيمة الافتراضية هي الأبيض.
     rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getGray());
 
-    // تعيين حجم الصفحة
+    // حدد حجم الصفحة
     rasterizationOptions.setPageSize(new com.aspose.imaging.SizeF(svgImage.getWidth(), svgImage.getHeight()));
 
-    // يتم تطبيق مضاد التعرجات على الخطوط والمنحنيات وحواف المناطق المملوءة.
+    // يتم تطبيق مضاد التعرج على الخطوط والمنحنيات وحواف المناطق المملوءة.
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // يتم رسم كل حرف باستخدام خريطة البكسل المضادة للتنعيم للرمز بدون التلميح.
+    // يتم رسم كل حرف باستخدام صورة البكسل المضادة للتنعيم للرمز بدون التلميح.
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
-    // قلل حجم الصورة 10 مرات، أي أن حجم الإخراج سيكون 10٪ من الحجم الأصلي.
+    // قلل حجم الصورة 10 مرات، أي أن حجم الناتج سيكون 10٪ من الحجم الأصلي.
     rasterizationOptions.setScaleX(0.1f);
     rasterizationOptions.setScaleY(0.1f);
 
     com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-    // حفظ إلى ملف PNG
+    // احفظ إلى ملف PNG
     svgImage.save(dir + "test.output.png", saveOptions);
 } finally {
     svgImage.dispose();
@@ -133,7 +133,7 @@ public float getBorderX()
 ```
 
 
-يحصل على أو يضبط الحد X.
+يحصل أو يضبط الحد X.
 
 **Returns:**
 float - الحد X.
@@ -143,12 +143,12 @@ public void setBorderX(float value)
 ```
 
 
-يحصل على أو يضبط الحد X.
+يحصل أو يضبط الحد X.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحد X. |
+| value | float | الحد X. |
 
 ### getBorderY() {#getBorderY--}
 ```
@@ -156,7 +156,7 @@ public float getBorderY()
 ```
 
 
-يحصل على أو يضبط الحد Y.
+يحصل أو يضبط الحد Y.
 
 **Returns:**
 float - الحد Y.
@@ -166,12 +166,12 @@ public void setBorderY(float value)
 ```
 
 
-يحصل على أو يضبط الحد Y.
+يحصل أو يضبط الحد Y.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | الحد Y. |
+| value | float | الحد Y. |
 
 ### getCenterDrawing() {#getCenterDrawing--}
 ```
@@ -182,7 +182,7 @@ public boolean getCenterDrawing()
 يحصل على قيمة تشير إلى ما إذا كان الرسم مركزيًا.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كان الرسم مركزيًا.
+boolean - قيمة تشير إلى ما إذا كان الرسم في المركز.
 ### setCenterDrawing(boolean value) {#setCenterDrawing-boolean-}
 ```
 public void setCenterDrawing(boolean value)
@@ -194,7 +194,7 @@ public void setCenterDrawing(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة تشير إلى ما إذا كان الرسم في المركز. |
+| value | boolean | قيمة تشير إلى ما إذا كان الرسم في المركز. |
 
 ### getPageHeight() {#getPageHeight--}
 ```
@@ -217,7 +217,7 @@ public void setPageHeight(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | ارتفاع الصفحة. |
+| value | float | ارتفاع الصفحة. |
 
 ### getPageSize() {#getPageSize--}
 ```
@@ -298,10 +298,10 @@ try {
     // إذا كان هناك emf مضمّن، فقم بعرض emf؛ وإلا عرض wmf.
     rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.emf.EmfRenderMode.Auto);
 
-    // حدد الهامش الأفقي
+    // تعيين الهامش الأفقي
     rasterizationOptions.setBorderX(50);
 
-    // حدد الهامش الرأسي
+    // تعيين الهامش العمودي
     rasterizationOptions.setBorderY(50);
 
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
@@ -333,7 +333,7 @@ public void setPageWidth(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | عرض الصفحة. |
+| value | float | عرض الصفحة. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
@@ -414,10 +414,10 @@ try {
     // إذا كان هناك emf مضمّن، فقم بعرض emf؛ وإلا عرض wmf.
     rasterizationOptions.setRenderMode(com.aspose.imaging.fileformats.emf.EmfRenderMode.Auto);
 
-    // حدد الهامش الأفقي
+    // تعيين الهامش الأفقي
     rasterizationOptions.setBorderX(50);
 
-    // حدد الهامش الرأسي
+    // تعيين الهامش العمودي
     rasterizationOptions.setBorderY(50);
 
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
@@ -476,7 +476,7 @@ public final void setTextRenderingHint(int value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | تلميح عرض النص. |
+| value | int | تلميح عرض النص. |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -487,29 +487,29 @@ String dir = "c:\\temp\\";
 // استخدام Aspose.Imaging.Image.Load هو طريقة موحدة لتحميل الصورة.
 com.aspose.imaging.fileformats.svg.SvgImage svgImage = (com.aspose.imaging.fileformats.svg.SvgImage) com.aspose.imaging.Image.load(dir + "test.svg");
 try {
-    // من أجل تحويل SVG إلى نقطية، نحتاج إلى تحديد خيارات التحويل النقطي.
+    // من أجل تحويل SVG إلى نقطية نحتاج إلى تحديد خيارات التحويل إلى نقطية.
     com.aspose.imaging.imageoptions.SvgRasterizationOptions rasterizationOptions = new com.aspose.imaging.imageoptions.SvgRasterizationOptions();
 
-    // تعيين اللون الافتراضي لخلفية صورة. القيمة الافتراضية هي الأبيض.
+    // حدد اللون الافتراضي للخلفية لصورة. القيمة الافتراضية هي الأبيض.
     rasterizationOptions.setBackgroundColor(com.aspose.imaging.Color.getGray());
 
-    // تعيين حجم الصفحة
+    // حدد حجم الصفحة
     rasterizationOptions.setPageSize(new com.aspose.imaging.SizeF(svgImage.getWidth(), svgImage.getHeight()));
 
-    // يتم تطبيق مضاد التعرجات على الخطوط والمنحنيات وحواف المناطق المملوءة.
+    // يتم تطبيق مضاد التعرج على الخطوط والمنحنيات وحواف المناطق المملوءة.
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // يتم رسم كل حرف باستخدام خريطة البكسل المضادة للتنعيم للرمز بدون التلميح.
+    // يتم رسم كل حرف باستخدام صورة البكسل المضادة للتنعيم للرمز بدون التلميح.
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
-    // قلل حجم الصورة 10 مرات، أي أن حجم الإخراج سيكون 10٪ من الحجم الأصلي.
+    // قلل حجم الصورة 10 مرات، أي أن حجم الناتج سيكون 10٪ من الحجم الأصلي.
     rasterizationOptions.setScaleX(0.1f);
     rasterizationOptions.setScaleY(0.1f);
 
     com.aspose.imaging.imageoptions.PngOptions saveOptions = new com.aspose.imaging.imageoptions.PngOptions();
     saveOptions.setVectorRasterizationOptions(rasterizationOptions);
 
-    // حفظ إلى ملف PNG
+    // احفظ إلى ملف PNG
     svgImage.save(dir + "test.output.png", saveOptions);
 } finally {
     svgImage.dispose();
@@ -524,10 +524,10 @@ public final int getPositioning()
 
 يحصل على التموضع.
 
-القيمة: الموضع.
+القيمة: التموضع.
 
 **Returns:**
-int - الموضع.
+int - التموضع.
 ### setPositioning(int value) {#setPositioning-int-}
 ```
 public final void setPositioning(int value)
@@ -536,12 +536,12 @@ public final void setPositioning(int value)
 
 يضبط التموضع.
 
-القيمة: الموضع.
+القيمة: التموضع.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | الموضع. |
+| value | int | التموضع. |
 
 ### getReplaceTextMapping() {#getReplaceTextMapping--}
 ```
@@ -568,7 +568,7 @@ public final void setReplaceTextMapping(HashMap<String,String> value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.util.HashMap<java.lang.String,java.lang.String> | خريطة استبدال النص. |
+| value | java.util.HashMap<java.lang.String,java.lang.String> | خريطة استبدال النص. |
 
 ### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
 ```
@@ -576,7 +576,7 @@ public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 ```
 
 
-ينسخ هذه الحالة إلى `vectorRasterizationOptions`.
+ينسخ هذا المثيل إلى `vectorRasterizationOptions`.
 
 **Parameters:**
 | معامل | نوع | الوصف |

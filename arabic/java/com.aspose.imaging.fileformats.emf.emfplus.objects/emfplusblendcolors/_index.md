@@ -22,8 +22,8 @@ public final class EmfPlusBlendColors extends EmfPlusBlendBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBlendArgb32Colors()](#getBlendArgb32Colors--) | يحصل أو يضبط مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواضع المعرفة في حقل BlendPositions. |
-| [setBlendArgb32Colors(int[] value)](#setBlendArgb32Colors-int---) | يحصل أو يضبط مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواضع المعرفة في حقل BlendPositions. |
+| [getBlendArgb32Colors()](#getBlendArgb32Colors--) | يحصل أو يعيّن مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواقع المحددة في حقل BlendPositions. |
+| [setBlendArgb32Colors(int[] value)](#setBlendArgb32Colors-int---) | يحصل أو يعيّن مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواقع المحددة في حقل BlendPositions. |
 ### EmfPlusBlendColors() {#EmfPlusBlendColors--}
 ```
 public EmfPlusBlendColors()
@@ -36,7 +36,7 @@ public int[] getBlendArgb32Colors()
 ```
 
 
-يحصل أو يضبط مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواضع المعرفة في حقل BlendPositions.
+يحصل أو يعيّن مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواقع المحددة في حقل BlendPositions.
 
 **Returns:**
 int[]
@@ -46,10 +46,10 @@ public void setBlendArgb32Colors(int[] value)
 ```
 
 
-يحصل أو يضبط مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواضع المعرفة في حقل BlendPositions.
+يحصل أو يعيّن مصفوفة من كائنات PositionCount EmfPlusARGB (القسم 2.2.2.1) التي تحدد الألوان في المواقع المحددة في حقل BlendPositions.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int[] |  |
+| value | int[] |  |
 

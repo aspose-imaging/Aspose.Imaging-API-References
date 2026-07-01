@@ -19,15 +19,15 @@ public interface IAsyncTask extends System.IAsyncResult, System.IDisposable
 | --- | --- |
 | [getProgressEventHandler()](#getProgressEventHandler--) | يحصل على معالج حدث التقدم للمهمة غير المتزامنة. |
 | [setProgressEventHandler(ProgressEventHandler value)](#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | يضبط معالج حدث التقدم للمهمة غير المتزامنة. |
-| [isBusy()](#isBusy--) | يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قيد التشغيل حاليًا. |
+| [isBusy()](#isBusy--) | يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قيد التشغيل حالياً. |
 | [isCanceled()](#isCanceled--) | يحصل على قيمة تشير إلى ما إذا تم إلغاء هذه المهمة. |
 | [isFaulted()](#isFaulted--) | يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قد فشلت. |
 | [getError()](#getError--) | يحصل على خطأ المهمة المتاح بعد إكمال المهمة. |
 | [getResult()](#getResult--) | يحصل على نتيجة هذه المهمة. |
-| [runAsync()](#runAsync--) | يشغّل هذه المهمة. |
-| [runAsync(int priority)](#runAsync-int-) | يشغّل هذه المهمة. |
+| [runAsync()](#runAsync--) | يشغل هذه المهمة. |
+| [runAsync(int priority)](#runAsync-int-) | يشغل هذه المهمة. |
 | [cancel()](#cancel--) | يلغي هذه المهمة. |
-| [abort()](#abort--) | يوقف هذه المهمة. |
+| [abort()](#abort--) | يُجهض هذه المهمة. |
 | [setCompleteCallback(CompleteCallback completeCallback)](#setCompleteCallback-com.aspose.imaging.asynctask.CompleteCallback-) | يضبط المفوض للنداء الكامل. |
 ### getProgressEventHandler() {#getProgressEventHandler--}
 ```
@@ -62,7 +62,7 @@ public abstract boolean isBusy()
 ```
 
 
-يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قيد التشغيل حاليًا.
+يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قيد التشغيل حالياً.
 
 القيمة: `true` إذا كانت هذه المهمة قيد التشغيل حاليًا؛ وإلا `false`.
 
@@ -76,10 +76,10 @@ public abstract boolean isCanceled()
 
 يحصل على قيمة تشير إلى ما إذا تم إلغاء هذه المهمة.
 
-القيمة: `true` إذا تم إلغاء هذه المهمة؛ وإلا `false`.
+القيمة: `true` إذا أُلغيت هذه المهمة؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا تم إلغاء هذه المهمة.
+منطقي - قيمة تشير إلى ما إذا أُلغيت هذه المهمة.
 ### isFaulted() {#isFaulted--}
 ```
 public abstract boolean isFaulted()
@@ -88,10 +88,10 @@ public abstract boolean isFaulted()
 
 يحصل على قيمة تشير إلى ما إذا كانت هذه المهمة قد فشلت.
 
-القيمة: `true` إذا كانت هذه المهمة معطوبة؛ وإلا `false`.
+القيمة: `true` إذا حدث خطأ في هذه المهمة؛ وإلا `false`.
 
 **Returns:**
-boolean - قيمة تشير إلى ما إذا كانت هذه المهمة معطوبة.
+منطقي - قيمة تشير إلى ما إذا حدث خطأ في هذه المهمة.
 ### getError() {#getError--}
 ```
 public abstract Throwable getError()
@@ -122,7 +122,7 @@ public abstract void runAsync()
 ```
 
 
-يشغّل هذه المهمة.
+يشغل هذه المهمة.
 
 ### runAsync(int priority) {#runAsync-int-}
 ```
@@ -130,7 +130,7 @@ public abstract void runAsync(int priority)
 ```
 
 
-يشغّل هذه المهمة.
+يشغل هذه المهمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -164,5 +164,5 @@ public abstract void setCompleteCallback(CompleteCallback completeCallback)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| completeCallback | [CompleteCallback](../../com.aspose.imaging.asynctask/completecallback) | دالة رد النداء عند الإكمال. |
+| completeCallback | [CompleteCallback](../../com.aspose.imaging.asynctask/completecallback) | رد النداء الكامل. |
 

@@ -17,12 +17,12 @@ public final class EmfAbortPath extends EmfPathBracketRecordType
 
 | المنشئ | الوصف |
 | --- | --- |
-| [EmfAbortPath()](#EmfAbortPath--) | يُنشئ مثيلًا جديدًا من الفئة `EmfAbortPath`. |
+| [EmfAbortPath()](#EmfAbortPath--) | يُنشئ مثيلًا جديدًا للفئة `EmfAbortPath`. |
 ### EmfAbortPath() {#EmfAbortPath--}
 ```
 public EmfAbortPath()
 ```
 
 
-يُنشئ مثيلًا جديدًا من الفئة `EmfAbortPath`.
+يُنشئ مثيلًا جديدًا للفئة `EmfAbortPath`.
 

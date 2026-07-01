@@ -22,8 +22,8 @@ public final class EmfPlusBlendFactors extends EmfPlusBlendBase
 
 | طريقة | الوصف |
 | --- | --- |
-| [getBlendFactors()](#getBlendFactors--) | يحصل أو يعيّن مصفوفة من قيم نقطية عائمة بسعة 32 بت عددها PositionCount تُحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. |
-| [setBlendFactors(float[] value)](#setBlendFactors-float---) | يحصل أو يعيّن مصفوفة من قيم نقطية عائمة بسعة 32 بت عددها PositionCount تُحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. |
+| [getBlendFactors()](#getBlendFactors--) | يحصل أو يعيّن مصفوفة من قيم نقطية عائمة 32‑بت عددها PositionCount تحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. |
+| [setBlendFactors(float[] value)](#setBlendFactors-float---) | يحصل أو يعيّن مصفوفة من قيم نقطية عائمة 32‑بت عددها PositionCount تحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. |
 ### EmfPlusBlendFactors() {#EmfPlusBlendFactors--}
 ```
 public EmfPlusBlendFactors()
@@ -36,7 +36,7 @@ public float[] getBlendFactors()
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم نقطية عائمة بسعة 32 بت عددها PositionCount تُحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. يجب أن تكون كل قيمة عددًا بين 0.0 و 1.0 شاملًا.
+يحصل أو يعيّن مصفوفة من قيم نقطية عائمة 32‑بت عددها PositionCount تحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. يجب أن تكون كل قيمة رقمًا بين 0.0 و 1.0 شاملًا.
 
 **Returns:**
 float[]
@@ -46,10 +46,10 @@ public void setBlendFactors(float[] value)
 ```
 
 
-يحصل أو يعيّن مصفوفة من قيم نقطية عائمة بسعة 32 بت عددها PositionCount تُحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. يجب أن تكون كل قيمة عددًا بين 0.0 و 1.0 شاملًا.
+يحصل أو يعيّن مصفوفة من قيم نقطية عائمة 32‑بت عددها PositionCount تحدد نسب الألوان في المواضع المحددة في حقل BlendPositions. يجب أن تكون كل قيمة رقمًا بين 0.0 و 1.0 شاملًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float[] |  |
+| value | float[] |  |
 

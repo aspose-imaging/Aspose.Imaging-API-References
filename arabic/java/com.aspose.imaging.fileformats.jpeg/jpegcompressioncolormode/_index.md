@@ -17,8 +17,8 @@ public final class JpegCompressionColorMode extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [Grayscale](#Grayscale) | الصورة بتدرج الرمادي. |
-| [YCbCr](#YCbCr) | صورة YCbCr، الخيار القياسي لصور jpeg. |
+| [Grayscale](#Grayscale) | صورة تدرج الرمادي. |
+| [YCbCr](#YCbCr) | صورة YCbCr، الخيار القياسي للصور jpeg. |
 | [Cmyk](#Cmyk) | صورة CMYK ذات 4 مكونات. |
 | [Ycck](#Ycck) | صورة jpeg ذات لون ycck. |
 | [Rgb](#Rgb) | وضع اللون RGB. |
@@ -29,7 +29,7 @@ public static final int Grayscale
 ```
 
 
-الصورة بتدرج الرمادي.
+صورة تدرج الرمادي.
 
 ### YCbCr {#YCbCr}
 ```
@@ -37,7 +37,7 @@ public static final int YCbCr
 ```
 
 
-صورة YCbCr، الخيار القياسي لصور jpeg.
+صورة YCbCr، الخيار القياسي للصور jpeg.
 
 ### Cmyk {#Cmyk}
 ```
@@ -53,7 +53,7 @@ public static final int Ycck
 ```
 
 
-صورة jpeg ذات لون ycck. تحتاج ملف تعريف icc للحفظ.
+صورة jpeg ذات لون ycck. تحتاج إلى ملف تعريف icc للحفظ.
 
 ### Rgb {#Rgb}
 ```

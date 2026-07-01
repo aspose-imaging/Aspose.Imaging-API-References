@@ -12,14 +12,14 @@ url: /ar/java/com.aspose.imaging.fileformats.svg/
 
 ## الفئات
 
-| الفئة | الوصف |
+| فئة | الوصف |
 | --- | --- |
-| [SvgColorMode](../com.aspose.imaging.fileformats.svg/svgcolormode) | \\u0421olor mode for SVG images. |
-| [SvgImage](../com.aspose.imaging.fileformats.svg/svgimage) | تفاعل مع ملفات صور Scalar Vector Graphics (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML للتخصيص السلس والقابلية للتوسع. |
-| [SvgResourceKeeperCallback](../com.aspose.imaging.fileformats.svg/svgresourcekeepercallback) | استدعاء رد النداء لمُحافظ الموارد |
+| [SvgColorMode](../com.aspose.imaging.fileformats.svg/svgcolormode) | \\u0421وضع اللون لصور SVG. |
+| [SvgImage](../com.aspose.imaging.fileformats.svg/svgimage) | تعديل ملفات صور الرسوم المتجهية المتدرجة (SVG) باستخدام واجهة برمجة التطبيقات الخاصة بنا، مستفيدًا من قوة تنسيق النص القائم على XML للتخصيص السلس والقابلية للتوسع. |
+| [SvgResourceKeeperCallback](../com.aspose.imaging.fileformats.svg/svgresourcekeepercallback) | استدعاء رد النداء لمُحافظ الموارد. |
 
 ## الواجهات
 
 | الواجهة | الوصف |
 | --- | --- |
-| [ISvgResourceKeeperCallback](../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | واجهة رد النداء svg |
+| [ISvgResourceKeeperCallback](../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | واجهة استدعاء رد النداء لـ svg. |

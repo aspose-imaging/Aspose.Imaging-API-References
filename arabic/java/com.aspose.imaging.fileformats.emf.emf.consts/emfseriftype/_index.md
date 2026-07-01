@@ -17,29 +17,29 @@ public final class EmfSerifType extends System.Enum
 
 | حقل | الوصف |
 | --- | --- |
-| [PAN_ANY](#PAN-ANY) | النوع أي. |
-| [PAN_NO_FIT](#PAN-NO-FIT) | نوع No fit. |
-| [PAN_SERIF_COVE](#PAN-SERIF-COVE) | نوع The cove. |
-| [PAN_SERIF_OBTUSE_COVE](#PAN-SERIF-OBTUSE-COVE) | نوع Obtuse cove. |
-| [PAN_SERIF_SQUARE_COVE](#PAN-SERIF-SQUARE-COVE) | نوع Obtuse cove. |
-| [PAN_SERIF_OBTUSE_SQUARE_COVE](#PAN-SERIF-OBTUSE-SQUARE-COVE) | نوع Obtuse square cove. |
-| [PAN_SERIF_SQUARE](#PAN-SERIF-SQUARE) | نوع The Square. |
-| [PAN_SERIF_THIN](#PAN-SERIF-THIN) | نوع The thin. |
-| [PAN_SERIF_BONE](#PAN-SERIF-BONE) | نوع The bone. |
-| [PAN_SERIF_EXAGGERATED](#PAN-SERIF-EXAGGERATED) | نوع The exaggerated. |
-| [PAN_SERIF_TRIANGLE](#PAN-SERIF-TRIANGLE) | نوع The triangle. |
-| [PAN_SERIF_NORMAL_SANS](#PAN-SERIF-NORMAL-SANS) | نوع Normal sans. |
-| [PAN_SERIF_OBTUSE_SANS](#PAN-SERIF-OBTUSE-SANS) | نوع Obtuse sans. |
-| [PAN_SERIF_PERP_SANS](#PAN-SERIF-PERP-SANS) | نوع Perp sans. |
-| [PAN_SERIF_FLARED](#PAN-SERIF-FLARED) | نوع The Flared. |
-| [PAN_SERIF_ROUNDED](#PAN-SERIF-ROUNDED) | نوع The Rounded. |
+| [PAN_ANY](#PAN-ANY) | النوع العام. |
+| [PAN_NO_FIT](#PAN-NO-FIT) | ال نوع بدون ملاءمة. |
+| [PAN_SERIF_COVE](#PAN-SERIF-COVE) | ال ال نوع الكوف. |
+| [PAN_SERIF_OBTUSE_COVE](#PAN-SERIF-OBTUSE-COVE) | ال نوع الكوف المنفرج. |
+| [PAN_SERIF_SQUARE_COVE](#PAN-SERIF-SQUARE-COVE) | ال نوع الكوف المنفرج. |
+| [PAN_SERIF_OBTUSE_SQUARE_COVE](#PAN-SERIF-OBTUSE-SQUARE-COVE) | ال نوع الكوف المربع المنفرج. |
+| [PAN_SERIF_SQUARE](#PAN-SERIF-SQUARE) | ال ال نوع المربع. |
+| [PAN_SERIF_THIN](#PAN-SERIF-THIN) | ال ال نوع الرفيع. |
+| [PAN_SERIF_BONE](#PAN-SERIF-BONE) | ال ال نوع العظم. |
+| [PAN_SERIF_EXAGGERATED](#PAN-SERIF-EXAGGERATED) | ال ال نوع المبالغ فيه. |
+| [PAN_SERIF_TRIANGLE](#PAN-SERIF-TRIANGLE) | ال ال نوع المثلث. |
+| [PAN_SERIF_NORMAL_SANS](#PAN-SERIF-NORMAL-SANS) | النوع sans العادي. |
+| [PAN_SERIF_OBTUSE_SANS](#PAN-SERIF-OBTUSE-SANS) | النوع sans المنفرج. |
+| [PAN_SERIF_PERP_SANS](#PAN-SERIF-PERP-SANS) | النوع sans العمودي. |
+| [PAN_SERIF_FLARED](#PAN-SERIF-FLARED) | ال ال النوع الممدود. |
+| [PAN_SERIF_ROUNDED](#PAN-SERIF-ROUNDED) | ال ال النوع المستدير. |
 ### PAN_ANY {#PAN-ANY}
 ```
 public static final int PAN_ANY
 ```
 
 
-النوع أي.
+النوع العام.
 
 ### PAN_NO_FIT {#PAN-NO-FIT}
 ```
@@ -47,7 +47,7 @@ public static final int PAN_NO_FIT
 ```
 
 
-نوع No fit.
+ال نوع بدون ملاءمة.
 
 ### PAN_SERIF_COVE {#PAN-SERIF-COVE}
 ```
@@ -55,7 +55,7 @@ public static final int PAN_SERIF_COVE
 ```
 
 
-نوع The cove.
+ال ال نوع الكوف.
 
 ### PAN_SERIF_OBTUSE_COVE {#PAN-SERIF-OBTUSE-COVE}
 ```
@@ -63,7 +63,7 @@ public static final int PAN_SERIF_OBTUSE_COVE
 ```
 
 
-نوع Obtuse cove.
+ال نوع الكوف المنفرج.
 
 ### PAN_SERIF_SQUARE_COVE {#PAN-SERIF-SQUARE-COVE}
 ```
@@ -71,7 +71,7 @@ public static final int PAN_SERIF_SQUARE_COVE
 ```
 
 
-نوع Obtuse cove.
+ال نوع الكوف المنفرج.
 
 ### PAN_SERIF_OBTUSE_SQUARE_COVE {#PAN-SERIF-OBTUSE-SQUARE-COVE}
 ```
@@ -79,7 +79,7 @@ public static final int PAN_SERIF_OBTUSE_SQUARE_COVE
 ```
 
 
-نوع Obtuse square cove.
+ال نوع الكوف المربع المنفرج.
 
 ### PAN_SERIF_SQUARE {#PAN-SERIF-SQUARE}
 ```
@@ -87,7 +87,7 @@ public static final int PAN_SERIF_SQUARE
 ```
 
 
-نوع The Square.
+ال ال نوع المربع.
 
 ### PAN_SERIF_THIN {#PAN-SERIF-THIN}
 ```
@@ -95,7 +95,7 @@ public static final int PAN_SERIF_THIN
 ```
 
 
-نوع The thin.
+ال ال نوع الرفيع.
 
 ### PAN_SERIF_BONE {#PAN-SERIF-BONE}
 ```
@@ -103,7 +103,7 @@ public static final int PAN_SERIF_BONE
 ```
 
 
-نوع The bone.
+ال ال نوع العظم.
 
 ### PAN_SERIF_EXAGGERATED {#PAN-SERIF-EXAGGERATED}
 ```
@@ -111,7 +111,7 @@ public static final int PAN_SERIF_EXAGGERATED
 ```
 
 
-نوع The exaggerated.
+ال ال نوع المبالغ فيه.
 
 ### PAN_SERIF_TRIANGLE {#PAN-SERIF-TRIANGLE}
 ```
@@ -119,7 +119,7 @@ public static final int PAN_SERIF_TRIANGLE
 ```
 
 
-نوع The triangle.
+ال ال نوع المثلث.
 
 ### PAN_SERIF_NORMAL_SANS {#PAN-SERIF-NORMAL-SANS}
 ```
@@ -127,7 +127,7 @@ public static final int PAN_SERIF_NORMAL_SANS
 ```
 
 
-نوع Normal sans.
+النوع sans العادي.
 
 ### PAN_SERIF_OBTUSE_SANS {#PAN-SERIF-OBTUSE-SANS}
 ```
@@ -135,7 +135,7 @@ public static final int PAN_SERIF_OBTUSE_SANS
 ```
 
 
-نوع Obtuse sans.
+النوع sans المنفرج.
 
 ### PAN_SERIF_PERP_SANS {#PAN-SERIF-PERP-SANS}
 ```
@@ -143,7 +143,7 @@ public static final int PAN_SERIF_PERP_SANS
 ```
 
 
-نوع Perp sans.
+النوع sans العمودي.
 
 ### PAN_SERIF_FLARED {#PAN-SERIF-FLARED}
 ```
@@ -151,7 +151,7 @@ public static final int PAN_SERIF_FLARED
 ```
 
 
-نوع The Flared.
+ال ال النوع الممدود.
 
 ### PAN_SERIF_ROUNDED {#PAN-SERIF-ROUNDED}
 ```
@@ -159,5 +159,5 @@ public static final int PAN_SERIF_ROUNDED
 ```
 
 
-نوع The Rounded.
+ال ال النوع المستدير.
 

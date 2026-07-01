@@ -17,28 +17,28 @@ public final class Font extends ComplexTypeBase
 
 | المنشئ | الوصف |
 | --- | --- |
-| [Font()](#Font--) | ينشئ مثيلاً جديدًا من الفئة `Font`. |
-| [Font(String fontFamily)](#Font-java.lang.String-) | ينشئ مثيلاً جديدًا من الفئة `Font`. |
+| [Font()](#Font--) | يُهيئ نسخة جديدة من الفئة `Font`. |
+| [Font(String fontFamily)](#Font-java.lang.String-) | يُهيئ نسخة جديدة من الفئة `Font`. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [getChildFontFiles()](#getChildFontFiles--) | يحصل أو يضبط مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا. |
-| [setChildFontFiles(String[] value)](#setChildFontFiles-java.lang.String---) | يحصل أو يضبط مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا. |
-| [isComposite()](#isComposite--) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا الخط مركبًا. |
-| [setComposite(boolean value)](#setComposite-boolean-) | يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا الخط مركبًا. |
-| [getFontFace()](#getFontFace--) | يحصل أو يضبط واجهة الخط. |
-| [setFontFace(String value)](#setFontFace-java.lang.String-) | يحصل أو يضبط واجهة الخط. |
-| [getFontFamily()](#getFontFamily--) | يحصل أو يضبط عائلة الخط. |
-| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | يحصل أو يضبط عائلة الخط. |
-| [getFontFileName()](#getFontFileName--) | يحصل أو يضبط اسم ملف الخط دون المسار الكامل. |
-| [setFontFileName(String value)](#setFontFileName-java.lang.String-) | يحصل أو يضبط اسم ملف الخط دون المسار الكامل. |
-| [getFontName()](#getFontName--) | يحصل أو يضبط اسم خط PostScript. |
-| [setFontName(String value)](#setFontName-java.lang.String-) | يحصل أو يضبط اسم خط PostScript. |
-| [getFontType()](#getFontType--) | يحصل أو يضبط نوع الخط. |
-| [setFontType(String value)](#setFontType-java.lang.String-) | يحصل أو يضبط نوع الخط. |
-| [getVersion()](#getVersion--) | يحصل أو يضبط إصدار الخط. |
-| [setVersion(String value)](#setVersion-java.lang.String-) | يحصل أو يضبط إصدار الخط. |
+| [getChildFontFiles()](#getChildFontFiles--) | يحصل أو يعيّن مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا. |
+| [setChildFontFiles(String[] value)](#setChildFontFiles-java.lang.String---) | يحصل أو يعيّن مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا. |
+| [isComposite()](#isComposite--) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا الخط مركبًا. |
+| [setComposite(boolean value)](#setComposite-boolean-) | يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا الخط مركبًا. |
+| [getFontFace()](#getFontFace--) | يحصل أو يعيّن وجه الخط. |
+| [setFontFace(String value)](#setFontFace-java.lang.String-) | يحصل أو يعيّن وجه الخط. |
+| [getFontFamily()](#getFontFamily--) | يحصل أو يعيّن عائلة الخط. |
+| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | يحصل أو يعيّن عائلة الخط. |
+| [getFontFileName()](#getFontFileName--) | يحصل أو يعيّن اسم ملف الخط دون المسار الكامل. |
+| [setFontFileName(String value)](#setFontFileName-java.lang.String-) | يحصل أو يعيّن اسم ملف الخط دون المسار الكامل. |
+| [getFontName()](#getFontName--) | يحصل أو يعيّن اسم خط PostScript. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | يحصل أو يعيّن اسم خط PostScript. |
+| [getFontType()](#getFontType--) | يحصل أو يعيّن نوع الخط. |
+| [setFontType(String value)](#setFontType-java.lang.String-) | يحصل أو يعيّن نوع الخط. |
+| [getVersion()](#getVersion--) | يحصل أو يعيّن نسخة الخط. |
+| [setVersion(String value)](#setVersion-java.lang.String-) | يحصل أو يعيّن نسخة الخط. |
 | [getXmpRepresentation()](#getXmpRepresentation--) | يحصل على القيمة النصية المحتواة بتنسيق XMP. |
 ### Font() {#Font--}
 ```
@@ -46,7 +46,7 @@ public Font()
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `Font`.
+يُهيئ نسخة جديدة من الفئة `Font`.
 
 ### Font(String fontFamily) {#Font-java.lang.String-}
 ```
@@ -54,7 +54,7 @@ public Font(String fontFamily)
 ```
 
 
-ينشئ مثيلاً جديدًا من الفئة `Font`.
+يُهيئ نسخة جديدة من الفئة `Font`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,9 +67,9 @@ public String[] getChildFontFiles()
 ```
 
 
-يحصل أو يضبط مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا.
+يحصل أو يعيّن مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا.
 
-القيمة: مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا.
+القيمة: مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا.
 
 **Returns:**
 java.lang.String[]
@@ -79,14 +79,14 @@ public void setChildFontFiles(String[] value)
 ```
 
 
-يحصل أو يضبط مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا.
+يحصل أو يعيّن مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا.
 
-القيمة: مصفوفة أسماء الملفات للخطوط التي تشكل خطًا مركبًا.
+القيمة: مصفوفة أسماء الملفات للخطوط التي تُكوّن خطًا مركبًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String[] |  |
+| value | java.lang.String[] |  |
 
 ### isComposite() {#isComposite--}
 ```
@@ -94,7 +94,7 @@ public boolean isComposite()
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا الخط مركبًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا الخط مركبًا.
 
 القيمة: `true` إذا كان هذا الخط مركبًا؛ وإلا `false`.
 
@@ -106,14 +106,14 @@ public void setComposite(boolean value)
 ```
 
 
-يحصل أو يضبط قيمة تشير إلى ما إذا كان هذا الخط مركبًا.
+يحصل أو يعيّن قيمة تشير إلى ما إذا كان هذا الخط مركبًا.
 
 القيمة: `true` إذا كان هذا الخط مركبًا؛ وإلا `false`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean |  |
+| value | boolean |  |
 
 ### getFontFace() {#getFontFace--}
 ```
@@ -121,7 +121,7 @@ public String getFontFace()
 ```
 
 
-يحصل أو يضبط واجهة الخط.
+يحصل أو يعيّن وجه الخط.
 
 القيمة: واجهة الخط.
 
@@ -133,14 +133,14 @@ public void setFontFace(String value)
 ```
 
 
-يحصل أو يضبط واجهة الخط.
+يحصل أو يعيّن وجه الخط.
 
 القيمة: واجهة الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFontFamily() {#getFontFamily--}
 ```
@@ -148,7 +148,7 @@ public String getFontFamily()
 ```
 
 
-يحصل أو يضبط عائلة الخط.
+يحصل أو يعيّن عائلة الخط.
 
 القيمة: عائلة الخط.
 
@@ -160,14 +160,14 @@ public void setFontFamily(String value)
 ```
 
 
-يحصل أو يضبط عائلة الخط.
+يحصل أو يعيّن عائلة الخط.
 
 القيمة: عائلة الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFontFileName() {#getFontFileName--}
 ```
@@ -175,9 +175,9 @@ public String getFontFileName()
 ```
 
 
-يحصل أو يضبط اسم ملف الخط دون المسار الكامل.
+يحصل أو يعيّن اسم ملف الخط دون المسار الكامل.
 
-القيمة: اسم ملف الخط دون المسار الكامل.
+القيمة: اسم ملف الخط بدون المسار الكامل.
 
 **Returns:**
 java.lang.String
@@ -187,14 +187,14 @@ public void setFontFileName(String value)
 ```
 
 
-يحصل أو يضبط اسم ملف الخط دون المسار الكامل.
+يحصل أو يعيّن اسم ملف الخط دون المسار الكامل.
 
-القيمة: اسم ملف الخط دون المسار الكامل.
+القيمة: اسم ملف الخط بدون المسار الكامل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFontName() {#getFontName--}
 ```
@@ -202,7 +202,7 @@ public String getFontName()
 ```
 
 
-يحصل أو يضبط اسم خط PostScript.
+يحصل أو يعيّن اسم خط PostScript.
 
 القيمة: اسم خط PostScript.
 
@@ -214,14 +214,14 @@ public void setFontName(String value)
 ```
 
 
-يحصل أو يضبط اسم خط PostScript.
+يحصل أو يعيّن اسم خط PostScript.
 
 القيمة: اسم خط PostScript.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getFontType() {#getFontType--}
 ```
@@ -229,7 +229,7 @@ public String getFontType()
 ```
 
 
-يحصل أو يضبط نوع الخط.
+يحصل أو يعيّن نوع الخط.
 
 TrueType، Type 1، Open Type، وما إلى ذلك. القيمة: نوع الخط.
 
@@ -241,14 +241,14 @@ public void setFontType(String value)
 ```
 
 
-يحصل أو يضبط نوع الخط.
+يحصل أو يعيّن نوع الخط.
 
 TrueType، Type 1، Open Type، وما إلى ذلك. القيمة: نوع الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -256,9 +256,9 @@ public String getVersion()
 ```
 
 
-يحصل أو يضبط إصدار الخط.
+يحصل أو يعيّن نسخة الخط.
 
-/version للخطوط Type1 nameId 5 لـ Apple True Type و OpenType /CIDFontVersion للخطوط CID السلسلة الفارغة للخطوط النقطية القيمة: إصدار الخط.
+/version لخطوط Type1 nameId 5 لـ Apple True Type و OpenType /CIDFontVersion للخطوط CID السلسلة الفارغة للخطوط النقطية القيمة: إصدار الخط.
 
 **Returns:**
 java.lang.String
@@ -268,14 +268,14 @@ public void setVersion(String value)
 ```
 
 
-يحصل أو يضبط إصدار الخط.
+يحصل أو يعيّن نسخة الخط.
 
-/version للخطوط Type1 nameId 5 لـ Apple True Type و OpenType /CIDFontVersion للخطوط CID السلسلة الفارغة للخطوط النقطية القيمة: إصدار الخط.
+/version لخطوط Type1 nameId 5 لـ Apple True Type و OpenType /CIDFontVersion للخطوط CID السلسلة الفارغة للخطوط النقطية القيمة: إصدار الخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String |  |
+| value | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
