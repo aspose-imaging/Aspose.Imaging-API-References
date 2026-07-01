@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusCustomStartCapData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusCustomStartCapData 对象指定线段起始端的自定义线帽。"
 type: docs
 weight: 38
@@ -22,8 +22,8 @@ EmfPlusCustomStartCapData 对象指定线段起始端的自定义线帽。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCustomStartCap()](#getCustomStartCap--) | 获取或设置 自定义线帽，定义在直线末端绘制的形状。 |
-| [setCustomStartCap(EmfPlusCustomLineCap value)](#setCustomStartCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | 获取或设置 自定义线帽，定义在直线末端绘制的形状。 |
+| [getCustomStartCap()](#getCustomStartCap--) | 获取或设置自定义线帽，定义在直线末端绘制的形状。 |
+| [setCustomStartCap(EmfPlusCustomLineCap value)](#setCustomStartCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | 获取或设置自定义线帽，定义在直线末端绘制的形状。 |
 ### EmfPlusCustomStartCapData() {#EmfPlusCustomStartCapData--}
 ```
 public EmfPlusCustomStartCapData()
@@ -36,7 +36,7 @@ public EmfPlusCustomLineCap getCustomStartCap()
 ```
 
 
-获取或设置 自定义线帽，定义在直线末端绘制的形状。它可以是多种形状之一，包括方形、圆形或菱形。
+获取或设置自定义线帽，定义在直线末端绘制的形状。它可以是多种形状之一，包括方形、圆形或菱形。
 
 **Returns:**
 [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)
@@ -46,7 +46,7 @@ public void setCustomStartCap(EmfPlusCustomLineCap value)
 ```
 
 
-获取或设置 自定义线帽，定义在直线末端绘制的形状。它可以是多种形状之一，包括方形、圆形或菱形。
+获取或设置自定义线帽，定义在直线末端绘制的形状。它可以是多种形状之一，包括方形、圆形或菱形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

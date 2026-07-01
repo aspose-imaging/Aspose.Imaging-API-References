@@ -1,7 +1,7 @@
 ---
 title: "PointD"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "点双精度"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 点双精度"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.cdr.types/pointd/
@@ -12,13 +12,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class PointD extends Struct<PointD>
 ```
 
-点双精度
+该 点双精度
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PointD()](#PointD--) |  |
-| [PointD(double x, double y)](#PointD-double-double-) | 初始化一个新的 [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd) 结构体实例。 |
+| [PointD(double x, double y)](#PointD-double-double-) | 初始化 [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd) 结构的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -47,7 +47,7 @@ public PointD(double x, double y)
 ```
 
 
-初始化一个新的 [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd) 结构体实例。
+初始化 [PointD](../../com.aspose.imaging.fileformats.cdr.types/pointd) 结构的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -76,7 +76,7 @@ public final void setX(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x。 |
+| 值 | double | x。 |
 
 ### getY() {#getY--}
 ```
@@ -87,7 +87,7 @@ public final double getY()
 获取 y。
 
 **Returns:**
-double - y。
+double - y.
 ### setY(double value) {#setY-double-}
 ```
 public final void setY(double value)
@@ -99,7 +99,7 @@ public final void setY(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y。 |
+| 值 | double | y。 |
 
 ### toPointF() {#toPointF--}
 ```

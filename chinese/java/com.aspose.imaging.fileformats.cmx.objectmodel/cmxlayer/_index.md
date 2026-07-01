@@ -1,13 +1,13 @@
 ---
 title: "CmxLayer"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "位于 CMX 文档页面上的图形层。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging/fileformats/cmx.objectmodel/cmxcontainer)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cmx.objectmodel.CmxContainer](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer)
 ```
 public class CmxLayer extends CmxContainer
 ```
@@ -31,10 +31,10 @@ public class CmxLayer extends CmxContainer
 | [setFlags(long value)](#setFlags-long-) | 设置标志。 |
 | [getName()](#getName--) | 获取层的名称。 |
 | [setName(String value)](#setName-java.lang.String-) | 设置层的名称。 |
-| [getNumber()](#getNumber--) | 获取层顺序号。 |
-| [setNumber(int value)](#setNumber-int-) | 设置层顺序号。 |
-| [isVisible()](#isVisible--) | 获取指示此层是否可见的值。 |
-| [setVisible(boolean value)](#setVisible-boolean-) | 设置指示此层是否可见的值。 |
+| [getNumber()](#getNumber--) | 获取层的顺序号。 |
+| [setNumber(int value)](#setNumber-int-) | 设置层的顺序号。 |
+| [isVisible()](#isVisible--) | 获取一个指示此层是否可见的值。 |
+| [setVisible(boolean value)](#setVisible-boolean-) | 设置一个指示此层是否可见的值。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
 ### CmxLayer() {#CmxLayer--}
@@ -72,7 +72,7 @@ public final void setFlags(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 标志。 |
+| 值 | long | 标志。 |
 
 ### getName() {#getName--}
 ```
@@ -95,7 +95,7 @@ public final void setName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 层的名称。 |
+| 值 | java.lang.String | 层的名称。 |
 
 ### getNumber() {#getNumber--}
 ```
@@ -103,22 +103,22 @@ public final int getNumber()
 ```
 
 
-获取层顺序号。
+获取层的顺序号。
 
 **Returns:**
-int - 层顺序号。
+int - 层的顺序号。
 ### setNumber(int value) {#setNumber-int-}
 ```
 public final void setNumber(int value)
 ```
 
 
-设置层顺序号。
+设置层的顺序号。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 层顺序号。 |
+| 值 | int | 层的顺序号。 |
 
 ### isVisible() {#isVisible--}
 ```
@@ -126,7 +126,7 @@ public final boolean isVisible()
 ```
 
 
-获取指示此层是否可见的值。
+获取一个指示此层是否可见的值。
 
 **Returns:**
 boolean
@@ -136,12 +136,12 @@ public final void setVisible(boolean value)
 ```
 
 
-设置指示此层是否可见的值。
+设置一个指示此层是否可见的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此层是否可见的值。 |
+| 值 | boolean | 一个指示此层是否可见的值。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

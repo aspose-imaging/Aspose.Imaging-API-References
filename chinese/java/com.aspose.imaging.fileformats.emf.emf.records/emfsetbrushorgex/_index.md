@@ -1,7 +1,7 @@
 ---
 title: "EmfSetBrushOrgEx"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETBRUSHORGEX 记录指定当前画笔的原点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETBRUSHORGEX 记录指定当前画刷的原点。"
 type: docs
 weight: 121
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/
@@ -23,8 +23,8 @@ EMR\_SETBRUSHORGEX 记录指定当前画刷的原点。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定画笔在设备单位中的水平和垂直原点。 |
-| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定画笔在设备单位中的水平和垂直原点。 |
+| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），用于指定画刷在设备单位下的水平和垂直原点。 |
+| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），用于指定画刷在设备单位下的水平和垂直原点。 |
 ### EmfSetBrushOrgEx(EmfRecord source) {#EmfSetBrushOrgEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetBrushOrgEx(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetBrushOrgEx(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetBrushOrgEx() {#EmfSetBrushOrgEx--}
 ```
@@ -52,7 +52,7 @@ public Point getOrigin()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定画笔在设备单位中的水平和垂直原点。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），用于指定画刷在设备单位下的水平和垂直原点。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOrigin(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定画笔在设备单位中的水平和垂直原点。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），用于指定画刷在设备单位下的水平和垂直原点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,7 +1,7 @@
 ---
 title: "WebPOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "使用我们的 API 创建现代 WebP 栅格网页图像，提供对无损和有损压缩、以及 alpha 通道和动画循环的强大支持。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "使用我们的 API 创建现代 WebP 栅格网络图像，提供对无损和有损压缩、以及 Alpha 通道和动画循环的强大支持。"
 type: docs
 weight: 53
 url: /zh/java/com.aspose.imaging.imageoptions/webpoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class WebPOptions extends ImageOptionsBase
 ```
 
-使用我们的 API 创建现代 WebP 栅格网页图像，提供对无损和有损压缩、以及 alpha 通道和动画循环的强大支持。通过动态视觉效果提升您的网页内容，同时优化文件大小以改善加载速度和用户体验。
+使用我们的 API 创建现代 WebP 栅格网络图像，提供对无损和有损压缩、以及 Alpha 通道和动画循环的强大支持。通过动态视觉效果提升您的网页内容，同时优化文件大小以改善加载速度和用户体验。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -44,7 +44,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // 仅导出前两页。这些页面将在输出的 WEBP 中以动画帧的形式呈现。
+    // 仅导出前两页。这些页面将在输出的 WEBP 中呈现为动画帧。
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage)image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -78,7 +78,7 @@ public boolean getLossless()
 获取或设置一个值，指示此 `WebPOptions` 是否为无损。
 
 **Returns:**
-boolean - 如果是无损则为 `true`；否则为 `false`。
+boolean - 若为无损则为 `true`；否则为 `false`。
 ### setLossless(boolean value) {#setLossless-boolean-}
 ```
 public void setLossless(boolean value)
@@ -90,7 +90,7 @@ public void setLossless(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果是无损；否则为 `false`。 |
+| 值 | boolean | `true` 表示无损；否则为 `false`。 |
 
 ### getQuality() {#getQuality--}
 ```
@@ -113,7 +113,7 @@ public void setQuality(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 质量。 |
+| 值 | float | 质量。 |
 
 ### getAnimLoopCount() {#getAnimLoopCount--}
 ```
@@ -136,7 +136,7 @@ public void setAnimLoopCount(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 动画循环计数，0 表示无限。 |
+| 值 | int | 动画循环计数，0 - 无限。 |
 
 ### getAnimBackgroundColor() {#getAnimBackgroundColor--}
 ```
@@ -159,5 +159,5 @@ public void setAnimBackgroundColor(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 动画背景的颜色。 |
+| 值 | long | 动画背景的颜色。 |
 

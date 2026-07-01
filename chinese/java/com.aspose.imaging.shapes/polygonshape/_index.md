@@ -1,6 +1,6 @@
 ---
 title: "PolygonShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示多边形形状。"
 type: docs
 weight: 15
@@ -29,12 +29,12 @@ public class PolygonShape extends Shape implements IOrderedShape
 | --- | --- |
 | [getPoints()](#getPoints--) | 获取或设置曲线点。 |
 | [setPoints(PointF[] value)](#setPoints-com.aspose.imaging.PointF---) | 获取或设置曲线点。 |
-| [isClosed()](#isClosed--) | 获取或设置一个值，指示形状是否闭合。 |
-| [setClosed(boolean value)](#setClosed-boolean-) | 获取或设置一个值，指示形状是否闭合。 |
+| [isClosed()](#isClosed--) | 获取或设置指示形状是否闭合的值。 |
+| [setClosed(boolean value)](#setClosed-boolean-) | 获取或设置指示形状是否闭合的值。 |
 | [getBounds()](#getBounds--) | 获取对象的边界。 |
 | [getCenter()](#getCenter--) | 获取形状的中心。 |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
-| [hasSegments()](#hasSegments--) | 获取指示形状是否具有段的值。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
+| [hasSegments()](#hasSegments--) | 获取一个值，指示形状是否有段。 |
 | [getStartPoint()](#getStartPoint--) | 获取起始形状点。 |
 | [getEndPoint()](#getEndPoint--) | 获取结束形状点。 |
 | [reverse()](#reverse--) | 反转此形状的点顺序。 |
@@ -45,14 +45,14 @@ public class PolygonShape extends Shape implements IOrderedShape
 | [hashCode()](#hashCode--) | 用作默认的哈希函数。 |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
-此示例创建一个新的 Image 并在图像表面使用 Figures 和 GraphicsPath 绘制各种形状。
+此示例创建一个新 Image，并在 Image 表面使用 Figures 和 GraphicsPath 绘制各种形状
 ``` java
-//创建一个 BmpOptions 实例并设置其各种属性。
+//创建一个 BmpOptions 实例并设置其各种属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-//第二个布尔参数决定要创建的文件是否为 IsTemporal。
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("c:\\temp\\output.bmp", false));
 
 //创建 Image 的实例
@@ -70,7 +70,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure1 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure1.addShape(new com.aspose.imaging.shapes.EllipseShape(new com.aspose.imaging.RectangleF(50, 50, 300, 300)));
     figure1.addShape(new com.aspose.imaging.shapes.PieShape(
             new com.aspose.imaging.RectangleF(
@@ -80,7 +80,7 @@ try {
     //创建 Figure 类的实例
     com.aspose.imaging.Figure figure2 = new com.aspose.imaging.Figure();
 
-    //向 Figure 对象添加 Shape。
+    //向 Figure 对象添加 Shape
     figure2.addShape(new com.aspose.imaging.shapes.ArcShape(new com.aspose.imaging.RectangleF(10, 10, 300, 300), 0, 45));
     figure2.addShape(new com.aspose.imaging.shapes.PolygonShape(
             new com.aspose.imaging.PointF[]
@@ -140,7 +140,7 @@ public PolygonShape(PointF[] points, boolean isClosed)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | 点数组。 |
-| isClosed | boolean | 如果设置为 `true`，则多边形是闭合的。 |
+| isClosed | boolean | 如果设置为 `true`，多边形将闭合。 |
 
 ### getPoints() {#getPoints--}
 ```
@@ -175,9 +175,9 @@ public boolean isClosed()
 ```
 
 
-获取或设置一个值，指示形状是否闭合。
+获取或设置指示形状是否闭合的值。
 
-值：如果形状是闭合的则为 `true`；否则为 `false`。
+值：如果形状闭合则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -187,14 +187,14 @@ public void setClosed(boolean value)
 ```
 
 
-获取或设置一个值，指示形状是否闭合。
+获取或设置指示形状是否闭合的值。
 
-值：如果形状是闭合的则为 `true`；否则为 `false`。
+值：如果形状闭合则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getBounds() {#getBounds--}
 ```
@@ -226,7 +226,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 
@@ -238,7 +238,7 @@ public boolean hasSegments()
 ```
 
 
-获取指示形状是否具有段的值。
+获取一个值，指示形状是否有段。
 
 值：如果形状有段，则为 `True`；否则为 `false`。
 
@@ -287,7 +287,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -302,8 +302,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -318,7 +318,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```

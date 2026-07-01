@@ -1,6 +1,6 @@
 ---
 title: "EmfSetWindowExtEx"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETWINDOWEXTEX 记录定义了窗口范围。"
 type: docs
 weight: 144
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetWindowExtEx extends EmfStateRecordType
 ```
 
-EMR\_SETWINDOWEXTEX 记录定义窗口范围。
+该 EMR\_SETWINDOWEXTEX 记录定义窗口范围。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public EmfSetWindowExtEx(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetWindowExtEx() {#EmfSetWindowExtEx--}
 ```

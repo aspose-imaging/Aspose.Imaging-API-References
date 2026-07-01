@@ -1,18 +1,18 @@
 ---
 title: "WmfEscapeRecordBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "转义记录基类。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 escape 记录基类。"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfEscapeRecordBase extends WmfObject
 ```
 
-转义记录基类。
+该 escape 记录基类。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -42,7 +42,7 @@ public int getByteCount()
 
 获取或设置字节计数。
 
-值：一个 16 位无符号整数，指定随后的记录数据的大小（字节）。此值必须等于 34 加上 EnhancedMetafileDataSize 字段的值。
+值：一个 16 位无符号整数，指定随后记录数据的大小（单位为字节）。此值必须等于 34 加上 EnhancedMetafileDataSize 字段的值。
 
 **Returns:**
 int
@@ -54,12 +54,12 @@ public void setByteCount(int value)
 
 获取或设置字节计数。
 
-值：一个 16 位无符号整数，指定随后的记录数据的大小（字节）。此值必须等于 34 加上 EnhancedMetafileDataSize 字段的值。
+值：一个 16 位无符号整数，指定随后记录数据的大小（单位为字节）。此值必须等于 34 加上 EnhancedMetafileDataSize 字段的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getData() {#getData--}
 ```
@@ -86,7 +86,7 @@ public void setData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getChecked() {#getChecked--}
 ```
@@ -113,5 +113,5 @@ public void setChecked(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 

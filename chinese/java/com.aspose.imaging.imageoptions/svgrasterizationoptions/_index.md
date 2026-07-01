@@ -1,6 +1,6 @@
 ---
 title: "SvgRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "SVG 光栅化选项。"
 type: docs
 weight: 46
@@ -22,10 +22,10 @@ SVG 光栅化选项。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getScaleX()](#getScaleX--) | 获取或设置 x 轴比例。 |
-| [setScaleX(float value)](#setScaleX-float-) | 获取或设置 x 轴比例。 |
-| [getScaleY()](#getScaleY--) | 获取或设置 y 轴比例。 |
-| [setScaleY(float value)](#setScaleY-float-) | 获取或设置 y 轴比例。 |
+| [getScaleX()](#getScaleX--) | 获取或设置 x 方向的比例。 |
+| [setScaleX(float value)](#setScaleX-float-) | 获取或设置 x 方向的比例。 |
+| [getScaleY()](#getScaleY--) | 获取或设置 y 方向的比例。 |
+| [setScaleY(float value)](#setScaleY-float-) | 获取或设置 y 方向的比例。 |
 | [copyTo(VectorRasterizationOptions vectorRasterizationOptions)](#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) | 将此实例复制到 `vectorRasterizationOptions`。 |
 ### SvgRasterizationOptions() {#SvgRasterizationOptions--}
 ```
@@ -41,22 +41,22 @@ public float getScaleX()
 ```
 
 
-获取或设置 x 轴比例。
+获取或设置 x 方向的比例。
 
 **Returns:**
-float - x 轴比例。
+float - x 方向的比例。
 ### setScaleX(float value) {#setScaleX-float-}
 ```
 public void setScaleX(float value)
 ```
 
 
-获取或设置 x 轴比例。
+获取或设置 x 方向的比例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | x 轴比例。 |
+| 值 | float | x 方向的比例。 |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -79,7 +79,7 @@ try {
     // 对线条、曲线以及填充区域的边缘进行抗锯齿处理。
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // 每个字符使用其未使用 hinting 的抗锯齿字形位图绘制。
+    // 每个字符使用其不带提示的抗锯齿字形位图绘制。
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
     // 将图像尺寸缩小 10 倍，即输出尺寸为原始尺寸的 10%。
@@ -102,22 +102,22 @@ public float getScaleY()
 ```
 
 
-获取或设置 y 轴比例。
+获取或设置 y 方向的比例。
 
 **Returns:**
-float - y 轴比例。
+float - y 方向的比例。
 ### setScaleY(float value) {#setScaleY-float-}
 ```
 public void setScaleY(float value)
 ```
 
 
-获取或设置 y 轴比例。
+获取或设置 y 方向的比例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | y 轴比例。 |
+| 值 | float | y 方向的比例。 |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -140,7 +140,7 @@ try {
     // 对线条、曲线以及填充区域的边缘进行抗锯齿处理。
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // 每个字符使用其未使用 hinting 的抗锯齿字形位图绘制。
+    // 每个字符使用其不带提示的抗锯齿字形位图绘制。
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
     // 将图像尺寸缩小 10 倍，即输出尺寸为原始尺寸的 10%。
@@ -168,5 +168,5 @@ public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | 矢量光栅化选项。 |
+| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | 向量光栅化选项。 |
 

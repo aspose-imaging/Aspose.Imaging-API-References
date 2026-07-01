@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusCurveChannel"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "CurveChannel 枚举定义可受颜色曲线效果调整影响的图像颜色通道。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "CurveChannel 枚举定义了可受颜色曲线效果调整影响的颜色通道。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurvechannel/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusCurveChannel extends System.Enum
 ```
 
-CurveChannel 枚举定义可受颜色曲线效果调整影响的图像颜色通道。
+CurveChannel 枚举定义了可受颜色曲线效果调整影响的颜色通道。
 ## 字段
 
 | 字段 | 描述 |

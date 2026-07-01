@@ -1,7 +1,7 @@
 ---
 title: "ColorComparisonMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定在 Magic Wand 算法期间如何比较颜色。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "指定在 Magic Wand 算法期间颜色的比较方式。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.magicwand/colorcomparisonmode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ColorComparisonMode extends System.Enum
 ```
 
-指定在 Magic Wand 算法期间如何比较颜色。
+指定在 Magic Wand 算法期间颜色的比较方式。
 ## 字段
 
 | 字段 | 描述 |

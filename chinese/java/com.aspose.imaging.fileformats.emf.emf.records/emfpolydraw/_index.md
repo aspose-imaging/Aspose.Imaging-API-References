@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyDraw"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_POLYDRAW 记录指定一组线段和贝塞尔曲线。"
 type: docs
 weight: 89
@@ -23,8 +23,8 @@ EMR\_POLYDRAW 记录指定一组线段和贝塞尔曲线。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getAbTypes()](#getAbTypes--) | 获取一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。 |
-| [setAbTypes(byte[] value)](#setAbTypes-byte---) | 设置一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。 |
+| [getAbTypes()](#getAbTypes--) | 获取一个长度为 Count 的字节值数组，指定如何使用 Gets or sets aPoints 数组中的每个点。 |
+| [setAbTypes(byte[] value)](#setAbTypes-byte---) | 设置一个长度为 Count 的字节值数组，指定如何使用 Gets or sets aPoints 数组中的每个点。 |
 ### EmfPolyDraw(EmfRecord source) {#EmfPolyDraw-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPolyDraw(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfPolyDraw(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolyDraw() {#EmfPolyDraw--}
 ```
@@ -52,20 +52,20 @@ public byte[] getAbTypes()
 ```
 
 
-获取一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。此值必须属于 Point（第 2.1.26 节）枚举。
+获取一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组时每个点的使用方式。此值必须属于 Point（第 2.1.26 节）枚举。
 
 **Returns:**
-byte[] - 一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。
+byte[] - 一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组时每个点的使用方式。
 ### setAbTypes(byte[] value) {#setAbTypes-byte---}
 ```
 public void setAbTypes(byte[] value)
 ```
 
 
-设置一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。此值必须属于 Point（第 2.1.26 节）枚举。
+设置一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组时每个点的使用方式。此值必须属于 Point（第 2.1.26 节）枚举。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组中的每个点的使用方式。 |
+| 值 | byte[] | 一个长度为 Count 的字节值数组，用于指定在获取或设置 aPoints 数组时每个点的使用方式。 |
 

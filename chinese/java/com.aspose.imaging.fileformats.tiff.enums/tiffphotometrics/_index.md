@@ -1,6 +1,6 @@
 ---
-title: "TiffPhotometrics"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "Tiff 光度计"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "光度插值枚举"
 type: docs
 weight: 20
@@ -21,12 +21,12 @@ public final class TiffPhotometrics extends System.Enum
 | [MinIsBlack](#MinIsBlack) | 最小值为黑色。 |
 | [Rgb](#Rgb) | RGB 颜色模型。 |
 | [Palette](#Palette) | 颜色映射已索引。 |
-| [Mask](#Mask) | [已被 TIFF 版本淘汰。 |
+| [Mask](#Mask) | [已被 TIFF rev. 弃用。 |
 | [Separated](#Separated) | 颜色分离。 |
-| [Ycbcr](#Ycbcr) | CCIR 601。 |
-| [Cielab](#Cielab) | 1976 CIE L\*a\*b\*。 |
-| [Icclab](#Icclab) | ICC L\*a\*b\*。 |
-| [Itulab](#Itulab) | ITU L\*a\*b\*。 |
+| [Ycbcr](#Ycbcr) | 该 CCIR 601。 |
+| [Cielab](#Cielab) | 1976 CIE L*a*b*。 |
+| [Icclab](#Icclab) | ICC L*a*b*。 |
+| [Itulab](#Itulab) | ITU L*a*b*。 |
 | [Logl](#Logl) | CIE Log2(L)。 |
 | [Logluv](#Logluv) | CIE Log2(L) (u',v')。 |
 ### MinIsWhite {#MinIsWhite}
@@ -83,7 +83,7 @@ public static final int Ycbcr
 ```
 
 
-CCIR 601。
+该 CCIR 601。
 
 ### Cielab {#Cielab}
 ```
@@ -91,7 +91,7 @@ public static final int Cielab
 ```
 
 
-1976 CIE L\*a\*b\*。
+1976 CIE L*a*b*。
 
 ### Icclab {#Icclab}
 ```
@@ -99,7 +99,7 @@ public static final int Icclab
 ```
 
 
-ICC L\*a\*b\*。由 Adobe TIFF Technote 4 在 TIFF 版本 6.0 之后引入。
+ICC L*a*b*。由 Adobe TIFF Technote 4 在 TIFF rev 6.0 之后引入。
 
 ### Itulab {#Itulab}
 ```
@@ -107,7 +107,7 @@ public static final int Itulab
 ```
 
 
-ITU L\*a\*b\*。
+ITU L*a*b*。
 
 ### Logl {#Logl}
 ```

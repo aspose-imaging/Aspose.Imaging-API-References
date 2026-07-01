@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusTerminalServerRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该终端服务器记录类型指定在终端服务器上的图形处理。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 Terminal Server Record Types 指定终端服务器上的图形处理。"
 type: docs
 weight: 70
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusterminalserverrecordtype/

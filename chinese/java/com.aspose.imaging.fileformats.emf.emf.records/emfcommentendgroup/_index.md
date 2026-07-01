@@ -1,6 +1,6 @@
 ---
 title: "EmfCommentEndGroup"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_COMMENT_ENDGROUP 记录指定一组绘图记录的结束。"
 type: docs
 weight: 29
@@ -29,5 +29,5 @@ public EmfCommentEndGroup(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 

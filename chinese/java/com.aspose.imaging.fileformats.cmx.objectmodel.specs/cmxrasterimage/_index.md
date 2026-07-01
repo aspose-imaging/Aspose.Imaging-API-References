@@ -1,6 +1,6 @@
 ---
 title: "CmxRasterImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为光栅图像指定的数据。"
 type: docs
 weight: 15
@@ -27,8 +27,8 @@ public class CmxRasterImage implements ICmxObjectSpec
 | --- | --- |
 | [getType()](#getType--) | 获取图像的类型。 |
 | [setType(int value)](#setType-int-) | 设置图像的类型。 |
-| [getCompression()](#getCompression--) | 获取压缩方式。 |
-| [setCompression(int value)](#setCompression-int-) | 设置压缩方式。 |
+| [getCompression()](#getCompression--) | 获取压缩。 |
+| [setCompression(int value)](#setCompression-int-) | 设置压缩。 |
 | [getSize()](#getSize--) | 获取图像的大小。 |
 | [setSize(long value)](#setSize-long-) | 设置图像的大小。 |
 | [getCompressedSize()](#getCompressedSize--) | 获取图像的压缩大小。 |
@@ -43,8 +43,8 @@ public class CmxRasterImage implements ICmxObjectSpec
 | [setHeight(long value)](#setHeight-long-) | 设置图像的高度。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取每像素位数。 |
 | [setBitsPerPixel(long value)](#setBitsPerPixel-long-) | 设置每像素位数。 |
-| [getBytesPerLine()](#getBytesPerLine--) | 获取行的大小。 |
-| [setBytesPerLine(long value)](#setBytesPerLine-long-) | 设置行的大小。 |
+| [getBytesPerLine()](#getBytesPerLine--) | 获取线的大小。 |
+| [setBytesPerLine(long value)](#setBytesPerLine-long-) | 设置线的大小。 |
 | [getColorPalette()](#getColorPalette--) | 获取颜色调色板数组。 |
 | [setColorPalette(int[] value)](#setColorPalette-int---) | 设置颜色调色板数组。 |
 | [getRawData()](#getRawData--) | 获取图像的原始字节数据。 |
@@ -79,7 +79,7 @@ public final void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 图像的类型。 |
+| 值 | int | 图像的类型。 |
 
 ### getCompression() {#getCompression--}
 ```
@@ -87,7 +87,7 @@ public final int getCompression()
 ```
 
 
-获取压缩方式。
+获取压缩。
 
 **Returns:**
 int - 压缩。
@@ -97,12 +97,12 @@ public final void setCompression(int value)
 ```
 
 
-设置压缩方式。
+设置压缩。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 压缩。 |
+| 值 | int | 压缩。 |
 
 ### getSize() {#getSize--}
 ```
@@ -120,12 +120,12 @@ public final void setSize(long value)
 ```
 
 
-设置图像的大小。以字节为单位。
+设置图像的大小。单位为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像的大小。 |
+| 值 | long | 图像的大小。 |
 
 ### getCompressedSize() {#getCompressedSize--}
 ```
@@ -133,7 +133,7 @@ public final long getCompressedSize()
 ```
 
 
-获取图像的压缩大小。以字节为单位。
+获取图像的压缩大小。单位为字节。
 
 **Returns:**
 long - 图像的压缩大小。
@@ -143,12 +143,12 @@ public final void setCompressedSize(long value)
 ```
 
 
-设置图像的压缩大小。以字节为单位。
+设置图像的压缩大小。单位为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像的压缩大小。 |
+| 值 | long | 图像的压缩大小。 |
 
 ### isMask() {#isMask--}
 ```
@@ -171,7 +171,7 @@ public final void setMask(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否为掩码的值。 |
+| 值 | boolean | 指示此实例是否为掩码的值。 |
 
 ### getColorModel() {#getColorModel--}
 ```
@@ -194,7 +194,7 @@ public final void setColorModel(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 颜色模型。 |
+| 值 | long | 颜色模型。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -202,7 +202,7 @@ public final long getWidth()
 ```
 
 
-获取图像的宽度。以像素为单位。
+获取图像的宽度。单位为像素。
 
 **Returns:**
 long - 图像的宽度。
@@ -212,12 +212,12 @@ public final void setWidth(long value)
 ```
 
 
-设置图像的宽度。以像素为单位。
+设置图像的宽度。单位为像素。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像的宽度。 |
+| 值 | long | 图像的宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -225,7 +225,7 @@ public final long getHeight()
 ```
 
 
-获取图像的高度。以像素为单位。
+获取图像的高度。单位为像素。
 
 **Returns:**
 long - 图像的高度。
@@ -235,12 +235,12 @@ public final void setHeight(long value)
 ```
 
 
-设置图像的高度。以像素为单位。
+设置图像的高度。单位为像素。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像的高度。 |
+| 值 | long | 图像的高度。 |
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
@@ -263,7 +263,7 @@ public final void setBitsPerPixel(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 每像素位数。 |
+| 值 | long | 每像素位数。 |
 
 ### getBytesPerLine() {#getBytesPerLine--}
 ```
@@ -271,7 +271,7 @@ public final long getBytesPerLine()
 ```
 
 
-获取行的大小。以字节为单位。
+获取行的大小。单位为字节。
 
 **Returns:**
 long - 行的大小。
@@ -281,12 +281,12 @@ public final void setBytesPerLine(long value)
 ```
 
 
-设置行的大小。以字节为单位。
+设置行的大小。单位为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 行的大小。 |
+| 值 | long | 行的大小。 |
 
 ### getColorPalette() {#getColorPalette--}
 ```
@@ -294,7 +294,7 @@ public final int[] getColorPalette()
 ```
 
 
-获取颜色调色板数组。元素是以 `int` 表示的 ARGB 颜色值。
+获取颜色调色板数组。元素是以 `int` 表示的 ARGB 颜色值
 
 **Returns:**
 int[] - 颜色调色板数组。
@@ -309,7 +309,7 @@ public final void setColorPalette(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 颜色调色板数组。 |
+| 值 | int[] | 颜色调色板数组。 |
 
 ### getRawData() {#getRawData--}
 ```
@@ -332,7 +332,7 @@ public final void setRawData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 图像的原始字节数据。 |
+| 值 | byte[] | 图像的原始字节数据。 |
 
 ### toString() {#toString--}
 ```

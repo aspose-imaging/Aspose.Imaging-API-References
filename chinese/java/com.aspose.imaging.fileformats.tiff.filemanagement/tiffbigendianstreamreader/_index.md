@@ -1,18 +1,18 @@
 ---
 title: "TiffBigEndianStreamReader"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于处理大端 TIFF 文件格式的 tiff 流。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于处理大端 tiff 文件格式的 tiff 流。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 **Inheritance:**
-java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging/fileformats/tiff/filemanagement/tiffstreamreader)
 ```
 public class TiffBigEndianStreamReader extends TiffStreamReader
 ```
 
-用于处理大端 TIFF 文件格式的 tiff 流。
+用于处理大端 tiff 文件格式的 tiff 流。
 ## 构造函数
 
 | 构造函数 | 描述 |

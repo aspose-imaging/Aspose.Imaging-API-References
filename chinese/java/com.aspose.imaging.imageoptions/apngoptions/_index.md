@@ -1,7 +1,7 @@
 ---
 title: "ApngOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Animated PNG Animated Portable Network Graphics 图像文件格式创建的 API 是一个为希望生成引人入胜的动画图像的开发者提供的动态工具。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于创建 Animated PNG（动画可移植网络图形）图像文件格式的 API 是一个为希望生成引人入胜的动画图像的开发者提供的动态工具。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.imageoptions/apngoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class ApngOptions extends PngOptions
 ```
 
-Animated PNG (Animated Portable Network Graphics) 图像文件格式创建的 API 是一个为希望生成引人入胜的动画图像的开发者提供的动态工具。通过可自定义的选项，如帧持续时间和循环次数，此 API 允许根据特定需求微调动画内容。无论是创建引人注目的网页图形还是交互式视觉效果，您都可以利用此 API 无缝地将 APNG 图像集成，并对动画参数进行精确控制。
+用于创建 Animated PNG（Animated Portable Network Graphics）图像文件格式的 API 是为希望生成引人入胜的动画图像的开发者提供的动态工具。通过可自定义的选项，如帧持续时间和循环次数，此 API 允许根据特定需求微调动画内容。无论是创建吸引人的网页图形还是交互式视觉效果，您都可以利用此 API 无缝地将 APNG 图像集成，并对动画参数进行精确控制。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ import com.aspose.imaging.imageoptions;
 
 try (Image image = Image.load("Animation1.webp"))
 {
-    // 导出为 APNG 动画，默认无限动画循环
+    // 默认导出为具有无限动画循环的 APNG 动画
     image.save("Animation1.webp.png", new ApngOptions());
     // 设置动画循环
     ApngOptions options = new ApngOptions();
@@ -105,7 +105,7 @@ import com.aspose.imaging.imageoptions;
 
 try (Image image = Image.load("Animation1.webp"))
 {
-    // 导出为 APNG 动画，默认无限动画循环
+    // 默认导出为具有无限动画循环的 APNG 动画
     image.save("Animation1.webp.png", new ApngOptions());
     // 设置动画循环
     ApngOptions options = new ApngOptions();
@@ -125,7 +125,7 @@ public final void setNumPlays(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 
 **Example: The following example shows how to export to APNG file format.**
@@ -137,7 +137,7 @@ import com.aspose.imaging.imageoptions;
 
 try (Image image = Image.load("Animation1.webp"))
 {
-    // 导出为 APNG 动画，默认无限动画循环
+    // 默认导出为具有无限动画循环的 APNG 动画
     image.save("Animation1.webp.png", new ApngOptions());
     // 设置动画循环
     ApngOptions options = new ApngOptions();
@@ -167,5 +167,5 @@ public final void setDefaultFrameTime(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 

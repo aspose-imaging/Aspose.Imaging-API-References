@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusCustomEndCapData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusCustomEndCapData 对象指定线段末端的自定义线帽。"
 type: docs
 weight: 33
@@ -22,8 +22,8 @@ EmfPlusCustomEndCapData 对象指定线段末端的自定义线帽。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCustomEndCap()](#getCustomEndCap--) | 获取或设置一个自定义线帽，定义在直线末端绘制的形状。 |
-| [setCustomEndCap(EmfPlusCustomLineCap value)](#setCustomEndCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | 获取或设置一个自定义线帽，定义在直线末端绘制的形状。 |
+| [getCustomEndCap()](#getCustomEndCap--) | 获取或设置自定义线帽，以定义在直线末端绘制的形状。 |
+| [setCustomEndCap(EmfPlusCustomLineCap value)](#setCustomEndCap-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap-) | 获取或设置自定义线帽，以定义在直线末端绘制的形状。 |
 ### EmfPlusCustomEndCapData() {#EmfPlusCustomEndCapData--}
 ```
 public EmfPlusCustomEndCapData()
@@ -36,7 +36,7 @@ public EmfPlusCustomLineCap getCustomEndCap()
 ```
 
 
-获取或设置一个自定义线帽，定义在直线末端绘制的形状。它可以是各种形状之一，包括方形、圆形或菱形。
+获取或设置自定义线帽，以定义在直线末端绘制的形状。它可以是各种形状之一，包括方形、圆形或菱形。
 
 **Returns:**
 [EmfPlusCustomLineCap](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)
@@ -46,7 +46,7 @@ public void setCustomEndCap(EmfPlusCustomLineCap value)
 ```
 
 
-获取或设置一个自定义线帽，定义在直线末端绘制的形状。它可以是各种形状之一，包括方形、圆形或菱形。
+获取或设置自定义线帽，以定义在直线末端绘制的形状。它可以是各种形状之一，包括方形、圆形或菱形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

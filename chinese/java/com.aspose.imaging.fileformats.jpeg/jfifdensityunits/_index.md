@@ -1,6 +1,6 @@
 ---
 title: "JfifDensityUnits"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 jfif 密度单位。"
 type: docs
 weight: 11
@@ -17,16 +17,16 @@ public final class JfifDensityUnits extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [NoUnits](#NoUnits) | 无单位。 |
+| [NoUnits](#NoUnits) | 没有单位。 |
 | [PixelsPerInch](#PixelsPerInch) | 每英寸像素数。 |
-| [PixelsPerCm](#PixelsPerCm) | 每厘米的像素数。 |
+| [PixelsPerCm](#PixelsPerCm) | 每厘米像素数。 |
 ### NoUnits {#NoUnits}
 ```
 public static final byte NoUnits
 ```
 
 
-无单位。
+没有单位。
 
 ### PixelsPerInch {#PixelsPerInch}
 ```
@@ -42,5 +42,5 @@ public static final byte PixelsPerCm
 ```
 
 
-每厘米的像素数。
+每厘米像素数。
 

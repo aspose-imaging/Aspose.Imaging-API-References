@@ -1,6 +1,6 @@
 ---
 title: "尺寸"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含已绘制对象的尺寸。"
 type: docs
 weight: 10
@@ -49,8 +49,8 @@ public Dimensions(float width, float height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | float | 宽度。 |
-| 高度 | float | 高度。 |
+| width | float | 宽度。 |
+| height | float | 高度。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -73,7 +73,7 @@ public void setWidth(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -96,7 +96,7 @@ public void setHeight(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getUnits() {#getUnits--}
 ```
@@ -106,7 +106,7 @@ public String getUnits()
 
 获取或设置单位。
 
-例如：英寸、毫米、像素、派卡、磅点等。值：单位。
+例如：英寸、毫米、像素、派卡、点等。值：单位。
 
 **Returns:**
 java.lang.String
@@ -118,12 +118,12 @@ public void setUnits(String value)
 
 获取或设置单位。
 
-例如：英寸、毫米、像素、派卡、磅点等。值：单位。
+例如：英寸、毫米、像素、派卡、点等。值：单位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "ParagraphHorizontalAlignment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "水平对齐"
 type: docs
 weight: 17
@@ -19,10 +19,10 @@ public final class ParagraphHorizontalAlignment extends System.Enum
 | --- | --- |
 | [NoAlign](#NoAlign) | 不要将文本与文本框对齐。 |
 | [Left](#Left) | 将文本与文本框的左侧对齐。 |
-| [Center](#Center) | 在文本框的左侧和右侧之间居中对齐文本。 |
+| [Center](#Center) | 将文本在文本框的左右两侧之间居中。 |
 | [Right](#Right) | 将文本与文本框的右侧对齐。 |
-| [FullJustify](#FullJustify) | 将文本（除最后一行外）与文本框的左侧和右侧对齐。 |
-| [ForceJustify](#ForceJustify) | 将文本同时与文本框的左侧和右侧对齐。 |
+| [FullJustify](#FullJustify) | 将文本（除最后一行外）与文本框的左右两侧对齐。 |
+| [ForceJustify](#ForceJustify) | 将文本与文本框的左右两侧对齐。 |
 ### NoAlign {#NoAlign}
 ```
 public static final int NoAlign
@@ -45,7 +45,7 @@ public static final int Center
 ```
 
 
-在文本框的左侧和右侧之间居中对齐文本。
+将文本在文本框的左右两侧之间居中。
 
 ### Right {#Right}
 ```
@@ -61,7 +61,7 @@ public static final int FullJustify
 ```
 
 
-将文本（除最后一行外）与文本框的左侧和右侧对齐。
+将文本（除最后一行外）与文本框的左右两侧对齐。
 
 ### ForceJustify {#ForceJustify}
 ```
@@ -69,5 +69,5 @@ public static final int ForceJustify
 ```
 
 
-将文本同时与文本框的左侧和右侧对齐。
+将文本与文本框的左右两侧对齐。
 

@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.multithreading"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含多线程类。"
 type: docs
 weight: 105

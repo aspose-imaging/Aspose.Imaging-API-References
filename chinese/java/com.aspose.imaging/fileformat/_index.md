@@ -1,6 +1,6 @@
 ---
-title: "文件格式"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "FileFormat"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "受支持的图像文件格式之一。"
 type: docs
 weight: 45
@@ -17,9 +17,9 @@ public final class FileFormat extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [Unknown](#Unknown) | 未知文件格式。 |
+| [Unknown](#Unknown) | 未知的文件格式。 |
 | [Custom](#Custom) | 自定义文件格式。 |
-| [Bmp](#Bmp) | Bmp (Dib) 文件格式。 |
+| [Bmp](#Bmp) | Bmp（Dib）文件格式。 |
 | [Gif](#Gif) | Gif 文件格式。 |
 | [Jpeg](#Jpeg) | Jpeg 文件格式。 |
 | [Png](#Png) | Png 文件格式。 |
@@ -37,19 +37,19 @@ public final class FileFormat extends System.Enum
 | [Dng](#Dng) | DNG 文件格式 |
 | [Odg](#Odg) | Open 文档图形格式 |
 | [Eps](#Eps) | 封装的 PostScript 格式 |
-| [Cdr](#Cdr) | 该 CDR 文件格式 |
-| [Cmx](#Cmx) | 该 CMX 文件格式 |
-| [Otg](#Otg) | 该 otg 文件格式 |
-| [Html5Canvas](#Html5Canvas) | 该 Html5 Canvas 格式 |
-| [Apng](#Apng) | 该动画 Png 文件格式。 |
-| [Tga](#Tga) | 该 Truevision TGA 文件格式。 |
-| [Dxf](#Dxf) | 该 AutoCAD Drawing Exchange Format。 |
-| [Emz](#Emz) | 该 emz，压缩的 emf |
-| [Wmz](#Wmz) | 该 WMZ，压缩的 wmf |
-| [Svgz](#Svgz) | 该 SVGZ，压缩的 svg |
-| [FOdg](#FOdg) | 该 fodg，平面 odg 格式 |
-| [Avif](#Avif) | 该 AVIF 文件格式。 |
-| [BigTiff](#BigTiff) | 该 Big Tiff 格式。 |
+| [Cdr](#Cdr) | CDR 文件格式 |
+| [Cmx](#Cmx) | CMX 文件格式 |
+| [Otg](#Otg) | otg 文件格式 |
+| [Html5Canvas](#Html5Canvas) | Html5 Canvas 格式 |
+| [Apng](#Apng) | 动画 Png 文件格式。 |
+| [Tga](#Tga) | Truevision TGA 文件格式。 |
+| [Dxf](#Dxf) | AutoCAD 绘图交换格式。 |
+| [Emz](#Emz) | emz，压缩的 emf |
+| [Wmz](#Wmz) | WMZ，压缩的 wmf |
+| [Svgz](#Svgz) | SVGZ，压缩的 svg |
+| [FOdg](#FOdg) | fodg，平面 odg 格式 |
+| [Avif](#Avif) | AVIF 文件格式。 |
+| [BigTiff](#BigTiff) | Big Tiff 格式。 |
 
 ## Example: This example shows how to determine the image format without loading the entire image from a file.
 
@@ -59,7 +59,7 @@ String dir = "c:\\temp\\";
 // 使用文件的绝对路径
 long format = com.aspose.imaging.Image.getFileFormat(dir + "sample.gif");
 
-// 一个文件格式的字符串表示。
+// 文件格式的字符串表示。
 String strFormat;
 if (format == com.aspose.imaging.FileFormat.Bmp) {
     strFormat = "BMP";
@@ -110,7 +110,7 @@ public static final long Unknown
 ```
 
 
-未知文件格式。
+未知的文件格式。
 
 ### Custom {#Custom}
 ```
@@ -126,7 +126,7 @@ public static final long Bmp
 ```
 
 
-Bmp (Dib) 文件格式。
+Bmp（Dib）文件格式。
 
 ### Gif {#Gif}
 ```
@@ -270,7 +270,7 @@ public static final long Cdr
 ```
 
 
-该 CDR 文件格式
+CDR 文件格式
 
 ### Cmx {#Cmx}
 ```
@@ -278,7 +278,7 @@ public static final long Cmx
 ```
 
 
-该 CMX 文件格式
+CMX 文件格式
 
 ### Otg {#Otg}
 ```
@@ -286,7 +286,7 @@ public static final long Otg
 ```
 
 
-该 otg 文件格式
+otg 文件格式
 
 ### Html5Canvas {#Html5Canvas}
 ```
@@ -294,7 +294,7 @@ public static final long Html5Canvas
 ```
 
 
-该 Html5 Canvas 格式
+Html5 Canvas 格式
 
 ### Apng {#Apng}
 ```
@@ -302,7 +302,7 @@ public static final long Apng
 ```
 
 
-该动画 Png 文件格式。
+动画 Png 文件格式。
 
 ### Tga {#Tga}
 ```
@@ -310,7 +310,7 @@ public static final long Tga
 ```
 
 
-该 Truevision TGA 文件格式。
+Truevision TGA 文件格式。
 
 ### Dxf {#Dxf}
 ```
@@ -318,7 +318,7 @@ public static final long Dxf
 ```
 
 
-该 AutoCAD Drawing Exchange Format。
+AutoCAD 绘图交换格式。
 
 ### Emz {#Emz}
 ```
@@ -326,7 +326,7 @@ public static final long Emz
 ```
 
 
-该 emz，压缩的 emf
+emz，压缩的 emf
 
 ### Wmz {#Wmz}
 ```
@@ -334,7 +334,7 @@ public static final long Wmz
 ```
 
 
-该 WMZ，压缩的 wmf
+WMZ，压缩的 wmf
 
 ### Svgz {#Svgz}
 ```
@@ -342,7 +342,7 @@ public static final long Svgz
 ```
 
 
-该 SVGZ，压缩的 svg
+SVGZ，压缩的 svg
 
 ### FOdg {#FOdg}
 ```
@@ -350,7 +350,7 @@ public static final long FOdg
 ```
 
 
-该 fodg，平面 odg 格式
+fodg，平面 odg 格式
 
 ### Avif {#Avif}
 ```
@@ -358,7 +358,7 @@ public static final long Avif
 ```
 
 
-该 AVIF 文件格式。
+AVIF 文件格式。
 
 ### BigTiff {#BigTiff}
 ```
@@ -366,5 +366,5 @@ public static final long BigTiff
 ```
 
 
-该 Big Tiff 格式。
+Big Tiff 格式。
 

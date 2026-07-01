@@ -1,6 +1,6 @@
 ---
 title: "TiffImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用我们的 API 处理标记图像文件格式（TIFF）光栅图像，提供对各种分辨率的全面支持以及诸如 EXIF 数据操作和 Alpha 通道等高级编辑功能。"
 type: docs
 weight: 13
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
 ```
 
-使用我们的 API 处理标记图像文件格式（TIFF）光栅图像，提供对各种分辨率的全面支持以及诸如 EXIF 数据操作和 Alpha 通道等高级编辑功能。对扫描图像进行角度归一化、调整大小、转换为灰度，并轻松应用滤镜、伽马校正和图像参数调整。无缝处理多帧 TIFF 文件，创建图形路径、添加形状，并轻松将图像保存为不同格式。
+使用我们的 API 处理标记图像文件格式（TIFF）光栅图像，提供对各种分辨率的全面支持以及 EXIF 数据操作和 Alpha 通道等高级编辑功能。对扫描图像进行角度归一化、调整大小、转换为灰度，并轻松应用滤镜、伽马校正和图像参数调整。无缝处理多帧 TIFF 文件，创建图形路径、添加形状，并轻松将图像保存为不同格式。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -31,45 +31,45 @@ public class TiffImage extends RasterCachedMultipageImage implements IMultipageI
 | [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | 指示组件是否需要预乘，以确保对视觉元素的高效处理。 |
 | [getByteOrder()](#getByteOrder--) | 无缝切换 TIFF 文件的字节序，确保对数据解释的精确控制。 |
 | [setByteOrder(int value)](#setByteOrder-int-) | 无缝切换 TIFF 文件的字节序，确保对数据解释的精确控制。 |
-| [getHorizontalResolution()](#getHorizontalResolution--) | 检索指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便进行精确的调整和渲染功能。 |
-| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | 修改指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便进行精确的调整和渲染功能。 |
+| [getHorizontalResolution()](#getHorizontalResolution--) | 检索指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便进行精确的调整和渲染。 |
+| [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | 修改指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便进行精确的调整和渲染。 |
 | [getVerticalResolution()](#getVerticalResolution--) | 访问指定 [Image](../../com.aspose.imaging/image) 的垂直分辨率（每英寸像素），实现精确的调整和渲染优化。 |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | 访问指定 [Image](../../com.aspose.imaging/image) 的垂直分辨率（每英寸像素），实现精确的调整和渲染优化。 |
-| [getActiveFrame()](#getActiveFrame--) | 无缝管理活动帧，便于在指定上下文中进行动态导航和操作。 |
-| [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 无缝管理活动帧，便于在指定上下文中进行动态导航和操作。 |
-| [getFrames()](#getFrames--) | 检索 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) 实例数组，以实现对 TIFF 图像中各个帧的全面访问和操作。 |
-| [getPageCount()](#getPageCount--) | 检索指定文档的页面总数，以便高效地导航和管理多页内容。 |
+| [getActiveFrame()](#getActiveFrame--) | 无缝管理活动帧，促进在指定上下文中的动态导航和操作。 |
+| [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 无缝管理活动帧，促进在指定上下文中的动态导航和操作。 |
+| [getFrames()](#getFrames--) | 检索一个包含 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) 实例的数组，以实现对 TIFF 图像中各个帧的全面访问和操作。 |
+| [getPageCount()](#getPageCount--) | 检索指定文档的总页数，以便高效地导航和管理多页内容。 |
 | [getPages()](#getPages--) | 无缝访问文档的页面，实现内容结构中的动态导航和操作。 |
-| [hasAlpha()](#hasAlpha--) | 确定图像是否具有 Alpha 通道，为渲染和合成操作提供关键信息。 |
-| [removeMetadata()](#removeMetadata--) | 通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，移除此图像实例的元数据。 |
-| [getOriginalOptions()](#getOriginalOptions--) | 检索源文件设置派生的选项，以便无缝保留关键参数，如位深度以及原始图像的其他重要属性。 |
-| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | 无缝将新页面合并到现有图像中，扩展其内容和多功能性。 |
-| [alignResolutions()](#alignResolutions--) | 实现 AlignResolutions 辅助方法，以同步水平和垂直分辨率，确保图像尺寸的一致性。 |
-| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | 为指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 设置分辨率，实现对图像渲染和显示属性的精确控制。 |
-| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | 利用专为扫描文本文件设计的 NormalizeAngle 方法来校正倾斜的扫描，确保准确对齐。 |
-| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 将指定的帧无缝合并到图像中，扩展其内容和多功能性。 |
-| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | 将指定图像中的帧无缝添加到当前帧中，整合其内容并提升构图灵活性。 |
+| [hasAlpha()](#hasAlpha--) | 确定图像是否具有 alpha 通道，为渲染和合成操作提供关键信息。 |
+| [removeMetadata()](#removeMetadata--) | 通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，来移除此图像实例的元数据。 |
+| [getOriginalOptions()](#getOriginalOptions--) | 检索源文件设置派生的选项，以实现对关键参数（如位深度）及原始图像其他重要属性的无缝保留。 |
+| [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | 将新页面无缝合并到现有图像中，扩展其内容和多功能性。 |
+| [alignResolutions()](#alignResolutions--) | 实现 AlignResolutions 辅助方法以同步水平和垂直分辨率，确保图像尺寸的一致性。 |
+| [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | 为指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 设置分辨率，以实现对图像渲染和显示属性的精确控制。 |
+| [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | 使用专为扫描文本文件设计的 NormalizeAngle 方法来校正倾斜的扫描图像，确保准确对齐。 |
+| [addFrame(TiffFrame frame)](#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 将指定帧无缝合并到图像中，扩展其内容和多功能性。 |
+| [add(TiffImage image)](#add-com.aspose.imaging.fileformats.tiff.TiffImage-) | 将指定图像中的帧无缝添加到当前帧中，整合其内容并提升组合灵活性。 |
 | [addFrames(TiffFrame[] frames)](#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---) | 将帧数组无缝集成到图像中，丰富其内容和多功能性。 |
 | [insertFrame(int index, TiffFrame frame)](#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 在帧序列中的指定索引处插入新帧，确保对帧排列的精确控制。 |
-| [replaceFrame(int index, TiffFrame newFrame)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 在指定位置将帧无缝替换为另一帧，便于在图像序列中进行动态帧管理。 |
-| [removeFrame(int index)](#removeFrame-int-) | 轻松删除图像序列中通过索引标识的帧，简化应用程序中的帧管理。 |
-| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 高效移除图像序列中的指定帧，促进应用程序中简化的帧管理。 |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | 对图像执行比例缩放操作，保持宽高比的同时调整其尺寸。 |
-| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | 在保持宽高比的前提下调整图像宽度，确保比例缩放以获得最佳视觉呈现。 |
-| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | 对图像高度进行比例调整，保持宽高比以确保视觉一致性。 |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | 仅在活动帧上执行旋转、翻转或两者的组合操作。 |
-| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | 对当前图像执行抖动处理，以提升视觉质量并减少颜色条纹伪影。 |
-| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形区域裁剪图像，允许精确选择所需内容。 |
+| [replaceFrame(int index, TiffFrame newFrame)](#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 将指定位置的帧无缝替换为另一帧，便于在图像序列中进行动态帧管理。 |
+| [removeFrame(int index)](#removeFrame-int-) | 轻松从图像序列中删除通过索引标识的帧，简化应用程序中的帧管理。 |
+| [removeFrame(TiffFrame frame)](#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 高效地从图像序列中移除指定帧，促进应用程序中帧管理的简化。 |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | 对图像进行等比例缩放操作，在调整尺寸的同时保持其宽高比。 |
+| [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | 在保持宽高比的前提下调整图像宽度，确保实现最佳视觉呈现的等比例缩放。 |
+| [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | 对图像高度进行等比例调整，保持宽高比以确保视觉一致性。 |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | 仅对活动帧执行旋转、翻转或两者的组合操作。 |
+| [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | 对当前图像进行抖动处理，以提升视觉质量并降低颜色条纹伪影。 |
+| [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形区域裁剪图像，以实现对所需内容的精确选择。 |
 | [crop(int leftShift, int rightShift, int topShift, int bottomShift)](#crop-int-int-int-int-) | 通过指定左、右、上、下方向的位移来对图像进行裁剪。 |
-| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | 使用预定义阈值对图像进行二值化，将其转换为前景和背景区域明确的二进制图像。 |
-| [binarizeOtsu()](#binarizeOtsu--) | 利用 Otsu 阈值法对图像进行二值化，自动根据图像直方图确定最佳阈值。 |
-| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | 使用 Bradley 自适应阈值算法结合积分图阈值，对图像实现二值化。 |
-| [grayscale()](#grayscale--) | 将图像转换为灰度表示，转化为单通道图像，每个像素表示强度。 |
+| [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | 使用预定义阈值对图像进行二值化，将其转换为前景和背景区域明确的二值图像。 |
+| [binarizeOtsu()](#binarizeOtsu--) | 利用 Otsu 阈值法对图像进行二值化，根据图像直方图自动确定最佳阈值。 |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | 使用 Bradley 自适应阈值算法和积分图阈值，对图像实现二值化。 |
+| [grayscale()](#grayscale--) | 将图像转换为灰度表示，转变为单通道图像，使每个像素表示强度。 |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | 对图像应用伽马校正，调整像素强度以实现所需的色彩平衡。 |
-| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | 使用红、绿、蓝通道的单独系数对图像进行伽马校正，允许对色彩平衡和对比度进行精细调整。 |
+| [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | 对图像进行伽马校正，使用红、绿、蓝通道的独立系数，以实现对色彩平衡和对比度的精细调节。 |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | 实现对图像的 `brightness` 调整，允许修改整体亮度水平。 |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | 增强 [Image](../../com.aspose.imaging/image) 实例的对比度，放大其明暗区域之间的差异。 |
-| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | 对指定矩形内的内容进行滤波，应用指定的图像处理滤镜以增强或修改所选区域。 |
+| [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | 过滤指定矩形内的内容，应用指定的图像处理滤镜以增强或修改所选区域。 |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 根据指定设置调整图像大小，允许对尺寸、宽高比和缩放行为进行精确控制。 |
 
 ## Example: Create Graphics Path from Path Resources in TIFF image.
@@ -140,7 +140,7 @@ public TiffImage(TiffFrame frame)
 ```
 
 
-初始化一个新的 [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) 类对象，指定 frame 参数。此构造函数便于创建 TiffImage 实例，允许开发者指定要加载或处理的帧，从而简化其应用程序中的 Tiff 图像处理任务。
+初始化 [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) 类的新对象，指定 frame 参数。此构造函数有助于创建 TiffImage 实例，允许开发者指定要加载或处理的帧，简化其应用程序中的 Tiff 图像处理任务。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -153,12 +153,12 @@ public TiffImage(TiffFrame[] frames)
 ```
 
 
-创建一个新的 [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) 类实例，提供帧列表作为参数。此构造函数使得能够使用多个帧初始化 TiffImage 对象，便于在软件应用中高效处理和处理 TIFF 图像序列。
+创建 [TiffImage](../../com.aspose.imaging.fileformats.tiff/tiffimage) 类的新实例，提供帧列表作为参数。此构造函数使得可以使用多个帧初始化 TiffImage 对象，便于在软件应用中高效处理和处理 TIFF 图像序列。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| frames | [TiffFrame\[\]](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 帧。 |
+| frames | [TiffFrame\[\]](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 帧列表。 |
 
 ### getFileFormat() {#getFileFormat--}
 ```
@@ -176,7 +176,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-指示组件是否需要预乘，以确保对视觉元素的高效处理。通过切换此属性来增强渲染过程，简化图形工作流以实现优化性能。
+指示组件是否需要预乘，以确保对视觉元素的高效处理。通过切换此属性来提升渲染过程，简化图形工作流以实现优化性能。
 
 **Returns:**
 boolean - 如果组件必须预乘则为 `true`；否则为 `false`。
@@ -186,12 +186,12 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-指示组件是否需要预乘，以确保对视觉元素的高效处理。通过切换此属性来增强渲染过程，简化图形工作流以实现优化性能。
+指示组件是否需要预乘，以确保对视觉元素的高效处理。通过切换此属性来提升渲染过程，简化图形工作流以实现优化性能。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示组件必须预乘；否则为 `false`。 |
+| 值 | boolean | `true` 表示组件必须预乘；否则为 `false`。 |
 
 
 **Example: The following example creates a new TIFF image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
@@ -258,22 +258,22 @@ public final int getByteOrder()
 ```
 
 
-无缝切换 TIFF 文件的字节顺序，确保对数据解释的精确控制。为您的应用程序提供灵活性，以适应多样的文件规范，提升兼容性和数据处理效率。
+无缝切换 TIFF 文件的字节顺序，确保对数据解释的精确控制。为您的应用程序提供灵活性，以适应多样的文件规范，提升兼容性和数据处理的效率。
 
 **Returns:**
-int - tiff 字节顺序。
+int - TIFF 字节顺序。
 ### setByteOrder(int value) {#setByteOrder-int-}
 ```
 public final void setByteOrder(int value)
 ```
 
 
-无缝切换 TIFF 文件的字节顺序，确保对数据解释的精确控制。为您的应用程序提供灵活性，以适应多样的文件规范，提升兼容性和数据处理效率。
+无缝切换 TIFF 文件的字节顺序，确保对数据解释的精确控制。为您的应用程序提供灵活性，以适应多样的文件规范，提升兼容性和数据处理的效率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | tiff 字节顺序。 |
+| 值 | int | TIFF 字节顺序。 |
 
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
@@ -281,7 +281,7 @@ public double getHorizontalResolution()
 ```
 
 
-检索指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便实现精确的调整和渲染功能。轻松访问关键图像元数据，提升图像处理工作流的流畅性，增强用户体验。
+检索指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以便进行精确的调整和渲染。轻松访问关键的图像元数据，提升流畅的图像处理工作流，增强用户体验。
 
 **Returns:**
 double - 水平分辨率。
@@ -316,8 +316,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 水平分辨率（每英寸像素数）：96.0
-// 垂直分辨率（每英寸像素数）：96.0
+// 水平分辨率，单位为每英寸像素：96.0
+// 垂直分辨率，单位为每英寸像素：96.0
 ```
 
 ### setHorizontalResolution(double value) {#setHorizontalResolution-double-}
@@ -326,12 +326,12 @@ public void setHorizontalResolution(double value)
 ```
 
 
-修改指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以实现精确的调整和渲染功能。轻松访问关键图像元数据，提升图像处理工作流的流畅性，增强用户体验。
+修改指定 [Image](../../com.aspose.imaging/image) 的水平分辨率（每英寸像素），以实现精确的调整和渲染。轻松访问关键图像元数据，提升流畅的图像处理工作流，增强用户体验。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | double | 水平分辨率。 |
+|  | 值 | double | 水平分辨率。 |
 
 注意，默认情况下此值始终为 96，因为不同平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。 |
 
@@ -376,8 +376,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 水平分辨率（每英寸像素数）：96.0
-// 垂直分辨率（每英寸像素数）：96.0
+// 水平分辨率，单位为每英寸像素：96.0
+// 垂直分辨率，单位为每英寸像素：96.0
 ```
 
 ### setVerticalResolution(double value) {#setVerticalResolution-double-}
@@ -391,7 +391,7 @@ public void setVerticalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | double | 垂直分辨率。 |
+|  | 值 | double | 垂直分辨率。 |
 
 注意，默认情况下此值始终为 96，因为不同平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。 |
 
@@ -444,7 +444,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();
@@ -505,7 +505,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();
@@ -520,7 +520,7 @@ public final TiffFrame[] getFrames()
 ```
 
 
-检索 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) 实例数组，以实现对 TIFF 图像中各帧的全面访问和操作。利用该数组的力量简化图像处理工作流，确保对视觉内容的精确控制和优化。
+检索 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) 实例数组，以实现对 TIFF 图像中各帧的全面访问和操作。利用该数组的强大功能，简化图像处理工作流，确保对视觉内容的精确控制和优化。
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffFrame[] - [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) 数组。
@@ -563,7 +563,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();
@@ -578,7 +578,7 @@ public int getPageCount()
 ```
 
 
-检索指定文档的总页数，以便高效导航和管理多页内容。加入此功能可提升用户体验，实现对完整文档结构的无缝访问。
+检索指定文档的总页数，以便高效导航和管理多页内容。集成此功能可提升用户体验，实现对完整文档结构的无缝访问。
 
 **Returns:**
 int - 页数。
@@ -588,7 +588,7 @@ public Image[] getPages()
 ```
 
 
-无缝访问文档的页面，便于在内容结构中进行动态导航和操作。为您的应用程序提供高效的单页访问，简化文档处理并提升用户交互体验。
+无缝访问文档的各页，便于在内容结构中进行动态导航和操作。为您的应用程序提供高效的单页访问，简化文档处理流程，提升用户交互体验。
 
 **Returns:**
 com.aspose.imaging.Image[] - 页面。
@@ -598,10 +598,10 @@ public boolean hasAlpha()
 ```
 
 
-确定图像是否具有 alpha 通道，为渲染和合成操作提供关键信息。集成此功能以优化视觉处理工作流，确保透明元素的准确呈现和操作。
+确定图像是否具有 alpha 通道，为渲染和合成操作提供关键信息。集成此功能以优化视觉处理工作流，确保透明元素的准确表示和操作。
 
 **Returns:**
-boolean - 若存在 alpha 通道则为 `true`。
+boolean - 如果存在 alpha 通道则为 `true`。
 
 **Example: The following example loads a TIFF image and prints information about raw data format and alpha channel.**
 
@@ -613,7 +613,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 如果活动 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
+    // 如果活动的 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, tiffImage.getRawDataFormat(), tiffImage.hasAlpha());
 
     int i = 0;
@@ -625,9 +625,9 @@ try {
 }
 
 // 输出可能如下所示：
-// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
+// Frame=2, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
 ```
 
 ### removeMetadata() {#removeMetadata--}
@@ -636,7 +636,7 @@ public void removeMetadata()
 ```
 
 
-通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，移除此图像实例的元数据。
+通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，来移除此图像实例的元数据。
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -644,7 +644,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-检索源文件设置派生的选项，以实现对关键参数（如位深度）及原始图像其他重要属性的无缝保留。使用此方法保持图像处理任务的保真度和一致性，确保在不进行不必要修改的情况下获得最佳结果。例如，如果我们加载一幅每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的 PNG 输出图像。为避免此情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
+检索源自原始文件设置的选项，以实现对关键参数（如位深度）及原始图像其他重要属性的无缝保留。使用此方法保持图像处理任务中的保真度和一致性，确保在不进行不必要更改的情况下获得最佳结果。例如，如果我们加载一幅每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的 PNG 输出图像。为避免此情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -654,7 +654,7 @@ public void addPage(RasterImage page)
 ```
 
 
-将新页面无缝合并到现有图像中，扩展其内容和多功能性。利用此方法提升文档的构成和管理，使应用程序能够高效处理多页图像。
+将新页面无缝合并到现有图像中，扩展其内容和多功能性。使用此方法提升文档组合和管理，使应用程序能够高效处理多页图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -667,7 +667,7 @@ public final void alignResolutions()
 ```
 
 
-实现 AlignResolutions 辅助方法以同步水平和垂直分辨率，确保图像尺寸的一致性。此功能通过统一分辨率参数，优化视觉质量和跨平台设备的一致性，从而简化图像处理工作流。
+实现 AlignResolutions 辅助方法以同步水平和垂直分辨率，确保图像尺寸的一致性。此功能通过协调分辨率参数，优化视觉质量和跨平台设备的一致性，从而简化图像处理工作流。
 
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
@@ -675,13 +675,13 @@ public void setResolution(double dpiX, double dpiY)
 ```
 
 
-为指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 设置分辨率，以实现对图像渲染和显示属性的精确控制。集成此功能可优化视觉输出，并确保与多种输出设备和平台的兼容性，提升整体用户体验。
+为指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 设置分辨率，使图像渲染和显示属性能够精确控制。集成此功能以优化视觉输出，并确保与各种输出设备和平台的兼容性，提升整体用户体验。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dpiX | double | 以每英寸点数表示的 [RasterImage](../../com.aspose.imaging/rasterimage) 的水平分辨率。 |
-| dpiY | double | 以每英寸点数表示的 [RasterImage](../../com.aspose.imaging/rasterimage) 的垂直分辨率。 |
+| dpiX | double | 水平分辨率（每英寸点数），对应于 [RasterImage](../../com.aspose.imaging/rasterimage)。 |
+| dpiY | double | 垂直分辨率（每英寸点数），对应于 [RasterImage](../../com.aspose.imaging/rasterimage)。 |
 
 
 **Example: The following example shows how to set horizontal/vertical resolution of a TIFF image.**
@@ -712,8 +712,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 水平分辨率（每英寸像素数）：96.0
-// 垂直分辨率（每英寸像素数）：96.0
+// 水平分辨率，单位为每英寸像素：96.0
+// 垂直分辨率，单位为每英寸像素：96.0
 ```
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
@@ -722,7 +722,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-使用专为扫描文本文件设计的 NormalizeAngle 方法校正倾斜的扫描图像，确保准确对齐。将此功能无缝集成到文本处理工作流中，以提升文档可读性和质量，提高文本识别和分析任务的整体效率。该方法使用 [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) 和 [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-) 方法。
+利用专为扫描文本文档设计的 NormalizeAngle 方法校正倾斜扫描，确保准确对齐。将此功能无缝集成到文本处理工作流中，以提升文档可读性和质量，提高文本识别与分析任务的整体效率。该方法使用 [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) 和 [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-) 方法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -736,7 +736,7 @@ public final void addFrame(TiffFrame frame)
 ```
 
 
-将指定帧无缝合并到图像中，扩展其内容和多功能性。利用此方法提升图像的构成和管理，使应用程序能够高效处理多帧图像。
+将指定帧无缝合并到图像中，扩展其内容和多功能性。使用此方法提升图像组合和管理，使应用程序能够高效处理多帧图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -782,7 +782,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();
@@ -797,7 +797,7 @@ public final void add(TiffImage image)
 ```
 
 
-将指定图像中的帧无缝添加到当前帧中，整合其内容并提升构图灵活性。集成此方法以简化应用程序中的帧管理和操作，促进对多帧图像的高效处理。
+将指定图像中的帧无缝添加到当前帧中，整合其内容并提升组合灵活性。集成此方法以简化应用程序中的帧管理和操作，促进对多帧图像的高效处理。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -810,7 +810,7 @@ public final void addFrames(TiffFrame[] frames)
 ```
 
 
-将帧数组无缝集成到图像中，丰富其内容和多功能性。利用此方法提升图像的构成和管理，使应用程序能够高效处理多帧图像。
+将帧数组无缝集成到图像中，丰富其内容和多功能性。使用此方法提升图像组合和管理，使应用程序能够高效处理多帧图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -823,13 +823,13 @@ public final void insertFrame(int index, TiffFrame frame)
 ```
 
 
-在帧序列的指定索引处插入新帧，确保对帧排列的精确控制。使用此方法有效管理帧序列，促进在应用程序中对图像内容的动态操作和组织。
+在帧序列中的指定索引处插入新帧，确保对帧排列的精确控制。使用此方法有效管理帧序列，促进在应用程序中对图像内容的动态操作和组织。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | `frame` 的索引。 |
-| frame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 待插入的帧。 |
+| 索引 | int |  `frame` 的索引。 |
+| frame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 用于插入的帧。 |
 
 ### replaceFrame(int index, TiffFrame newFrame) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
@@ -837,15 +837,15 @@ public final TiffFrame replaceFrame(int index, TiffFrame newFrame)
 ```
 
 
-将指定位置的帧无缝替换为另一帧，促进图像序列中帧的动态管理。集成此方法以提升帧操作的灵活性和精确性，确保在应用程序中对图像内容的最佳组织和呈现。
+将指定位置的帧无缝替换为另一帧，促进图像序列中帧的动态管理。集成此方法以提升帧操作的灵活性和精确度，确保在应用程序中对图像内容的最佳组织和呈现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 基于零的帧位置。 |
+| 索引 | int | 基于零的帧位置。 |
 |  | newFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 要替换的帧。 |
 
-注意：如果不将帧添加到其他 TiffImage，请务必释放/关闭该帧。 |
+注意：如果您不会将帧添加到其他 TiffImage，请不要忘记释放/关闭该帧。 |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
@@ -855,16 +855,16 @@ public final TiffFrame removeFrame(int index)
 ```
 
 
-轻松根据索引删除图像序列中的帧，简化应用程序中的帧管理。集成此功能可提升帧操作的效率和精确性，促进图像内容的无缝组织和呈现。
+轻松地根据索引消除图像序列中的帧，简化您应用程序中的帧管理。将此功能集成以提升效率和精确度，在帧操作中实现无缝的图像内容组织和呈现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | index | int | 待删除帧的索引。 |
+|  | 索引 | int | 要删除的帧的索引。 |
 
 --------------------
 
-注意：如果不将帧添加到其他 TiffImage，请务必释放该帧。 |
+注意：如果您不会将帧添加到其他 TiffImage，请不要忘记释放该帧。 |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
@@ -907,7 +907,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();
@@ -922,7 +922,7 @@ public final void removeFrame(TiffFrame frame)
 ```
 
 
-高效删除图像序列中的指定帧，促进应用程序中帧管理的简化。集成此功能可提升帧操作的精确性和灵活性，确保图像内容的无缝组织和呈现。
+高效地从图像序列中移除指定的帧，帮助您在应用程序中实现简化的帧管理。将此功能集成以提升帧操作的精确性和灵活性，确保图像内容的无缝组织和呈现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -931,7 +931,7 @@ public final void removeFrame(TiffFrame frame)
 
 --------------------
 
-注意：如果不将帧添加到其他 TiffImage，请务必释放该帧。 |
+注意：如果您不会将帧添加到其他 TiffImage，请不要忘记释放该帧。 |
 
 ### resizeProportional(int newWidth, int newHeight, int resizeType) {#resizeProportional-int-int-int-}
 ```
@@ -939,7 +939,7 @@ public final void resizeProportional(int newWidth, int newHeight, int resizeType
 ```
 
 
-对图像执行等比例缩放操作，在调整尺寸的同时保持其宽高比。使用此方法在应用程序中动态缩放图像，确保内容完整性的视觉表现一致。等比例缩放将根据 `newWidth`/width 和 `newHeight`/height 的比例对每个帧进行调整。
+对图像执行等比例缩放操作，保持其宽高比同时调整尺寸。使用此方法在应用程序中动态缩放图像，确保内容完整性的一致视觉呈现。等比例缩放将根据 `newWidth`/width 和 `newHeight`/height 的比例对每个帧进行缩放。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -954,7 +954,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 ```
 
 
-在保持图像宽高比的同时调整宽度，确保比例缩放以获得最佳视觉呈现。利用此方法在应用程序中动态缩放图像，实现跨各种显示环境的一致且美观的渲染。
+在保持宽高比的同时调整图像宽度，确保比例缩放以获得最佳视觉呈现。使用此方法在应用程序中动态缩放图像，促进在各种显示环境下的一致且美观的渲染。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -964,7 +964,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 
 
 **Example: This example loads a TIFF image and resizes it proportionally using various resizing methods.**
-此示例加载 TIFF 图像并使用多种缩放方法按比例调整大小。仅指定宽度，高度会自动计算。
+此示例加载 TIFF 图像并使用多种缩放方法等比例调整大小。仅指定宽度，高度会自动计算。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1019,7 +1019,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 ```
 
 
-对图像高度进行比例调整，保持宽高比以确保视觉一致性。使用此方法在应用程序中动态调整图像大小，确保在各种平台和设备上实现最佳显示而不影响内容质量。
+对图像高度进行等比例调整，保持宽高比以确保一致的视觉完整性。使用此方法在应用程序中动态调整图像大小，确保在各种平台和设备上实现最佳显示，而不影响内容质量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1029,7 +1029,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 
 
 **Example: This example loads a TIFF image and resizes it proportionally using various resizing methods.**
-此示例加载 TIFF 图像并使用多种缩放方法按比例调整大小。仅指定高度，宽度会自动计算。
+此示例加载 TIFF 图像并使用多种缩放方法等比例调整大小。仅指定高度，宽度会自动计算。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1084,7 +1084,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-对活动帧执行旋转、翻转或两者的组合操作。此方法允许对图像序列中的单帧进行精确操作，提升在应用程序中的图像编辑和合成灵活性。
+仅对活动帧执行旋转、翻转或两者的组合操作。此方法允许对图像序列中的单个帧进行精确操作，提升您应用程序中图像编辑和构图的灵活性。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1169,7 +1169,7 @@ public void dither(int ditheringMethod, int bitsCount, IColorPalette customPalet
 ```
 
 
-对当前图像执行抖动处理，以提升视觉质量并减少颜色带状伪影。将此方法集成到图像处理工作流中，以确保颜色过渡更平滑，从而改善整体图像外观和清晰度。
+对当前图像执行抖动处理，以提升视觉质量并减少颜色带状伪影。将此方法集成到图像处理工作流中，确保颜色之间的平滑过渡，从而改善整体图像外观和清晰度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1189,7 +1189,7 @@ try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
     // 使用包含 16 种颜色的 4 位色彩调色板执行阈值抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     tiffImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4, null);
 
@@ -1203,7 +1203,7 @@ try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
     // 使用仅包含 2 种颜色（黑色和白色）的 1 位色彩调色板执行 Floyd 抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     tiffImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
@@ -1219,7 +1219,7 @@ public void crop(Rectangle rectangle)
 ```
 
 
-使用指定的矩形区域裁剪图像，精确选择所需内容。将此方法集成到图像处理工作流中，以高效去除不需要的区域并聚焦关键细节，提升图像的整体清晰度和构图。
+使用指定的矩形区域裁剪图像，精确选择所需内容。将此方法集成到图像处理工作流中，高效去除不需要的区域并聚焦关键细节，提升图像的整体清晰度和构图。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1254,7 +1254,7 @@ public void crop(int leftShift, int rightShift, int topShift, int bottomShift)
 ```
 
 
-通过指定左、右、上、下方向的偏移量对图像进行裁剪。此方法能够精确选择图像的所需部分，便于高效去除不需要的区域并聚焦关键内容。将此功能集成到图像处理管道中，以在应用程序中根据需要提升清晰度和构图。
+通过指定左、右、上、下方向的偏移量对图像进行裁剪。此方法实现对图像所需部分的精确选择，便于高效去除不需要的区域并聚焦关键内容。将此功能集成到图像处理流水线中，以在应用程序中根据需要提升清晰度和构图。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1292,7 +1292,7 @@ public void binarizeFixed(byte threshold)
 ```
 
 
-使用预定义阈值对图像进行二值化，将其转换为前景和背景区域明确的二值图像。将此方法集成到图像处理工作流中，以促进分割和特征提取任务，提升应用程序中图像分析的准确性和效率。
+使用预定义阈值对图像进行二值化，将其转换为前景和背景区域明确的二值图像。将此方法纳入图像处理工作流，以促进分割和特征提取任务，提升您应用程序中图像分析的准确性和效率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1310,7 +1310,7 @@ try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
     // 使用阈值 127 对图像进行二值化。
-    // 如果像素的对应灰度值大于 127，则赋值为 255；否则为 0。
+    // 如果像素的对应灰度值大于 127，则赋值为 255，否则为 0。
     tiffImage.binarizeFixed((byte) 127);
     tiffImage.save(dir + "sample.BinarizeFixed.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1324,7 +1324,7 @@ public void binarizeOtsu()
 ```
 
 
-利用 Otsu 阈值法对图像进行二值化，自动根据图像直方图确定最佳阈值。将此方法集成到图像处理工作流中，以实现有效的分割和特征提取，提升应用程序中图像分析任务的准确性和可靠性。
+利用 Otsu 阈值法对图像进行二值化，根据图像直方图自动确定最佳阈值。将此方法集成到图像处理工作流中，以实现有效的分割和特征提取，提升您应用程序中图像分析任务的准确性和可靠性。
 
 
 **Example: The following example binarizes a TIFF image with Otsu thresholding.**
@@ -1350,17 +1350,17 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-在图像上实现二值化，采用 Bradley 自适应阈值算法结合积分图阈值。此方法根据图像邻域动态计算局部阈值，增强对不同光照条件的适应性，并确保后续处理任务的稳健分割。
+在图像上实现二值化，采用 Bradley 的自适应阈值算法结合积分图阈值。该方法根据图像邻域动态计算局部阈值，提升对不同光照条件的适应性，并确保后续处理任务中分割的稳健性。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
-| windowSize | int | 以该像素为中心的 s × s 窗口像素的大小 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
+| windowSize | int | 以该像素为中心的 s × s 窗口的大小 |
 
 
 **Example: The following example binarizes a TIFF image with Bradley's adaptive thresholding algorithm with the specified window size.**
-以下示例使用 Bradley 自适应阈值算法并指定窗口大小对 TIFF 图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
+以下示例使用 Bradley 自适应阈值算法和指定的窗口大小对 TIFF 图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1382,7 +1382,7 @@ public void grayscale()
 ```
 
 
-将图像转换为灰度表示，转化为单通道图像，每个像素表示强度。将此方法集成到图像处理管道中，以简化分析并提升与基于灰度算法的兼容性，促进在应用程序中进行各种计算机视觉和图像分析任务。
+将图像转换为灰度表示，将其转化为单通道图像，每个像素表示强度。将此方法集成到您的图像处理流水线中，以简化分析并提升对基于灰度的算法的兼容性，从而促进您应用程序中各种计算机视觉和图像分析任务的实现。
 
 
 **Example: The following example transforms a colored TIFF image to its grayscale representation.**
@@ -1407,12 +1407,12 @@ public void adjustGamma(float gamma)
 ```
 
 
-对图像应用伽马校正，调整像素强度以实现所需的色彩平衡。将此方法集成到图像处理工作流中，以提升视觉质量并改善后续分析或显示任务的准确性。
+对图像应用伽马校正，调整像素强度以实现所需的色彩平衡。将此方法纳入您的图像处理工作流，以提升视觉质量并提高后续分析或显示任务的准确性。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 伽马 | float | 红色、绿色和蓝色通道的伽马系数 |
+| 伽马 | float | 红色、绿色和蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of a TIFF image.**
@@ -1424,7 +1424,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 为红色、绿色和蓝色通道设置伽马系数。
+    // 为红色、绿色和蓝色通道设置 Gamma 系数。
     tiffImage.adjustGamma(2.5f);
     tiffImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1438,14 +1438,14 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 
-使用红、绿、蓝通道的单独系数对图像进行伽马校正，允许对色彩平衡和对比度进行精细调节。将此方法集成到图像处理管道中，以实现对色彩渲染的精确控制并提升应用程序中的视觉保真度。
+使用红、绿、蓝通道的单独系数对图像进行伽马校正，从而实现对色彩平衡和对比度的精细调节。将此方法集成到图像处理流水线中，以实现对颜色渲染的精确控制并提升应用程序中的视觉保真度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | gammaRed | float | 红色通道的伽马系数 |
 | gammaGreen | float | 绿色通道的伽马系数 |
-| gammaBlue | float | 蓝色通道的伽马系数 |
+| gammaBlue | float | 蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of a TIFF image applying different coefficients for color components.**
@@ -1457,7 +1457,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 为红色、绿色和蓝色通道设置各自的伽马系数。
+    // 为红色、绿色和蓝色通道设置各自的 Gamma 系数。
     tiffImage.adjustGamma(1.5f, 2.5f, 3.5f);
     tiffImage.save(dir + "sample.AdjustGamma.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1471,7 +1471,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-实现对图像的 `brightness` 调整，允许修改整体亮度水平。将此方法集成到图像处理工作流中，以提升可见性并改善应用程序中图像的视觉质量。
+实现对图像的 `brightness` 调整，以便修改整体亮度水平。将此方法纳入图像处理工作流，以增强可见性并提升应用程序中图像的视觉质量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1502,7 +1502,7 @@ public void adjustContrast(float contrast)
 ```
 
 
-增强 [Image](../../com.aspose.imaging/image) 实例的对比度，放大其明暗区域之间的差异。集成此功能以提升图像的视觉清晰度和整体质量。
+增强 [Image](../../com.aspose.imaging/image) 实例的对比度，放大其明暗区域之间的差异。将此功能集成，以提升您应用程序中图像的视觉清晰度和整体质量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1533,7 +1533,7 @@ public void filter(Rectangle rectangle, FilterOptionsBase options)
 ```
 
 
-在指定的矩形区域内过滤内容，应用指定的图像处理滤镜以增强或修改所选区域。将此方法集成到图像操作工作流中，以在应用程序中实现针对性的增强或转换。
+过滤指定矩形内的内容，应用指定的图像处理滤镜以增强或修改所选区域。将此方法集成到图像操作工作流中，以在您的应用程序内实现针对性的增强或转换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1551,7 +1551,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.tif
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为5的中值滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     tiffImage.save(dir + "sample.MedianFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1562,7 +1562,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为5的双边平滑滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     tiffImage.save(dir + "sample.BilateralSmoothingFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1573,7 +1573,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤波器。
+    // 对整幅图像应用半径为5、sigma值为4.0的高斯模糊滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.GaussianBlurFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1584,7 +1584,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为5、平滑值为4.0的Gauss-Wiener滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.GaussWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1595,7 +1595,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
+    // 对整幅图像应用长度为5、平滑值为4.0、角度为90.0度的运动Wiener滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     tiffImage.save(dir + "sample.MotionWienerFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1606,7 +1606,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.tif");
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 对整幅图像应用核大小为 5、sigma 值为 4.0 的锐化滤波器。
+    // 对整幅图像应用核大小为5、sigma值为4.0的锐化滤波器。
     tiffImage.filter(tiffImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     tiffImage.save(dir + "sample.SharpenFilter.png", new com.aspose.imaging.imageoptions.PngOptions());
 } finally {
@@ -1620,7 +1620,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 
-根据指定设置调整图像大小，以实现对尺寸、宽高比和缩放行为的精确控制。将此方法集成到您的图像处理工作流中，以实现针对应用程序特定需求的自定义调整大小操作。
+根据指定设置调整图像尺寸，允许对尺寸、宽高比和缩放行为进行精确控制。将此方法集成到图像处理工作流中，以实现符合您应用程序特定需求的自定义缩放操作。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

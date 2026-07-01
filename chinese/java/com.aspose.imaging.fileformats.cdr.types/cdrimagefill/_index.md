@@ -1,7 +1,7 @@
 ---
 title: "CdrImageFill"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 图像填充"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 图像填充"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.cdr.types/cdrimagefill/
@@ -12,12 +12,12 @@ java.lang.Object
 public class CdrImageFill
 ```
 
-cdr 图像填充
+该 cdr 图像填充
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rcpOffset, byte flags)](#CdrImageFill-int-double-double-boolean-double-double-double-byte-) | 初始化一个新的 [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) 类实例。 |
+| [CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rcpOffset, byte flags)](#CdrImageFill-int-double-double-boolean-double-double-double-byte-) | 初始化 [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -28,8 +28,8 @@ cdr 图像填充
 | [setWidth(double value)](#setWidth-double-) | 设置宽度。 |
 | [getHeight()](#getHeight--) | 获取高度。 |
 | [setHeight(double value)](#setHeight-double-) | 设置高度。 |
-| [isRelative()](#isRelative--) | 获取一个值，指示此实例是否相对。 |
-| [setRelative(boolean value)](#setRelative-boolean-) | 设置一个值，指示此实例是否相对。 |
+| [isRelative()](#isRelative--) | 获取指示此实例是否相对的值。 |
+| [setRelative(boolean value)](#setRelative-boolean-) | 设置指示此实例是否相对的值。 |
 | [getXOffset()](#getXOffset--) | 获取 x 偏移量。 |
 | [setXOffset(double value)](#setXOffset-double-) | 设置 x 偏移量。 |
 | [getYOffset()](#getYOffset--) | 获取 y 偏移量。 |
@@ -44,18 +44,18 @@ public CdrImageFill(int id, double width, double height, boolean isRelative, dou
 ```
 
 
-初始化一个新的 [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) 类实例。
+初始化 [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | id | int | 标识符。 |
-| 宽度 | double | 宽度。 |
-| 高度 | double | 高度。 |
-| isRelative | boolean | 如果设置为 `true` [是相对的]. |
-| xOffset | double | x 偏移。 |
-| yOffset | double | y 偏移。 |
-| rcpOffset | double | RCP 偏移。 |
+| width | double | 宽度。 |
+| height | double | 高度。 |
+| isRelative | boolean | 如果设置为 `true` [相对]。 |
+| xOffset | double | x 偏移量。 |
+| yOffset | double | y 偏移量。 |
+| rcpOffset | double | RCP 偏移量。 |
 | 标志 | byte | 标志。 |
 
 ### getId() {#getId--}
@@ -79,7 +79,7 @@ public final void setId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 标识符。 |
+| 值 | int | 标识符。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -90,7 +90,7 @@ public final double getWidth()
 获取宽度。
 
 **Returns:**
-double - 宽度。
+double - 宽度.
 ### setWidth(double value) {#setWidth-double-}
 ```
 public final void setWidth(double value)
@@ -102,7 +102,7 @@ public final void setWidth(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 宽度。 |
+| 值 | double | 宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -113,7 +113,7 @@ public final double getHeight()
 获取高度。
 
 **Returns:**
-double - 高度。
+double - 高度.
 ### setHeight(double value) {#setHeight-double-}
 ```
 public final void setHeight(double value)
@@ -125,7 +125,7 @@ public final void setHeight(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 高度。 |
+| 值 | double | 高度。 |
 
 ### isRelative() {#isRelative--}
 ```
@@ -133,7 +133,7 @@ public final boolean isRelative()
 ```
 
 
-获取一个值，指示此实例是否相对。
+获取指示此实例是否相对的值。
 
 **Returns:**
 boolean
@@ -143,12 +143,12 @@ public final void setRelative(boolean value)
 ```
 
 
-设置一个值，指示此实例是否相对。
+设置指示此实例是否相对的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否相对的值。 |
+| 值 | boolean | 指示此实例是否相对的值。 |
 
 ### getXOffset() {#getXOffset--}
 ```
@@ -159,7 +159,7 @@ public final double getXOffset()
 获取 x 偏移量。
 
 **Returns:**
-double - x 偏移。
+double - x 偏移量。
 ### setXOffset(double value) {#setXOffset-double-}
 ```
 public final void setXOffset(double value)
@@ -171,7 +171,7 @@ public final void setXOffset(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x 偏移。 |
+| 值 | double | x 偏移量。 |
 
 ### getYOffset() {#getYOffset--}
 ```
@@ -182,7 +182,7 @@ public final double getYOffset()
 获取 y 偏移量。
 
 **Returns:**
-double - y 偏移。
+double - y 偏移量。
 ### setYOffset(double value) {#setYOffset-double-}
 ```
 public final void setYOffset(double value)
@@ -194,7 +194,7 @@ public final void setYOffset(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y 偏移。 |
+| 值 | double | y 偏移量。 |
 
 ### getRcpOffset() {#getRcpOffset--}
 ```
@@ -205,7 +205,7 @@ public final double getRcpOffset()
 获取 RCP 偏移量。
 
 **Returns:**
-double - RCP 偏移。
+double - RCP 偏移量。
 ### setRcpOffset(double value) {#setRcpOffset-double-}
 ```
 public final void setRcpOffset(double value)
@@ -217,7 +217,7 @@ public final void setRcpOffset(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | RCP 偏移。 |
+| 值 | double | RCP 偏移量。 |
 
 ### getFlags() {#getFlags--}
 ```
@@ -240,5 +240,5 @@ public final void setFlags(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 标志。 |
+| 值 | byte | 标志。 |
 

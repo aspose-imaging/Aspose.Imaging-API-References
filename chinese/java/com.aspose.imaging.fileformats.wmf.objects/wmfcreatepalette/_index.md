@@ -1,7 +1,7 @@
 ---
 title: "WmfCreatePalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_CREATEPALETTE 记录创建一个调色板对象（第 2.2.1.3 节）。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_CREATEPALETTE 记录创建一个调色板对象（章节 2.2.1.3）。"
 type: docs
 weight: 22
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfCreatePalette extends WmfGraphicObject
 ```
 
-META\_CREATEPALETTE 记录创建一个 Palette 对象（第 2.2.1.3 节）。
+META\_CREATEPALETTE 记录创建调色板对象（第 2.2.1.3 节）。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -27,8 +27,8 @@ META\_CREATEPALETTE 记录创建一个 Palette 对象（第 2.2.1.3 节）。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLogPalette()](#getLogPalette--) | 获取日志调色板。 |
-| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | 设置日志调色板。 |
+| [getLogPalette()](#getLogPalette--) | 获取逻辑调色板。 |
+| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | 设置逻辑调色板。 |
 ### WmfCreatePalette() {#WmfCreatePalette--}
 ```
 public WmfCreatePalette()
@@ -51,7 +51,7 @@ public EmfLogPalette getLogPalette()
 ```
 
 
-获取日志调色板。
+获取逻辑调色板。
 
 **Returns:**
 [EmfLogPalette](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogpalette) - The logical palette.
@@ -61,7 +61,7 @@ public void setLogPalette(EmfLogPalette value)
 ```
 
 
-设置日志调色板。
+设置逻辑调色板。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

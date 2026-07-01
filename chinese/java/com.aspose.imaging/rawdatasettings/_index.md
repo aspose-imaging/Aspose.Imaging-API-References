@@ -1,6 +1,6 @@
 ---
 title: "RawDataSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "原始数据设置"
 type: docs
 weight: 92
@@ -52,12 +52,12 @@ public RawDataSettings(RawDataSettings origin)
 ```
 
 
-初始化 `origin` 的副本。用于 [copy()](../../com.aspose.imaging/rawdatasettings\\#copy--)。
+初始化 `origin` 的副本。用于 [copy()](../../com.aspose.imaging/rawdatasettings\#copy--)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | 要复制的实例。 |
+| origin | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | 要复制的实例 |
 
 ### getPixelDataFormat() {#getPixelDataFormat--}
 ```
@@ -126,7 +126,7 @@ public void setDitheringMethod(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 用于原始数据转换的抖动方法 |
+| 值 | int | 用于原始数据转换的抖动方法 |
 
 ### getIndexedColorConverter() {#getIndexedColorConverter--}
 ```
@@ -195,7 +195,7 @@ public void setFallbackIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 当调色板索引超出范围时使用的回退索引 |
+| 值 | int | 当调色板索引超出范围时使用的回退索引 |
 
 ### getLineSize() {#getLineSize--}
 ```
@@ -218,7 +218,7 @@ public void setLineSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 原始数据处理的像素行大小（字节） |
+| 值 | int | 用于原始数据处理的像素行大小（字节） |
 
 ### <T>copy() {#-T-copy--}
 ```

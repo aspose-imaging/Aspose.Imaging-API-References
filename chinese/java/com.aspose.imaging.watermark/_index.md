@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.watermark"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包处理水印移除过程。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包处理 Watermark 移除的处理。"
 type: docs
 weight: 111
 url: /zh/java/com.aspose.imaging.watermark/
 ---
 
-该包处理水印移除过程。
+该包处理 Watermark 移除的处理。
 
 
 ## 类

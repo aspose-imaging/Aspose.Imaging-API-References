@@ -1,7 +1,7 @@
 ---
 title: "WmfRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Region 对象定义了一种可能非矩形的形状，该形状由扫描线数组定义。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Region Object 定义了一种可能非矩形的形状，由扫描线数组定义。"
 type: docs
 weight: 62
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfregion/
@@ -55,7 +55,7 @@ public short getNextInChain()
 值：必须忽略的值。
 
 **Returns:**
-short
+短
 ### setNextInChain(short value) {#setNextInChain-short-}
 ```
 public void setNextInChain(short value)
@@ -69,7 +69,7 @@ public void setNextInChain(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getObjectType() {#getObjectType--}
 ```
@@ -82,7 +82,7 @@ public short getObjectType()
 值：区域标识符。它必须为 0x0006。
 
 **Returns:**
-short
+短
 ### setObjectType(short value) {#setObjectType-short-}
 ```
 public void setObjectType(short value)
@@ -96,7 +96,7 @@ public void setObjectType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getObjectCount() {#getObjectCount--}
 ```
@@ -123,7 +123,7 @@ public void setObjectCount(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRegionSize() {#getRegionSize--}
 ```
@@ -133,10 +133,10 @@ public short getRegionSize()
 
 获取或设置区域的大小。
 
-值：区域的字节大小加上 aScans 的字节大小。
+值：区域的大小（字节）加上 aScans 的大小（字节）。
 
 **Returns:**
-short
+短
 ### setRegionSize(short value) {#setRegionSize-short-}
 ```
 public void setRegionSize(short value)
@@ -145,12 +145,12 @@ public void setRegionSize(short value)
 
 获取或设置区域的大小。
 
-值：区域的字节大小加上 aScans 的字节大小。
+值：区域的大小（字节）加上 aScans 的大小（字节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getScanCount() {#getScanCount--}
 ```
@@ -160,10 +160,10 @@ public short getScanCount()
 
 获取或设置扫描计数。
 
-值：组成该区域的扫描线数量。
+值：组成区域的扫描线数量。
 
 **Returns:**
-short
+短
 ### setScanCount(short value) {#setScanCount-short-}
 ```
 public void setScanCount(short value)
@@ -172,12 +172,12 @@ public void setScanCount(short value)
 
 获取或设置扫描计数。
 
-值：组成该区域的扫描线数量。
+值：组成区域的扫描线数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getMaxScan() {#getMaxScan--}
 ```
@@ -187,10 +187,10 @@ public short getMaxScan()
 
 获取或设置最大扫描。
 
-值：该区域中任意一次扫描的最大点数。
+值：此区域中任意一次扫描的最大点数。
 
 **Returns:**
-short
+短
 ### setMaxScan(short value) {#setMaxScan-short-}
 ```
 public void setMaxScan(short value)
@@ -199,12 +199,12 @@ public void setMaxScan(short value)
 
 获取或设置最大扫描。
 
-值：该区域中任意一次扫描的最大点数。
+值：此区域中任意一次扫描的最大点数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getBoundingRectangle() {#getBoundingRectangle--}
 ```
@@ -241,7 +241,7 @@ public WmfScanObject[] getAScans()
 
 获取或设置扫描。
 
-值：定义该区域扫描线的 Scan 对象数组（第 2.2.2.21 节）。
+值：定义区域扫描线的 Scan 对象数组（第 2.2.2.21 节）。
 
 **Returns:**
 com.aspose.imaging.fileformats.wmf.objects.WmfScanObject[]
@@ -253,7 +253,7 @@ public void setAScans(WmfScanObject[] value)
 
 获取或设置扫描。
 
-值：定义该区域扫描线的 Scan 对象数组（第 2.2.2.21 节）。
+值：定义区域扫描线的 Scan 对象数组（第 2.2.2.21 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

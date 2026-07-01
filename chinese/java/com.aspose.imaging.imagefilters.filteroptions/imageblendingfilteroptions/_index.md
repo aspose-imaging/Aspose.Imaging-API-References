@@ -1,6 +1,6 @@
 ---
 title: "ImageBlendingFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像混合滤镜选项"
 type: docs
 weight: 21
@@ -142,5 +142,5 @@ public final void setOpacity(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 不透明度。 |
+| 值 | float | 不透明度。 |
 

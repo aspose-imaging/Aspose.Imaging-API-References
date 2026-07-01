@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusResetClip"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusResetClip 记录将世界空间的当前裁剪区域重置为无限。"
 type: docs
 weight: 47
@@ -29,5 +29,5 @@ public EmfPlusResetClip(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 

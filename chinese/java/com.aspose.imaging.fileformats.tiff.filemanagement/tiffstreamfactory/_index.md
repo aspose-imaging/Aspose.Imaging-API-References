@@ -1,6 +1,6 @@
 ---
 title: "TiffStreamFactory"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基于字节序的 Tiff 流工厂。"
 type: docs
 weight: 12
@@ -35,7 +35,7 @@ public static TiffStreamWriter getTiffWriter(StreamContainer stream, int byteOrd
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | [StreamContainer](../../com.aspose.imaging/streamcontainer) | 流容器。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 
 **Returns:**
 [TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter) - Tiff stream suitable for writing.
@@ -51,7 +51,7 @@ public static TiffStreamWriter getTiffWriter(StreamContainer stream, int byteOrd
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | [StreamContainer](../../com.aspose.imaging/streamcontainer) | 流容器。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 | isBigTiff | boolean | 指示 TIFF 类型。 |
 
 **Returns:**
@@ -68,7 +68,7 @@ public static TiffStreamReader getTiffReader(StreamContainer stream, int byteOrd
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | [StreamContainer](../../com.aspose.imaging/streamcontainer) | 流容器。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 
 **Returns:**
 [TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader) - Tiff stream suitable for reading.
@@ -84,7 +84,7 @@ public static TiffStreamReader getTiffReader(StreamContainer stream, int byteOrd
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | [StreamContainer](../../com.aspose.imaging/streamcontainer) | 流容器。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 | isBigTiff | boolean | 指示 TIFF 类型。 |
 
 **Returns:**
@@ -101,9 +101,9 @@ public static TiffStreamReader getTiffReader(byte[] bytes, int bytesOffset, int 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 字节 | byte[] | 字节。 |
-| bytesOffset | int | 字节偏移量。 |
+| bytesOffset | int | 字节偏移。 |
 | dataLength | int | 数据的长度。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 
 **Returns:**
 [TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader) - Tiff stream suitable for reading.
@@ -119,9 +119,9 @@ public static TiffStreamReader getTiffReader(byte[] bytes, int bytesOffset, int 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 字节 | byte[] | 字节。 |
-| bytesOffset | int | 字节偏移量。 |
+| bytesOffset | int | 字节偏移。 |
 | dataLength | int | 数据的长度。 |
-| byteOrder | int | 字节顺序。 |
+| byteOrder | int | 字节序。 |
 | isBigTiff | boolean | 指示 Tiff 类型：原始或大。 |
 
 **Returns:**

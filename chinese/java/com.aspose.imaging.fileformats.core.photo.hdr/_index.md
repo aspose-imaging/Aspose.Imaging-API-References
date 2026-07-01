@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.core.photo.hdr"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "HDR 命名空间用于 hdr 处理模块"
 type: docs
 weight: 41

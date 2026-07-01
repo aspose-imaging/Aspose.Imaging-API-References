@@ -1,6 +1,6 @@
 ---
 title: "EmfArcDirection"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "ArcDirection 枚举用于设置弧和矩形输出的绘制方向。"
 type: docs
 weight: 10

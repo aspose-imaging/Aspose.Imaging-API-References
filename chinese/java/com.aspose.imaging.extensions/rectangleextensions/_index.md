@@ -1,6 +1,6 @@
 ---
 title: "RectangleExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含 Rectangle 的扩展方法。"
 type: docs
 weight: 21
@@ -12,7 +12,7 @@ java.lang.Object
 public final class RectangleExtensions
 ```
 
-包含 `Rectangle` 的扩展方法。
+包含针对 `Rectangle` 的扩展方法。
 ## 方法
 
 | 方法 | 描述 |
@@ -31,7 +31,7 @@ public static Rectangle toGdiRectangle(Rectangle rectangle)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要转换的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 待转换的矩形。 |
 
 **Returns:**
 [Rectangle](../../java.awt/rectangle) - The converted `System.Drawing.Rectangle`.
@@ -46,7 +46,7 @@ public static Rectangle2D.Float toGdiRectangle(RectangleF rectangle)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | 要转换的矩形。 |
+| rectangle | [RectangleF](../../com.aspose.imaging/rectanglef) | 待转换的矩形。 |
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - 已转换的 `System.Drawing.RectangleF`。

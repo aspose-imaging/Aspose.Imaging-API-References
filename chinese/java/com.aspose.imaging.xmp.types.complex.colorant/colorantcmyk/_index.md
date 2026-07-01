@@ -1,7 +1,7 @@
 ---
 title: "ColorantCmyk"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 CMYK 色剂."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 CMYK 色剂。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ColorantCmyk extends ColorantBase
 ```
 
-表示 CMYK 色剂.
+表示 CMYK 色剂。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,20 +23,20 @@ public final class ColorantCmyk extends ColorantBase
 
 | 字段 | 描述 |
 | --- | --- |
-| [COLOR_VALUE_MAX](#COLOR-VALUE-MAX) | CMYK 色料中的颜色最大值。 |
-| [COLOR_VALUE_MIN](#COLOR-VALUE-MIN) | CMYK 色料中的颜色最小值。 |
+| [COLOR_VALUE_MAX](#COLOR-VALUE-MAX) | CMYK 着色剂的颜色最大值。 |
+| [COLOR_VALUE_MIN](#COLOR-VALUE-MIN) | CMYK 着色剂的颜色最小值。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBlack()](#getBlack--) | 获取或设置黑色分量值。 |
-| [setBlack(float value)](#setBlack-float-) | 获取或设置黑色分量值。 |
-| [getCyan()](#getCyan--) | 获取或设置青色分量值。 |
-| [setCyan(float value)](#setCyan-float-) | 获取或设置青色分量值。 |
-| [getMagenta()](#getMagenta--) | 获取或设置品红分量值。 |
-| [setMagenta(float value)](#setMagenta-float-) | 获取或设置品红分量值。 |
-| [getYellow()](#getYellow--) | 获取或设置黄色分量值。 |
-| [setYellow(float value)](#setYellow-float-) | 获取或设置黄色分量值。 |
+| [getBlack()](#getBlack--) | 获取或设置黑色组件的值。 |
+| [setBlack(float value)](#setBlack-float-) | 获取或设置黑色组件的值。 |
+| [getCyan()](#getCyan--) | 获取或设置青色组件的值。 |
+| [setCyan(float value)](#setCyan-float-) | 获取或设置青色组件的值。 |
+| [getMagenta()](#getMagenta--) | 获取或设置品红组件的值。 |
+| [setMagenta(float value)](#setMagenta-float-) | 获取或设置品红组件的值。 |
+| [getYellow()](#getYellow--) | 获取或设置黄色组件的值。 |
+| [setYellow(float value)](#setYellow-float-) | 获取或设置黄色组件的值。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### ColorantCmyk() {#ColorantCmyk--}
 ```
@@ -57,10 +57,10 @@ public ColorantCmyk(float black, float cyan, float magenta, float yellow)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 黑色 | float | 黑色分量值。 |
-| 青色 | float | 青色分量值。 |
-| 品红 | float | 品红分量值。 |
-| 黄色 | float | 黄色分量值。 |
+| 黑色 | float | 黑色组件的值。 |
+| 青色 | float | 青色组件的值。 |
+| 品红 | float | 品红组件的值。 |
+| 黄色 | float | 黄色组件的值。 |
 
 ### COLOR_VALUE_MAX {#COLOR-VALUE-MAX}
 ```
@@ -68,7 +68,7 @@ public static final float COLOR_VALUE_MAX
 ```
 
 
-CMYK 色料中的颜色最大值。
+CMYK 着色剂的颜色最大值。
 
 ### COLOR_VALUE_MIN {#COLOR-VALUE-MIN}
 ```
@@ -76,7 +76,7 @@ public static final float COLOR_VALUE_MIN
 ```
 
 
-CMYK 色料中的颜色最小值。
+CMYK 着色剂的颜色最小值。
 
 ### getBlack() {#getBlack--}
 ```
@@ -84,9 +84,9 @@ public float getBlack()
 ```
 
 
-获取或设置黑色分量值。
+获取或设置黑色组件的值。
 
-值：黑色分量值。
+值：黑色组件的值。
 
 **Returns:**
 float
@@ -96,14 +96,14 @@ public void setBlack(float value)
 ```
 
 
-获取或设置黑色分量值。
+获取或设置黑色组件的值。
 
-值：黑色分量值。
+值：黑色组件的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getCyan() {#getCyan--}
 ```
@@ -111,9 +111,9 @@ public float getCyan()
 ```
 
 
-获取或设置青色分量值。
+获取或设置青色组件的值。
 
-值：青色分量值。
+值：青色组件的值。
 
 **Returns:**
 float
@@ -123,14 +123,14 @@ public void setCyan(float value)
 ```
 
 
-获取或设置青色分量值。
+获取或设置青色组件的值。
 
-值：青色分量值。
+值：青色组件的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getMagenta() {#getMagenta--}
 ```
@@ -138,9 +138,9 @@ public float getMagenta()
 ```
 
 
-获取或设置品红分量值。
+获取或设置品红组件的值。
 
-值：品红分量值。
+值：品红组件的值。
 
 **Returns:**
 float
@@ -150,14 +150,14 @@ public void setMagenta(float value)
 ```
 
 
-获取或设置品红分量值。
+获取或设置品红组件的值。
 
-值：品红分量值。
+值：品红组件的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getYellow() {#getYellow--}
 ```
@@ -165,9 +165,9 @@ public float getYellow()
 ```
 
 
-获取或设置黄色分量值。
+获取或设置黄色组件的值。
 
-值：黄色分量值。
+值：黄色组件的值。
 
 **Returns:**
 float
@@ -177,14 +177,14 @@ public void setYellow(float value)
 ```
 
 
-获取或设置黄色分量值。
+获取或设置黄色组件的值。
 
-值：黄色分量值。
+值：黄色组件的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

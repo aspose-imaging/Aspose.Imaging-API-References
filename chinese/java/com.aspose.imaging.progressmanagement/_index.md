@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.progressmanagement"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含进度处理程序类"
 type: docs
 weight: 107

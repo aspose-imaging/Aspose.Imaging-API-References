@@ -1,6 +1,6 @@
 ---
 title: "EmfRestoreDc"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_RESTOREDC 记录将回放设备上下文恢复到指定状态。"
 type: docs
 weight: 109
@@ -14,7 +14,7 @@ public final class EmfRestoreDc extends EmfStateRecordType
 
 EMR\_RESTOREDC 记录将回放设备上下文恢复到指定状态。回放设备上下文通过弹出先前 EMR\_SAVEDC 记录（第 2.3.11 节）创建的堆栈中的状态信息来恢复。
 
-该堆栈可以包含多个回放设备上下文实例的状态信息。当状态被恢复时，所有更近期保存的状态实例必须被丢弃。
+该栈可以包含多个回放设备上下文实例的状态信息。当状态被恢复时，所有较近期保存的状态实例必须被丢弃。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,8 +25,8 @@ EMR\_RESTOREDC 记录将回放设备上下文恢复到指定状态。回放设�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSavedDc()](#getSavedDc--) | 获取或设置一个 32 位有符号整数，用于指定相对于当前状态要恢复的已保存状态。 |
-| [setSavedDc(int value)](#setSavedDc-int-) | 获取或设置一个 32 位有符号整数，用于指定相对于当前状态要恢复的已保存状态。 |
+| [getSavedDc()](#getSavedDc--) | 获取或设置一个 32 位有符号整数，该整数指定相对于当前状态要恢复的已保存状态。 |
+| [setSavedDc(int value)](#setSavedDc-int-) | 获取或设置一个 32 位有符号整数，该整数指定相对于当前状态要恢复的已保存状态。 |
 ### EmfRestoreDc(EmfRecord source) {#EmfRestoreDc-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfRestoreDc(EmfRecord source)
@@ -38,7 +38,7 @@ public EmfRestoreDc(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfRestoreDc() {#EmfRestoreDc--}
 ```
@@ -54,7 +54,7 @@ public int getSavedDc()
 ```
 
 
-获取或设置一个 32 位有符号整数，用于指定相对于当前状态要恢复的已保存状态。此值必须为负；\\u20131 表示最近一次保存在堆栈上的状态，\\u20132 表示其之前的状态，依此类推。
+获取或设置一个 32 位有符号整数，该整数指定相对于当前状态要恢复的已保存状态。此值必须为负；\\u20131 表示堆栈中最近保存的状态，\\u20132 表示其前一个状态，依此类推。
 
 **Returns:**
 int
@@ -64,10 +64,10 @@ public void setSavedDc(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，用于指定相对于当前状态要恢复的已保存状态。此值必须为负；\\u20131 表示最近一次保存在堆栈上的状态，\\u20132 表示其之前的状态，依此类推。
+获取或设置一个 32 位有符号整数，该整数指定相对于当前状态要恢复的已保存状态。此值必须为负；\\u20131 表示堆栈中最近保存的状态，\\u20132 表示其前一个状态，依此类推。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

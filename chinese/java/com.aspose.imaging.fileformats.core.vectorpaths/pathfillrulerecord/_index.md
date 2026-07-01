@@ -1,13 +1,13 @@
 ---
 title: "PathFillRuleRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "路径填充规则记录类"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object，[com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class PathFillRuleRecord extends VectorPathRecord
 ```
@@ -17,7 +17,7 @@ public class PathFillRuleRecord extends VectorPathRecord
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PathFillRuleRecord(byte[] data)](#PathFillRuleRecord-byte---) | 初始化 [PathFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord) 类的新实例。 |
+| [PathFillRuleRecord(byte[] data)](#PathFillRuleRecord-byte---) | 初始化一个新的 [PathFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord) 类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -29,7 +29,7 @@ public PathFillRuleRecord(byte[] data)
 ```
 
 
-初始化 [PathFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord) 类的新实例。
+初始化一个新的 [PathFillRuleRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord) 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

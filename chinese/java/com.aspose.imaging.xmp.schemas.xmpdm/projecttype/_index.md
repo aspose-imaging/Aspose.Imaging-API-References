@@ -1,6 +1,6 @@
 ---
-title: "ProjectType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "项目类型"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XmpDynamicMediaPackage 中的项目类型。"
 type: docs
 weight: 13

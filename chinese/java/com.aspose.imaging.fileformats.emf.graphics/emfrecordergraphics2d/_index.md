@@ -1,6 +1,6 @@
 ---
 title: "EmfRecorderGraphics2D"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Emf 记录器图形"
 type: docs
 weight: 10
@@ -25,7 +25,7 @@ Emf 记录器图形
 | [getBackgroundMode()](#getBackgroundMode--) | 获取或设置背景模式。 |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | 获取或设置背景模式。 |
 | [endRecording()](#endRecording--) | 结束录制。 |
-| [fromEmfImage(EmfImage emfImage)](#fromEmfImage-com.aspose.imaging.fileformats.emf.EmfImage-) | 获取一个 [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) 实例，其中包含来自 Emf 图像的所有记录。 |
+| [fromEmfImage(EmfImage emfImage)](#fromEmfImage-com.aspose.imaging.fileformats.emf.EmfImage-) | 获取一个包含来自 Emf 图像的所有记录的 [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) 实例。 |
 
 ## Example: This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
 
@@ -49,19 +49,19 @@ com.aspose.imaging.fileformats.emf.graphics.EmfRecorderGraphics2D graphics =
                 new com.aspose.imaging.Size(deviceWidth, deviceHeight),
                 new com.aspose.imaging.Size(deviceWidthMm, deviceHeightMm));
 
-// 使用 1 像素宽的黑色笔在图像边框上绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔在图像边框上绘制黑色矩形。
 graphics.drawRectangle(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlack(), 1), 0, 0, deviceWidth, deviceHeight);
 
-// 使用白烟色填充矩形。
+// 使用 white-smoke 颜色填充矩形。
 graphics.fillRectangle(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getWhiteSmoke()),
         new com.aspose.imaging.Rectangle(10, 10, 580, 380));
 
-// 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的 darkgreen 笔绘制两条对角线。
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, 0, deviceWidth, deviceHeight);
 graphics.drawLine(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getDarkGreen(), 1), 0, deviceHeight, deviceWidth, 0);
 
-// 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
+// 使用 2 像素宽的 blue 笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.drawArc(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getBlue(), 2), new com.aspose.imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
 // 填充弧线
@@ -69,7 +69,7 @@ graphics.fillPie(
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getLightSkyBlue()),
         new com.aspose.imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-// 使用 2 像素宽的红色笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的 red 笔绘制三次贝塞尔曲线。
 graphics.drawCubicBezier(new com.aspose.imaging.Pen(com.aspose.imaging.Color.getRed(), 2),
         new com.aspose.imaging.Point(0, 0),
         new com.aspose.imaging.Point(200, 133),
@@ -119,7 +119,7 @@ figureToFill.addShapes(new com.aspose.imaging.Shape[]
                 new com.aspose.imaging.shapes.RectangleShape(new com.aspose.imaging.RectangleF(0, 100, 200, 200)),
         });
 
-// 使用黄色画刷填充路径，并使用绿色笔绘制轮廓
+// 使用黄色画刷和绿色笔填充路径并绘制轮廓
 graphics.fillPath(
         new com.aspose.imaging.Pen(com.aspose.imaging.Color.getGreen(), 2),
         new com.aspose.imaging.brushes.SolidBrush(com.aspose.imaging.Color.getYellow()), pathToFill);
@@ -187,7 +187,7 @@ public void setBackgroundMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 背景模式。 |
+| 值 | int | 背景模式。 |
 
 ### endRecording() {#endRecording--}
 ```
@@ -205,7 +205,7 @@ public static EmfRecorderGraphics2D fromEmfImage(EmfImage emfImage)
 ```
 
 
-获取一个 [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) 实例，其中包含来自 Emf 图像的所有记录。
+获取一个包含来自 Emf 图像的所有记录的 [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -229,7 +229,7 @@ try {
     int width = emfImage.getWidth();
     int height = emfImage.getHeight();
 
-    // 其次，计算一个变换，以将文本字符串沿图像的主对角线放置 -
+    // 其次，计算一个变换，以将文本字符串放置在图像的主对角线上 -
     // 从左上角到右下角。
     float emFontSize = 96f;
     float d = (float) java.lang.Math.sqrt(width * width + height * height);
@@ -246,12 +246,12 @@ try {
     // 然后，设置变换。
     graphics.setTransform(transform);
 
-    // 最后，将水印（粉色文本字符串）沿主对角线放置。
+    // 最后，在主对角线上放置水印（粉色文本字符串）。
     graphics.drawString("WATERMARK", new com.aspose.imaging.Font(
                     "Courier New", emFontSize),
             com.aspose.imaging.Color.getLightPink(), 0, 0/*, (float)degrees*/);
 
-    // 将带有水印的图像保存为另一个 EMF 文件。
+    // 将带有水印的图像保存到另一个 EMF 文件。
     com.aspose.imaging.fileformats.emf.EmfImage scaledEmfImage = graphics.endRecording();
     try {
         scaledEmfImage.save(dir + "test.scaled.emf");

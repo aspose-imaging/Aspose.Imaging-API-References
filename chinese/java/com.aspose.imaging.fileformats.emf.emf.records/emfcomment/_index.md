@@ -1,6 +1,6 @@
 ---
 title: "EmfComment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_COMMENT 记录包含任意私有数据。"
 type: docs
 weight: 25
@@ -37,7 +37,7 @@ public EmfComment(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getPrivateData() {#getPrivateData--}
 ```
@@ -45,7 +45,7 @@ public byte[] getPrivateData()
 ```
 
 
-获取或设置指定私有数据的可选字节数组。该数据的第一个 DWORD 必须不是第 2.3.3 节中指定的预定义注释标识符值。私有数据对 EMF 来说是未知的；仅对了解数据格式并知道如何使用它的应用程序有意义。EMR\_COMMENT 私有数据记录可以被忽略。
+获取或设置指定私有数据的可选字节数组。该数据的第一个 DWORD 必须不是第 2.3.3 节中指定的预定义注释标识符值。私有数据对 EMF 是未知的；仅对了解数据格式及其使用方式的应用程序有意义。EMR\_COMMENT 私有数据记录可以被忽略。
 
 **Returns:**
 byte[]
@@ -55,12 +55,12 @@ public void setPrivateData(byte[] value)
 ```
 
 
-获取或设置指定私有数据的可选字节数组。该数据的第一个 DWORD 必须不是第 2.3.3 节中指定的预定义注释标识符值。私有数据对 EMF 来说是未知的；仅对了解数据格式并知道如何使用它的应用程序有意义。EMR\_COMMENT 私有数据记录可以被忽略。
+获取或设置指定私有数据的可选字节数组。该数据的第一个 DWORD 必须不是第 2.3.3 节中指定的预定义注释标识符值。私有数据对 EMF 是未知的；仅对了解数据格式及其使用方式的应用程序有意义。EMR\_COMMENT 私有数据记录可以被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getCommentIdentifier() {#getCommentIdentifier--}
 ```
@@ -87,5 +87,5 @@ public void setCommentIdentifier(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

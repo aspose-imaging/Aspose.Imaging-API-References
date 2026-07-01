@@ -1,6 +1,6 @@
 ---
 title: "EmfCreatePen"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_CREATEPEN 记录定义了用于图形操作的逻辑笔。"
 type: docs
 weight: 41
@@ -23,8 +23,8 @@ public final class EmfCreatePen extends EmfObjectCreationRecordType
 
 | 方法 | 描述 |
 | --- | --- |
-| [getIhPen()](#getIhPen--) | 获取或设置一个 32 位无符号整数，指定逻辑笔对象在 EMF 对象表（第 3.1.1.1 节）中的索引。 |
-| [setIhPen(int value)](#setIhPen-int-) | 获取或设置一个 32 位无符号整数，指定逻辑笔对象在 EMF 对象表（第 3.1.1.1 节）中的索引。 |
+| [getIhPen()](#getIhPen--) | 获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑笔对象索引的 32 位无符号整数。 |
+| [setIhPen(int value)](#setIhPen-int-) | 获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑笔对象索引的 32 位无符号整数。 |
 | [getLogPen()](#getLogPen--) | 获取或设置一个 LogPen 对象（第 2.2.19 节），该对象指定逻辑笔的样式、宽度和颜色。 |
 | [setLogPen(EmfLogPen value)](#setLogPen-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPen-) | 获取或设置一个 LogPen 对象（第 2.2.19 节），该对象指定逻辑笔的样式、宽度和颜色。 |
 ### EmfCreatePen(EmfRecord source) {#EmfCreatePen-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -38,7 +38,7 @@ public EmfCreatePen(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfCreatePen() {#EmfCreatePen--}
 ```
@@ -54,7 +54,7 @@ public int getIhPen()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定逻辑笔对象在 EMF 对象表（第 3.1.1.1 节）中的索引。必须保存此索引，以便可以重新使用或修改该对象。
+获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑笔对象索引的 32 位无符号整数。必须保存此索引，以便可以重用或修改该对象。
 
 **Returns:**
 int
@@ -64,12 +64,12 @@ public void setIhPen(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定逻辑笔对象在 EMF 对象表（第 3.1.1.1 节）中的索引。必须保存此索引，以便可以重新使用或修改该对象。
+获取或设置指定 EMF 对象表（第 3.1.1.1 节）中逻辑笔对象索引的 32 位无符号整数。必须保存此索引，以便可以重用或修改该对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getLogPen() {#getLogPen--}
 ```

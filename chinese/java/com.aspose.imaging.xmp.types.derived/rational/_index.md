@@ -1,6 +1,6 @@
 ---
 title: "Rational"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP Rational。"
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ public class Rational extends XmpTypeBase
 | [getDenominator()](#getDenominator--) | 获取或设置分母。 |
 | [setDenominator(int value)](#setDenominator-int-) | 获取或设置分母。 |
 | [getFloatValue()](#getFloatValue--) | 获取 float 值。 |
-| [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式中包含的字符串值。 |
+| [getXmpRepresentation()](#getXmpRepresentation--) | 获取字符串在 XMP 格式中的包含值。 |
 ### Rational(int numerator, int denominator) {#Rational-int-int-}
 ```
 public Rational(int numerator, int denominator)
@@ -38,7 +38,7 @@ public Rational(int numerator, int denominator)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 分子 | int | 分子。 |
+| 分子 | int | 该分子。 |
 | 分母 | int | 分母。 |
 
 ### getNumerator() {#getNumerator--}
@@ -49,7 +49,7 @@ public int getNumerator()
 
 获取分子。
 
-值：分子。
+值：该分子。
 
 **Returns:**
 int
@@ -62,7 +62,7 @@ public int getDenominator()
 获取或设置分母。
 
 **Returns:**
-int - 分母。
+int - 该分母。
 ### setDenominator(int value) {#setDenominator-int-}
 ```
 public void setDenominator(int value)
@@ -74,7 +74,7 @@ public void setDenominator(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 分母。 |
+| 值 | int | 分母。 |
 
 ### getFloatValue() {#getFloatValue--}
 ```
@@ -85,14 +85,14 @@ public float getFloatValue()
 获取 float 值。
 
 **Returns:**
-float - 浮点值。
+float - 该浮点值。
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
 public String getXmpRepresentation()
 ```
 
 
-获取 XMP 格式中包含的字符串值。
+获取字符串在 XMP 格式中的包含值。
 
 **Returns:**
 java.lang.String - 返回 XMP 格式中包含的字符串值。

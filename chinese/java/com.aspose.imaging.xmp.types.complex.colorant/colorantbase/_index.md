@@ -1,7 +1,7 @@
 ---
 title: "ColorantBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP 色剂类型."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP 色剂类型。"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.xmp.types.complex.colorant/colorantbase/
@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public abstract class ColorantBase extends ComplexTypeBase
 ```
 
-表示 XMP 色剂类型.
+表示 XMP 色剂类型。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [getMode()](#getMode--) | 获取 `ColorMode`。 |
-| [getSwatchName()](#getSwatchName--) | 获取或设置样本的名称。 |
-| [setSwatchName(String value)](#setSwatchName-java.lang.String-) | 获取或设置样本的名称。 |
+| [getSwatchName()](#getSwatchName--) | 获取或设置色板的名称。 |
+| [setSwatchName(String value)](#setSwatchName-java.lang.String-) | 获取或设置色板的名称。 |
 | [getColorType()](#getColorType--) | 获取或设置颜色的类型。 |
 | [setColorType(int value)](#setColorType-int-) | 获取或设置颜色的类型。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
@@ -41,9 +41,9 @@ public String getSwatchName()
 ```
 
 
-获取或设置样本的名称。
+获取或设置色板的名称。
 
-值：样本的名称。
+值：色板的名称。
 
 **Returns:**
 java.lang.String
@@ -53,14 +53,14 @@ public void setSwatchName(String value)
 ```
 
 
-获取或设置样本的名称。
+获取或设置色板的名称。
 
-值：样本的名称。
+值：色板的名称。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getColorType() {#getColorType--}
 ```
@@ -87,7 +87,7 @@ public void setColorType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

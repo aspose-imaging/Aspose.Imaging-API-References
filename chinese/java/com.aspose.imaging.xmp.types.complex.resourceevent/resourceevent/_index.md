@@ -1,6 +1,6 @@
 ---
 title: "ResourceEvent"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含已绘制对象的尺寸。"
 type: docs
 weight: 10
@@ -22,10 +22,10 @@ public final class ResourceEvent extends ComplexTypeBase
 
 | 方法 | 描述 |
 | --- | --- |
-| [getAction()](#getAction--) | 获取动作。 |
-| [setAction(String value)](#setAction-java.lang.String-) | 设置动作。 |
-| [getChanged()](#getChanged--) | 获取自上一次事件历史以来已更改的资源部分的分号分隔列表。 |
-| [setChanged(String value)](#setChanged-java.lang.String-) | 设置自上一次事件历史以来已更改的资源部分的分号分隔列表。 |
+| [getAction()](#getAction--) | 获取操作。 |
+| [setAction(String value)](#setAction-java.lang.String-) | 设置操作。 |
+| [getChanged()](#getChanged--) | 获取自上一次事件历史以来已更改的资源各部分的分号分隔列表。 |
+| [setChanged(String value)](#setChanged-java.lang.String-) | 设置自上一次事件历史以来已更改的资源各部分的分号分隔列表。 |
 | [getInstanceId()](#getInstanceId--) | 获取 xmpMM:InstanceId 的值。 |
 | [setInstanceId(UUID value)](#setInstanceId-java.util.UUID-) | 获取或设置 xmpMM:InstanceId 的值。 |
 | [getParameters()](#getParameters--) | 获取或设置操作的附加描述。 |
@@ -49,9 +49,9 @@ public String getAction()
 ```
 
 
-获取动作。
+获取操作。
 
-定义的值包括：converted、copied、created、cropped、edited、filtered、formatted、version\_updated、printed、published、managed、produced、resized、saved。新值应使用过去式动词。
+定义的值包括：converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved。新值应使用过去式动词。
 
 **Returns:**
 java.lang.String - 操作。
@@ -61,14 +61,14 @@ public void setAction(String value)
 ```
 
 
-设置动作。
+设置操作。
 
-定义的值包括：converted、copied、created、cropped、edited、filtered、formatted、version\_updated、printed、published、managed、produced、resized、saved。新值应使用过去式动词。
+定义的值包括：converted, copied, created, cropped, edited, filtered, formatted, version\_updated, printed, published, managed, produced, resized, saved。新值应使用过去式动词。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 操作。 |
+| 值 | java.lang.String | 操作。 |
 
 ### getChanged() {#getChanged--}
 ```
@@ -76,22 +76,22 @@ public String getChanged()
 ```
 
 
-获取自上一次事件历史以来已更改的资源部分的分号分隔列表。
+获取自上一次事件历史以来已更改的资源各部分的分号分隔列表。
 
 **Returns:**
-java.lang.String - 自上一次事件历史以来已更改的资源部分的分号分隔列表。
+java.lang.String - 自上一次事件历史以来已更改的资源各部分的分号分隔列表。
 ### setChanged(String value) {#setChanged-java.lang.String-}
 ```
 public void setChanged(String value)
 ```
 
 
-设置自上一次事件历史以来已更改的资源部分的分号分隔列表。
+设置自上一次事件历史以来已更改的资源各部分的分号分隔列表。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 自上一次事件历史以来已更改的资源部分的分号分隔列表。 |
+| 值 | java.lang.String | 自上一次事件历史以来已更改的资源各部分的分号分隔列表。 |
 
 ### getInstanceId() {#getInstanceId--}
 ```
@@ -114,7 +114,7 @@ public void setInstanceId(UUID value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID | xmpMM:InstanceId 的值。 |
+| 值 | java.util.UUID | xmpMM:InstanceId 的值。 |
 
 ### getParameters() {#getParameters--}
 ```
@@ -139,7 +139,7 @@ public void setParameters(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 操作的附加描述。 |
+| 值 | java.lang.String | 操作的附加描述。 |
 
 ### getSofwareAgentName() {#getSofwareAgentName--}
 ```
@@ -162,7 +162,7 @@ public void setSofwareAgentName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 软件代理名称。 |
+| 值 | java.lang.String | 软件代理名称。 |
 
 ### getActionDate() {#getActionDate--}
 ```
@@ -185,7 +185,7 @@ public void setActionDate(Date value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | 操作日期。 |
+| 值 | java.util.Date | 操作日期。 |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

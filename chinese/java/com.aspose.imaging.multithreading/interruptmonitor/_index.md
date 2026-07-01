@@ -1,6 +1,6 @@
 ---
 title: "InterruptMonitor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示中断信息。"
 type: docs
 weight: 10
@@ -98,7 +98,7 @@ class Worker implements Runnable {
                 com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(null);
             }
         } catch (java.lang.Exception e) {
-            // 打印任何意外异常的详细信息。
+            // 打印关于任何意外异常的详细信息。
             System.out.println(e);
         }
     }
@@ -110,7 +110,7 @@ String baseDir = "c:\\temp\\";
 com.aspose.imaging.multithreading.InterruptMonitor monitor = new com.aspose.imaging.multithreading.InterruptMonitor();
 Worker worker = new Worker(baseDir + "big.png", baseDir + "big.bmp", new com.aspose.imaging.imageoptions.BmpOptions(), monitor);
 
-// 在专用线程中启动 worker。
+// 在专用线程中启动工作者。
 Thread thread = new Thread(worker);
 thread.start();
 
@@ -118,7 +118,7 @@ try {
     // 在此执行一些有意义的工作
     Thread.sleep(2000);
 
-    // 请求中断 worker 线程
+    // 请求中断工作线程
     monitor.interrupt();
     System.out.printf("Interrupting the worker thread #%s at %s", thread.getId(), new java.util.Date());
 
@@ -132,7 +132,7 @@ System.out.println("Done. Press ENTER to exit.");
 System.in.read();
 
 // 输出可能如下所示：
-// 中断工作线程 #11 于 Tue Aug 06 17:57:52 YEKT 2019
+// 在 Tue Aug 06 17:57:52 YEKT 2019 中断工作线程 #11
 // 工作线程 #11 已于 Tue Aug 06 17:57:59 YEKT 2019 被中断
 // 完成。按 ENTER 退出。
 ```
@@ -177,7 +177,7 @@ public static boolean isThreadInterrupted()
 如果当前线程的中断监视器存在且已被中断，则返回 `true`，否则返回 `false`。
 
 **Returns:**
-布尔型 - `true` 表示当前线程的中断监视器存在且已被中断，否则为 `false`。
+布尔值 - 如果当前线程的中断监视器存在且已被中断则为 `true`，否则为 `false`。
 ### removeAllMonitors() {#removeAllMonitors--}
 ```
 public static void removeAllMonitors()
@@ -271,7 +271,7 @@ class Worker implements Runnable {
                 com.aspose.imaging.multithreading.InterruptMonitor.setThreadLocalInstance(null);
             }
         } catch (java.lang.Exception e) {
-            // 打印任何意外异常的详细信息。
+            // 打印关于任何意外异常的详细信息。
             System.out.println(e);
         }
     }
@@ -283,7 +283,7 @@ String baseDir = "c:\\temp\\";
 com.aspose.imaging.multithreading.InterruptMonitor monitor = new com.aspose.imaging.multithreading.InterruptMonitor();
 Worker worker = new Worker(baseDir + "big.png", baseDir + "big.bmp", new com.aspose.imaging.imageoptions.BmpOptions(), monitor);
 
-// 在专用线程中启动 worker。
+// 在专用线程中启动工作者。
 Thread thread = new Thread(worker);
 thread.start();
 
@@ -291,7 +291,7 @@ try {
     // 在此执行一些有意义的工作
     Thread.sleep(2000);
 
-    // 请求中断 worker 线程
+    // 请求中断工作线程
     monitor.interrupt();
     System.out.printf("Interrupting the worker thread #%s at %s", thread.getId(), new java.util.Date());
 
@@ -305,7 +305,7 @@ System.out.println("Done. Press ENTER to exit.");
 System.in.read();
 
 // 输出可能如下所示：
-// 中断工作线程 #11 于 Tue Aug 06 17:57:52 YEKT 2019
+// 在 Tue Aug 06 17:57:52 YEKT 2019 中断工作线程 #11
 // 工作线程 #11 已于 Tue Aug 06 17:57:59 YEKT 2019 被中断
 // 完成。按 ENTER 退出。
 ```

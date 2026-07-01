@@ -1,6 +1,6 @@
 ---
 title: "EmfCommentEmfPlus"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_COMMENT_EMFPLUS 记录包含嵌入的 EMF 记录。"
 type: docs
 weight: 27
@@ -24,8 +24,8 @@ EMR\_COMMENT\_EMFPLUS 记录包含嵌入的 EMF+ 记录。注意，本节未描�
 | --- | --- |
 | [getCommentIdentifier()](#getCommentIdentifier--) | 获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。 |
 | [setCommentIdentifier(int value)](#setCommentIdentifier-int-) | 获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。 |
-| [getEmfPlusRecords()](#getEmfPlusRecords--) | 获取或设置一个字节数组，包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。 |
-| [setEmfPlusRecords(EmfPlusRecord[] value)](#setEmfPlusRecords-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord---) | 获取或设置一个字节数组，包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。 |
+| [getEmfPlusRecords()](#getEmfPlusRecords--) | 获取或设置一个字节数组，其中包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。 |
+| [setEmfPlusRecords(EmfPlusRecord[] value)](#setEmfPlusRecords-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord---) | 获取或设置一个字节数组，其中包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。 |
 ### EmfCommentEmfPlus(EmfRecord source) {#EmfCommentEmfPlus-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCommentEmfPlus(EmfRecord source)
@@ -37,7 +37,7 @@ public EmfCommentEmfPlus(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getCommentIdentifier() {#getCommentIdentifier--}
 ```
@@ -45,7 +45,7 @@ public int getCommentIdentifier()
 ```
 
 
-获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。值 0x2B464D45（ASCII 字符串 "+FME"）将其标识为 EMR\_COMMENT\_EMFPLUS 记录。
+获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。值 0x2B464D45，即 ASCII 字符串 "+FME"，将其标识为 EMR\_COMMENT\_EMFPLUS 记录。
 
 **Returns:**
 int
@@ -55,12 +55,12 @@ public void setCommentIdentifier(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。值 0x2B464D45（ASCII 字符串 "+FME"）将其标识为 EMR\_COMMENT\_EMFPLUS 记录。
+获取或设置一个 32 位无符号整数，用于标识此注释记录包含 EMF+ 记录。值 0x2B464D45，即 ASCII 字符串 "+FME"，将其标识为 EMR\_COMMENT\_EMFPLUS 记录。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getEmfPlusRecords() {#getEmfPlusRecords--}
 ```
@@ -68,7 +68,7 @@ public EmfPlusRecord[] getEmfPlusRecords()
 ```
 
 
-获取或设置一个字节数组，包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。
+获取或设置一个字节数组，其中包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。
 
 **Returns:**
 com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord[]
@@ -78,7 +78,7 @@ public void setEmfPlusRecords(EmfPlusRecord[] value)
 ```
 
 
-获取或设置一个字节数组，包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。
+获取或设置一个字节数组，其中包含一个或多个 EMF+ 记录（[MS-EMFPLUS] 第 2.3.1 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

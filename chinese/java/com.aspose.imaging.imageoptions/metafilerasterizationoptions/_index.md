@@ -1,6 +1,6 @@
 ---
 title: "MetafileRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "元文件光栅化选项"
 type: docs
 weight: 28

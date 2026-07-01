@@ -1,6 +1,6 @@
 ---
 title: "SvgLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Svg 加载选项。"
 type: docs
 weight: 19
@@ -53,7 +53,7 @@ public void setDefaultWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 默认宽度。 |
+| 值 | int | 默认宽度。 |
 
 ### getDefaultHeight() {#getDefaultHeight--}
 ```
@@ -76,5 +76,5 @@ public void setDefaultHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 默认高度。 |
+| 值 | int | 默认高度。 |
 

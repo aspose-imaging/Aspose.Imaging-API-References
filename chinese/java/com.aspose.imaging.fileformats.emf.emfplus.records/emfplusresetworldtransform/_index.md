@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusResetWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusResetWorldTransform 记录将当前世界空间变换重置为单位矩阵。"
 type: docs
 weight: 48
@@ -29,5 +29,5 @@ public EmfPlusResetWorldTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "GaussianBlurFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "高斯模糊滤镜选项。"
 type: docs
 weight: 19
@@ -26,11 +26,11 @@ public class GaussianBlurFilterOptions extends ConvolutionFilterOptions implemen
 
 | 方法 | 描述 |
 | --- | --- |
-| [getKernel()](#getKernel--) | 获取高斯内核大小。 |
-| [getSize()](#getSize--) | 获取高斯内核大小。 |
+| [getKernel()](#getKernel--) | 获取 Gaussian 核的大小。 |
+| [getSize()](#getSize--) | 获取 Gaussian 核的大小。 |
 | [setSize(int value)](#setSize-int-) | 高斯核的大小。 |
-| [getSigma()](#getSigma--) | 获取高斯内核 sigma（平滑）。 |
-| [setSigma(double value)](#setSigma-double-) | 高斯核 sigma（平滑）。 |
+| [getSigma()](#getSigma--) | 获取 Gaussian 核 sigma（平滑）。 |
+| [setSigma(double value)](#setSigma-double-) | Gaussian 核 sigma（平滑）。 |
 | [getRadius()](#getRadius--) | 获取 Gaussian ISquareConvolutionKernel 的半径。 |
 | [setRadius(int value)](#setRadius-int-) | Gaussian ISquareConvolutionKernel 的半径。 |
 
@@ -43,7 +43,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为5的中值滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -54,7 +54,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为5的双边平滑滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -65,7 +65,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤波器。
+    // 对整幅图像应用半径为5、sigma值为4.0的高斯模糊滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -76,7 +76,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为5、平滑值为4.0的Gauss-Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -87,7 +87,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
+    // 对整幅图像应用长度为5、平滑值为4.0、角度为90.0度的运动Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -98,7 +98,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5、sigma 值为 4.0 的锐化滤波器。
+    // 对整幅图像应用核大小为5、sigma值为4.0的锐化滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -117,7 +117,7 @@ public GaussianBlurFilterOptions(int size, double sigma)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 高斯核大小.. |
+| size | int | Gaussian 核大小.. |
 | sigma | double | 高斯核的 sigma。 |
 
 ### GaussianBlurFilterOptions() {#GaussianBlurFilterOptions--}
@@ -134,32 +134,32 @@ public double[][] getKernel()
 ```
 
 
-获取高斯内核大小。
+获取 Gaussian 核的大小。
 
 **Returns:**
-double[][] - 高斯核大小。
+double[][] - Gaussian 核大小。
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-获取高斯核大小。必须是正的非零奇数值。
+获取 Gaussian 核大小。必须是正的、非零的奇数值。
 
 **Returns:**
-int - 高斯核大小。
+int - Gaussian 核大小。
 ### setSize(int value) {#setSize-int-}
 ```
 public void setSize(int value)
 ```
 
 
-高斯核大小。必须是正的非零奇数值。
+Gaussian 核大小。必须是正的、非零的奇数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 高斯核大小。 |
+| 值 | int | Gaussian 核大小。 |
 
 ### getSigma() {#getSigma--}
 ```
@@ -167,22 +167,22 @@ public double getSigma()
 ```
 
 
-获取高斯核 sigma（平滑）。必须是正的非零值。
+获取 Gaussian 核 sigma（平滑）。必须是正的、非零的值。
 
 **Returns:**
-double - 高斯核 sigma（平滑）。
+double - Gaussian 核 sigma（平滑）。
 ### setSigma(double value) {#setSigma-double-}
 ```
 public void setSigma(double value)
 ```
 
 
-高斯核 sigma（平滑）。必须是正的非零值。
+Gaussian 核 sigma（平滑）。必须是正的、非零的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 高斯核 sigma（平滑）。 |
+| 值 | double | Gaussian 核 sigma（平滑）。 |
 
 ### getRadius() {#getRadius--}
 ```
@@ -205,5 +205,5 @@ Gaussian ISquareConvolutionKernel 的半径。
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Gaussian ISquareConvolutionKernel 的半径。 |
+| 值 | int | Gaussian ISquareConvolutionKernel 的半径。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfExtSelectClipRgn"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_EXTSELECTCLIPRGN 记录使用指定模式将指定区域与当前剪裁区域合并。"
 type: docs
 weight: 55
@@ -27,8 +27,8 @@ EMR\_EXTSELECTCLIPRGN 记录使用指定模式将指定区域与当前剪裁区�
 | [setRgnDataSize(int value)](#setRgnDataSize-int-) | 获取或设置指定区域数据大小（以字节为单位）的 32 位无符号整数。 |
 | [getRegionMode()](#getRegionMode--) | 获取或设置指定区域使用方式的 32 位无符号整数。 |
 | [setRegionMode(int value)](#setRegionMode-int-) | 获取或设置指定区域使用方式的 32 位无符号整数。 |
-| [getRgnData()](#getRgnData--) | 获取或设置长度为 RgnDataSize 的字节数组，以逻辑单位指定 RegionData 对象。 |
-| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 获取或设置长度为 RgnDataSize 的字节数组，以逻辑单位指定 RegionData 对象。 |
+| [getRgnData()](#getRgnData--) | 获取或设置长度为 RgnDataSize 的字节数组，用于指定逻辑单位的 RegionData 对象。 |
+| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 获取或设置长度为 RgnDataSize 的字节数组，用于指定逻辑单位的 RegionData 对象。 |
 ### EmfExtSelectClipRgn(EmfRecord source) {#EmfExtSelectClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfExtSelectClipRgn(EmfRecord source)
@@ -40,7 +40,7 @@ public EmfExtSelectClipRgn(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfExtSelectClipRgn() {#EmfExtSelectClipRgn--}
 ```
@@ -71,7 +71,7 @@ public void setRgnDataSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRegionMode() {#getRegionMode--}
 ```
@@ -79,7 +79,7 @@ public int getRegionMode()
 ```
 
 
-获取或设置指定区域使用方式的 32 位无符号整数。该值必须属于 RegionMode（第 2.1.29 节）枚举。
+获取或设置一个 32 位无符号整数，用于指定区域的使用方式。该值必须属于 RegionMode（第 2.1.29 节）枚举。
 
 **Returns:**
 int
@@ -89,12 +89,12 @@ public void setRegionMode(int value)
 ```
 
 
-获取或设置指定区域使用方式的 32 位无符号整数。该值必须属于 RegionMode（第 2.1.29 节）枚举。
+获取或设置一个 32 位无符号整数，用于指定区域的使用方式。该值必须属于 RegionMode（第 2.1.29 节）枚举。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRgnData() {#getRgnData--}
 ```
@@ -102,7 +102,7 @@ public EmfRegionData getRgnData()
 ```
 
 
-获取或设置长度为 RgnDataSize 的字节数组，以逻辑单位指定 RegionData 对象。如果 RegionMode 为 RGN\_COPY，则可以省略此数据，剪裁区域应设置为默认（NULL）剪裁区域。
+获取或设置一个长度为 RgnDataSize 的字节数组，用于以逻辑单位指定 RegionData 对象。如果 RegionMode 为 RGN\_COPY，则可以省略此数据，并且剪裁区域应设置为默认（NULL）剪裁区域。
 
 **Returns:**
 [EmfRegionData](../../com.aspose.imaging.fileformats.emf.emf.objects/emfregiondata)
@@ -112,7 +112,7 @@ public void setRgnData(EmfRegionData value)
 ```
 
 
-获取或设置长度为 RgnDataSize 的字节数组，以逻辑单位指定 RegionData 对象。如果 RegionMode 为 RGN\_COPY，则可以省略此数据，剪裁区域应设置为默认（NULL）剪裁区域。
+获取或设置一个长度为 RgnDataSize 的字节数组，用于以逻辑单位指定 RegionData 对象。如果 RegionMode 为 RGN\_COPY，则可以省略此数据，并且剪裁区域应设置为默认（NULL）剪裁区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

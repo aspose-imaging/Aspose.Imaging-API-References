@@ -1,6 +1,6 @@
 ---
 title: "AsyncTaskFunc"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "带有泛型结果类型的异步任务长操作委托。"
 type: docs
 weight: 12
@@ -45,7 +45,7 @@ public abstract Object invoke(IAsyncTaskState taskState)
 | taskState | [IAsyncTaskState](../../com.aspose.imaging.asynctask/iasynctaskstate) | 异步任务的状态。 |
 
 **Returns:**
-java.lang.Object - 长时间操作的结果。
+java.lang.Object - 长操作的结果。
 ### beginInvoke(IAsyncTaskState taskState, System.AsyncCallback callback, Object state) {#beginInvoke-com.aspose.imaging.asynctask.IAsyncTaskState-com.aspose.ms.System.AsyncCallback-java.lang.Object-}
 ```
 public final System.IAsyncResult beginInvoke(IAsyncTaskState taskState, System.AsyncCallback callback, Object state)

@@ -1,18 +1,18 @@
 ---
 title: "CdrPathObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Cdr 路径"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 Cdr 路径"
 type: docs
 weight: 32
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrpathobject/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
 ```
 public class CdrPathObject extends CdrGraphicObject
 ```
 
-Cdr 路径
+该 Cdr 路径
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 点类型。 |
+| 值 | byte[] | 点类型。 |
 

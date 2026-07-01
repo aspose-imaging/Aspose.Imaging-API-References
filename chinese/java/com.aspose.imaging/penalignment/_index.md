@@ -1,6 +1,6 @@
 ---
 title: "PenAlignment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定 Pen 对象相对于理论零宽线的对齐方式。"
 type: docs
 weight: 82
@@ -17,7 +17,7 @@ public final class PenAlignment extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [Center](#Center) | 指定 `Pen` 对象位于理论线的中心。 |
+| [Center](#Center) | 指定 `Pen` 对象居中于理论线。 |
 | [Inset](#Inset) | 指定 `Pen` 位于理论线的内部。 |
 | [Outset](#Outset) | 指定 `Pen` 位于理论线的外部。 |
 | [Left](#Left) | 指定 `Pen` 位于理论线的左侧。 |
@@ -28,7 +28,7 @@ public static final int Center
 ```
 
 
-指定 `Pen` 对象位于理论线的中心。
+指定 `Pen` 对象居中于理论线。
 
 ### Inset {#Inset}
 ```

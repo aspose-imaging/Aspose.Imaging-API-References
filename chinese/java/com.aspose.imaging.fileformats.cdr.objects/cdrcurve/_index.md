@@ -1,13 +1,13 @@
 ---
 title: "CdrCurve"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 曲线"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrcurve/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
 ```
 public class CdrCurve extends CdrGraphicObject
 ```
@@ -76,5 +76,5 @@ public final void setPointTypes(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | 点类型。 |
+| 值 | byte[] | 点类型。 |
 

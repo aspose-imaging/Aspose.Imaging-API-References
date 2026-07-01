@@ -1,6 +1,6 @@
 ---
 title: "JFIFData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 jfif 段。"
 type: docs
 weight: 10
@@ -28,10 +28,10 @@ public final class JFIFData
 | [setThumbnail(RasterImage value)](#setThumbnail-com.aspose.imaging.RasterImage-) | 设置缩略图。 |
 | [getVersion()](#getVersion--) | 获取版本。 |
 | [setVersion(short value)](#setVersion-short-) | 设置版本。 |
-| [getXDensity()](#getXDensity--) | 获取 X 方向密度。 |
-| [setXDensity(short value)](#setXDensity-short-) | 设置 X 方向密度。 |
-| [getYDensity()](#getYDensity--) | 获取 Y 方向密度。 |
-| [setYDensity(short value)](#setYDensity-short-) | 设置 Y 方向密度。 |
+| [getXDensity()](#getXDensity--) | 获取 x 密度。 |
+| [setXDensity(short value)](#setXDensity-short-) | 设置 x 密度。 |
+| [getYDensity()](#getYDensity--) | 获取 y 密度。 |
+| [setYDensity(short value)](#setYDensity-short-) | 设置 y 密度。 |
 ### JFIFData() {#JFIFData--}
 ```
 public JFIFData()
@@ -61,7 +61,7 @@ public void setDensityUnits(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 密度单位。 |
+| 值 | byte | 密度单位。 |
 
 ### getThumbnail() {#getThumbnail--}
 ```
@@ -107,7 +107,7 @@ public void setVersion(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 版本。 |
+| 值 | 短 | 版本。 |
 
 ### getXDensity() {#getXDensity--}
 ```
@@ -115,22 +115,22 @@ public short getXDensity()
 ```
 
 
-获取 X 方向密度。
+获取 x 密度。
 
 **Returns:**
-short - X 方向密度。
+short - x 密度。
 ### setXDensity(short value) {#setXDensity-short-}
 ```
 public void setXDensity(short value)
 ```
 
 
-设置 X 方向密度。
+设置 x 密度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | x 密度。 |
+| 值 | 短 | x 密度。 |
 
 ### getYDensity() {#getYDensity--}
 ```
@@ -138,7 +138,7 @@ public short getYDensity()
 ```
 
 
-获取 Y 方向密度。
+获取 y 密度。
 
 **Returns:**
 short - y 密度。
@@ -148,10 +148,10 @@ public void setYDensity(short value)
 ```
 
 
-设置 Y 方向密度。
+设置 y 密度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | y 密度。 |
+| 值 | 短 | y 密度。 |
 

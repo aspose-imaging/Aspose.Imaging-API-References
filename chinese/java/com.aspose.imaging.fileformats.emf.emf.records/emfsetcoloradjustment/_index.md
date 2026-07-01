@@ -1,7 +1,7 @@
 ---
 title: "EmfSetColorAdjustment"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETCOLORADJUSTMENT 记录指定播放设备上下文中的颜色调整属性。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETCOLORADJUSTMENT 记录指定回放设备上下文中的颜色调整属性。"
 type: docs
 weight: 122
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/
@@ -14,7 +14,7 @@ public final class EmfSetColorAdjustment extends EmfStateRecordType
 
 EMR\_SETCOLORADJUSTMENT 记录在回放设备上下文中指定颜色调整属性。
 
-颜色调整值用于在使用 EMR\_STRETCHBLT 和 EMR\_STRETCHDIBITS 记录执行的图形操作中，调整源位图的输入颜色，当 STRETCH\_HALFTONE 模式从 StretchMode 枚举（第 2.1.32 节）中设置时。此记录指定的 ColorAdjustment 对象必须在需要 ColorAdjustment 对象的图形操作中使用，直至通过另一个 EMR\_SETCOLORADJUSTMENT 记录指定不同的 ColorAdjustment 对象，或直至该对象被 EMR\_DELETEOBJECT 记录删除。
+当 STRETCH\_HALFTONE 模式从 StretchMode 枚举（第 2.1.32 节）设置时，颜色调整值用于调整源位图的输入颜色，以供 EMR\_STRETCHBLT 和 EMR\_STRETCHDIBITS 记录执行的图形操作。此记录指定的 ColorAdjustment 对象必须在需要 ColorAdjustment 对象的图形操作中使用，直至通过另一个 EMR\_SETCOLORADJUSTMENT 记录指定不同的 ColorAdjustment 对象，或通过 EMR\_DELETEOBJECT 记录将其删除。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public EmfSetColorAdjustment(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getColorAdjustment() {#getColorAdjustment--}
 ```

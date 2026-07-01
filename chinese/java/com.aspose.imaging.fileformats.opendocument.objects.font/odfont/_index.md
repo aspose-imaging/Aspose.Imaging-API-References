@@ -1,6 +1,6 @@
 ---
 title: "OdFont"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "开放文档字体"
 type: docs
 weight: 10
@@ -59,7 +59,7 @@ public final void setFacename(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 字体名称。 |
+| 值 | java.lang.String | 字体名称。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -82,7 +82,7 @@ public final void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 高度。 |
+| 值 | int | 高度。 |
 
 ### getBold() {#getBold--}
 ```
@@ -93,7 +93,7 @@ public final boolean getBold()
 获取一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为粗体。
 
 **Returns:**
-boolean - 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为粗体。
+boolean - 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为粗体的值。
 ### setBold(boolean value) {#setBold-boolean-}
 ```
 public final void setBold(boolean value)
@@ -105,7 +105,7 @@ public final void setBold(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为粗体。 |
+| value | boolean | 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为粗体的值。 |
 
 ### getItalic() {#getItalic--}
 ```
@@ -116,7 +116,7 @@ public final boolean getItalic()
 获取一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为斜体。
 
 **Returns:**
-boolean - 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为斜体。
+boolean - 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为斜体的值。
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
 public final void setItalic(boolean value)
@@ -128,7 +128,7 @@ public final void setItalic(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否为斜体。 |
+| value | boolean | 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为斜体的值。 |
 
 ### getStrikeout() {#getStrikeout--}
 ```
@@ -139,7 +139,7 @@ public final boolean getStrikeout()
 获取一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否有删除线。
 
 **Returns:**
-boolean - 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否有删除线。
+boolean - 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为删除线的值。
 ### setStrikeout(boolean value) {#setStrikeout-boolean-}
 ```
 public final void setStrikeout(boolean value)
@@ -151,5 +151,5 @@ public final void setStrikeout(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示此 [OdFont](../../com.aspose.imaging.fileformats.opendocument.objects.font/odfont) 是否有删除线。 |
+| value | boolean | 一个指示此 [OdFont](../../com.aspose.imaging.fileformats.openddocument.objects.font/odfont) 是否为删除线的值。 |
 

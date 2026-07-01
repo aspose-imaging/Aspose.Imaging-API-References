@@ -1,13 +1,13 @@
 ---
 title: "ClipboardRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "剪贴板记录类"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object，[com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class ClipboardRecord extends VectorPathRecord
 ```
@@ -101,7 +101,7 @@ public final void setResolution(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 分辨率。 |
+| 值 | float | 分辨率。 |
 
 ### getType() {#getType--}
 ```

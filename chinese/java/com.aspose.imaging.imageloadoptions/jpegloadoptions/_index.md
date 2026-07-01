@@ -1,6 +1,6 @@
 ---
 title: "JpegLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于 Jpeg 图像的加载选项类。"
 type: docs
 weight: 15
@@ -55,5 +55,5 @@ public final void setJpegDecoderQuality(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | JPEG 解码器质量。 |
+| 值 | int | JPEG 解码器质量。 |
 

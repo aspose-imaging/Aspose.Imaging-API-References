@@ -1,6 +1,6 @@
 ---
 title: "ImageExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含基于 System.Drawing.Image 和 Image 的转换扩展方法。"
 type: docs
 weight: 18
@@ -21,10 +21,10 @@ public final class ImageExtensions
 | [fromJava(BufferedImage image)](#fromJava-java.awt.image.BufferedImage-) | 将 `BufferedImage` 转换为 `PngImage`。 |
 | [toJava(Image image)](#toJava-com.aspose.imaging.Image-) | 将 `Image` 转换为 `BufferedImage`，使用 TYPE\_INT\_ARGB。 |
 | [toJava(Image image, int bufferedImageType)](#toJava-com.aspose.imaging.Image-int-) | 将 `Image` 转换为 `BufferedImage`，使用 bufferedImageType。 |
-| [toJava(Image image, Rectangle subImageRect)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-) | 从 `Image` 中获取子图像并将其转换为 `BufferedImage`，使用 BufferedImage.TYPE\_INT\_ARGB。 |
-| [wrap(BufferedImage image)](#wrap-java.awt.image.BufferedImage-) | 创建一个包装器覆盖 BufferedImage，而不复制像素数据。 |
-| [toJava(Image image, Rectangle subImageRect, int bufferedImageType)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-int-) | 从 `Image` 中获取子图像并将其转换为 `BufferedImage`，使用 bufferedImageType。 |
-| [toJava(Image image, Rectangle subImageRect, BufferedImage dstImage)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-java.awt.image.BufferedImage-) | 从 `Image` 中获取子图像并将其转换为 `BufferedImage`，使用 bufferedImageType。 |
+| [toJava(Image image, Rectangle subImageRect)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-) | 从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 BufferedImage.TYPE\_INT\_ARGB。 |
+| [wrap(BufferedImage image)](#wrap-java.awt.image.BufferedImage-) | 创建一个 BufferedImage 的包装器，而不复制像素数据。 |
+| [toJava(Image image, Rectangle subImageRect, int bufferedImageType)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-int-) | 从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 bufferedImageType。 |
+| [toJava(Image image, Rectangle subImageRect, BufferedImage dstImage)](#toJava-com.aspose.imaging.Image-com.aspose.imaging.Rectangle-java.awt.image.BufferedImage-) | 从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 bufferedImageType。 |
 ### fromJava(BufferedImage image, Rectangle rect) {#fromJava-java.awt.image.BufferedImage-com.aspose.imaging.Rectangle-}
 ```
 public static RasterImage fromJava(BufferedImage image, Rectangle rect)
@@ -33,12 +33,12 @@ public static RasterImage fromJava(BufferedImage image, Rectangle rect)
 
 将 `BufferedImage` 转换为 `PngImage`。
 
-警告，GDI 图像的边界可能比 `image` 的更小。要获取图像的所有部分，请使用更安全的扩展方法 ToGdiImageFull。
+警告，GDI 图像的边界可能小于 `image` 的边界。要获取图像的所有部分，请使用更安全的扩展方法 ToGdiImageFull。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | 要转换的 `BufferedImage`。 |
+| 图像 | java.awt.image.BufferedImage | 要转换的 `BufferedImage`。 |
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 所需的矩形。 |
 
 **Returns:**
@@ -54,7 +54,7 @@ public static RasterImage fromJava(BufferedImage image)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | 要转换的 `BufferedImage`。 |
+| 图像 | java.awt.image.BufferedImage | 要转换的 `BufferedImage`。 |
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - The converted `PngImage`.
@@ -95,7 +95,7 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect)
 ```
 
 
-从 `Image` 中获取子图像并将其转换为 `BufferedImage`，使用 BufferedImage.TYPE\_INT\_ARGB。
+从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 BufferedImage.TYPE\_INT\_ARGB。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -116,7 +116,7 @@ public static RasterImage wrap(BufferedImage image)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | 源图像。 |
+| 图像 | java.awt.image.BufferedImage | 源图像。 |
 
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - The wrapper RasterImage.
@@ -126,7 +126,7 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect, int buff
 ```
 
 
-从 `Image` 获取子图像并使用 bufferedImageType 转换为 `BufferedImage`。请从 java.awt.image.BufferedImage\#TYPE\_\*\*\*\* 中选择 `bufferedImageType`。
+从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 bufferedImageType。请从 java.awt.image.BufferedImage\#TYPE\_\*\*\*\* 中选择 `bufferedImageType`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -143,7 +143,7 @@ public static BufferedImage toJava(Image image, Rectangle subImageRect, Buffered
 ```
 
 
-从 `Image` 获取子图像并使用 bufferedImageType 转换为 `BufferedImage`。请从 java.awt.image.BufferedImage\#TYPE\_\*\*\*\* 中选择 `bufferedImageType`。
+从 `Image` 中获取子图像并转换为 `BufferedImage`，使用 bufferedImageType。请从 java.awt.image.BufferedImage\#TYPE\_\*\*\*\* 中选择 `bufferedImageType`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

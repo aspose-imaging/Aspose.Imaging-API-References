@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusCustomLineCapDataFlags"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CustomLineCapData 标志指定自定义线帽的数据。"
 type: docs
 weight: 18

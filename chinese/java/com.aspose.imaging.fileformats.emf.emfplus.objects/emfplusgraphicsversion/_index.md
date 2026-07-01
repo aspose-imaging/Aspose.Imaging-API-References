@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusGraphicsVersion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusGraphicsVersion 对象指定用于创建 EMF 元文件的操作系统图形版本。"
 type: docs
 weight: 44
@@ -14,7 +14,7 @@ public final class EmfPlusGraphicsVersion extends EmfPlusStructureObjectType
 
 EmfPlusGraphicsVersion 对象指定用于创建 EMF+ 元文件的操作系统图形版本。
 
-图形版本可以由供应商扩展；然而，为确保互操作性，任何此类扩展必须在 EMF+ 元文件的客户端和服务器端都实现。
+图形版本可由供应商扩展；然而，为确保互操作性，任何此类扩展必须在 EMF+ 元文件的客户端和服务器端都实现。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void setMetafileSignature(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getGraphicsVersion() {#getGraphicsVersion--}
 ```
@@ -78,5 +78,5 @@ public void setGraphicsVersion(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "JpegLoadException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 JPEG 图像加载异常。"
 type: docs
 weight: 17
@@ -38,7 +38,7 @@ public JpegLoadException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### JpegLoadException(String message, Throwable innerException) {#JpegLoadException-java.lang.String-java.lang.Throwable-}
 ```
@@ -51,7 +51,7 @@ public JpegLoadException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 
 ### JpegLoadException(String message, int reason) {#JpegLoadException-java.lang.String-int-}
@@ -65,8 +65,8 @@ public JpegLoadException(String message, int reason)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
-| reason | int | 错误原因。 |
+| 消息 | java.lang.String | 异常消息。 |
+| 原因 | int | 错误的原因。 |
 
 ### JpegLoadException(String message, Throwable innerException, int reason) {#JpegLoadException-java.lang.String-java.lang.Throwable-int-}
 ```
@@ -79,9 +79,9 @@ public JpegLoadException(String message, Throwable innerException, int reason)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
-| reason | int | 错误原因。 |
+| 原因 | int | 错误的原因。 |
 
 ### getReason() {#getReason--}
 ```
@@ -91,7 +91,7 @@ public int getReason()
 
 获取或设置错误原因。
 
-值：错误原因。
+值：错误的原因。
 
 **Returns:**
 int
@@ -103,10 +103,10 @@ public void setReason(int value)
 
 获取或设置错误原因。
 
-值：错误原因。
+值：错误的原因。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

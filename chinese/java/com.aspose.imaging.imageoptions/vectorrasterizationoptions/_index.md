@@ -1,7 +1,7 @@
 ---
 title: "VectorRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "矢量光栅化选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "向量光栅化选项。"
 type: docs
 weight: 52
 url: /zh/java/com.aspose.imaging.imageoptions/vectorrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public class VectorRasterizationOptions
 ```
 
-向量光栅化选项。请注意，自 Aspose.Imaging 24.12 版本起，[VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) 将不再继承自 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)。
+向量光栅化选项。请注意，[VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) 将不再从 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) 派生，自 Aspose.Imaging 24.12 版本起。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,11 +30,11 @@ public class VectorRasterizationOptions
 | [getBorderY()](#getBorderY--) | 获取或设置边框 Y。 |
 | [setBorderY(float value)](#setBorderY-float-) | 获取或设置边框 Y。 |
 | [getCenterDrawing()](#getCenterDrawing--) | 获取一个值，指示是否居中绘制。 |
-| [setCenterDrawing(boolean value)](#setCenterDrawing-boolean-) | 设置一个指示是否居中绘制的值。 |
+| [setCenterDrawing(boolean value)](#setCenterDrawing-boolean-) | 设置指示是否居中绘制的值。 |
 | [getPageHeight()](#getPageHeight--) | 获取页面高度。 |
 | [setPageHeight(float value)](#setPageHeight-float-) | 设置页面高度。 |
-| [getPageSize()](#getPageSize--) | 获取页面大小。 |
-| [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | 设置页面大小。 |
+| [getPageSize()](#getPageSize--) | 获取页面尺寸。 |
+| [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | 设置页面尺寸。 |
 | [getPageWidth()](#getPageWidth--) | 获取页面宽度。 |
 | [setPageWidth(float value)](#setPageWidth-float-) | 设置页面宽度。 |
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色。 |
@@ -87,7 +87,7 @@ public final void setSmoothingMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 平滑模式。 |
+| 值 | int | 平滑模式。 |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -110,7 +110,7 @@ try {
     // 对线条、曲线以及填充区域的边缘进行抗锯齿处理。
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // 每个字符使用其未使用 hinting 的抗锯齿字形位图绘制。
+    // 每个字符使用其不带提示的抗锯齿字形位图绘制。
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
     // 将图像尺寸缩小 10 倍，即输出尺寸为原始尺寸的 10%。
@@ -148,7 +148,7 @@ public void setBorderX(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 边框 X。 |
+| 值 | float | 边框 X。 |
 
 ### getBorderY() {#getBorderY--}
 ```
@@ -171,7 +171,7 @@ public void setBorderY(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 边框 Y。 |
+| 值 | float | 边框 Y。 |
 
 ### getCenterDrawing() {#getCenterDrawing--}
 ```
@@ -189,12 +189,12 @@ public void setCenterDrawing(boolean value)
 ```
 
 
-设置一个指示是否居中绘制的值。
+设置指示是否居中绘制的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示是否居中绘制的值。 |
+| 值 | boolean | 指示是否居中绘制的值。 |
 
 ### getPageHeight() {#getPageHeight--}
 ```
@@ -217,7 +217,7 @@ public void setPageHeight(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 页面高度。 |
+| 值 | float | 页面高度。 |
 
 ### getPageSize() {#getPageSize--}
 ```
@@ -225,7 +225,7 @@ public SizeF getPageSize()
 ```
 
 
-获取页面大小。
+获取页面尺寸。
 
 **Returns:**
 [SizeF](../../com.aspose.imaging/sizef) - the page size.
@@ -235,12 +235,12 @@ public void setPageSize(SizeF value)
 ```
 
 
-设置页面大小。
+设置页面尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [SizeF](../../com.aspose.imaging/sizef) | 页面大小。 |
+| value | [SizeF](../../com.aspose.imaging/sizef) | 页面尺寸。 |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**
@@ -333,7 +333,7 @@ public void setPageWidth(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 页面宽度。 |
+| 值 | float | 页面宽度。 |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
@@ -476,7 +476,7 @@ public final void setTextRenderingHint(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 文本渲染提示。 |
+| 值 | int | 文本渲染提示。 |
 
 
 **Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
@@ -499,7 +499,7 @@ try {
     // 对线条、曲线以及填充区域的边缘进行抗锯齿处理。
     rasterizationOptions.setSmoothingMode(com.aspose.imaging.SmoothingMode.AntiAlias);
 
-    // 每个字符使用其未使用 hinting 的抗锯齿字形位图绘制。
+    // 每个字符使用其不带提示的抗锯齿字形位图绘制。
     rasterizationOptions.setTextRenderingHint(com.aspose.imaging.TextRenderingHint.AntiAlias);
 
     // 将图像尺寸缩小 10 倍，即输出尺寸为原始尺寸的 10%。
@@ -541,7 +541,7 @@ public final void setPositioning(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 定位。 |
+| 值 | int | 定位。 |
 
 ### getReplaceTextMapping() {#getReplaceTextMapping--}
 ```
@@ -568,7 +568,7 @@ public final void setReplaceTextMapping(HashMap<String,String> value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.HashMap<java.lang.String,java.lang.String> | 文本替换映射。 |
+| 值 | java.util.HashMap<java.lang.String,java.lang.String> | 文本替换映射。 |
 
 ### copyTo(VectorRasterizationOptions vectorRasterizationOptions) {#copyTo-com.aspose.imaging.imageoptions.VectorRasterizationOptions-}
 ```
@@ -581,7 +581,7 @@ public void copyTo(VectorRasterizationOptions vectorRasterizationOptions)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | 矢量光栅化选项。 |
+| vectorRasterizationOptions | [VectorRasterizationOptions](../../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | 向量光栅化选项。 |
 
 ### deepClone() {#deepClone--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "AggregateException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "聚合多个异常。"
 type: docs
 weight: 10

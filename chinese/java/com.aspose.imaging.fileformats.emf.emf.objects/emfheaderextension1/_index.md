@@ -1,6 +1,6 @@
 ---
 title: "EmfHeaderExtension1"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "HeaderExtension1 对象定义了 EMF 元文件头的第一个扩展。"
 type: docs
 weight: 18
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfHeaderExtension1 extends EmfHeaderObject
 ```
 
-HeaderExtension1 对象定义了 EMF 元文件头的第一个扩展。它添加了对 PixelFormatDescriptor 对象（第 2.2.22 节）和 OpenGL [OPENGL] 记录（第 2.3.9 节）的支持。
+HeaderExtension1 对象定义了 EMF 元文件头的第一个扩展。它增加了对 PixelFormatDescriptor 对象（第 2.2.22 节）和 OpenGL [OPENGL] 记录（第 2.3.9 节）的支持。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void setCbPixelFormat(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getOffPixelFormat() {#getOffPixelFormat--}
 ```
@@ -78,7 +78,7 @@ public void setOffPixelFormat(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBOpenGl() {#getBOpenGl--}
 ```
@@ -101,5 +101,5 @@ public void setBOpenGl(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

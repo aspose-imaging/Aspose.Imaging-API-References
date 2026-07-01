@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusRegionNodeChildNodes"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点"
 type: docs
 weight: 70
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRegionNodeChildNodes extends EmfPlusStructureObjectType
 ```
 
-EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点。
+该 EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -59,7 +59,7 @@ public void setOperation(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getLeft() {#getLeft--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "EmfNamedEscape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "MR_NAMEDESCAPE 记录将任意信息传递给指定的打印机驱动程序。"
 type: docs
 weight: 75
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfNamedEscape extends EmfEscapeRecordType
 ```
 
-MR\_NAMEDESCAPE 记录将任意信息传递给指定的打印机驱动程序。
+该 MR\_NAMEDESCAPE 记录将任意信息传递给指定的打印机驱动程序。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,14 +22,14 @@ MR\_NAMEDESCAPE 记录将任意信息传递给指定的打印机驱动程序。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCjDriver()](#getCjDriver--) | 获取或设置 一个 32 位无符号整数，指定 DriverName 字段中的字节数。 |
-| [setCjDriver(int value)](#setCjDriver-int-) | 获取或设置 一个 32 位无符号整数，指定 DriverName 字段中的字节数。 |
-| [getCjIn()](#getCjIn--) | 获取或设置 一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。 |
-| [setCjIn(int value)](#setCjIn-int-) | 获取或设置 一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。 |
-| [getDriverName()](#getDriverName--) | 获取或设置 一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。 |
-| [setDriverName(String value)](#setDriverName-java.lang.String-) | 获取或设置 一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。 |
-| [getData()](#getData--) | 获取或设置 要传递给打印机驱动程序的数据。 |
-| [setData(byte[] value)](#setData-byte---) | 获取或设置 要传递给打印机驱动程序的数据。 |
+| [getCjDriver()](#getCjDriver--) | 获取或设置一个 32 位无符号整数，指定 DriverName 字段中的字节数。 |
+| [setCjDriver(int value)](#setCjDriver-int-) | 获取或设置一个 32 位无符号整数，指定 DriverName 字段中的字节数。 |
+| [getCjIn()](#getCjIn--) | 获取或设置一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。 |
+| [setCjIn(int value)](#setCjIn-int-) | 获取或设置一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。 |
+| [getDriverName()](#getDriverName--) | 获取或设置一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。 |
+| [setDriverName(String value)](#setDriverName-java.lang.String-) | 获取或设置一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。 |
+| [getData()](#getData--) | 获取或设置要传递给打印机驱动程序的数据。 |
+| [setData(byte[] value)](#setData-byte---) | 获取或设置要传递给打印机驱动程序的数据。 |
 ### EmfNamedEscape(EmfRecord source) {#EmfNamedEscape-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfNamedEscape(EmfRecord source)
@@ -41,7 +41,7 @@ public EmfNamedEscape(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getCjDriver() {#getCjDriver--}
 ```
@@ -49,7 +49,7 @@ public int getCjDriver()
 ```
 
 
-获取或设置 一个 32 位无符号整数，指定 DriverName 字段中的字节数。该值必须是偶数。
+获取或设置一个 32 位无符号整数，指定 DriverName 字段中的字节数。此值必须为偶数。
 
 **Returns:**
 int
@@ -59,12 +59,12 @@ public void setCjDriver(int value)
 ```
 
 
-获取或设置 一个 32 位无符号整数，指定 DriverName 字段中的字节数。该值必须是偶数。
+获取或设置一个 32 位无符号整数，指定 DriverName 字段中的字节数。此值必须为偶数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCjIn() {#getCjIn--}
 ```
@@ -72,7 +72,7 @@ public int getCjIn()
 ```
 
 
-获取或设置 一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。
+获取或设置一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。
 
 **Returns:**
 int
@@ -82,12 +82,12 @@ public void setCjIn(int value)
 ```
 
 
-获取或设置 一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。
+获取或设置一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getDriverName() {#getDriverName--}
 ```
@@ -95,7 +95,7 @@ public String getDriverName()
 ```
 
 
-获取或设置 一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。该值必须是 cjDriver 字节长，并且必须以空字符结尾。
+获取或设置一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。此值的长度必须为 cjDriver 字节，并且必须以空字符终止。
 
 **Returns:**
 java.lang.String
@@ -105,12 +105,12 @@ public void setDriverName(String value)
 ```
 
 
-获取或设置 一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。该值必须是 cjDriver 字节长，并且必须以空字符结尾。
+获取或设置一个 16 位 Unicode 字符串，指定将接收数据的打印机驱动程序的名称。此值的长度必须为 cjDriver 字节，并且必须以空字符终止。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getData() {#getData--}
 ```
@@ -118,7 +118,7 @@ public byte[] getData()
 ```
 
 
-获取或设置 要传递给打印机驱动程序的数据。必须有 cjIn 字节可用。
+获取或设置要传递给打印机驱动程序的数据。必须有 cjIn 字节可用。
 
 **Returns:**
 byte[]
@@ -128,10 +128,10 @@ public void setData(byte[] value)
 ```
 
 
-获取或设置 要传递给打印机驱动程序的数据。必须有 cjIn 字节可用。
+获取或设置要传递给打印机驱动程序的数据。必须有 cjIn 字节可用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

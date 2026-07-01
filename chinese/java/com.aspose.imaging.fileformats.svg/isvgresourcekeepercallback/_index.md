@@ -1,6 +1,6 @@
 ---
 title: "ISvgResourceKeeperCallback"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "svg 回调接口"
 type: docs
 weight: 13

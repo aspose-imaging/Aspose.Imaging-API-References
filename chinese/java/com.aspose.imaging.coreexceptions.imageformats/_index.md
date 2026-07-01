@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.coreexceptions.imageformats"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含由受支持的文件格式之一抛出的异常。"
 type: docs
 weight: 17

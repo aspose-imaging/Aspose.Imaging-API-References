@@ -1,7 +1,7 @@
 ---
 title: "EmfSetWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETWORLDTRANSFORM 记录指定在回放设备上下文中当前世界空间到页面空间的变换。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETWORLDTRANSFORM 记录指定在回放设备上下文中，将当前世界空间到页面空间的变换。"
 type: docs
 weight: 146
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetWorldTransform extends EmfTransformRecordType
 ```
 
-EMR\_SETWORLDTRANSFORM 记录指定回放设备上下文中当前世界坐标到页面坐标的变换。
+该 EMR\_SETWORLDTRANSFORM 记录指定回放设备上下文中当前世界坐标到页面坐标的变换。
 
 有关变换和坐标空间的更多信息，请参阅 [MSDN-WRLDPGSPC]。有关其他变换记录类型的规范，请参见第 2.3.12 节。
 ## 构造函数
@@ -32,7 +32,7 @@ public EmfSetWorldTransform(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetWorldTransform() {#EmfSetWorldTransform--}
 ```

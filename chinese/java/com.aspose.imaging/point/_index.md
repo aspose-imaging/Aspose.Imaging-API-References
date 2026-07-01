@@ -1,7 +1,7 @@
 ---
 title: "Point"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示整数 x、y 坐标的有序对，用于定义二维平面中的一点。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示整数 x 和 y 坐标的有序对，用于定义二维平面上的一点。"
 type: docs
 weight: 86
 url: /zh/java/com.aspose.imaging/point/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.lang.Struct
 public class Point extends Struct<Point>
 ```
 
-表示整数 x、y 坐标的有序对，用于定义二维平面中的一点。
+表示整数 x 和 y 坐标的有序对，用于定义二维平面上的一点。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,14 +25,14 @@ public class Point extends Struct<Point>
 
 | 方法 | 描述 |
 | --- | --- |
-| [getEmpty()](#getEmpty--) | 获取一个 `Aspose.Imaging.Point` 结构的新实例，其 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 值均为零。 |
+| [getEmpty()](#getEmpty--) | 获取一个 `Aspose.Imaging.Point` 结构的新实例，其 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 值均设为零。 |
 | [add(Point point, Size size)](#add-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 将指定的 `Aspose.Imaging.Size` 添加到指定的 `Aspose.Imaging.Point`。 |
 | [subtract(Point point, Size size)](#subtract-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 返回从指定的 `Aspose.Imaging.Point` 中减去指定的 `Aspose.Imaging.Size` 的结果。 |
-| [ceiling(PointF point)](#ceiling-com.aspose.imaging.PointF-) | 通过将 `Aspose.Imaging.PointF` 的值向上取整为下一个更大的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。 |
-| [round(PointF point)](#round-com.aspose.imaging.PointF-) | 通过将 `Aspose.Imaging.Point` 的值四舍五入到最近的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point` 对象。 |
-| [truncate(PointF point)](#truncate-com.aspose.imaging.PointF-) | 通过截断 `Aspose.Imaging.Point` 的值，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。 |
+| [ceiling(PointF point)](#ceiling-com.aspose.imaging.PointF-) | 通过将 `Aspose.Imaging.PointF` 的值向上取整到下一个整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。 |
+| [round(PointF point)](#round-com.aspose.imaging.PointF-) | 通过将 `Aspose.Imaging.PointF` 的值四舍五入到最近的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point` 对象。 |
+| [truncate(PointF point)](#truncate-com.aspose.imaging.PointF-) | 通过截断 `Aspose.Imaging.PointF` 的值，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。 |
 | [op_Addition(Point point, Size size)](#op-Addition-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 按给定的 `Aspose.Imaging.Size` 平移 `Aspose.Imaging.Point`。 |
-| [op_Subtraction(Point point, Size size)](#op-Subtraction-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 按给定的 `Aspose.Imaging.Size` 的负值平移 `Aspose.Imaging.Point`。 |
+| [op_Subtraction(Point point, Size size)](#op-Subtraction-com.aspose.imaging.Point-com.aspose.imaging.Size-) | 按给定的 `Aspose.Imaging.Size` 的相反数平移 `Aspose.Imaging.Point`。 |
 | [op_Equality(Point point1, Point point2)](#op-Equality-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 比较两个 `Aspose.Imaging.Point` 对象。 |
 | [op_Inequality(Point point1, Point point2)](#op-Inequality-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 比较两个 `Aspose.Imaging.Point` 对象。 |
 | [to_Size(Point point)](#to-Size-com.aspose.imaging.Point-) | 将指定的 `Aspose.Imaging.Point` 结构转换为 `Aspose.Imaging.Size` 结构。 |
@@ -48,7 +48,7 @@ public class Point extends Struct<Point>
 | [offset(int dx, int dy)](#offset-int-int-) | 按指定的量平移此 `Aspose.Imaging.Point`。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 指定此 `Aspose.Imaging.Point` 是否包含与指定的 `System.Object` 相同的坐标。 |
 | [hashCode()](#hashCode--) | 返回此 `Aspose.Imaging.Point` 的哈希码。 |
-| [toLong()](#toLong--) | 将此 Point 转换为单个 long 值，其中高位和低位分别包含 X 和 Y 坐标。 |
+| [toLong()](#toLong--) | 将此 Point 转换为单个 long 值，其中包含高位和低位的 X 和 Y 坐标。 |
 | [toString()](#toString--) | 将此 `Aspose.Imaging.Point` 转换为可读的字符串。 |
 | [CloneTo(Point that)](#CloneTo-com.aspose.imaging.Point-) |  |
 | [Clone()](#Clone--) |  |
@@ -104,7 +104,7 @@ public static Point getEmpty()
 ```
 
 
-获取一个 `Aspose.Imaging.Point` 结构的新实例，其 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 值均为零。
+获取一个 `Aspose.Imaging.Point` 结构的新实例，其 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 值均设为零。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -135,7 +135,7 @@ public static Point subtract(Point point, Size size)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point | [Point](../../com.aspose.imaging/point) | 要被减去的 `Aspose.Imaging.Point`。 |
+| point | [Point](../../com.aspose.imaging/point) | 要从中减去的 `Aspose.Imaging.Point`。 |
 | size | [Size](../../com.aspose.imaging/size) | 要从 `point` 中减去的 `Aspose.Imaging.Size`。 |
 
 **Returns:**
@@ -146,7 +146,7 @@ public static Point ceiling(PointF point)
 ```
 
 
-通过将 `Aspose.Imaging.PointF` 的值向上取整为下一个更大的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。
+通过将 `Aspose.Imaging.PointF` 的值向上取整到下一个整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -161,7 +161,7 @@ public static Point round(PointF point)
 ```
 
 
-通过将 `Aspose.Imaging.Point` 的值四舍五入到最近的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point` 对象。
+通过将 `Aspose.Imaging.PointF` 的值四舍五入到最近的整数，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point` 对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -176,7 +176,7 @@ public static Point truncate(PointF point)
 ```
 
 
-通过截断 `Aspose.Imaging.Point` 的值，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。
+通过截断 `Aspose.Imaging.PointF` 的值，将指定的 `Aspose.Imaging.PointF` 转换为 `Aspose.Imaging.Point`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -197,7 +197,7 @@ public static Point op_Addition(Point point, Size size)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | point | [Point](../../com.aspose.imaging/point) | 要平移的 `Aspose.Imaging.Point`。 |
-| size | [Size](../../com.aspose.imaging/size) | 指定要加到 `point` 坐标的数字对的 `Aspose.Imaging.Size`。 |
+| size | [Size](../../com.aspose.imaging/size) | 一个 `Aspose.Imaging.Size`，指定要添加到 `point` 坐标的数值对。 |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - The translated `Aspose.Imaging.Point`.
@@ -207,13 +207,13 @@ public static Point op_Subtraction(Point point, Size size)
 ```
 
 
-按给定的 `Aspose.Imaging.Size` 的负值平移 `Aspose.Imaging.Point`。
+按给定的 `Aspose.Imaging.Size` 的相反数平移 `Aspose.Imaging.Point`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | point | [Point](../../com.aspose.imaging/point) | 要平移的 `Aspose.Imaging.Point`。 |
-| size | [Size](../../com.aspose.imaging/size) | 指定要从 `point` 坐标中减去的数字对的 `Aspose.Imaging.Size`。 |
+| size | [Size](../../com.aspose.imaging/size) | 一个 `Aspose.Imaging.Size`，指定要从 `point` 坐标中减去的数值对。 |
 
 **Returns:**
 [Point](../../com.aspose.imaging/point) - A `Aspose.Imaging.Point` structure that is translated by the negative of a given `Aspose.Imaging.Size` structure.
@@ -228,11 +228,11 @@ public static boolean op_Equality(Point point1, Point point2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | [Point](../../com.aspose.imaging/point) | 要比较的第一个 `Aspose.Imaging.Point`。 |
-| point2 | [Point](../../com.aspose.imaging/point) | 要比较的第二个 `Aspose.Imaging.Point`。 |
+| point1 | [Point](../../com.aspose.imaging/point) | 第一个要比较的 `Aspose.Imaging.Point`。 |
+| point2 | [Point](../../com.aspose.imaging/point) | 第二个要比较的 `Aspose.Imaging.Point`。 |
 
 **Returns:**
-布尔值 - 如果 `point1` 和 `point2` 的 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 值相等，则为 True；否则为 false。
+布尔值 - 如果 `point1` 和 `point2` 的 `Aspose.Imaging.Point.X` 与 `Aspose.Imaging.Point.Y` 值相等，则为 True；否则为 false。
 ### op_Inequality(Point point1, Point point2) {#op-Inequality-com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
 public static boolean op_Inequality(Point point1, Point point2)
@@ -244,8 +244,8 @@ public static boolean op_Inequality(Point point1, Point point2)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | [Point](../../com.aspose.imaging/point) | 要比较的第一个 `Aspose.Imaging.Point`。 |
-| point2 | [Point](../../com.aspose.imaging/point) | 要比较的第二个 `Aspose.Imaging.Point`。 |
+| point1 | [Point](../../com.aspose.imaging/point) | 第一个要比较的 `Aspose.Imaging.Point`。 |
+| point2 | [Point](../../com.aspose.imaging/point) | 第二个要比较的 `Aspose.Imaging.Point`。 |
 
 **Returns:**
 布尔值 - 如果 `point1` 和 `point2` 的 `Aspose.Imaging.Point.X` 属性或 `Aspose.Imaging.Point.Y` 属性的值任一不同，则为 True；否则为 false。
@@ -290,9 +290,9 @@ public static void fromLong(long packedPoint, int[] x, int[] y)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| packedPoint | long | 打包为单个 long 值的 Point 对象。 |
+| packedPoint | long | 将 Point 对象打包为一个 long 值。 |
 | x | int[] | 从打包的 Point 中提取的 X 值。 |
-| y | int[] | 从打包的 Point 中提取的 Y 值。 |
+| y | int[] | 从打包的 Point Y 值中提取的值。 |
 
 ### isEquals(Point obj1, Point obj2) {#isEquals-com.aspose.imaging.Point-com.aspose.imaging.Point-}
 ```
@@ -319,7 +319,7 @@ public boolean isEmpty()
 获取一个值，指示此 `Aspose.Imaging.Point` 是否为空。
 
 **Returns:**
-布尔值 - 如果 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 均为 0，则为 True；否则为 false。
+boolean - 如果 `Aspose.Imaging.Point.X` 和 `Aspose.Imaging.Point.Y` 均为 0，则为 True；否则为 false。
 ### getX() {#getX--}
 ```
 public int getX()
@@ -341,7 +341,7 @@ public void setX(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getY() {#getY--}
 ```
@@ -364,7 +364,7 @@ public void setY(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### offset(Point point) {#offset-com.aspose.imaging.Point-}
 ```
@@ -407,7 +407,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于测试的 `System.Object`。 |
 
 **Returns:**
-布尔值 - 如果 `obj` 是 `Aspose.Imaging.Point` 并且其坐标与此 `Aspose.Imaging.Point` 相同，则为 True。
+boolean - 如果 `obj` 是 `Aspose.Imaging.Point` 并且具有与此 `Aspose.Imaging.Point` 相同的坐标，则为 True。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -424,10 +424,10 @@ public final long toLong()
 ```
 
 
-将此 Point 转换为单个 long 值，其中高位和低位分别包含 X 和 Y 坐标。
+将此 Point 转换为单个 long 值，其中包含高位和低位的 X 和 Y 坐标。
 
 **Returns:**
-long - 打包为单个 long 值的 Point 对象。
+long - 将 Point 对象打包为一个 long 值。
 ### toString() {#toString--}
 ```
 public String toString()

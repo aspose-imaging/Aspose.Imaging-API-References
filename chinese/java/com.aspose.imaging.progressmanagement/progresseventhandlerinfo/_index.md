@@ -1,7 +1,7 @@
 ---
 title: "ProgressEventHandlerInfo"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "此类表示有关图像加载/保存/导出操作进度的信息，可在外部应用程序中用于向最终用户显示转换进度。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "此类表示图像加载/保存/导出操作进度的信息，可在外部应用程序中用于向最终用户显示转换进度"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.progressmanagement/progresseventhandlerinfo/
@@ -28,7 +28,7 @@ public class ProgressEventHandlerInfo
 String dir = "c:\\aspose.imaging\\java\\issues\\1440\\";
 String fileName = dir + "big.png";
 
-// 示例：在加载/导出操作中使用独立的操作进度事件处理程序
+// 示例：在加载/导出操作中使用单独的操作进度事件处理程序
 final com.aspose.imaging.ProgressEventHandler loadHandler = new com.aspose.imaging.ProgressEventHandler() {
     @Override
     public void invoke(com.aspose.imaging.progressmanagement.ProgressEventHandlerInfo info) {

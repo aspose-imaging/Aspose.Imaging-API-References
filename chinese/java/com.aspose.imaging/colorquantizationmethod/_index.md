@@ -1,6 +1,6 @@
 ---
 title: "ColorQuantizationMethod"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "颜色量化方法"
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ public final class ColorQuantizationMethod extends System.Enum
 | 字段 | 描述 |
 | --- | --- |
 | [None](#None) | 未使用颜色量化方法 |
-| [Popularity](#Popularity) | 受欢迎度方法 |
+| [Popularity](#Popularity) | 流行度方法 |
 ### None {#None}
 ```
 public static final int None
@@ -33,5 +33,5 @@ public static final int Popularity
 ```
 
 
-受欢迎度方法
+流行度方法
 

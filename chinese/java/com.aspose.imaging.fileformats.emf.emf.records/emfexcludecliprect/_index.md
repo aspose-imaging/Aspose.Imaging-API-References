@@ -1,6 +1,6 @@
 ---
 title: "EmfExcludeClipRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_EXCLUDECLIPRECT 记录指定一个新的剪裁区域，该区域由现有剪裁区域减去指定的矩形组成。"
 type: docs
 weight: 50
@@ -23,8 +23,8 @@ EMR\_EXCLUDECLIPRECT 记录指定一个新的剪裁区域，该区域由现有�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getClip()](#getClip--) | 获取一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定剪裁矩形。 |
-| [setClip(Rectangle value)](#setClip-com.aspose.imaging.Rectangle-) | 设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定剪裁矩形。 |
+| [getClip()](#getClip--) | 获取一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑单位下的剪裁矩形。 |
+| [setClip(Rectangle value)](#setClip-com.aspose.imaging.Rectangle-) | 设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑单位下的剪裁矩形。 |
 ### EmfExcludeClipRect(EmfRecord source) {#EmfExcludeClipRect-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfExcludeClipRect(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfExcludeClipRect(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfExcludeClipRect() {#EmfExcludeClipRect--}
 ```
@@ -52,7 +52,7 @@ public Rectangle getClip()
 ```
 
 
-获取一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定剪裁矩形。
+获取一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑单位下的剪裁矩形。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -62,7 +62,7 @@ public void setClip(Rectangle value)
 ```
 
 
-设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定剪裁矩形。
+设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定逻辑单位下的剪裁矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

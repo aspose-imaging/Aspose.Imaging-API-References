@@ -1,6 +1,6 @@
 ---
 title: "EmfAbortPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此记录中止路径括号或从已关闭的路径括号中丢弃路径。"
 type: docs
 weight: 10

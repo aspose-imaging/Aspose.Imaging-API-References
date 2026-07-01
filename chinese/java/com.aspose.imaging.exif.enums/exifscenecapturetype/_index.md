@@ -1,6 +1,6 @@
 ---
 title: "ExifSceneCaptureType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 场景捕获类型枚举。"
 type: docs
 weight: 23
@@ -20,7 +20,7 @@ exif 场景捕获类型枚举。
 | [Standard](#Standard) | 标准场景。 |
 | [Landscape](#Landscape) | 风景场景。 |
 | [Portrait](#Portrait) | 人像场景。 |
-| [NightScene](#NightScene) | 夜间场景。 |
+| [NightScene](#NightScene) | 夜景。 |
 ### Standard {#Standard}
 ```
 public static final int Standard
@@ -51,5 +51,5 @@ public static final int NightScene
 ```
 
 
-夜间场景。
+夜景。
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBoundaryPointData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBoundaryPointData 对象指定渐变画笔的闭合基数样条边界"
 type: docs
 weight: 22
@@ -22,8 +22,8 @@ EmfPlusBoundaryPointData 对象指定渐变画笔的闭合基数样条边界
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBoundaryPointData()](#getBoundaryPointData--) | 获取或设置一个由 BoundaryPointCount 个 EmfPlusPointF 对象组成的数组，用于指定画刷的边界。 |
-| [setBoundaryPointData(PointF[] value)](#setBoundaryPointData-com.aspose.imaging.PointF---) | 获取或设置一个由 BoundaryPointCount 个 EmfPlusPointF 对象组成的数组，用于指定画刷的边界。 |
+| [getBoundaryPointData()](#getBoundaryPointData--) | 获取或设置一个 BoundaryPointCount EmfPlusPointF 对象数组，用于指定画笔的边界。 |
+| [setBoundaryPointData(PointF[] value)](#setBoundaryPointData-com.aspose.imaging.PointF---) | 获取或设置一个 BoundaryPointCount EmfPlusPointF 对象数组，用于指定画笔的边界。 |
 ### EmfPlusBoundaryPointData() {#EmfPlusBoundaryPointData--}
 ```
 public EmfPlusBoundaryPointData()
@@ -36,7 +36,7 @@ public PointF[] getBoundaryPointData()
 ```
 
 
-获取或设置一个由 BoundaryPointCount 个 EmfPlusPointF 对象组成的数组，用于指定画刷的边界。
+获取或设置一个 BoundaryPointCount EmfPlusPointF 对象数组，用于指定画笔的边界。
 
 **Returns:**
 com.aspose.imaging.PointF[]
@@ -46,7 +46,7 @@ public void setBoundaryPointData(PointF[] value)
 ```
 
 
-获取或设置一个由 BoundaryPointCount 个 EmfPlusPointF 对象组成的数组，用于指定画刷的边界。
+获取或设置一个 BoundaryPointCount EmfPlusPointF 对象数组，用于指定画笔的边界。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

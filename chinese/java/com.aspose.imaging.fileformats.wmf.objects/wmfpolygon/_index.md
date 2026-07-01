@@ -1,13 +1,13 @@
 ---
 title: "WmfPolygon"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "多边形对象"
 type: docs
 weight: 58
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfpolygon/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfPolygon extends WmfObject
 ```
@@ -43,7 +43,7 @@ public short getNumberOfPoint()
 值：点的数量。
 
 **Returns:**
-short
+短
 ### setNumberOfPoint(short value) {#setNumberOfPoint-short-}
 ```
 public void setNumberOfPoint(short value)
@@ -57,7 +57,7 @@ public void setNumberOfPoint(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getAPoints() {#getAPoints--}
 ```

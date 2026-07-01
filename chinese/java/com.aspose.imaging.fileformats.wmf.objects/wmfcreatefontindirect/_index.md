@@ -1,6 +1,6 @@
 ---
 title: "WmfCreateFontInDirect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "创建字体。"
 type: docs
 weight: 21
@@ -22,8 +22,8 @@ public class WmfCreateFontInDirect extends WmfGraphicObject
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLogFont()](#getLogFont--) | 获取或设置日志字体。 |
-| [setLogFont(EmfLogFont value)](#setLogFont-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-) | 获取或设置日志字体。 |
+| [getLogFont()](#getLogFont--) | 获取或设置 log font。 |
+| [setLogFont(EmfLogFont value)](#setLogFont-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-) | 获取或设置 log font。 |
 | [getExtendedBytes()](#getExtendedBytes--) | 获取或设置扩展字节。 |
 | [setExtendedBytes(byte[] value)](#setExtendedBytes-byte---) | 获取或设置扩展字节。 |
 ### WmfCreateFontInDirect() {#WmfCreateFontInDirect--}
@@ -40,9 +40,9 @@ public EmfLogFont getLogFont()
 ```
 
 
-获取或设置日志字体。
+获取或设置 log font。
 
-值：日志字体。
+值：log font。
 
 **Returns:**
 [EmfLogFont](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogfont)
@@ -52,9 +52,9 @@ public void setLogFont(EmfLogFont value)
 ```
 
 
-获取或设置日志字体。
+获取或设置 log font。
 
-值：日志字体。
+值：log font。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -86,5 +86,5 @@ public void setExtendedBytes(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

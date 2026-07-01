@@ -1,7 +1,7 @@
 ---
 title: "WmfPatBlt"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 META_PATBLT 记录使用在回放设备上下文中定义的刷子绘制指定的矩形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_PATBLT 记录使用回放设备上下文中定义的刷子绘制指定的矩形。"
 type: docs
 weight: 52
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfpatblt/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfPatBlt extends WmfPointObject
 ```
 
-该 META\_PATBLT 记录使用在回放设备上下文中定义的刷子绘制指定的矩形。刷子的颜色与表面颜色或颜色通过指定的光栅操作进行合成。
+META\_PATBLT 记录使用回放设备上下文中定义的刷子绘制指定的矩形。刷子的颜色与表面颜色（或颜色）使用指定的光栅操作进行合成。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -59,7 +59,7 @@ public void setRasterOperation(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -72,7 +72,7 @@ public short getHeight()
 值：矩形的高度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -86,7 +86,7 @@ public void setHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -99,7 +99,7 @@ public short getWidth()
 值：矩形的宽度（逻辑单位）。
 
 **Returns:**
-short
+短
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -113,5 +113,5 @@ public void setWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

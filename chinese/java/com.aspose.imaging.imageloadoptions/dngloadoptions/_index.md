@@ -1,6 +1,6 @@
 ---
 title: "DngLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "DNG 加载选项"
 type: docs
 weight: 12
@@ -53,7 +53,7 @@ public void setFbdd(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 去马赛克前的噪声降低。 |
+| 值 | int | 去马赛克前的噪声降低。 |
 
 ### getAdjustWhiteBalance() {#getAdjustWhiteBalance--}
 ```
@@ -80,5 +80,5 @@ public final void setAdjustWhiteBalance(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示已加载 DNG 图像的白平衡应被调整的标志。 |
+| 值 | boolean | 指示已加载 DNG 图像的白平衡应被调整的标志。 |
 

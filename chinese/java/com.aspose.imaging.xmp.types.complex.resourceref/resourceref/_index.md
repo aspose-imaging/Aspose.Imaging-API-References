@@ -1,7 +1,7 @@
 ---
 title: "ResourceRef"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于指示派生文档等的渲染原件的先前版本原件。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于指示派生文档等的先前版本原始文件和渲染原始文件。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.types.complex.resourceref/resourceref/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class ResourceRef extends ComplexTypeBase
 ```
 
-用于指示先前的版本、渲染的原件、派生文档的原件等。
+用于指示先前的版本、渲染的原始文件、派生文档的原始文件等。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -63,7 +63,7 @@ public void setAlternatePaths(String[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] |  |
+| 值 | java.lang.String[] |  |
 
 ### getDocumentUri() {#getDocumentUri--}
 ```
@@ -90,7 +90,7 @@ public void setDocumentUri(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getFilePathUri() {#getFilePathUri--}
 ```
@@ -117,7 +117,7 @@ public void setFilePathUri(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getInstanceId() {#getInstanceId--}
 ```
@@ -144,5 +144,5 @@ public void setInstanceId(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 

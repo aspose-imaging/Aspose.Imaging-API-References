@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.sources"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含适用于输入或输出数据流的不同流源。"
 type: docs
 weight: 110

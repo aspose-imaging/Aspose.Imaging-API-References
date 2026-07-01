@@ -1,6 +1,6 @@
 ---
 title: "JpegLoadException.ErrorReason"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示错误原因。"
 type: docs
 weight: 10

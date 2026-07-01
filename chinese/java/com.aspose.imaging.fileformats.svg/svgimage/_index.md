@@ -1,7 +1,7 @@
 ---
 title: "SvgImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "使用我们的 API 操作标量矢量图形（SVG）图像文件，利用基于 XML 的文本格式的强大功能，实现无缝的自定义和可扩展性。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "使用我们的 API 操作 Scalar Vector Graphics SVG 图像文件，利用基于 XML 的文本格式的强大功能，实现无缝的自定义和可扩展性。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.svg/svgimage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class SvgImage extends VectorImage implements IHasXmpData
 ```
 
-使用我们的 API 操作标量矢量图形（SVG）图像文件，利用基于 XML 的文本格式的强大功能，实现无缝的自定义和可扩展性。轻松加载 SVG 图像、栅格化矢量元素并转换为其他格式，同时控制压缩级别，以优化项目的文件大小和质量。
+使用我们的 API 操作 Scalar Vector Graphics (SVG) 图像文件，利用基于 XML 的文本格式的强大功能，实现无缝的自定义和可扩展性。轻松加载 SVG 图像，栅格化矢量元素，并转换为其他格式，同时控制压缩级别，以优化项目的文件大小和质量。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -31,11 +31,11 @@ public final class SvgImage extends VectorImage implements IHasXmpData
 | [isCached()](#isCached--) | 检索一个布尔值，指示对象的数据当前是否已缓存，从而消除额外的数据读取操作的需求。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 检索图像的每像素位数。 |
 | [getFileFormat()](#getFileFormat--) | 检索图像的文件格式，提供用于处理和兼容性检查的关键元数据。 |
-| [cacheData()](#cacheData--) | 缓存数据并保证不再从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 加载数据。 |
+| [cacheData()](#cacheData--) | 缓存数据并确保不会再从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 加载数据。 |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整图像大小以适应指定的尺寸，同时保持其宽高比。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 裁剪指定的矩形。 |
 | [rotate(float angle)](#rotate-float-) | 围绕中心旋转图像。 |
-| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 对图像应用指定的调色板，支持出于美观或功能目的的颜色方案定制。 |
+| [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 将指定的调色板应用于图像，实现对配色方案的美观或功能性定制。 |
 
 ## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
 
@@ -60,7 +60,7 @@ try {
 
 
 ## Example: The following example shows how to convert a compressed images (*.
-以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为栅格格式。
+以下示例展示了如何将压缩图像（*.emz、*.wmz、*.svgz）转换为光栅格式
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
 String baseFolder = "D:\\Compressed\\";
@@ -123,12 +123,12 @@ public SvgImage(String path)
 ```
 
 
-实例化一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类对象，使用指定的路径定位并加载图像。此构造函数便于从外部文件创建 SVG 图像实例，实现与软件系统和工作流的无缝集成。
+实例化一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类对象，使用指定的路径来定位并加载图像。此构造函数便于从外部文件创建 SVG 图像实例，实现与软件系统和工作流的无缝集成。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 路径 | java.lang.String | 加载图像的路径以及用于初始化像素和调色板数据的路径。 |
+| 路径 | java.lang.String | 用于加载图像并初始化像素和调色板数据的路径。 |
 
 ### SvgImage(InputStream stream) {#SvgImage-java.io.InputStream-}
 ```
@@ -136,12 +136,12 @@ public SvgImage(InputStream stream)
 ```
 
 
-创建一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类实例，从提供的流中加载图像。此构造函数支持直接从流加载 SVG 图像，提升在软件应用中处理图像资源的灵活性和效率。
+创建一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类实例，从提供的流中加载图像。此构造函数支持直接从流加载 SVG 图像，提升了在软件应用中处理图像资源的灵活性和效率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.InputStream | 用于加载图像的流以及用于初始化像素和调色板数据的流。 |
+| 流 | java.io.InputStream | 用于加载图像并初始化像素和调色板数据的流。 |
 
 ### SvgImage(int width, int height) {#SvgImage-int-int-}
 ```
@@ -149,13 +149,13 @@ public SvgImage(int width, int height)
 ```
 
 
-实例化一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 对象，使用指定的宽度和高度。此构造函数允许开发者创建具有预定义尺寸的 SVG 图像，便于在初始化期间精确控制图像大小。
+使用指定的宽度和高度实例化一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 对象。此构造函数允许开发者创建具有预定义尺寸的 SVG 图像，便于在初始化期间精确控制图像大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 图像宽度。 |
-| 高度 | int | 图像高度。 |
+| width | int | 图像宽度。 |
+| height | int | 图像高度。 |
 
 ### SvgImage(SvgOptions svgOptions, int width, int height) {#SvgImage-com.aspose.imaging.imageoptions.SvgOptions-int-int-}
 ```
@@ -163,14 +163,14 @@ public SvgImage(SvgOptions svgOptions, int width, int height)
 ```
 
 
-创建一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类实例，使用指定的 SVG 选项、图像宽度和高度参数。此构造函数使开发者能够使用自定义选项和尺寸初始化 SVG 图像，提供在管理 SVG 内容和布局方面的灵活性。
+使用指定的 SVG 选项、图像宽度和高度参数创建一个新的 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 类实例。此构造函数使开发者能够使用自定义选项和尺寸初始化 SVG 图像，提供了管理 SVG 内容和布局的灵活性。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| svgOptions | [SvgOptions](../../com.aspose.imaging.imageoptions/svgoptions) | 该 SVG 选项。 |
-| 宽度 | int | 图像宽度。 |
-| 高度 | int | 图像高度。 |
+| svgOptions | [SvgOptions](../../com.aspose.imaging.imageoptions/svgoptions) | SVG 选项。 |
+| width | int | 图像宽度。 |
+| height | int | 图像高度。 |
 
 ### isCached() {#isCached--}
 ```
@@ -178,7 +178,7 @@ public boolean isCached()
 ```
 
 
-检索一个布尔值，指示对象的数据当前是否已缓存，从而消除额外的数据读取操作的需求。此属性提供对当前缓存状态的洞察，优化数据检索和处理工作流，以提升性能和效率。
+检索一个布尔值，指示对象的数据当前是否已缓存，从而消除额外的数据读取操作的需求。此属性提供当前缓存状态的洞察，优化数据检索和处理工作流，以提升性能和效率。
 
 **Returns:**
 布尔值 - 如果对象的数据已缓存则为 `true`；否则为 `false`。
@@ -188,7 +188,7 @@ public int getBitsPerPixel()
 ```
 
 
-检索图像的每像素位数。需要注意的是，此参数不适用于矢量图像，因为矢量图像不以像素计量。此属性提供有关图像颜色深度的关键信息，有助于处理和操作任务。
+检索图像的每像素位数。需要注意的是，此参数不适用于矢量图像，因为矢量图像不以像素计量。此属性提供图像颜色深度的关键信息，有助于处理和操作任务。
 
 **Returns:**
 int - 图像每像素位数。
@@ -198,7 +198,7 @@ public long getFileFormat()
 ```
 
 
-检索图像的文件格式，提供用于处理和兼容性检查的关键元数据。此属性对于确定适当的解码和编码策略以在不同系统和应用中有效处理图像数据至关重要。
+检索图像的文件格式，提供用于处理和兼容性检查的关键元数据。此属性对于确定在不同系统和应用中有效处理图像数据的适当解码和编码策略至关重要。
 
 **Returns:**
 long - 文件格式
@@ -216,7 +216,7 @@ public void resize(int newWidth, int newHeight, int resizeType)
 ```
 
 
-将图像调整为适合指定尺寸，同时保持其宽高比。此方法提供了一种便捷的方式来在不失真图像比例的情况下调整图像大小，确保根据所需尺寸实现最佳显示或存储。
+调整图像大小以适应指定的尺寸，同时保持其宽高比。此方法提供了一种便捷的方式来在不失真比例的情况下调整图像尺寸，确保根据所需尺寸实现最佳显示或存储。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -257,7 +257,7 @@ public void setPalette(IColorPalette palette, boolean updateColors)
 ```
 
 
-将指定的调色板应用于图像，允许为美观或功能目的自定义配色方案。此方法在管理颜色调色板以满足各种设计或应用需求方面提供了灵活性。
+将指定的调色板应用于图像，实现对颜色方案的美观或功能性定制。此方法在管理调色板以满足各种设计或应用需求方面提供了灵活性。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

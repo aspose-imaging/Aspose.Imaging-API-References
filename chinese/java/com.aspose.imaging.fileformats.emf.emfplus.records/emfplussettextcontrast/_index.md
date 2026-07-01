@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusSetTextContrast"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 EmfPlusSetTextContrast 记录根据伽马校正值指定文本对比度。"
 type: docs
 weight: 64
@@ -35,7 +35,7 @@ public EmfPlusSetTextContrast(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getTextContrast() {#getTextContrast--}
 ```
@@ -43,20 +43,20 @@ public short getTextContrast()
 ```
 
 
-获取或设置伽马校正值 X 1000，该值将应用于后续的文本渲染操作。允许范围为 1000 到 2200，表示文本伽马值为 1.0 到 2.2。
+获取或设置伽马校正值 X 1000，该值将应用于后续的文本渲染操作。允许的范围是 1000 到 2200，表示文本伽马值为 1.0 到 2.2。
 
 **Returns:**
-short
+短
 ### setTextContrast(short value) {#setTextContrast-short-}
 ```
 public void setTextContrast(short value)
 ```
 
 
-获取或设置伽马校正值 X 1000，该值将应用于后续的文本渲染操作。允许范围为 1000 到 2200，表示文本伽马值为 1.0 到 2.2。
+获取或设置伽马校正值 X 1000，该值将应用于后续的文本渲染操作。允许的范围是 1000 到 2200，表示文本伽马值为 1.0 到 2.2。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

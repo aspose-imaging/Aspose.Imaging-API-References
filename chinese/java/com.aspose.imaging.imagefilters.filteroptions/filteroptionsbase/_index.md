@@ -1,6 +1,6 @@
 ---
 title: "FilterOptionsBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基础滤镜选项类。"
 type: docs
 weight: 17

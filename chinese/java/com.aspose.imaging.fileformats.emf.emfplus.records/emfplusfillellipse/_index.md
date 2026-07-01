@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusFillEllipse"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusFillEllipse 记录指定填充椭圆的内部。"
 type: docs
 weight: 33
@@ -28,8 +28,8 @@ EmfPlusFillEllipse 记录指定填充椭圆的内部。
 | [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置一个值，指示此实例是否已压缩。 |
 | [getBrushId()](#getBrushId--) | 获取或设置画笔标识符，一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。 |
 | [setBrushId(int value)](#setBrushId-int-) | 获取或设置画笔标识符，一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。 |
-| [getRectData()](#getRectData--) | 获取或设置矩形数据， 可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象 |
-| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | 获取或设置矩形数据， 可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象 |
+| [getRectData()](#getRectData--) | 获取或设置矩形数据：可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
+| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | 获取或设置矩形数据：可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
 ### EmfPlusFillEllipse(EmfPlusRecord source) {#EmfPlusFillEllipse-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusFillEllipse(EmfPlusRecord source)
@@ -41,7 +41,7 @@ public EmfPlusFillEllipse(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### isColor() {#isColor--}
 ```
@@ -49,9 +49,9 @@ public boolean isColor()
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 以 EmfPlusARGB 对象（section 2.2.2.1）指定颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（section 2.2.1.1）的索引。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -61,14 +61,14 @@ public void setColor(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，则 BrushId 以 EmfPlusARGB 对象（section 2.2.2.1）指定颜色。如果未设置，则 BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（section 2.2.1.1）的索引。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### isCompressed() {#isCompressed--}
 ```
@@ -76,7 +76,7 @@ public boolean isCompressed()
 ```
 
 
-获取或设置一个值，指示此实例是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置一个值，指示此实例是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
 
 值：如果此实例已压缩则为 `true`；否则为 `false`。
 
@@ -88,14 +88,14 @@ public void setCompressed(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置一个值，指示此实例是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
 
 值：如果此实例已压缩则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getBrushId() {#getBrushId--}
 ```
@@ -103,7 +103,7 @@ public int getBrushId()
 ```
 
 
-获取或设置画笔标识符，一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。此定义用于填充椭圆的内部。
+获取或设置画笔标识符：一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。此定义用于填充椭圆的内部。
 
 **Returns:**
 int
@@ -113,12 +113,12 @@ public void setBrushId(int value)
 ```
 
 
-获取或设置画笔标识符，一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。此定义用于填充椭圆的内部。
+获取或设置画笔标识符：一个 32 位无符号整数，指定画笔，其内容由 Flags 字段中的 S 位决定。此定义用于填充椭圆的内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -126,7 +126,7 @@ public RectangleF getRectData()
 ```
 
 
-获取或设置矩形数据， 可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象
+获取或设置矩形数据：可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象。
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -136,7 +136,7 @@ public void setRectData(RectangleF value)
 ```
 
 
-获取或设置矩形数据， 可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象
+获取或设置矩形数据：可以是定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

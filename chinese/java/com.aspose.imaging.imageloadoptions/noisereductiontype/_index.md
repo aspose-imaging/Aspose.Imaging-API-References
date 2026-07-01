@@ -1,7 +1,7 @@
 ---
 title: "NoiseReductionType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "dbdd 噪声降低的类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "dbdd 噪声抑制的类型。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.imageloadoptions/noisereductiontype/
@@ -12,27 +12,27 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class NoiseReductionType extends System.Enum
 ```
 
-dbdd 噪声降低的类型。
+dbdd 噪声抑制的类型。
 
-None - 不使用 FBDD 噪声降低
+None - 不使用 FBDD 降噪
 
-Light - 轻度 FBDD 降低
+Light - 轻度 FBDD 降噪
 
-Full - 完全 FBDD 降低
+Full - 完全 FBDD 降噪
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [None](#None) | None - 不使用 FBDD 噪声降低 |
-| [Light](#Light) | Light - 轻度 FBDD 降低 |
-| [Full](#Full) | Full - 完全 FBDD 降低 |
+| [None](#None) | 该 None，不使用 FBDD 降噪 |
+| [Light](#Light) | 该 Light，轻度 FBDD 降噪 |
+| [Full](#Full) | 该 Full，完全 FBDD 降噪 |
 ### None {#None}
 ```
 public static final int None
 ```
 
 
-None - 不使用 FBDD 噪声降低
+该 None，不使用 FBDD 降噪
 
 ### Light {#Light}
 ```
@@ -40,7 +40,7 @@ public static final int Light
 ```
 
 
-Light - 轻度 FBDD 降低
+该 Light，轻度 FBDD 降噪
 
 ### Full {#Full}
 ```
@@ -48,5 +48,5 @@ public static final int Full
 ```
 
 
-Full - 完全 FBDD 降低
+该 Full，完全 FBDD 降噪
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusFillRects"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusFillRects 记录指定填充一系列矩形的内部。"
 type: docs
 weight: 37
@@ -26,10 +26,10 @@ EmfPlusFillRects 记录指定填充一系列矩形的内部。
 | [setColor(boolean value)](#setColor-boolean-) | 获取或设置一个值，指示此实例是否为颜色。 |
 | [getCompressed()](#getCompressed--) | 获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。 |
 | [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。 |
-| [getBrushId()](#getBrushId--) | 获取或设置画笔标识符，一个 32 位无符号整数，用于定义画笔，其内容由 Flags 字段中的 S 位决定。 |
-| [setBrushId(int value)](#setBrushId-int-) | 获取或设置画笔标识符，一个 32 位无符号整数，用于定义画笔，其内容由 Flags 字段中的 S 位决定。 |
-| [getRectData()](#getRectData--) | 获取或设置矩形数据。一个长度为 Count 的数组，包含 EmfPlusRect 或 EmfPlusRectF 对象，用于定义矩形数据。 |
-| [setRectData(RectangleF[] value)](#setRectData-com.aspose.imaging.RectangleF---) | 获取或设置矩形数据。一个长度为 Count 的数组，包含 EmfPlusRect 或 EmfPlusRectF 对象，用于定义矩形数据。 |
+| [getBrushId()](#getBrushId--) | 获取或设置画笔标识符——一个定义画笔的 32 位无符号整数，其内容由 Flags 字段中的 S 位决定。 |
+| [setBrushId(int value)](#setBrushId-int-) | 获取或设置画笔标识符——一个定义画笔的 32 位无符号整数，其内容由 Flags 字段中的 S 位决定。 |
+| [getRectData()](#getRectData--) | 获取或设置矩形数据。一个数组，由长度为 Count 的 EmfPlusRect 或 EmfPlusRectF 对象组成，定义矩形数据。 |
+| [setRectData(RectangleF[] value)](#setRectData-com.aspose.imaging.RectangleF---) | 获取或设置矩形数据。一个数组，由长度为 Count 的 EmfPlusRect 或 EmfPlusRectF 对象组成，定义矩形数据。 |
 ### EmfPlusFillRects(EmfPlusRecord source) {#EmfPlusFillRects-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusFillRects(EmfPlusRecord source)
@@ -41,7 +41,7 @@ public EmfPlusFillRects(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### isColor() {#isColor--}
 ```
@@ -49,9 +49,9 @@ public boolean isColor()
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象的颜色（第 2.2.2.1 节）。如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象的索引（第 2.2.1.1 节）。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -61,14 +61,14 @@ public void setColor(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象（第 2.2.2.1 节）表示的颜色。如果未设置，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。
+获取或设置一个值，指示此实例是否为颜色。如果设置，BrushId 指定为 EmfPlusARGB 对象的颜色（第 2.2.2.1 节）。如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象的索引（第 2.2.1.1 节）。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getCompressed() {#getCompressed--}
 ```
@@ -76,9 +76,9 @@ public boolean getCompressed()
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。如果设置，则 RectData 包含一个 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含一个 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。如果设置，则 RectData 包含一个 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含一个 EmfPlusRectF 对象（第 2.2.2.39 节）对象。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Returns:**
 boolean
@@ -88,14 +88,14 @@ public void setCompressed(boolean value)
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。如果设置，则 RectData 包含一个 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含一个 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置一个值，指示此 `EmfPlusFillRects` 是否已压缩。如果设置，则 RectData 包含一个 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含一个 EmfPlusRectF 对象（第 2.2.2.39 节）对象。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getBrushId() {#getBrushId--}
 ```
@@ -103,7 +103,7 @@ public int getBrushId()
 ```
 
 
-获取或设置画笔标识符，一个 32 位无符号整数，用于定义画笔，其内容由 Flags 字段中的 S 位决定。
+获取或设置画笔标识符——一个定义画笔的 32 位无符号整数，其内容由 Flags 字段中的 S 位决定。
 
 **Returns:**
 int
@@ -113,12 +113,12 @@ public void setBrushId(int value)
 ```
 
 
-获取或设置画笔标识符，一个 32 位无符号整数，用于定义画笔，其内容由 Flags 字段中的 S 位决定。
+获取或设置画笔标识符——一个定义画笔的 32 位无符号整数，其内容由 Flags 字段中的 S 位决定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -126,7 +126,7 @@ public RectangleF[] getRectData()
 ```
 
 
-获取或设置矩形数据。一个长度为 Count 的数组，包含 EmfPlusRect 或 EmfPlusRectF 对象，用于定义矩形数据。
+获取或设置矩形数据。一个数组，由长度为 Count 的 EmfPlusRect 或 EmfPlusRectF 对象组成，定义矩形数据。
 
 **Returns:**
 com.aspose.imaging.RectangleF[]
@@ -136,7 +136,7 @@ public void setRectData(RectangleF[] value)
 ```
 
 
-获取或设置矩形数据。一个长度为 Count 的数组，包含 EmfPlusRect 或 EmfPlusRectF 对象，用于定义矩形数据。
+获取或设置矩形数据。一个数组，由长度为 Count 的 EmfPlusRect 或 EmfPlusRectF 对象组成，定义矩形数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "EmfRenderMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMF 渲染模式"
 type: docs
 weight: 11

@@ -1,7 +1,7 @@
 ---
 title: "EmfExtTextOutA"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_EXTTEXTOUTA 记录使用当前字体和文本颜色绘制 ASCII 文本字符串。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_EXTTEXTOUTA 记录使用当前字体和文字颜色绘制 ASCII 文本字符串。"
 type: docs
 weight: 56
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfexttextouta/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfExtTextOutA extends EmfDrawingRecordType
 ```
 
-EMR_EXTTEXTOUTA 记录使用当前字体和文本颜色绘制 ASCII 文本字符串。
+EMR\_EXTTEXTOUTA 记录使用当前字体和文本颜色绘制 ASCII 文本字符串。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -27,10 +27,10 @@ EMR_EXTTEXTOUTA 记录使用当前字体和文本颜色绘制 ASCII 文本字符
 | [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节）。 |
 | [getIGraphicsMode()](#getIGraphicsMode--) | 获取或设置一个 32 位无符号整数，指定来自 GraphicsMode 枚举（第 2.1.16 节）的图形模式。 |
 | [setIGraphicsMode(int value)](#setIGraphicsMode-int-) | 获取或设置一个 32 位无符号整数，指定来自 GraphicsMode 枚举（第 2.1.16 节）的图形模式。 |
-| [getExScale()](#getExScale--) | 获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。 |
-| [setExScale(float value)](#setExScale-float-) | 获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。 |
-| [getEyScale()](#getEyScale--) | 获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。 |
-| [setEyScale(float value)](#setEyScale-float-) | 获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。 |
+| [getExScale()](#getExScale--) | 获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。 |
+| [setExScale(float value)](#setExScale-float-) | 获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。 |
+| [getEyScale()](#getEyScale--) | 获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。 |
+| [setEyScale(float value)](#setEyScale-float-) | 获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。 |
 | [getAEmrText()](#getAEmrText--) | 获取或设置一个 EmrText 对象（第 2.2.5 节），该对象指定 8 位 ASCII 字符的输出字符串、文本属性和间距值。 |
 | [setAEmrText(EmfText value)](#setAEmrText-com.aspose.imaging.fileformats.emf.emf.objects.EmfText-) | 获取或设置一个 EmrText 对象（第 2.2.5 节），该对象指定 8 位 ASCII 字符的输出字符串、文本属性和间距值。 |
 ### EmfExtTextOutA(EmfRecord source) {#EmfExtTextOutA-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
@@ -44,7 +44,7 @@ public EmfExtTextOutA(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfExtTextOutA() {#EmfExtTextOutA--}
 ```
@@ -98,7 +98,7 @@ public void setIGraphicsMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getExScale() {#getExScale--}
 ```
@@ -106,7 +106,7 @@ public float getExScale()
 ```
 
 
-获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
+获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
 
 **Returns:**
 float
@@ -116,12 +116,12 @@ public void setExScale(float value)
 ```
 
 
-获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
+获取或设置一个 32 位浮点值，指定沿 X 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getEyScale() {#getEyScale--}
 ```
@@ -129,7 +129,7 @@ public float getEyScale()
 ```
 
 
-获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
+获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
 
 **Returns:**
 float
@@ -139,12 +139,12 @@ public void setEyScale(float value)
 ```
 
 
-获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 0.01 毫米单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
+获取或设置一个 32 位浮点值，指定沿 Y 轴的比例因子，用于将页面空间单位转换为 .01mm 单位。仅当 iGraphicsMode 指定的图形模式为 GM\_COMPATIBLE 时才应使用此值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getAEmrText() {#getAEmrText--}
 ```

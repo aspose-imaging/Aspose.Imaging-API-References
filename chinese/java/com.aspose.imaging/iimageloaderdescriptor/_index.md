@@ -1,6 +1,6 @@
 ---
 title: "IImageLoaderDescriptor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定加载器属性的图像加载器描述符。"
 type: docs
 weight: 134
@@ -12,7 +12,7 @@ url: /zh/java/com.aspose.imaging/iimageloaderdescriptor/
 public interface IImageLoaderDescriptor extends IImageDescriptor
 ```
 
-图像加载器描述符，指定加载器属性。使用加载器描述符可以避免将每个图像加载器实例保存在内存中以及多线程问题的必要性。
+图像加载器描述符，指定加载器属性。加载器描述符用于克服必须在内存中保留每个图像加载器实例以及多线程问题的需求。
 ## 方法
 
 | 方法 | 描述 |
@@ -34,7 +34,7 @@ public abstract boolean canLoad(StreamContainer streamContainer, LoadOptions loa
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 由 `loadOptions` 指定的文件格式详细信息。`loadOptions` 可能为 null。 |
 
 **Returns:**
-布尔值 - 如果由此描述符创建的图像加载器能够从流中读取图像，则为 `true`；否则为 `false`。
+布尔值 - 如果由此描述符创建的图像加载器可以从流读取图像，则为 `true`；否则为 `false`。
 ### createInstance() {#createInstance--}
 ```
 public abstract IImageLoader createInstance()

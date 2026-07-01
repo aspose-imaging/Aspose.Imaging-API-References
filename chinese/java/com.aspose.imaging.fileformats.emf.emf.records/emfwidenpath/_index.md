@@ -1,7 +1,7 @@
 ---
 title: "EmfWidenPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "此记录将当前路径重新定义为如果使用当前在回放设备上下文中选定的笔绘制路径时将被绘制的区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "此记录将当前路径重新定义为如果使用当前在回放设备上下文中选中的笔绘制路径时将被绘制的区域。"
 type: docs
 weight: 156
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfWidenPath extends EmfPathBracketRecordType
 ```
 
-此记录将当前路径重新定义为如果使用当前在回放设备上下文中选定的笔绘制路径时将被绘制的区域。
+此记录将当前路径重新定义为如果使用当前在回放设备上下文中选中的笔绘制路径时将被绘制的区域。
 ## 构造函数
 
 | 构造函数 | 描述 |

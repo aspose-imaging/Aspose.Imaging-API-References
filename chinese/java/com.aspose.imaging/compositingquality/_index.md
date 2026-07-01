@@ -1,7 +1,7 @@
 ---
 title: "CompositingQuality"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定在合成过程中使用的质量级别。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "指定合成过程中使用的质量级别。"
 type: docs
 weight: 33
 url: /zh/java/com.aspose.imaging/compositingquality/
@@ -12,12 +12,12 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class CompositingQuality extends System.Enum
 ```
 
-指定在合成过程中使用的质量级别。
+指定合成过程中使用的质量级别。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Invalid](#Invalid) | 无效质量。 |
+| [Invalid](#Invalid) | 无效的质量。 |
 | [Default](#Default) | 默认质量。 |
 | [HighSpeed](#HighSpeed) | 高速，低质量。 |
 | [HighQuality](#HighQuality) | 高质量，低速合成。 |
@@ -29,7 +29,7 @@ public static final int Invalid
 ```
 
 
-无效质量。
+无效的质量。
 
 ### Default {#Default}
 ```

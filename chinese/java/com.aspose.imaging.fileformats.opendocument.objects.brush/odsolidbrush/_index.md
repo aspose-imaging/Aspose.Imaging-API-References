@@ -1,6 +1,6 @@
 ---
 title: "OdSolidBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "开放文档实心画笔"
 type: docs
 weight: 15
@@ -63,7 +63,7 @@ public final void setArgb32Color(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | argb32 的颜色。 |
+| 值 | int | argb32 的颜色。 |
 
 ### deepClone() {#deepClone--}
 ```
@@ -74,4 +74,4 @@ public Object deepClone()
 克隆此实例。
 
 **Returns:**
-java.lang.Object - 返回源画刷的新实例
+java.lang.Object - 返回源画笔的新实例

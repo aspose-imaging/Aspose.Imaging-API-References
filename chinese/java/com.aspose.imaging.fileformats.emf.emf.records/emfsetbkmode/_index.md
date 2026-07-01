@@ -1,6 +1,6 @@
 ---
 title: "EmfSetBkMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETBKMODE 记录指定回放设备上下文的背景混合模式。"
 type: docs
 weight: 120
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetBkMode extends EmfStateRecordType
 ```
 
-EMR\_SETBKMODE 记录指定回放设备上下文的背景混合模式。背景混合模式用于文本、交叉画刷以及非实线的笔样式。
+EMR\_SETBKMODE 记录指定回放设备上下文的背景混合模式。背景混合模式用于文本、交叉线画刷以及非实线的笔样式。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public EmfSetBkMode(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetBkMode() {#EmfSetBkMode--}
 ```
@@ -67,5 +67,5 @@ public void setBackgroundMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

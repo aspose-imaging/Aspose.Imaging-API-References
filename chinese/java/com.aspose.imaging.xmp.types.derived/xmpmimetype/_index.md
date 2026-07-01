@@ -1,6 +1,6 @@
 ---
 title: "XmpMimeType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 MIME 类型。"
 type: docs
 weight: 16
@@ -14,7 +14,7 @@ public final class XmpMimeType extends XmpText
 
 表示 MIME 类型。
 
-MIME 类型在 IETF RFC 2046 中定义。
+在 IETF RFC 2046 中定义的 MIME 类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -31,5 +31,5 @@ public XmpMimeType(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 

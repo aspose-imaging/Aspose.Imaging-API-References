@@ -1,6 +1,6 @@
 ---
 title: "DisposableObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示可释放的对象。"
 type: docs
 weight: 40
@@ -99,7 +99,7 @@ try {
     tiffImage.setActiveFrame(tiffImage.getFrames()[1]);
     tiffImage.removeFrame(0);
 
-    // 如果不将帧添加到其他 TiffImage，请别忘记释放该帧。
+    // 如果不将帧添加到其他 TiffImage，请记得释放该帧。
     activeFrame.dispose();
 
     tiffImage.save();

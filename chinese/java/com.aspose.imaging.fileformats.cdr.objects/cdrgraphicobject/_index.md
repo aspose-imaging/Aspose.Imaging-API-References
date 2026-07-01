@@ -1,7 +1,7 @@
 ---
 title: "CdrGraphicObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 图形对象"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 图形 对象"
 type: docs
 weight: 23
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class CdrGraphicObject extends CdrObject
 ```
 
-cdr 图形对象
+该 cdr 图形 对象
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -57,7 +57,7 @@ public void setWidth(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x |
+| 值 | double | x |
 
 ### getHeight() {#getHeight--}
 ```
@@ -68,7 +68,7 @@ public double getHeight()
 获取 y。
 
 **Returns:**
-double - y。
+double - y.
 ### setHeight(double value) {#setHeight-double-}
 ```
 public void setHeight(double value)
@@ -80,7 +80,7 @@ public void setHeight(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y。 |
+| 值 | double | y。 |
 
 ### getBoundsInPixels() {#getBoundsInPixels--}
 ```
@@ -103,7 +103,7 @@ public void setBoundsInPixels(RectangleF value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [RectangleF](../../com.aspose.imaging/rectanglef) | 像素中的边界。 |
+| value | [RectangleF](../../com.aspose.imaging/rectanglef) | 以像素为单位的边界。 |
 
 ### getClipId() {#getClipId--}
 ```
@@ -130,5 +130,5 @@ public final void setClipId(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 剪辑标识符。 |
+| 值 | 短 | 剪辑标识符。 |
 

@@ -1,7 +1,7 @@
 ---
 title: "FlatArrayException"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "FlatArray 类的特殊异常。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "FlatArray 类的特定异常。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.flatarray.exceptions/flatarrayexception/
@@ -30,6 +30,6 @@ public FlatArrayException(int cause, String message, Throwable innerException)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | cause | int | 异常原因。 |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

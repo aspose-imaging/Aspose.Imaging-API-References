@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.types.complex.resourceevent"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含在此文档处理过程中发生的高级事件类。"
 type: docs
 weight: 128

@@ -1,6 +1,6 @@
 ---
 title: "SvgOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用我们的 API 创建标量矢量图形（SVG）图像文件，利用多种颜色类型和压缩级别选项。"
 type: docs
 weight: 45
@@ -15,7 +15,7 @@ com.aspose.fileformats.core.imageoptions.ICompressOptions
 public class SvgOptions extends ImageOptionsBase implements ICompressOptions
 ```
 
-使用我们的 API 创建标量矢量图形（SVG）图像文件，利用多种颜色类型和压缩级别选项。精准地自定义您的 SVG 图像，确保最佳质量和兼容性，以满足您的设计需求。
+使用我们的 API 创建标量矢量图形（SVG）图像文件，利用多种颜色类型和压缩级别选项。无缝、精确地自定义您的 SVG 图像，确保在设计需求中获得最佳质量和兼容性。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -27,11 +27,11 @@ public class SvgOptions extends ImageOptionsBase implements ICompressOptions
 | --- | --- |
 | [getColorType()](#getColorType--) | 获取或设置 SVG 图像的颜色类型。 |
 | [setColorType(int value)](#setColorType-int-) | 获取或设置 SVG 图像的颜色类型。 |
-| [getTextAsShapes()](#getTextAsShapes--) | 获取一个值，指示文本是否必须呈现为形状。 |
-| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | 设置一个值，指示文本是否必须呈现为形状。 |
+| [getTextAsShapes()](#getTextAsShapes--) | 获取一个值，指示文本是否必须渲染为形状。 |
+| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | 设置一个值，指示文本是否必须渲染为形状。 |
 | [getCallback()](#getCallback--) | 获取 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 的嵌入资源（如字体、嵌套光栅）的存储策略。 |
 | [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | 设置 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 的嵌入资源（如字体、嵌套光栅）的存储策略。 |
-| [getCompress()](#getCompress--) | 获取一个值，指示输出图像是否必须压缩。 |
+| [getCompress()](#getCompress--) | 获取指示输出图像是否必须压缩的值。 |
 | [setCompress(boolean value)](#setCompress-boolean-) | 设置一个值，指示输出图像是否必须压缩。 |
 
 ## Example: The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
@@ -130,7 +130,7 @@ public void setColorType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | SVG 图像的颜色类型。 |
+| 值 | int | SVG 图像的颜色类型。 |
 
 ### getTextAsShapes() {#getTextAsShapes--}
 ```
@@ -138,26 +138,26 @@ public boolean getTextAsShapes()
 ```
 
 
-获取一个值，指示文本是否必须呈现为形状。
+获取一个值，指示文本是否必须渲染为形状。
 
 值：如果在转换中所有文本都被转换为 SVG 形状，则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 一个指示文本是否必须呈现为形状的值。
+boolean - 指示文本是否必须渲染为形状的值。
 ### setTextAsShapes(boolean value) {#setTextAsShapes-boolean-}
 ```
 public void setTextAsShapes(boolean value)
 ```
 
 
-设置一个值，指示文本是否必须呈现为形状。
+设置一个值，指示文本是否必须渲染为形状。
 
 值：如果在转换中所有文本都被转换为 SVG 形状，则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个指示文本是否必须呈现为形状的值。 |
+| 值 | boolean | 指示文本是否必须渲染为形状的值。 |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**
@@ -250,7 +250,7 @@ public void setCallback(ISvgResourceKeeperCallback value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 的嵌入资源（如字体、嵌套光栅）的存储策略。 |
+| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | 用于存储 [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) 的嵌入资源（如字体、嵌套光栅）的策略。 |
 
 ### getCompress() {#getCompress--}
 ```
@@ -258,10 +258,10 @@ public final boolean getCompress()
 ```
 
 
-获取一个值，指示输出图像是否必须压缩。
+获取指示输出图像是否必须压缩的值。
 
 **Returns:**
-boolean - 一个指示输出图像是否必须压缩的值。
+布尔 - 指示输出图像是否必须压缩的值。
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
@@ -273,7 +273,7 @@ public final void setCompress(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个指示输出图像是否必须压缩的值。 |
+| 值 | boolean | 指示输出图像是否必须压缩的值。 |
 
 
 **Example: The following example shows how to convert a svg images to svgz format**

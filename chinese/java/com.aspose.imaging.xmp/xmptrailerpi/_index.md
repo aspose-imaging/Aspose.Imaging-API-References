@@ -1,6 +1,6 @@
 ---
 title: "XmpTrailerPi"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 尾部处理指令。"
 type: docs
 weight: 23
@@ -17,7 +17,7 @@ public final class XmpTrailerPi implements IXmlValue, System.IEquatable<XmpTrail
 
 表示 XMP 尾部处理指令。
 
-end=\"w\" 或 end=\"r\" 部分应由数据包扫描处理器使用，以确定 XMP 是否可以就地修改。
+应由数据包扫描处理器使用 end="w" 或 end="r" 部分，以确定 XMP 是否可以就地修改。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -28,8 +28,8 @@ end=\"w\" 或 end=\"r\" 部分应由数据包扫描处理器使用，以确定 X
 
 | 方法 | 描述 |
 | --- | --- |
-| [isWritable()](#isWritable--) | 获取或设置一个值，指示此实例是否可写。 |
-| [setWritable(boolean value)](#setWritable-boolean-) | 获取或设置一个值，指示此实例是否可写。 |
+| [isWritable()](#isWritable--) | 获取或设置指示此实例是否可写的值。 |
+| [setWritable(boolean value)](#setWritable-boolean-) | 获取或设置指示此实例是否可写的值。 |
 | [getXmlValue()](#getXmlValue--) | 将 xmp 值转换为 xml 表示形式。 |
 | [isEquals(XmpTrailerPi other)](#isEquals-com.aspose.imaging.xmp.XmpTrailerPi-) | 指示当前对象是否等于同类型的另一个对象。 |
 | [equals(Object obj)](#equals-java.lang.Object-) | 确定指定的 `System.Object` 是否等于此实例。 |
@@ -61,9 +61,9 @@ public boolean isWritable()
 ```
 
 
-获取或设置一个值，指示此实例是否可写。
+获取或设置指示此实例是否可写的值。
 
-值：`true` 表示此实例可写；否则为 `false`。
+值：如果此实例可写，则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -73,14 +73,14 @@ public void setWritable(boolean value)
 ```
 
 
-获取或设置一个值，指示此实例是否可写。
+获取或设置指示此实例是否可写的值。
 
-值：`true` 表示此实例可写；否则为 `false`。
+值：如果此实例可写，则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getXmlValue() {#getXmlValue--}
 ```
@@ -118,7 +118,7 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| obj | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。

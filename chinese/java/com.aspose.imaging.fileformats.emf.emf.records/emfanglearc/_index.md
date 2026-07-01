@@ -1,6 +1,6 @@
 ---
 title: "EmfAngleArc"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_ANGLEARC 记录指定弧线的线段。"
 type: docs
 weight: 12
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfAngleArc extends EmfDrawingRecordType
 ```
 
-EMR\_ANGLEARC 记录指定弧线的线段。该线段从当前坐标绘制到弧线的起点。弧线沿给定半径和中心的圆周绘制。弧线的长度由给定的起始角度和扫掠角度决定。
+EMR\_ANGLEARC 记录指定弧线的线段。该线段从当前位置信息绘制到弧的起始点。弧沿具有给定半径和中心的圆的周边绘制。弧的长度由给定的起始角度和扫掠角度决定。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,14 +23,14 @@ EMR\_ANGLEARC 记录指定弧线的线段。该线段从当前坐标绘制到弧
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCenter()](#getCenter--) | 获取或设置一个 64 位 WMF PointL 对象，该对象在 [MS-WMF] 第 2.2.2.15 节中指定，用于指定圆心的逻辑坐标。 |
-| [setCenter(Point value)](#setCenter-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象，该对象在 [MS-WMF] 第 2.2.2.15 节中指定，用于指定圆心的逻辑坐标。 |
-| [getRadius()](#getRadius--) | 获取或设置一个 32 位无符号整数，指定圆的半径（逻辑单位）。 |
-| [setRadius(int value)](#setRadius-int-) | 获取或设置一个 32 位无符号整数，指定圆的半径（逻辑单位）。 |
-| [getStartAngle()](#getStartAngle--) | 获取或设置一个 32 位浮点数，指定弧的起始角度（度）。 |
-| [setStartAngle(float value)](#setStartAngle-float-) | 获取或设置一个 32 位浮点数，指定弧的起始角度（度）。 |
-| [getSweepAngle()](#getSweepAngle--) | 获取或设置一个 32 位浮点数，指定弧的扫掠角度（度）。 |
-| [setSweepAngle(float value)](#setSweepAngle-float-) | 获取或设置一个 32 位浮点数，指定弧的扫掠角度（度）。 |
+| [getCenter()](#getCenter--) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定圆心的逻辑坐标。 |
+| [setCenter(Point value)](#setCenter-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定圆心的逻辑坐标。 |
+| [getRadius()](#getRadius--) | 获取或设置一个 32 位无符号整数，指定圆的半径（以逻辑单位计）。 |
+| [setRadius(int value)](#setRadius-int-) | 获取或设置一个 32 位无符号整数，指定圆的半径（以逻辑单位计）。 |
+| [getStartAngle()](#getStartAngle--) | 获取或设置一个 32 位浮点数，指定弧的起始角度（单位为度）。 |
+| [setStartAngle(float value)](#setStartAngle-float-) | 获取或设置一个 32 位浮点数，指定弧的起始角度（单位为度）。 |
+| [getSweepAngle()](#getSweepAngle--) | 获取或设置一个 32 位浮点数，指定弧的扫掠角度（单位为度）。 |
+| [setSweepAngle(float value)](#setSweepAngle-float-) | 获取或设置一个 32 位浮点数，指定弧的扫掠角度（单位为度）。 |
 ### EmfAngleArc(EmfRecord source) {#EmfAngleArc-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfAngleArc(EmfRecord source)
@@ -42,7 +42,7 @@ public EmfAngleArc(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfAngleArc() {#EmfAngleArc--}
 ```
@@ -58,7 +58,7 @@ public Point getCenter()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象，该对象在 [MS-WMF] 第 2.2.2.15 节中指定，用于指定圆心的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定圆心的逻辑坐标。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -68,7 +68,7 @@ public void setCenter(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象，该对象在 [MS-WMF] 第 2.2.2.15 节中指定，用于指定圆心的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（在 [MS-WMF] 第 2.2.2.15 节中指定），该对象指定圆心的逻辑坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -81,7 +81,7 @@ public int getRadius()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定圆的半径（逻辑单位）。
+获取或设置一个 32 位无符号整数，指定圆的半径（以逻辑单位计）。
 
 **Returns:**
 int
@@ -91,12 +91,12 @@ public void setRadius(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定圆的半径（逻辑单位）。
+获取或设置一个 32 位无符号整数，指定圆的半径（以逻辑单位计）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getStartAngle() {#getStartAngle--}
 ```
@@ -104,7 +104,7 @@ public float getStartAngle()
 ```
 
 
-获取或设置一个 32 位浮点数，指定弧的起始角度（度）。
+获取或设置一个 32 位浮点数，指定弧的起始角度（单位为度）。
 
 **Returns:**
 float
@@ -114,12 +114,12 @@ public void setStartAngle(float value)
 ```
 
 
-获取或设置一个 32 位浮点数，指定弧的起始角度（度）。
+获取或设置一个 32 位浮点数，指定弧的起始角度（单位为度）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getSweepAngle() {#getSweepAngle--}
 ```
@@ -127,7 +127,7 @@ public float getSweepAngle()
 ```
 
 
-获取或设置一个 32 位浮点数，指定弧的扫掠角度（度）。
+获取或设置一个 32 位浮点数，指定弧的扫掠角度（单位为度）。
 
 **Returns:**
 float
@@ -137,10 +137,10 @@ public void setSweepAngle(float value)
 ```
 
 
-获取或设置一个 32 位浮点数，指定弧的扫掠角度（度）。
+获取或设置一个 32 位浮点数，指定弧的扫掠角度（单位为度）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusSetPixelOffsetMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 EmfPlusSetPixelOffsetMode 记录指定像素相对于绘图表面坐标的居中方式。"
 type: docs
 weight: 62
@@ -35,7 +35,7 @@ public EmfPlusSetPixelOffsetMode(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPixelOffsetMode() {#getPixelOffsetMode--}
 ```
@@ -62,5 +62,5 @@ public void setPixelOffsetMode(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

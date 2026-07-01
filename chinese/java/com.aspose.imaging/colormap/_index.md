@@ -1,6 +1,6 @@
 ---
 title: "ColorMap"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "定义颜色转换映射。"
 type: docs
 weight: 25

@@ -1,6 +1,6 @@
 ---
 title: "CmxArrowSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为轮廓箭头标记指定的几何信息。"
 type: docs
 weight: 10
@@ -53,7 +53,7 @@ public final void setArrowOffset(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 箭头偏移量。 |
+| 值 | float | 箭头偏移量。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

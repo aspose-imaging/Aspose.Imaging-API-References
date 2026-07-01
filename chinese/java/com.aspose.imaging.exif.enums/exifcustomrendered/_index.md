@@ -1,6 +1,6 @@
 ---
 title: "ExifCustomRendered"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 自定义渲染枚举。"
 type: docs
 weight: 12

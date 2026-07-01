@@ -1,7 +1,7 @@
 ---
 title: "EmfSetDiBitsToDevice"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETDIBITSTODEVICE 记录指定将像素从源位图的指定扫描线块传输到目标矩形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EMR_SETDIBITSTODEVICE 记录指定将像素块从源位图的指定扫描线传输到目标矩形。"
 type: docs
 weight: 124
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
@@ -24,28 +24,28 @@ EMR\_SETDIBITSTODEVICE 记录指定将源位图的指定扫描线像素块传输
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBounds()](#getBounds--) | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。 |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。 |
-| [getXDest()](#getXDest--) | 获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 x 坐标。 |
-| [setXDest(int value)](#setXDest-int-) | 获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 x 坐标。 |
-| [getYDest()](#getYDest--) | 获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 y 坐标。 |
-| [setYDest(int value)](#setYDest-int-) | 获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 y 坐标。 |
-| [getXSrc()](#getXSrc--) | 获取或设置指定源矩形左下角 x 坐标（像素）的 32 位有符号整数。 |
-| [setXSrc(int value)](#setXSrc-int-) | 获取或设置指定源矩形左下角 x 坐标（像素）的 32 位有符号整数。 |
-| [getYSrc()](#getYSrc--) | 获取或设置指定源矩形左下角 y 坐标（像素）的 32 位有符号整数。 |
-| [setYSrc(int value)](#setYSrc-int-) | 获取或设置指定源矩形左下角 y 坐标（像素）的 32 位有符号整数。 |
+| [getBounds()](#getBounds--) | 获取或设置 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。 |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 获取或设置 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。 |
+| [getXDest()](#getXDest--) | 获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 x 坐标。 |
+| [setXDest(int value)](#setXDest-int-) | 获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 x 坐标。 |
+| [getYDest()](#getYDest--) | 获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 y 坐标。 |
+| [setYDest(int value)](#setYDest-int-) | 获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 y 坐标。 |
+| [getXSrc()](#getXSrc--) | 获取或设置一个 32 位有符号整数，指定源矩形左下角的 x 坐标（以像素为单位）。 |
+| [setXSrc(int value)](#setXSrc-int-) | 获取或设置一个 32 位有符号整数，指定源矩形左下角的 x 坐标（以像素为单位）。 |
+| [getYSrc()](#getYSrc--) | 获取或设置一个 32 位有符号整数，指定源矩形左下角的 y 坐标（以像素为单位）。 |
+| [setYSrc(int value)](#setYSrc-int-) | 获取或设置一个 32 位有符号整数，指定源矩形左下角的 y 坐标（以像素为单位）。 |
 | [getCxSrc()](#getCxSrc--) | 获取或设置一个 32 位有符号整数，指定源矩形的宽度（像素）。 |
 | [setCxSrc(int value)](#setCxSrc-int-) | 获取或设置一个 32 位有符号整数，指定源矩形的宽度（像素）。 |
-| [getCySrc()](#getCySrc--) | 获取或设置指定源矩形高度（像素）的 32 位有符号整数 |
-| [setCySrc(int value)](#setCySrc-int-) | 获取或设置指定源矩形高度（像素）的 32 位有符号整数 |
-| [getUsageSrc()](#getUsageSrc--) | 获取或设置一个 32 位无符号整数，指定如何解释源位图头部颜色表中的值。 |
-| [setUsageSrc(int value)](#setUsageSrc-int-) | 获取或设置一个 32 位无符号整数，指定如何解释源位图头部颜色表中的值。 |
-| [getIStartScan()](#getIStartScan--) | 获取或设置指定数组中第一扫描线的 32 位无符号整数。 |
-| [setIStartScan(int value)](#setIStartScan-int-) | 获取或设置指定数组中第一扫描线的 32 位无符号整数。 |
-| [getCScans()](#getCScans--) | 获取或设置扫描线数量的 32 位无符号整数。 |
-| [setCScans(int value)](#setCScans-int-) | 获取或设置扫描线数量的 32 位无符号整数。 |
-| [getSourceBitmap()](#getSourceBitmap--) | 获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR\\_SETDIBITSTODEVICE 记录的固定部分连续。 |
-| [setSourceBitmap(WmfDeviceIndependentBitmap value)](#setSourceBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | 获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR\\_SETDIBITSTODEVICE 记录的固定部分连续。 |
+| [getCySrc()](#getCySrc--) | 获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位）。 |
+| [setCySrc(int value)](#setCySrc-int-) | 获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位）。 |
+| [getUsageSrc()](#getUsageSrc--) | 获取或设置 32 位无符号整数，该整数指定如何解释源位图头部中颜色表的值。 |
+| [setUsageSrc(int value)](#setUsageSrc-int-) | 获取或设置 32 位无符号整数，该整数指定如何解释源位图头部中颜色表的值。 |
+| [getIStartScan()](#getIStartScan--) | 获取或设置一个 32 位无符号整数，指定数组中的第一扫描线。 |
+| [setIStartScan(int value)](#setIStartScan-int-) | 获取或设置一个 32 位无符号整数，指定数组中的第一扫描线。 |
+| [getCScans()](#getCScans--) | 获取或设置一个 32 位无符号整数，指定扫描线的数量。 |
+| [setCScans(int value)](#setCScans-int-) | 获取或设置一个 32 位无符号整数，指定扫描线的数量。 |
+| [getSourceBitmap()](#getSourceBitmap--) | 获取或设置一个包含源位图的缓冲区，该缓冲区不需要与 EMR\_SETDIBITSTODEVICE 记录的固定部分连续。 |
+| [setSourceBitmap(WmfDeviceIndependentBitmap value)](#setSourceBitmap-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | 获取或设置一个包含源位图的缓冲区，该缓冲区不需要与 EMR\_SETDIBITSTODEVICE 记录的固定部分连续。 |
 ### EmfSetDiBitsToDevice(EmfRecord source) {#EmfSetDiBitsToDevice-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetDiBitsToDevice(EmfRecord source)
@@ -57,7 +57,7 @@ public EmfSetDiBitsToDevice(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getBounds() {#getBounds--}
 ```
@@ -65,7 +65,7 @@ public Rectangle getBounds()
 ```
 
 
-获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。
+获取或设置 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -75,7 +75,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。
+获取或设置 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义以设备单位表示的目标边界矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -88,7 +88,7 @@ public int getXDest()
 ```
 
 
-获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 x 坐标。
+获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 x 坐标。
 
 **Returns:**
 int
@@ -98,12 +98,12 @@ public void setXDest(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 x 坐标。
+获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 x 坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getYDest() {#getYDest--}
 ```
@@ -111,7 +111,7 @@ public int getYDest()
 ```
 
 
-获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 y 坐标。
+获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 y 坐标。
 
 **Returns:**
 int
@@ -121,12 +121,12 @@ public void setYDest(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，指定目标矩形左上角的逻辑 y 坐标。
+获取或设置 32 位有符号整数，该整数指定目标矩形左上角的逻辑 y 坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getXSrc() {#getXSrc--}
 ```
@@ -134,7 +134,7 @@ public int getXSrc()
 ```
 
 
-获取或设置指定源矩形左下角 x 坐标（像素）的 32 位有符号整数。
+获取或设置一个 32 位有符号整数，指定源矩形左下角的 x 坐标（以像素为单位）。
 
 **Returns:**
 int
@@ -144,12 +144,12 @@ public void setXSrc(int value)
 ```
 
 
-获取或设置指定源矩形左下角 x 坐标（像素）的 32 位有符号整数。
+获取或设置一个 32 位有符号整数，指定源矩形左下角的 x 坐标（以像素为单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getYSrc() {#getYSrc--}
 ```
@@ -157,7 +157,7 @@ public int getYSrc()
 ```
 
 
-获取或设置指定源矩形左下角 y 坐标（像素）的 32 位有符号整数。
+获取或设置一个 32 位有符号整数，指定源矩形左下角的 y 坐标（以像素为单位）。
 
 **Returns:**
 int
@@ -167,12 +167,12 @@ public void setYSrc(int value)
 ```
 
 
-获取或设置指定源矩形左下角 y 坐标（像素）的 32 位有符号整数。
+获取或设置一个 32 位有符号整数，指定源矩形左下角的 y 坐标（以像素为单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCxSrc() {#getCxSrc--}
 ```
@@ -195,7 +195,7 @@ public void setCxSrc(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCySrc() {#getCySrc--}
 ```
@@ -203,7 +203,7 @@ public int getCySrc()
 ```
 
 
-获取或设置指定源矩形高度（像素）的 32 位有符号整数
+获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位）。
 
 **Returns:**
 int
@@ -213,12 +213,12 @@ public void setCySrc(int value)
 ```
 
 
-获取或设置指定源矩形高度（像素）的 32 位有符号整数
+获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getUsageSrc() {#getUsageSrc--}
 ```
@@ -226,7 +226,7 @@ public int getUsageSrc()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定如何解释源位图头部颜色表中的值。该值必须属于 DIBColors 枚举（第 2.1.9 节）。
+获取或设置 32 位无符号整数，该整数指定如何解释源位图头部中颜色表的值。此值必须属于 DIBColors 枚举（第 2.1.9 节）。
 
 **Returns:**
 int
@@ -236,12 +236,12 @@ public void setUsageSrc(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定如何解释源位图头部颜色表中的值。该值必须属于 DIBColors 枚举（第 2.1.9 节）。
+获取或设置 32 位无符号整数，该整数指定如何解释源位图头部中颜色表的值。此值必须属于 DIBColors 枚举（第 2.1.9 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getIStartScan() {#getIStartScan--}
 ```
@@ -249,7 +249,7 @@ public int getIStartScan()
 ```
 
 
-获取或设置指定数组中第一扫描线的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定数组中的第一扫描线。
 
 **Returns:**
 int
@@ -259,12 +259,12 @@ public void setIStartScan(int value)
 ```
 
 
-获取或设置指定数组中第一扫描线的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定数组中的第一扫描线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCScans() {#getCScans--}
 ```
@@ -272,7 +272,7 @@ public int getCScans()
 ```
 
 
-获取或设置扫描线数量的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定扫描线的数量。
 
 **Returns:**
 int
@@ -282,12 +282,12 @@ public void setCScans(int value)
 ```
 
 
-获取或设置扫描线数量的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定扫描线的数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSourceBitmap() {#getSourceBitmap--}
 ```
@@ -295,7 +295,7 @@ public WmfDeviceIndependentBitmap getSourceBitmap()
 ```
 
 
-获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR\\_SETDIBITSTODEVICE 记录的固定部分连续。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
+获取或设置一个包含源位图的缓冲区，该缓冲区不需要与 EMR\_SETDIBITSTODEVICE 记录的固定部分连续。因此，该缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
 
 **Returns:**
 [WmfDeviceIndependentBitmap](../../com.aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap)
@@ -305,7 +305,7 @@ public void setSourceBitmap(WmfDeviceIndependentBitmap value)
 ```
 
 
-获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR\\_SETDIBITSTODEVICE 记录的固定部分连续。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
+获取或设置一个包含源位图的缓冲区，该缓冲区不需要与 EMR\_SETDIBITSTODEVICE 记录的固定部分连续。因此，该缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

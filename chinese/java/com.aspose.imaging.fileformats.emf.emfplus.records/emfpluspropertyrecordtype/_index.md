@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPropertyRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "属性记录类型指定回放设备上下文的属性。"
 type: docs
 weight: 45

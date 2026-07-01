@@ -1,7 +1,7 @@
 ---
 title: "CmykColorHelper"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于处理以有符号 32 位整数值表示的 CMYK 颜色的辅助方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于处理以有符号 32 位整数表示的 CMYK 颜色的辅助方法。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging/cmykcolorhelper/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class CmykColorHelper
 ```
 
-用于处理以有符号 32 位整数值表示的 CMYK 颜色的辅助方法。提供与 [CmykColor](../../com.aspose.imaging/cmykcolor) 结构体相似的 API。由于 CMYK 颜色仅以 Int32 表示而不是具有内部字段的结构体，因此更轻量。请在可能的情况下优先使用此类的静态方法，而不是已弃用的 [CmykColor](../../com.aspose.imaging/cmykcolor) 结构体。
+帮助方法用于处理以有符号 32 位整数值表示的 CMYK 颜色。提供与 [CmykColor](../../com.aspose.imaging/cmykcolor) 结构体相似的 API。由于 CMYK 颜色仅以 Int32 而非包含内部字段的结构体表示，它更轻量。请在可能的情况下优先使用此类的静态方法，而不是已弃用的 [CmykColor](../../com.aspose.imaging/cmykcolor) 结构体。
 ## 方法
 
 | 方法 | 描述 |
@@ -31,27 +31,27 @@ public final class CmykColorHelper
 | [toArgb(int[] cmykPixels)](#toArgb-int---) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
 | [toArgb(int cmykPixel)](#toArgb-int-) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
 | [toArgb32(int[] cmykPixels)](#toArgb32-int---) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
-| [toArgb32(int[] cmykPixels, boolean reuseArray)](#toArgb32-int---boolean-) | 如果 `reuseArray` 为 true，则执行从 CMYK 颜色到 ARGB 颜色的转换并将结果存储到同一数组中。 |
-| [toArgbIcc(int[] cmykPixels)](#toArgbIcc-int---) | 使用默认配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。 |
-| [toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。 |
-| [toArgbIcc(int cmykPixel)](#toArgbIcc-int-) | 使用默认配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。 |
-| [toArgbIcc(int cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。 |
-| [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
+| [toArgb32(int[] cmykPixels, boolean reuseArray)](#toArgb32-int---boolean-) | 执行从 CMYK 颜色到 ARGB 颜色的转换，如果 `reuseArray` 为 true，则将结果存储到同一数组中。 |
+| [toArgbIcc(int[] cmykPixels)](#toArgbIcc-int---) | 使用默认配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。 |
+| [toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。 |
+| [toArgbIcc(int cmykPixel)](#toArgbIcc-int-) | 使用默认配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。 |
+| [toArgbIcc(int cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toArgbIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。 |
+| [toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
 | [toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | 使用自定义 ICC 配置文件将 RGB 转换为 CMYK。 |
 | [toCmykIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | 使用自定义 ICC 配置文件将 RGB 转换为 CMYK。 |
 | [toCmykaIccBytes(int[] pixels, int startIndex, int length, byte[] cmykBytes, int cmykOffset, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-byte---int-java.io.InputStream-java.io.InputStream-) | 使用自定义 ICC 配置文件将 RGB 转换为 CMYKA（带 alpha）。 |
-| [toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
+| [toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int---java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
 | [toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | 使用自定义 ICC 配置文件将 RGB 转换为 CMYKA（带 alpha）。 |
-| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(int[] pixels)](#toCmykIcc-int---) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toPsdCmykIcc(int[] pixels)](#toPsdCmykIcc-int---) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(int argb)](#toCmykIcc-int-) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toPsdCmykIcc(int argb)](#toPsdCmykIcc-int-) | 使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toCmykIcc(int argb, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
-| [toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。 |
+| [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(int[] pixels)](#toCmykIcc-int---) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toPsdCmykIcc(int[] pixels)](#toPsdCmykIcc-int---) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(Color pixel)](#toCmykIcc-com.aspose.imaging.Color-) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(int argb)](#toCmykIcc-int-) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toPsdCmykIcc(int argb)](#toPsdCmykIcc-int-) | 使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toCmykIcc(int argb, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
+| [toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int-java.io.InputStream-java.io.InputStream-) | 使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。 |
 ### getC(int cmyk) {#getC-int-}
 ```
 public static int getC(int cmyk)
@@ -63,7 +63,7 @@ public static int getC(int cmyk)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmyk | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmyk | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 int - 青色分量值。
@@ -107,7 +107,7 @@ public static int getM(int cmyk)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmyk | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmyk | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 int - 品红分量值。
@@ -151,7 +151,7 @@ public static int getY(int cmyk)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmyk | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmyk | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 int - 黄色分量值。
@@ -195,7 +195,7 @@ public static int getK(int cmyk)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmyk | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmyk | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 int - 黑色分量值。
@@ -245,7 +245,7 @@ public static int fromComponents(int cyan, int magenta, int yellow, int black)
 | 黑色 | int | 黑色分量。有效值范围为 0 到 255。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 
 **Example: The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.**
 
@@ -270,7 +270,7 @@ for (int cmykColor : cmykColors) {
 }
 
 //输出如下：
-//在不使用 ICC 配置文件的情况下，将 CMYK 转换为 RGB。
+//在不使用 ICC 配置文件的情况下将 CMYK 转换为 RGB。
 //CMYK(255,0,0,0)        => RGB(0,255,255)
 //CMYK(0,255,0,0)        => RGB(255,0,255)
 //CMYK(0,0,255,0)        => RGB(255,255,0)
@@ -288,10 +288,10 @@ public static int[] toCmyk(int[] argbPixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argbPixels | int[] | ARGB 颜色以 32 位整数值表示。 |
+| argbPixels | int[] | ARGB 颜色以 32 位整数表示。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toCmykBytes(int[] argbPixels, int startIndex, int length) {#toCmykBytes-int---int-int-}
 ```
 public static byte[] toCmykBytes(int[] argbPixels, int startIndex, int length)
@@ -303,7 +303,7 @@ public static byte[] toCmykBytes(int[] argbPixels, int startIndex, int length)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argbPixels | int[] | RGB 颜色以 32 位整数值表示。 |
+| argbPixels | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
 
@@ -320,7 +320,7 @@ public static byte[] toCmykaBytes(int[] argbPixels, int startIndex, int length)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argbPixels | int[] | RGB 颜色以 32 位整数值表示。 |
+| argbPixels | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
 
@@ -340,7 +340,7 @@ public static int toCmyk(int argbPixel)
 | argbPixel | int | 以 32 位整数值形式呈现的 ARGB 颜色。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 ### toCmyk(Color pixel) {#toCmyk-com.aspose.imaging.Color-}
 ```
 public static int toCmyk(Color pixel)
@@ -355,7 +355,7 @@ public static int toCmyk(Color pixel)
 | pixel | [Color](../../com.aspose.imaging/color) | ARGB 颜色。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
 
@@ -399,7 +399,7 @@ public static int[] toCmyk(Color[] pixels)
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ARGB 颜色。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toArgb(int[] cmykPixels) {#toArgb-int---}
 ```
 public static Color[] toArgb(int[] cmykPixels)
@@ -426,7 +426,7 @@ public static Color toArgb(int cmykPixel)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmykPixel | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -454,7 +454,7 @@ for (int cmykColor : cmykColors) {
 }
 
 //输出如下：
-//在不使用 ICC 配置文件的情况下，将 CMYK 转换为 RGB。
+//在不使用 ICC 配置文件的情况下将 CMYK 转换为 RGB。
 //CMYK(255,0,0,0)        => RGB(0,255,255)
 //CMYK(0,255,0,0)        => RGB(255,0,255)
 //CMYK(0,0,255,0)        => RGB(255,255,0)
@@ -498,7 +498,7 @@ public static Color[] toArgbIcc(int[] cmykPixels)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。
+使用默认配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -513,14 +513,14 @@ public static Color[] toArgbIcc(int[] cmykPixels, InputStream cmykIccStream, Inp
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。
+使用自定义配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | cmykPixels | int[] | 以 32 位整数值形式呈现的 CMYK 颜色。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
 
 **Returns:**
 com.aspose.imaging.Color[] - ARGB 颜色。
@@ -530,12 +530,12 @@ public static Color toArgbIcc(int cmykPixel)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。
+使用默认配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | int | CMYK 颜色以 32 位整数值的形式呈现。 |
+| cmykPixel | int | CMYK 颜色以 32 位整数值表示。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -621,14 +621,14 @@ public static Color toArgbIcc(int cmykPixel, InputStream cmykIccStream, InputStr
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 CMYK 颜色转换为 ARGB 颜色。
+使用自定义配置文件的 ICC 转换，将 CMYK 颜色转换为 ARGB 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | int | CMYK 颜色以 32 位整数值的形式呈现。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
+| cmykPixel | int | CMYK 颜色以 32 位整数值表示。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
@@ -714,34 +714,34 @@ public static int[] toCmykIcc(Color[] pixels, InputStream rgbIccStream, InputStr
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-int---java.io.InputStream-java.io.InputStream-}
 ```
 public static int[] toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 像素 | int[] | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)
@@ -753,11 +753,11 @@ public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, In
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 像素 | int[] | RGB 颜色以 32 位整数值表示。 |
+| 像素 | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
-| rgbIccStream | java.io.InputStream | RGB 配置流。 |
-| cmykIccStream | java.io.InputStream | CMYK 配置流。 |
+| rgbIccStream | java.io.InputStream | RGB 配置文件流。 |
+| cmykIccStream | java.io.InputStream | CMYK 配置文件流。 |
 
 **Returns:**
 byte[] - 以字节数组形式呈现的 CMYK 颜色。
@@ -772,13 +772,13 @@ public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, by
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 像素 | int[] | RGB 颜色以 32 位整数值表示。 |
+| 像素 | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
 | cmykBytes | byte[] | Cmyk 字节。 |
 | cmykOffset | int | `cmykBytes` 偏移量。 |
-| rgbIccStream | java.io.InputStream | RGB 配置流。 |
-| cmykIccStream | java.io.InputStream | CMYK 配置流。 |
+| rgbIccStream | java.io.InputStream | RGB 配置文件流。 |
+| cmykIccStream | java.io.InputStream | CMYK 配置文件流。 |
 
 **Returns:**
 byte[] - 以字节数组形式呈现的 CMYK 颜色。
@@ -793,13 +793,13 @@ public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, b
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 像素 | int[] | RGB 颜色以 32 位整数值表示。 |
+| 像素 | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
 | cmykBytes | byte[] | Cmyk 字节。 |
 | cmykOffset | int | `cmykBytes` 偏移量。 |
-| rgbIccStream | java.io.InputStream | RGB 配置流。 |
-| cmykIccStream | java.io.InputStream | CMYK 配置流。 |
+| rgbIccStream | java.io.InputStream | RGB 配置文件流。 |
+| cmykIccStream | java.io.InputStream | CMYK 配置文件流。 |
 
 **Returns:**
 byte[] - 以字节数组形式呈现的 CMYK 颜色。
@@ -809,17 +809,17 @@ public static int[] toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputSt
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。使用 PSD CMYK 格式的 KCMY 字节顺序，通道值已反转。
+使用自定义配置文件通过 Icc 转换将 ARGB 颜色转换为 CMYK 颜色。采用 PSD CMYK 格式的 KCMY 字节顺序，并使用反转的通道值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 像素 | int[] | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int[] - 以 KCMY 字节顺序呈现的 32 位整数值形式的 CMYK 颜色，通道值已反转。
+int[] - 以 KCMY 字节顺序的 32 位整数值表示的 CMYK 颜色，通道值已反转。
 ### toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)
@@ -831,11 +831,11 @@ public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, I
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 像素 | int[] | RGB 颜色以 32 位整数值表示。 |
+| 像素 | int[] | RGB 颜色以 32 位整数表示。 |
 | startIndex | int | RGB 颜色的起始索引。 |
 | length | int | 要转换的 RGB 像素数量。 |
-| rgbIccStream | java.io.InputStream | RGB 配置流。 |
-| cmykIccStream | java.io.InputStream | CMYK 配置流。 |
+| rgbIccStream | java.io.InputStream | RGB 配置文件流。 |
+| cmykIccStream | java.io.InputStream | CMYK 配置文件流。 |
 
 **Returns:**
 byte[] - 以字节数组形式呈现的 CMYK 颜色。
@@ -845,7 +845,7 @@ public static int[] toCmykIcc(Color[] pixels)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -853,14 +853,14 @@ public static int[] toCmykIcc(Color[] pixels)
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | ARGB 颜色。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toCmykIcc(int[] pixels) {#toCmykIcc-int---}
 ```
 public static int[] toCmykIcc(int[] pixels)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -868,14 +868,14 @@ public static int[] toCmykIcc(int[] pixels)
 | 像素 | int[] | ARGB 颜色。 |
 
 **Returns:**
-int[] - CMYK 颜色以 32 位整数值表示。
+int[] - CMYK 颜色以 32 位整数表示。
 ### toPsdCmykIcc(int[] pixels) {#toPsdCmykIcc-int---}
 ```
 public static int[] toPsdCmykIcc(int[] pixels)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。使用 PSD CMYK 格式的 KCMY 字节顺序，通道值已反转。
+使用默认配置文件通过 Icc 转换将 ARGB 颜色转换为 CMYK 颜色。采用 PSD CMYK 格式的 KCMY 字节顺序，并使用反转的通道值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -883,14 +883,14 @@ public static int[] toPsdCmykIcc(int[] pixels)
 | 像素 | int[] | ARGB 颜色。 |
 
 **Returns:**
-int[] - 以 KCMY 字节顺序呈现的 32 位整数值形式的 CMYK 颜色，通道值已反转。
+int[] - 以 KCMY 字节顺序的 32 位整数值表示的 CMYK 颜色，通道值已反转。
 ### toCmykIcc(Color pixel) {#toCmykIcc-com.aspose.imaging.Color-}
 ```
 public static int toCmykIcc(Color pixel)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -898,7 +898,7 @@ public static int toCmykIcc(Color pixel)
 | pixel | [Color](../../com.aspose.imaging/color) | ARGB 颜色。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
 
@@ -980,7 +980,7 @@ public static int toCmykIcc(int argb)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用默认配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -988,14 +988,14 @@ public static int toCmykIcc(int argb)
 | argb | int | ARGB 颜色。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 ### toPsdCmykIcc(int argb) {#toPsdCmykIcc-int-}
 ```
 public static int toPsdCmykIcc(int argb)
 ```
 
 
-使用默认配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。使用 PSD CMYK 格式的 KCMY 字节顺序，通道值已反转。
+使用默认配置文件通过 Icc 转换将 ARGB 颜色转换为 CMYK 颜色。采用 PSD CMYK 格式的 KCMY 字节顺序，并使用反转的通道值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1003,24 +1003,24 @@ public static int toPsdCmykIcc(int argb)
 | argb | int | ARGB 颜色。 |
 
 **Returns:**
-int - 以 KCMY 字节顺序且通道值已反转的 32 位整数值表示的 CMYK 颜色。
+int - 以 KCMY 字节顺序呈现的 CMYK 颜色，使用反转的通道值，作为 32 位整数值。
 ### toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykIcc-com.aspose.imaging.Color-java.io.InputStream-java.io.InputStream-}
 ```
 public static int toCmykIcc(Color pixel, InputStream rgbIccStream, InputStream cmykIccStream)
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pixel | [Color](../../com.aspose.imaging/color) | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 
 **Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
 
@@ -1102,31 +1102,31 @@ public static int toCmykIcc(int argb, InputStream rgbIccStream, InputStream cmyk
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | argb | int | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int - CMYK 颜色以 32 位整数值表示。
+int - 以 32 位整数表示的 CMYK 颜色。
 ### toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream) {#toPsdCmykIcc-int-java.io.InputStream-java.io.InputStream-}
 ```
 public static int toPsdCmykIcc(int pixel, InputStream rgbIccStream, InputStream cmykIccStream)
 ```
 
 
-使用自定义配置文件的 Icc 转换，将 ARGB 颜色转换为 CMYK 颜色。
+使用自定义配置文件的 ICC 转换，将 ARGB 颜色转换为 CMYK 颜色的过程。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 像素 | int | ARGB 颜色。 |
-| rgbIccStream | java.io.InputStream | 包含 RGB ICC 配置文件的流。 |
-| cmykIccStream | java.io.InputStream | 包含 CMYK ICC 配置文件的流。 |
+| rgbIccStream | java.io.InputStream | 包含 RGB Icc 配置文件的流。 |
+| cmykIccStream | java.io.InputStream | 包含 CMYK Icc 配置文件的流。 |
 
 **Returns:**
-int - 以 KCMY 字节顺序且通道值已反转的 32 位整数值表示的 CMYK 颜色。
+int - 以 KCMY 字节顺序呈现的 CMYK 颜色，使用反转的通道值，作为 32 位整数值。

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusDrawImagePoints"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusDrawImagePoints 记录指定在平行四边形内绘制缩放图像。"
 type: docs
 weight: 23
@@ -14,7 +14,7 @@ public final class EmfPlusDrawImagePoints extends EmfPlusDrawingRecordType
 
 EmfPlusDrawImagePoints 记录指定在平行四边形内绘制缩放图像。
 
-EmfPlusImage 可以指定位图或元文件。图像中的颜色可以在渲染过程中进行操作。它们可以被校正、加暗、加亮或移除。
+EmfPlusImage 可以指定位图或元文件。图像中的颜色可以在渲染过程中进行操作，包括校正、加暗、加亮以及移除。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,22 +24,22 @@ EmfPlusImage 可以指定位图或元文件。图像中的颜色可以在渲染�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCompressed()](#getCompressed--) | 获取或设置一个值，指示 PointData 是否已压缩。 |
-| [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置一个值，指示 PointData 是否已压缩。 |
+| [getCompressed()](#getCompressed--) | 获取或设置指示 PointData 是否已压缩的值。 |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置指示 PointData 是否已压缩的值。 |
 | [getObjectId()](#getObjectId--) | 获取或设置对象标识符。 |
 | [setObjectId(byte value)](#setObjectId-byte-) | 获取或设置对象标识符。 |
-| [getApplyingAnEffect()](#getApplyingAnEffect--) | 获取或设置一个值，指示是否 [applying an effect]。 |
-| [setApplyingAnEffect(boolean value)](#setApplyingAnEffect-boolean-) | 获取或设置一个值，指示是否 [applying an effect]。 |
-| [getRelative()](#getRelative--) | 获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对坐标。 |
-| [setRelative(boolean value)](#setRelative-boolean-) | 获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对坐标。 |
-| [getImageAttributesId()](#getImageAttributesId--) | 获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。 |
-| [setImageAttributesId(int value)](#setImageAttributesId-int-) | 获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。 |
-| [getSrcUnit()](#getSrcUnit--) | 获取或设置一个 32 位有符号整数，用于定义 SrcRect 字段的单位。 |
-| [setSrcUnit(int value)](#setSrcUnit-int-) | 获取或设置一个 32 位有符号整数，用于定义 SrcRect 字段的单位。 |
-| [getSrcRect()](#getSrcRect--) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像的一部分。 |
-| [setSrcRect(RectangleF value)](#setSrcRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像的一部分。 |
-| [getPointData()](#getPointData--) | 获取或设置一个 Count 点数组，用于指定平行四边形的三个点。 |
-| [setPointData(PointF[] value)](#setPointData-com.aspose.imaging.PointF---) | 获取或设置一个 Count 点数组，用于指定平行四边形的三个点。 |
+| [getApplyingAnEffect()](#getApplyingAnEffect--) | 获取或设置一个值，指示是否[应用效果]。 |
+| [setApplyingAnEffect(boolean value)](#setApplyingAnEffect-boolean-) | 获取或设置一个值，指示是否[应用效果]。 |
+| [getRelative()](#getRelative--) | 获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对的。 |
+| [setRelative(boolean value)](#setRelative-boolean-) | 获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对的。 |
+| [getImageAttributesId()](#getImageAttributesId--) | 获取或设置一个 32 位无符号整数，包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。 |
+| [setImageAttributesId(int value)](#setImageAttributesId-int-) | 获取或设置一个 32 位无符号整数，包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。 |
+| [getSrcUnit()](#getSrcUnit--) | 获取或设置一个 32 位有符号整数，定义 SrcRect 字段的单位。 |
+| [setSrcUnit(int value)](#setSrcUnit-int-) | 获取或设置一个 32 位有符号整数，定义 SrcRect 字段的单位。 |
+| [getSrcRect()](#getSrcRect--) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像部分。 |
+| [setSrcRect(RectangleF value)](#setSrcRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像部分。 |
+| [getPointData()](#getPointData--) | 获取或设置一个包含 Count 点的数组，这些点指定平行四边形的三个点。 |
+| [setPointData(PointF[] value)](#setPointData-com.aspose.imaging.PointF---) | 获取或设置一个包含 Count 点的数组，这些点指定平行四边形的三个点。 |
 ### EmfPlusDrawImagePoints(EmfPlusRecord source) {#EmfPlusDrawImagePoints-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawImagePoints(EmfPlusRecord source)
@@ -51,7 +51,7 @@ public EmfPlusDrawImagePoints(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCompressed() {#getCompressed--}
 ```
@@ -59,7 +59,7 @@ public boolean getCompressed()
 ```
 
 
-获取或设置一个值，指示 PointData 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 使用 16 位整数坐标指定坐标空间中的绝对位置；如果未设置，则 PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 P 标志被设置，则此标志未定义，必须被忽略。
+获取或设置一个值，指示 PointData 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果清除，则 PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 P 标志被设置，则此标志未定义，必须被忽略。
 
 **Returns:**
 boolean
@@ -69,12 +69,12 @@ public void setCompressed(boolean value)
 ```
 
 
-获取或设置一个值，指示 PointData 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 使用 16 位整数坐标指定坐标空间中的绝对位置；如果未设置，则 PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 P 标志被设置，则此标志未定义，必须被忽略。
+获取或设置一个值，指示 PointData 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果清除，则 PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 P 标志被设置，则此标志未定义，必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -101,7 +101,7 @@ public void setObjectId(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getApplyingAnEffect() {#getApplyingAnEffect--}
 ```
@@ -109,9 +109,9 @@ public boolean getApplyingAnEffect()
 ```
 
 
-获取或设置一个值，指示是否 [applying an effect]。此位表示图像的渲染包括应用效果。如果设置，则必须在之前的 EmfPlusSerializableObject 记录（第 2.3.5.2 节）中指定 Effect 类的对象。
+获取或设置一个值，指示是否[应用效果]。此位指示图像渲染包含应用效果。如果设置，则必须在之前的 EmfPlusSerializableObject 记录（第 2.3.5.2 节）中指定 Effect 类的对象。
 
-值：如果 [applying an effect] 为 `true`；否则为 `false`。
+值：如果[应用效果]则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -121,14 +121,14 @@ public void setApplyingAnEffect(boolean value)
 ```
 
 
-获取或设置一个值，指示是否 [applying an effect]。此位表示图像的渲染包括应用效果。如果设置，则必须在之前的 EmfPlusSerializableObject 记录（第 2.3.5.2 节）中指定 Effect 类的对象。
+获取或设置一个值，指示是否[应用效果]。此位指示图像渲染包含应用效果。如果设置，则必须在之前的 EmfPlusSerializableObject 记录（第 2.3.5.2 节）中指定 Effect 类的对象。
 
-值：如果 [applying an effect] 为 `true`；否则为 `false`。
+值：如果[应用效果]则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getRelative() {#getRelative--}
 ```
@@ -136,9 +136,9 @@ public boolean getRelative()
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对。此位指示 PointData 字段是指定相对位置还是绝对位置。如果设置，则 PointData 中的每个元素指定相对于数组中前一个元素指定的位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置为坐标 (0,0)。如果未设置，则 PointData 根据 C 标志指定绝对位置。注意：如果设置了此标志，上面的 C 标志未定义，必须被忽略。
+获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对的。此位指示 PointData 字段是指定相对位置还是绝对位置。如果设置，则 PointData 中的每个元素指定相对于数组中前一个元素所指定位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置为坐标 (0,0)。如果清除，则 PointData 根据 C 标志指定绝对位置。注意：如果此标志被设置，上面的 C 标志未定义，必须被忽略。
 
-值：如果为相对则为 `true`；否则为 `false`。
+值：`true` 表示相对；否则为 `false`。
 
 **Returns:**
 boolean
@@ -148,14 +148,14 @@ public void setRelative(boolean value)
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对。此位指示 PointData 字段是指定相对位置还是绝对位置。如果设置，则 PointData 中的每个元素指定相对于数组中前一个元素指定的位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置为坐标 (0,0)。如果未设置，则 PointData 根据 C 标志指定绝对位置。注意：如果设置了此标志，上面的 C 标志未定义，必须被忽略。
+获取或设置一个值，指示此 `EmfPlusDrawImagePoints` 是否为相对的。此位指示 PointData 字段是指定相对位置还是绝对位置。如果设置，则 PointData 中的每个元素指定相对于数组中前一个元素所指定位置的坐标空间位置。对于 PointData 的第一个元素，假定前一个位置为坐标 (0,0)。如果清除，则 PointData 根据 C 标志指定绝对位置。注意：如果此标志被设置，上面的 C 标志未定义，必须被忽略。
 
-值：如果为相对则为 `true`；否则为 `false`。
+值：`true` 表示相对；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getImageAttributesId() {#getImageAttributesId--}
 ```
@@ -163,7 +163,7 @@ public int getImageAttributesId()
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。
+获取或设置一个 32 位无符号整数，包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。
 
 值：图像属性标识符。
 
@@ -175,14 +175,14 @@ public void setImageAttributesId(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。
+获取或设置一个 32 位无符号整数，包含 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。
 
 值：图像属性标识符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSrcUnit() {#getSrcUnit--}
 ```
@@ -209,7 +209,7 @@ public void setSrcUnit(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getSrcRect() {#getSrcRect--}
 ```
@@ -217,7 +217,7 @@ public RectangleF getSrcRect()
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像的一部分。
+获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像部分。
 
 值：源矩形。
 
@@ -229,7 +229,7 @@ public void setSrcRect(RectangleF value)
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像的一部分。
+获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象定义要渲染的图像部分。
 
 值：源矩形。
 
@@ -244,7 +244,7 @@ public PointF[] getPointData()
 ```
 
 
-获取或设置一个包含 Count 个点的数组，这些点指定平行四边形的三个点。三个点分别代表平行四边形的左上、右上和左下角。第四个点由前三个点外推得到。SrcRect 字段指定的图像部分应在必要时应用缩放和剪切变换，以适应平行四边形内部。
+获取或设置一个包含 Count 点的数组，这些点指定平行四边形的三个点。该三个点分别代表平行四边形的左上、右上和左下角。第四个点由前三个点外推得到。SrcRect 字段指定的图像部分应在必要时应用缩放和剪切变换，以适应平行四边形内部。
 
 值：点数据。
 
@@ -256,7 +256,7 @@ public void setPointData(PointF[] value)
 ```
 
 
-获取或设置一个包含 Count 个点的数组，这些点指定平行四边形的三个点。三个点分别代表平行四边形的左上、右上和左下角。第四个点由前三个点外推得到。SrcRect 字段指定的图像部分应在必要时应用缩放和剪切变换，以适应平行四边形内部。
+获取或设置一个包含 Count 点的数组，这些点指定平行四边形的三个点。该三个点分别代表平行四边形的左上、右上和左下角。第四个点由前三个点外推得到。SrcRect 字段指定的图像部分应在必要时应用缩放和剪切变换，以适应平行四边形内部。
 
 值：点数据。
 

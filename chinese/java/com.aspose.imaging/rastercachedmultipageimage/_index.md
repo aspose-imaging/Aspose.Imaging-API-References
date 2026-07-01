@@ -1,6 +1,6 @@
 ---
 title: "RasterCachedMultipageImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "光栅多页图像"
 type: docs
 weight: 90
@@ -23,23 +23,23 @@ public abstract class RasterCachedMultipageImage extends RasterCachedImage imple
 | [getHeight()](#getHeight--) | 获取图像高度。 |
 | [getWidth()](#getWidth--) | 获取图像宽度。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取图像每像素位数计数。 |
-| [isCached()](#isCached--) | 获取一个值，指示图像数据当前是否已缓存。 |
-| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha 通道。 |
+| [isCached()](#isCached--) | 获取一个指示图像数据当前是否已缓存的值。 |
+| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha。 |
 | [hasTransparentColor()](#hasTransparentColor--) | 获取一个值，指示图像是否具有透明颜色。 |
 | [getImageOpacity()](#getImageOpacity--) | 获取此图像的不透明度。 |
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色的值。 |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | 设置背景颜色的值。 |
-| [getMetadata()](#getMetadata--) | 获取帧的 XMP 数据。 |
+| [getMetadata()](#getMetadata--) | 从帧获取 XMP 数据。 |
 | [getPageExportingAction()](#getPageExportingAction--) | 获取页面导出操作。 |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | 设置页面导出操作。 |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | 调整图像的 `brightness`。 |
+| [adjustBrightness(int brightness)](#adjustBrightness-int-) | 调整图像的 `brightness`（亮度）。 |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | [Image](../../com.aspose.imaging/image) 对比 |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | 对图像进行伽马校正。 |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | 对图像进行伽马校正。 |
 | [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | 将此图像实例与 `overlay` 图像混合。 |
 | [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | 将基于提供的密码的数字签名嵌入图像的每一页。 |
 | [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | 计算提取数据与原始密码之间的相似度百分比。 |
-| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已数字签名。 |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已进行数字签名。 |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | 使用预定义阈值对图像进行二值化 |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | 使用 Bradley 的自适应阈值算法（基于积分图像阈值）对图像进行二值化 |
 | [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | 使用 Bradley 的自适应阈值算法（基于积分图像阈值）对图像进行二值化 |
@@ -49,15 +49,15 @@ public abstract class RasterCachedMultipageImage extends RasterCachedImage imple
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | 对当前图像执行抖动处理。 |
 | [grayscale()](#grayscale--) | 将图像转换为灰度表示 |
 | [normalizeHistogram()](#normalizeHistogram--) | 归一化图像直方图 \\u2014 调整像素值以使用全部可用范围。 |
-| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` 图像围绕中心旋转。 |
-| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | 旋转、翻转或旋转并翻转所有页面。 |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` 将图像围绕中心旋转。 |
+| [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | 旋转、翻转或同时旋转和翻转所有页面。 |
 | [rotateFlipAll(int rotateFlip)](#rotateFlipAll-int-) | 旋转并翻转全部。 |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整图像大小。 |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 调整图像大小。 |
 | [resizeWidthProportionally(int newWidth, int resizeType)](#resizeWidthProportionally-int-int-) | 按比例调整宽度。 |
 | [resizeHeightProportionally(int newHeight, int resizeType)](#resizeHeightProportionally-int-int-) | 按比例调整宽度。 |
-| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。 |
-| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。 |
+| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。 |
+| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始的 alpha 值以保持平滑边缘。 |
 | [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | 过滤指定的矩形。 |
 | [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | 归一化角度。 |
 | [cacheData()](#cacheData--) | 私有缓存数据。 |
@@ -70,17 +70,17 @@ String inputFileName = fileName;
 
 String outputFileNameTif = "output.tif";
 
-//已实现保存（导出）Tiff 图像前的批量转换功能。
+//已实现批量转换 TIFF 图像在保存（导出）之前的可能性。
 
 try(com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.load(inputFileName))
 {
-    // 为页面设置批量操作。
+    // 设置页面的批量操作
     tiffImage.setPageExportingAction(new PageExportingAction()
     {
         @Override
         public void invoke(int pageIndex, Image page)
         {
-            // 触发垃圾回收，以避免前一页的多余垃圾存储。
+            // 触发垃圾回收，以避免前一页产生不必要的垃圾存储。
             System.gc();
 
             ((com.aspose.imaging.RasterImage) page).rotate(90);
@@ -136,9 +136,9 @@ public boolean isCached()
 ```
 
 
-获取一个值，指示图像数据当前是否已缓存。
+获取一个指示图像数据当前是否已缓存的值。
 
-值：如果图像数据已缓存，则为 `true`；否则为 `false`。
+值：如果图像数据已缓存则为 `true`，否则为 `false`。
 
 **Returns:**
 boolean - 表示当前图像数据是否已缓存的值。
@@ -148,9 +148,9 @@ public boolean hasAlpha()
 ```
 
 
-获取一个值，指示此实例是否具有 alpha 通道。
+获取一个值，指示此实例是否具有 alpha。
 
-值：如果此实例具有 alpha，则为 `true`；否则为 `false`。
+值：如果此实例具有 alpha 则为 `true`，否则为 `false`。
 
 **Returns:**
 boolean - 表示此实例是否具有 alpha 的值。
@@ -176,7 +176,7 @@ public float getImageOpacity()
 
 获取此图像的不透明度。
 
-值：介于 0.0（完全透明）和 1.0（完全不透明）之间的不透明度值。
+值：不透明度值介于 0.0（完全透明）和 1.0（完全不透明）之间。
 
 **Returns:**
 float - 此图像的不透明度。
@@ -201,7 +201,7 @@ public void setBackgroundColor(Color value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | 背景颜色的值。 |
+| value | [Color](../../com.aspose.imaging/color) | 用于背景颜色的值。 |
 
 ### getMetadata() {#getMetadata--}
 ```
@@ -209,9 +209,9 @@ public ImageMetadata getMetadata()
 ```
 
 
-获取帧的 XMP 数据。
+从帧获取 XMP 数据。
 
-值：XMP 数据包包装器
+值：XMP 包数据包装器
 
 **Returns:**
 [ImageMetadata](../../com.aspose.imaging.metadata/imagemetadata) - XMP data from frame.
@@ -221,7 +221,7 @@ public PageExportingAction getPageExportingAction()
 ```
 
 
-获取页面导出操作。请注意，设置此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
+获取页面导出操作。请注意，调用此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
 
 值：页面导出操作。
 
@@ -233,7 +233,7 @@ public void setPageExportingAction(PageExportingAction value)
 ```
 
 
-设置页面导出操作。请注意，设置此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
+设置页面导出操作。请注意，调用此方法后将在执行后自动释放页面资源。该操作将在每个页面保存之前执行。
 
 值：页面导出操作。
 
@@ -248,7 +248,7 @@ public void adjustBrightness(int brightness)
 ```
 
 
-调整图像的 `brightness`。
+调整图像的 `brightness`（亮度）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -281,7 +281,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 | --- | --- | --- |
 | gammaRed | float | 红色通道的伽马系数 |
 | gammaGreen | float | 绿色通道的伽马系数 |
-| gammaBlue | float | 蓝色通道的伽马系数 |
+| gammaBlue | float | 蓝色通道系数的 Gamma |
 
 ### adjustGamma(float gamma) {#adjustGamma-float-}
 ```
@@ -294,7 +294,7 @@ public void adjustGamma(float gamma)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 伽马 | float | 红色、绿色和蓝色通道的伽马系数 |
+| 伽马 | float | 红色、绿色和蓝色通道系数的 Gamma |
 
 ### blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-}
 ```
@@ -307,7 +307,7 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖图像。 |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | 覆盖区域。 |
 | overlayAlpha | byte | 覆盖透明度。 |
@@ -323,7 +323,7 @@ public void embedDigitalSignature(String password)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 密码 | java.lang.String | 用于生成数字签名数据的密码 |
+| 密码 | java.lang.String | 用于生成数字签名数据的密码（最少 4 个字符） |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -363,7 +363,7 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 ```
 
 
-使用提供的密码和阈值快速检查图像是否已数字签名。
+使用提供的密码和阈值快速检查图像是否已进行数字签名。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -373,12 +373,12 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 
 --------------------
 
-此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，旨在提高检测准确性的后续提取步骤将被跳过。
+此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，后续旨在提高检测准确性的提取步骤将被跳过。
 
 仅当多页图像中的所有页面被识别为已签名时，结果才为 `true`；否则，图像被视为未签名。 |
 
 **Returns:**
-boolean - 如果图像已签名则为 True，否则为 false。
+boolean - 如果图像已签名则为 true，否则为 false。
 ### binarizeFixed(byte threshold) {#binarizeFixed-byte-}
 ```
 public void binarizeFixed(byte threshold)
@@ -403,8 +403,8 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
-| windowSize | int | 以该像素为中心的 s × s 窗口像素的大小 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
+| windowSize | int | 以该像素为中心的 s × s 窗口的大小 |
 
 ### binarizeBradley(double brightnessDifference) {#binarizeBradley-double-}
 ```
@@ -417,7 +417,7 @@ public void binarizeBradley(double brightnessDifference)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
 
 ### binarizeOtsu() {#binarizeOtsu--}
 ```
@@ -493,13 +493,13 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 ```
 
 
-`RasterCachedMultipageImage.rotate` 图像围绕中心旋转。
+`RasterCachedMultipageImage.rotate` 将图像围绕中心旋转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | float | 旋转角度，以度为单位。正值将顺时针旋转。 |
-| resizeProportionally | boolean | 如果设置为 `true`，图像尺寸将根据旋转矩形（角点）投影进行更改；否则保持尺寸不变，仅 `` 图像内容被旋转。 |
+| resizeProportionally | boolean | 如果设置为 `true`，图像尺寸将根据旋转矩形（角点）投影进行更改；否则，尺寸保持不变，仅 `` 图像内容被旋转。 |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | 背景的颜色。 |
 
 ### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
@@ -508,7 +508,7 @@ public void rotateFlip(int rotateFlipType)
 ```
 
 
-旋转、翻转或旋转并翻转所有页面。
+旋转、翻转或同时旋转和翻转所有页面。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -592,12 +592,12 @@ public void replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)
 ```
 
 
-将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。
+在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| oldColorArgb | int | 要替换的旧颜色 ARGB 值。 |
+| oldColorArgb | int | 待替换的旧颜色 ARGB 值。 |
 | oldColorDiff | byte | 允许的旧颜色差异，以便能够扩大替换后的颜色色调。 |
 | newColorArgb | int | 用于替换旧颜色的新颜色 ARGB 值。 |
 
@@ -607,7 +607,7 @@ public void replaceNonTransparentColors(int newColorArgb)
 ```
 
 
-将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它将把所有颜色替换为单一颜色。
+将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它会将所有颜色替换为单一颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -634,7 +634,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-标准化角度。此方法适用于扫描的文本文档，以消除倾斜扫描。此方法使用 [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\#getSkewAngle) 和 [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\#rotate-float--boolean--Color-) 方法。
+归一化角度。此方法适用于扫描的文本文档，以消除倾斜扫描。此方法使用 [RasterImage.getSkewAngle](../../com.aspose.imaging/rasterimage\\#getSkewAngle) 和 [RasterImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rasterimage\\#rotate-float--boolean--Color-) 方法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

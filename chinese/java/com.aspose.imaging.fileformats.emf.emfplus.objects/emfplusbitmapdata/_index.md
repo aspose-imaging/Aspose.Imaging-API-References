@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBitmapData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBitmapData 对象指定带有像素数据的位图图像。"
 type: docs
 weight: 15
@@ -22,10 +22,10 @@ EmfPlusBitmapData 对象指定带有像素数据的位图图像。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getColors()](#getColors--) | 获取或设置 调色板颜色 Colors（可变）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。 |
-| [setColors(EmfPlusPalette value)](#setColors-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPalette-) | 获取或设置 调色板颜色 Colors（可变）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。 |
-| [getPixelData()](#getPixelData--) | 获取或设置 像素数据 PixelData（可变）：一个字节数组，指定像素数据。 |
-| [setPixelData(byte[] value)](#setPixelData-byte---) | 获取或设置 像素数据 PixelData（可变）：一个字节数组，指定像素数据。 |
+| [getColors()](#getColors--) | 获取或设置调色板颜色 Colors（变量）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。 |
+| [setColors(EmfPlusPalette value)](#setColors-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPalette-) | 获取或设置调色板颜色 Colors（变量）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。 |
+| [getPixelData()](#getPixelData--) | 获取或设置像素数据 PixelData（变量）：一个指定像素数据的字节数组。 |
+| [setPixelData(byte[] value)](#setPixelData-byte---) | 获取或设置像素数据 PixelData（变量）：一个指定像素数据的字节数组。 |
 ### EmfPlusBitmapData() {#EmfPlusBitmapData--}
 ```
 public EmfPlusBitmapData()
@@ -38,9 +38,9 @@ public EmfPlusPalette getColors()
 ```
 
 
-获取或设置 调色板颜色 Colors（可变）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。如果在 `EmfPlusBitmap` 对象的 PixelFormat 字段中设置了 I 标志，则此字段 MUST 存在。
+获取或设置调色板颜色 Colors（变量）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。如果在 `EmfPlusBitmap` 对象的 PixelFormat 字段中设置了 I 标志，则此字段必须存在。
 
-值: 颜色。
+值：该 颜色。
 
 **Returns:**
 [EmfPlusPalette](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette)
@@ -50,9 +50,9 @@ public void setColors(EmfPlusPalette value)
 ```
 
 
-获取或设置 调色板颜色 Colors（可变）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。如果在 `EmfPlusBitmap` 对象的 PixelFormat 字段中设置了 I 标志，则此字段 MUST 存在。
+获取或设置调色板颜色 Colors（变量）：一个可选的 `EmfPlusPalette` 对象（第 2.2.2.28 节），指定像素数据中使用的颜色调色板。如果在 `EmfPlusBitmap` 对象的 PixelFormat 字段中设置了 I 标志，则此字段必须存在。
 
-值: 颜色。
+值：该 颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -65,7 +65,7 @@ public byte[] getPixelData()
 ```
 
 
-获取或设置 像素数据 PixelData（可变）：一个字节数组，指定像素数据。此数据的大小和格式可根据 EmfPlusBitmap 对象中的字段计算，包括来自 `Consts.EmfPlusPixelFormat` 枚举（第 2.1.1.25 节）的像素格式。
+获取或设置像素数据 PixelData（变量）：一个指定像素数据的字节数组。此数据的大小和格式可以从 EmfPlusBitmap 对象的字段计算得到，包括来自 `Consts.EmfPlusPixelFormat` 枚举（第 2.1.1.25 节）的像素格式。
 
 值：像素数据。
 
@@ -77,12 +77,12 @@ public void setPixelData(byte[] value)
 ```
 
 
-获取或设置 像素数据 PixelData（可变）：一个字节数组，指定像素数据。此数据的大小和格式可根据 EmfPlusBitmap 对象中的字段计算，包括来自 `Consts.EmfPlusPixelFormat` 枚举（第 2.1.1.25 节）的像素格式。
+获取或设置像素数据 PixelData（变量）：一个指定像素数据的字节数组。此数据的大小和格式可以从 EmfPlusBitmap 对象的字段计算得到，包括来自 `Consts.EmfPlusPixelFormat` 枚举（第 2.1.1.25 节）的像素格式。
 
 值：像素数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

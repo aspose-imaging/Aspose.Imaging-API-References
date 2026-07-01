@@ -1,7 +1,7 @@
 ---
 title: "CdrObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 对象"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 对象"
 type: docs
 weight: 27
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrobject/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class CdrObject extends DisposableObject
 ```
 
-cdr 对象
+该 cdr 对象
 ## 构造函数
 
 | 构造函数 | 描述 |

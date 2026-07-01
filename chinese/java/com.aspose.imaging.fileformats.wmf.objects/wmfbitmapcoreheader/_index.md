@@ -1,6 +1,6 @@
 ---
 title: "WmfBitmapCoreHeader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "BitmapCoreHeader 对象包含有关设备无关位图（DIB）尺寸和颜色格式的信息。"
 type: docs
 weight: 15
@@ -41,7 +41,7 @@ public short getWidth()
 获取或设置一个 16 位无符号整数，定义 DIB 的 `width`（宽度），单位为像素。
 
 **Returns:**
-short
+短
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -53,7 +53,7 @@ public void setWidth(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getHeight() {#getHeight--}
 ```
@@ -64,7 +64,7 @@ public short getHeight()
 获取或设置一个 16 位无符号整数，定义 DIB 的 `height`（高度），单位为像素。
 
 **Returns:**
-short
+短
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -76,5 +76,5 @@ public void setHeight(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

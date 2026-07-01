@@ -1,6 +1,6 @@
 ---
 title: "RenderErrorCode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 CAD 文件中可能缺失的部分"
 type: docs
 weight: 43
@@ -17,18 +17,18 @@ public final class RenderErrorCode extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [MissingHeader](#MissingHeader) | 缺少标题 |
+| [MissingHeader](#MissingHeader) | 缺少标头 |
 | [MissingLayouts](#MissingLayouts) | 缺少布局信息 |
 | [MissingBlocks](#MissingBlocks) | 缺少块信息 |
 | [MissingDimensionStyles](#MissingDimensionStyles) | 缺少尺寸样式信息 |
-| [MissingStyles](#MissingStyles) | 缺少样式信息 |
+| [MissingStyles](#MissingStyles) | 样式信息缺失 |
 ### MissingHeader {#MissingHeader}
 ```
 public static final int MissingHeader
 ```
 
 
-缺少标题
+缺少标头
 
 ### MissingLayouts {#MissingLayouts}
 ```
@@ -60,5 +60,5 @@ public static final int MissingStyles
 ```
 
 
-缺少样式信息
+样式信息缺失
 

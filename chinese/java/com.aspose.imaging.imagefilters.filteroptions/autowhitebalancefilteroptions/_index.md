@@ -1,7 +1,7 @@
 ---
 title: "AutoWhiteBalanceFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "提供用于配置自动白平衡过滤器的选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "提供用于配置 Auto White Balance 滤镜的选项。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.imagefilters.filteroptions/autowhitebalancefilteroptions/
@@ -101,8 +101,8 @@ public AutoWhiteBalanceFilterOptions(int lowPercentile, int targetHighPercentile
 | --- | --- | --- |
 | lowPercentile | int | 低百分位用于黑点，作为暗部保护使用（默认值：3）。 |
 | targetHighPercentile | int | 对比度拉伸的目标高百分位（默认值 97）。 |
-| targetValue | int | 高百分位的目标值（默认 255）。 |
-| maxScale | float | 每个通道的最大缩放因子（默认 1.4f）。 |
+| targetValue | int | 高百分位的目标值（默认值 255）。 |
+| maxScale | float | 每个通道的最大缩放因子（默认值 1.4f）。 |
 | protectedDarkOffset | int | 低百分位以下的偏移量，暗像素不被拉伸（保护）。 |
 
 ### getTargetHighPercentile() {#getTargetHighPercentile--}
@@ -121,7 +121,7 @@ public final int getTargetValue()
 ```
 
 
-获取高百分位的目标值。此值将用作对比度拉伸的白色参考。
+获取高百分位的目标值。该值将用作对比度拉伸的白色参考。
 
 **Returns:**
 int - 高百分位的目标值。

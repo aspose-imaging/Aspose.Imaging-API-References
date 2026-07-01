@@ -1,6 +1,6 @@
 ---
 title: "TiffStreamWriter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Tiff 流写入器。"
 type: docs
 weight: 14
@@ -25,7 +25,7 @@ Tiff 流写入器。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSyncRoot()](#getSyncRoot--) | 获取一个可用于同步对同步资源访问的对象。 |
+| [getSyncRoot()](#getSyncRoot--) | 获取一个可用于同步访问同步资源的对象。 |
 | [getPosition()](#getPosition--) | 获取或设置流位置。 |
 | [setPosition(long value)](#setPosition-long-) | 获取或设置流位置。 |
 | [write(byte[] data, int offset, int dataLength)](#write-byte---int-int-) | 写入指定的数据。 |
@@ -34,25 +34,25 @@ Tiff 流写入器。
 | [writeDoubleArray(double[] data)](#writeDoubleArray-double---) | 向流写入 double 值数组。 |
 | [writeFloat(float data)](#writeFloat-float-) | 向流写入单个 float 值。 |
 | [writeFloatArray(float[] data)](#writeFloatArray-float---) | 向流写入 float 值数组。 |
-| [writeRational(TiffRational data)](#writeRational-com.aspose.imaging.fileformats.tiff.TiffRational-) | 将单个有理数值写入流。 |
-| [writeSRational(TiffSRational data)](#writeSRational-com.aspose.imaging.fileformats.tiff.TiffSRational-) | 将单个有符号有理数值写入流。 |
-| [writeRationalArray(TiffRational[] data)](#writeRationalArray-com.aspose.imaging.fileformats.tiff.TiffRational---) | 将无符号有理数数组写入流。 |
-| [writeSRationalArray(TiffSRational[] data)](#writeSRationalArray-com.aspose.imaging.fileformats.tiff.TiffSRational---) | 将有符号有理数数组写入流。 |
-| [writeSByte(byte data)](#writeSByte-byte-) | 将单个有符号字节值写入流。 |
-| [writeSByteArray(byte[] data)](#writeSByteArray-byte---) | 将有符号字节数组写入流。 |
-| [writeIntArray(int[] data)](#writeIntArray-int---) | 将整数数组写入流。 |
-| [writeSShort(short data)](#writeSShort-short-) | 将单个短整型值写入流。 |
-| [writeSShortArray(short[] data)](#writeSShortArray-short---) | 将短整型数组写入流。 |
-| [writeSInt(int data)](#writeSInt-int-) | 将单个整数值写入流。 |
-| [writeUByte(byte data)](#writeUByte-byte-) | 将单个字节值写入流。 |
-| [writeUInt(long data)](#writeUInt-long-) | 将单个无符号整数值写入流。 |
-| [writeUIntArray(long[] data)](#writeUIntArray-long---) | 将无符号整数数组写入流。 |
-| [writeUShort(int data)](#writeUShort-int-) | 将单个无符号短整型值写入流。 |
-| [writeUShortArray(int[] data)](#writeUShortArray-int---) | 将无符号短整型数组写入流。 |
-| [writeSLong(long data)](#writeSLong-long-) | 将有符号长整型数组写入流。 |
-| [writeSLongArray(long[] data)](#writeSLongArray-long---) | 将有符号长整型数组写入流。 |
-| [writeULong(long data)](#writeULong-long-) | 将无符号长整型数组写入流。 |
-| [writeULongArray(long[] data)](#writeULongArray-long---) | 将无符号长整型数组写入流。 |
+| [writeRational(TiffRational data)](#writeRational-com.aspose.imaging.fileformats.tiff.TiffRational-) | 向流写入单个有理数值。 |
+| [writeSRational(TiffSRational data)](#writeSRational-com.aspose.imaging.fileformats.tiff.TiffSRational-) | 向流写入单个有符号有理数值。 |
+| [writeRationalArray(TiffRational[] data)](#writeRationalArray-com.aspose.imaging.fileformats.tiff.TiffRational---) | 向流写入无符号有理数值数组。 |
+| [writeSRationalArray(TiffSRational[] data)](#writeSRationalArray-com.aspose.imaging.fileformats.tiff.TiffSRational---) | 向流写入有符号有理数值数组。 |
+| [writeSByte(byte data)](#writeSByte-byte-) | 向流写入单个有符号字节值。 |
+| [writeSByteArray(byte[] data)](#writeSByteArray-byte---) | 向流写入有符号字节值数组。 |
+| [writeIntArray(int[] data)](#writeIntArray-int---) | 向流写入整数值数组。 |
+| [writeSShort(short data)](#writeSShort-short-) | 向流写入单个 short 值。 |
+| [writeSShortArray(short[] data)](#writeSShortArray-short---) | 向流写入 short 值数组。 |
+| [writeSInt(int data)](#writeSInt-int-) | 向流写入单个整数值。 |
+| [writeUByte(byte data)](#writeUByte-byte-) | 向流写入单个字节值。 |
+| [writeUInt(long data)](#writeUInt-long-) | 向流写入单个无符号整数值。 |
+| [writeUIntArray(long[] data)](#writeUIntArray-long---) | 向流写入无符号整数值数组。 |
+| [writeUShort(int data)](#writeUShort-int-) | 向流写入单个无符号 short 值。 |
+| [writeUShortArray(int[] data)](#writeUShortArray-int---) | 向流写入无符号 short 值数组。 |
+| [writeSLong(long data)](#writeSLong-long-) | 向流写入有符号 long 值数组。 |
+| [writeSLongArray(long[] data)](#writeSLongArray-long---) | 向流写入有符号 long 值数组。 |
+| [writeULong(long data)](#writeULong-long-) | 向流写入无符号 long 值数组。 |
+| [writeULongArray(long[] data)](#writeULongArray-long---) | 向流写入无符号 long 值数组。 |
 ### TiffStreamWriter(StreamContainer writer) {#TiffStreamWriter-com.aspose.imaging.StreamContainer-}
 ```
 public TiffStreamWriter(StreamContainer writer)
@@ -72,7 +72,7 @@ public Object getSyncRoot()
 ```
 
 
-获取一个可用于同步对同步资源访问的对象。
+获取一个可用于同步访问同步资源的对象。
 
 值：可用于同步对同步资源的访问的对象。
 
@@ -103,7 +103,7 @@ public void setPosition(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### write(byte[] data, int offset, int dataLength) {#write-byte---int-int-}
 ```
@@ -191,7 +191,7 @@ public void writeRational(TiffRational data)
 ```
 
 
-将单个有理数值写入流。
+向流写入单个有理数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -204,7 +204,7 @@ public void writeSRational(TiffSRational data)
 ```
 
 
-将单个有符号有理数值写入流。
+向流写入单个有符号有理数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -217,7 +217,7 @@ public void writeRationalArray(TiffRational[] data)
 ```
 
 
-将无符号有理数数组写入流。
+向流写入无符号有理数值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -230,7 +230,7 @@ public void writeSRationalArray(TiffSRational[] data)
 ```
 
 
-将有符号有理数数组写入流。
+向流写入有符号有理数值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -243,7 +243,7 @@ public void writeSByte(byte data)
 ```
 
 
-将单个有符号字节值写入流。
+向流写入单个有符号字节值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -256,7 +256,7 @@ public void writeSByteArray(byte[] data)
 ```
 
 
-将有符号字节数组写入流。
+向流写入有符号字节值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -269,7 +269,7 @@ public void writeIntArray(int[] data)
 ```
 
 
-将整数数组写入流。
+向流写入整数值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -282,12 +282,12 @@ public void writeSShort(short data)
 ```
 
 
-将单个短整型值写入流。
+向流写入单个 short 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 数据 | short | 要写入的值。 |
+| 数据 | 短 | 要写入的值。 |
 
 ### writeSShortArray(short[] data) {#writeSShortArray-short---}
 ```
@@ -295,7 +295,7 @@ public void writeSShortArray(short[] data)
 ```
 
 
-将短整型数组写入流。
+向流写入 short 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -308,7 +308,7 @@ public void writeSInt(int data)
 ```
 
 
-将单个整数值写入流。
+向流写入单个整数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -321,7 +321,7 @@ public void writeUByte(byte data)
 ```
 
 
-将单个字节值写入流。
+向流写入单个字节值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -334,7 +334,7 @@ public void writeUInt(long data)
 ```
 
 
-将单个无符号整数值写入流。
+向流写入单个无符号整数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -347,7 +347,7 @@ public void writeUIntArray(long[] data)
 ```
 
 
-将无符号整数数组写入流。
+向流写入无符号整数值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -360,7 +360,7 @@ public void writeUShort(int data)
 ```
 
 
-将单个无符号短整型值写入流。
+向流写入单个无符号 short 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -373,7 +373,7 @@ public void writeUShortArray(int[] data)
 ```
 
 
-将无符号短整型数组写入流。
+向流写入无符号 short 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -386,7 +386,7 @@ public final void writeSLong(long data)
 ```
 
 
-将有符号长整型数组写入流。
+向流写入有符号 long 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -399,7 +399,7 @@ public final void writeSLongArray(long[] data)
 ```
 
 
-将有符号长整型数组写入流。
+向流写入有符号 long 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -412,7 +412,7 @@ public final void writeULong(long data)
 ```
 
 
-将无符号长整型数组写入流。
+向流写入无符号 long 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -425,7 +425,7 @@ public final void writeULongArray(long[] data)
 ```
 
 
-将无符号长整型数组写入流。
+向流写入无符号 long 值数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

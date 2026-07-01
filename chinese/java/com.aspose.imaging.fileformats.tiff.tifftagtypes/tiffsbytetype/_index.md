@@ -1,18 +1,18 @@
 ---
 title: "TiffSByteType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff signed byte 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "tiff 有符号字节类型。"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffSByteType extends TiffCommonArrayType
 ```
 
-tiff signed byte 类型。
+tiff 有符号字节类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -68,7 +68,7 @@ public void setValues(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -78,7 +78,7 @@ public System.Array getValuesContainer()
 
 获取值容器。
 
-值：值容器。
+值：值的容器。
 
 **Returns:**
 com.aspose.ms.System.Array
@@ -127,7 +127,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object |  |
+| 值 | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

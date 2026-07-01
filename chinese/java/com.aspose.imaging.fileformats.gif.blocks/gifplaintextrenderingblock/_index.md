@@ -1,7 +1,7 @@
 ---
 title: "GifPlainTextRenderingBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 纯文本扩展块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 纯文本扩展块。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifPlainTextRenderingBlock extends GifBlock
 ```
 
-Gif 纯文本扩展块。纯文本扩展包含文本数据以及渲染该数据为图形所需的参数，采用简易形式。
+Gif 纯文本扩展块。纯文本扩展包含文本数据以及将这些数据渲染为图形所需的参数，形式简洁。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,7 +25,7 @@ Gif 纯文本扩展块。纯文本扩展包含文本数据以及渲染该数据�
 | --- | --- |
 | [EXTENSION_LABEL](#EXTENSION-LABEL) | 纯文本扩展标签。 |
 | [SUB_BLOCK_SIZE](#SUB-BLOCK-SIZE) | 子块的大小。 |
-| [BLOCK_SIZE](#BLOCK-SIZE) | 整体块大小。 |
+| [BLOCK_SIZE](#BLOCK-SIZE) | 整体块的大小。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -44,8 +44,8 @@ Gif 纯文本扩展块。纯文本扩展包含文本数据以及渲染该数据�
 | [setTextGridTopPosition(int value)](#setTextGridTopPosition-int-) | 获取或设置文本网格的顶部位置。 |
 | [getTextGridWidth()](#getTextGridWidth--) | 获取或设置文本网格的宽度（像素） |
 | [setTextGridWidth(int value)](#setTextGridWidth-int-) | 获取或设置文本网格的宽度（像素） |
-| [getTextGridHeight()](#getTextGridHeight--) | 获取或设置文本网格的高度（像素）。 |
-| [setTextGridHeight(int value)](#setTextGridHeight-int-) | 获取或设置文本网格的高度（像素）。 |
+| [getTextGridHeight()](#getTextGridHeight--) | 获取或设置文本网格的高度（像素） |
+| [setTextGridHeight(int value)](#setTextGridHeight-int-) | 获取或设置文本网格的高度（像素） |
 | [getPlainTextData()](#getPlainTextData--) | 获取或设置纯文本数据。 |
 | [setPlainTextData(byte[] value)](#setPlainTextData-byte---) | 获取或设置纯文本数据。 |
 ### GifPlainTextRenderingBlock() {#GifPlainTextRenderingBlock--}
@@ -71,10 +71,10 @@ public GifPlainTextRenderingBlock(int textGridLeftPosition, int textGridTopPosit
 | textGridTopPosition | int | 文本网格顶部位置。 |
 | textGridWidth | int | 文本网格宽度。 |
 | textGridHeight | int | 文本网格高度。 |
-| characterCellWidth | byte | 字符单元宽度。 |
-| characterCellHeight | byte | 字符单元高度。 |
-| textForegroundColorIndex | byte | 前景颜色索引。 |
-| textBackgroundColorIndex | byte | 背景颜色索引。 |
+| characterCellWidth | byte | 字符单元格宽度。 |
+| characterCellHeight | byte | 字符单元格高度。 |
+| textForegroundColorIndex | byte | 前景色索引。 |
+| textBackgroundColorIndex | byte | 背景色索引。 |
 | 数据 | byte[] | 纯文本数据。 |
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
@@ -99,7 +99,7 @@ public static final byte BLOCK_SIZE
 ```
 
 
-整体块大小。
+整体块的大小。
 
 ### getTextForegroundColorIndex() {#getTextForegroundColorIndex--}
 ```
@@ -109,7 +109,7 @@ public byte getTextForegroundColorIndex()
 
 获取或设置用于绘制文本前景的全局颜色调色板中颜色的索引。
 
-值：前景颜色索引。
+值：前景色索引。
 
 **Returns:**
 byte
@@ -121,12 +121,12 @@ public void setTextForegroundColorIndex(byte value)
 
 获取或设置用于绘制文本前景的全局颜色调色板中颜色的索引。
 
-值：前景颜色索引。
+值：前景色索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getTextBackgroundColorIndex() {#getTextBackgroundColorIndex--}
 ```
@@ -136,7 +136,7 @@ public byte getTextBackgroundColorIndex()
 
 获取或设置用于绘制文本背景的全局颜色调色板中颜色的索引。
 
-值：背景颜色索引。
+值：背景色索引。
 
 **Returns:**
 byte
@@ -148,12 +148,12 @@ public void setTextBackgroundColorIndex(byte value)
 
 获取或设置用于绘制文本背景的全局颜色调色板中颜色的索引。
 
-值：背景颜色索引。
+值：背景色索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getCharacterCellWidth() {#getCharacterCellWidth--}
 ```
@@ -180,7 +180,7 @@ public void setCharacterCellWidth(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getCharacterCellHeight() {#getCharacterCellHeight--}
 ```
@@ -207,7 +207,7 @@ public void setCharacterCellHeight(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getTextGridLeftPosition() {#getTextGridLeftPosition--}
 ```
@@ -219,7 +219,7 @@ public int getTextGridLeftPosition()
 
 值：文本网格左侧位置。
 
-这是文本网格左边缘相对于逻辑屏幕左边缘的列号（以像素为单位）。
+这是文本网格左边缘相对于逻辑屏幕左边缘的列号（单位为像素）。
 
 **Returns:**
 int
@@ -233,12 +233,12 @@ public void setTextGridLeftPosition(int value)
 
 值：文本网格左侧位置。
 
-这是文本网格左边缘相对于逻辑屏幕左边缘的列号（以像素为单位）。
+这是文本网格左边缘相对于逻辑屏幕左边缘的列号（单位为像素）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getTextGridTopPosition() {#getTextGridTopPosition--}
 ```
@@ -250,7 +250,7 @@ public int getTextGridTopPosition()
 
 值：文本网格顶部位置。
 
-这是文本网格顶部相对于逻辑屏幕顶部的行号（以像素为单位）。
+这是文本网格顶部相对于逻辑屏幕顶部的行号（单位为像素）。
 
 **Returns:**
 int
@@ -264,12 +264,12 @@ public void setTextGridTopPosition(int value)
 
 值：文本网格顶部位置。
 
-这是文本网格顶部相对于逻辑屏幕顶部的行号（以像素为单位）。
+这是文本网格顶部相对于逻辑屏幕顶部的行号（单位为像素）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getTextGridWidth() {#getTextGridWidth--}
 ```
@@ -296,7 +296,7 @@ public void setTextGridWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getTextGridHeight() {#getTextGridHeight--}
 ```
@@ -304,7 +304,7 @@ public int getTextGridHeight()
 ```
 
 
-获取或设置文本网格的高度（像素）。
+获取或设置文本网格的高度（像素）
 
 值：文本网格高度（像素）。
 
@@ -316,14 +316,14 @@ public void setTextGridHeight(int value)
 ```
 
 
-获取或设置文本网格的高度（像素）。
+获取或设置文本网格的高度（像素）
 
 值：文本网格高度（像素）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPlainTextData() {#getPlainTextData--}
 ```
@@ -350,5 +350,5 @@ public void setPlainTextData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

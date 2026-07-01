@@ -1,6 +1,6 @@
 ---
 title: "XmpCollection"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "XMP 元素集合。"
 type: docs
 weight: 15
@@ -25,10 +25,10 @@ XMP 元素集合。
 
 | 方法 | 描述 |
 | --- | --- |
-| [addItem(Object item)](#addItem-java.lang.Object-) | 添加新项。 |
-| [addObject(Object item)](#addObject-java.lang.Object-) | 添加 XMP 数据项。 |
-| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的项。 |
-| [add(IXmpType item)](#add-com.aspose.imaging.xmp.types.IXmpType-) | 向集合中添加项。 |
+| [addItem(Object item)](#addItem-java.lang.Object-) | 添加新项目。 |
+| [addObject(Object item)](#addObject-java.lang.Object-) | 添加一个 XMP 数据项。 |
+| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的项目。 |
+| [add(IXmpType item)](#add-com.aspose.imaging.xmp.types.IXmpType-) | 向集合中添加一个项目。 |
 | [copyTo(IXmpType[] array, int arrayIndex)](#copyTo-com.aspose.imaging.xmp.types.IXmpType---int-) | 将集合的元素复制到数组中，从特定的数组索引开始。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取此对象的 XMP 字符串值。 |
 | [getXmlValue()](#getXmlValue--) | 将 XMP 值转换为 XML 表示形式。 |
@@ -47,12 +47,12 @@ public final void addItem(Object item)
 ```
 
 
-添加新项。
+添加新项目。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 项 | java.lang.Object | 要添加到项目列表中的项目。 |
+| 项目 | java.lang.Object | 要添加到项目列表中的项目。 |
 
 ### addObject(Object item) {#addObject-java.lang.Object-}
 ```
@@ -60,12 +60,12 @@ public final void addObject(Object item)
 ```
 
 
-添加 XMP 数据项。
+添加一个 XMP 数据项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 项 | java.lang.Object | 一个 XMP 项目。 |
+| 项目 | java.lang.Object | 一个 XMP 项目。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -73,12 +73,12 @@ public final void removeAt(int index)
 ```
 
 
-移除指定索引处的项。
+移除指定索引处的项目。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 要移除的项的零基索引。 |
+| 索引 | int | 要移除的项的零基索引。 |
 
 ### add(IXmpType item) {#add-com.aspose.imaging.xmp.types.IXmpType-}
 ```
@@ -86,12 +86,12 @@ public final boolean add(IXmpType item)
 ```
 
 
-向集合中添加项。
+向集合中添加一个项目。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | [IXmpType](../../com.aspose.imaging.xmp.types/ixmptype) | 要添加到集合的对象。 |
+| item | [IXmpType](../../com.aspose.imaging.xmp.types/ixmptype) | 要添加到集合中的对象。 |
 
 **Returns:**
 boolean
@@ -106,8 +106,8 @@ public final void copyTo(IXmpType[] array, int arrayIndex)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| array | [IXmpType\[\]](../../com.aspose.imaging.xmp.types/ixmptype) | 一维数组，是从集合复制的元素的目标。该数组必须使用零基索引。 |
-| arrayIndex | int | 在数组中复制开始的零基索引。 |
+| array | [IXmpType\[\]](../../com.aspose.imaging.xmp.types/ixmptype) | 一维数组，用作从集合复制的元素的目标。该数组必须使用零基索引。 |
+| arrayIndex | int | 复制开始时数组中的零基索引。 |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -128,7 +128,7 @@ public final String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 表示形式的 XMP 值。
+java.lang.String - 返回已转换为 XML 表示形式的 XMP 值。
 ### toString() {#toString--}
 ```
 public String toString()

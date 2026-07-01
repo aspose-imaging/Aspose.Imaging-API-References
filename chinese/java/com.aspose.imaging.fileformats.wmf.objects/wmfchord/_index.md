@@ -1,7 +1,7 @@
 ---
 title: "WmfChord"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_CHORD 记录绘制一个弦，该弦由椭圆与线段相交形成的区域定义。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_CHORD 记录绘制一个和弦，该和弦由椭圆与线段交叉形成的区域界定。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfchord/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfChord extends WmfRectangle
 ```
 
-META\_CHORD 记录绘制一个弦，该弦由椭圆与线段相交形成的区域定义。弦使用回放设备上下文中定义的笔进行描边，并使用刷子进行填充。
+META\_CHORD 记录绘制一个和弦，该和弦由椭圆与线段交叉形成的区域界定。该和弦使用回放设备上下文中定义的笔进行描边，并使用刷子进行填充。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -40,7 +40,7 @@ public Point getRadial2()
 
 获取或设置 radial2。
 
-值：第二根径向的端点坐标（逻辑坐标）。
+值：第二根辐线端点的坐标（逻辑坐标）。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -52,7 +52,7 @@ public void setRadial2(Point value)
 
 获取或设置 radial2。
 
-值：第二根径向的端点坐标（逻辑坐标）。
+值：第二根辐线端点的坐标（逻辑坐标）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -67,7 +67,7 @@ public Point getRadial1()
 
 获取或设置 radial1。
 
-值：第一根径向的端点坐标（逻辑坐标）。
+值：第一根辐线端点的坐标（逻辑坐标）。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -79,7 +79,7 @@ public void setRadial1(Point value)
 
 获取或设置 radial1。
 
-值：第一根径向的端点坐标（逻辑坐标）。
+值：第一根辐线端点的坐标（逻辑坐标）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

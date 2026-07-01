@@ -1,13 +1,13 @@
 ---
 title: "WmfSetPolyFillMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "设置多边形填充模式。"
 type: docs
 weight: 81
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetPolyFillMode extends WmfObject
 ```
@@ -43,7 +43,7 @@ public short getPolyFillMode()
 值：多边形填充模式。
 
 **Returns:**
-short
+短
 ### setPolyFillMode(short value) {#setPolyFillMode-short-}
 ```
 public void setPolyFillMode(short value)
@@ -57,7 +57,7 @@ public void setPolyFillMode(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -84,5 +84,5 @@ public void setReserved(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

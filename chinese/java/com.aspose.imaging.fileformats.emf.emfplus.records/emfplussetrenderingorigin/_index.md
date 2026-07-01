@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusSetRenderingOrigin"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 EmfPlusSetRenderingOrigin 记录指定图形输出的渲染原点。"
 type: docs
 weight: 63
@@ -37,7 +37,7 @@ public EmfPlusSetRenderingOrigin(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getX() {#getX--}
 ```
@@ -64,7 +64,7 @@ public void setX(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getY() {#getY--}
 ```
@@ -91,5 +91,5 @@ public void setY(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

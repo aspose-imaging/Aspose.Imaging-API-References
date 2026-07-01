@@ -1,6 +1,6 @@
 ---
 title: "EmfSetTextColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETTEXTCOLOR 记录定义当前文本颜色。"
 type: docs
 weight: 140
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetTextColor extends EmfStateRecordType
 ```
 
-EMR\_SETTEXTCOLOR 记录定义当前文本颜色。
+该 EMR\_SETTEXTCOLOR 记录定义当前文本颜色。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_SETTEXTCOLOR 记录定义当前文本颜色。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getArgb32Color()](#getArgb32Color--) | 获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。 |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。 |
+| [getArgb32Color()](#getArgb32Color--) | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。 |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。 |
 ### EmfSetTextColor(EmfRecord source) {#EmfSetTextColor-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetTextColor(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetTextColor(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetTextColor() {#EmfSetTextColor--}
 ```
@@ -52,7 +52,7 @@ public int getArgb32Color()
 ```
 
 
-获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。
+获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。
 
 **Returns:**
 int
@@ -62,10 +62,10 @@ public void setArgb32Color(int value)
 ```
 
 
-获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。
+获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定文本颜色值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

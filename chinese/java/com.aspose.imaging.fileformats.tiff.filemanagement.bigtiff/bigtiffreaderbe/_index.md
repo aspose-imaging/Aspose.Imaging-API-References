@@ -1,6 +1,6 @@
 ---
 title: "BigTiffReaderBE"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "大端序 BigTiff 流写入器。"
 type: docs
 weight: 11

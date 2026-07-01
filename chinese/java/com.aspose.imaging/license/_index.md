@@ -1,7 +1,7 @@
 ---
 title: "许可证"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "提供对组件授权的方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "提供对组件进行授权的方法。"
 type: docs
 weight: 67
 url: /zh/java/com.aspose.imaging/license/
@@ -12,7 +12,7 @@ java.lang.Object
 public class License
 ```
 
-提供对组件授权的方法。
+提供对组件进行授权的方法。
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -1,7 +1,7 @@
 ---
 title: "WmfCreateRegion"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_CREATEREGION 记录创建一个区域对象（章节 2.2.1.5）。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_CREATEREGION 记录创建一个区域对象，参见第 2.2.1.5 节。"
 type: docs
 weight: 25
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreateregion/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfCreateRegion extends WmfGraphicObject
 ```
 
-META\_CREATEREGION 记录创建一个 Region 对象（第 2.2.1.5 节）。
+META\_CREATEREGION 记录创建区域对象（第 2.2.1.5 节）。
 ## 构造函数
 
 | 构造函数 | 描述 |

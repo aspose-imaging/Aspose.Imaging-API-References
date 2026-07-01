@@ -1,6 +1,6 @@
 ---
 title: "EvalException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于评估错误的自定义异常"
 type: docs
 weight: 10
@@ -34,8 +34,8 @@ public EvalException(String message, int position)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
-| position | int | 该位置。 |
+| 消息 | java.lang.String | 该消息。 |
+| 位置 | int | 该位置。 |
 
 ### getMessage() {#getMessage--}
 ```

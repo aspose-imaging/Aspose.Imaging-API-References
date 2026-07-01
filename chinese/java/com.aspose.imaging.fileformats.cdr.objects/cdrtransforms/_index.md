@@ -1,7 +1,7 @@
 ---
 title: "CdrTransforms"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 变换对象"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 变换 对象"
 type: docs
 weight: 42
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrtransforms/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrTransforms extends CdrObject
 ```
 
-cdr 变换对象
+该 cdr 变换 对象
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ cdr 变换对象
 
 | 方法 | 描述 |
 | --- | --- |
-| [getTransforms()](#getTransforms--) | 获取转换。 |
-| [setTransforms(List<Matrix> value)](#setTransforms-java.util.List-com.aspose.imaging.Matrix--) | 设置转换。 |
+| [getTransforms()](#getTransforms--) | 获取变换。 |
+| [setTransforms(List<Matrix> value)](#setTransforms-java.util.List-com.aspose.imaging.Matrix--) | 设置变换。 |
 ### CdrTransforms() {#CdrTransforms--}
 ```
 public CdrTransforms()
@@ -36,20 +36,20 @@ public final List<Matrix> getTransforms()
 ```
 
 
-获取转换。
+获取变换。
 
 **Returns:**
-java.util.List<com.aspose.imaging.Matrix> - 转换。
+java.util.List<com.aspose.imaging.Matrix> - 变换。
 ### setTransforms(List<Matrix> value) {#setTransforms-java.util.List-com.aspose.imaging.Matrix--}
 ```
 public final void setTransforms(List<Matrix> value)
 ```
 
 
-设置转换。
+设置变换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<com.aspose.imaging.Matrix> | 转换。 |
+| 值 | java.util.List<com.aspose.imaging.Matrix> | 变换。 |
 

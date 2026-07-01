@@ -1,7 +1,7 @@
 ---
 title: "CdrIcc"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr ICC 配置文件"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr ICC 配置文件"
 type: docs
 weight: 24
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdricc/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrIcc extends CdrObjectContainer
 ```
 
-cdr ICC 配置文件
+该 cdr ICC 配置文件
 ## 构造函数
 
 | 构造函数 | 描述 |

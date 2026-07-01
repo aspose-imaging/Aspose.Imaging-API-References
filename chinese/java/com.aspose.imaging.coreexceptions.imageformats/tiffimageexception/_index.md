@@ -1,6 +1,6 @@
 ---
 title: "TiffImageException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Tiff 图像异常"
 type: docs
 weight: 21
@@ -37,7 +37,7 @@ public TiffImageException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### TiffImageException(String message, Throwable innerException) {#TiffImageException-java.lang.String-java.lang.Throwable-}
 ```
@@ -50,7 +50,7 @@ public TiffImageException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 
 ### TiffImageException(String message, int error) {#TiffImageException-java.lang.String-int-}
@@ -64,7 +64,7 @@ public TiffImageException(String message, int error)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | 错误 | int | 错误。 |
 
 ### TiffImageException(int error) {#TiffImageException-int-}

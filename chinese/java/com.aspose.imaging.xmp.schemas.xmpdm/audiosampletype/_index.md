@@ -1,6 +1,6 @@
 ---
 title: "AudioSampleType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XmpDynamicMediaPackage 中的音频采样类型。"
 type: docs
 weight: 11
@@ -31,11 +31,11 @@ public final class AudioSampleType
 | --- | --- |
 | [getSample8Int()](#getSample8Int--) | 表示 8Int 音频采样。 |
 | [getSample16Int()](#getSample16Int--) | 表示 16Int 音频采样。 |
-| [getSample24Int()](#getSample24Int--) | 表示 24Int 音频采样。 |
-| [getSample32Int()](#getSample32Int--) | 表示 32Int 音频采样。 |
-| [getSample32Float()](#getSample32Float--) | 表示 32Float 音频采样。 |
-| [getCompressed()](#getCompressed--) | 表示压缩音频采样。 |
-| [getPacked()](#getPacked--) | 表示打包音频采样。 |
+| [getSample24Int()](#getSample24Int--) | 表示 24Int 音频样本。 |
+| [getSample32Int()](#getSample32Int--) | 表示 32Int 音频样本。 |
+| [getSample32Float()](#getSample32Float--) | 表示 32Float 音频样本。 |
+| [getCompressed()](#getCompressed--) | 表示 压缩音频样本。 |
+| [getPacked()](#getPacked--) | 表示 打包音频样本。 |
 | [toString()](#toString--) | 返回表示此实例的 `System.String`。 |
 ### AudioSample8Int {#AudioSample8Int}
 ```
@@ -127,7 +127,7 @@ public static AudioSampleType getSample24Int()
 ```
 
 
-表示 24Int 音频采样。
+表示 24Int 音频样本。
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -137,7 +137,7 @@ public static AudioSampleType getSample32Int()
 ```
 
 
-表示 32Int 音频采样。
+表示 32Int 音频样本。
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -147,7 +147,7 @@ public static AudioSampleType getSample32Float()
 ```
 
 
-表示 32Float 音频采样。
+表示 32Float 音频样本。
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -157,7 +157,7 @@ public static AudioSampleType getCompressed()
 ```
 
 
-表示压缩音频采样。
+表示 压缩音频样本。
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)
@@ -167,7 +167,7 @@ public static AudioSampleType getPacked()
 ```
 
 
-表示打包音频采样。
+表示 打包音频样本。
 
 **Returns:**
 [AudioSampleType](../../com.aspose.imaging.xmp.schemas.xmpdm/audiosampletype)

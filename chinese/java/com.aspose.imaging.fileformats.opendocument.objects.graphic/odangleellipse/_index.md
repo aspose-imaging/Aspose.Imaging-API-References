@@ -1,6 +1,6 @@
 ---
 title: "OdAngleEllipse"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "增强角椭圆"
 type: docs
 weight: 10
@@ -26,8 +26,8 @@ public class OdAngleEllipse extends OdStyledObject
 | [setStartAngle(float value)](#setStartAngle-float-) | 获取或设置起始角度。 |
 | [getEndAngle()](#getEndAngle--) | 获取或设置结束角度。 |
 | [setEndAngle(float value)](#setEndAngle-float-) | 获取或设置结束角度。 |
-| [getClosed()](#getClosed--) | 获取或设置一个值，指示此 `OdAngleEllipse` 是否闭合。 |
-| [setClosed(boolean value)](#setClosed-boolean-) | 获取或设置一个值，指示此 `OdAngleEllipse` 是否闭合。 |
+| [getClosed()](#getClosed--) | 获取或设置指示此 `OdAngleEllipse` 是否闭合的值。 |
+| [setClosed(boolean value)](#setClosed-boolean-) | 获取或设置指示此 `OdAngleEllipse` 是否闭合的值。 |
 | [getKind()](#getKind--) | 获取或设置类型。 |
 | [setKind(int value)](#setKind-int-) | 获取或设置类型。 |
 ### OdAngleEllipse(OdObject parent) {#OdAngleEllipse-com.aspose.imaging.fileformats.opendocument.OdObject-}
@@ -41,7 +41,7 @@ public OdAngleEllipse(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getStartAngle() {#getStartAngle--}
 ```
@@ -64,7 +64,7 @@ public void setStartAngle(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 起始角度。 |
+| 值 | float | 起始角度。 |
 
 ### getEndAngle() {#getEndAngle--}
 ```
@@ -87,7 +87,7 @@ public void setEndAngle(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 结束角度。 |
+| 值 | float | 结束角度。 |
 
 ### getClosed() {#getClosed--}
 ```
@@ -95,22 +95,22 @@ public boolean getClosed()
 ```
 
 
-获取或设置一个值，指示此 `OdAngleEllipse` 是否闭合。
+获取或设置指示此 `OdAngleEllipse` 是否闭合的值。
 
 **Returns:**
-boolean - 如果闭合则为 `true`；否则为 `false`。
+boolean - 若闭合则为 `true`；否则为 `false`。
 ### setClosed(boolean value) {#setClosed-boolean-}
 ```
 public void setClosed(boolean value)
 ```
 
 
-获取或设置一个值，指示此 `OdAngleEllipse` 是否闭合。
+获取或设置指示此 `OdAngleEllipse` 是否闭合的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示闭合；否则为 `false`。 |
+| 值 | boolean | `true` 表示闭合；否则为 `false`。 |
 
 ### getKind() {#getKind--}
 ```
@@ -133,5 +133,5 @@ public void setKind(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类型。 |
+| 值 | int | 类型。 |
 

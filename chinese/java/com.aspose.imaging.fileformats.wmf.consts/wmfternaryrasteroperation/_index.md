@@ -1,7 +1,7 @@
 ---
 title: "WmfTernaryRasterOperation"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "枚举指定三元光栅操作码，这些码定义了如何将源位图中的位与目标位图中的位组合。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "枚举指定三元光栅操作码，用于定义如何将源位图中的位与目标位图中的位组合。"
 type: docs
 weight: 34
 url: /zh/java/com.aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
@@ -20,31 +20,31 @@ public final class WmfTernaryRasterOperation extends System.Enum
 | [BLACKNESS](#BLACKNESS) | 使用物理调色板中索引 0 对应的颜色填充目标矩形。 |
 |  | [DPSOON](#DPSOON) | -------------------- |
 
-逆波兰 = 通用 = DPSoon |
+逆波兰 = Common = DPSoon |
 |  | [DPSONA](#DPSONA) | -------------------- |
 
-逆波兰 = 通用 = DPSona |
+逆波兰 = Common = DPSona |
 |  | [PSON](#PSON) | -------------------- |
 
-逆波兰 = 通用 = PSon |
+逆波兰 = Common = PSon |
 |  | [SDPONA](#SDPONA) | -------------------- |
 
-逆波兰 = 通用 = SDPona |
+逆波兰 = Common = SDPona |
 |  | [DPON](#DPON) | -------------------- |
 
-逆波兰 = 通用 = DPon |
+逆波兰 = Common = DPon |
 |  | [PDSXNON](#PDSXNON) | -------------------- |
 
-逆波兰 = 通用 = PDSxnon |
+逆波兰 = Common = PDSxnon |
 |  | [PDSAON](#PDSAON) | -------------------- |
 
-逆波兰 = 通用 = PDSaon |
+逆波兰 = Common = PDSaon |
 |  | [SDPNAA](#SDPNAA) | -------------------- |
 
-逆波兰 = 通用 = SDPnaa |
+逆波兰 = Common = SDPnaa |
 |  | [PDSXON](#PDSXON) | -------------------- |
 
-逆波兰 = 通用 = PDSxon |
+逆波兰 = Common = PDSxon |
 |  | [DPNA](#DPNA) | -------------------- |
 
 逆波兰 = 通用 = DPna |
@@ -66,7 +66,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [PDSONA](#PDSONA) | -------------------- |
 
 逆波兰 = 通用 = PDSona |
-| [NOTSRCERASE](#NOTSRCERASE) | 通过使用布尔 OR 运算符将源矩形和目标矩形的颜色组合，然后反转得到的颜色。 |
+| [NOTSRCERASE](#NOTSRCERASE) | 通过使用布尔 OR 运算符将源矩形和目标矩形的颜色组合，然后反转结果颜色。 |
 |  | [SDPXNON](#SDPXNON) | -------------------- |
 
 逆波兰 = 通用 = SDPxnon |
@@ -215,7 +215,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [SPDSANAXN](#SPDSANAXN) | -------------------- |
 
 逆波兰 = 通用 = SPDSanaxn |
-| [SRCERASE](#SRCERASE) | 通过使用布尔 AND 运算符，将目标矩形的反转颜色与源矩形的颜色组合。 |
+| [SRCERASE](#SRCERASE) | 通过使用布尔 AND 运算符，将目标矩形的反转颜色与源矩形的颜色组合在一起。 |
 |  | [DPSNAON](#DPSNAON) | -------------------- |
 
 逆波兰 = 通用 = DPSnaon |
@@ -277,7 +277,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [DPSNOX](#DPSNOX) | -------------------- |
 
 通用 = DPSnox |
-| [PATINVERT](#PATINVERT) | 通过使用布尔 XOR 运算符，将 hdcDest 中当前选定的画笔颜色与目标矩形的颜色组合。 |
+| [PATINVERT](#PATINVERT) | 将当前在 hdcDest 中选中的画笔颜色与目标矩形的颜色结合，使用布尔 XOR 运算符。 |
 |  | [DPSDONOX](#DPSDONOX) | -------------------- |
 
 通用 = DPSDonox |
@@ -311,7 +311,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [DSPNOX](#DSPNOX) | -------------------- |
 
 通用 = DSPnox |
-| [SRCINVERT](#SRCINVERT) | 通过使用布尔 XOR 运算符，将源矩形和目标矩形的颜色合并。 |
+| [SRCINVERT](#SRCINVERT) | 将源矩形和目标矩形的颜色结合，使用布尔 XOR 运算符。 |
 |  | [SDPSONOX](#SDPSONOX) | -------------------- |
 
 通用 = SDPSonox |
@@ -411,7 +411,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [PDSAXN](#PDSAXN) | -------------------- |
 
 通用 = PDSaxn |
-| [SRCAND](#SRCAND) | 通过使用布尔 AND 运算符，将源矩形和目标矩形的颜色合并。 |
+| [SRCAND](#SRCAND) | 通过使用布尔 AND 运算符，将源矩形和目标矩形的颜色组合在一起。 |
 |  | [SDPSNAOXN](#SDPSNAOXN) | -------------------- |
 
 通用 = SDPSnaoxn |
@@ -575,7 +575,7 @@ public final class WmfTernaryRasterOperation extends System.Enum
 |  | [DPSANO](#DPSANO) | -------------------- |
 
 通用 = DPSano |
-| [MERGECOPY](#MERGECOPY) | 使用布尔 AND 运算符合并源矩形的颜色与 hdcDest 中当前选中的画刷的颜色。 |
+| [MERGECOPY](#MERGECOPY) | 使用布尔 AND 运算符合并源矩形的颜色与 hdcDest 中当前选中的画刷。 |
 |  | [SPDSNAOXN](#SPDSNAOXN) | -------------------- |
 
 通用 = SPDSnaoxn |
@@ -722,38 +722,38 @@ public final class WmfTernaryRasterOperation extends System.Enum
 通用 = PDSnao |
 |  | [PSNO](#PSNO) | -------------------- |
 
-Common = PSno |
+通用 = PSno |
 |  | [PSDNAO](#PSDNAO) | -------------------- |
 
-Common = PSDnao |
+通用 = PSDnao |
 |  | [PDNO](#PDNO) | -------------------- |
 
-Common = PDno |
+通用 = PDno |
 |  | [PDSXO](#PDSXO) | -------------------- |
 
-Common = PDSxo |
+通用 = PDSxo |
 |  | [PDSANO](#PDSANO) | -------------------- |
 
-Common = PDSano |
+通用 = PDSano |
 |  | [PDSAO](#PDSAO) | -------------------- |
 
-Common = PDSao |
+通用 = PDSao |
 |  | [PDSXNO](#PDSXNO) | -------------------- |
 
-Common = PDSxno |
+通用 = PDSxno |
 |  | [DPO](#DPO) | -------------------- |
 
-Common = DPo |
-| [PATPAINT](#PATPAINT) | 使用布尔 OR 运算符，将当前在 hdcDest 中选中的画笔颜色与反转源矩形的颜色进行合并。 |
+通用 = DPo |
+| [PATPAINT](#PATPAINT) | 通过使用布尔 OR 运算符，将当前在 hdcDest 中选中的画笔颜色与反转源矩形的颜色合并。 |
 |  | [PSO](#PSO) | -------------------- |
 
-Common = PSo |
+通用 = PSo |
 |  | [PSDNOO](#PSDNOO) | -------------------- |
 
-Common = PSDnoo |
+通用 = PSDnoo |
 |  | [DPSOO](#DPSOO) | -------------------- |
 
-Common = DPSoo |
+通用 = DPSoo |
 | [WHITENESS](#WHITENESS) | 使用物理调色板中索引 1 对应的颜色填充目标矩形。 |
 ### BLACKNESS {#BLACKNESS}
 ```
@@ -761,11 +761,11 @@ public static final int BLACKNESS
 ```
 
 
-使用物理调色板中索引 0 对应的颜色填充目标矩形。（对于默认的物理调色板，此颜色为黑色。）
+使用物理调色板中索引 0 对应的颜色填充目标矩形。（此颜色是默认物理调色板的黑色。）
 
 --------------------
 
-Reverse Polish = Common = 0
+逆波兰 = 通用 = 0
 
 ### DPSOON {#DPSOON}
 ```
@@ -775,7 +775,7 @@ public static final int DPSOON
 
 --------------------
 
-Reverse Polish = Common = DPSoon
+逆波兰 = 通用 = DPSoon
 
 ### DPSONA {#DPSONA}
 ```
@@ -785,7 +785,7 @@ public static final int DPSONA
 
 --------------------
 
-Reverse Polish = Common = DPSona
+逆波兰 = 通用 = DPSona
 
 ### PSON {#PSON}
 ```
@@ -795,7 +795,7 @@ public static final int PSON
 
 --------------------
 
-Reverse Polish = Common = PSon
+逆波兰 = 通用 = PSon
 
 ### SDPONA {#SDPONA}
 ```
@@ -805,7 +805,7 @@ public static final int SDPONA
 
 --------------------
 
-Reverse Polish = Common = SDPona
+逆波兰 = 通用 = SDPona
 
 ### DPON {#DPON}
 ```
@@ -815,7 +815,7 @@ public static final int DPON
 
 --------------------
 
-Reverse Polish = Common = DPon
+逆波兰 = 通用 = DPon
 
 ### PDSXNON {#PDSXNON}
 ```
@@ -825,7 +825,7 @@ public static final int PDSXNON
 
 --------------------
 
-Reverse Polish = Common = PDSxnon
+逆波兰 = 通用 = PDSxnon
 
 ### PDSAON {#PDSAON}
 ```
@@ -835,7 +835,7 @@ public static final int PDSAON
 
 --------------------
 
-Reverse Polish = Common = PDSaon
+逆波兰 = 通用 = PDSaon
 
 ### SDPNAA {#SDPNAA}
 ```
@@ -845,7 +845,7 @@ public static final int SDPNAA
 
 --------------------
 
-Reverse Polish = Common = SDPnaa
+逆波兰 = 通用 = SDPnaa
 
 ### PDSXON {#PDSXON}
 ```
@@ -855,7 +855,7 @@ public static final int PDSXON
 
 --------------------
 
-Reverse Polish = Common = PDSxon
+逆波兰 = 通用 = PDSxon
 
 ### DPNA {#DPNA}
 ```
@@ -865,7 +865,7 @@ public static final int DPNA
 
 --------------------
 
-Reverse Polish = Common = DPna
+逆波兰 = 通用 = DPna
 
 ### PSDNAON {#PSDNAON}
 ```
@@ -933,7 +933,7 @@ public static final int NOTSRCERASE
 ```
 
 
-通过使用布尔 OR 运算符将源矩形和目标矩形的颜色组合，然后反转得到的颜色。
+通过使用布尔 OR 运算符将源矩形和目标矩形的颜色组合，然后反转结果颜色。
 
 --------------------
 
@@ -1447,7 +1447,7 @@ public static final int SRCERASE
 ```
 
 
-通过使用布尔 AND 运算符，将目标矩形的反转颜色与源矩形的颜色组合。
+通过使用布尔 AND 运算符，将目标矩形的反转颜色与源矩形的颜色组合在一起。
 
 --------------------
 
@@ -1671,7 +1671,7 @@ public static final int PATINVERT
 ```
 
 
-通过使用布尔 XOR 运算符，将 hdcDest 中当前选定的画笔颜色与目标矩形的颜色组合。
+将当前在 hdcDest 中选中的画笔颜色与目标矩形的颜色结合，使用布尔 XOR 运算符。
 
 --------------------
 
@@ -1793,7 +1793,7 @@ public static final int SRCINVERT
 ```
 
 
-通过使用布尔 XOR 运算符，将源矩形和目标矩形的颜色合并。
+将源矩形和目标矩形的颜色结合，使用布尔 XOR 运算符。
 
 --------------------
 
@@ -2135,11 +2135,11 @@ public static final int SRCAND
 ```
 
 
-通过使用布尔 AND 运算符，将源矩形和目标矩形的颜色合并。
+通过使用布尔 AND 运算符，将源矩形和目标矩形的颜色组合在一起。
 
 --------------------
 
-公共 = DSa
+通用 = DSa
 
 ### SDPSNAOXN {#SDPSNAOXN}
 ```
@@ -2149,7 +2149,7 @@ public static final int SDPSNAOXN
 
 --------------------
 
-公共 = SDPSnaoxn
+通用 = SDPSnaoxn
 
 ### DSPNOA {#DSPNOA}
 ```
@@ -2159,7 +2159,7 @@ public static final int DSPNOA
 
 --------------------
 
-公共 = DSPnoa
+通用 = DSPnoa
 
 ### DSPDXOXN {#DSPDXOXN}
 ```
@@ -2169,7 +2169,7 @@ public static final int DSPDXOXN
 
 --------------------
 
-公共 = DSPDxoxn
+通用 = DSPDxoxn
 
 ### SDPNOA {#SDPNOA}
 ```
@@ -2179,7 +2179,7 @@ public static final int SDPNOA
 
 --------------------
 
-公共 = SDPnoa
+通用 = SDPnoa
 
 ### SDPSXOXN {#SDPSXOXN}
 ```
@@ -2189,7 +2189,7 @@ public static final int SDPSXOXN
 
 --------------------
 
-公共 = SDPSxoxn
+通用 = SDPSxoxn
 
 ### SSDXPDXAX {#SSDXPDXAX}
 ```
@@ -2199,7 +2199,7 @@ public static final int SSDXPDXAX
 
 --------------------
 
-公共 = SSDxPDxax
+通用 = SSDxPDxax
 
 ### PDSANAN {#PDSANAN}
 ```
@@ -2209,7 +2209,7 @@ public static final int PDSANAN
 
 --------------------
 
-公共 = PDSanan
+通用 = PDSanan
 
 ### PDSXNA {#PDSXNA}
 ```
@@ -2219,7 +2219,7 @@ public static final int PDSXNA
 
 --------------------
 
-公共 = PDSxna
+通用 = PDSxna
 
 ### SDPSNOAXN {#SDPSNOAXN}
 ```
@@ -2229,7 +2229,7 @@ public static final int SDPSNOAXN
 
 --------------------
 
-公共 = SDPSnoaxn
+通用 = SDPSnoaxn
 
 ### DPSDPOAXX {#DPSDPOAXX}
 ```
@@ -2239,7 +2239,7 @@ public static final int DPSDPOAXX
 
 --------------------
 
-公共 = DPSDPoaxx
+通用 = DPSDPoaxx
 
 ### SPDAXN {#SPDAXN}
 ```
@@ -2249,7 +2249,7 @@ public static final int SPDAXN
 
 --------------------
 
-公共 = SPDaxn
+通用 = SPDaxn
 
 ### PSDPSOAXX {#PSDPSOAXX}
 ```
@@ -2259,7 +2259,7 @@ public static final int PSDPSOAXX
 
 --------------------
 
-公共 = PSDPSoaxx
+通用 = PSDPSoaxx
 
 ### DPSAXN {#DPSAXN}
 ```
@@ -2269,7 +2269,7 @@ public static final int DPSAXN
 
 --------------------
 
-公共 = DPSaxn
+通用 = DPSaxn
 
 ### DPSXX {#DPSXX}
 ```
@@ -2279,7 +2279,7 @@ public static final int DPSXX
 
 --------------------
 
-公共 = DPSxx
+通用 = DPSxx
 
 ### PSDPSONOXX {#PSDPSONOXX}
 ```
@@ -2289,7 +2289,7 @@ public static final int PSDPSONOXX
 
 --------------------
 
-公共 = PSDPSonoxx
+通用 = PSDPSonoxx
 
 ### SDPSONOXN {#SDPSONOXN}
 ```
@@ -2299,7 +2299,7 @@ public static final int SDPSONOXN
 
 --------------------
 
-公共 = SDPSonoxn
+通用 = SDPSonoxn
 
 ### DSXN {#DSXN}
 ```
@@ -2309,7 +2309,7 @@ public static final int DSXN
 
 --------------------
 
-公共 = DSxn
+通用 = DSxn
 
 ### DPSNAX {#DPSNAX}
 ```
@@ -2319,7 +2319,7 @@ public static final int DPSNAX
 
 --------------------
 
-公共 = DPSnax
+通用 = DPSnax
 
 ### SDPSOAXN {#SDPSOAXN}
 ```
@@ -2329,7 +2329,7 @@ public static final int SDPSOAXN
 
 --------------------
 
-公共 = SDPSoaxn
+通用 = SDPSoaxn
 
 ### SPDNAX {#SPDNAX}
 ```
@@ -2339,7 +2339,7 @@ public static final int SPDNAX
 
 --------------------
 
-公共 = SPDnax
+通用 = SPDnax
 
 ### DSPDOAXN {#DSPDOAXN}
 ```
@@ -2349,7 +2349,7 @@ public static final int DSPDOAXN
 
 --------------------
 
-公共 = DSPDoaxn
+通用 = DSPDoaxn
 
 ### DSPDSAOXX {#DSPDSAOXX}
 ```
@@ -2359,7 +2359,7 @@ public static final int DSPDSAOXX
 
 --------------------
 
-公共 = DSPDSaoxx
+通用 = DSPDSaoxx
 
 ### PDSXAN {#PDSXAN}
 ```
@@ -2369,7 +2369,7 @@ public static final int PDSXAN
 
 --------------------
 
-公共 = PDSxan
+通用 = PDSxan
 
 ### DPA {#DPA}
 ```
@@ -2379,7 +2379,7 @@ public static final int DPA
 
 --------------------
 
-公共 = DPa
+通用 = DPa
 
 ### PDSPNAOXN {#PDSPNAOXN}
 ```
@@ -2699,7 +2699,7 @@ public static final int MERGECOPY
 ```
 
 
-使用布尔 AND 运算符合并源矩形的颜色与 hdcDest 中当前选中的画刷的颜色。
+使用布尔 AND 运算符合并源矩形的颜色与 hdcDest 中当前选中的画刷。
 
 --------------------
 
@@ -3297,7 +3297,7 @@ public static final int PATPAINT
 ```
 
 
-将当前在 hdcDest 中选定的画笔颜色与使用 Boolean OR operator 的反转源矩形颜色相结合。此操作的结果再使用 Boolean OR operator 与目标矩形的颜色相结合。
+使用布尔 OR 运算符，将当前在 hdcDest 中选中的画笔颜色与反转的源矩形颜色进行合并。该操作的结果再使用布尔 OR 运算符与目标矩形的颜色合并。
 
 --------------------
 

@@ -1,7 +1,7 @@
 ---
 title: "OtgRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Otg 光栅化选项"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Otg 光栅化选项。"
 type: docs
 weight: 34
 url: /zh/java/com.aspose.imaging.imageoptions/otgrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class OtgRasterizationOptions extends OdRasterizationOptions
 ```
 
-Otg 光栅化选项
+Otg 光栅化选项。
 ## 构造函数
 
 | 构造函数 | 描述 |

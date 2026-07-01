@@ -1,6 +1,6 @@
 ---
 title: "Jpeg2000Codec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 JPEG2000 图像类型"
 type: docs
 weight: 10
@@ -17,16 +17,16 @@ public final class Jpeg2000Codec extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [J2K](#J2K) | j2k 编解码器格式 |
-| [Jp2](#Jp2) | JP2 编解码器格式 |
-| [Jpt](#Jpt) | JPT 编解码器格式（不支持） |
+| [J2K](#J2K) | j2k 编码格式 |
+| [Jp2](#Jp2) | JP2 编码格式 |
+| [Jpt](#Jpt) | JPT 编码格式（不受支持） |
 ### J2K {#J2K}
 ```
 public static final int J2K
 ```
 
 
-j2k 编解码器格式
+j2k 编码格式
 
 ### Jp2 {#Jp2}
 ```
@@ -34,7 +34,7 @@ public static final int Jp2
 ```
 
 
-JP2 编解码器格式
+JP2 编码格式
 
 ### Jpt {#Jpt}
 ```
@@ -42,5 +42,5 @@ public static final int Jpt
 ```
 
 
-JPT 编解码器格式（不支持）
+JPT 编码格式（不受支持）
 

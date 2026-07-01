@@ -1,6 +1,6 @@
 ---
 title: "EventType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此枚举描述图像处理操作期间可能发生的进度事件类型。"
 type: docs
 weight: 11

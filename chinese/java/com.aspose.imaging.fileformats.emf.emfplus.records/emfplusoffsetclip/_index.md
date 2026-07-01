@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusOffsetClip"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusOffsetClip 记录对世界空间的当前裁剪区域应用平移变换。"
 type: docs
 weight: 44
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusOffsetClip extends EmfPlusClippingRecordType
 ```
 
-EmfPlusOffsetClip 记录对世界空间的当前裁剪区域应用平移变换。新的当前裁剪区域被设置为平移变换的结果。
+EmfPlusOffsetClip 记录对世界空间的当前剪裁区域应用平移变换。新的当前剪裁区域被设置为平移变换的结果。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public EmfPlusOffsetClip(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getDx() {#getDx--}
 ```
@@ -60,7 +60,7 @@ public void setDx(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getDy() {#getDy--}
 ```
@@ -83,5 +83,5 @@ public void setDy(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 

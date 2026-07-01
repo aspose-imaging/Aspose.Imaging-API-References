@@ -1,24 +1,24 @@
 ---
 title: "TiffLong8Type"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Tiff unsigned 64-bit 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Tiff 无符号 64 位类型。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public class TiffLong8Type extends TiffCommonArrayType
 ```
 
-Tiff unsigned 64-bit 类型。
+Tiff 无符号 64 位类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [TiffLong8Type(int tagId)](#TiffLong8Type-int-) | 初始化 [TiffLong8Type](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tifflong8type) 类的新实例。 |
-| [TiffLong8Type(int tagId, long[] values)](#TiffLong8Type-int-long---) | 初始化 [TiffLong8Type](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tifflong8type) 类的新实例。 |
+| [TiffLong8Type(int tagId)](#TiffLong8Type-int-) | 初始化 [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) 类的新实例。 |
+| [TiffLong8Type(int tagId, long[] values)](#TiffLong8Type-int-long---) | 初始化 [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -29,7 +29,7 @@ Tiff unsigned 64-bit 类型。
 | [getTagType()](#getTagType--) | 获取标签类型。 |
 | [getValue()](#getValue--) | 获取此数据类型包含的值。 |
 | [setValue(Object value)](#setValue-java.lang.Object-) | 设置此数据类型包含的值。 |
-| [getElementSize()](#getElementSize--) | 获取元素大小。 |
+| [getElementSize()](#getElementSize--) | 获取元素的大小。 |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | 写入附加标签数据。 |
 ### TiffLong8Type(int tagId) {#TiffLong8Type-int-}
 ```
@@ -37,7 +37,7 @@ public TiffLong8Type(int tagId)
 ```
 
 
-初始化 [TiffLong8Type](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tifflong8type) 类的新实例。
+初始化 [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -50,7 +50,7 @@ public TiffLong8Type(int tagId, long[] values)
 ```
 
 
-初始化 [TiffLong8Type](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tifflong8type) 类的新实例。
+初始化 [TiffLong8Type](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -83,7 +83,7 @@ public final void setValues(long[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] | 值。 |
+| 值 | long[] | 值。 |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```
@@ -94,7 +94,7 @@ public System.Array getValuesContainer()
 获取值容器。
 
 **Returns:**
-com.aspose.ms.System.Array - 值容器。
+com.aspose.ms.System.Array - 值的容器。
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()
@@ -128,7 +128,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 此数据类型包含的值。 |
+| 值 | java.lang.Object | 此数据类型包含的值。 |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -136,7 +136,7 @@ public byte getElementSize()
 ```
 
 
-获取元素大小。
+获取元素的大小。
 
 **Returns:**
 byte - 元素大小。

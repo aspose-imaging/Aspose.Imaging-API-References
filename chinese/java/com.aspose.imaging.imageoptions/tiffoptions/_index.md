@@ -1,6 +1,6 @@
 ---
 title: "TiffOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "tiff 文件格式选项。"
 type: docs
 weight: 48
@@ -15,22 +15,22 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class TiffOptions extends ImageOptionsBase implements IMetadataContainer
 ```
 
-tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时被宽度和高度参数覆盖，因此无需直接指定它们。请注意，许多选项返回默认值，但这并不意味着该选项已显式设置为标签值。要验证标签是否存在，请使用 Tags 属性或相应的 IsTagPresent 方法。
+tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时被宽度和高度参数覆盖，因此无需直接指定它们。另请注意，许多选项返回默认值，但这并不意味着该选项已显式设置为标签值。要验证标签是否存在，请使用 Tags 属性或相应的 IsTagPresent 方法。
 
-` 警告！在保存期间切勿修改 tiff 选项，因为这可能导致副作用和难以发现的错误。以下行被特意保留为注释，因为它导致数据起始位置判断错误。传入的选项未包含 spp（虽然在这种情况下选项本身不正确，但仍会导致错误），下一行导致添加了 +spp 标记 +bpp 标记，并且当选项在数据完全写入后写入时，它们会覆盖未压缩编解码器的数据起始位置！！！参见 TiffUncompressedCodec.Encode。 this.Options.SamplesPerPixel = 3; `
+` 警告！在保存期间切勿修改 tiff 选项，因为这可能导致副作用和难以发现的错误。以下行被特意保留为注释，因为它导致数据起始位置判断错误。传入的选项未包含 spp（虽然在这种情况下选项不正确，但仍会导致错误），下一行导致添加了 +spp 标签和 +bpp 标签，并且在数据完全写入后写入选项时，它们会覆盖未压缩编解码器的数据起始位置！！！请参阅 TiffUncompressedCodec.Encode。this.Options.SamplesPerPixel = 3; `
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [TiffOptions(int expectedFormat, int byteOrder)](#TiffOptions-int-int-) | 初始化一个新的 `TiffOptions` 类实例。 |
-| [TiffOptions(int expectedFormat)](#TiffOptions-int-) | 初始化一个新的 `TiffOptions` 类实例。 |
-| [TiffOptions(TiffOptions options)](#TiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | 初始化一个新的 `TiffOptions` 类实例。 |
-| [TiffOptions(TiffDataType[] tags)](#TiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 初始化一个新的 `TiffOptions` 类实例。 |
+| [TiffOptions(int expectedFormat, int byteOrder)](#TiffOptions-int-int-) | 初始化 `TiffOptions` 类的新实例。 |
+| [TiffOptions(int expectedFormat)](#TiffOptions-int-) | 初始化 `TiffOptions` 类的新实例。 |
+| [TiffOptions(TiffOptions options)](#TiffOptions-com.aspose.imaging.imageoptions.TiffOptions-) | 初始化 `TiffOptions` 类的新实例。 |
+| [TiffOptions(TiffDataType[] tags)](#TiffOptions-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 初始化 `TiffOptions` 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getValidTagsCount(TiffDataType[] tags)](#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 获取有效标签计数。 |
+| [getValidTagsCount(TiffDataType[] tags)](#getValidTagsCount-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 获取有效标签的计数。 |
 | [getTagCount()](#getTagCount--) | 获取标签计数。 |
 | [getFileStandard()](#getFileStandard--) | 获取或设置 TIFF 文件标准。 |
 | [setFileStandard(int value)](#setFileStandard-int-) | 获取或设置 TIFF 文件标准。 |
@@ -41,37 +41,37 @@ tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时
 | [isValid()](#isValid--) | 获取指示 `TiffOptions` 是否已正确配置的值。 |
 | [getYCbCrSubsampling()](#getYCbCrSubsampling--) | 获取或设置 YCbCr 颜色空间的子采样因子。 |
 | [setYCbCrSubsampling(int[] value)](#setYCbCrSubsampling-int---) | 获取或设置 YCbCr 颜色空间的子采样因子。 |
-| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | 获取或设置 YCbCr 系数。 |
-| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置 YCbCr 系数。 |
+| [getYCbCrCoefficients()](#getYCbCrCoefficients--) | 获取或设置 YCbCrCoefficients。 |
+| [setYCbCrCoefficients(TiffRational[] value)](#setYCbCrCoefficients-com.aspose.imaging.fileformats.tiff.TiffRational---) | 获取或设置 YCbCrCoefficients。 |
 | [isTiled()](#isTiled--) | 获取指示图像是否为平铺的值。 |
 | [getArtist()](#getArtist--) | 获取或设置艺术家。 |
 | [setArtist(String value)](#setArtist-java.lang.String-) | 获取或设置艺术家。 |
 | [isTagPresent(int tag)](#isTagPresent-int-) | 确定标签是否存在于选项中。 |
-| [getByteOrder()](#getByteOrder--) | 获取或设置指示 TIFF 字节顺序的值。 |
-| [setByteOrder(int value)](#setByteOrder-int-) | 获取或设置指示 TIFF 字节顺序的值。 |
-| [getIccProfile()](#getIccProfile--) | 获取 ICC 配置文件流。 |
-| [setIccProfile(byte[] value)](#setIccProfile-byte---) | 设置 ICC 配置文件流。 |
-| [isDisableIccExport()](#isDisableIccExport--) | 获取指示是否禁用 ICC 配置文件导出的值（ICC 配置文件预先应用于源像素）。 |
-| [setDisableIccExport(boolean value)](#setDisableIccExport-boolean-) | 设置指示是否禁用 ICC 配置文件导出的值（ICC 配置文件预先应用于源像素）。 |
+| [getByteOrder()](#getByteOrder--) | 获取或设置指示 tiff 字节顺序的值。 |
+| [setByteOrder(int value)](#setByteOrder-int-) | 获取或设置指示 tiff 字节顺序的值。 |
+| [getIccProfile()](#getIccProfile--) | 获取 icc 配置文件流。 |
+| [setIccProfile(byte[] value)](#setIccProfile-byte---) | 设置 icc 配置文件流。 |
+| [isDisableIccExport()](#isDisableIccExport--) | 获取指示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。 |
+| [setDisableIccExport(boolean value)](#setDisableIccExport-boolean-) | 设置指示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。 |
 | [getBitsPerSample()](#getBitsPerSample--) | 获取每个样本的位数。 |
 | [setBitsPerSample(int[] value)](#setBitsPerSample-int---) | 设置每个样本的位数。 |
-| [getExtraSamples()](#getExtraSamples--) | 获取额外样本值。 |
-| [getCompression()](#getCompression--) | 获取压缩方式。 |
-| [setCompression(int value)](#setCompression-int-) | 设置压缩方式。 |
+| [getExtraSamples()](#getExtraSamples--) | 获取额外样本的值。 |
+| [getCompression()](#getCompression--) | 获取压缩。 |
+| [setCompression(int value)](#setCompression-int-) | 设置压缩。 |
 | [getCompressedQuality()](#getCompressedQuality--) | 获取压缩图像质量。 |
 | [setCompressedQuality(int value)](#setCompressedQuality-int-) | 设置压缩图像质量。 |
 | [getCopyright()](#getCopyright--) | 获取版权信息。 |
 | [setCopyright(String value)](#setCopyright-java.lang.String-) | 设置版权信息。 |
-| [getColorMap()](#getColorMap--) | 获取或设置颜色映射表。 |
-| [setColorMap(int[] value)](#setColorMap-int---) | 获取或设置颜色映射表。 |
+| [getColorMap()](#getColorMap--) | 获取或设置颜色映射。 |
+| [setColorMap(int[] value)](#setColorMap-int---) | 获取或设置颜色映射。 |
 | [getPalette()](#getPalette--) | 获取或设置颜色调色板。 |
 | [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | 获取或设置颜色调色板。 |
 | [getDateTime()](#getDateTime--) | 获取或设置日期和时间。 |
 | [setDateTime(String value)](#setDateTime-java.lang.String-) | 获取或设置日期和时间。 |
-| [getDocumentName()](#getDocumentName--) | 获取或设置文档的名称。 |
-| [setDocumentName(String value)](#setDocumentName-java.lang.String-) | 获取或设置文档的名称。 |
-| [getAlphaStorage()](#getAlphaStorage--) | 获取或设置 alpha 存储选项。 |
-| [setAlphaStorage(int value)](#setAlphaStorage-int-) | 获取或设置 alpha 存储选项。 |
+| [getDocumentName()](#getDocumentName--) | 获取或设置文档名称。 |
+| [setDocumentName(String value)](#setDocumentName-java.lang.String-) | 获取或设置文档名称。 |
+| [getAlphaStorage()](#getAlphaStorage--) | 获取或设置 Alpha 存储选项。 |
+| [setAlphaStorage(int value)](#setAlphaStorage-int-) | 获取或设置 Alpha 存储选项。 |
 | [isExtraSamplesPresent()](#isExtraSamplesPresent--) | 获取一个值，指示是否存在额外样本。 |
 | [getFillOrder()](#getFillOrder--) | 获取或设置字节位填充顺序。 |
 | [setFillOrder(int value)](#setFillOrder-int-) | 获取或设置字节位填充顺序。 |
@@ -124,8 +124,8 @@ tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时
 | [setTileByteCounts(long[] value)](#setTileByteCounts-long---) | 获取或设置瓦片字节计数。 |
 | [getTileOffsets()](#getTileOffsets--) | 获取或设置瓦片偏移量。 |
 | [setTileOffsets(long[] value)](#setTileOffsets-long---) | 获取或设置瓦片偏移量。 |
-| [getSubFileType()](#getSubFileType--) | 获取或设置对该子文件中包含的数据类型的一般指示。 |
-| [setSubFileType(long value)](#setSubFileType-long-) | 获取或设置对该子文件中包含的数据类型的一般指示。 |
+| [getSubFileType()](#getSubFileType--) | 获取或设置此子文件中包含的数据类型的一般指示。 |
+| [setSubFileType(long value)](#setSubFileType-long-) | 获取或设置此子文件中包含的数据类型的一般指示。 |
 | [getTargetPrinter()](#getTargetPrinter--) | 获取或设置目标打印机。 |
 | [setTargetPrinter(String value)](#setTargetPrinter-java.lang.String-) | 获取或设置目标打印机。 |
 | [getThreshholding()](#getThreshholding--) | 获取或设置阈值处理。 |
@@ -154,16 +154,16 @@ tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时
 | [setTags(TiffDataType[] value)](#setTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | 获取或设置标签。 |
 | [getValidTagCount()](#getValidTagCount--) | 获取有效标签计数。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取每像素位数。 |
-| [getXPTitle()](#getXPTitle--) | 获取图像信息，供 Windows 资源管理器使用。 |
-| [setXPTitle(String value)](#setXPTitle-java.lang.String-) | 设置图像信息，供 Windows 资源管理器使用。 |
-| [getXPComment()](#getXPComment--) | 获取图像注释，供 Windows 资源管理器使用。 |
-| [setXPComment(String value)](#setXPComment-java.lang.String-) | 设置图像注释，供 Windows 资源管理器使用。 |
-| [getXPAuthor()](#getXPAuthor--) | 获取图像作者，供 Windows 资源管理器使用。 |
-| [setXPAuthor(String value)](#setXPAuthor-java.lang.String-) | 设置图像作者，供 Windows 资源管理器使用。 |
-| [getXPKeywords()](#getXPKeywords--) | 获取图像主题，供 Windows 资源管理器使用。 |
-| [setXPKeywords(String value)](#setXPKeywords-java.lang.String-) | 设置主题图像，供 Windows Explorer 使用。 |
-| [getXPSubject()](#getXPSubject--) | 获取图像信息，供 Windows 资源管理器使用。 |
-| [setXPSubject(String value)](#setXPSubject-java.lang.String-) | 设置图像信息，供 Windows 资源管理器使用。 |
+| [getXPTitle()](#getXPTitle--) | 获取 Windows Explorer 使用的图像信息。 |
+| [setXPTitle(String value)](#setXPTitle-java.lang.String-) | 设置 Windows Explorer 使用的图像信息。 |
+| [getXPComment()](#getXPComment--) | 获取 Windows Explorer 使用的图像注释。 |
+| [setXPComment(String value)](#setXPComment-java.lang.String-) | 设置 Windows Explorer 使用的图像注释。 |
+| [getXPAuthor()](#getXPAuthor--) | 获取 Windows Explorer 使用的图像作者。 |
+| [setXPAuthor(String value)](#setXPAuthor-java.lang.String-) | 设置 Windows Explorer 使用的图像作者。 |
+| [getXPKeywords()](#getXPKeywords--) | 获取 Windows Explorer 使用的图像主题。 |
+| [setXPKeywords(String value)](#setXPKeywords-java.lang.String-) | 设置 Windows Explorer 使用的图像主题。 |
+| [getXPSubject()](#getXPSubject--) | 获取 Windows Explorer 使用的图像信息。 |
+| [setXPSubject(String value)](#setXPSubject-java.lang.String-) | 设置 Windows Explorer 使用的图像信息。 |
 | [getExifData()](#getExifData--) | 获取 Exif 数据。 |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | 设置 Exif 数据。 |
 | [removeTag(int tag)](#removeTag-int-) | 移除标签。 |
@@ -174,11 +174,11 @@ tiff 文件格式选项。请注意，宽度和高度标签将在图像创建时
 | [getTagByType(int tagKey)](#getTagByType-int-) | 按类型获取标签实例。 |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
-此示例演示了如何使用 SaveOptions 命名空间中的不同类进行导出。将类型为 Gif 的图像加载到 Image 实例中，然后导出为多种格式。
+此示例演示了在导出场景中使用 SaveOptions 命名空间中的不同类。将类型为 Gif 的图像加载到 Image 实例中，然后导出为多种格式。
 ``` java
 String dir = "c:\\temp\\";
 
-//在 Image 类的实例中加载现有的（Gif 类型）图像
+//在 Image 类的实例中加载已有的图像（类型为 Gif）
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     //使用默认选项导出为 BMP 文件格式
@@ -236,7 +236,7 @@ public TiffOptions(int expectedFormat, int byteOrder)
 ```
 
 
-初始化一个新的 `TiffOptions` 类实例。
+初始化 `TiffOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -263,7 +263,7 @@ public TiffOptions(TiffOptions options)
 ```
 
 
-初始化一个新的 `TiffOptions` 类实例。
+初始化 `TiffOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -276,7 +276,7 @@ public TiffOptions(TiffDataType[] tags)
 ```
 
 
-初始化一个新的 `TiffOptions` 类实例。
+初始化 `TiffOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -289,7 +289,7 @@ public static int getValidTagsCount(TiffDataType[] tags)
 ```
 
 
-获取有效标签计数。
+获取有效标签的计数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -297,7 +297,7 @@ public static int getValidTagsCount(TiffDataType[] tags)
 | tags | [TiffDataType\[\]](../../com.aspose.imaging.fileformats.tiff/tiffdatatype) | 要验证的标签。 |
 
 **Returns:**
-int - 有效标签的计数。
+int - 有效标签计数。
 ### getTagCount() {#getTagCount--}
 ```
 public final int getTagCount()
@@ -329,7 +329,7 @@ public void setFileStandard(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | TIFF 文件标准。 |
+| 值 | int | TIFF 文件标准。 |
 
 ### getDefaultMemoryAllocationLimit() {#getDefaultMemoryAllocationLimit--}
 ```
@@ -352,7 +352,7 @@ public void setDefaultMemoryAllocationLimit(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 默认内存分配限制。 |
+| 值 | int | 默认内存分配限制。 |
 
 ### getPremultiplyComponents() {#getPremultiplyComponents--}
 ```
@@ -375,7 +375,7 @@ public void setPremultiplyComponents(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示组件必须预乘；否则为 `false`。 |
+| 值 | boolean | `true` 表示组件必须预乘；否则为 `false`。 |
 
 ### isValid() {#isValid--}
 ```
@@ -383,7 +383,7 @@ public boolean isValid()
 ```
 
 
-获取一个值，指示 `TiffOptions` 是否已正确配置。使用 Validate 方法查找失败原因。
+获取一个值，指示 `TiffOptions` 是否已正确配置。使用 Validate 方法来查找失败原因。
 
 **Returns:**
 boolean - 如果 TiffOptions 已正确配置则为 `true`；否则为 `false`。
@@ -396,7 +396,7 @@ public int[] getYCbCrSubsampling()
 获取或设置 YCbCr 颜色空间的子采样因子。
 
 **Returns:**
-int[] - YCbCr 颜色模型的子采样因子。
+int[] - YCbCr 颜色空间的子采样因子。
 ### setYCbCrSubsampling(int[] value) {#setYCbCrSubsampling-int---}
 ```
 public void setYCbCrSubsampling(int[] value)
@@ -408,7 +408,7 @@ public void setYCbCrSubsampling(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | YCbCr 颜色模型的子采样因子。 |
+| 值 | int[] | YCbCr 颜色空间的子采样因子。 |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -430,7 +430,7 @@ saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompres
 
 // 允许减小连续色调图像的大小。
 // 当前此字段仅在 LZW 编码下使用，因为 LZW 可能是唯一的 TIFF 编码方案。
-// 从预测步骤中显著受益。
+// 它从预测步骤中显著受益。
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
 // 设置 RGB 颜色模型。
@@ -441,7 +441,7 @@ saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotome
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(default value)       2x2, 1x1, 1x1
+// 2,2(默认值)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
 // 所有颜色分量将存储在单个平面中。
@@ -472,7 +472,7 @@ public TiffRational[] getYCbCrCoefficients()
 ```
 
 
-获取或设置 YCbCr 系数。
+获取或设置 YCbCrCoefficients。
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.TiffRational[] - YCbCr 系数。
@@ -482,7 +482,7 @@ public void setYCbCrCoefficients(TiffRational[] value)
 ```
 
 
-获取或设置 YCbCr 系数。
+获取或设置 YCbCrCoefficients。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -498,7 +498,7 @@ public boolean isTiled()
 获取指示图像是否为平铺的值。
 
 **Returns:**
-boolean - 如果图像是平铺的则为 `true`；否则为 `false`。
+boolean - 如果图像为平铺则为 `true`；否则为 `false`。
 ### getArtist() {#getArtist--}
 ```
 public String getArtist()
@@ -520,7 +520,7 @@ public void setArtist(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 艺术家。 |
+| 值 | java.lang.String | 艺术家。 |
 
 ### isTagPresent(int tag) {#isTagPresent-int-}
 ```
@@ -543,7 +543,7 @@ public int getByteOrder()
 ```
 
 
-获取或设置指示 TIFF 字节顺序的值。
+获取或设置指示 tiff 字节顺序的值。
 
 **Returns:**
 int
@@ -553,12 +553,12 @@ public void setByteOrder(int value)
 ```
 
 
-获取或设置指示 TIFF 字节顺序的值。
+获取或设置指示 tiff 字节顺序的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -580,7 +580,7 @@ saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompres
 
 // 允许减小连续色调图像的大小。
 // 当前此字段仅在 LZW 编码下使用，因为 LZW 可能是唯一的 TIFF 编码方案。
-// 从预测步骤中显著受益。
+// 它从预测步骤中显著受益。
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
 // 设置 RGB 颜色模型。
@@ -591,7 +591,7 @@ saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotome
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(default value)       2x2, 1x1, 1x1
+// 2,2(默认值)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
 // 所有颜色分量将存储在单个平面中。
@@ -622,7 +622,7 @@ public byte[] getIccProfile()
 ```
 
 
-获取 ICC 配置文件流。
+获取 icc 配置文件流。
 
 **Returns:**
 byte[] - ICC 配置文件。
@@ -632,12 +632,12 @@ public void setIccProfile(byte[] value)
 ```
 
 
-设置 ICC 配置文件流。
+设置 icc 配置文件流。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | icc 配置文件。 |
+| 值 | byte[] | 此 ICC 配置文件。 |
 
 ### isDisableIccExport() {#isDisableIccExport--}
 ```
@@ -645,7 +645,7 @@ public final boolean isDisableIccExport()
 ```
 
 
-获取指示是否禁用 ICC 配置文件导出的值（ICC 配置文件预先应用于源像素）。
+获取指示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。
 
 **Returns:**
 boolean - 表示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。
@@ -655,12 +655,12 @@ public final void setDisableIccExport(boolean value)
 ```
 
 
-设置指示是否禁用 ICC 配置文件导出的值（ICC 配置文件预先应用于源像素）。
+设置指示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。 |
+| 值 | boolean | 表示是否禁用 ICC 配置文件导出的值（ICC 配置文件会预先应用于源像素）。 |
 
 ### getBitsPerSample() {#getBitsPerSample--}
 ```
@@ -673,7 +673,7 @@ public int[] getBitsPerSample()
 **Returns:**
 int[] - 每个样本的位数值。
 
-设置此值时请注意，它还会将 SamplesPerPixel 的值设置为数组长度。这两个属性紧密耦合，因而只能一起设置。
+设置此值时请记住，它还会将 SamplesPerPixel 的值设为数组长度。这两个属性紧密耦合，因而只能一起设置。
 ### setBitsPerSample(int[] value) {#setBitsPerSample-int---}
 ```
 public void setBitsPerSample(int[] value)
@@ -685,9 +685,9 @@ public void setBitsPerSample(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | int[] | 每个样本的位数值。 |
+|  | 值 | int[] | 每个样本的位数值。 |
 
-设置此值时请注意，它还会将 SamplesPerPixel 的值设置为数组长度。这两个属性紧密耦合，因而只能一起设置。 |
+设置此值时请记住，它还会将 SamplesPerPixel 的值设为数组长度。这两个属性紧密耦合，因而只能一起设置。 |
 
 
 **Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
@@ -698,7 +698,7 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// 创建永久的（非临时的）文件源。
+// 创建一个永久的（而非临时的）文件源。
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
@@ -744,7 +744,7 @@ public final int[] getExtraSamples()
 ```
 
 
-获取额外样本值。
+获取额外样本的值。
 
 值：额外样本的值。
 
@@ -756,22 +756,22 @@ public int getCompression()
 ```
 
 
-获取压缩方式。
+获取压缩。
 
 **Returns:**
-int - 压缩。
+int - 压缩方式。
 ### setCompression(int value) {#setCompression-int-}
 ```
 public void setCompression(int value)
 ```
 
 
-设置压缩方式。
+设置压缩。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 压缩。 |
+| 值 | int | 压缩方式。 |
 
 
 **Example: This example shows how to create a TIFF image with 2 frames and save it to a file.**
@@ -798,7 +798,7 @@ createOptions1.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhot
 // 所有颜色分量将存储在单个平面中。
 createOptions1.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
-// 创建 100x100 像素的第一帧 TIFF。
+// 创建第一帧 100x100 像素的 TIFF。
 // 请注意，如果帧已包含在 TiffImage 中，则无需显式释放帧。
 // 当容器被释放时，所有帧将自动被释放。
 com.aspose.imaging.fileformats.tiff.TiffFrame frame1 = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions1, 100, 100);
@@ -826,10 +826,10 @@ createOptions2.setByteOrder(com.aspose.imaging.fileformats.tiff.enums.TiffByteOr
 // 设置 CCITT Group 3 传真压缩。
 createOptions2.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompressions.CcittFax3);
 
-// 设置黑白颜色模型，其中 0 表示黑色，1 表示白色。
+// 设置黑白颜色模型，其中 0 为黑色，1 为白色。
 createOptions2.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.MinIsBlack);
 
-// 创建 200x200 像素的第二帧 TIFF。
+// 创建第二帧 200x200 像素的 TIFF。
 com.aspose.imaging.fileformats.tiff.TiffFrame frame2 = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions2, 200, 200);
 
 // 用蓝黄渐变填充第二帧。
@@ -853,7 +853,7 @@ public final int getCompressedQuality()
 ```
 
 
-获取压缩图像质量。用于 JPEG 压缩。
+获取压缩图像质量。与 JPEG 压缩一起使用。
 
 **Returns:**
 int - 压缩图像质量。
@@ -863,12 +863,12 @@ public final void setCompressedQuality(int value)
 ```
 
 
-设置压缩图像质量。用于 JPEG 压缩。
+设置压缩图像质量。与 JPEG 压缩一起使用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 压缩图像质量。 |
+| 值 | int | 压缩图像质量。 |
 
 
 **Example: This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality.**
@@ -912,7 +912,7 @@ public void setCopyright(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 版权信息。 |
+| 值 | java.lang.String | 版权。 |
 
 ### getColorMap() {#getColorMap--}
 ```
@@ -920,22 +920,22 @@ public int[] getColorMap()
 ```
 
 
-获取或设置颜色映射表。
+获取或设置颜色映射。
 
 **Returns:**
-int[] - 颜色映射表。
+int[] - 颜色映射。
 ### setColorMap(int[] value) {#setColorMap-int---}
 ```
 public void setColorMap(int[] value)
 ```
 
 
-获取或设置颜色映射表。
+获取或设置颜色映射。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 颜色映射表。 |
+| 值 | int[] | 颜色映射。 |
 
 ### getPalette() {#getPalette--}
 ```
@@ -981,7 +981,7 @@ public void setDateTime(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 日期和时间。 |
+| 值 | java.lang.String | 日期和时间。 |
 
 ### getDocumentName() {#getDocumentName--}
 ```
@@ -989,7 +989,7 @@ public String getDocumentName()
 ```
 
 
-获取或设置文档的名称。
+获取或设置文档名称。
 
 **Returns:**
 java.lang.String - 文档名称。
@@ -999,12 +999,12 @@ public void setDocumentName(String value)
 ```
 
 
-获取或设置文档的名称。
+获取或设置文档名称。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文档名称。 |
+| 值 | java.lang.String | 文档名称。 |
 
 ### getAlphaStorage() {#getAlphaStorage--}
 ```
@@ -1012,22 +1012,22 @@ public int getAlphaStorage()
 ```
 
 
-获取或设置 alpha 存储选项。当定义的 `SamplesPerPixel` 超过 3 时，除 `TiffAlphaStorage.Unspecified` 之外的选项将被使用。
+获取或设置 alpha 存储选项。当定义了超过 3 个 `SamplesPerPixel` 时，使用除 `TiffAlphaStorage.Unspecified` 之外的选项。
 
 **Returns:**
-int - Alpha 存储选项。
+int - alpha 存储选项。
 ### setAlphaStorage(int value) {#setAlphaStorage-int-}
 ```
 public void setAlphaStorage(int value)
 ```
 
 
-获取或设置 alpha 存储选项。当定义的 `SamplesPerPixel` 超过 3 时，除 `TiffAlphaStorage.Unspecified` 之外的选项将被使用。
+获取或设置 alpha 存储选项。当定义了超过 3 个 `SamplesPerPixel` 时，使用除 `TiffAlphaStorage.Unspecified` 之外的选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Alpha 存储选项。 |
+| 值 | int | alpha 存储选项。 |
 
 ### isExtraSamplesPresent() {#isExtraSamplesPresent--}
 ```
@@ -1038,7 +1038,7 @@ public boolean isExtraSamplesPresent()
 获取一个值，指示是否存在额外样本。
 
 **Returns:**
-boolean - 如果存在额外样本，则为 `true`；否则为 `false`。
+boolean - 如果存在额外样本则为 `true`；否则为 `false`。
 ### getFillOrder() {#getFillOrder--}
 ```
 public int getFillOrder()
@@ -1060,7 +1060,7 @@ public void setFillOrder(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 字节位填充顺序。 |
+| 值 | int | 字节位填充顺序。 |
 
 ### getHalfToneHints() {#getHalfToneHints--}
 ```
@@ -1083,7 +1083,7 @@ public void setHalfToneHints(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 半色调提示。 |
+| 值 | int[] | 半色调提示。 |
 
 ### getImageDescription() {#getImageDescription--}
 ```
@@ -1106,7 +1106,7 @@ public void setImageDescription(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 图像描述。 |
+| 值 | java.lang.String | 图像描述。 |
 
 ### getInkNames() {#getInkNames--}
 ```
@@ -1129,7 +1129,7 @@ public void setInkNames(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 墨水名称。 |
+| 值 | java.lang.String | 墨水名称。 |
 
 ### getScannerManufacturer() {#getScannerManufacturer--}
 ```
@@ -1152,7 +1152,7 @@ public void setScannerManufacturer(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 扫描仪制造商。 |
+| 值 | java.lang.String | 扫描仪制造商。 |
 
 ### getMaxSampleValue() {#getMaxSampleValue--}
 ```
@@ -1175,7 +1175,7 @@ public void setMaxSampleValue(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 最大样本值。 |
+| 值 | int[] | 最大样本值。 |
 
 ### getMinSampleValue() {#getMinSampleValue--}
 ```
@@ -1198,7 +1198,7 @@ public void setMinSampleValue(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 最小样本值。 |
+| 值 | int[] | 最小样本值。 |
 
 ### getScannerModel() {#getScannerModel--}
 ```
@@ -1221,7 +1221,7 @@ public void setScannerModel(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 扫描仪型号。 |
+| 值 | java.lang.String | 扫描仪型号。 |
 
 ### getOrientation() {#getOrientation--}
 ```
@@ -1267,7 +1267,7 @@ public void setPageName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 页面名称。 |
+| 值 | java.lang.String | 页面名称。 |
 
 ### getPageNumber() {#getPageNumber--}
 ```
@@ -1290,7 +1290,7 @@ public void setPageNumber(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 页面编号标签。 |
+| 值 | int[] | 页面编号标签。 |
 
 ### getPhotometric() {#getPhotometric--}
 ```
@@ -1313,7 +1313,7 @@ public void setPhotometric(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 光度。 |
+| 值 | int | 光度。 |
 
 
 **Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
@@ -1324,7 +1324,7 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// 创建永久的（非临时的）文件源。
+// 创建一个永久的（而非临时的）文件源。
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
@@ -1385,7 +1385,7 @@ public void setPlanarConfiguration(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 平面配置。 |
+| 值 | int | 平面配置。 |
 
 
 **Example: This example shows how to create a TIFF image from scratch and save it to a file.**
@@ -1412,7 +1412,7 @@ createOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhoto
 createOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // 创建一个 100x100 像素的 TIFF 帧。
-// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放帧。
+// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放该帧。
 // 当容器被释放时，所有帧将自动被释放。
 com.aspose.imaging.fileformats.tiff.TiffFrame firstFrame = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions, 100, 100);
 
@@ -1456,7 +1456,7 @@ public void setResolutionUnit(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 分辨率单位。 |
+| 值 | int | 分辨率单位。 |
 
 ### getRowsPerStrip() {#getRowsPerStrip--}
 ```
@@ -1479,7 +1479,7 @@ public void setRowsPerStrip(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 每条带的行数。 |
+| 值 | long | 每条带的行数。 |
 
 ### getTileWidth() {#getTileWidth--}
 ```
@@ -1502,7 +1502,7 @@ public void setTileWidth(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getTileLength() {#getTileLength--}
 ```
@@ -1525,7 +1525,7 @@ public void setTileLength(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getSampleFormat() {#getSampleFormat--}
 ```
@@ -1548,7 +1548,7 @@ public void setSampleFormat(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 采样格式。 |
+| 值 | int[] | 采样格式。 |
 
 ### getSamplesPerPixel() {#getSamplesPerPixel--}
 ```
@@ -1556,32 +1556,32 @@ public int getSamplesPerPixel()
 ```
 
 
-获取每像素的样本数。要更改此属性值，请使用 `BitsPerSample` 属性设置器。
+获取每像素的采样数。要更改此属性值，请使用 `BitsPerSample` 属性设置器。
 
 **Returns:**
-int - 每像素的样本数。
+int - 每像素的采样数。
 ### getSmaxSampleValue() {#getSmaxSampleValue--}
 ```
 public long[] getSmaxSampleValue()
 ```
 
 
-获取或设置最大样本值。该值具有最匹配样本数据的字段类型（Byte、Short 或 Long 类型）。
+获取或设置最大采样值。该值具有最匹配采样数据的字段类型（Byte、Short 或 Long 类型）。
 
 **Returns:**
-long[] - 最大样本值。
+long[] - 最大采样值。
 ### setSmaxSampleValue(long[] value) {#setSmaxSampleValue-long---}
 ```
 public void setSmaxSampleValue(long[] value)
 ```
 
 
-获取或设置最大样本值。该值具有最匹配样本数据的字段类型（Byte、Short 或 Long 类型）。
+获取或设置最大采样值。该值具有最匹配采样数据的字段类型（Byte、Short 或 Long 类型）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] | 最大样本值。 |
+| 值 | long[] | 最大样本值。 |
 
 ### getSminSampleValue() {#getSminSampleValue--}
 ```
@@ -1589,22 +1589,22 @@ public long[] getSminSampleValue()
 ```
 
 
-获取或设置最小样本值。该值具有最匹配样本数据的字段类型（Byte、Short 或 Long 类型）。
+获取或设置最小采样值。该值具有最匹配采样数据的字段类型（Byte、Short 或 Long 类型）。
 
 **Returns:**
-long[] - 最小样本值。
+long[] - 最小采样值。
 ### setSminSampleValue(long[] value) {#setSminSampleValue-long---}
 ```
 public void setSminSampleValue(long[] value)
 ```
 
 
-获取或设置最小样本值。该值具有最匹配样本数据的字段类型（Byte、Short 或 Long 类型）。
+获取或设置最小采样值。该值具有最匹配采样数据的字段类型（Byte、Short 或 Long 类型）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] | 最小样本值。 |
+| 值 | long[] | 最小样本值。 |
 
 ### getSoftwareType() {#getSoftwareType--}
 ```
@@ -1627,7 +1627,7 @@ public void setSoftwareType(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 软件类型。 |
+| 值 | java.lang.String | 软件类型。 |
 
 ### getStripByteCounts() {#getStripByteCounts--}
 ```
@@ -1650,7 +1650,7 @@ public void setStripByteCounts(long[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] | 条带字节计数。 |
+| 值 | long[] | 条带字节计数。 |
 
 ### getStripOffsets() {#getStripOffsets--}
 ```
@@ -1661,7 +1661,7 @@ public long[] getStripOffsets()
 获取或设置条带偏移量。
 
 **Returns:**
-long[] - 条带偏移。
+long[] - 条带偏移量。
 ### setStripOffsets(long[] value) {#setStripOffsets-long---}
 ```
 public void setStripOffsets(long[] value)
@@ -1673,7 +1673,7 @@ public void setStripOffsets(long[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] | 条带偏移。 |
+| 值 | long[] | 条带偏移量。 |
 
 ### getTileByteCounts() {#getTileByteCounts--}
 ```
@@ -1696,7 +1696,7 @@ public void setTileByteCounts(long[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] |  |
+| 值 | long[] |  |
 
 ### getTileOffsets() {#getTileOffsets--}
 ```
@@ -1719,7 +1719,7 @@ public void setTileOffsets(long[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long[] |  |
+| 值 | long[] |  |
 
 ### getSubFileType() {#getSubFileType--}
 ```
@@ -1727,7 +1727,7 @@ public long getSubFileType()
 ```
 
 
-获取或设置对该子文件中包含的数据类型的一般指示。
+获取或设置此子文件中包含的数据类型的一般指示。
 
 **Returns:**
 long - 对此子文件中包含的数据类型的一般指示。
@@ -1737,12 +1737,12 @@ public void setSubFileType(long value)
 ```
 
 
-获取或设置对该子文件中包含的数据类型的一般指示。
+获取或设置此子文件中包含的数据类型的一般指示。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 此子文件中包含的数据类型的一般指示。 |
+| 值 | long | 对该子文件中包含的数据类型的一般指示。 |
 
 ### getTargetPrinter() {#getTargetPrinter--}
 ```
@@ -1765,7 +1765,7 @@ public void setTargetPrinter(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 目标打印机。 |
+| 值 | java.lang.String | 目标打印机。 |
 
 ### getThreshholding() {#getThreshholding--}
 ```
@@ -1788,7 +1788,7 @@ public void setThreshholding(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 阈值处理。 |
+| 值 | int | 阈值处理。 |
 
 ### getTotalPages() {#getTotalPages--}
 ```
@@ -1821,7 +1821,7 @@ public void setXposition(TiffRational value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | x 位置。 |
+| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | X 位置。 |
 
 ### getResolutionSettings() {#getResolutionSettings--}
 ```
@@ -1867,7 +1867,7 @@ public void setXresolution(TiffRational value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | x 分辨率。 |
+| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | X 分辨率。 |
 
 ### getYposition() {#getYposition--}
 ```
@@ -1890,7 +1890,7 @@ public void setYposition(TiffRational value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | y 位置。 |
+| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | Y 位置。 |
 
 ### getYresolution() {#getYresolution--}
 ```
@@ -1913,7 +1913,7 @@ public void setYresolution(TiffRational value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | y 分辨率。 |
+| value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) | Y 分辨率。 |
 
 ### getFaxT4Options() {#getFaxT4Options--}
 ```
@@ -1924,7 +1924,7 @@ public long getFaxT4Options()
 获取或设置传真 T4 选项。
 
 **Returns:**
-long - 传真 t4 选项。
+long - 传真 T4 选项。
 ### setFaxT4Options(long value) {#setFaxT4Options-long-}
 ```
 public void setFaxT4Options(long value)
@@ -1936,7 +1936,7 @@ public void setFaxT4Options(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 传真 t4 选项。 |
+| 值 | long | 传真 T4 选项。 |
 
 ### getPredictor() {#getPredictor--}
 ```
@@ -1959,7 +1959,7 @@ public void setPredictor(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 预测器类型。 |
+| 值 | int | 预测器类型。 |
 
 
 **Example: This example shows how to save a raster image to the TIFF format using various options.**
@@ -1981,7 +1981,7 @@ saveOptions.setCompression(com.aspose.imaging.fileformats.tiff.enums.TiffCompres
 
 // 允许减小连续色调图像的大小。
 // 当前此字段仅在 LZW 编码下使用，因为 LZW 可能是唯一的 TIFF 编码方案。
-// 从预测步骤中显著受益。
+// 它从预测步骤中显著受益。
 saveOptions.setPredictor(com.aspose.imaging.fileformats.tiff.enums.TiffPredictor.Horizontal);
 
 // 设置 RGB 颜色模型。
@@ -1992,7 +1992,7 @@ saveOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotome
 // ----------------------------------------------
 // 1,1                      1x1, 1x1, 1x1
 // 2,1                      2x1, 1x1, 1x1
-// 2,2(default value)       2x2, 1x1, 1x1
+// 2,2(默认值)       2x2, 1x1, 1x1
 // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
 // 所有颜色分量将存储在单个平面中。
@@ -2038,7 +2038,7 @@ public void setImageLength(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像长度。 |
+| 值 | long | 图像长度。 |
 
 ### getImageWidth() {#getImageWidth--}
 ```
@@ -2061,7 +2061,7 @@ public void setImageWidth(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 图像宽度。 |
+| 值 | long | 图像宽度。 |
 
 ### getExifIfd() {#getExifIfd--}
 ```
@@ -2102,10 +2102,10 @@ public int getValidTagCount()
 ```
 
 
-获取有效标签计数。这不是标签的总计数，而是可能被保留的标签数量。
+获取有效标签的数量。这不是标签的总数，而是可能被保留的标签数量。
 
 **Returns:**
-int - 有效标签计数。
+int - 有效标签的数量。
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -2115,33 +2115,33 @@ public int getBitsPerPixel()
 获取每像素位数。
 
 **Returns:**
-int - 每像素位数。
+int - 每像素的位数。
 ### getXPTitle() {#getXPTitle--}
 ```
 public final String getXPTitle()
 ```
 
 
-获取图像信息，供 Windows 资源管理器使用。
+获取 Windows Explorer 使用的图像信息。
 
-值：关于图像的信息，供 Windows Explorer 使用。如果存在 `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) 标签，Windows Explorer 将忽略 `XPTitle`(`\#getXPTitle`/\#setXPTitle(String).setXPTitle(String))。
+值：关于图像的信息，由 Windows Explorer 使用。如果存在 `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) 标签，则 Windows Explorer 会忽略 `XPTitle`(`\#getXPTitle`/\#setXPTitle(String).setXPTitle(String))。
 
 **Returns:**
-java.lang.String - 关于图像的信息，供 Windows Explorer 使用。
+java.lang.String - 关于图像的信息，由 Windows Explorer 使用。
 ### setXPTitle(String value) {#setXPTitle-java.lang.String-}
 ```
 public final void setXPTitle(String value)
 ```
 
 
-设置图像信息，供 Windows 资源管理器使用。
+设置 Windows Explorer 使用的图像信息。
 
-值：关于图像的信息，供 Windows Explorer 使用。如果存在 `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) 标签，Windows Explorer 将忽略 `XPTitle`(\#getXPTitle.getXPTitle/`\#setXPTitle(String)`)。
+值：关于图像的信息，由 Windows Explorer 使用。如果存在 `ImageDescription`(\#getImageDescription.getImageDescription/\#setImageDescription(String).setImageDescription(String)) 标签，则 Windows Explorer 会忽略 `XPTitle`(\#getXPTitle.getXPTitle/`\#setXPTitle(String)`)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 关于图像的信息，供 Windows Explorer 使用。 |
+| 值 | java.lang.String | 关于图像的信息，由 Windows Explorer 使用。 |
 
 ### getXPComment() {#getXPComment--}
 ```
@@ -2149,26 +2149,26 @@ public final String getXPComment()
 ```
 
 
-获取图像注释，供 Windows 资源管理器使用。
+获取 Windows Explorer 使用的图像注释。
 
-值：图像注释，供 Windows Explorer 使用。
+值：图像的注释，由 Windows Explorer 使用。
 
 **Returns:**
-java.lang.String - 图像注释，供 Windows Explorer 使用。
+java.lang.String - 图像的注释，由 Windows Explorer 使用。
 ### setXPComment(String value) {#setXPComment-java.lang.String-}
 ```
 public final void setXPComment(String value)
 ```
 
 
-设置图像注释，供 Windows 资源管理器使用。
+设置 Windows Explorer 使用的图像注释。
 
-值：图像注释，供 Windows Explorer 使用。
+值：图像的注释，由 Windows Explorer 使用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 对图像的注释，供 Windows Explorer 使用。 |
+| 值 | java.lang.String | 图像的注释，由 Windows Explorer 使用。 |
 
 ### getXPAuthor() {#getXPAuthor--}
 ```
@@ -2176,26 +2176,26 @@ public final String getXPAuthor()
 ```
 
 
-获取图像作者，供 Windows 资源管理器使用。
+获取 Windows Explorer 使用的图像作者。
 
-值：图像作者，供 Windows Explorer 使用。如果存在 `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) 标签，则 Windows Explorer 会忽略 `XPAuthor`(`\#getXPAuthor`/\#setXPAuthor(String).setXPAuthor(String)) 标签。
+值：图像作者，由 Windows Explorer 使用。如果存在 `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) 标签，则 Windows Explorer 会忽略 `XPAuthor`(`\#getXPAuthor`/\#setXPAuthor(String).setXPAuthor(String))。
 
 **Returns:**
-java.lang.String - 图像作者，供 Windows Explorer 使用。
+java.lang.String - 图像作者，由 Windows Explorer 使用。
 ### setXPAuthor(String value) {#setXPAuthor-java.lang.String-}
 ```
 public final void setXPAuthor(String value)
 ```
 
 
-设置图像作者，供 Windows 资源管理器使用。
+设置 Windows Explorer 使用的图像作者。
 
-值：图像作者，供 Windows Explorer 使用。如果存在 `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) 标签，则 Windows Explorer 会忽略 `XPAuthor`(\#getXPAuthor.getXPAuthor/`\#setXPAuthor(String)`) 标签。
+值：图像作者，由 Windows Explorer 使用。如果存在 `Artist`(\#getArtist.getArtist/\#setArtist(String).setArtist(String)) 标签，则 Windows Explorer 会忽略 `XPAuthor`(\#getXPAuthor.getXPAuthor/`\#setXPAuthor(String)`)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 图像作者，供 Windows Explorer 使用。 |
+| 值 | java.lang.String | 图像作者，由 Windows Explorer 使用。 |
 
 ### getXPKeywords() {#getXPKeywords--}
 ```
@@ -2203,26 +2203,26 @@ public final String getXPKeywords()
 ```
 
 
-获取图像主题，供 Windows 资源管理器使用。
+获取 Windows Explorer 使用的图像主题。
 
-值：主题图像，供 Windows Explorer 使用。
+值：图像主题，由 Windows Explorer 使用。
 
 **Returns:**
-java.lang.String - 主题图像，供 Windows Explorer 使用。
+java.lang.String - 图像主题，由 Windows Explorer 使用。
 ### setXPKeywords(String value) {#setXPKeywords-java.lang.String-}
 ```
 public final void setXPKeywords(String value)
 ```
 
 
-设置主题图像，供 Windows Explorer 使用。
+设置 Windows Explorer 使用的图像主题。
 
-值：主题图像，供 Windows Explorer 使用。
+值：图像主题，由 Windows Explorer 使用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 主题图像，供 Windows Explorer 使用。 |
+| 值 | java.lang.String | 图像主题，由 Windows Explorer 使用。 |
 
 ### getXPSubject() {#getXPSubject--}
 ```
@@ -2230,26 +2230,26 @@ public final String getXPSubject()
 ```
 
 
-获取图像信息，供 Windows 资源管理器使用。
+获取 Windows Explorer 使用的图像信息。
 
-值：图像信息，供 Windows Explorer 使用。
+值：关于图像的信息，由 Windows Explorer 使用。
 
 **Returns:**
-java.lang.String - 关于图像的信息，供 Windows Explorer 使用。
+java.lang.String - 关于图像的信息，由 Windows Explorer 使用。
 ### setXPSubject(String value) {#setXPSubject-java.lang.String-}
 ```
 public final void setXPSubject(String value)
 ```
 
 
-设置图像信息，供 Windows 资源管理器使用。
+设置 Windows Explorer 使用的图像信息。
 
-值：图像信息，供 Windows Explorer 使用。
+值：关于图像的信息，由 Windows Explorer 使用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 关于图像的信息，供 Windows Explorer 使用。 |
+| 值 | java.lang.String | 关于图像的信息，由 Windows Explorer 使用。 |
 
 ### getExifData() {#getExifData--}
 ```
@@ -2285,10 +2285,10 @@ public boolean removeTag(int tag)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 标签 | int | 要删除的标签。 |
+| 标签 | int | 要移除的标签。 |
 
 **Returns:**
-boolean - 如果成功删除则为 true
+boolean - 如果成功移除则为 true
 ### removeTags(int[] tags) {#removeTags-int...-}
 ```
 public final boolean removeTags(int[] tags)
@@ -2300,10 +2300,10 @@ public final boolean removeTags(int[] tags)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 标签 | int[] | 要删除的标签。 |
+| 标签 | int[] | 要移除的标签集合。 |
 
 **Returns:**
-boolean - 如果标签集合大小已更改则为 ``
+boolean - `` 如果标签集合大小已更改。
 ### validate() {#validate--}
 ```
 public void validate()

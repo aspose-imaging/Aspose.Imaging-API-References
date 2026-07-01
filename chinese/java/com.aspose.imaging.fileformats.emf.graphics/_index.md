@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.emf.graphics"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含 Emf/Emf 图形。"
 type: docs
 weight: 56

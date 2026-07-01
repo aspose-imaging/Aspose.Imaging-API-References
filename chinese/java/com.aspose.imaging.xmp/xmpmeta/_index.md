@@ -1,13 +1,13 @@
 ---
 title: "XmpMeta"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 元数据。"
 type: docs
 weight: 18
 url: /zh/java/com.aspose.imaging.xmp/xmpmeta/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.xmp.XmpElementBase](../../com.aspose.imaging/xmp/xmpelementbase)
+java.lang.Object, [com.aspose.imaging.xmp.XmpElementBase](../../com.aspose.imaging.xmp/xmpelementbase)
 
 **All Implemented Interfaces:**
 [com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue), com.aspose.ms.System.IEquatable
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.xmp.XmpElementBase](../../com.aspose.imagi
 public final class XmpMeta extends XmpElementBase implements IXmlValue, System.IEquatable<XmpElementBase>
 ```
 
-表示 xmp 元数据。可选。此元素的目的是在可能包含其他非 XMP RDF 用法的通用 XML 文本中识别 XMP 元数据。
+表示 xmp 元数据。可选。此元素的目的是在可能包含其他非 XMP RDF 用法的通用 XML 文本中标识 XMP 元数据。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -75,7 +75,7 @@ public void setAdobeXmpToolkit(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### addAttribute(String attribute, String value) {#addAttribute-java.lang.String-java.lang.String-}
 ```
@@ -89,7 +89,7 @@ public void addAttribute(String attribute, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 属性 | java.lang.String | 属性。 |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### getXmlValue() {#getXmlValue--}
 ```
@@ -100,7 +100,7 @@ public String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 表示形式的 XMP 值。
+java.lang.String - 返回已转换为 XML 表示形式的 XMP 值。
 ### isEquals(XmpMeta other) {#isEquals-com.aspose.imaging.xmp.XmpMeta-}
 ```
 public boolean isEquals(XmpMeta other)
@@ -127,7 +127,7 @@ public boolean equals(Object other)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 其他 | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| 其他 | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。

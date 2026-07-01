@@ -1,6 +1,6 @@
 ---
 title: "RasterImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示支持光栅图形操作的光栅图像。"
 type: docs
 weight: 91
@@ -20,8 +20,8 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPremultiplyComponents()](#getPremultiplyComponents--) | 获取或设置一个值，指示图像组件是否必须进行预乘。 |
-| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | 获取或设置一个值，指示图像组件是否必须进行预乘。 |
+| [getPremultiplyComponents()](#getPremultiplyComponents--) | 获取或设置一个值，指示图像组件是否必须预乘。 |
+| [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | 获取或设置一个值，指示图像组件是否必须预乘。 |
 | [getUseRawData()](#getUseRawData--) | 获取或设置一个值，指示在原始数据加载可用时是否使用原始数据加载。 |
 | [setUseRawData(boolean value)](#setUseRawData-boolean-) | 获取或设置一个值，指示在原始数据加载可用时是否使用原始数据加载。 |
 | [getUpdateXmpData()](#getUpdateXmpData--) | 获取或设置一个值，指示是否更新 XMP 元数据。 |
@@ -30,8 +30,8 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 | [setRawIndexedColorConverter(IIndexedColorConverter value)](#setRawIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | 获取或设置索引颜色转换器 |
 | [getRawCustomColorConverter()](#getRawCustomColorConverter--) | 获取或设置自定义颜色转换器 |
 | [setRawCustomColorConverter(IColorConverter value)](#setRawCustomColorConverter-com.aspose.imaging.IColorConverter-) | 获取或设置自定义颜色转换器 |
-| [getRawFallbackIndex()](#getRawFallbackIndex--) | 获取或设置在调色板索引超出范围时使用的回退索引 |
-| [setRawFallbackIndex(int value)](#setRawFallbackIndex-int-) | 获取或设置在调色板索引超出范围时使用的回退索引 |
+| [getRawFallbackIndex()](#getRawFallbackIndex--) | 获取或设置当调色板索引超出范围时使用的回退索引 |
+| [setRawFallbackIndex(int value)](#setRawFallbackIndex-int-) | 获取或设置当调色板索引超出范围时使用的回退索引 |
 | [getRawDataSettings()](#getRawDataSettings--) |  |
 | [isUsePalette()](#isUsePalette--) | 获取指示是否使用图像调色板的值。 |
 | [getRawDataFormat()](#getRawDataFormat--) | 获取原始数据格式。 |
@@ -42,12 +42,12 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 | [getVerticalResolution()](#getVerticalResolution--) | 获取或设置此 `RasterImage` 的垂直分辨率（每英寸像素数）。 |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | 获取或设置此 `RasterImage` 的垂直分辨率（每英寸像素数）。 |
 | [hasTransparentColor()](#hasTransparentColor--) | 获取一个值，指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色。 |
-| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha 通道。 |
+| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha。 |
 | [getTransparentColor()](#getTransparentColor--) | 获取图像的透明颜色。 |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 设置一个值，指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色。 |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | 获取图像的透明颜色。 |
 | [getImageOpacity()](#getImageOpacity--) | 获取此图像的不透明度。 |
-| [removeMetadata()](#removeMetadata--) | 通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，移除此图像实例的元数据。 |
+| [removeMetadata()](#removeMetadata--) | 通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，来移除此图像实例的元数据。 |
 | [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | 检索资源图像最近一次修改的日期和时间。 |
 | [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | 对当前图像执行抖动处理。 |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | 对当前图像执行抖动处理。 |
@@ -81,7 +81,7 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 | [saveCmyk32Pixels(Rectangle rectangle, int[] pixels)](#saveCmyk32Pixels-com.aspose.imaging.Rectangle-int---) | 保存像素。 |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | 为此 `RasterImage` 设置分辨率。 |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | 设置图像调色板。 |
-| [autoRotate()](#autoRotate--) | 自动根据从 Exif 元数据提取的方向数据旋转图像。 |
+| [autoRotate()](#autoRotate--) | 根据从 Exif 元数据提取的方向数据自动旋转图像。 |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 使用扩展选项调整图像大小。 |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | 围绕中心旋转图像。 |
 | [rotate(float angle)](#rotate-float-) | 围绕中心旋转图像。 |
@@ -100,18 +100,18 @@ public abstract class RasterImage extends Image implements IRasterImageArgb32Pix
 | [adjustContrast(float contrast)](#adjustContrast-float-) | 图像对比度增强 |
 | [embedDigitalSignature(String password)](#embedDigitalSignature-java.lang.String-) | 使用隐写技术将基于提供的密码的数字签名嵌入图像中。 |
 | [analyzePercentageDigitalSignature(String password)](#analyzePercentageDigitalSignature-java.lang.String-) | 计算提取数据与原始密码之间的相似度百分比。 |
-| [isDigitalSigned(String password)](#isDigitalSigned-java.lang.String-) | 使用提供的密码和阈值快速检查图像是否已数字签名。 |
-| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已数字签名。 |
+| [isDigitalSigned(String password)](#isDigitalSigned-java.lang.String-) | 使用提供的密码和阈值快速检查图像是否已进行数字签名。 |
+| [isDigitalSigned(String password, int percentageThreshold)](#isDigitalSigned-java.lang.String-int-) | 使用提供的密码和阈值快速检查图像是否已进行数字签名。 |
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | 对图像进行伽马校正。 |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | 对图像进行伽马校正。 |
 | [getSkewAngle()](#getSkewAngle--) | 获取倾斜角度。 |
 | [normalizeAngle()](#normalizeAngle--) | 归一化角度。 |
 | [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | 归一化角度。 |
 | [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | 过滤指定的矩形。 |
-| [replaceColor(Color oldColor, byte oldColorDiff, Color newColor)](#replaceColor-com.aspose.imaging.Color-byte-com.aspose.imaging.Color-) | 将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。 |
-| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。 |
-| [replaceNonTransparentColors(Color newColor)](#replaceNonTransparentColors-com.aspose.imaging.Color-) | 将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。 |
-| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。 |
+| [replaceColor(Color oldColor, byte oldColorDiff, Color newColor)](#replaceColor-com.aspose.imaging.Color-byte-com.aspose.imaging.Color-) | 在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。 |
+| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。 |
+| [replaceNonTransparentColors(Color newColor)](#replaceNonTransparentColors-com.aspose.imaging.Color-) | 将所有非透明颜色替换为新颜色，并保留原始的 alpha 值以保持平滑边缘。 |
+| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始的 alpha 值以保持平滑边缘。 |
 
 ## Example: This example shows how to load pixel information in an array of colors, manipulates the array and set it back to the image.
 
@@ -125,7 +125,7 @@ gifOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "outp
 // 创建 Image 的实例
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage) com.aspose.imaging.Image.create(gifOptions, 500, 500);
 try {
-    // 通过将区域指定为图像边界来获取图像的像素。
+    // 通过将区域指定为图像边界来获取图像像素。
     com.aspose.imaging.Color[] pixels = image.loadPixels(image.getBounds());
 
     // 遍历数组并设置交替索引像素的颜色。
@@ -155,7 +155,7 @@ public boolean getPremultiplyComponents()
 ```
 
 
-获取或设置一个值，指示图像组件是否必须进行预乘。
+获取或设置一个值，指示图像组件是否必须预乘。
 
 **Returns:**
 布尔值 - 如果图像组件必须预乘则为 `true`；否则为 `false`。
@@ -165,12 +165,12 @@ public void setPremultiplyComponents(boolean value)
 ```
 
 
-获取或设置一个值，指示图像组件是否必须进行预乘。
+获取或设置一个值，指示图像组件是否必须预乘。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示图像组件必须预乘；否则为 `false`。 |
+| 值 | boolean | 如果图像组件必须预乘则为 `true`；否则为 `false`。 |
 
 
 **Example: The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
@@ -239,7 +239,7 @@ public void setUseRawData(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示在原始数据加载可用时使用原始数据加载；否则为 `false`。 |
+| 值 | boolean | 如果在原始数据加载可用时使用原始数据加载则为 `true`；否则为 `false`。 |
 
 ### getUpdateXmpData() {#getUpdateXmpData--}
 ```
@@ -262,7 +262,7 @@ public void setUpdateXmpData(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示更新 XMP 元数据；否则为 `false`。 |
+| 值 | boolean | 如果更新 XMP 元数据则为 `true`；否则为 `false`。 |
 
 ### getRawIndexedColorConverter() {#getRawIndexedColorConverter--}
 ```
@@ -316,7 +316,7 @@ public int getRawFallbackIndex()
 ```
 
 
-获取或设置在调色板索引超出范围时使用的回退索引
+获取或设置当调色板索引超出范围时使用的回退索引
 
 **Returns:**
 int - 当调色板索引超出范围时使用的回退索引
@@ -326,12 +326,12 @@ public void setRawFallbackIndex(int value)
 ```
 
 
-获取或设置在调色板索引超出范围时使用的回退索引
+获取或设置当调色板索引超出范围时使用的回退索引
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 当调色板索引超出范围时使用的回退索引 |
+| 值 | int | 当调色板索引超出范围时使用的回退索引 |
 
 ### getRawDataSettings() {#getRawDataSettings--}
 ```
@@ -339,7 +339,7 @@ public RawDataSettings getRawDataSettings()
 ```
 
 
-获取当前原始数据设置。注意，使用这些设置时数据将直接加载而不进行转换。
+获取当前的原始数据设置。注意，使用这些设置时数据将不进行转换而直接加载。
 
 **Returns:**
 [RawDataSettings](../../com.aspose.imaging/rawdatasettings)
@@ -354,7 +354,7 @@ public boolean isUsePalette()
 值：`true` 表示在图像中使用调色板；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否使用图像调色板的值。
+boolean - 指示是否使用图像调色板的值。
 ### getRawDataFormat() {#getRawDataFormat--}
 ```
 public PixelDataFormat getRawDataFormat()
@@ -391,8 +391,8 @@ for (String fileName : fileNames) {
 }
 
 // 输出可能如下所示：
-// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, used channels: 8,8,8 HasAlpha=false
-// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, used channels: 8,8,8,8 HasAlpha=true
+// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, 使用的通道: 8,8,8 HasAlpha=false
+// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, 使用的通道: 8,8,8,8 HasAlpha=true
 ```
 
 ### getRawLineSize() {#getRawLineSize--}
@@ -404,7 +404,7 @@ public int getRawLineSize()
 获取原始行大小（字节）。
 
 **Returns:**
-int - 原始行大小（字节）。
+整数 - 原始行大小（字节）。
 ### isRawDataAvailable() {#isRawDataAvailable--}
 ```
 public boolean isRawDataAvailable()
@@ -414,7 +414,7 @@ public boolean isRawDataAvailable()
 获取一个值，指示原始数据加载是否可用。
 
 **Returns:**
-布尔值 - 如果此原始数据加载可用则为 `true`；否则为 `false`。
+boolean - 如果此原始数据加载可用，则为 `true`；否则为 `false`。
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
@@ -453,11 +453,11 @@ try {
     }
 
     // 输出可能如下所示：
-    // 水平分辨率（每英寸像素数）：300.0
-    // 垂直分辨率（每英寸像素数）：300.0
-    // 将分辨率设置为 96 dpi
-    // 水平分辨率（每英寸像素数）：96.0
-    // 垂直分辨率（每英寸像素数）：96.0
+    // 水平分辨率，单位为每英寸像素：300.0
+    // 垂直分辨率，单位为每英寸像素：300.0
+    // 将分辨率值设置为 96 dpi
+    // 水平分辨率，单位为每英寸像素：96.0
+    // 垂直分辨率，单位为每英寸像素：96.0
 } finally {
     image.dispose();
 }
@@ -474,7 +474,7 @@ public void setHorizontalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | double | 水平分辨率。 |
+|  | 值 | double | 水平分辨率。 |
 
 注意，默认情况下此值始终为 96，因为不同平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。 |
 
@@ -516,11 +516,11 @@ try {
     }
 
     // 输出可能如下所示：
-    // 水平分辨率（每英寸像素数）：300.0
-    // 垂直分辨率（每英寸像素数）：300.0
-    // 将分辨率设置为 96 dpi
-    // 水平分辨率（每英寸像素数）：96.0
-    // 垂直分辨率（每英寸像素数）：96.0
+    // 水平分辨率，单位为每英寸像素：300.0
+    // 垂直分辨率，单位为每英寸像素：300.0
+    // 将分辨率值设置为 96 dpi
+    // 水平分辨率，单位为每英寸像素：96.0
+    // 垂直分辨率，单位为每英寸像素：96.0
 } finally {
     image.dispose();
 }
@@ -537,7 +537,7 @@ public void setVerticalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | double | 垂直分辨率。 |
+|  | 值 | double | 垂直分辨率。 |
 
 注意，默认情况下此值始终为 96，因为不同平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。 |
 
@@ -551,17 +551,17 @@ public boolean hasTransparentColor()
 
 --------------------
 
-基类实现如果未在支持此功能的特定实现中被覆盖，则会返回 ``。此属性主要被 [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) 使用，以在图像不支持通过 alpha 通道的透明度时设置透明颜色。
+基类实现如果在支持此功能的特定实现中未被覆盖，则有效返回 ``。此属性主要被 [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)、[FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)、[FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif) 和 [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) 用于在图像不通过 alpha 通道支持透明度时设置透明颜色。
 
 **Returns:**
-boolean - 一个值，指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色。
+boolean - 指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色的值。
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
 ```
 
 
-获取一个值，指示此实例是否具有 alpha 通道。
+获取一个值，指示此实例是否具有 alpha。
 
 **Returns:**
 boolean - 如果此实例具有 alpha，则为 `true`；否则为 `false`。
@@ -591,8 +591,8 @@ for (String fileName : fileNames) {
 }
 
 // 输出可能如下所示：
-// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, used channels: 8,8,8 HasAlpha=false
-// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, used channels: 8,8,8,8 HasAlpha=true
+// ImageFile=c:\temp\sample.bmp FileFormat=Rgb24Bpp, 使用的通道: 8,8,8 HasAlpha=false
+// ImageFile=c:\temp\alpha.png FileFormat=RGBA32Bpp, 使用的通道: 8,8,8,8 HasAlpha=true
 ```
 
 ### getTransparentColor() {#getTransparentColor--}
@@ -615,12 +615,12 @@ public void setTransparentColor(boolean value)
 
 --------------------
 
-基类实现如果未在支持此功能的特定实现中被覆盖，则会返回 ``。此属性主要被 [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) 使用，以在图像不支持通过 alpha 通道的透明度时设置透明颜色。
+基类实现如果在支持此功能的特定实现中未被覆盖，则有效返回 ``。此属性主要被 [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng)、[FileFormat.Png](../../com.aspose.imaging/fileformat\#Png)、[FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif) 和 [FileFormat.Tga](../../com.aspose.imaging/fileformat\#Tga) 用于在图像不通过 alpha 通道支持透明度时设置透明颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色。 |
+| value | boolean | 指示此 [RasterImage](../../com.aspose.imaging/rasterimage) 实例是否具有透明颜色的值。 |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
@@ -644,14 +644,14 @@ public float getImageOpacity()
 获取此图像的不透明度。
 
 **Returns:**
-float - 不透明度值，介于 0.0（完全透明）和 1.0（完全不透明）之间。
+float - 不透明度值，范围在 0.0（完全透明）到 1.0（完全不透明）之间。
 ### removeMetadata() {#removeMetadata--}
 ```
 public void removeMetadata()
 ```
 
 
-通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，移除此图像实例的元数据。
+通过将此 `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 的值设为 `null`，来移除此图像实例的元数据。
 
 ### getModifyDate(boolean useDefault) {#getModifyDate-boolean-}
 ```
@@ -659,7 +659,7 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-检索资源图像最近一次修改的日期和时间。此方法提供有价值的元数据，使用户能够有效跟踪和管理图像文件的更新。通过访问此信息，用户可以确保其图像资产的完整性和时效性，从而在图像使用和维护方面做出明智的决策。
+检索资源图像最近一次修改的日期和时间。此方法提供有价值的元数据，使用户能够有效跟踪和管理图像文件的更新。通过访问这些信息，用户可以确保图像资产的完整性和时效性，从而在图像使用和维护方面做出明智的决策。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -693,7 +693,7 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 使用包含 16 种颜色的 4 位色彩调色板执行阈值抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     rasterImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4);
 
@@ -707,7 +707,7 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 使用仅包含 2 种颜色（黑色和白色）的 1 位色彩调色板执行 Floyd 抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     rasterImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1);
 
@@ -791,7 +791,7 @@ public byte[] getDefaultRawData(Rectangle rectangle, RawDataSettings rawDataSett
 | rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | 原始数据设置。 |
 
 **Returns:**
-byte[] - 默认的原始数据数组。
+byte[] - 默认原始数据数组。
 ### getArgb32Pixel(int x, int y) {#getArgb32Pixel-int-int-}
 ```
 public int getArgb32Pixel(int x, int y)
@@ -803,8 +803,8 @@ public int getArgb32Pixel(int x, int y)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | int | 像素的 x 坐标位置。 |
-| y | int | 像素的 y 坐标位置。 |
+| x | int | 像素的 X 位置。 |
+| y | int | 像素的 Y 位置。 |
 
 **Returns:**
 int - 指定位置的 32 位 ARGB 像素。
@@ -819,7 +819,7 @@ try {
     // 获取图像左上像素颜色的整数表示。
     int color = rasterImage.getArgb32Pixel(0, 0);
 
-    // 要获取各个颜色分量的值，需要将颜色值按相应的位数进行移位。
+    // 要获取各颜色分量的值，需要将颜色值按相应的位数进行移位
     int alpha = (color >> 24) & 0xff;
     int red = (color >> 16) & 0xff;
     int green = (color >> 8) & 0xff;
@@ -845,8 +845,8 @@ public Color getPixel(int x, int y)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | int | 像素的 x 坐标位置。 |
-| y | int | 像素的 y 坐标位置。 |
+| x | int | 像素的 X 位置。 |
+| y | int | 像素的 Y 位置。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The pixel color for the specified location.
@@ -861,7 +861,7 @@ try {
     // 获取图像左上像素的颜色。
     com.aspose.imaging.Color color = rasterImage.getPixel(0, 0);
 
-    // 获取各个颜色分量的值
+    // 获取各颜色分量的值
     int alpha = color.getA();
     int red = color.getR();
     int green = color.getG();
@@ -884,8 +884,8 @@ public void setArgb32Pixel(int x, int y, int argb32Color)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | int | 像素的 x 坐标位置。 |
-| y | int | 像素的 y 坐标位置。 |
+| x | int | 像素的 X 位置。 |
+| y | int | 像素的 Y 位置。 |
 | argb32Color | int | 指定位置的 32 位 ARGB 像素。 |
 
 
@@ -900,7 +900,7 @@ try {
     // 设置左上像素的颜色。
     rasterImage.setArgb32Pixel(0, 0, com.aspose.imaging.Color.getAqua().toArgb());
 
-    // 另一种方式是直接传递 com.aspose.imaging.Color 的实例
+    // 另一种方法是直接传递 com.aspose.imaging.Color 的实例
     rasterImage.setPixel(0, 0, com.aspose.imaging.Color.getAqua());
 } finally {
     image.dispose();
@@ -918,8 +918,8 @@ public void setPixel(int x, int y, Color color)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | int | 像素的 x 坐标位置。 |
-| y | int | 像素的 y 坐标位置。 |
+| x | int | 像素的 X 位置。 |
+| y | int | 像素的 Y 位置。 |
 | color | [Color](../../com.aspose.imaging/color) | 指定位置的像素颜色。 |
 
 
@@ -934,7 +934,7 @@ try {
     // 设置左上像素的颜色。
     rasterImage.setArgb32Pixel(0, 0, com.aspose.imaging.Color.getAqua().toArgb());
 
-    // 另一种方式是直接传递 com.aspose.imaging.Color 的实例
+    // 另一种方法是直接传递 com.aspose.imaging.Color 的实例
     rasterImage.setPixel(0, 0, com.aspose.imaging.Color.getAqua());
 } finally {
     image.dispose();
@@ -952,10 +952,10 @@ public Color[] readScanLine(int scanLineIndex)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scanLineIndex | int | 扫描线的零基索引。 |
+| scanLineIndex | int | 扫描行的零基索引。 |
 
 **Returns:**
-com.aspose.imaging.Color[] - 扫描线像素颜色值数组。
+com.aspose.imaging.Color[] - 扫描行像素颜色值数组。
 ### readArgb32ScanLine(int scanLineIndex) {#readArgb32ScanLine-int-}
 ```
 public int[] readArgb32ScanLine(int scanLineIndex)
@@ -967,10 +967,10 @@ public int[] readArgb32ScanLine(int scanLineIndex)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scanLineIndex | int | 扫描线的零基索引。 |
+| scanLineIndex | int | 扫描行的零基索引。 |
 
 **Returns:**
-int[] - 扫描线 32 位 ARGB 颜色值数组。
+int[] - 扫描行 32 位 ARGB 颜色值数组。
 ### writeScanLine(int scanLineIndex, Color[] pixels) {#writeScanLine-int-com.aspose.imaging.Color---}
 ```
 public void writeScanLine(int scanLineIndex, Color[] pixels)
@@ -982,8 +982,8 @@ public void writeScanLine(int scanLineIndex, Color[] pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scanLineIndex | int | 扫描线的零基索引。 |
-| pixels | [Color\[\]](../../com.aspose.imaging/color) | 待写入的像素颜色数组。 |
+| scanLineIndex | int | 扫描行的零基索引。 |
+| pixels | [Color\[\]](../../com.aspose.imaging/color) | 要写入的像素颜色数组。 |
 
 ### writeArgb32ScanLine(int scanLineIndex, int[] argb32Pixels) {#writeArgb32ScanLine-int-int---}
 ```
@@ -996,8 +996,8 @@ public void writeArgb32ScanLine(int scanLineIndex, int[] argb32Pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| scanLineIndex | int | 扫描线的零基索引。 |
-| argb32Pixels | int[] | 待写入的 32 位 ARGB 颜色数组。 |
+| scanLineIndex | int | 扫描行的零基索引。 |
+| argb32Pixels | int[] | 要写入的 32 位 ARGB 颜色数组。 |
 
 ### loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader) {#loadPartialArgb32Pixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-}
 ```
@@ -1015,10 +1015,10 @@ public void loadPartialArgb32Pixels(Rectangle rectangle, IPartialArgb32PixelLoad
 
 
 **Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
-以下示例演示如何使用您自己的部分处理器加载和处理栅格图像的像素。例如，考虑统计图像中完全透明像素的问题。为了使用部分加载机制统计透明像素，介绍了一个实现 com.aspose.imaging.IPartialArgb32PixelLoader 的单独类 TransparentArgb32PixelCounter。
+下面的示例展示了如何使用您自己的部分处理器加载和处理光栅图像的像素。例如，考虑一个统计图像中完全透明像素的问题。为了使用部分加载机制统计透明像素，介绍了一个实现 com.aspose.imaging.IPartialArgb32PixelLoader 的单独类 TransparentArgb32PixelCounter。
 ``` java
 
-// 首先，实现 com.aspose.imaging.IPartialArgb32PixelLoader 来计数所有完全透明的像素。
+// 首先，实现 com.aspose.imaging.IPartialArgb32PixelLoader 来统计所有完全透明的像素。
 /** Counts the number of fully transparent pixels with alpha channel value of 0. */
 class TransparentArgb32PixelCounter implements com.aspose.imaging.IPartialArgb32PixelLoader {
     /**
@@ -1051,12 +1051,12 @@ class TransparentArgb32PixelCounter implements com.aspose.imaging.IPartialArgb32
     }
 }
 
-// 下面是使用计数器的示例。
+// 以下是使用计数器的示例。
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 创建 com.aspose.imaging.IPartialArgb32PixelLoader 的实例并将其传递给 com.aspose.imaging.RasterImage.LoadPartialArgb32Pixels
+    // 创建 com.aspose.imaging.IPartialArgb32PixelLoader 的实例并将其传递给 com.aspose.imaging.RasterImage.LoadPartialArgb32Pixels。
     TransparentArgb32PixelCounter counter = new TransparentArgb32PixelCounter();
 
     // 加载整幅图像的像素。图像的任意矩形区域都可以作为 com.aspose.imaging.RasterImage.loadPartialArgb32Pixels 方法的第一个参数指定。
@@ -1069,8 +1069,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 完全透明像素的数量为 55157
-// 像素的总数为 120400
+// 完全透明像素的数量为 55157。
+// 像素的总数量为 120400。
 ```
 
 ### loadPartialPixels(Rectangle desiredRectangle, IPartialPixelLoader pixelLoader) {#loadPartialPixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialPixelLoader-}
@@ -1089,10 +1089,10 @@ public void loadPartialPixels(Rectangle desiredRectangle, IPartialPixelLoader pi
 
 
 **Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
-下面的示例展示了如何使用您自己的部分处理器加载和处理光栅图像的像素。例如，考虑一个统计图像中完全透明像素的问题。为了使用部分加载机制计数透明像素，引入了实现 com.aspose.imaging.IPartialPixelLoader 的单独类 TransparentPixelCounter。
+下面的示例展示了如何使用您自己的部分处理器加载和处理光栅图像的像素。例如，考虑一个统计图像中完全透明像素的问题。为了使用部分加载机制统计透明像素，介绍了一个实现 com.aspose.imaging.IPartialPixelLoader 的单独类 TransparentPixelCounter。
 ``` java
 
-// 首先，实现 com.aspose.imaging.IPartialPixelLoader 来计数所有完全透明的像素。
+// 首先，实现 com.aspose.imaging.IPartialPixelLoader 来统计所有完全透明的像素。
 /** Counts the number of fully transparent pixels with alpha channel value of 0. */
 class TransparentPixelCounter implements com.aspose.imaging.IPartialPixelLoader {
     /**
@@ -1124,12 +1124,12 @@ class TransparentPixelCounter implements com.aspose.imaging.IPartialPixelLoader 
     }
 }
 
-// 下面是使用计数器的示例。
+// 以下是使用计数器的示例。
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 创建 com.aspose.imaging.IPartialPixelLoader 的实例并将其传递给 com.aspose.imaging.RasterImage.loadPartialPixels
+    // 创建 com.aspose.imaging.IPartialPixelLoader 的实例并将其传递给 com.aspose.imaging.RasterImage.loadPartialPixels。
     TransparentPixelCounter counter = new TransparentPixelCounter();
 
     // 加载整幅图像的像素。图像的任意矩形区域都可以作为 com.aspose.imaging.RasterImage.loadPartialPixels 方法的第一个参数指定。
@@ -1142,8 +1142,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 完全透明像素的数量为 55157
-// 像素的总数为 120400
+// 完全透明像素的数量为 55157。
+// 像素的总数量为 120400。
 ```
 
 ### loadArgb32Pixels(Rectangle rectangle) {#loadArgb32Pixels-com.aspose.imaging.Rectangle-}
@@ -1212,8 +1212,8 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 加载整幅图像的像素。图像的任意矩形区域都可以作为 com.aspose.imaging.RasterImage.loadArgb64Pixels 方法的参数指定。
-    // 请注意，图像本身必须是每个样本 16 位，因为 com.aspose.imaging.RasterImage.loadArgb64Pixels 不支持每个样本 8 位。
-    // 若要使用每个样本 8 位，请使用老牌的 com.aspose.imaging.RasterImage.loadArgb32Pixels 方法。
+    // 请注意，图像本身必须每个样本为 16 位，因为 com.aspose.imaging.RasterImage.loadArgb64Pixels 不支持每个样本为 8 位的情况。
+    // 若要使用每个样本为 8 位，请使用传统的 com.aspose.imaging.RasterImage.loadArgb32Pixels 方法。
     long[] pixels = rasterImage.loadArgb64Pixels(rasterImage.getBounds());
 
     int count = 0;
@@ -1269,7 +1269,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 加载整幅图像的像素。图像的任意矩形区域都可以作为 Aspose.Imaging.RasterImage.LoadPixels 方法的参数指定。
+    // 加载整个图像的像素。图像的任意矩形区域可以作为 Aspose.Imaging.RasterImage.LoadPixels 方法的参数指定。
     com.aspose.imaging.Color[] pixels = rasterImage.loadPixels(rasterImage.getBounds());
 
     int count = 0;
@@ -1292,7 +1292,7 @@ public CmykColor[] loadCmykPixels(Rectangle rectangle)
 ```
 
 
-以 CMYK 格式加载像素。此方法已弃用。请改用更高效的 `loadCmyk32Pixels(Rectangle)` 方法。
+以 CMYK 格式加载像素。此方法已弃用。请使用更有效的 `loadCmyk32Pixels(Rectangle)` 方法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1327,7 +1327,7 @@ public void loadRawData(Rectangle rectangle, RawDataSettings rawDataSettings, IP
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要从中加载数据的图像的目标矩形区域。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要从中加载数据的图像所需矩形区域。 |
 | rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | 原始数据设置。 |
 | rawDataLoader | [IPartialRawDataLoader](../../com.aspose.imaging/ipartialrawdataloader) | 原始数据加载器。 |
 
@@ -1378,8 +1378,8 @@ class TransparentPixelRawDataCounter implements com.aspose.imaging.IPartialRawDa
     {
         int[] channelBits = this.rawDataSettings.getPixelDataFormat().getChannelBits();
 
-        // 此处仅考虑简单格式，以简化代码。
-        // 我们仅考虑每个样本为 8 位的图像。
+        // 这里仅考虑简单格式，以简化代码。
+        // 我们只考虑每个样本为 8 位的图像。
         for (int i = 0; i < channelBits.length; i++) {
             if (channelBits[i] != 8) {
                 throw new java.lang.UnsupportedOperationException();
@@ -1441,7 +1441,7 @@ try {
 
     TransparentPixelRawDataCounter rawDataLoader = new TransparentPixelRawDataCounter(settings);
 
-    // 加载整幅图像的像素。图像的任意矩形部分都可以作为 Aspose.Imaging.RasterImage.LoadRawData 方法的参数指定。
+    // 加载整个图像的像素。图像的任意矩形区域可以作为 Aspose.Imaging.RasterImage.LoadRawData 方法的参数指定。
     rasterImage.loadRawData(rasterImage.getBounds(), settings, rawDataLoader);
 
     System.out.println("The number of fully transparent pixels is " + rawDataLoader.getCount());
@@ -1451,8 +1451,8 @@ try {
 }
 
 // 输出可能如下所示：
-// 完全透明像素的数量为 55157
-// 像素的总数为 120400
+// 完全透明像素的数量为 55157。
+// 像素的总数量为 120400。
 ```
 
 ### loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSettings rawDataSettings, IPartialRawDataLoader rawDataLoader) {#loadRawData-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-com.aspose.imaging.RawDataSettings-com.aspose.imaging.IPartialRawDataLoader-}
@@ -1466,7 +1466,7 @@ public void loadRawData(Rectangle rectangle, Rectangle dstImageBounds, RawDataSe
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于加载原始数据的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要从中加载原始数据的矩形。 |
 | dstImageBounds | [Rectangle](../../com.aspose.imaging/rectangle) | 目标图像的边界。 |
 | rawDataSettings | [RawDataSettings](../../com.aspose.imaging/rawdatasettings) | 用于已加载数据的原始数据设置。请注意，如果数据不是指定的格式，则会执行数据转换。 |
 | rawDataLoader | [IPartialRawDataLoader](../../com.aspose.imaging/ipartialrawdataloader) | 原始数据加载器。 |
@@ -1498,12 +1498,12 @@ public void saveArgb32Pixels(Rectangle rectangle, int[] pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于保存像素的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要保存像素的矩形。 |
 | 像素 | int[] | 32 位 ARGB 像素数组。 |
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-以下示例使用 com.aspose.imaging.RasterImage.saveArgb32Pixels 方法将栅格图像的中心区域填充为黑色像素。
+下面的示例使用 com.aspose.imaging.RasterImage.saveArgb32Pixels 方法，用黑色像素填充光栅图像的中心区域。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1538,12 +1538,12 @@ public void savePixels(Rectangle rectangle, Color[] pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于保存像素的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要保存像素的矩形。 |
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | 像素数组。 |
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-以下示例使用 com.aspose.imaging.RasterImage.savePixels 方法填充光栅图像的中心区域为黑色像素。
+下面的示例使用 com.aspose.imaging.RasterImage.savePixels 方法，用黑色像素填充光栅图像的中心区域。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1603,7 +1603,7 @@ public void saveCmykPixels(Rectangle rectangle, CmykColor[] pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于保存像素的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要保存像素的矩形。 |
 | pixels | [CmykColor\[\]](../../com.aspose.imaging/cmykcolor) | CMYK 像素数组。 |
 
 ### saveCmyk32Pixels(Rectangle rectangle, int[] pixels) {#saveCmyk32Pixels-com.aspose.imaging.Rectangle-int---}
@@ -1617,12 +1617,12 @@ public void saveCmyk32Pixels(Rectangle rectangle, int[] pixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于保存像素的矩形。 |
+| rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 要保存像素的矩形。 |
 | 像素 | int[] | CMYK 像素以 32 位整数值的形式呈现。 |
 
 
 **Example: The following example fills the central area of a raster image with black pixels using the com.**
-以下示例使用 com.aspose.imaging.RasterImage.saveCmyk32Pixels 方法填充光栅图像的中心区域为黑色像素。
+下面的示例使用 com.aspose.imaging.RasterImage.saveCmyk32Pixels 方法，用黑色像素填充光栅图像的中心区域。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1689,11 +1689,11 @@ try {
     }
 
     // 输出可能如下所示：
-    // 水平分辨率（每英寸像素数）：300.0
-    // 垂直分辨率（每英寸像素数）：300.0
-    // 将分辨率设置为 96 dpi
-    // 水平分辨率（每英寸像素数）：96.0
-    // 垂直分辨率（每英寸像素数）：96.0
+    // 水平分辨率，单位为每英寸像素：300.0
+    // 垂直分辨率，单位为每英寸像素：300.0
+    // 将分辨率值设置为 96 dpi
+    // 水平分辨率，单位为每英寸像素：96.0
+    // 垂直分辨率，单位为每英寸像素：96.0
 } finally {
     image.dispose();
 }
@@ -1719,7 +1719,7 @@ public final void autoRotate()
 ```
 
 
-自动根据从 Exif 元数据提取的方向数据旋转图像。此方法确保图像以正确的方向显示，提升用户体验并消除手动调整的需求。通过分析 Exif 信息，图像相应地被旋转，提供在不同平台和设备上无缝的观看体验。此自动旋转过程简化了图像处理并提高整体可用性，尤其在处理具有不同方向的大批量图像时。
+自动根据从 Exif 元数据提取的方向数据旋转图像。此方法确保图像以正确的方向显示，提升用户体验并消除手动调整的需求。通过分析 Exif 信息，图像会相应旋转，提供跨平台和设备的无缝观看体验。此自动旋转过程简化了图像处理，并在处理大量方向各异的图像时提升整体可用性。
 
 ### resize(int newWidth, int newHeight, ImageResizeSettings settings) {#resize-int-int-com.aspose.imaging.ImageResizeSettings-}
 ```
@@ -1779,7 +1779,7 @@ public void binarizeFixed(byte threshold)
 
 
 **Example: The following example binarizes a raster image with the predefined threshold.**
-以下示例使用预定义阈值对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
+下面的示例使用预定义阈值对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1788,7 +1788,7 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 使用阈值 127 对图像进行二值化。
-    // 如果像素的对应灰度值大于 127，则赋值为 255；否则为 0。
+    // 如果像素的对应灰度值大于 127，则赋值为 255，否则为 0。
     rasterImage.binarizeFixed((byte) 127);
     rasterImage.save(dir + "sample.BinarizeFixed.png");
 } finally {
@@ -1806,7 +1806,7 @@ public void binarizeOtsu()
 
 
 **Example: The following example binarizes a raster image with Otsu thresholding.**
-以下示例使用 Otsu 阈值法对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
+下面的示例使用 Otsu 阈值法对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1833,7 +1833,7 @@ public void binarizeBradley(double brightnessDifference)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
 
 ### binarizeBradley(double brightnessDifference, int windowSize) {#binarizeBradley-double-int-}
 ```
@@ -1846,12 +1846,12 @@ public void binarizeBradley(double brightnessDifference, int windowSize)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | double | 像素与以该像素为中心的 s × s 窗口像素平均值之间的亮度差。 |
-| windowSize | int | 以该像素为中心的 s × s 窗口像素的大小 |
+| brightnessDifference | double | 像素的亮度差是该像素与以其为中心的 s × s 窗口像素平均值之间的差异。 |
+| windowSize | int | 以该像素为中心的 s × s 窗口的大小 |
 
 
 **Example: The following example binarizes a raster image with Bradley's adaptive thresholding algorithm with the specified window size.**
-以下示例使用 Bradley 自适应阈值算法（指定窗口大小）对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
+下面的示例使用 Bradley 自适应阈值算法（指定窗口大小）对光栅图像进行二值化。二值化图像仅包含两种颜色——黑色和白色。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1878,7 +1878,7 @@ public final void blend(Point origin, RasterImage overlay, Rectangle overlayArea
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖图像。 |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | 覆盖区域。 |
 
@@ -1893,7 +1893,7 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖图像。 |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | 覆盖区域。 |
 | overlayAlpha | byte | 覆盖透明度。 |
@@ -1909,7 +1909,7 @@ public final void blend(Point origin, RasterImage overlay)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖层。 |
 
 ### blend(Point origin, RasterImage overlay, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-}
@@ -1923,7 +1923,7 @@ public final void blend(Point origin, RasterImage overlay, byte overlayAlpha)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的起点。 |
+| origin | [Point](../../com.aspose.imaging/point) | 背景图像混合的原点。 |
 | overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | 覆盖层。 |
 | overlayAlpha | byte | 覆盖透明度。 |
 
@@ -1937,7 +1937,7 @@ public void grayscale()
 
 
 **Example: The following example transforms a colored raster image to its grayscale representation.**
-以下示例将彩色光栅图像转换为其灰度表示。灰度图像仅由灰色阴影组成，只包含强度信息。
+下面的示例将彩色光栅图像转换为其灰度表示。灰度图像仅由灰色阴影组成，仅携带强度信息。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2041,7 +2041,7 @@ public void embedDigitalSignature(String password)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 密码 | java.lang.String | 用于生成数字签名数据的密码 |
+| 密码 | java.lang.String | 用于生成数字签名数据的密码（最少4个字符）。 |
 
 
 **Example: The example shows how to embed digital signature based on provided password into image pixel data.**
@@ -2077,11 +2077,11 @@ public boolean isDigitalSigned(String password)
 ```
 
 
-使用提供的密码和阈值快速检查图像是否已数字签名。
+使用提供的密码和阈值快速检查图像是否已进行数字签名。
 
 --------------------
 
-此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，旨在提高检测准确性的后续提取步骤将被跳过。
+此方法通过利用 \#analyzePercentageDigitalSignature(String).analyzePercentageDigitalSignature(String) 提供最快的检测。一旦提取的数据达到指定阈值，旨在提高检测准确性的后续提取步骤将被跳过。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -2089,18 +2089,18 @@ public boolean isDigitalSigned(String password)
 | 密码 | java.lang.String | 用于检查签名的密码。 |
 
 **Returns:**
-boolean - 如果图像已签名则为 True，否则为 false。
+boolean - 如果图像已签名则为 true，否则为 false。
 ### isDigitalSigned(String password, int percentageThreshold) {#isDigitalSigned-java.lang.String-int-}
 ```
 public boolean isDigitalSigned(String password, int percentageThreshold)
 ```
 
 
-使用提供的密码和阈值快速检查图像是否已数字签名。
+使用提供的密码和阈值快速检查图像是否已进行数字签名。
 
 --------------------
 
-此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，旨在提高检测准确性的后续提取步骤将被跳过。
+此方法通过利用 `GetSignPercentage` 提供最快的检测。一旦提取的数据达到指定阈值，后续旨在提高检测准确性的提取步骤将被跳过。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -2109,7 +2109,7 @@ public boolean isDigitalSigned(String password, int percentageThreshold)
 | percentageThreshold | int | 阈值（百分比）[0-100] 用于确定图像是否被视为已签名。如果未指定，将使用默认阈值（`75`）。 |
 
 **Returns:**
-boolean - 如果图像已签名则为 True，否则为 false。
+boolean - 如果图像已签名则为 true，否则为 false。
 ### adjustGamma(float gammaRed, float gammaGreen, float gammaBlue) {#adjustGamma-float-float-float-}
 ```
 public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
@@ -2123,7 +2123,7 @@ public void adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 | --- | --- | --- |
 | gammaRed | float | 红色通道的伽马系数 |
 | gammaGreen | float | 绿色通道的伽马系数 |
-| gammaBlue | float | 蓝色通道的伽马系数 |
+| gammaBlue | float | 蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of an image applying different coefficients for color components.**
@@ -2135,7 +2135,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 为红色、绿色和蓝色通道设置各自的伽马系数。
+    // 为红色、绿色和蓝色通道设置各自的 Gamma 系数。
     rasterImage.adjustGamma(1.5f, 2.5f, 3.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -2154,7 +2154,7 @@ public void adjustGamma(float gamma)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 伽马 | float | 红色、绿色和蓝色通道的伽马系数 |
+| 伽马 | float | 红色、绿色和蓝色通道系数的 Gamma |
 
 
 **Example: The following example performs gamma-correction of an image.**
@@ -2166,7 +2166,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 为红色、绿色和蓝色通道设置伽马系数。
+    // 为红色、绿色和蓝色通道设置 Gamma 系数。
     rasterImage.adjustGamma(2.5f);
     rasterImage.save(dir + "sample.AdjustGamma.png");
 } finally {
@@ -2180,17 +2180,17 @@ public final float getSkewAngle()
 ```
 
 
-获取倾斜角度。此方法适用于扫描的文本文档，用于在扫描时确定倾斜角度。
+获取倾斜角度。此方法适用于扫描的文本文件，用于在扫描时确定倾斜角度。
 
 **Returns:**
-float - 倾斜角度（单位：度）。
+float - 倾斜角度，以度为单位。
 ### normalizeAngle() {#normalizeAngle--}
 ```
 public final void normalizeAngle()
 ```
 
 
-标准化角度。此方法适用于扫描的文本文件，以消除倾斜的扫描。此方法使用 \#getSkewAngle.getSkewAngle 和 [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) 方法。
+归一化角度。此方法适用于扫描的文本文件，以消除倾斜的扫描。此方法使用 \#getSkewAngle.getSkewAngle 和 [Image.rotate(float)](../../com.aspose.imaging/image\#rotate-float-) 方法。
 
 ### normalizeAngle(boolean resizeProportionally, Color backgroundColor) {#normalizeAngle-boolean-com.aspose.imaging.Color-}
 ```
@@ -2198,7 +2198,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 ```
 
 
-标准化角度。此方法适用于扫描的文本文件，以消除倾斜的扫描。此方法使用 \#rotate(float, boolean, Color).rotate(float, boolean, Color) 方法。
+归一化角度。此方法适用于扫描的文本文件，以消除倾斜的扫描。此方法使用 \#getSkewAngle.getSkewAngle 和 \#rotate(float, boolean, Color).rotate(float, boolean, Color) 方法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -2208,7 +2208,7 @@ public void normalizeAngle(boolean resizeProportionally, Color backgroundColor)
 
 
 **Example: Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle.**
-倾斜是文档扫描过程中可能出现的伪影，当文档的文字/图像略微旋转时会产生。它可能由多种原因导致，但最常见的是扫描时纸张位置偏移。因此，去倾斜是对扫描文件（即位图）进行检测并修复此问题的过程，使去倾斜后的文档文字/图像能够正确且水平地显示。
+倾斜是文档扫描过程中可能出现的伪影，当文档的文字/图像略微旋转时会产生。它可能由多种原因导致，但最常见的是扫描时纸张位置偏移。因此，去倾斜是检测并修复扫描文件（即位图）中此问题的过程，使去倾斜后的文档文字/图像正确且水平对齐。
 ``` java
 String dir = "c:\\aspose.imaging\\issues\\java\\1461\\";
 
@@ -2250,7 +2250,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.png
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用矩形大小为 5 的中值滤波器。
+    // 对整幅图像应用矩形大小为5的中值滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MedianFilterOptions(5));
     rasterImage.save(dir + "sample.MedianFilter.png");
 } finally {
@@ -2261,7 +2261,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5 的双边平滑滤波器。
+    // 对整幅图像应用核大小为5的双边平滑滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions(5));
     rasterImage.save(dir + "sample.BilateralSmoothingFilter.png");
 } finally {
@@ -2272,7 +2272,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、sigma 值为 4.0 的高斯模糊滤波器。
+    // 对整幅图像应用半径为5、sigma值为4.0的高斯模糊滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussianBlurFilter.png");
 } finally {
@@ -2283,7 +2283,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用半径为 5、平滑值为 4.0 的 Gauss-Wiener 滤波器。
+    // 对整幅图像应用半径为5、平滑值为4.0的Gauss-Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.GaussWienerFilter.png");
 } finally {
@@ -2294,7 +2294,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用长度为 5、平滑值为 4.0、角度为 90.0 度的运动 Wiener 滤波器。
+    // 对整幅图像应用长度为5、平滑值为4.0、角度为90.0度的运动Wiener滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.save(dir + "sample.MotionWienerFilter.png");
 } finally {
@@ -2305,7 +2305,7 @@ image = com.aspose.imaging.Image.load(dir + "sample.png");
 try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
-    // 对整幅图像应用核大小为 5、sigma 值为 4.0 的锐化滤波器。
+    // 对整幅图像应用核大小为5、sigma值为4.0的锐化滤波器。
     rasterImage.filter(rasterImage.getBounds(), new com.aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions(5, 4.0));
     rasterImage.save(dir + "sample.SharpenFilter.png");
 } finally {
@@ -2319,7 +2319,7 @@ public void replaceColor(Color oldColor, byte oldColorDiff, Color newColor)
 ```
 
 
-将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。
+在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -2334,12 +2334,12 @@ public void replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)
 ```
 
 
-将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。
+在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| oldColorArgb | int | 要替换的旧颜色 ARGB 值。 |
+| oldColorArgb | int | 待替换的旧颜色 ARGB 值。 |
 | oldColorDiff | byte | 允许的旧颜色差异，以便能够扩大替换后的颜色色调。 |
 | newColorArgb | int | 用于替换旧颜色的新颜色 ARGB 值。 |
 
@@ -2349,7 +2349,7 @@ public void replaceNonTransparentColors(Color newColor)
 ```
 
 
-将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它将把所有颜色替换为单一颜色。
+将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它会将所有颜色替换为单一颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -2362,7 +2362,7 @@ public void replaceNonTransparentColors(int newColorArgb)
 ```
 
 
-将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它将把所有颜色替换为单一颜色。
+将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它会将所有颜色替换为单一颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

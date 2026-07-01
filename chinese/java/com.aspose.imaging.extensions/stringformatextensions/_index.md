@@ -1,6 +1,6 @@
 ---
 title: "StringFormatExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含 StringFormat 类的扩展方法。"
 type: docs
 weight: 24
@@ -12,7 +12,7 @@ java.lang.Object
 public final class StringFormatExtensions
 ```
 
-包含 `StringFormat` 类的扩展方法。
+包含针对 `StringFormat` 类的扩展方法。
 ## 方法
 
 | 方法 | 描述 |

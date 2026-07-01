@@ -1,6 +1,6 @@
 ---
 title: "ColorChannelFlag"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定 CMYK（青色、品红、黄色、黑色）颜色空间中的各个通道。"
 type: docs
 weight: 23
@@ -18,7 +18,7 @@ public final class ColorChannelFlag extends System.Enum
 | 字段 | 描述 |
 | --- | --- |
 | [ColorChannelC](#ColorChannelC) | 青色通道。 |
-| [ColorChannelM](#ColorChannelM) | 品红色通道。 |
+| [ColorChannelM](#ColorChannelM) | 品红通道。 |
 | [ColorChannelY](#ColorChannelY) | 黄色通道。 |
 | [ColorChannelK](#ColorChannelK) | 黑色通道。 |
 | [ColorChannelLast](#ColorChannelLast) | 应使用最后选择的通道。 |
@@ -36,7 +36,7 @@ public static final int ColorChannelM
 ```
 
 
-品红色通道。
+品红通道。
 
 ### ColorChannelY {#ColorChannelY}
 ```

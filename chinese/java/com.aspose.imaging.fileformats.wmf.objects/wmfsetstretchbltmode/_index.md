@@ -1,13 +1,13 @@
 ---
 title: "WmfSetStretchbltMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_SETSTRETCHBLTMODE 记录在回放设备上下文中定义位图拉伸模式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SETSTRETCHBLTMODE 记录定义回放设备上下文中的位图拉伸模式。"
 type: docs
 weight: 84
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetStretchbltMode extends WmfObject
 ```
@@ -57,7 +57,7 @@ public void setStretchMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getReserved() {#getReserved--}
 ```
@@ -84,5 +84,5 @@ public void setReserved(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "AnimationDisposalMethods"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指示图形显示后应如何处理。"
 type: docs
 weight: 11
@@ -17,16 +17,16 @@ public final class AnimationDisposalMethods extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [PRESERVE](#PRESERVE) | 不要处理。 |
-| [BACKGROUND](#BACKGROUND) | 恢复为背景颜色。 |
-| [PREVIOUS](#PREVIOUS) | 恢复到先前状态。 |
+| [PRESERVE](#PRESERVE) | 不要释放。 |
+| [BACKGROUND](#BACKGROUND) | 恢复到背景颜色。 |
+| [PREVIOUS](#PREVIOUS) | 恢复到之前的状态。 |
 ### PRESERVE {#PRESERVE}
 ```
 public static final int PRESERVE
 ```
 
 
-不要处理。图形保持原位。
+不要释放。图形应保持原位。
 
 ### BACKGROUND {#BACKGROUND}
 ```
@@ -34,7 +34,7 @@ public static final int BACKGROUND
 ```
 
 
-恢复为背景颜色。图形占用的区域必须恢复为背景颜色。
+恢复到背景颜色。图形使用的区域必须恢复为背景颜色。
 
 ### PREVIOUS {#PREVIOUS}
 ```
@@ -42,5 +42,5 @@ public static final int PREVIOUS
 ```
 
 
-恢复到先前状态。解码器需要将图形覆盖的区域恢复为渲染图形之前的内容。
+恢复到之前的状态。解码器需要将被图形覆盖的区域恢复为渲染图形之前的内容。
 

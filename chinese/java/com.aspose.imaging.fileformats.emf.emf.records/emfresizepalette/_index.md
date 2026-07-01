@@ -1,7 +1,7 @@
 ---
 title: "EmfResizePalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_RESIZEPALETTE 记录会增加或减少现有 LogPalette 对象的大小（第 2.2.17 节）。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_RESIZEPALETTE 记录增加或减少现有 LogPalette 对象的大小（第 2.2.17 节）。"
 type: docs
 weight: 108
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfResizePalette extends EmfObjectManipulationRecordType
 ```
 
-EMR\_RESIZEPALETTE 记录增加或减少现有 LogPalette 对象（第 2.2.17 节）的大小。
+EMR\_RESIZEPALETTE 记录增大或减小现有 LogPalette 对象（第 2.2.17 节）的大小。
 
-LogPalette 对象的新大小必须反映在该结构中的 NumberOfEntries 字段中。
+LogPalette 对象的新大小必须反映在该结构的 NumberOfEntries 字段中。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public EmfResizePalette(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getIhPal() {#getIhPal--}
 ```
@@ -60,5 +60,5 @@ public void setIhPal(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

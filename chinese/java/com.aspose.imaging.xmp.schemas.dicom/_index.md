@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.schemas.dicom"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含与 Dicom 元数据相关的帮助类、常量和方法。"
 type: docs
 weight: 114

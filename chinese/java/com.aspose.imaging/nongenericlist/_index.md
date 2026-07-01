@@ -1,6 +1,6 @@
 ---
 title: "NonGenericList"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "非泛型对象列表"
 type: docs
 weight: 76
@@ -30,11 +30,11 @@ public class NonGenericList implements List
 | [clear()](#clear--) | 从 `System.Collections.IList` 中移除所有项。 |
 | [contains(Object value)](#contains-java.lang.Object-) | 确定 `System.Collections.IList` 是否包含特定值。 |
 | [indexOf(Object value)](#indexOf-java.lang.Object-) | 确定 `System.Collections.IList` 中特定项的索引。 |
-| [insertItem(int index, Object value)](#insertItem-int-java.lang.Object-) | 在指定索引处向 `System.Collections.IList` 插入项。 |
+| [insertItem(int index, Object value)](#insertItem-int-java.lang.Object-) | 在指定索引处向 `System.Collections.IList` 插入一个项。 |
 | [get(int index)](#get-int-) | 获取指定索引处的元素。 |
 | [set(int index, Object value)](#set-int-java.lang.Object-) | 设置指定索引处的元素。 |
-| [removeItem(Object value)](#removeItem-java.lang.Object-) | 从 `System.Collections.IList` 中移除特定对象的首次出现。 |
-| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的 `System.Collections.IList` 项。 |
+| [removeItem(Object value)](#removeItem-java.lang.Object-) | 从 `System.Collections.IList` 中移除特定对象的第一次出现。 |
+| [removeAt(int index)](#removeAt-int-) | 移除 `System.Collections.IList` 中指定索引处的项。 |
 | [size()](#size--) | 获取 `System.Collections.ICollection` 中包含的元素数量。 |
 | [isEmpty()](#isEmpty--) |  |
 | [toArray()](#toArray--) |  |
@@ -87,10 +87,10 @@ public int addItem(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 要添加到 `System.Collections.IList` 的 `System.Object`。 |
+| 值 | java.lang.Object | 要添加到 `System.Collections.IList` 的 `System.Object`。 |
 
 **Returns:**
-int - 新元素被插入的位置。
+int - 新元素插入的位置。
 ### clear() {#clear--}
 ```
 public void clear()
@@ -110,7 +110,7 @@ public boolean contains(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 要在 `System.Collections.IList` 中定位的 `System.Object`。 |
+| 值 | java.lang.Object | 要在 `System.Collections.IList` 中定位的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果在 `System.Collections.IList` 中找到 `System.Object` 则为 true；否则为 false。
@@ -125,7 +125,7 @@ public int indexOf(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 要在 `System.Collections.IList` 中定位的 `System.Object`。 |
+| 值 | java.lang.Object | 要在 `System.Collections.IList` 中定位的 `System.Object`。 |
 
 **Returns:**
 int - 如果在列表中找到 `value`，则返回其索引；否则返回 -1。
@@ -135,13 +135,13 @@ public void insertItem(int index, Object value)
 ```
 
 
-在指定索引处向 `System.Collections.IList` 插入项。
+在指定索引处向 `System.Collections.IList` 插入一个项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 应插入 `value` 的零基索引。 |
-| value | java.lang.Object | 要插入到 `System.Collections.IList` 的 `System.Object`。 |
+| 索引 | int | 应插入 `value` 的零基索引。 |
+| 值 | java.lang.Object | 要插入到 `System.Collections.IList` 中的 `System.Object`。 |
 
 ### get(int index) {#get-int-}
 ```
@@ -154,7 +154,7 @@ public Object get(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 索引。 |
+| 索引 | int | 索引。 |
 
 **Returns:**
 java.lang.Object - 指定索引处的元素。
@@ -169,8 +169,8 @@ public Object set(int index, Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 索引。 |
-| value | java.lang.Object |  |
+| 索引 | int | 索引。 |
+| 值 | java.lang.Object |  |
 
 **Returns:**
 java.lang.Object
@@ -180,12 +180,12 @@ public void removeItem(Object value)
 ```
 
 
-从 `System.Collections.IList` 中移除特定对象的首次出现。
+从 `System.Collections.IList` 中移除特定对象的第一次出现。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 要从 `System.Collections.IList` 中移除的 `System.Object`。 |
+| 值 | java.lang.Object | 要从 `System.Collections.IList` 中移除的 `System.Object`。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -193,12 +193,12 @@ public void removeAt(int index)
 ```
 
 
-移除指定索引处的 `System.Collections.IList` 项。
+移除 `System.Collections.IList` 中指定索引处的项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 要移除的项的零基索引。 |
+| 索引 | int | 要移除的项的零基索引。 |
 
 ### size() {#size--}
 ```
@@ -301,7 +301,7 @@ public boolean addAll(int index, Collection c)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int |  |
+| 索引 | int |  |
 | c | java.util.Collection |  |
 
 **Returns:**
@@ -347,7 +347,7 @@ public void add(int index, Object element)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int |  |
+| 索引 | int |  |
 | 元素 | java.lang.Object |  |
 
 ### remove(int index) {#remove-int-}
@@ -361,7 +361,7 @@ public Object remove(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int |  |
+| 索引 | int |  |
 
 **Returns:**
 java.lang.Object
@@ -401,7 +401,7 @@ public ListIterator<Object> listIterator(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int |  |
+| 索引 | int |  |
 
 **Returns:**
 java.util.ListIterator<java.lang.Object>
@@ -430,7 +430,7 @@ public Iterator iterator()
 返回一个遍历集合的枚举器。
 
 **Returns:**
-java.util.Iterator - 一个 `System.Collections.IEnumerator` 对象，可用于遍历集合。
+java.util.Iterator - 一个可用于遍历集合的 `System.Collections.IEnumerator` 对象。
 ### toArray(Object[] a) {#toArray-java.lang.Object---}
 ```
 public Object[] toArray(Object[] a)
@@ -442,7 +442,7 @@ public Object[] toArray(Object[] a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 一个 | java.lang.Object[] |  |
+| a | java.lang.Object[] |  |
 
 **Returns:**
 java.lang.Object[]

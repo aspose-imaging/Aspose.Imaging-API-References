@@ -1,6 +1,6 @@
 ---
 title: "IInterruptMonitor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示中断信息。"
 type: docs
 weight: 11

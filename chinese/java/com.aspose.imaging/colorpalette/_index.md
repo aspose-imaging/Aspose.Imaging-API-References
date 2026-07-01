@@ -1,6 +1,6 @@
 ---
-title: "颜色调色板"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "ColorPalette"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "定义组成调色板的颜色数组。"
 type: docs
 weight: 28
@@ -51,7 +51,7 @@ public ColorPalette(int[] argb32Entries, boolean isCompactPalette)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argb32Entries | int[] | 32 位 ARGB 颜色调色板条目。 |
+| argb32Entries | int[] | 32 位 ARGB 调色板条目。 |
 | isCompactPalette | boolean | 指示调色板是否紧凑。 |
 
 ### ColorPalette(int[] argb32Entries) {#ColorPalette-int---}
@@ -65,7 +65,7 @@ public ColorPalette(int[] argb32Entries)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| argb32Entries | int[] | 32 位 ARGB 颜色调色板条目。 |
+| argb32Entries | int[] | 32 位 ARGB 调色板条目。 |
 
 ### ColorPalette(Color[] entries, boolean isCompactPalette) {#ColorPalette-com.aspose.imaging.Color---boolean-}
 ```
@@ -113,7 +113,7 @@ public int[] getArgb32Entries()
 获取 32 位 ARGB 结构的数组。
 
 **Returns:**
-int[] - 条目。由构成此 [ColorPalette](../../com.aspose.imaging/colorpalette) 的 32 位 ARGB 值数组的副本。
+int[] - 条目。构成此 [ColorPalette](../../com.aspose.imaging/colorpalette) 的 32 位 ARGB 值数组的副本。
 ### getEntries() {#getEntries--}
 ```
 public Color[] getEntries()
@@ -123,7 +123,7 @@ public Color[] getEntries()
 获取 `com.aspose.imaging.Color` 结构的数组。
 
 **Returns:**
-com.aspose.imaging.Color[] - 条目。由构成此 [ColorPalette](../../com.aspose.imaging/colorpalette) 的 [Color](../../com.aspose.imaging/color) 结构数组的副本。
+com.aspose.imaging.Color[] - 条目。构成此 [ColorPalette](../../com.aspose.imaging/colorpalette) 的 [Color](../../com.aspose.imaging/color) 结构数组的副本。
 ### isCompactPalette() {#isCompactPalette--}
 ```
 public boolean isCompactPalette()
@@ -135,7 +135,7 @@ public boolean isCompactPalette()
 **Returns:**
 boolean - 如果使用紧凑调色板则为 `true`；否则为 `false`。
 
-紧凑调色板意味着图像将在可能的情况下仅包含指定的调色板条目，换句话说，图像将更紧凑并占用更少空间；否则将有 2^BitsPerPixel 条目，图像将为所有可能的调色板条目预留更多空间。将此值设为 true 并更改调色板条目可能会导致性能下降，因为可能会发生数据移动，所以请谨慎使用。
+紧凑调色板表示图像将在可能的情况下仅包含指定的调色板条目，换句话说，图像将更紧凑并占用更少的空间；否则将有 2^BitsPerPixel 个条目，图像将为所有可能的调色板条目预留更多空间。将此值设为 true 并更改调色板条目可能会导致性能下降，因为可能会发生数据移动，所以请谨慎使用。
 ### copyPalette(IColorPalette colorPalette, boolean useCompactPalette) {#copyPalette-com.aspose.imaging.IColorPalette-boolean-}
 ```
 public static ColorPalette copyPalette(IColorPalette colorPalette, boolean useCompactPalette)
@@ -208,7 +208,7 @@ public int getArgb32Color(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 32 位 ARGB 调色板颜色索引。 |
+| 索引 | int | 32 位 ARGB 调色板颜色索引。 |
 
 **Returns:**
 int - 由 `index` 指定的颜色调色板条目。
@@ -223,7 +223,7 @@ public Color getColor(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | 调色板颜色索引。 |
+| 索引 | int | 调色板颜色索引。 |
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The color palette entry specified by the `index`.

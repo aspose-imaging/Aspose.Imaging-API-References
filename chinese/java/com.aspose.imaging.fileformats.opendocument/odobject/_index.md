@@ -1,7 +1,7 @@
 ---
 title: "OdObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "打开文档对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该打开文档对象。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.opendocument/odobject/
@@ -12,7 +12,7 @@ java.lang.Object
 public class OdObject
 ```
 
-打开文档对象。
+该打开文档对象。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,7 +24,7 @@ public class OdObject
 | 方法 | 描述 |
 | --- | --- |
 | [getParent()](#getParent--) | 获取父对象。 |
-| [getItems()](#getItems--) | 获取项。 |
+| [getItems()](#getItems--) | 获取项目。 |
 ### OdObject(OdObject parent) {#OdObject-com.aspose.imaging.fileformats.opendocument.OdObject-}
 ```
 public OdObject(OdObject parent)
@@ -36,7 +36,7 @@ public OdObject(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### OdObject() {#OdObject--}
 ```
@@ -62,7 +62,7 @@ public List<OdObject> getItems()
 ```
 
 
-获取项。
+获取项目。
 
 **Returns:**
 java.util.List<com.aspose.imaging.fileformats.opendocument.OdObject> - 项目。

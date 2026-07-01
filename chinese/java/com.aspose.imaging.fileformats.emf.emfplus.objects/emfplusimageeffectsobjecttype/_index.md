@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusImageEffectsObjectType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像效果对象指定可应用于位图图像的图形图像效果的参数。"
 type: docs
 weight: 49

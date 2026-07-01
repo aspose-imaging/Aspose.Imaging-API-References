@@ -1,6 +1,6 @@
 ---
 title: "PsdOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用我们的 API 创建 Photoshop 文档（PSD）图像，提供多种选项，包括不同的格式版本、压缩方式、颜色模式以及每个颜色通道的位数。"
 type: docs
 weight: 40
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PsdOptions extends ImageOptionsBase
 ```
 
-使用我们的 API 创建 Photoshop 文档（PSD）图像，提供多种选项，包括不同的格式版本、压缩方式、颜色模式以及每个颜色通道的位数。无缝处理 XMP 元数据容器，确保通过 PSD 格式功能（如图像图层、图层蒙版和文件信息）进行全面的图像处理，以实现设计中的自定义和创意。
+使用我们的 API 创建 Photoshop 文档（PSD）图像，提供多种选项，包括不同的格式版本、压缩方式、颜色模式以及每个颜色通道的位数。无缝处理 XMP 元数据容器，确保通过 PSD 格式的图层、图层蒙版和文件信息等强大功能，实现全面的图像处理，为您的设计提供定制和创意的可能。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -34,34 +34,34 @@ public class PsdOptions extends ImageOptionsBase
 | [setColorMode(short value)](#setColorMode-short-) | 获取或设置 PSD 颜色模式。 |
 | [getChannelBitsCount()](#getChannelBitsCount--) | 获取或设置每个颜色通道的位数。 |
 | [setChannelBitsCount(short value)](#setChannelBitsCount-short-) | 获取或设置每个颜色通道的位数。 |
-| [getChannelsCount()](#getChannelsCount--) | 获取颜色通道数量。 |
-| [setChannelsCount(short value)](#setChannelsCount-short-) | 设置颜色通道数量。 |
-| [isRemoveGlobalTextEngineResource()](#isRemoveGlobalTextEngineResource--) | 获取一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本图层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开时（主要与缺失字体的文本图层相关）。 |
-| [setRemoveGlobalTextEngineResource(boolean value)](#setRemoveGlobalTextEngineResource-boolean-) | 设置一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本图层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开时（主要与缺失字体的文本图层相关）。 |
+| [getChannelsCount()](#getChannelsCount--) | 获取颜色通道的数量。 |
+| [setChannelsCount(short value)](#setChannelsCount-short-) | 设置颜色通道的数量。 |
+| [isRemoveGlobalTextEngineResource()](#isRemoveGlobalTextEngineResource--) | 获取一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开时（主要与缺失字体的文本层相关）。 |
+| [setRemoveGlobalTextEngineResource(boolean value)](#setRemoveGlobalTextEngineResource-boolean-) | 设置一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开时（主要与缺失字体的文本层相关）。 |
 | [isRefreshImagePreviewData()](#isRefreshImagePreviewData--) | 获取一个值，指示是否 [刷新图像预览数据] - 该选项用于最大化与其他 PSD 图像查看器的兼容性。 |
 | [setRefreshImagePreviewData(boolean value)](#setRefreshImagePreviewData-boolean-) | 设置一个值，指示是否 [刷新图像预览数据] - 该选项用于最大化与其他 PSD 图像查看器的兼容性。 |
 | [getVectorizationOptions()](#getVectorizationOptions--) | 获取 PSD 矢量化选项。 |
-| [setVectorizationOptions(PsdVectorizationOptions value)](#setVectorizationOptions-com.aspose.imaging.imageoptions.PsdVectorizationOptions-) | 设置 PSD 向量化选项。 |
+| [setVectorizationOptions(PsdVectorizationOptions value)](#setVectorizationOptions-com.aspose.imaging.imageoptions.PsdVectorizationOptions-) | 设置 PSD 矢量化选项。 |
 
 ## Example: This example demonstrates the use of Aspose.
-本示例演示了 Aspose.Imaging for Java API 用于将图像转换为 PSD 格式的使用。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
+此示例演示了使用 Aspose.Imaging for Java API 将图像转换为 PSD 格式。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
 ``` java
 
-// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化。
+// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // 创建 PsdOptions 类的实例。
+    // 创建 PsdOptions 类的实例
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // 将 CompressionMethod 设置为 RLE。
-    // 注意：其他受支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】。
+    // 将 CompressionMethod 设置为 RLE
+    // 注意：其他支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // 将 ColorMode 设置为 GrayScale。
-    // 注意：其他受支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB。
+    // 将 ColorMode 设置为 GrayScale
+    // 注意：其他支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // 使用提供的 PsdOptions 设置将图像保存到磁盘。
+    // 使用提供的 PsdOptions 设置将图像保存到磁盘
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -82,7 +82,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // 仅导出前两页。这些页面将在输出的 PSD 中呈现为图层。
+    // 仅导出前两页。这些页面将在输出的 PSD 中作为图层呈现。
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage)image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -160,7 +160,7 @@ public void setVersion(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -168,7 +168,7 @@ public void setVersion(int value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
     // 定义线性蓝色透明渐变。
@@ -189,7 +189,7 @@ try {
     // 每个通道的位数
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道。
+    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道
     saveOptions.setChannelsCount((short) 4);
 
     // 颜色模式
@@ -211,7 +211,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // RLE 压缩可降低输出图像的大小。
+        // RLE 压缩可以减小输出图像的大小
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -239,7 +239,7 @@ public short getCompressionMethod()
 值：压缩方法。
 
 **Returns:**
-short
+短
 ### setCompressionMethod(short value) {#setCompressionMethod-short-}
 ```
 public void setCompressionMethod(short value)
@@ -253,28 +253,28 @@ public void setCompressionMethod(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 
 **Example: This example demonstrates the use of Aspose.**
-本示例演示了 Aspose.Imaging for Java API 用于将图像转换为 PSD 格式的使用。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
+此示例演示了使用 Aspose.Imaging for Java API 将图像转换为 PSD 格式。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
 ``` java
 
-// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化。
+// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // 创建 PsdOptions 类的实例。
+    // 创建 PsdOptions 类的实例
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // 将 CompressionMethod 设置为 RLE。
-    // 注意：其他受支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】。
+    // 将 CompressionMethod 设置为 RLE
+    // 注意：其他支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // 将 ColorMode 设置为 GrayScale。
-    // 注意：其他受支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB。
+    // 将 ColorMode 设置为 GrayScale
+    // 注意：其他支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // 使用提供的 PsdOptions 设置将图像保存到磁盘。
+    // 使用提供的 PsdOptions 设置将图像保存到磁盘
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -306,7 +306,7 @@ public final void setPsdVersion(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 文件格式版本。 |
+| 值 | byte | 文件格式版本。 |
 
 ### getColorMode() {#getColorMode--}
 ```
@@ -319,7 +319,7 @@ public short getColorMode()
 值：颜色模式。
 
 **Returns:**
-short
+短
 ### setColorMode(short value) {#setColorMode-short-}
 ```
 public void setColorMode(short value)
@@ -333,28 +333,28 @@ public void setColorMode(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 
 **Example: This example demonstrates the use of Aspose.**
-本示例演示了 Aspose.Imaging for Java API 用于将图像转换为 PSD 格式的使用。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
+此示例演示了使用 Aspose.Imaging for Java API 将图像转换为 PSD 格式。为实现此目标，示例加载现有图像，然后将其保存回 PSD 格式。
 ``` java
 
-// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化。
+// 创建 image 类的实例，并通过文件路径使用现有文件进行初始化
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
 try {
-    // 创建 PsdOptions 类的实例。
+    // 创建 PsdOptions 类的实例
     com.aspose.imaging.imageoptions.PsdOptions psdOptions = new com.aspose.imaging.imageoptions.PsdOptions();
 
-    // 将 CompressionMethod 设置为 RLE。
-    // 注意：其他受支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】。
+    // 将 CompressionMethod 设置为 RLE
+    // 注意：其他支持的 CompressionMethod 为 CompressionMethod.RAW【无压缩】
     psdOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
-    // 将 ColorMode 设置为 GrayScale。
-    // 注意：其他受支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB。
+    // 将 ColorMode 设置为 GrayScale
+    // 注意：其他支持的 ColorModes 为 ColorModes.Bitmap 和 ColorModes.RGB
     psdOptions.setColorMode(com.aspose.imaging.fileformats.psd.ColorModes.Grayscale);
 
-    // 使用提供的 PsdOptions 设置将图像保存到磁盘。
+    // 使用提供的 PsdOptions 设置将图像保存到磁盘
     image.save("C:\\temp\\output.psd", psdOptions);
 } finally {
     image.dispose();
@@ -372,7 +372,7 @@ public short getChannelBitsCount()
 值：每个颜色通道的位数。
 
 **Returns:**
-short
+短
 ### setChannelBitsCount(short value) {#setChannelBitsCount-short-}
 ```
 public void setChannelBitsCount(short value)
@@ -386,7 +386,7 @@ public void setChannelBitsCount(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -394,7 +394,7 @@ public void setChannelBitsCount(short value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
     // 定义线性蓝色透明渐变。
@@ -415,7 +415,7 @@ try {
     // 每个通道的位数
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道。
+    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道
     saveOptions.setChannelsCount((short) 4);
 
     // 颜色模式
@@ -437,7 +437,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // RLE 压缩可降低输出图像的大小。
+        // RLE 压缩可以减小输出图像的大小
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -460,22 +460,22 @@ public short getChannelsCount()
 ```
 
 
-获取颜色通道数量。
+获取颜色通道的数量。
 
 **Returns:**
-short - 颜色通道计数。
+short - 颜色通道数量。
 ### setChannelsCount(short value) {#setChannelsCount-short-}
 ```
 public void setChannelsCount(short value)
 ```
 
 
-设置颜色通道数量。
+设置颜色通道的数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 颜色通道计数。 |
+| 值 | 短 | 颜色通道数量。 |
 
 
 **Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
@@ -483,7 +483,7 @@ public void setChannelsCount(short value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100, com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 try {
     // 定义线性蓝色透明渐变。
@@ -504,7 +504,7 @@ try {
     // 每个通道的位数
     saveOptions.setChannelBitsCount((byte) 8);
 
-    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道。
+    // 通道数量。每个颜色分量 R、G、B、A 各占一个通道
     saveOptions.setChannelsCount((short) 4);
 
     // 颜色模式
@@ -526,7 +526,7 @@ try {
 
     stream = new java.io.FileOutputStream(dir + "saveoptions.RLE.psd");
     try {
-        // RLE 压缩可降低输出图像的大小。
+        // RLE 压缩可以减小输出图像的大小
         saveOptions.setCompressionMethod(com.aspose.imaging.fileformats.psd.CompressionMethod.RLE);
 
         pngImage.save(stream, saveOptions);
@@ -549,7 +549,7 @@ public boolean isRemoveGlobalTextEngineResource()
 ```
 
 
-获取一个指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开的情况下（主要与缺失字体的文本层相关）。使用此选项后，用户需要在 Photoshop 打开的文件中执行以下操作：菜单 "Text" -> "Process absent fonts"。完成该操作后，所有文本将再次出现。请注意，此操作可能导致最终布局出现一些更改。
+获取一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开的情况下（主要与缺失字体的文本层相关）。使用此选项后，用户需要在 Photoshop 打开的文件中执行以下操作：菜单 "Text" -> "Process absent fonts"。完成该操作后，所有文本将再次出现。请注意，此操作可能导致最终布局的某些更改。
 
 **Returns:**
 boolean - 如果 [remove global text engine resource] 为 `true`；否则为 `false`。
@@ -559,12 +559,12 @@ public void setRemoveGlobalTextEngineResource(boolean value)
 ```
 
 
-设置一个指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开的情况下（主要与缺失字体的文本层相关）。使用此选项后，用户需要在 Photoshop 打开的文件中执行以下操作：菜单 "Text" -> "Process absent fonts"。完成该操作后，所有文本将再次出现。请注意，此操作可能导致最终布局出现一些更改。
+设置一个值，指示是否 - 移除全局文本引擎资源 - 用于某些带文本层的 PSD 文件，仅在处理后无法在 Adobe Photoshop 中打开的情况下（主要与缺失字体的文本层相关）。使用此选项后，用户需要在 Photoshop 打开的文件中执行以下操作：菜单 "Text" -> "Process absent fonts"。完成该操作后，所有文本将再次出现。请注意，此操作可能导致最终布局的某些更改。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果 [remove global text engine resource]；否则为 `false`。 |
+| 值 | boolean | `true` 如果 [remove global text engine resource]；否则为 `false`。 |
 
 ### isRefreshImagePreviewData() {#isRefreshImagePreviewData--}
 ```
@@ -587,7 +587,7 @@ public void setRefreshImagePreviewData(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 如果 [refresh image preview data]；否则为 `false`。 |
+| 值 | boolean | `true` 如果 [refresh image preview data]；否则为 `false`。 |
 
 ### getVectorizationOptions() {#getVectorizationOptions--}
 ```
@@ -605,7 +605,7 @@ public final void setVectorizationOptions(PsdVectorizationOptions value)
 ```
 
 
-设置 PSD 向量化选项。
+设置 PSD 矢量化选项。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

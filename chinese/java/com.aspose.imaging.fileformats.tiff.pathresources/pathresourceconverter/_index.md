@@ -1,6 +1,6 @@
 ---
 title: "PathResourceConverter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "转换  为  并相互转换。"
 type: docs
 weight: 11
@@ -94,7 +94,7 @@ public static GraphicsPath toGraphicsPath(PathResource[] pathResources, Size ima
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pathResources | [PathResource\[\]](../../com.aspose.imaging.fileformats.tiff.pathresources/pathresource) | 路径资源。 |
-| imageSize | [Size](../../com.aspose.imaging/size) | 图像的大小。 |
+| imageSize | [Size](../../com.aspose.imaging/size) | 图像大小。 |
 
 **Returns:**
 [GraphicsPath](../../com.aspose.imaging/graphicspath) - The [GraphicsPath](../../com.aspose.imaging/graphicspath) instance.
@@ -110,7 +110,7 @@ public static PathResource[] fromGraphicsPath(GraphicsPath graphicsPath, Size im
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | graphicsPath | [GraphicsPath](../../com.aspose.imaging/graphicspath) | 图形路径。 |
-| imageSize | [Size](../../com.aspose.imaging/size) | 图像的大小。 |
+| imageSize | [Size](../../com.aspose.imaging/size) | 图像大小。 |
 
 **Returns:**
 com.aspose.imaging.fileformats.tiff.pathresources.PathResource[] - 路径资源。

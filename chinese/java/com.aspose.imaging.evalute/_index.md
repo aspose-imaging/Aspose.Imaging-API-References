@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.evalute"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: 
 type: docs
 weight: 20

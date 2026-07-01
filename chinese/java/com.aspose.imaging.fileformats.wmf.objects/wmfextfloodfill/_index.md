@@ -1,7 +1,7 @@
 ---
 title: "WmfExtFloodFill"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_EXTFLOODFILL 记录使用在回放设备上下文中定义的画笔填充区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_EXTFLOODFILL 记录使用回放设备上下文中定义的画笔填充区域。"
 type: docs
 weight: 35
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfExtFloodFill extends WmfFloodFill
 ```
 
-该 META_EXTFLOODFILL 记录使用在回放设备上下文中定义的画刷填充区域。
+该 META\_EXTFLOODFILL 记录使用在回放设备上下文中定义的画刷填充区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,5 +55,5 @@ public void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

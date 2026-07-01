@@ -1,7 +1,7 @@
 ---
 title: "CdrText"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 文本"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 文本"
 type: docs
 weight: 41
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrtext/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrText extends CdrDictionaryItem
 ```
 
-cdr 文本
+该 cdr 文本
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -63,7 +63,7 @@ public final void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | CDR 文本框。 |
+| 值 | java.lang.String | CDR 文本框。 |
 
 ### getCharDescriptors() {#getCharDescriptors--}
 ```
@@ -90,7 +90,7 @@ public final void setCharDescriptors(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getStyles() {#getStyles--}
 ```
@@ -144,5 +144,5 @@ public final void setStyleId(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 样式标识符。 |
+| 值 | int | 样式标识符。 |
 

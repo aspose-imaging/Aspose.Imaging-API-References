@@ -1,6 +1,6 @@
 ---
 title: "EmfMetafileVersion"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "MetafileVersion 枚举定义了 EMF 元文件的互操作性版本。"
 type: docs
 weight: 31

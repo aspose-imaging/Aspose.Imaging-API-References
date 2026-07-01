@@ -1,6 +1,6 @@
 ---
 title: "CmxCommandCodes"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "页面命令代码"
 type: docs
 weight: 11
@@ -27,35 +27,35 @@ public final class CmxCommandCodes extends System.Enum
 | [BeginProcedure](#BeginProcedure) | 开始过程命令 |
 | [BeginTextGroup](#BeginTextGroup) | 开始文本组命令 |
 | [BeginTextObject](#BeginTextObject) | 开始文本对象命令 |
-| [BeginTextStream](#BeginTextStream) | 该开始文本流命令 |
-| [CharInfo](#CharInfo) | 该字符信息命令 |
-| [Characters](#Characters) | 该字符命令 |
-| [ClearClipping](#ClearClipping) | 该清除剪裁命令 |
-| [Comment](#Comment) | 该注释命令 |
-| [DrawImage](#DrawImage) | 该绘制图像命令 |
-| [DrawChars](#DrawChars) | 该绘制字符命令 |
-| [Ellipse](#Ellipse) | 该椭圆命令 |
-| [EndEmbedded](#EndEmbedded) | 该结束嵌入文件命令 |
-| [EndGroup](#EndGroup) | 该结束组命令 |
-| [EndLayer](#EndLayer) | 该结束层命令 |
-| [EndPage](#EndPage) | 该结束页面命令 |
-| [EndParagraph](#EndParagraph) | 该结束段落命令 |
-| [EndSection](#EndSection) | 该结束章节命令 |
-| [EndTextGroup](#EndTextGroup) | 该结束文本组命令 |
-| [EndTextObject](#EndTextObject) | 该结束文本对象命令 |
-| [EndTextStream](#EndTextStream) | 该结束文本流命令 |
-| [JumpAbsolute](#JumpAbsolute) | 该跳转到绝对位置命令 |
-| [PolyCurve](#PolyCurve) | 该多段曲线命令 |
-| [PopMappingMode](#PopMappingMode) | 该弹出映射模式命令 |
-| [PopTint](#PopTint) | 该弹出色调命令 |
-| [PushMappingMode](#PushMappingMode) | 该推送映射模式命令 |
-| [PushTint](#PushTint) | 该推送色调命令 |
-| [Rectangle](#Rectangle) | 该矩形命令 |
-| [RemoveLastClippingRegion](#RemoveLastClippingRegion) | 该移除最后剪裁区域命令 |
+| [BeginTextStream](#BeginTextStream) | 开始文本流命令 |
+| [CharInfo](#CharInfo) | 字符信息命令 |
+| [Characters](#Characters) | 字符命令 |
+| [ClearClipping](#ClearClipping) | 清除裁剪命令 |
+| [Comment](#Comment) | 注释命令 |
+| [DrawImage](#DrawImage) | 绘制图像命令 |
+| [DrawChars](#DrawChars) | 绘制字符命令 |
+| [Ellipse](#Ellipse) | 椭圆命令 |
+| [EndEmbedded](#EndEmbedded) | 结束嵌入文件命令 |
+| [EndGroup](#EndGroup) | 结束组命令 |
+| [EndLayer](#EndLayer) | 结束图层命令 |
+| [EndPage](#EndPage) | 结束页面命令 |
+| [EndParagraph](#EndParagraph) | 结束段落命令 |
+| [EndSection](#EndSection) | 结束章节命令 |
+| [EndTextGroup](#EndTextGroup) | 结束文本组命令 |
+| [EndTextObject](#EndTextObject) | 结束文本对象命令 |
+| [EndTextStream](#EndTextStream) | 结束文本流命令 |
+| [JumpAbsolute](#JumpAbsolute) | 跳转到绝对位置的命令 |
+| [PolyCurve](#PolyCurve) | 多段曲线命令 |
+| [PopMappingMode](#PopMappingMode) | 弹出映射模式命令 |
+| [PopTint](#PopTint) | 弹出色调命令 |
+| [PushMappingMode](#PushMappingMode) | 推送映射模式命令 |
+| [PushTint](#PushTint) | 推送色调命令 |
+| [Rectangle](#Rectangle) | 矩形命令 |
+| [RemoveLastClippingRegion](#RemoveLastClippingRegion) | 移除上一个剪裁区域的命令 |
 | [RestoreLastGlobalTransfo](#RestoreLastGlobalTransfo) | 恢复上一次全局变换的命令 |
 | [SetCharStyle](#SetCharStyle) | 设置字符样式的命令 |
 | [SetGlobalTransfo](#SetGlobalTransfo) | 设置全局变换的命令 |
-| [SimpleWideText](#SimpleWideText) | 简易宽文本命令 |
+| [SimpleWideText](#SimpleWideText) | 简单宽文本命令 |
 | [TextFrame](#TextFrame) | 文本框架命令 |
 ### AddClippingRegion {#AddClippingRegion}
 ```
@@ -143,7 +143,7 @@ public static final short BeginTextStream
 ```
 
 
-该开始文本流命令
+开始文本流命令
 
 ### CharInfo {#CharInfo}
 ```
@@ -151,7 +151,7 @@ public static final short CharInfo
 ```
 
 
-该字符信息命令
+字符信息命令
 
 ### Characters {#Characters}
 ```
@@ -159,7 +159,7 @@ public static final short Characters
 ```
 
 
-该字符命令
+字符命令
 
 ### ClearClipping {#ClearClipping}
 ```
@@ -167,7 +167,7 @@ public static final short ClearClipping
 ```
 
 
-该清除剪裁命令
+清除裁剪命令
 
 ### Comment {#Comment}
 ```
@@ -175,7 +175,7 @@ public static final short Comment
 ```
 
 
-该注释命令
+注释命令
 
 ### DrawImage {#DrawImage}
 ```
@@ -183,7 +183,7 @@ public static final short DrawImage
 ```
 
 
-该绘制图像命令
+绘制图像命令
 
 ### DrawChars {#DrawChars}
 ```
@@ -191,7 +191,7 @@ public static final short DrawChars
 ```
 
 
-该绘制字符命令
+绘制字符命令
 
 ### Ellipse {#Ellipse}
 ```
@@ -199,7 +199,7 @@ public static final short Ellipse
 ```
 
 
-该椭圆命令
+椭圆命令
 
 ### EndEmbedded {#EndEmbedded}
 ```
@@ -207,7 +207,7 @@ public static final short EndEmbedded
 ```
 
 
-该结束嵌入文件命令
+结束嵌入文件命令
 
 ### EndGroup {#EndGroup}
 ```
@@ -215,7 +215,7 @@ public static final short EndGroup
 ```
 
 
-该结束组命令
+结束组命令
 
 ### EndLayer {#EndLayer}
 ```
@@ -223,7 +223,7 @@ public static final short EndLayer
 ```
 
 
-该结束层命令
+结束图层命令
 
 ### EndPage {#EndPage}
 ```
@@ -231,7 +231,7 @@ public static final short EndPage
 ```
 
 
-该结束页面命令
+结束页面命令
 
 ### EndParagraph {#EndParagraph}
 ```
@@ -239,7 +239,7 @@ public static final short EndParagraph
 ```
 
 
-该结束段落命令
+结束段落命令
 
 ### EndSection {#EndSection}
 ```
@@ -247,7 +247,7 @@ public static final short EndSection
 ```
 
 
-该结束章节命令
+结束章节命令
 
 ### EndTextGroup {#EndTextGroup}
 ```
@@ -255,7 +255,7 @@ public static final short EndTextGroup
 ```
 
 
-该结束文本组命令
+结束文本组命令
 
 ### EndTextObject {#EndTextObject}
 ```
@@ -263,7 +263,7 @@ public static final short EndTextObject
 ```
 
 
-该结束文本对象命令
+结束文本对象命令
 
 ### EndTextStream {#EndTextStream}
 ```
@@ -271,7 +271,7 @@ public static final short EndTextStream
 ```
 
 
-该结束文本流命令
+结束文本流命令
 
 ### JumpAbsolute {#JumpAbsolute}
 ```
@@ -279,7 +279,7 @@ public static final short JumpAbsolute
 ```
 
 
-该跳转到绝对位置命令
+跳转到绝对位置的命令
 
 ### PolyCurve {#PolyCurve}
 ```
@@ -287,7 +287,7 @@ public static final short PolyCurve
 ```
 
 
-该多段曲线命令
+多段曲线命令
 
 ### PopMappingMode {#PopMappingMode}
 ```
@@ -295,7 +295,7 @@ public static final short PopMappingMode
 ```
 
 
-该弹出映射模式命令
+弹出映射模式命令
 
 ### PopTint {#PopTint}
 ```
@@ -303,7 +303,7 @@ public static final short PopTint
 ```
 
 
-该弹出色调命令
+弹出色调命令
 
 ### PushMappingMode {#PushMappingMode}
 ```
@@ -311,7 +311,7 @@ public static final short PushMappingMode
 ```
 
 
-该推送映射模式命令
+推送映射模式命令
 
 ### PushTint {#PushTint}
 ```
@@ -319,7 +319,7 @@ public static final short PushTint
 ```
 
 
-该推送色调命令
+推送色调命令
 
 ### Rectangle {#Rectangle}
 ```
@@ -327,7 +327,7 @@ public static final short Rectangle
 ```
 
 
-该矩形命令
+矩形命令
 
 ### RemoveLastClippingRegion {#RemoveLastClippingRegion}
 ```
@@ -335,7 +335,7 @@ public static final short RemoveLastClippingRegion
 ```
 
 
-该移除最后剪裁区域命令
+移除上一个剪裁区域的命令
 
 ### RestoreLastGlobalTransfo {#RestoreLastGlobalTransfo}
 ```
@@ -367,7 +367,7 @@ public static final short SimpleWideText
 ```
 
 
-简易宽文本命令
+简单宽文本命令
 
 ### TextFrame {#TextFrame}
 ```

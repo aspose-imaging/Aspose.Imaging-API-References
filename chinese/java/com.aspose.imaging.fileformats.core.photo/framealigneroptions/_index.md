@@ -1,6 +1,6 @@
 ---
 title: "FrameAlignerOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "帧对齐器选项"
 type: docs
 weight: 11
@@ -26,10 +26,10 @@ public class FrameAlignerOptions
 | [setStandardImageIndex(int value)](#setStandardImageIndex-int-) | 设置标准图像的索引。 |
 | [getThreshold()](#getThreshold--) | 获取阈值。 |
 | [setThreshold(float value)](#setThreshold-float-) | 设置阈值。 |
-| [getMaxOffset()](#getMaxOffset--) | 获取最大偏移。 |
-| [setMaxOffset(int value)](#setMaxOffset-int-) | 设置最大偏移。 |
-| [getModifyImages()](#getModifyImages--) | 获取指示是否 [modify image] 的值。 |
-| [setModifyImages(boolean value)](#setModifyImages-boolean-) | 设置指示是否 [modify image] 的值。 |
+| [getMaxOffset()](#getMaxOffset--) | 获取最大偏移量。 |
+| [setMaxOffset(int value)](#setMaxOffset-int-) | 设置最大偏移量。 |
+| [getModifyImages()](#getModifyImages--) | 获取指示是否[modify image]的值。 |
+| [setModifyImages(boolean value)](#setModifyImages-boolean-) | 设置指示是否[modify image]的值。 |
 
 ## Example: The example shows how to align a series of images relative to the first one.
 
@@ -129,7 +129,7 @@ public final void setStandardImageIndex(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 标准图像的索引。 |
+| 值 | int | 标准图像的索引。 |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -224,7 +224,7 @@ public final void setThreshold(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 阈值。 |
+| 值 | float | 阈值。 |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -266,12 +266,12 @@ public final int getMaxOffset()
 ```
 
 
-获取最大偏移。
+获取最大偏移量。
 
-值：最大偏移。
+值：最大偏移量。
 
 **Returns:**
-int - 最大偏移。
+int - 最大偏移量。
 
 **Example: The example shows how to align a series of images relative to the first one.**
 
@@ -312,14 +312,14 @@ public final void setMaxOffset(int value)
 ```
 
 
-设置最大偏移。
+设置最大偏移量。
 
-值：最大偏移。
+值：最大偏移量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 最大偏移。 |
+| 值 | int | 最大偏移量。 |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**
@@ -361,12 +361,12 @@ public final boolean getModifyImages()
 ```
 
 
-获取指示是否 [modify image] 的值。
+获取指示是否[modify image]的值。
 
-值：如果[modify image]为 `true`；否则为 `false`。
+值：如果[modify image]则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否[modify image]的值。
+boolean - 指示是否[modify image]的值。
 
 **Example: The example shows how to align a series of images relative to the first one.**
 
@@ -407,14 +407,14 @@ public final void setModifyImages(boolean value)
 ```
 
 
-设置指示是否 [modify image] 的值。
+设置指示是否[modify image]的值。
 
-值：如果[modify image]为 `true`；否则为 `false`。
+值：如果[modify image]则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示是否[modify image]的值。 |
+| 值 | boolean | 指示是否[modify image]的值。 |
 
 
 **Example: The example shows how to align a series of images relative to the first one.**

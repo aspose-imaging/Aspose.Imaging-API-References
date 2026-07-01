@@ -1,6 +1,6 @@
 ---
 title: "JpegCompressionMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "jpeg 图像的压缩模式。"
 type: docs
 weight: 13

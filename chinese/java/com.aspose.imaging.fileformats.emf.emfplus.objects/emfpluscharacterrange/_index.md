@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusCharacterRange"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusCharacterRange 描述"
 type: docs
 weight: 25
@@ -24,8 +24,8 @@ EmfPlusCharacterRange 描述
 | --- | --- |
 | [getFirst()](#getFirst--) | 获取或设置一个 32 位有符号整数，指定此范围的起始位置。 |
 | [setFirst(int value)](#setFirst-int-) | 获取或设置一个 32 位有符号整数，指定此范围的起始位置。 |
-| [getLength()](#getLength--) | 获取或设置一个 32 位有符号整数，指定此范围中的位置数量。 |
-| [setLength(int value)](#setLength-int-) | 获取或设置一个 32 位有符号整数，指定此范围中的位置数量。 |
+| [getLength()](#getLength--) | 获取或设置一个 32 位有符号整数，指定此范围中的位置数目 |
+| [setLength(int value)](#setLength-int-) | 获取或设置一个 32 位有符号整数，指定此范围中的位置数目 |
 ### EmfPlusCharacterRange() {#EmfPlusCharacterRange--}
 ```
 public EmfPlusCharacterRange()
@@ -53,7 +53,7 @@ public void setFirst(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getLength() {#getLength--}
 ```
@@ -61,7 +61,7 @@ public int getLength()
 ```
 
 
-获取或设置一个 32 位有符号整数，指定此范围中的位置数量。
+获取或设置一个 32 位有符号整数，指定此范围中的位置数目
 
 **Returns:**
 int
@@ -71,10 +71,10 @@ public void setLength(int value)
 ```
 
 
-获取或设置一个 32 位有符号整数，指定此范围中的位置数量。
+获取或设置一个 32 位有符号整数，指定此范围中的位置数目
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

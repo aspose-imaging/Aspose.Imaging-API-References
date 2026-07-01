@@ -1,6 +1,6 @@
 ---
 title: "Os22XBitmapHeader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "OS/2 2.x OS22XBITMAPHEADER，也称为 BITMAPCOREHEADER2。"
 type: docs
 weight: 16
@@ -18,7 +18,7 @@ OS/2 2.x OS22XBITMAPHEADER，也称为 BITMAPCOREHEADER2。
 | 方法 | 描述 |
 | --- | --- |
 | [getUnits()](#getUnits--) | 获取单位。 |
-| [getReserved()](#getReserved--) | 获取保留。 |
+| [getReserved()](#getReserved--) | 获取保留字段。 |
 | [getRecording()](#getRecording--) | 获取记录。 |
 | [getRendering()](#getRendering--) | 获取渲染。 |
 | [getSize1()](#getSize1--) | 获取 size1。 |
@@ -41,10 +41,10 @@ public int getReserved()
 ```
 
 
-获取保留。
+获取保留字段。
 
 **Returns:**
-int - 将结构填充至 4 字节边界
+int - 填充结构至 4 字节边界
 ### getRecording() {#getRecording--}
 ```
 public int getRecording()
@@ -74,7 +74,7 @@ public int getSize1()
 获取 size1。
 
 **Returns:**
-int - 为半色调算法保留
+int - 为半色调算法保留的字段
 ### getSize2() {#getSize2--}
 ```
 public int getSize2()
@@ -84,7 +84,7 @@ public int getSize2()
 获取 size2。
 
 **Returns:**
-int - 为半色调算法保留
+int - 为半色调算法保留的字段
 ### getColorEncoding() {#getColorEncoding--}
 ```
 public int getColorEncoding()
@@ -104,4 +104,4 @@ public int getIdentifier()
 获取标识符。
 
 **Returns:**
-int - 为应用程序保留
+int - 为应用程序保留的字段

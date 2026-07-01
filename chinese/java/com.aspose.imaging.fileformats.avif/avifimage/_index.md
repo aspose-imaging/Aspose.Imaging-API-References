@@ -1,6 +1,6 @@
 ---
 title: "AvifImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Avif 图像。"
 type: docs
 weight: 10
@@ -23,9 +23,9 @@ Avif 图像。
 | 方法 | 描述 |
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | 使用此用户友好的属性轻松检索文件格式值。 |
-| [getBitsPerPixel()](#getBitsPerPixel--) | 获取每像素位数的值。 |
-| [getWidth()](#getWidth--) | 获取 AVIF 图像的宽度。 |
-| [getHeight()](#getHeight--) | 获取 AVIF 图像的高度。 |
+| [getBitsPerPixel()](#getBitsPerPixel--) | 获取每像素位数值。 |
+| [getWidth()](#getWidth--) | 获取 AVIF 图像宽度。 |
+| [getHeight()](#getHeight--) | 获取 AVIF 图像高度。 |
 ### AvifImage() {#AvifImage--}
 ```
 public AvifImage()
@@ -38,7 +38,7 @@ public long getFileFormat()
 ```
 
 
-使用此用户友好的属性可以轻松获取文件格式值。对于希望快速获取文件格式信息的开发者而言，这是理想的选择。
+使用此用户友好的属性即可轻松获取文件格式值。非常适合需要快速访问信息的开发者。
 
 **Returns:**
 long
@@ -48,29 +48,29 @@ public int getBitsPerPixel()
 ```
 
 
-获取每像素位数的值。
+获取每像素位数值。
 
 值：每像素位数。
 
 **Returns:**
-int - 每像素位数的值。
+int - 每像素位数值。
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()
 ```
 
 
-获取 AVIF 图像的宽度。
+获取 AVIF 图像宽度。
 
 **Returns:**
-int - AVIF 图像的宽度。
+int - AVIF 图像宽度。
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
 ```
 
 
-获取 AVIF 图像的高度。
+获取 AVIF 图像高度。
 
 **Returns:**
-int - AVIF 图像的高度。
+int - AVIF 图像高度。

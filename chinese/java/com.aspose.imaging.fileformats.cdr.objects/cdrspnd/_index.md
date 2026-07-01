@@ -1,7 +1,7 @@
 ---
 title: "CdrSpnd"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 跨度"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 跨度"
 type: docs
 weight: 38
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrspnd/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrSpnd extends CdrDictionaryItem
 ```
 
-cdr 跨度
+该 cdr 跨度
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -51,5 +51,5 @@ public final void setValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 值。 |
+| 值 | int | 值。 |
 

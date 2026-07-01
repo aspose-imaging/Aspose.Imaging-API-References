@@ -1,6 +1,6 @@
 ---
 title: "CurveShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示曲线样条形状。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ public final class CurveShape extends PolygonShape
 | [setTension(float value)](#setTension-float-) | 获取或设置曲线张力。 |
 | [getBounds()](#getBounds--) | 获取对象的边界。 |
 | [getCenter()](#getCenter--) | 获取形状的中心。 |
-| [getSegments()](#getSegments--) | 获取形状的段。 |
+| [getSegments()](#getSegments--) | 获取形状段。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | 获取对象的边界。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
@@ -97,7 +97,7 @@ public CurveShape(PointF[] points, float tension, boolean isClosed)
 | --- | --- | --- |
 | points | [PointF\[\]](../../com.aspose.imaging/pointf) | 点数组。 |
 | tension | float | 曲线张力。 |
-| isClosed | boolean | 如果设置为 `true`，则曲线是闭合的。 |
+| isClosed | boolean | 如果设置为 `true`，曲线将闭合。 |
 
 ### getTension() {#getTension--}
 ```
@@ -124,7 +124,7 @@ public void setTension(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getBounds() {#getBounds--}
 ```
@@ -156,7 +156,7 @@ public ShapeSegment[] getSegments()
 ```
 
 
-获取形状的段。
+获取形状段。
 
 值：形状段。
 
@@ -173,7 +173,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -188,8 +188,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.

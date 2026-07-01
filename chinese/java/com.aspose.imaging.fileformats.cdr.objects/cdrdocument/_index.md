@@ -1,6 +1,6 @@
 ---
 title: "CdrDocument"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 根对象"
 type: docs
 weight: 17
@@ -19,7 +19,7 @@ cdr 根对象
 | --- | --- |
 | [getArrows()](#getArrows--) | 获取箭头。 |
 | [getFills()](#getFills--) | 获取填充。 |
-| [getOutLines()](#getOutLines--) | 获取轮廓线。 |
+| [getOutLines()](#getOutLines--) | 获取外线。 |
 | [getBmps()](#getBmps--) | 获取 BMP。 |
 | [getBmpMasks()](#getBmpMasks--) | 获取 BMP 掩码。 |
 | [getFonts()](#getFonts--) | 获取字体。 |
@@ -61,10 +61,10 @@ public final IntObjDictionary<CdrOutline> getOutLines()
 ```
 
 
-获取轮廓线。
+获取外线。
 
 **Returns:**
-com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrOutline> - 轮廓线。
+com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrOutline> - 外部线。
 ### getBmps() {#getBmps--}
 ```
 public final IntObjDictionary<CdrBmp> getBmps()
@@ -74,7 +74,7 @@ public final IntObjDictionary<CdrBmp> getBmps()
 获取 BMP。
 
 **Returns:**
-com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrBmp> - BMP。
+com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrBmp> - BMP 图像。
 ### getBmpMasks() {#getBmpMasks--}
 ```
 public final IntObjDictionary<CdrBmp> getBmpMasks()
@@ -124,7 +124,7 @@ public final IntObjDictionary<CdrPattern> getPatterns()
 获取图案。
 
 **Returns:**
-com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrPattern> - 模式。
+com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrPattern> - 图案。
 ### getVectorPatterns() {#getVectorPatterns--}
 ```
 public final IntObjDictionary<CdrVectorPattern> getVectorPatterns()
@@ -134,7 +134,7 @@ public final IntObjDictionary<CdrVectorPattern> getVectorPatterns()
 获取矢量图案。
 
 **Returns:**
-com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrVectorPattern> - 向量模式。
+com.aspose.java.optimization.maps.IntObjDictionary<com.aspose.imaging.fileformats.cdr.objects.CdrVectorPattern> - 矢量图案。
 ### getPowerClips() {#getPowerClips--}
 ```
 public final SortedMap<Short,CdrListObjects> getPowerClips()
@@ -143,7 +143,7 @@ public final SortedMap<Short,CdrListObjects> getPowerClips()
 
 获取电源剪辑。
 
-Value: 电源剪辑。
+值：电源剪辑。
 
 **Returns:**
 java.util.SortedMap<java.lang.Short,com.aspose.imaging.fileformats.cdr.objects.CdrListObjects> - 电源剪辑。
@@ -155,12 +155,12 @@ public final void setPowerClips(SortedMap<Short,CdrListObjects> value)
 
 电源剪辑。
 
-Value: 电源剪辑。
+值：电源剪辑。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.SortedMap<java.lang.Short,com.aspose.imaging.fileformats.cdr.objects.CdrListObjects> | 电源剪辑。 |
+| 值 | java.util.SortedMap<java.lang.Short,com.aspose.imaging.fileformats.cdr.objects.CdrListObjects> | 电源剪辑。 |
 
 ### getClipIds() {#getClipIds--}
 ```
@@ -170,7 +170,7 @@ public final List<Short> getClipIds()
 
 获取剪辑 ID。
 
-Value: 剪辑 ID。
+值：剪辑 ID。
 
 **Returns:**
 java.util.List<java.lang.Short> - 剪辑 ID。
@@ -182,12 +182,12 @@ public final void setClipIds(List<Short> value)
 
 设置剪辑 ID。
 
-Value: 剪辑 ID。
+值：剪辑 ID。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<java.lang.Short> | 剪辑 ID。 |
+| 值 | java.util.List<java.lang.Short> | 剪辑 ID。 |
 
 ### getLastTextIndex() {#getLastTextIndex--}
 ```
@@ -197,7 +197,7 @@ public final int getLastTextIndex()
 
 获取文本索引。
 
-Value: 文本索引。
+值：文本索引。
 
 **Returns:**
 int - 文本索引。
@@ -209,12 +209,12 @@ public final void setLastTextIndex(int value)
 
 文本索引。
 
-Value: 文本索引。
+值：文本索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 文本索引。 |
+| 值 | int | 文本索引。 |
 
 ### getVersion() {#getVersion--}
 ```
@@ -237,5 +237,5 @@ public final void setVersion(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 版本。 |
+| 值 | int | 版本。 |
 

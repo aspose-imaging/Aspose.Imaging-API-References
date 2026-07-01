@@ -1,7 +1,7 @@
 ---
 title: "IObjectWithSizeF"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示尺寸以英寸实数表示的对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示具有尺寸的对象，尺寸以英寸的实数表示。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.interfaces/iobjectwithsizef/

@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.xmp.schemas.xmpdm"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含 Adobe 动态媒体组使用的 XMP 相关帮助类、常量和方法。"
 type: docs
 weight: 119

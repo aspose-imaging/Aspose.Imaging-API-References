@@ -1,7 +1,7 @@
 ---
 title: "EmfDesignVector"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "DesignVector 第 2.2.3 节对象定义了设计向量，该向量指定了多主字体的字体轴的值。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "DesignVector 第 2.2.3 节对象定义了设计向量，用于指定多主字体的字体轴值。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfDesignVector extends EmfObject
 ```
 
-DesignVector（第 2.2.3 节）对象定义了设计向量，该向量指定了多母版字体的字体轴值。
+DesignVector（第 2.2.3 节）对象定义了设计向量，该向量指定了多主字体的字体轴值。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,10 +22,10 @@ DesignVector（第 2.2.3 节）对象定义了设计向量，该向量指定了�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSignature()](#getSignature--) | 获取或设置一个 32 位无符号整数，必须设置为值 0x08007664。 |
-| [setSignature(int value)](#setSignature-int-) | 获取或设置一个 32 位无符号整数，必须设置为值 0x08007664。 |
-| [getNumAxes()](#getNumAxes--) | 获取或设置一个 32 位无符号整数，指定 Values 数组中的元素数量。 |
-| [setNumAxes(int value)](#setNumAxes-int-) | 获取或设置一个 32 位无符号整数，指定 Values 数组中的元素数量。 |
+| [getSignature()](#getSignature--) | 获取或设置一个 32 位无符号整数，必须设为值 0x08007664。 |
+| [setSignature(int value)](#setSignature-int-) | 获取或设置一个 32 位无符号整数，必须设为值 0x08007664。 |
+| [getNumAxes()](#getNumAxes--) | 获取或设置一个 32 位无符号整数，指定 Values 数组的元素数量。 |
+| [setNumAxes(int value)](#setNumAxes-int-) | 获取或设置一个 32 位无符号整数，指定 Values 数组的元素数量。 |
 | [getValues()](#getValues--) | 获取或设置一个可选的 32 位有符号整数数组，指定多主 OpenType 字体的字体轴值。 |
 | [setValues(int[] value)](#setValues-int---) | 获取或设置一个可选的 32 位有符号整数数组，指定多主 OpenType 字体的字体轴值。 |
 ### EmfDesignVector() {#EmfDesignVector--}
@@ -40,7 +40,7 @@ public int getSignature()
 ```
 
 
-获取或设置一个 32 位无符号整数，必须设置为值 0x08007664。
+获取或设置一个 32 位无符号整数，必须设为值 0x08007664。
 
 **Returns:**
 int
@@ -50,12 +50,12 @@ public void setSignature(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，必须设置为值 0x08007664。
+获取或设置一个 32 位无符号整数，必须设为值 0x08007664。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getNumAxes() {#getNumAxes--}
 ```
@@ -63,7 +63,7 @@ public int getNumAxes()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 Values 数组中的元素数量。它必须在 0 到 16（含）范围内。
+获取或设置一个 32 位无符号整数，指定 Values 数组的元素数量。它必须在 0 到 16（含）之间。
 
 **Returns:**
 int
@@ -73,12 +73,12 @@ public void setNumAxes(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 Values 数组中的元素数量。它必须在 0 到 16（含）范围内。
+获取或设置一个 32 位无符号整数，指定 Values 数组的元素数量。它必须在 0 到 16（含）之间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getValues() {#getValues--}
 ```
@@ -101,5 +101,5 @@ public void setValues(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 

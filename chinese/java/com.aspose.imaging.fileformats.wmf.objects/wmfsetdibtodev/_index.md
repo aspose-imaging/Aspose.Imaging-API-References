@@ -1,18 +1,18 @@
 ---
 title: "WmfSetDibToDev"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_SETDIBTODEV 记录使用设备无关的颜色数据在回放设备上下文中设置一块像素。"
 type: docs
 weight: 75
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetDibToDev extends WmfObject
 ```
 
-META\\_SETDIBTODEV 记录使用设备无关的颜色数据在回放设备上下文中设置一块像素。颜色数据的来源是 DIB。
+META\_SETDIBTODEV 记录使用设备无关的颜色数据在回放设备上下文中设置一块像素。颜色数据的来源是 DIB。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,8 +22,8 @@ META\\_SETDIBTODEV 记录使用设备无关的颜色数据在回放设备上下�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getColorUsage()](#getColorUsage--) | 获取或设置颜色使用方式。 |
-| [setColorUsage(int value)](#setColorUsage-int-) | 获取或设置颜色使用方式。 |
+| [getColorUsage()](#getColorUsage--) | 获取或设置颜色使用情况。 |
+| [setColorUsage(int value)](#setColorUsage-int-) | 获取或设置颜色使用情况。 |
 | [getScanCount()](#getScanCount--) | 获取或设置扫描计数。 |
 | [setScanCount(int value)](#setScanCount-int-) | 获取或设置扫描计数。 |
 | [getStartScan()](#getStartScan--) | 获取或设置起始扫描。 |
@@ -50,9 +50,9 @@ public int getColorUsage()
 ```
 
 
-获取或设置颜色使用方式。
+获取或设置颜色使用情况。
 
-值：DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。它必须是 `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` 枚举（第 2.1.1.6 节）中的一个值。
+值：DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此字段必须是 `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` 枚举（第 2.1.1.6 节）中的一个值。
 
 **Returns:**
 int
@@ -62,14 +62,14 @@ public void setColorUsage(int value)
 ```
 
 
-获取或设置颜色使用方式。
+获取或设置颜色使用情况。
 
-值：DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。它必须是 `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` 枚举（第 2.1.1.6 节）中的一个值。
+值：DIB 的 Colors 字段包含显式的 RGB 值或调色板索引。此字段必须是 `com.aspose.imaging.fileFormats.wmf.objects.wmfSetDibToDev.ColorUsage` 枚举（第 2.1.1.6 节）中的一个值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getScanCount() {#getScanCount--}
 ```
@@ -79,7 +79,7 @@ public int getScanCount()
 
 获取或设置扫描计数。
 
-值：源中的扫描线数量。
+值：源中的扫描行数。
 
 **Returns:**
 int
@@ -91,12 +91,12 @@ public void setScanCount(int value)
 
 获取或设置扫描计数。
 
-值：源中的扫描线数量。
+值：源中的扫描行数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getStartScan() {#getStartScan--}
 ```
@@ -106,7 +106,7 @@ public int getStartScan()
 
 获取或设置起始扫描。
 
-值：源中的起始扫描线。
+值：源中的起始扫描行。
 
 **Returns:**
 int
@@ -118,12 +118,12 @@ public void setStartScan(int value)
 
 获取或设置起始扫描。
 
-值：源中的起始扫描线。
+值：源中的起始扫描行。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getDibPos() {#getDibPos--}
 ```
@@ -177,7 +177,7 @@ public void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -204,7 +204,7 @@ public void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getDestPos() {#getDestPos--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "IAdvancedBufferProcessor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "高级缓冲区处理器。"
 type: docs
 weight: 122
@@ -38,5 +38,5 @@ public abstract void finishRows(int rowsCount)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rowsCount | int | 行计数。 |
+| rowsCount | int | 行数。 |
 

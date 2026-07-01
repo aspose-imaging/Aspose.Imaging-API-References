@@ -1,6 +1,6 @@
 ---
 title: "IVectorPathData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "用于访问矢量路径数据的接口。"
 type: docs
 weight: 19

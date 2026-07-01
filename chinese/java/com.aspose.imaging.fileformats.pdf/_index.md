@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.fileformats.pdf"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该包包含用于 PDF 文件格式集成的类。"
 type: docs
 weight: 71

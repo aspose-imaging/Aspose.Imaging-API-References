@@ -1,6 +1,6 @@
 ---
 title: "StringAlignment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定文本字符串相对于其布局矩形的对齐方式。"
 type: docs
 weight: 110

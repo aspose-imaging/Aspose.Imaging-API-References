@@ -1,7 +1,7 @@
 ---
 title: "CurrentThreadSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "辅助类，允许为当前线程定义默认区域设置。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "允许为当前线程定义默认区域设置的辅助类"
 type: docs
 weight: 34
 url: /zh/java/com.aspose.imaging/currentthreadsettings/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class CurrentThreadSettings
 ```
 
-辅助类，允许为当前线程定义默认区域设置。
+允许为当前线程定义默认区域设置的辅助类
 
 **Deprecated:** Please use [LocaleOptions](../../com.aspose.imaging/localeoptions) instead of CurrentThreadSettings.
 ## 方法

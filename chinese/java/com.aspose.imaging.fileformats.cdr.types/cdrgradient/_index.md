@@ -1,6 +1,6 @@
 ---
 title: "CdrGradient"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 渐变"
 type: docs
 weight: 11
@@ -67,7 +67,7 @@ public final void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类型。 |
+| 值 | int | 类型。 |
 
 ### getMode() {#getMode--}
 ```
@@ -90,7 +90,7 @@ public final void setMode(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 模式。 |
+| 值 | int | 模式。 |
 
 ### getAngle() {#getAngle--}
 ```
@@ -113,7 +113,7 @@ public final void setAngle(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 角度。 |
+| 值 | double | 角度。 |
 
 ### getMidPoint() {#getMidPoint--}
 ```
@@ -136,7 +136,7 @@ public final void setMidPoint(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 中点。 |
+| 值 | double | 中点。 |
 
 ### getEdgeOffset() {#getEdgeOffset--}
 ```
@@ -147,7 +147,7 @@ public final int getEdgeOffset()
 获取边缘偏移。
 
 **Returns:**
-int - 边缘偏移。
+int - 边缘偏移量。
 ### setEdgeOffset(int value) {#setEdgeOffset-int-}
 ```
 public final void setEdgeOffset(int value)
@@ -159,7 +159,7 @@ public final void setEdgeOffset(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 边缘偏移。 |
+| 值 | int | 边缘偏移量。 |
 
 ### getCenterXOffset() {#getCenterXOffset--}
 ```
@@ -170,7 +170,7 @@ public final int getCenterXOffset()
 获取中心 x 偏移量。
 
 **Returns:**
-int - 中心 x 偏移。
+int - 中心 X 偏移量。
 ### setCenterXOffset(int value) {#setCenterXOffset-int-}
 ```
 public final void setCenterXOffset(int value)
@@ -182,7 +182,7 @@ public final void setCenterXOffset(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 中心 x 偏移。 |
+| 值 | int | 中心 x 偏移。 |
 
 ### getCenterYOffset() {#getCenterYOffset--}
 ```
@@ -193,7 +193,7 @@ public final int getCenterYOffset()
 获取中心 y 偏移。
 
 **Returns:**
-int - 中心 y 偏移。
+int - 中心 Y 偏移量。
 ### setCenterYOffset(int value) {#setCenterYOffset-int-}
 ```
 public final void setCenterYOffset(int value)
@@ -205,7 +205,7 @@ public final void setCenterYOffset(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 中心 Y 偏移。 |
+| 值 | int | 中心 y 偏移量。 |
 
 ### getStops() {#getStops--}
 ```
@@ -216,7 +216,7 @@ public final List<CdrGradientStop> getStops()
 获取停止点。
 
 **Returns:**
-java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> - 渐变停靠点。
+java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> - 停止点。
 ### setStops(List<CdrGradientStop> value) {#setStops-java.util.List-com.aspose.imaging.fileformats.cdr.types.CdrGradientStop--}
 ```
 public final void setStops(List<CdrGradientStop> value)
@@ -228,5 +228,5 @@ public final void setStops(List<CdrGradientStop> value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> | 停靠点。 |
+| 值 | java.util.List<com.aspose.imaging.fileformats.cdr.types.CdrGradientStop> | 停止点。 |
 

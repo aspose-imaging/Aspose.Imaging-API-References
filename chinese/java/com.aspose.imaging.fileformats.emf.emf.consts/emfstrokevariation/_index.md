@@ -1,6 +1,6 @@
 ---
 title: "EmfStrokeVariation"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "StrokeVariation 枚举定义了 PANOSE 系统中用于分类字体的特征之一的取值。"
 type: docs
 weight: 44
@@ -18,7 +18,7 @@ StrokeVariation 枚举定义了 PANOSE 系统中用于分类字体的特征之�
 | 字段 | 描述 |
 | --- | --- |
 | [PAN_ANY](#PAN-ANY) | 任意笔画。 |
-| [PAN_NO_FIT](#PAN-NO-FIT) | 该不适配。 |
+| [PAN_NO_FIT](#PAN-NO-FIT) | 不适配。 |
 | [PAN_STROKE_GRADUAL_DIAG](#PAN-STROKE-GRADUAL-DIAG) | 渐进 / 对角线 |
 | [PAN_STROKE_GRADUAL_TRAN](#PAN-STROKE-GRADUAL-TRAN) | 渐进过渡 |
 | [PAN_STROKE_GRADUAL_VERT](#PAN-STROKE-GRADUAL-VERT) | 渐进垂直 |
@@ -40,7 +40,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-该不适配。
+不适配。
 
 ### PAN_STROKE_GRADUAL_DIAG {#PAN-STROKE-GRADUAL-DIAG}
 ```

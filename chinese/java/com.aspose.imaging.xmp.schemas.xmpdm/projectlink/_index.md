@@ -1,6 +1,6 @@
 ---
 title: "ProjectLink"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示项目的路径。"
 type: docs
 weight: 12
@@ -26,7 +26,7 @@ public final class ProjectLink extends XmpTypeBase
 | [setPath(String value)](#setPath-java.lang.String-) | 获取或设置项目的完整路径。 |
 | [getType()](#getType--) | 获取或设置文件类型。 |
 | [setType(int value)](#setType-int-) | 获取或设置文件类型。 |
-| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式的字符串值。 |
+| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式中包含的字符串值。 |
 ### ProjectLink() {#ProjectLink--}
 ```
 public ProjectLink()
@@ -41,7 +41,7 @@ public String getPath()
 
 获取或设置项目的完整路径。
 
-值： 项目的完整路径。
+值：项目的完整路径。
 
 **Returns:**
 java.lang.String
@@ -53,12 +53,12 @@ public void setPath(String value)
 
 获取或设置项目的完整路径。
 
-值： 项目的完整路径。
+值：项目的完整路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getType() {#getType--}
 ```
@@ -68,7 +68,7 @@ public int getType()
 
 获取或设置文件类型。
 
-值： 文件类型。
+值：文件类型。
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setType(int value)
 
 获取或设置文件类型。
 
-值： 文件类型。
+值：文件类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
@@ -93,7 +93,7 @@ public String getXmpRepresentation()
 ```
 
 
-返回 XMP 格式的字符串值。
+返回 XMP 格式中包含的字符串值。
 
 **Returns:**
 java.lang.String - 返回包含 xmp 表示的字符串。

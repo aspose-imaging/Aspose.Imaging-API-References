@@ -1,6 +1,6 @@
 ---
 title: "ColorMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 PhotoshopPackage 中的颜色模式。"
 type: docs
 weight: 10

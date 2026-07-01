@@ -1,6 +1,6 @@
 ---
 title: "DjvuImageException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "DJVU 图像异常。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ public DjvuImageException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 
 ### DjvuImageException(String message, Throwable innerException) {#DjvuImageException-java.lang.String-java.lang.Throwable-}
 ```
@@ -43,6 +43,6 @@ public DjvuImageException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 异常消息。 |
+| 消息 | java.lang.String | 异常消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 

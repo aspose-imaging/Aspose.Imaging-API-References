@@ -1,6 +1,6 @@
 ---
 title: "RawData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "DNG 格式的原始数据"
 type: docs
 weight: 12
@@ -69,7 +69,7 @@ public ImageOtherParameters getImageOtherParameters()
 
 获取或设置其他图像参数。
 
-值：其他。
+值：other。
 
 **Returns:**
 [ImageOtherParameters](../../com.aspose.imaging.fileformats.dng.decoder/imageotherparameters)
@@ -81,7 +81,7 @@ public void setImageOtherParameters(ImageOtherParameters value)
 
 获取或设置其他图像参数。
 
-值：其他。
+值：other。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "BlendingMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "混合模式"
 type: docs
 weight: 27
@@ -18,7 +18,7 @@ public enum BlendingMode extends Enum<BlendingMode>
 | 字段 | 描述 |
 | --- | --- |
 | [NORMAL](#NORMAL) | 普通 |
-| [MULTIPLY](#MULTIPLY) | 相乘 |
+| [MULTIPLY](#MULTIPLY) | 乘法 |
 | [SCREEN](#SCREEN) | 滤色 |
 | [OVERLAY](#OVERLAY) | 叠加 |
 | [DARKEN](#DARKEN) | 变暗模式 |
@@ -27,7 +27,7 @@ public enum BlendingMode extends Enum<BlendingMode>
 | [COLOR_BURN](#COLOR-BURN) | 颜色加深 |
 | [HARD_LIGHT](#HARD-LIGHT) | 强光 |
 | [SOFT_LIGHT](#SOFT-LIGHT) | 柔光 |
-| [DIFFERENCE](#DIFFERENCE) | 差值 |
+| [DIFFERENCE](#DIFFERENCE) | 差异 |
 | [EXCLUSION](#EXCLUSION) | 排除 |
 | [HUE](#HUE) | 色相模式 |
 | [SATURATION](#SATURATION) | 饱和度 |
@@ -54,7 +54,7 @@ public static final BlendingMode MULTIPLY
 ```
 
 
-相乘
+乘法
 
 ### SCREEN {#SCREEN}
 ```
@@ -126,7 +126,7 @@ public static final BlendingMode DIFFERENCE
 ```
 
 
-差值
+差异
 
 ### EXCLUSION {#EXCLUSION}
 ```
@@ -204,7 +204,7 @@ public static BlendingMode get(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 **Returns:**
 [BlendingMode](../../com.aspose.imaging.imagefilters.filteroptions/blendingmode)

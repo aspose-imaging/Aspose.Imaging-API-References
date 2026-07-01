@@ -1,6 +1,6 @@
 ---
 title: "Complex"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "复数结构。"
 type: docs
 weight: 10
@@ -27,8 +27,8 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 
 | 字段 | 描述 |
 | --- | --- |
-| [SIZE_OF_DOUBLE](#SIZE-OF-DOUBLE) | double 的大小。 |
-| [SIZE_OF_COMPLEX](#SIZE-OF-COMPLEX) | Complex 的大小。 |
+| [SIZE_OF_DOUBLE](#SIZE-OF-DOUBLE) | `double` 的大小。 |
+| [SIZE_OF_COMPLEX](#SIZE-OF-COMPLEX) | 复数的大小。 |
 | [ZERO](#ZERO) | 零复数。 |
 | [ONE](#ONE) | 一个复数，其 `Re`(\#getRe.getRe/\#setRe(double).setRe(double)) 和 `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) 均等于 1。 |
 | [I](#I) | 一个复数，其 `Im`(\#getIm.getIm/\#setIm(double).setIm(double)) 等于 1。 |
@@ -47,9 +47,9 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 | [op_Subtraction(Complex a, Complex b)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 -。 |
 | [op_Subtraction(Complex a, double s)](#op-Subtraction-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | 实现运算符 -。 |
 | [op_Subtraction(double s, Complex a)](#op-Subtraction-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 -。 |
-| [op_Multiply(Complex a, Complex b)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 \\*。 |
-| [op_Multiply(double s, Complex a)](#op-Multiply-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 \\*。 |
-| [op_Multiply(Complex a, double s)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | 实现运算符 \\*。 |
+| [op_Multiply(Complex a, Complex b)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 \*。 |
+| [op_Multiply(double s, Complex a)](#op-Multiply-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 \*。 |
+| [op_Multiply(Complex a, double s)](#op-Multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | 实现运算符 \*。 |
 | [op_Division(Complex a, Complex b)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 /。 |
 | [op_Division(Complex a, double s)](#op-Division-com.aspose.imaging.imagefilters.complexutils.Complex-double-) | 实现运算符 /。 |
 | [op_Division(double s, Complex a)](#op-Division-double-com.aspose.imaging.imagefilters.complexutils.Complex-) | 实现运算符 /。 |
@@ -80,17 +80,17 @@ public class Complex extends Struct<Complex> implements System.IEquatable<Comple
 | [tryParse(String s, Complex[] result)](#tryParse-java.lang.String-com.aspose.imaging.imagefilters.complexutils.Complex---) | 尝试将指定的 `s` 解析为 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex)。 |
 | [sqrt(Complex a)](#sqrt-com.aspose.imaging.imagefilters.complexutils.Complex-) | 获取 `a` 的平方根。 |
 | [log(Complex a)](#log-com.aspose.imaging.imagefilters.complexutils.Complex-) | 获取 `a` 的对数。 |
-| [exp(Complex a)](#exp-com.aspose.imaging.imagefilters.complexutils.Complex-) | 计算 e 的 `a` 次幂。 |
+| [exp(Complex a)](#exp-com.aspose.imaging.imagefilters.complexutils.Complex-) | 将 e 提升到 `a` 次方。 |
 | [sin(Complex a)](#sin-com.aspose.imaging.imagefilters.complexutils.Complex-) | 获取 `a` 的正弦。 |
 | [cos(Complex a)](#cos-com.aspose.imaging.imagefilters.complexutils.Complex-) | 获取 `a` 的余弦。 |
 | [tan(Complex a)](#tan-com.aspose.imaging.imagefilters.complexutils.Complex-) | 获取 `a` 的正切。 |
 | [isEquals(Complex obj1, Complex obj2)](#isEquals-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-) |  |
-| [multiply_internalize(double s)](#multiply-internalize-double-) | 乘以 `s`。 |
+| [multiply_internalize(double s)](#multiply-internalize-double-) | 将其乘以 `s`。 |
 | [getRe()](#getRe--) | 获取实部。 |
 | [setRe(double value)](#setRe-double-) | 设置实部。 |
 | [getIm()](#getIm--) | 获取虚部。 |
 | [setIm(double value)](#setIm-double-) | 设置虚部。 |
-| [set(double re, double im)](#set-double-double-) | 设置数值并返回自身。 |
+| [set(double re, double im)](#set-double-double-) | 设置值并返回自身。 |
 | [getMagnitude()](#getMagnitude--) | 获取模。 |
 | [getPhase()](#getPhase--) | 获取相位。 |
 | [getSquaredMagnitude()](#getSquaredMagnitude--) | 获取模的平方。 |
@@ -117,8 +117,8 @@ public Complex(double real, double imaginary)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 实部 | double | 实部。 |
-| 虚部 | double | 虚部。 |
+| 实数 | double | 实部。 |
+| 虚数 | double | 虚部。 |
 
 ### Complex(Complex c) {#Complex-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
@@ -139,7 +139,7 @@ public static final int SIZE_OF_DOUBLE
 ```
 
 
-double 的大小。
+`double` 的大小。
 
 ### SIZE_OF_COMPLEX {#SIZE-OF-COMPLEX}
 ```
@@ -147,7 +147,7 @@ public static final int SIZE_OF_COMPLEX
 ```
 
 
-Complex 的大小。
+复数的大小。
 
 ### ZERO {#ZERO}
 ```
@@ -184,7 +184,7 @@ public static Complex to_Complex(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 值。 |
+| 值 | double | 值。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the conversion.
@@ -199,7 +199,7 @@ public static Complex to_Complex(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
+| 值 | float | 值。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the conversion.
@@ -214,8 +214,8 @@ public static boolean op_Equality(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 boolean - 运算符的结果。
@@ -230,8 +230,8 @@ public static boolean op_Inequality(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 boolean - 运算符的结果。
@@ -246,7 +246,7 @@ public static Complex op_UnaryNegation(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -261,8 +261,8 @@ public static Complex op_Addition(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -277,7 +277,7 @@ public static Complex op_Addition(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -294,7 +294,7 @@ public static Complex op_Addition(double s, Complex a)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -309,8 +309,8 @@ public static Complex op_Subtraction(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -325,7 +325,7 @@ public static Complex op_Subtraction(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -342,7 +342,7 @@ public static Complex op_Subtraction(double s, Complex a)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -352,13 +352,13 @@ public static Complex op_Multiply(Complex a, Complex b)
 ```
 
 
-实现运算符 \\*。
+实现运算符 \*。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -368,13 +368,13 @@ public static Complex op_Multiply(double s, Complex a)
 ```
 
 
-实现运算符 \\*。
+实现运算符 \*。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -384,12 +384,12 @@ public static Complex op_Multiply(Complex a, double s)
 ```
 
 
-实现运算符 \\*。
+实现运算符 \*。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -405,8 +405,8 @@ public static Complex op_Division(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -421,7 +421,7 @@ public static Complex op_Division(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -438,7 +438,7 @@ public static Complex op_Division(double s, Complex a)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of the operator.
@@ -453,8 +453,8 @@ public static Complex add(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The sum complex.
@@ -469,7 +469,7 @@ public static Complex add(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -485,8 +485,8 @@ public static void add(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### add(Complex a, double s, Complex[] result) {#add-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -500,7 +500,7 @@ public static void add(Complex a, double s, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
@@ -515,8 +515,8 @@ public static Complex subtract(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of subtraction.
@@ -531,7 +531,7 @@ public static Complex subtract(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -548,7 +548,7 @@ public static Complex subtract(double s, Complex a)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of subtraction.
@@ -563,8 +563,8 @@ public static void subtract(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### subtract(Complex a, double s, Complex[] result) {#subtract-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -578,7 +578,7 @@ public static void subtract(Complex a, double s, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
@@ -594,7 +594,7 @@ public static void subtract(double s, Complex a, Complex[] result)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### multiply(Complex a, Complex b) {#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-com.aspose.imaging.imagefilters.complexutils.Complex-}
@@ -608,8 +608,8 @@ public static Complex multiply(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of multiplication.
@@ -624,7 +624,7 @@ public static Complex multiply(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -640,8 +640,8 @@ public static void multiply(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### multiply(Complex a, double s, Complex[] result) {#multiply-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -655,7 +655,7 @@ public static void multiply(Complex a, double s, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
@@ -670,8 +670,8 @@ public static Complex divide(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of division.
@@ -686,7 +686,7 @@ public static Complex divide(Complex a, double s)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 
 **Returns:**
@@ -703,7 +703,7 @@ public static Complex divide(double s, Complex a)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of division.
@@ -718,8 +718,8 @@ public static void divide(Complex a, Complex b, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### divide(Complex a, double s, Complex[] result) {#divide-com.aspose.imaging.imagefilters.complexutils.Complex-double-com.aspose.imaging.imagefilters.complexutils.Complex---}
@@ -733,7 +733,7 @@ public static void divide(Complex a, double s, Complex[] result)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | s | double | s 值。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
@@ -749,7 +749,7 @@ public static void divide(double s, Complex a, Complex[] result)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | s | double | s 值。 |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 ### negate(Complex a) {#negate-com.aspose.imaging.imagefilters.complexutils.Complex-}
@@ -763,7 +763,7 @@ public static Complex negate(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The result of negation.
@@ -778,8 +778,8 @@ public static boolean approxEqual(Complex a, Complex b)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 
 **Returns:**
 boolean - 近似相等结果。
@@ -794,8 +794,8 @@ public static boolean approxEqual(Complex a, Complex b, double tolerance)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
-| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | b 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
+| b | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 b 复数。 |
 | 容差 | double | 容差。 |
 
 **Returns:**
@@ -830,7 +830,7 @@ public static boolean tryParse(String s, Complex[] result)
 | result | [Complex\[\]](../../com.aspose.imaging.imagefilters.complexutils/complex) | 结果。 |
 
 **Returns:**
-boolean - 如果成功解析复数，则为 True。
+boolean - 如果复数已解析，则为 True。
 ### sqrt(Complex a) {#sqrt-com.aspose.imaging.imagefilters.complexutils.Complex-}
 ```
 public static Complex sqrt(Complex a)
@@ -842,7 +842,7 @@ public static Complex sqrt(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The square root.
@@ -857,7 +857,7 @@ public static Complex log(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - The log of `a`.
@@ -867,12 +867,12 @@ public static Complex exp(Complex a)
 ```
 
 
-计算 e 的 `a` 次幂。
+将 e 提升到 `a` 次方。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - e raised by `a`.
@@ -887,7 +887,7 @@ public static Complex sin(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Sin of `a`.
@@ -902,7 +902,7 @@ public static Complex cos(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Cos of `a`.
@@ -917,7 +917,7 @@ public static Complex tan(Complex a)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | "a" 复数。 |
+| a | [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) | 该 "a" 复数。 |
 
 **Returns:**
 [Complex](../../com.aspose.imaging.imagefilters.complexutils/complex) - Tan of `a`.
@@ -943,7 +943,7 @@ public Complex multiply_internalize(double s)
 ```
 
 
-乘以 `s`。
+将其乘以 `s`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -973,7 +973,7 @@ public final void setRe(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 实部。 |
+| 值 | double | 实部。 |
 
 ### getIm() {#getIm--}
 ```
@@ -996,7 +996,7 @@ public final void setIm(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 虚部。 |
+| 值 | double | 虚部。 |
 
 ### set(double re, double im) {#set-double-double-}
 ```
@@ -1004,7 +1004,7 @@ public final Complex set(double re, double im)
 ```
 
 
-设置数值并返回自身。
+设置值并返回自身。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1022,10 +1022,10 @@ public final double getMagnitude()
 
 获取模。
 
-值：幅度。
+Value: 幅值。
 
 **Returns:**
-double - 幅度。
+double - 幅值。
 ### getPhase() {#getPhase--}
 ```
 public final double getPhase()
@@ -1046,10 +1046,10 @@ public final double getSquaredMagnitude()
 
 获取模的平方。
 
-值：平方幅度。
+值：平方幅值。
 
 **Returns:**
-double - 平方幅度。
+double - 平方幅值。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -1074,7 +1074,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于与此实例比较的 `Object`。 |
 
 **Returns:**
-布尔值 - 如果指定的 `Object` 等于此实例则为 `true`；否则为 `false`。
+布尔值 - 如果指定的 `Object` 等于此实例，则为 `true`；否则为 `false`。
 ### toString() {#toString--}
 ```
 public String toString()

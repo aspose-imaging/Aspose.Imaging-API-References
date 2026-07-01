@@ -1,7 +1,7 @@
 ---
 title: "EmfSpoolFontDefinitionRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "字体定义记录包括下表列出的五种记录类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Font Definition 记录包括以下表格中列出的五种记录类型。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdefinitionrecordtype/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class EmfSpoolFontDefinitionRecordType
 ```
 
-字体定义记录包括下表列出的五种记录类型。字体定义记录指定部分字体、完整字体和字体属性。
+Font Definition 记录包括以下表格中列出的五种记录类型。Font Definition 记录指定部分字体、完整字体和字体属性。
 ## 构造函数
 
 | 构造函数 | 描述 |

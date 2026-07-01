@@ -1,7 +1,7 @@
 ---
 title: "EmfSaveDc"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "在先前的 EMR_SAVEDC 记录保存的状态堆栈上保存回放设备上下文的当前状态（如果有）。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "将回放设备上下文的当前状态保存到由之前的 EMR_SAVEDDC 记录保存的状态栈上（如果有）。"
 type: docs
 weight: 112
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsavedc/
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSaveDc extends EmfStateRecordType
 ```
 
-在先前的 EMR\_SAVEDC 记录保存的状态堆栈上保存回放设备上下文的当前状态（如果有）。该状态包括图形属性和对象，包括当前选中的位图、画刷、调色板、字体、笔和区域。使用 EMR\_RESTOREDC 记录来恢复状态。此 EMF 记录不指定任何参数。
+将回放设备上下文的当前状态保存到由之前的 EMR\_SAVEDC 记录保存的状态栈上（如果有）。该状态包括图形属性和对象，包括当前选中的位图、画刷、调色板、字体、笔和区域。使用 EMR\_RESTOREDC 记录来恢复状态。此 EMF 记录不包含任何参数。
 
-该堆栈可以包含多个回放设备上下文实例的状态信息。当状态被恢复时，所有更近期保存的状态实例必须被丢弃。
+该栈可以包含多个回放设备上下文实例的状态信息。当状态被恢复时，所有较近期保存的状态实例必须被丢弃。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -32,7 +32,7 @@ public EmfSaveDc(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSaveDc() {#EmfSaveDc--}
 ```

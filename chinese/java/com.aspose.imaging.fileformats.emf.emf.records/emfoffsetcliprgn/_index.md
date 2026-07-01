@@ -1,7 +1,7 @@
 ---
 title: "EmfOffsetClipRgn"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_OFFSETCLIPRGN 记录通过指定的偏移量移动回放设备上下文中的当前裁剪区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_OFFSETCLIPRGN 记录通过指定的偏移量移动回放设备上下文中的当前剪裁区域。"
 type: docs
 weight: 78
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfOffsetClipRgn extends EmfClippingRecordType
 ```
 
-EMR\_OFFSETCLIPRGN 记录通过指定的偏移量移动回放设备上下文中的当前剪裁区域。
+EMR\_OFFSETCLIPRGN 记录通过指定的偏移量移动回放设备上下文中的当前裁剪区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_OFFSETCLIPRGN 记录通过指定的偏移量移动回放设备上下文中�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getOffset()](#getOffset--) | 获取一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。 |
-| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | 设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。 |
+| [getOffset()](#getOffset--) | 获取 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。 |
+| [setOffset(Point value)](#setOffset-com.aspose.imaging.Point-) | 设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。 |
 ### EmfOffsetClipRgn(EmfRecord source) {#EmfOffsetClipRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfOffsetClipRgn(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfOffsetClipRgn(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfOffsetClipRgn() {#EmfOffsetClipRgn--}
 ```
@@ -52,7 +52,7 @@ public Point getOffset()
 ```
 
 
-获取一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。
+获取 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOffset(Point value)
 ```
 
 
-设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。
+设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定逻辑单位中的水平和垂直偏移量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

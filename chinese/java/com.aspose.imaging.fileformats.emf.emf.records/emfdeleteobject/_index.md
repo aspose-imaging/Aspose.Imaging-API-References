@@ -1,7 +1,7 @@
 ---
 title: "EmfDeleteObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_DELETEOBJECT 记录删除由其在 EMF 对象表（第 3.1.1.1 节）中的索引指定的图形对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EMR_DELETEOBJECT 记录删除一个图形对象，该对象由其在 EMF Object Table 中的索引指定，参见第 3.1.1.1 节。"
 type: docs
 weight: 43
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
@@ -23,8 +23,8 @@ public final class EmfDeleteObject extends EmfRecord
 
 | 方法 | 描述 |
 | --- | --- |
-| [getObjectHandle()](#getObjectHandle--) | 获取或设置一个 32 位无符号整数，用于指定 EMF 对象表中图形对象的索引或 StockObject 枚举中的库存对象索引。 |
-| [setObjectHandle(int value)](#setObjectHandle-int-) | 获取或设置一个 32 位无符号整数，用于指定 EMF 对象表中图形对象的索引或 StockObject 枚举中的库存对象索引。 |
+| [getObjectHandle()](#getObjectHandle--) | 获取或设置 32 位无符号整数，该整数指定 EMF Object Table 中图形对象的索引或 StockObject 枚举中库存对象的索引。 |
+| [setObjectHandle(int value)](#setObjectHandle-int-) | 获取或设置 32 位无符号整数，该整数指定 EMF Object Table 中图形对象的索引或 StockObject 枚举中库存对象的索引。 |
 ### EmfDeleteObject(EmfRecord record) {#EmfDeleteObject-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfDeleteObject(EmfRecord record)
@@ -52,7 +52,7 @@ public int getObjectHandle()
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定 EMF 对象表中图形对象的索引或 StockObject 枚举中的库存对象索引。
+获取或设置 32 位无符号整数，该整数指定 EMF Object Table 中图形对象的索引或 StockObject 枚举中库存对象的索引。
 
 **Returns:**
 int
@@ -62,10 +62,10 @@ public void setObjectHandle(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定 EMF 对象表中图形对象的索引或 StockObject 枚举中的库存对象索引。
+获取或设置 32 位无符号整数，该整数指定 EMF Object Table 中图形对象的索引或 StockObject 枚举中库存对象的索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

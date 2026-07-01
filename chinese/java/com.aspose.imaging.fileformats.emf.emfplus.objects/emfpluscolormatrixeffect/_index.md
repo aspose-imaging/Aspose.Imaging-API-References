@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusColorMatrixEffect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "ColorMatrixEffect 对象指定要应用于图像的仿射变换。"
 type: docs
 weight: 29
@@ -50,7 +50,7 @@ public int[] getMatrixN0()
 
 获取或设置 5×5 颜色矩阵的 Matrix[N][0]。此行用于变换。
 
-Matrix\_0\_0 (4 字节)：Matrix[0][0]，它是红色的因子。Matrix\_1\_0 (4 字节)：Matrix[1][0]。Matrix\_2\_0 (4 字节)：Matrix[2][0]。Matrix\_3\_0 (4 字节)：Matrix[3][0]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_0 (4 bytes): Matrix[0][0]，它是红色的因子。Matrix\_1\_0 (4 bytes): Matrix[1][0]。Matrix\_2\_0 (4 bytes): Matrix[2][0]。Matrix\_3\_0 (4 bytes): Matrix[3][0]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Returns:**
 int[]
@@ -62,12 +62,12 @@ public void setMatrixN0(int[] value)
 
 获取或设置 5×5 颜色矩阵的 Matrix[N][0]。此行用于变换。
 
-Matrix\_0\_0 (4 字节)：Matrix[0][0]，它是红色的因子。Matrix\_1\_0 (4 字节)：Matrix[1][0]。Matrix\_2\_0 (4 字节)：Matrix[2][0]。Matrix\_3\_0 (4 字节)：Matrix[3][0]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_0 (4 bytes): Matrix[0][0]，它是红色的因子。Matrix\_1\_0 (4 bytes): Matrix[1][0]。Matrix\_2\_0 (4 bytes): Matrix[2][0]。Matrix\_3\_0 (4 bytes): Matrix[3][0]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getMatrixN1() {#getMatrixN1--}
 ```
@@ -75,11 +75,11 @@ public int[] getMatrixN1()
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][1]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][1]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_1 (4 字节)：Matrix[0][1]。Matrix\_1\_1 (4 字节)：Matrix[1][1]，它是绿色的因子。Matrix\_2\_1 (4 字节)：Matrix[2][1]。Matrix\_3\_1 (4 字节)：Matrix[3][1]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_1 (4 bytes): Matrix[0][1]。Matrix\_1\_1 (4 bytes): Matrix[1][1]，它是绿色的因子。Matrix\_2\_1 (4 bytes): Matrix[2][1]。Matrix\_3\_1 (4 bytes): Matrix[3][1]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Returns:**
 int[]
@@ -89,16 +89,16 @@ public void setMatrixN1(int[] value)
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][1]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][1]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_1 (4 字节)：Matrix[0][1]。Matrix\_1\_1 (4 字节)：Matrix[1][1]，它是绿色的因子。Matrix\_2\_1 (4 字节)：Matrix[2][1]。Matrix\_3\_1 (4 字节)：Matrix[3][1]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_1 (4 bytes): Matrix[0][1]。Matrix\_1\_1 (4 bytes): Matrix[1][1]，它是绿色的因子。Matrix\_2\_1 (4 bytes): Matrix[2][1]。Matrix\_3\_1 (4 bytes): Matrix[3][1]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getMatrixN2() {#getMatrixN2--}
 ```
@@ -106,11 +106,11 @@ public int[] getMatrixN2()
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][2]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][2]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_2 (4 字节)：Matrix[0][2]。Matrix\_1\_2 (4 字节)：Matrix[1][2]。Matrix\_2\_2 (4 字节)：Matrix[2][2]，它是蓝色的因子。Matrix\_3\_1 (4 字节)：Matrix[3][1]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_2 (4 bytes): Matrix[0][2]。Matrix\_1\_2 (4 bytes): Matrix[1][2]。Matrix\_2\_2 (4 bytes): Matrix[2][2]，它是蓝色的因子。Matrix\_3\_1 (4 bytes): Matrix[3][1]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Returns:**
 int[]
@@ -120,16 +120,16 @@ public void setMatrixN2(int[] value)
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][2]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][2]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_2 (4 字节)：Matrix[0][2]。Matrix\_1\_2 (4 字节)：Matrix[1][2]。Matrix\_2\_2 (4 字节)：Matrix[2][2]，它是蓝色的因子。Matrix\_3\_1 (4 字节)：Matrix[3][1]。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_2 (4 bytes): Matrix[0][2]。Matrix\_1\_2 (4 bytes): Matrix[1][2]。Matrix\_2\_2 (4 bytes): Matrix[2][2]，它是蓝色的因子。Matrix\_3\_1 (4 bytes): Matrix[3][1]。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getMatrixN3() {#getMatrixN3--}
 ```
@@ -137,11 +137,11 @@ public int[] getMatrixN3()
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][3]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][3]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_3 (4 字节)：Matrix[0][3]。Matrix\_1\_3 (4 字节)：Matrix[1][3]。Matrix\_2\_3 (4 字节)：Matrix[2][3]。Matrix\_3\_3 (4 字节)：Matrix[3][3]，它是 alpha（透明度）的因子。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_3 (4 bytes): Matrix[0][3]。Matrix\_1\_3 (4 bytes): Matrix[1][3]。Matrix\_2\_3 (4 bytes): Matrix[2][3]。Matrix\_3\_3 (4 bytes): Matrix[3][3]，它是 alpha（透明度）的因子。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Returns:**
 int[]
@@ -151,16 +151,16 @@ public void setMatrixN3(int[] value)
 ```
 
 
-获取或设置 5×5 颜色矩阵的 Matrix[N][3]。此行用于变换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][3]。此行用于变换。
 
 值：矩阵 n1。
 
-Matrix\_0\_3 (4 字节)：Matrix[0][3]。Matrix\_1\_3 (4 字节)：Matrix[1][3]。Matrix\_2\_3 (4 字节)：Matrix[2][3]。Matrix\_3\_3 (4 字节)：Matrix[3][3]，它是 alpha（透明度）的因子。Matrix\_4\_0 (4 字节)：Matrix[4][0]。此值必须为 0.0。
+Matrix\_0\_3 (4 bytes): Matrix[0][3]。Matrix\_1\_3 (4 bytes): Matrix[1][3]。Matrix\_2\_3 (4 bytes): Matrix[2][3]。Matrix\_3\_3 (4 bytes): Matrix[3][3]，它是 alpha（透明度）的因子。Matrix\_4\_0 (4 bytes): Matrix[4][0]。此值必须为 0.0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getMatrixN4() {#getMatrixN4--}
 ```
@@ -168,11 +168,11 @@ public int[] getMatrixN4()
 ```
 
 
-获取或设置 5x5 颜色矩阵的 Matrix[N][4]。此行用于颜色转换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][4]。此行用于颜色平移。
 
 值：矩阵 n1。
 
-Matrix\_0\_4（4 字节）：Matrix[0][4]。Matrix\_1\_4（4 字节）：Matrix[1][4]。Matrix\_2\_4（4 字节）：Matrix[2][4]。Matrix\_3\_4（4 字节）：Matrix[3][4]。Matrix\_4\_4（4 字节）：Matrix[4][4]。此值应为 1.0。
+Matrix\_0\_4 (4 bytes): Matrix[0][4]。Matrix\_1\_4 (4 bytes): Matrix[1][4]。Matrix\_2\_4 (4 bytes): Matrix[2][4]。Matrix\_3\_4 (4 bytes): Matrix[3][4]。Matrix\_4\_4 (4 bytes): Matrix[4][4]。此值应为 1.0。
 
 **Returns:**
 int[]
@@ -182,16 +182,16 @@ public void setMatrixN4(int[] value)
 ```
 
 
-获取或设置 5x5 颜色矩阵的 Matrix[N][4]。此行用于颜色转换。
+获取或设置 5x5 颜色矩阵的 Matrix[N][4]。此行用于颜色平移。
 
 值：矩阵 n1。
 
-Matrix\_0\_4（4 字节）：Matrix[0][4]。Matrix\_1\_4（4 字节）：Matrix[1][4]。Matrix\_2\_4（4 字节）：Matrix[2][4]。Matrix\_3\_4（4 字节）：Matrix[3][4]。Matrix\_4\_4（4 字节）：Matrix[4][4]。此值应为 1.0。
+Matrix\_0\_4 (4 bytes): Matrix[0][4]。Matrix\_1\_4 (4 bytes): Matrix[1][4]。Matrix\_2\_4 (4 bytes): Matrix[2][4]。Matrix\_3\_4 (4 bytes): Matrix[3][4]。Matrix\_4\_4 (4 bytes): Matrix[4][4]。此值应为 1.0。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getMatrix() {#getMatrix--}
 ```
@@ -218,5 +218,5 @@ public void setMatrix(int[][] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[][] |  |
+| 值 | int[][] |  |
 

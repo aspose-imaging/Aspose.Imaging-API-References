@@ -1,6 +1,6 @@
 ---
 title: "CmxImageSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为光栅图像指定的信息。"
 type: docs
 weight: 12
@@ -35,8 +35,8 @@ public class CmxImageSpec implements ICmxObjectSpec
 | [setImageType(int value)](#setImageType-int-) | 设置图像的类型。 |
 | [getImages()](#getImages--) | 获取图像。 |
 | [setImages(CmxRasterImage[] value)](#setImages-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxRasterImage---) | 设置图像。 |
-| [isCmx3Image()](#isCmx3Image--) | 获取一个值，指示此实例是否为 CMX3 图像。 |
-| [setCmx3Image(boolean value)](#setCmx3Image-boolean-) | 设置一个值，指示此实例是否为 CMX3 图像。 |
+| [isCmx3Image()](#isCmx3Image--) | 获取指示此实例是否为 CMX3 图像的值。 |
+| [setCmx3Image(boolean value)](#setCmx3Image-boolean-) | 设置指示此实例是否为 CMX3 图像的值。 |
 | [toString()](#toString--) | 返回表示此实例的字符串。 |
 | [toArray()](#toArray--) |  |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
@@ -137,7 +137,7 @@ public final void setImageType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 图像的类型。 |
+| 值 | int | 图像的类型。 |
 
 ### getImages() {#getImages--}
 ```
@@ -168,26 +168,26 @@ public final boolean isCmx3Image()
 ```
 
 
-获取一个值，指示此实例是否为 CMX3 图像。
+获取指示此实例是否为 CMX3 图像的值。
 
-值：如果此实例是 CMX3 图像，则为 `true`；否则为 `false`。
+值：如果此实例是 CMX3 图像则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 表示此实例是否为 CMX3 图像的值。
+boolean - 指示此实例是否为 CMX3 图像的值。
 ### setCmx3Image(boolean value) {#setCmx3Image-boolean-}
 ```
 public final void setCmx3Image(boolean value)
 ```
 
 
-设置一个值，指示此实例是否为 CMX3 图像。
+设置指示此实例是否为 CMX3 图像的值。
 
-值：如果此实例是 CMX3 图像，则为 `true`；否则为 `false`。
+值：如果此实例是 CMX3 图像则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否为 CMX3 图像的值。 |
+| 值 | boolean | 指示此实例是否为 CMX3 图像的值。 |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "FontExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "包含 Imaging.Font 类的扩展方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "包含针对 Imaging.Font 类的扩展方法。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.extensions/fontextensions/

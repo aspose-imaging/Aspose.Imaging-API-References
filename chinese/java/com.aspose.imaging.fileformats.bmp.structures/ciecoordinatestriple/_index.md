@@ -1,7 +1,7 @@
 ---
 title: "CieCoordinatesTriple"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该类包含指定逻辑色彩空间中对应红、绿、蓝端点的三种颜色的 xy 和 z 坐标。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该类包含三个颜色的 xy 和 z 坐标，这些颜色对应于指定逻辑色彩空间的红、绿、蓝端点。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/

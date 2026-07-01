@@ -1,6 +1,6 @@
 ---
 title: "DitheringMethod"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "抖动方法。"
 type: docs
 weight: 41
@@ -30,7 +30,7 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 使用包含 16 种颜色的 4 位色彩调色板执行阈值抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     rasterImage.dither(com.aspose.imaging.DitheringMethod.ThresholdDithering, 4);
 
@@ -44,7 +44,7 @@ try {
     com.aspose.imaging.RasterImage rasterImage = (com.aspose.imaging.RasterImage) image;
 
     // 使用仅包含 2 种颜色（黑色和白色）的 1 位色彩调色板执行 Floyd 抖动。
-    // 指定的位数越多，输出图像的质量越高且尺寸越大。
+    // 指定的位数越多，输出图像的质量越高，尺寸也越大。
     // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     rasterImage.dither(com.aspose.imaging.DitheringMethod.FloydSteinbergDithering, 1);
 
@@ -60,7 +60,7 @@ public static final int ThresholdDithering
 ```
 
 
-阈值抖动。最简单、最快速的抖动算法。
+阈值抖动。最简单且最快的抖动算法。
 
 ### FloydSteinbergDithering {#FloydSteinbergDithering}
 ```
@@ -68,5 +68,5 @@ public static final int FloydSteinbergDithering
 ```
 
 
-Floyd-Steinberg 抖动。更复杂的抖动算法，使用最近邻的强度值。
+弗洛伊德-斯坦伯格抖动。更复杂的抖动算法，使用最近邻强度值。
 

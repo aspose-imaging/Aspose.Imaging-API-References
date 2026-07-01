@@ -1,6 +1,6 @@
 ---
 title: "EmfSetViewportOrgEx"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETVIEWPORTORGEX 记录定义视口原点。"
 type: docs
 weight: 143
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetViewportOrgEx extends EmfStateRecordType
 ```
 
-EMR\_SETVIEWPORTORGEX 记录定义视口原点。
+该 EMR\_SETVIEWPORTORGEX 记录定义视口原点。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,8 +23,8 @@ EMR\_SETVIEWPORTORGEX 记录定义视口原点。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在设备单位中的水平和垂直原点。 |
-| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在设备单位中的水平和垂直原点。 |
+| [getOrigin()](#getOrigin--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），用于指定窗口在设备单位下的水平和垂直原点。 |
+| [setOrigin(Point value)](#setOrigin-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），用于指定窗口在设备单位下的水平和垂直原点。 |
 ### EmfSetViewportOrgEx(EmfRecord source) {#EmfSetViewportOrgEx-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetViewportOrgEx(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetViewportOrgEx(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetViewportOrgEx() {#EmfSetViewportOrgEx--}
 ```
@@ -52,7 +52,7 @@ public Point getOrigin()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在设备单位中的水平和垂直原点。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），用于指定窗口在设备单位下的水平和垂直原点。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -62,7 +62,7 @@ public void setOrigin(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定窗口在设备单位中的水平和垂直原点。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），用于指定窗口在设备单位下的水平和垂直原点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

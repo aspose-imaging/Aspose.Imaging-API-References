@@ -1,6 +1,6 @@
 ---
 title: "JpegCompressionColorMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "jpeg 图像的颜色模式。"
 type: docs
 weight: 12
@@ -19,10 +19,10 @@ jpeg 图像的颜色模式。
 | --- | --- |
 | [Grayscale](#Grayscale) | 灰度图像。 |
 | [YCbCr](#YCbCr) | YCbCr 图像，jpeg 图像的标准选项。 |
-| [Cmyk](#Cmyk) | 4 分量 CMYK 图像。 |
+| [Cmyk](#Cmyk) | 四分量 CMYK 图像。 |
 | [Ycck](#Ycck) | ycck 彩色 jpeg 图像。 |
-| [Rgb](#Rgb) | 该 RGB 颜色模式。 |
-| [Auto](#Auto) | 自动的 |
+| [Rgb](#Rgb) | RGB 颜色模式。 |
+| [Auto](#Auto) | 自动 |
 ### Grayscale {#Grayscale}
 ```
 public static final int Grayscale
@@ -45,7 +45,7 @@ public static final int Cmyk
 ```
 
 
-4 分量 CMYK 图像。
+四分量 CMYK 图像。
 
 ### Ycck {#Ycck}
 ```
@@ -61,7 +61,7 @@ public static final int Rgb
 ```
 
 
-该 RGB 颜色模式。
+RGB 颜色模式。
 
 ### Auto {#Auto}
 ```
@@ -69,5 +69,5 @@ public static final int Auto
 ```
 
 
-自动的
+自动
 

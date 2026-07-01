@@ -1,6 +1,6 @@
 ---
 title: "CdrGradientStop"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 渐变停止点"
 type: docs
 weight: 12
@@ -25,7 +25,7 @@ cdr 渐变停止点
 | [getColor()](#getColor--) | 获取颜色。 |
 | [setColor(CdrColor value)](#setColor-com.aspose.imaging.fileformats.cdr.types.CdrColor-) | 设置颜色。 |
 | [getOffset()](#getOffset--) | 获取偏移量。 |
-| [setOffset(double value)](#setOffset-double-) | 设置偏移量。 |
+| [setOffset(double value)](#setOffset-double-) | 设置 偏移量。 |
 ### CdrGradientStop() {#CdrGradientStop--}
 ```
 public CdrGradientStop()
@@ -71,10 +71,10 @@ public final void setOffset(double value)
 ```
 
 
-设置偏移量。
+设置 偏移量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 偏移量。 |
+| 值 | double | 偏移量。 |
 

@@ -1,7 +1,7 @@
 ---
 title: "MetafileOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Metafiles 基础选项。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "元文件的基本选项。"
 type: docs
 weight: 27
 url: /zh/java/com.aspose.imaging.imageoptions/metafileoptions/
@@ -15,39 +15,39 @@ com.aspose.fileformats.core.imageoptions.ICompressOptions
 public abstract class MetafileOptions extends ImageOptionsBase implements ICompressOptions
 ```
 
-Metafiles 基础选项。
+元文件的基本选项。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCompress()](#getCompress--) | 获取一个值，指示输出图像是否必须压缩。 |
-| [setCompress(boolean value)](#setCompress-boolean-) | 设置一个值，指示输出图像是否必须压缩。 |
+| [getCompress()](#getCompress--) | 获取指示输出图像是否必须压缩的值。 |
+| [setCompress(boolean value)](#setCompress-boolean-) | SSets 指示输出图像是否必须压缩的值。 |
 ### getCompress() {#getCompress--}
 ```
 public final boolean getCompress()
 ```
 
 
-获取一个值，指示输出图像是否必须压缩。
+获取指示输出图像是否必须压缩的值。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Returns:**
-boolean - 一个指示输出图像是否必须压缩的值。
+布尔 - 指示输出图像是否必须压缩的值。
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
 ```
 
 
-设置一个值，指示输出图像是否必须压缩。
+SSets 指示输出图像是否必须压缩的值。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个指示输出图像是否必须压缩的值。 |
+| 值 | boolean | 指示输出图像是否必须压缩的值。 |
 
 
 **Example: The following example shows how to convert a emf images to emz format**

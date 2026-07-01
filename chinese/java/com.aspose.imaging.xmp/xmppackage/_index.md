@@ -1,6 +1,6 @@
 ---
 title: "XmpPackage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 包的基础抽象。"
 type: docs
 weight: 19
@@ -30,19 +30,19 @@ public class XmpPackage implements IXmlValue, System.Collections.Generic.IGeneri
 | [getNamespaceUri()](#getNamespaceUri--) | 获取命名空间 URI。 |
 | [getKeys()](#getKeys--) | 获取 XMP 包中的键。 |
 | [getCount()](#getCount--) | 获取 XMP 键的计数。 |
-| [containsKey(String key)](#containsKey-java.lang.String-) | 确定此集合是否具有指定键。 |
+| [containsKey(String key)](#containsKey-java.lang.String-) | 确定此集合是否包含指定键。 |
 | [get_Item(String key)](#get-Item-java.lang.String-) | 获取或设置具有指定键的 `Object`。 |
 | [set_Item(String key, Object value)](#set-Item-java.lang.String-java.lang.Object-) | 设置具有指定键的 `Object`。 |
-| [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | 向指定键添加值。 |
-| [addValue(String key, Object value)](#addValue-java.lang.String-java.lang.Object-) | 向指定键添加值。 |
+| [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | 将值添加到指定键。 |
+| [addValue(String key, Object value)](#addValue-java.lang.String-java.lang.Object-) | 将值添加到指定键。 |
 | [tryGetValue(String key, Object[] value)](#tryGetValue-java.lang.String-java.lang.Object---) | 通过 `key` 获取值。 |
-| [remove(String key)](#remove-java.lang.String-) | 移除具有指定键的值。 |
+| [remove(String key)](#remove-java.lang.String-) | 删除具有指定键的值。 |
 | [clear()](#clear--) | 清除此实例。 |
 | [setValue(String key, IXmlValue value)](#setValue-java.lang.String-com.aspose.imaging.xmp.IXmlValue-) | 设置值。 |
 | [setValue(String key, IXmpType value)](#setValue-java.lang.String-com.aspose.imaging.xmp.types.IXmpType-) | 设置值。 |
 | [setXmpTypeValue(String key, XmpTypeBase value)](#setXmpTypeValue-java.lang.String-com.aspose.imaging.xmp.types.XmpTypeBase-) | 设置 XMP 类型值。 |
 | [getXmlValue()](#getXmlValue--) | 将 XMP 值转换为 XML 表示形式。 |
-| [iterator()](#iterator--) | 返回遍历集合的枚举器。 |
+| [iterator()](#iterator--) | 返回一个遍历集合的枚举器。 |
 ### XmpPackage(String prefix, String namespaceUri) {#XmpPackage-java.lang.String-java.lang.String-}
 ```
 public XmpPackage(String prefix, String namespaceUri)
@@ -119,7 +119,7 @@ public boolean containsKey(String key)
 ```
 
 
-确定此集合是否具有指定键。
+确定此集合是否包含指定键。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -155,7 +155,7 @@ public void set_Item(String key, Object value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 标识值的键。 |
-| value | java.lang.Object | `Object` 值。 |
+| 值 | java.lang.Object | `Object` 值。 |
 
 ### addValue(String key, String value) {#addValue-java.lang.String-java.lang.String-}
 ```
@@ -163,13 +163,13 @@ public void addValue(String key, String value)
 ```
 
 
-向指定键添加值。
+将值添加到指定键。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.String | 要添加到的值。 |
+| 值 | java.lang.String | 要添加到的值。 |
 
 ### addValue(String key, Object value) {#addValue-java.lang.String-java.lang.Object-}
 ```
@@ -177,13 +177,13 @@ public void addValue(String key, Object value)
 ```
 
 
-向指定键添加值。
+将值添加到指定键。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.Object | 要添加到的值。 |
+| 值 | java.lang.Object | 要添加到的值。 |
 
 ### tryGetValue(String key, Object[] value) {#tryGetValue-java.lang.String-java.lang.Object---}
 ```
@@ -197,7 +197,7 @@ public final boolean tryGetValue(String key, Object[] value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | XMP 元素键。 |
-| value | java.lang.Object[] | XMP 值。 |
+| 值 | java.lang.Object[] | XMP 值。 |
 
 **Returns:**
 boolean - 如果集合包含 `key` 则为 `true`；否则为 `false`。
@@ -207,12 +207,12 @@ public boolean remove(String key)
 ```
 
 
-移除具有指定键的值。
+删除具有指定键的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 键 | java.lang.String | 已删除值对应的键的字符串表示。 |
+| 键 | java.lang.String | 已删除值对应键的字符串表示。 |
 
 **Returns:**
 boolean - 如果已删除具有指定键的值则返回 true。
@@ -263,7 +263,7 @@ public void setXmpTypeValue(String key, XmpTypeBase value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 键 | java.lang.String | 已设置值对应的键的字符串表示。 |
+| 键 | java.lang.String | 已设置值对应键的字符串表示。 |
 | value | [XmpTypeBase](../../com.aspose.imaging.xmp.types/xmptypebase) | 要设置的值。 |
 
 ### getXmlValue() {#getXmlValue--}
@@ -275,14 +275,14 @@ public String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 表示形式的 XMP 值。
+java.lang.String - 返回已转换为 XML 表示形式的 XMP 值。
 ### iterator() {#iterator--}
 ```
 public System.Collections.Generic.IGenericEnumerator<System.Collections.Generic.KeyValuePair<String,Object>> iterator()
 ```
 
 
-返回遍历集合的枚举器。
+返回一个遍历集合的枚举器。
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.String,java.lang.Object>> - 可用于遍历集合的 `T:System.Collections.Generic.IEnumerator\`1`。
+com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.String,java.lang.Object>> - 一个可以用于遍历集合的 `T:System.Collections.Generic.IEnumerator\`1`。

@@ -1,6 +1,6 @@
 ---
 title: "图像"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Image 是所有图像类型的基类。"
 type: docs
 weight: 56
@@ -30,7 +30,7 @@ Image 是所有图像类型的基类。
 | [create(MultipageCreateOptions multipageCreateOptions)](#create-com.aspose.imaging.imageoptions.MultipageCreateOptions-) | 创建指定的多页创建选项。 |
 | [create(String[] files, boolean throwExceptionOnLoadError)](#create-java.lang.String---boolean-) | 创建包含指定文件的多页图像。 |
 | [create(String[] files)](#create-java.lang.String---) | 创建包含指定文件的多页图像。 |
-| [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | 创建一个新图像，将指定的图像作为页面。 |
+| [create(Image[] images, boolean disposeImages)](#create-com.aspose.imaging.Image---boolean-) | 使用指定的图像作为页面创建新图像。 |
 | [getFileFormat(String filePath)](#getFileFormat-java.lang.String-) | 获取文件格式。 |
 | [load(String filePath, LoadOptions loadOptions)](#load-java.lang.String-com.aspose.imaging.LoadOptions-) | 从指定的文件路径或 URL 加载新图像。 |
 | [load(String filePath)](#load-java.lang.String-) | 从指定的文件路径或 URL 加载新图像。 |
@@ -68,9 +68,9 @@ Image 是所有图像类型的基类。
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | 设置 Exif 数据。 |
 | [getXmpData()](#getXmpData--) | 获取 Xmp 数据。 |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | 设置 Xmp 数据。 |
-| [getIProgressEventHandler()](#getIProgressEventHandler--) | 获取进度事件处理程序的信息。 |
-| [getProgressEventHandlerInfo()](#getProgressEventHandlerInfo--) | 获取进度事件处理程序的信息。 |
-| [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | 确定图像是否可以保存为由传入的保存选项表示的指定文件格式。 |
+| [getIProgressEventHandler()](#getIProgressEventHandler--) | 获取进度事件处理程序信息。 |
+| [getProgressEventHandlerInfo()](#getProgressEventHandlerInfo--) | 获取进度事件处理程序信息。 |
+| [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | 确定图像是否可以根据传入的保存选项保存为指定的文件格式。 |
 | [resize(int newWidth, int newHeight)](#resize-int-int-) | 调整图像大小。 |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | 调整图像大小。 |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 调整图像大小。 |
@@ -98,22 +98,22 @@ Image 是所有图像类型的基类。
 | [getSerializedStream(ImageOptionsBase imageOptions, Rectangle clippingRectangle, int[] pageNumber)](#getSerializedStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-int---) | 转换为 aps。 |
 
 ## Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.
-此示例根据 BmpOptions 实例的 Source 属性在某个磁盘位置创建一个新的 Image 文件。在创建实际图像之前，会设置 BmpOptions 实例的多个属性。特别是 Source 属性，在本例中指向实际的磁盘位置。
+此示例根据 BmpOptions 实例的 Source 属性在某个磁盘位置创建一个新的 Image 文件。在创建实际图像之前，已设置 BmpOptions 实例的多个属性。尤其是 Source 属性，在本例中指向实际的磁盘位置。
 ``` java
-// 创建 BmpOptions 的实例并设置其各项属性。
+// 创建 BmpOptions 的实例并设置其各项属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// 创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-// 第二个布尔参数决定要创建的文件是否为 IsTemporal。
+// 创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+// 第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// 创建 Image 实例，并通过调用 Create 方法使用 BmpOptions 实例进行初始化。
+// 创建 Image 的实例，并通过调用 Create 方法使用 BmpOptions 实例进行初始化
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // 进行一些图像处理。
+    // 进行一些图像处理
 
-    // 保存所有更改。
+    // 保存所有更改
     image.save();
 } finally {
     image.dispose();
@@ -168,7 +168,7 @@ public static boolean canLoad(String filePath)
 | filePath | java.lang.String | 文件路径。 |
 
 **Returns:**
-布尔型 - `true` 表示可以从指定文件加载图像；否则为 `false`。
+boolean - 如果可以从指定文件加载图像则为 `true`；否则为 `false`。
 
 **Example: This example determines whether image can be loaded from a file.**
 
@@ -193,7 +193,7 @@ public static boolean canLoad(String filePath, LoadOptions loadOptions)
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 加载选项。 |
 
 **Returns:**
-布尔型 - `true` 表示可以从指定文件加载图像；否则为 `false`。
+boolean - 如果可以从指定文件加载图像则为 `true`；否则为 `false`。
 ### canLoad(InputStream stream) {#canLoad-java.io.InputStream-}
 ```
 public static boolean canLoad(InputStream stream)
@@ -208,7 +208,7 @@ public static boolean canLoad(InputStream stream)
 | 流 | java.io.InputStream | 要加载的流。 |
 
 **Returns:**
-布尔型 - `true` 表示可以从指定流加载图像；否则为 `false`。
+boolean - 如果可以从指定流加载图像则为 `true`；否则为 `false`。
 
 **Example: This example determines whether image can be loaded from a file stream.**
 
@@ -217,7 +217,7 @@ String dir = "c:\\temp\\";
 
 boolean canLoad;
 
-// 使用文件流。
+// 使用文件流
 java.io.InputStream stream = new java.io.FileInputStream(dir + "sample.bmp");
 try {
     canLoad = com.aspose.imaging.Image.canLoad(stream);
@@ -248,7 +248,7 @@ public static boolean canLoad(InputStream stream, LoadOptions loadOptions)
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 加载选项。 |
 
 **Returns:**
-布尔型 - `true` 表示可以从指定流加载图像；否则为 `false`。
+boolean - 如果可以从指定流加载图像则为 `true`；否则为 `false`。
 ### create(ImageOptionsBase imageOptions, int width, int height) {#create-com.aspose.imaging.ImageOptionsBase-int-int-}
 ```
 public static Image create(ImageOptionsBase imageOptions, int width, int height)
@@ -261,29 +261,29 @@ public static Image create(ImageOptionsBase imageOptions, int width, int height)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | imageOptions | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | 图像选项。 |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The newly created image.
 
 **Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.**
-此示例根据 BmpOptions 实例的 Source 属性在某个磁盘位置创建一个新的 Image 文件。在创建实际图像之前，会设置 BmpOptions 实例的多个属性。特别是 Source 属性，在本例中指向实际的磁盘位置。
+此示例根据 BmpOptions 实例的 Source 属性在某个磁盘位置创建一个新的 Image 文件。在创建实际图像之前，已设置 BmpOptions 实例的多个属性。尤其是 Source 属性，在本例中指向实际的磁盘位置。
 ``` java
-// 创建 BmpOptions 的实例并设置其各项属性。
+// 创建 BmpOptions 的实例并设置其各项属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-// 创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-// 第二个布尔参数决定要创建的文件是否为 IsTemporal。
+// 创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+// 第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
-// 创建 Image 实例，并通过调用 Create 方法使用 BmpOptions 实例进行初始化。
+// 创建 Image 的实例，并通过调用 Create 方法使用 BmpOptions 实例进行初始化
 com.aspose.imaging.Image image = com.aspose.imaging.Image.create(bmpOptions, 500, 500);
 try {
-    // 进行一些图像处理。
+    // 进行一些图像处理
 
-    // 保存所有更改。
+    // 保存所有更改
     image.save();
 } finally {
     image.dispose();
@@ -296,7 +296,7 @@ public static Image create(ImageOptionsBase imageOptions, int width, int height,
 ```
 
 
-从提供的像素数组创建一个 [RasterImage](../../com.aspose.imaging/rasterimage) 实例。验证指定的宽度和高度是否匹配像素数据的尺寸。此方法只能在库处于授权模式时使用。
+从提供的像素数组创建一个 [RasterImage](../../com.aspose.imaging/rasterimage) 实例。验证指定的宽度和高度是否匹配像素数据的尺寸。此方法只能在库处于 Licensed 模式时使用。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -350,7 +350,7 @@ public static Image create(String[] files, boolean throwExceptionOnLoadError)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 文件 | java.lang.String[] | 文件。 |
-| throwExceptionOnLoadError | boolean | 如果设置为 `true` [throw exception on load error]。 |
+| throwExceptionOnLoadError | boolean | 如果设置为 `true` [在加载错误时抛出异常]。 |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The multipage image
@@ -375,13 +375,13 @@ public static Image create(Image[] images, boolean disposeImages)
 ```
 
 
-创建一个新图像，将指定的图像作为页面。
+使用指定的图像作为页面创建新图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | images | [Image\[\]](../../com.aspose.imaging/image) | 图像。 |
-| disposeImages | boolean | 如果设置为 `true` [dispose images]。 |
+| disposeImages | boolean | 如果设置为 `true` [释放图像]。 |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The Image as IMultipageImage
@@ -398,7 +398,7 @@ public static long getFileFormat(String filePath)
 | --- | --- | --- |
 |  | filePath | java.lang.String | 文件路径。 |
 
-确定的文件格式并不意味着指定的图像一定可以加载。使用 CanLoad 方法的重载之一来确定文件是否可以加载。 |
+确定的文件格式并不意味着可以加载指定的图像。使用 CanLoad 方法的重载之一来确定文件是否可以加载。 |
 
 **Returns:**
 long - 确定的文件格式。
@@ -411,7 +411,7 @@ String dir = "c:\\temp\\";
 // 使用文件的绝对路径
 long format = com.aspose.imaging.Image.getFileFormat(dir + "sample.gif");
 
-// 一个文件格式的字符串表示。
+// 文件格式的字符串表示。
 String strFormat;
 if (format == com.aspose.imaging.FileFormat.Bmp) {
     strFormat = "BMP";
@@ -462,7 +462,7 @@ public static Image load(String filePath, LoadOptions loadOptions)
 ```
 
 
-从指定的文件路径或 URL 加载新图像。如果 `filePath` 是文件路径，方法仅打开该文件。如果 `filePath` 是 URL，方法会下载该文件，将其存储为临时文件，然后打开它。
+从指定的文件路径或 URL 加载新图像。如果 `filePath` 是文件路径，方法仅打开该文件。如果 `filePath` 是 URL，方法会下载文件，将其存储为临时文件，然后打开它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -478,7 +478,7 @@ public static Image load(String filePath)
 ```
 
 
-从指定的文件路径或 URL 加载新图像。如果 `filePath` 是文件路径，方法仅打开该文件。如果 `filePath` 是 URL，方法会下载该文件，将其存储为临时文件，然后打开它。
+从指定的文件路径或 URL 加载新图像。如果 `filePath` 是文件路径，方法仅打开该文件。如果 `filePath` 是 URL，方法会下载文件，将其存储为临时文件，然后打开它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -511,7 +511,7 @@ public static Image load(RandomAccessFile file, LoadOptions loadOptions)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件 | java.io.RandomAccessFile | 加载图像的文件。 |
+| 文件 | java.io.RandomAccessFile | 要加载图像的文件。 |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 加载选项。 |
 
 **Returns:**
@@ -527,7 +527,7 @@ public static Image load(RandomAccessFile file)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件 | java.io.RandomAccessFile | 加载图像的文件。 |
+| 文件 | java.io.RandomAccessFile | 要加载图像的文件。 |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.
@@ -542,7 +542,7 @@ public static Image load(InputStream stream, LoadOptions loadOptions)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.InputStream | 用于加载图像的流。 |
+| 流 | java.io.InputStream | 要加载图像的流。 |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 加载选项。 |
 
 **Returns:**
@@ -558,7 +558,7 @@ public static Image load(InputStream stream)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 流 | java.io.InputStream | 用于加载图像的流。 |
+| 流 | java.io.InputStream | 要加载图像的流。 |
 
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.
@@ -569,7 +569,7 @@ public static Image load(InputStream stream)
 // 创建 FileInputStream 的实例
 java.io.InputStream stream = new java.io.FileInputStream("C:\\temp\\sample.bmp");
 try {
-    // 创建 Image 类的实例，并通过调用 Load 方法使用 FileStream 对象加载已有文件
+    // 创建 Image 类的实例，并通过调用 Load 方法使用 FileStream 对象加载现有文件。
     com.aspose.imaging.Image image = com.aspose.imaging.Image.load(stream);
     try {
         // 进行一些图像处理。
@@ -594,7 +594,7 @@ public static long getFileFormat(InputStream stream)
 | --- | --- | --- |
 |  | 流 | java.io.InputStream | 流。 |
 
-确定的文件格式并不意味着可以加载指定的图像。使用 CanLoad 方法的其中一个重载来确定流是否可以加载。 |
+确定的文件格式并不意味着可以加载指定的图像。使用 CanLoad 方法的重载之一来确定是否可以加载流。 |
 
 **Returns:**
 long - 确定的文件格式。
@@ -654,7 +654,7 @@ Utils utils = new Utils();
 
 String dir = "c:\\temp\\";
 
-// 使用文件流。
+// 使用文件流
 java.io.InputStream stream = new java.io.FileInputStream(dir + "sample.bmp");
 {
     long format = com.aspose.imaging.Image.getFileFormat(stream);
@@ -686,8 +686,8 @@ public static Rectangle getFittingRectangle(Rectangle rectangle, int width, int 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于获取适配矩形的矩形。 |
-| 宽度 | int | 对象的宽度。 |
-| 高度 | int | 对象的高度。 |
+| width | int | 对象的宽度。 |
+| height | int | 对象的高度。 |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The fitting rectangle or exception if no fitting rectangle can be found.
@@ -704,8 +704,8 @@ public static Rectangle getFittingRectangle(Rectangle rectangle, int[] pixels, i
 | --- | --- | --- |
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | 用于获取适配矩形的矩形。 |
 | 像素 | int[] | 32 位 ARGB 像素。 |
-| 宽度 | int | 对象的宽度。 |
-| 高度 | int | 对象的高度。 |
+| width | int | 对象的宽度。 |
+| height | int | 对象的高度。 |
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle) - The fitting rectangle or exception if no fitting rectangle can be found.
@@ -720,8 +720,8 @@ public static int getProportionalWidth(int width, int height, int newHeight)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 | newHeight | int | 新的高度。 |
 
 **Returns:**
@@ -737,8 +737,8 @@ public static int getProportionalHeight(int width, int height, int newWidth)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 | newWidth | int | 新的宽度。 |
 
 **Returns:**
@@ -834,7 +834,7 @@ public boolean isUsePalette()
 值：`true` 表示在图像中使用调色板；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否使用图像调色板的值。
+boolean - 指示是否使用图像调色板的值。
 
 **Example: Determine if the palette is used by the image.**
 
@@ -890,16 +890,16 @@ try {
 //输出可能如下所示：
 //总页数：2
 //当前页码：    1
-//第一页号：     1
-//最后页码：      2
+//第一页页码：     1
+//最后一页页码：      2
 //--------------------------------------------------
 //页码：     1
 //页面大小：       { Width = 2481, Height = 3508}
-//页面原始格式：RgbIndexed1Bpp，使用的通道： 1
+//页面原始格式：RgbIndexed1Bpp，使用的通道数：1
 //--------------------------------------------------
 //页码：     2
 //页面大小：       { Width = 2481, Height = 3508}
-//页面原始格式：RgbIndexed1Bpp，使用的通道： 1
+//页面原始格式：RgbIndexed1Bpp，使用的通道数：1
 ```
 
 ### getInterruptMonitor() {#getInterruptMonitor--}
@@ -933,10 +933,10 @@ public final int getBufferSizeHint()
 
 获取缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Returns:**
-int - 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。
+int - 为所有内部缓冲区定义的最大允许大小的缓冲区大小提示。
 ### setBufferSizeHint(int value) {#setBufferSizeHint-int-}
 ```
 public final void setBufferSizeHint(int value)
@@ -945,12 +945,12 @@ public final void setBufferSizeHint(int value)
 
 设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。
 
-值：缓冲区大小提示（单位：兆字节）。非正值表示内部缓冲区没有内存限制
+值：缓冲区大小提示，单位为兆字节。非正值表示内部缓冲区没有内存限制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 缓冲区大小提示，定义为所有内部缓冲区的最大允许大小。 |
+| 值 | int | 缓冲区大小提示，为所有内部缓冲区定义的最大允许大小。 |
 
 ### isAutoAdjustPalette() {#isAutoAdjustPalette--}
 ```
@@ -961,7 +961,7 @@ public boolean isAutoAdjustPalette()
 获取指示是否自动调整调色板的值。
 
 **Returns:**
-boolean - `true` 表示启用自动调整调色板；否则为 `false`。
+boolean - 若启用自动调整调色板则为 `true`；否则为 `false`。
 ### setAutoAdjustPalette(boolean value) {#setAutoAdjustPalette-boolean-}
 ```
 public void setAutoAdjustPalette(boolean value)
@@ -973,7 +973,7 @@ public void setAutoAdjustPalette(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示启用自动调整调色板；否则为 `false`。 |
+| 值 | boolean | `true` 表示启用自动调整调色板；否则为 `false`。 |
 
 ### hasBackgroundColor() {#hasBackgroundColor--}
 ```
@@ -991,7 +991,7 @@ public long getFileFormat()
 ```
 
 
-使用此用户友好的属性可以轻松获取文件格式值。对于希望快速获取文件格式信息的开发者而言，这是理想的选择。
+使用此用户友好的属性即可轻松获取文件格式值。非常适合需要快速访问信息的开发者。
 
 **Returns:**
 long
@@ -1016,7 +1016,7 @@ public void setBackgroundColor(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
@@ -1093,7 +1093,7 @@ public final ProgressEventHandler getIProgressEventHandler()
 ```
 
 
-获取进度事件处理程序的信息。
+获取进度事件处理程序信息。
 
 **Returns:**
 [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) - the progress event handler information.
@@ -1103,7 +1103,7 @@ public final ProgressEventHandlerInfo getProgressEventHandlerInfo()
 ```
 
 
-获取进度事件处理程序的信息。
+获取进度事件处理程序信息。
 
 值：进度事件处理程序信息。
 
@@ -1115,7 +1115,7 @@ public boolean canSave(ImageOptionsBase options)
 ```
 
 
-确定图像是否可以保存为由传入的保存选项表示的指定文件格式。
+确定图像是否可以根据传入的保存选项保存为指定的文件格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1123,7 +1123,7 @@ public boolean canSave(ImageOptionsBase options)
 | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | 要使用的保存选项。 |
 
 **Returns:**
-boolean - `true` 表示图像可以保存为传入保存选项所表示的指定文件格式；否则为 `false`。
+boolean - 若图像可以保存为传入保存选项所表示的指定文件格式则为 `true`；否则为 `false`。
 
 **Example: This example shows how to determine whether image can be saved to the specified file format represented by the passed save options.**
 
@@ -1148,7 +1148,7 @@ public void resize(int newWidth, int newHeight)
 ```
 
 
-调整图像大小。默认使用 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
+调整图像大小。使用默认的 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1391,7 +1391,7 @@ try
 {
     com.aspose.imaging.Size imageSize = image.getSize();
 
-    // 减小图像尺寸以加快分割过程
+    // 缩小图像尺寸以加快分割过程
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
     // 创建 ImageMasking 类的实例。
@@ -1405,7 +1405,7 @@ try
         com.aspose.imaging.RasterImage foregroundMask = maskingResult.get_Item(1).getMask();
         try
         {
-            // 将掩码的大小增加到原始图像的尺寸
+            // 将掩码的尺寸扩大到原始图像的大小
             foregroundMask.resize(imageSize.getWidth(), imageSize.getHeight(), com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
             // 将掩码应用于原始图像以获得前景段
@@ -1581,7 +1581,7 @@ try (Image image = Image.load("AstrixObelix.eps"))
     ImageResizeSettings resizeSettings = new ImageResizeSettings();
     // 设置插值模式
     resizeSettings.setMode(ResizeType.LanczosResample);
-    // 设置过滤器的类型
+    // 设置过滤器类型
     resizeSettings.setFilterType(ImageFilterType.SmallRectangular);
     // 设置颜色比较方法
     resizeSettings.setColorCompareMethod(ColorCompareMethod.Euclidian);
@@ -1617,7 +1617,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一张每像素 1 位的黑白 PNG 图像，然后使用 `DataStreamSupporter.Save(string)` 方法保存，它将生成每像素 8 位的输出 PNG 图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 `Image.Save(string, ImageOptionsBase)` 方法。
+根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一张每像素 1 位的黑白 PNG 图像，然后使用 `DataStreamSupporter.Save(string)` 方法保存，它将生成每像素 8 位的 PNG 输出图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 `Image.Save(string, ImageOptionsBase)` 方法。
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -1627,7 +1627,7 @@ public void resizeWidthProportionally(int newWidth)
 ```
 
 
-按比例调整宽度。默认使用 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
+按比例调整宽度。使用默认的 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1640,7 +1640,7 @@ public void resizeHeightProportionally(int newHeight)
 ```
 
 
-按比例调整高度。默认使用 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
+按比例调整高度。使用默认的 [ResizeType.NearestNeighbourResample](../../com.aspose.imaging/resizetype\#NearestNeighbourResample)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1663,7 +1663,7 @@ public void resizeWidthProportionally(int newWidth, int resizeType)
 
 
 **Example: This example loads an image and resizes it proportionally using various resizing methods.**
-此示例加载图像并使用各种缩放方法按比例调整大小。仅指定宽度，高度会自动计算。
+此示例加载图像并使用各种调整方法按比例调整大小。仅指定宽度，高度会自动计算。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1718,7 +1718,7 @@ public void resizeHeightProportionally(int newHeight, int resizeType)
 
 
 **Example: This example loads an image and resizes it proportionally using various resizing methods.**
-此示例加载图像并使用各种缩放方法按比例调整大小。仅指定高度，宽度会自动计算。
+此示例加载图像并使用各种调整方法按比例调整大小。仅指定高度，宽度会自动计算。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1785,7 +1785,7 @@ try
 {
     com.aspose.imaging.Size imageSize = image.getSize();
 
-    // 减小图像尺寸以加快分割过程
+    // 缩小图像尺寸以加快分割过程
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
     // 创建 ImageMasking 类的实例。
@@ -1799,7 +1799,7 @@ try
         com.aspose.imaging.RasterImage foregroundMask = maskingResult.get_Item(1).getMask();
         try
         {
-            // 将掩码的大小增加到原始图像的尺寸
+            // 将掩码的尺寸扩大到原始图像的大小
             foregroundMask.resize(imageSize.getWidth(), imageSize.getHeight(), com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
             // 将掩码应用于原始图像以获得前景段
@@ -1842,7 +1842,7 @@ public void resizeWidthProportionally(int newWidth, ImageResizeSettings settings
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | newWidth | int | 新的宽度。 |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | 图像调整设置。 |
+| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | 图像大小调整设置。 |
 
 ### resizeHeightProportionally(int newHeight, ImageResizeSettings settings) {#resizeHeightProportionally-int-com.aspose.imaging.ImageResizeSettings-}
 ```
@@ -1856,7 +1856,7 @@ public void resizeHeightProportionally(int newHeight, ImageResizeSettings settin
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | newHeight | int | 新的高度。 |
-| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | 图像调整设置。 |
+| settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | 图像大小调整设置。 |
 
 ### rotateFlip(int rotateFlipType) {#rotateFlip-int-}
 ```
@@ -2001,7 +2001,7 @@ try {
     com.aspose.imaging.Rectangle bounds = new com.aspose.imaging.Rectangle(image.getWidth() / 4, image.getHeight() / 4, image.getWidth() / 2, image.getHeight() / 2);
     image.save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-    // 将整个图像保存到内存流
+    // 将整个图像保存到内存流中
     java.io.ByteArrayOutputStream stream = new java.io.ByteArrayOutputStream();
     try {
         image.save(stream, saveOptions);
@@ -2010,7 +2010,7 @@ try {
         stream.close();
     }
 
-    // 将图像的中心部分保存到内存流
+    // 将图像的中心部分保存到内存流中
     stream = new java.io.ByteArrayOutputStream();
     try {
         image.save(stream, saveOptions, bounds);
@@ -2023,8 +2023,8 @@ try {
 }
 
 //输出可能如下所示：
-//整个图像的大小（字节）：1662
-//图像中心部分的大小（字节）：462
+//整个图像的字节大小：1662
+//图像中心部分的字节大小：462
 ```
 
 ### save(String filePath) {#save-java.lang.String-}
@@ -2056,7 +2056,7 @@ public void save(String filePath, ImageOptionsBase options)
 
 
 **Example: This example shows the simple steps to Save an Image.**
-此示例展示了保存图像的简单步骤。为演示此操作，我们从某个磁盘位置加载现有文件，并以 PSD 格式保存图像。
+此示例展示了保存图像的简单步骤。为演示此操作，我们从某个磁盘位置加载现有文件并以 PSD 格式保存图像。
 ``` java
 // 从磁盘加载现有文件。
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
@@ -2145,13 +2145,13 @@ public void save(OutputStream stream, ImageOptionsBase optionsBase)
 
 
 **Example: This example shows the process of saving an Image to memory buffer.**
-此示例展示了将 Image 保存到内存缓冲区的过程。为了演示此操作，示例从某个磁盘位置加载现有文件并以 PSD 格式保存图像。
+此示例展示了将图像保存到内存缓冲区的过程。为演示此操作，示例从磁盘的某个位置加载现有文件并将图像保存为 PSD 格式。
 ``` java
 java.io.ByteArrayOutputStream stream = new java.io.ByteArrayOutputStream();
 try {            //Create an instance of image class and initialize it with an existing image file through File path
     com.aspose.imaging.Image image = com.aspose.imaging.Image.load("C:\\temp\\sample.bmp");
     try {
-        //使用默认的 PsdOptions 设置将图像保存到 PSD 内存流
+        //使用默认的 PsdOptions 设置将图像保存到 PSD 内存流。
         image.save(stream, new com.aspose.imaging.imageoptions.PsdOptions());
     } finally {
         image.dispose();

@@ -1,7 +1,7 @@
 ---
 title: "LineTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于描述线段类型的标志。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "描述线条类型的标志。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/linetypes/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class LineTypes extends System.Enum
 ```
 
-用于描述线段类型的标志。
+描述线条类型的标志。
 ## 字段
 
 | 字段 | 描述 |

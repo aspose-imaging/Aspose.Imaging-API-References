@@ -1,18 +1,18 @@
 ---
 title: "TiffShortType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff 短整型."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 tiff 短整型。"
 type: docs
 weight: 25
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging/fileformats/tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging/fileformats/tiff/tifftagtypes/tiffcommonarraytype)
+java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
 ```
 public final class TiffShortType extends TiffCommonArrayType
 ```
 
-tiff 短整型.
+该 tiff 短整型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -83,7 +83,7 @@ public void setValues(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getElementSize() {#getElementSize--}
 ```
@@ -105,7 +105,7 @@ public System.Array getValuesContainer()
 
 获取值容器。
 
-值：值容器。
+值：值的容器。
 
 **Returns:**
 com.aspose.ms.System.Array
@@ -142,7 +142,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object |  |
+| 值 | java.lang.Object |  |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

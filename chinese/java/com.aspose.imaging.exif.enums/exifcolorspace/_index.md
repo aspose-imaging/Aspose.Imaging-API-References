@@ -1,6 +1,6 @@
 ---
 title: "ExifColorSpace"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 颜色空间枚举。"
 type: docs
 weight: 10
@@ -17,16 +17,16 @@ exif 颜色空间枚举。
 
 | 字段 | 描述 |
 | --- | --- |
-| [SRgb](#SRgb) | SRGB 颜色空间。 |
-| [AdobeRgb](#AdobeRgb) | Adobe RGB 颜色空间。 |
-| [Uncalibrated](#Uncalibrated) | 未校准颜色空间。 |
+| [SRgb](#SRgb) | SRGB 色彩空间。 |
+| [AdobeRgb](#AdobeRgb) | Adobe rgb 色彩空间。 |
+| [Uncalibrated](#Uncalibrated) | 未校准色彩空间。 |
 ### SRgb {#SRgb}
 ```
 public static final int SRgb
 ```
 
 
-SRGB 颜色空间。
+SRGB 色彩空间。
 
 ### AdobeRgb {#AdobeRgb}
 ```
@@ -34,7 +34,7 @@ public static final int AdobeRgb
 ```
 
 
-Adobe RGB 颜色空间。
+Adobe rgb 色彩空间。
 
 ### Uncalibrated {#Uncalibrated}
 ```
@@ -42,5 +42,5 @@ public static final int Uncalibrated
 ```
 
 
-未校准颜色空间。
+未校准色彩空间。
 

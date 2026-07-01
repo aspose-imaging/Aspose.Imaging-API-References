@@ -1,7 +1,7 @@
 ---
 title: "WmfCieXyz"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "CIEXYZ 对象定义了关于 CIEXYZ 色度对象的信息。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "CIEXYZ 对象定义有关 CIEXYZ 色度对象的信息。"
 type: docs
 weight: 18
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfciexyz/
@@ -22,12 +22,12 @@ CIEXYZ 对象定义有关 CIEXYZ 色度对象的信息。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCiexyzX()](#getCiexyzX--) | 获取或设置定义 x 色度值的 32 位 2.30 固定点类型。 |
-| [setCiexyzX(int value)](#setCiexyzX-int-) | 获取或设置定义 x 色度值的 32 位 2.30 固定点类型。 |
-| [getCiexyzY()](#getCiexyzY--) | 获取或设置定义 y 色度值的 32 位 2.30 固定点类型。 |
-| [setCiexyzY(int value)](#setCiexyzY-int-) | 获取或设置定义 y 色度值的 32 位 2.30 固定点类型。 |
-| [getCiexyzZ()](#getCiexyzZ--) | 获取或设置定义 z 色度值的 32 位 2.30 固定点类型。 |
-| [setCiexyzZ(int value)](#setCiexyzZ-int-) | 获取或设置定义 z 色度值的 32 位 2.30 固定点类型。 |
+| [getCiexyzX()](#getCiexyzX--) | 获取或设置定义 x 色度值的 32 位 2.30 定点类型。 |
+| [setCiexyzX(int value)](#setCiexyzX-int-) | 获取或设置定义 x 色度值的 32 位 2.30 定点类型。 |
+| [getCiexyzY()](#getCiexyzY--) | 获取或设置定义 y 色度值的 32 位 2.30 定点类型。 |
+| [setCiexyzY(int value)](#setCiexyzY-int-) | 获取或设置定义 y 色度值的 32 位 2.30 定点类型。 |
+| [getCiexyzZ()](#getCiexyzZ--) | 获取或设置定义 z 色度值的 32 位 2.30 定点类型。 |
+| [setCiexyzZ(int value)](#setCiexyzZ-int-) | 获取或设置定义 z 色度值的 32 位 2.30 定点类型。 |
 | [CloneTo(WmfCieXyz that)](#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-) |  |
 | [Clone()](#Clone--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public int getCiexyzX()
 ```
 
 
-获取或设置定义 x 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 x 色度值的 32 位 2.30 定点类型。
 
 **Returns:**
 int
@@ -55,12 +55,12 @@ public void setCiexyzX(int value)
 ```
 
 
-获取或设置定义 x 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 x 色度值的 32 位 2.30 定点类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCiexyzY() {#getCiexyzY--}
 ```
@@ -68,7 +68,7 @@ public int getCiexyzY()
 ```
 
 
-获取或设置定义 y 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 y 色度值的 32 位 2.30 定点类型。
 
 **Returns:**
 int
@@ -78,12 +78,12 @@ public void setCiexyzY(int value)
 ```
 
 
-获取或设置定义 y 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 y 色度值的 32 位 2.30 定点类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCiexyzZ() {#getCiexyzZ--}
 ```
@@ -91,7 +91,7 @@ public int getCiexyzZ()
 ```
 
 
-获取或设置定义 z 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 z 色度值的 32 位 2.30 定点类型。
 
 **Returns:**
 int
@@ -101,12 +101,12 @@ public void setCiexyzZ(int value)
 ```
 
 
-获取或设置定义 z 色度值的 32 位 2.30 固定点类型。
+获取或设置定义 z 色度值的 32 位 2.30 定点类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### CloneTo(WmfCieXyz that) {#CloneTo-com.aspose.imaging.fileformats.wmf.objects.WmfCieXyz-}
 ```

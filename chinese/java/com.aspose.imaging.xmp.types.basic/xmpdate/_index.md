@@ -1,6 +1,6 @@
 ---
 title: "XmpDate"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 包中的日期。"
 type: docs
 weight: 11
@@ -14,7 +14,7 @@ public final class XmpDate extends XmpTypeBase
 
 表示 XMP 包中的日期。
 
-日期时间值使用日期和时间格式中定义的子集表示：YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY-MM-DDThh:mm:ss.sTZD
+日期时间值使用以下日期和时间格式子集表示：YYYY、YYYY-MM、YYYY-MM-DD、YYYY-MM-DDThh:mmTZD、YYYY-MM-DDThh:mm:ssTZD、YYYY-MM-DDThh:mm:ss.sTZD。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -33,7 +33,7 @@ public final class XmpDate extends XmpTypeBase
 | [getValue()](#getValue--) | 获取或设置日期值。 |
 | [setValue(Date value)](#setValue-java.util.Date-) | 获取或设置日期值。 |
 | [getFormat()](#getFormat--) | 获取当前值的格式字符串。 |
-| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式的字符串值。 |
+| [getXmpRepresentation()](#getXmpRepresentation--) | 返回 XMP 格式中包含的字符串值。 |
 ### XmpDate(Date dateTime) {#XmpDate-java.util.Date-}
 ```
 public XmpDate(Date dateTime)
@@ -45,7 +45,7 @@ public XmpDate(Date dateTime)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dateTime | java.util.Date | 使用 ISO RFC 8601 子集格式表示的日期时间值。 |
+| dateTime | java.util.Date | 日期时间值使用 ISO RFC 8601 格式的子集表示。 |
 
 ### XmpDate(String dateString) {#XmpDate-java.lang.String-}
 ```
@@ -68,7 +68,7 @@ public static final String ISO_8601_FORMAT
 
 ISO 8601（往返）格式字符串。
 
-查看更多： [ here ][here].
+查看更多：[ here ][here].
 
 
 [here]: https://en.wikipedia.org/wiki/ISO_8601
@@ -81,7 +81,7 @@ public Date getValue()
 
 获取或设置日期值。
 
-值： 日期值。
+值：日期值。
 
 **Returns:**
 java.util.Date
@@ -93,12 +93,12 @@ public void setValue(Date value)
 
 获取或设置日期值。
 
-值： 日期值。
+值：日期值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date |  |
+| 值 | java.util.Date |  |
 
 ### getFormat() {#getFormat--}
 ```
@@ -108,7 +108,7 @@ public String getFormat()
 
 获取当前值的格式字符串。
 
-值： 当前值的格式字符串。
+值：当前值的格式字符串。
 
 **Returns:**
 java.lang.String
@@ -118,7 +118,7 @@ public String getXmpRepresentation()
 ```
 
 
-返回 XMP 格式的字符串值。
+返回 XMP 格式中包含的字符串值。
 
 **Returns:**
 java.lang.String - 返回包含 xmp 表示的字符串

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusLinePath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusLinePath 对象指定用于描绘自定义线帽的图形路径。"
 type: docs
 weight: 52
@@ -22,8 +22,8 @@ EmfPlusLinePath 对象指定用于描绘自定义线帽的图形路径。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLinePath()](#getLinePath--) | 获取或设置一个 `EmfPlusPath` 对象，以定义轮廓。 |
-| [setLinePath(EmfPlusPath value)](#setLinePath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置一个 `EmfPlusPath` 对象，以定义轮廓。 |
+| [getLinePath()](#getLinePath--) | 获取或设置一个 `EmfPlusPath` 对象，用于定义轮廓。 |
+| [setLinePath(EmfPlusPath value)](#setLinePath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置一个 `EmfPlusPath` 对象，用于定义轮廓。 |
 ### EmfPlusLinePath() {#EmfPlusLinePath--}
 ```
 public EmfPlusLinePath()
@@ -36,7 +36,7 @@ public EmfPlusPath getLinePath()
 ```
 
 
-获取或设置一个 `EmfPlusPath` 对象，以定义轮廓。
+获取或设置一个 `EmfPlusPath` 对象，用于定义轮廓。
 
 **Returns:**
 [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)
@@ -46,7 +46,7 @@ public void setLinePath(EmfPlusPath value)
 ```
 
 
-获取或设置一个 `EmfPlusPath` 对象，以定义轮廓。
+获取或设置一个 `EmfPlusPath` 对象，用于定义轮廓。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

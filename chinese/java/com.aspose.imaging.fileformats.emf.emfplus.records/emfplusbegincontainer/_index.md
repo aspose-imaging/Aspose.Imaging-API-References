@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBeginContainer"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBeginContainer 记录打开一个新的图形状态容器并为其指定变换。"
 type: docs
 weight: 10
@@ -27,8 +27,8 @@ EmfPlusBeginContainer 记录打开一个新的图形状态容器并为其指定�
 | [setDestRect(RectangleF value)](#setDestRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定容器的变换。 |
 | [getSrcRect()](#getSrcRect--) | 获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。 |
 | [setSrcRect(RectangleF value)](#setSrcRect-com.aspose.imaging.RectangleF-) | 获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。 |
-| [getStackIndex()](#getStackIndex--) | 获取或设置一个 32 位无符号整数，该整数指定与图形状态容器关联的索引。 |
-| [setStackIndex(int value)](#setStackIndex-int-) | 获取或设置一个 32 位无符号整数，该整数指定与图形状态容器关联的索引。 |
+| [getStackIndex()](#getStackIndex--) | 获取或设置一个 32 位无符号整数，指定与图形状态容器关联的索引。 |
+| [setStackIndex(int value)](#setStackIndex-int-) | 获取或设置一个 32 位无符号整数，指定与图形状态容器关联的索引。 |
 ### EmfPlusBeginContainer(EmfPlusRecord source) {#EmfPlusBeginContainer-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusBeginContainer(EmfPlusRecord source)
@@ -40,7 +40,7 @@ public EmfPlusBeginContainer(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPageUnit() {#getPageUnit--}
 ```
@@ -60,7 +60,7 @@ public RectangleF getDestRect()
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定容器的变换。当该变换应用于 DestRect 时，会得到 SrcRect。
+获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定容器的变换。当应用于 DestRect 时，此变换产生 SrcRect。
 
 值：目标矩形。
 
@@ -72,7 +72,7 @@ public void setDestRect(RectangleF value)
 ```
 
 
-获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定容器的变换。当该变换应用于 DestRect 时，会得到 SrcRect。
+获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定容器的变换。当应用于 DestRect 时，此变换产生 SrcRect。
 
 值：目标矩形。
 
@@ -87,7 +87,7 @@ public RectangleF getSrcRect()
 ```
 
 
-获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。当该变换应用于 DestRect 时，会得到 SrcRect。
+获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。当应用于 DestRect 时，此变换产生 SrcRect。
 
 值：源矩形。
 
@@ -99,7 +99,7 @@ public void setSrcRect(RectangleF value)
 ```
 
 
-获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。当该变换应用于 DestRect 时，会得到 SrcRect。
+获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起指定容器的变换。当应用于 DestRect 时，此变换产生 SrcRect。
 
 值：源矩形。
 
@@ -114,7 +114,7 @@ public int getStackIndex()
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定与图形状态容器关联的索引。该索引必须在后续的 EmfPlusEndContainer 记录（第 2.3.7.3 节）中被引用，以关闭图形状态容器。
+获取或设置一个 32 位无符号整数，指定与图形状态容器关联的索引。该索引必须在后续的 EmfPlusEndContainer 记录（第 2.3.7.3 节）中被引用，以关闭图形状态容器。
 
 值：堆栈的索引。
 
@@ -126,12 +126,12 @@ public void setStackIndex(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，该整数指定与图形状态容器关联的索引。该索引必须在后续的 EmfPlusEndContainer 记录（第 2.3.7.3 节）中被引用，以关闭图形状态容器。
+获取或设置一个 32 位无符号整数，指定与图形状态容器关联的索引。该索引必须在后续的 EmfPlusEndContainer 记录（第 2.3.7.3 节）中被引用，以关闭图形状态容器。
 
 值：堆栈的索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

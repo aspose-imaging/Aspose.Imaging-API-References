@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusFillPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusFillPath 对象指定用于填充自定义线帽的图形路径"
 type: docs
 weight: 40
@@ -22,8 +22,8 @@ EmfPlusFillPath 对象指定用于填充自定义线帽的图形路径
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFillPath()](#getFillPath--) | 获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定要填充的区域。 |
-| [setFillPath(EmfPlusPath value)](#setFillPath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定要填充的区域。 |
+| [getFillPath()](#getFillPath--) | 获取或设置指定填充区域的 EmfPlusPath 对象（第 2.2.1.6 节）。 |
+| [setFillPath(EmfPlusPath value)](#setFillPath-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置指定填充区域的 EmfPlusPath 对象（第 2.2.1.6 节）。 |
 ### EmfPlusFillPath() {#EmfPlusFillPath--}
 ```
 public EmfPlusFillPath()
@@ -36,7 +36,7 @@ public EmfPlusPath getFillPath()
 ```
 
 
-获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定要填充的区域。
+获取或设置指定填充区域的 EmfPlusPath 对象（第 2.2.1.6 节）。
 
 **Returns:**
 [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)
@@ -46,7 +46,7 @@ public void setFillPath(EmfPlusPath value)
 ```
 
 
-获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），该对象指定要填充的区域。
+获取或设置指定填充区域的 EmfPlusPath 对象（第 2.2.1.6 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

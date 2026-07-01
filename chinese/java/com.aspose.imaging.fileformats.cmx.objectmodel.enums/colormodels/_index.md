@@ -1,6 +1,6 @@
 ---
-title: "ColorModels"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "颜色模型"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "颜色模型。"
 type: docs
 weight: 12
@@ -18,16 +18,16 @@ public final class ColorModels extends System.Enum
 | 字段 | 描述 |
 | --- | --- |
 | [Invalid](#Invalid) | 无效的颜色模型。 |
-| [Pantone](#Pantone) | PANTONE 调色板。 |
-| [CMYK](#CMYK) | CMYK 颜色模型，表示为 0-100 的字节范围。 |
-| [CMYK255](#CMYK255) | CMYK 颜色模型，表示为 0-255 的字节范围。 |
+| [Pantone](#Pantone) | 潘通调色板。 |
+| [CMYK](#CMYK) | CMYK 颜色模型，使用 0-100 的字节范围表示。 |
+| [CMYK255](#CMYK255) | CMYK 颜色模型，使用 0-255 的字节范围表示。 |
 | [CMY](#CMY) | CMY 颜色模型。 |
 | [RGB](#RGB) | RGM 颜色模型。 |
 | [HSB](#HSB) | HSB 颜色模型。 |
 | [HLS](#HLS) | HLS 颜色模型。 |
 | [BW](#BW) | 黑白颜色。 |
 | [Gray](#Gray) | 灰度颜色模型。 |
-| [YIQ255](#YIQ255) | YIQ 颜色模型，表示为 0-255 的字节范围。 |
+| [YIQ255](#YIQ255) | YIQ 颜色模型，使用 0-255 的字节范围表示。 |
 | [LAB](#LAB) | Lab 颜色模型。 |
 | [BGR](#BGR) | 颜色模型 BGR |
 | [LAB255](#LAB255) | Lab 颜色模型 LAB255。 |
@@ -45,7 +45,7 @@ public static final int Pantone
 ```
 
 
-PANTONE 调色板。
+潘通调色板。
 
 ### CMYK {#CMYK}
 ```
@@ -53,7 +53,7 @@ public static final int CMYK
 ```
 
 
-CMYK 颜色模型，表示为 0-100 的字节范围。
+CMYK 颜色模型，使用 0-100 的字节范围表示。
 
 ### CMYK255 {#CMYK255}
 ```
@@ -61,7 +61,7 @@ public static final int CMYK255
 ```
 
 
-CMYK 颜色模型，表示为 0-255 的字节范围。
+CMYK 颜色模型，使用 0-255 的字节范围表示。
 
 ### CMY {#CMY}
 ```
@@ -117,7 +117,7 @@ public static final int YIQ255
 ```
 
 
-YIQ 颜色模型，表示为 0-255 的字节范围。
+YIQ 颜色模型，使用 0-255 的字节范围表示。
 
 ### LAB {#LAB}
 ```

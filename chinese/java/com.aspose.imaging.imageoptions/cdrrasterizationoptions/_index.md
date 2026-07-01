@@ -1,7 +1,7 @@
 ---
 title: "CdrRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 API 具备执行 CDR 图像光栅化并为 X 和 Y 维度设置比例因子的能力，从而对转换过程提供精确控制。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "通过能够执行 CDR 图像光栅化并为 X 和 Y 维度设置比例因子，此 API 提供对转换过程的精确控制。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.imageoptions/cdrrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class CdrRasterizationOptions extends VectorRasterizationOptions
 ```
 
-该 API 具备执行 CDR 图像光栅化并为 X 和 Y 维度设置比例因子的能力，从而对转换过程提供精确控制。无论是针对特定输出需求进行缩放，还是将矢量图形转换为光栅格式，您都可以利用此 API 实现高效且可定制的 CDR 矢量到光栅图像转换。
+通过能够执行 CDR 图像光栅化并为 X 和 Y 维度设置比例因子，此 API 提供对转换过程的精确控制。无论是针对特定输出需求进行缩放，还是将矢量图形转换为光栅格式，您都可以利用此 API 实现高效且可定制的 CDR 矢量到光栅图像转换。
 ## 构造函数
 
 | 构造函数 | 描述 |

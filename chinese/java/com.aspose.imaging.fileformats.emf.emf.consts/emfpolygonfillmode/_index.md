@@ -1,7 +1,7 @@
 ---
 title: "EmfPolygonFillMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "PolygonFillMode 枚举定义了指定如何计算要填充的多边形区域的取值。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "PolygonFillMode 枚举定义了用于指定如何计算要填充的多边形区域的取值。"
 type: docs
 weight: 36
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPolygonFillMode extends System.Enum
 ```
 
-PolygonFillMode 枚举定义了指定如何计算要填充的多边形区域的取值。
+PolygonFillMode 枚举定义了用于指定如何计算要填充的多边形区域的取值。
 ## 字段
 
 | 字段 | 描述 |

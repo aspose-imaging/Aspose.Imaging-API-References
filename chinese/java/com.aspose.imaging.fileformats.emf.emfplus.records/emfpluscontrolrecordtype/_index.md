@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusControlRecordType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "控制记录类型指定 EMF 元文件处理的全局参数。"
 type: docs
 weight: 15

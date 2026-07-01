@@ -1,7 +1,7 @@
 ---
 title: "EmfSetLayout.LayoutModeEnum"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定布局模式的 32 位无符号整数"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "一个指定布局模式的 32 位无符号整数"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetlayout.layoutmodeenum/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public static final class EmfSetLayout.LayoutModeEnum extends System.Enum
 ```
 
-指定布局模式的 32 位无符号整数
+一个指定布局模式的 32 位无符号整数
 ## 字段
 
 | 字段 | 描述 |

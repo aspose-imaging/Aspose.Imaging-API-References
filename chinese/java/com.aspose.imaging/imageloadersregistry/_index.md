@@ -1,6 +1,6 @@
 ---
 title: "ImageLoadersRegistry"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示图像加载器注册表。"
 type: docs
 weight: 61
@@ -23,7 +23,7 @@ public final class ImageLoadersRegistry
 | [getFirstSupportedDescriptorByTypeName(String descriptorTypeName)](#getFirstSupportedDescriptorByTypeName-java.lang.String-) | 根据类型名称获取第一个受支持的描述符。 |
 | [getFirstSupportedDescriptorByFileFormat(long fileFormat)](#getFirstSupportedDescriptorByFileFormat-long-) | 根据类型名称获取第一个受支持的文件格式。 |
 | [getFirstSupportedDescriptor(InputStream stream, LoadOptions loadOptions)](#getFirstSupportedDescriptor-java.io.InputStream-com.aspose.imaging.LoadOptions-) | 获取适用于指定 `stream` 且可选 `loadOptions` 的首次找到的受支持描述符。 |
-| [createFirstSupportedLoader(InputStream stream, LoadOptions loadOptions)](#createFirstSupportedLoader-java.io.InputStream-com.aspose.imaging.LoadOptions-) | 为指定的 `stream` 创建首个匹配的加载器，并可选地使用 `loadOptions`。 |
+| [createFirstSupportedLoader(InputStream stream, LoadOptions loadOptions)](#createFirstSupportedLoader-java.io.InputStream-com.aspose.imaging.LoadOptions-) | 为指定的 `stream` 创建第一个找到的合适加载器，并可选地使用 `loadOptions`。 |
 | [registerLoader(IImageLoaderDescriptor loaderDescriptor)](#registerLoader-com.aspose.imaging.IImageLoaderDescriptor-) | 注册加载器。 |
 | [unregisterLoader(IImageLoaderDescriptor loaderDescriptor)](#unregisterLoader-com.aspose.imaging.IImageLoaderDescriptor-) | 注销加载器。 |
 ### getRegisteredFormats() {#getRegisteredFormats--}
@@ -121,7 +121,7 @@ public static IImageLoader createFirstSupportedLoader(InputStream stream, LoadOp
 ```
 
 
-为指定的 `stream` 创建首个匹配的加载器，并可选地使用 `loadOptions`。
+为指定的 `stream` 创建第一个找到的合适加载器，并可选地使用 `loadOptions`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusRestore"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusRestore 记录从已保存图形状态的堆栈中恢复由指定索引标识的图形状态。"
 type: docs
 weight: 49
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusRestore extends EmfPlusStateRecordType
 ```
 
-EmfPlusRestore 记录从已保存的图形状态栈中恢复由指定索引标识的图形状态。
+EmfPlusRestore 记录从已保存的图形状态堆栈中恢复由指定索引标识的图形状态。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -35,7 +35,7 @@ public EmfPlusRestore(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getStackIndex() {#getStackIndex--}
 ```
@@ -43,7 +43,7 @@ public int getStackIndex()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定与图形状态关联的级别。该级别值由先前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
+获取或设置一个 32 位无符号整数，指定与图形状态关联的级别。该级别值由之前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
 
 值：堆栈的索引。
 
@@ -55,12 +55,12 @@ public void setStackIndex(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定与图形状态关联的级别。该级别值由先前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
+获取或设置一个 32 位无符号整数，指定与图形状态关联的级别。该级别值由之前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
 
 值：堆栈的索引。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

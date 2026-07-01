@@ -1,6 +1,6 @@
 ---
 title: "ExifUnit"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 单位枚举。"
 type: docs
 weight: 26

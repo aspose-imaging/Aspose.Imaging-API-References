@@ -1,6 +1,6 @@
 ---
 title: "MetaImage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Meta 对象类的基类"
 type: docs
 weight: 12
@@ -97,11 +97,11 @@ try {
 //记录类型                              数量
 //----------------------------------------------
 //EmfMetafileHeader:                       1
-//EmfSetBkMode:                            1
-//EmfSetTextAlign:                         1
-//EmfSetRop2:                              1
-//EmfSetWorldTransform:                    1
-//EmfExtSelectClipRgn:                     1
+//EmfSetBkMode:                           1
+//EmfSetTextAlign:                        1
+//EmfSetRop2:                             1
+//EmfSetWorldTransform:                   1
+//EmfExtSelectClipRgn:                    1
 //EmfCreateBrushIndirect:                  113
 //EmfSelectObject:                         240
 //EmfCreatePen:                            116
@@ -183,12 +183,12 @@ try {
 }
 
 // STDOUT 日志可能如下所示：
-//        正在测试文件：TestWmfText.wmf
+//        正在测试文件: TestWmfText.wmf
 //        使用的字体：
-//        使用的字体：Garamond
-//        使用的字体：Arial
-//        使用的字体：Bookman Old Style
-//        使用的字体：Comic Sans MS
+//        使用的字体: Garamond
+//        使用的字体: Arial
+//        使用的字体: Bookman Old Style
+//        使用的字体: Comic Sans MS
 //        使用的字体：Courier
 //        使用的字体：Courier New
 //        使用的字体：Impact
@@ -201,37 +201,37 @@ try {
 //        使用的字体：Times New Roman
 //        使用的字体：Verdana
 //        使用的字体：Wingdings
-//        缺少的字体：
-//        缺少的字体：Garamond
-//        缺少的字体：Arial
-//        缺少的字体：Bookman Old Style
-//        缺少的字体：Comic Sans MS
-//        缺少的字体：Courier
-//        缺少的字体：Courier New
-//        缺少的字体：Impact
-//        缺少的字体：Modern
-//        缺少的字体：MS Sans Serif
-//        缺少的字体：MS Serif
-//        缺少的字体：Small Fonts
-//        缺少的字体：Symbol
-//        缺少的字体：Tahoma
-//        缺少的字体：Verdana
-//        缺少的字体：Wingdings
+//        缺失的字体：
+//        缺失的字体：Garamond
+//        缺失的字体：Arial
+//        缺失的字体：Bookman Old Style
+//        缺失的字体：Comic Sans MS
+//        缺失的字体：Courier
+//        缺失的字体：Courier New
+//        缺失的字体：Impact
+//        缺失的字体：Modern
+//        缺失的字体：MS Sans Serif
+//        缺失的字体：MS Serif
+//        缺失的字体：Small Fonts
+//        缺失的字体：Symbol
+//        缺少字体：Tahoma
+//        缺少字体：Verdana
+//        缺少字体：Wingdings
 //        正在测试文件：TestEmfFonts.emf
 //        使用的字体：
-//        使用的字体：Arial
+//        使用的字体: Arial
 //        使用的字体：Verdana
 //        使用的字体：Times New Roman
 //        使用的字体：Symbol
-//        缺少的字体：
-//        缺少的字体：Arial
-//        缺少的字体：Verdana
-//        缺少的字体：Symbol
+//        缺失的字体：
+//        缺失的字体：Arial
+//        缺少字体：Verdana
+//        缺失的字体：Symbol
 //        正在测试文件：TestEmfPlusFonts.emf
 //        使用的字体：
 //        使用的字体：MICROSOFT SANS SERIF
-//        缺少的字体：
-//        缺少的字体：MICROSOFT SANS SERIF
+//        缺失的字体：
+//        缺少字体：MICROSOFT SANS SERIF
 ```
 
 ### getMissedFonts() {#getMissedFonts--}
@@ -283,12 +283,12 @@ try {
 }
 
 // STDOUT 日志可能如下所示：
-//        正在测试文件：TestWmfText.wmf
+//        正在测试文件: TestWmfText.wmf
 //        使用的字体：
-//        使用的字体：Garamond
-//        使用的字体：Arial
-//        使用的字体：Bookman Old Style
-//        使用的字体：Comic Sans MS
+//        使用的字体: Garamond
+//        使用的字体: Arial
+//        使用的字体: Bookman Old Style
+//        使用的字体: Comic Sans MS
 //        使用的字体：Courier
 //        使用的字体：Courier New
 //        使用的字体：Impact
@@ -301,37 +301,37 @@ try {
 //        使用的字体：Times New Roman
 //        使用的字体：Verdana
 //        使用的字体：Wingdings
-//        缺少的字体：
-//        缺少的字体：Garamond
-//        缺少的字体：Arial
-//        缺少的字体：Bookman Old Style
-//        缺少的字体：Comic Sans MS
-//        缺少的字体：Courier
-//        缺少的字体：Courier New
-//        缺少的字体：Impact
-//        缺少的字体：Modern
-//        缺少的字体：MS Sans Serif
-//        缺少的字体：MS Serif
-//        缺少的字体：Small Fonts
-//        缺少的字体：Symbol
-//        缺少的字体：Tahoma
-//        缺少的字体：Verdana
-//        缺少的字体：Wingdings
+//        缺失的字体：
+//        缺失的字体：Garamond
+//        缺失的字体：Arial
+//        缺失的字体：Bookman Old Style
+//        缺失的字体：Comic Sans MS
+//        缺失的字体：Courier
+//        缺失的字体：Courier New
+//        缺失的字体：Impact
+//        缺失的字体：Modern
+//        缺失的字体：MS Sans Serif
+//        缺失的字体：MS Serif
+//        缺失的字体：Small Fonts
+//        缺失的字体：Symbol
+//        缺少字体：Tahoma
+//        缺少字体：Verdana
+//        缺少字体：Wingdings
 //        正在测试文件：TestEmfFonts.emf
 //        使用的字体：
-//        使用的字体：Arial
+//        使用的字体: Arial
 //        使用的字体：Verdana
 //        使用的字体：Times New Roman
 //        使用的字体：Symbol
-//        缺少的字体：
-//        缺少的字体：Arial
-//        缺少的字体：Verdana
-//        缺少的字体：Symbol
+//        缺失的字体：
+//        缺失的字体：Arial
+//        缺少字体：Verdana
+//        缺失的字体：Symbol
 //        正在测试文件：TestEmfPlusFonts.emf
 //        使用的字体：
 //        使用的字体：MICROSOFT SANS SERIF
-//        缺少的字体：
-//        缺少的字体：MICROSOFT SANS SERIF
+//        缺失的字体：
+//        缺少字体：MICROSOFT SANS SERIF
 ```
 
 ### resizeCanvas(Rectangle newRectangle) {#resizeCanvas-com.aspose.imaging.Rectangle-}

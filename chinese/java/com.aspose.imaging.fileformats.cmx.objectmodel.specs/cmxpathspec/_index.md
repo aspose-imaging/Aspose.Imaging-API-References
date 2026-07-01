@@ -1,6 +1,6 @@
 ---
 title: "CmxPathSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为路径指定的几何信息。"
 type: docs
 weight: 14
@@ -85,7 +85,7 @@ public final void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 类型。 |
+| 值 | int | 类型。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

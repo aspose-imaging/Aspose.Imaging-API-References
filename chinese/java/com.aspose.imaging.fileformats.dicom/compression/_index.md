@@ -1,6 +1,6 @@
 ---
 title: "压缩"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含图像压缩设置。"
 type: docs
 weight: 11
@@ -55,7 +55,7 @@ public final void setType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getJpeg() {#getJpeg--}
 ```

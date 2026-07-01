@@ -1,6 +1,6 @@
 ---
 title: "LangAlt"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 语言替代。"
 type: docs
 weight: 10
@@ -61,8 +61,8 @@ public void addLanguage(String language, String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 语言 | java.lang.String | 语言。 |
-| value | java.lang.String | 语言值。 |
+| language | java.lang.String | 语言。 |
+| 值 | java.lang.String | 语言值。 |
 
 ### toString() {#toString--}
 ```
@@ -83,4 +83,4 @@ public String getXmlValue()
 将 XMP 值转换为 XML 表示形式。
 
 **Returns:**
-java.lang.String - 返回转换为 XML 表示形式的 XMP 值。
+java.lang.String - 返回已转换为 XML 表示形式的 XMP 值。

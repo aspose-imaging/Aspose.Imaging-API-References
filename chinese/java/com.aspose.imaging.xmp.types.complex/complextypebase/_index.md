@@ -1,7 +1,7 @@
 ---
 title: "ComplexTypeBase"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP Complex 值类型的基抽象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP 复合值类型的基础抽象。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.types.complex/complextypebase/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public class ComplexTypeBase extends XmpTypeBase
 ```
 
-表示 XMP Complex 值类型的基抽象。
+表示 XMP 复合值类型的基础抽象。
 
 查看更多：XMP Specification Part 2, Chapter 1.2.2
 ## 构造函数

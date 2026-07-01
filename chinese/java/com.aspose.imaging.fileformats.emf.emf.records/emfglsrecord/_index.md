@@ -1,6 +1,6 @@
 ---
 title: "EmfGlsRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_GLSRECORD 记录指定一个 OpenGL 函数。"
 type: docs
 weight: 64
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfGlsRecord extends EmfOpenGlRecordType
 ```
 
-EMR_GLSRECORD 记录指定一个 OpenGL 函数。
+EMR\_GLSRECORD 记录指定一个 OpenGL 函数。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,8 +24,8 @@ EMR_GLSRECORD 记录指定一个 OpenGL 函数。
 | --- | --- |
 | [getCbData()](#getCbData--) | 获取或设置一个 32 位无符号整数，指定 Data 字段的大小（以字节为单位）。 |
 | [setCbData(int value)](#setCbData-int-) | 获取或设置一个 32 位无符号整数，指定 Data 字段的大小（以字节为单位）。 |
-| [getData()](#getData--) | 获取或设置一个可选的字节数组，长度为 cbData，用于指定 OpenGL 函数的数据。 |
-| [setData(byte[] value)](#setData-byte---) | 获取或设置一个可选的字节数组，长度为 cbData，用于指定 OpenGL 函数的数据。 |
+| [getData()](#getData--) | 获取或设置一个可选的字节数组，长度为 cbData，指定 OpenGL 函数的数据。 |
+| [setData(byte[] value)](#setData-byte---) | 获取或设置一个可选的字节数组，长度为 cbData，指定 OpenGL 函数的数据。 |
 ### EmfGlsRecord(EmfRecord source) {#EmfGlsRecord-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfGlsRecord(EmfRecord source)
@@ -37,7 +37,7 @@ public EmfGlsRecord(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getCbData() {#getCbData--}
 ```
@@ -60,7 +60,7 @@ public void setCbData(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getData() {#getData--}
 ```
@@ -68,7 +68,7 @@ public byte[] getData()
 ```
 
 
-获取或设置一个可选的字节数组，长度为 cbData，用于指定 OpenGL 函数的数据。
+获取或设置一个可选的字节数组，长度为 cbData，指定 OpenGL 函数的数据。
 
 **Returns:**
 byte[]
@@ -78,10 +78,10 @@ public void setData(byte[] value)
 ```
 
 
-获取或设置一个可选的字节数组，长度为 cbData，用于指定 OpenGL 函数的数据。
+获取或设置一个可选的字节数组，长度为 cbData，指定 OpenGL 函数的数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

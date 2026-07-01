@@ -1,18 +1,18 @@
 ---
 title: "CdrRectangle"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 矩形"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 矩形"
 type: docs
 weight: 37
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrrectangle/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrgraphicobject)
+java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.fileformats.cdr.objects.CdrObject](../../com.aspose.imaging.fileformats.cdr.objects/cdrobject), [com.aspose.imaging.fileformats.cdr.objects.CdrGraphicObject](../../com.aspose.imaging/fileformats/cdr.objects/cdrgraphicobject)
 ```
 public class CdrRectangle extends CdrGraphicObject
 ```
 
-cdr 矩形
+该 cdr 矩形
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,8 +30,8 @@ cdr 矩形
 | [setR1(double value)](#setR1-double-) | 设置 r1。 |
 | [getR0()](#getR0--) | 获取 r0。 |
 | [setR0(double value)](#setR0-double-) | 设置 r0。 |
-| [getCornerType()](#getCornerType--) | 获取 角的类型。 |
-| [setCornerType(int value)](#setCornerType-int-) | 设置 角的类型。 |
+| [getCornerType()](#getCornerType--) | 获取角的类型。 |
+| [setCornerType(int value)](#setCornerType-int-) | 设置角的类型。 |
 | [getScaleX()](#getScaleX--) | 获取 scale x。 |
 | [setScaleX(double value)](#setScaleX-double-) | 设置 scale x。 |
 | [getScaleY()](#getScaleY--) | 获取 scale y。 |
@@ -63,7 +63,7 @@ public final void setR3(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | r3。 |
+| 值 | double | r3。 |
 
 ### getR2() {#getR2--}
 ```
@@ -86,7 +86,7 @@ public final void setR2(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | r2。 |
+| 值 | double | r2。 |
 
 ### getR1() {#getR1--}
 ```
@@ -109,7 +109,7 @@ public final void setR1(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | r1。 |
+| 值 | double | r1。 |
 
 ### getR0() {#getR0--}
 ```
@@ -132,7 +132,7 @@ public final void setR0(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | r0。 |
+| 值 | double | 该 r0。 |
 
 ### getCornerType() {#getCornerType--}
 ```
@@ -140,7 +140,7 @@ public final int getCornerType()
 ```
 
 
-获取 角的类型。
+获取角的类型。
 
 **Returns:**
 int - 角的类型。
@@ -150,12 +150,12 @@ public final void setCornerType(int value)
 ```
 
 
-设置 角的类型。
+设置角的类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 角的类型。 |
+| 值 | int | 角的类型。 |
 
 ### getScaleX() {#getScaleX--}
 ```
@@ -166,7 +166,7 @@ public final double getScaleX()
 获取 scale x。
 
 **Returns:**
-double - scale x。
+double - x 缩放。
 ### setScaleX(double value) {#setScaleX-double-}
 ```
 public final void setScaleX(double value)
@@ -178,7 +178,7 @@ public final void setScaleX(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | scale x。 |
+| 值 | double | x 缩放。 |
 
 ### getScaleY() {#getScaleY--}
 ```
@@ -189,7 +189,7 @@ public final double getScaleY()
 获取 scale y。
 
 **Returns:**
-double - scale y。
+double - y 缩放。
 ### setScaleY(double value) {#setScaleY-double-}
 ```
 public final void setScaleY(double value)
@@ -201,5 +201,5 @@ public final void setScaleY(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | scale y。 |
+| 值 | double | y 缩放。 |
 

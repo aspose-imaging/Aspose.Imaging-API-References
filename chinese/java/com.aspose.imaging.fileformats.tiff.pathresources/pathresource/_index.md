@@ -1,6 +1,6 @@
 ---
 title: "PathResource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 Photoshop 路径资源。"
 type: docs
 weight: 10
@@ -30,7 +30,7 @@ public class PathResource
 | [setRecords(List<VectorPathRecord> value)](#setRecords-java.util.List-com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord--) | 设置记录。 |
 
 ## Example: The following example shows how to create Clipping Path in TIFF image.
-以下示例展示了如何在 TIFF 图像中创建 Clipping Path。为此，您需要创建一个 PathResource 类的实例。以下代码演示了如何在 TIFF 图像中创建空路径。
+以下示例展示了如何在 TIFF 图像中创建裁剪路径。为此，您需要创建一个 PathResource 类的实例。以下代码演示了如何在 TIFF 图像中创建空路径。
 ``` java
 TiffOptions options = new TiffOptions(TiffExpectedFormat.Default);
 TiffFrame frame = new TiffFrame(options, 800, 600);
@@ -201,7 +201,7 @@ public final void setBlockId(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 块标识符。 |
+| 值 | 短 | 块标识符。 |
 
 ### getName() {#getName--}
 ```
@@ -228,7 +228,7 @@ public final void setName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 名称。 |
+| 值 | java.lang.String | 名称。 |
 
 ### getRecords() {#getRecords--}
 ```
@@ -255,5 +255,5 @@ public final void setRecords(List<VectorPathRecord> value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord> | 记录。 |
+| 值 | java.util.List<com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord> | 记录。 |
 

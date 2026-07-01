@@ -1,6 +1,6 @@
 ---
 title: "FontStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定应用于文本的样式信息。"
 type: docs
 weight: 50
@@ -21,7 +21,7 @@ public final class FontStyle extends System.Enum
 | [Bold](#Bold) | 粗体文本。 |
 | [Italic](#Italic) | 斜体文本。 |
 | [Underline](#Underline) | 带下划线的文本。 |
-| [Strikeout](#Strikeout) | 带中划线的文本。 |
+| [Strikeout](#Strikeout) | 中间有删除线的文本。 |
 ### Regular {#Regular}
 ```
 public static final int Regular
@@ -60,5 +60,5 @@ public static final int Strikeout
 ```
 
 
-带中划线的文本。
+中间有删除线的文本。
 

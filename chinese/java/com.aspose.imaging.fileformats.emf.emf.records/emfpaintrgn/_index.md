@@ -1,7 +1,7 @@
 ---
 title: "EmfPaintRgn"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_PAINTRGN 记录通过使用当前在回放设备上下文中选中的画笔来绘制指定的区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_PAINTRGN 记录通过使用当前在回放设备上下文中选定的刷子来绘制指定的区域。"
 type: docs
 weight: 80
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPaintRgn extends EmfDrawingRecordType
 ```
 
-EMR\_PAINTRGN 记录使用当前在回放设备上下文中选定的画刷来绘制指定区域。
+EMR\_PAINTRGN 记录使用当前在回放设备上下文中选定的画刷来绘制指定的区域。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,12 +23,12 @@ EMR\_PAINTRGN 记录使用当前在回放设备上下文中选定的画刷来绘
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBounds()](#getBounds--) | 获取一个 128 位 WMF RectL 对象，该对象在 [MS-WMF] 第 2.2.2.19 节中指定，用于表示边界矩形。 |
-| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 设置一个 128 位 WMF RectL 对象，该对象在 [MS-WMF] 第 2.2.2.19 节中指定，用于表示边界矩形。 |
-| [getRgnDataSize()](#getRgnDataSize--) | 获取一个 32 位无符号整数，指定区域数据的大小（字节）。 |
-| [setRgnDataSize(int value)](#setRgnDataSize-int-) | 设置一个 32 位无符号整数，指定区域数据的大小（字节）。 |
-| [getRgnData()](#getRgnData--) | 获取一个长度为 RgnDataSize 的字节数组，用于指定以逻辑单位表示的 RegionData（第 2.2.24 节）对象。 |
-| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 设置一个长度为 RgnDataSize 的字节数组，用于指定以逻辑单位表示的 RegionData（第 2.2.24 节）对象。 |
+| [getBounds()](#getBounds--) | 获取一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。 |
+| [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | 设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。 |
+| [getRgnDataSize()](#getRgnDataSize--) | 获取指定区域数据大小（以字节为单位）的 32 位无符号整数。 |
+| [setRgnDataSize(int value)](#setRgnDataSize-int-) | 设置指定区域数据大小（以字节为单位）的 32 位无符号整数。 |
+| [getRgnData()](#getRgnData--) | 获取一个长度为 RgnDataSize 的字节数组，该数组指定一个 RegionData（第 2.2.24 节）对象，单位为逻辑单位。 |
+| [setRgnData(EmfRegionData value)](#setRgnData-com.aspose.imaging.fileformats.emf.emf.objects.EmfRegionData-) | 设置一个长度为 RgnDataSize 的字节数组，该数组指定一个 RegionData（第 2.2.24 节）对象，单位为逻辑单位。 |
 ### EmfPaintRgn(EmfRecord source) {#EmfPaintRgn-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfPaintRgn(EmfRecord source)
@@ -40,7 +40,7 @@ public EmfPaintRgn(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPaintRgn() {#EmfPaintRgn--}
 ```
@@ -56,7 +56,7 @@ public Rectangle getBounds()
 ```
 
 
-获取一个 128 位 WMF RectL 对象，该对象在 [MS-WMF] 第 2.2.2.19 节中指定，用于表示边界矩形。
+获取一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。
 
 **Returns:**
 [Rectangle](../../com.aspose.imaging/rectangle)
@@ -66,7 +66,7 @@ public void setBounds(Rectangle value)
 ```
 
 
-设置一个 128 位 WMF RectL 对象，该对象在 [MS-WMF] 第 2.2.2.19 节中指定，用于表示边界矩形。
+设置一个 128 位 WMF RectL 对象（在 [MS-WMF] 第 2.2.2.19 节中指定），该对象指定边界矩形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -79,7 +79,7 @@ public int getRgnDataSize()
 ```
 
 
-获取一个 32 位无符号整数，指定区域数据的大小（字节）。
+获取指定区域数据大小（以字节为单位）的 32 位无符号整数。
 
 **Returns:**
 int
@@ -89,12 +89,12 @@ public void setRgnDataSize(int value)
 ```
 
 
-设置一个 32 位无符号整数，指定区域数据的大小（字节）。
+设置指定区域数据大小（以字节为单位）的 32 位无符号整数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getRgnData() {#getRgnData--}
 ```
@@ -102,7 +102,7 @@ public EmfRegionData getRgnData()
 ```
 
 
-获取一个长度为 RgnDataSize 的字节数组，用于指定以逻辑单位表示的 RegionData（第 2.2.24 节）对象。
+获取一个长度为 RgnDataSize 的字节数组，该数组指定一个 RegionData（第 2.2.24 节）对象，单位为逻辑单位。
 
 **Returns:**
 [EmfRegionData](../../com.aspose.imaging.fileformats.emf.emf.objects/emfregiondata)
@@ -112,7 +112,7 @@ public void setRgnData(EmfRegionData value)
 ```
 
 
-设置一个长度为 RgnDataSize 的字节数组，用于指定以逻辑单位表示的 RegionData（第 2.2.24 节）对象。
+设置一个长度为 RgnDataSize 的字节数组，该数组指定一个 RegionData（第 2.2.24 节）对象，单位为逻辑单位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

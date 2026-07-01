@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPathPointTypeFlags"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PathPointType 标志指定了图形路径上点的类型属性。"
 type: docs
 weight: 40
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class EmfPlusPathPointTypeFlags extends System.Enum
 ```
 
-PathPointType 标志指定图形路径上点的类型属性。这些标志可以组合以指定多个选项。
+PathPointType 标志指定了图形路径上点的类型属性。这些标志可以组合以指定多个选项。
 
 --------------------
 

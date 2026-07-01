@@ -1,6 +1,6 @@
 ---
 title: "GuidPacketRepresentation"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "数据包版本在块协议中使用。"
 type: docs
 weight: 10
@@ -23,14 +23,14 @@ public class GuidPacketRepresentation extends Struct<GuidPacketRepresentation>
 
 | 方法 | 描述 |
 | --- | --- |
-| [getData1()](#getData1--) | 获取或设置 Data1 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [setData1(int value)](#setData1-int-) | 获取或设置 Data1 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [getData2()](#getData2--) | 获取或设置 Data2 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [setData2(short value)](#setData2-short-) | 获取或设置 Data2 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [getData3()](#getData3--) | 获取或设置 Data3 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [setData3(short value)](#setData3-short-) | 获取或设置 Data3 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [getData4()](#getData4--) | 获取或设置 Data4 成员（第 2.3.4 节）的值，使用小端字节序。 |
-| [setData4(long value)](#setData4-long-) | 获取或设置 Data4 成员（第 2.3.4 节）的值，使用小端字节序。 |
+| [getData1()](#getData1--) | 获取或设置 Data1 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [setData1(int value)](#setData1-int-) | 获取或设置 Data1 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [getData2()](#getData2--) | 获取或设置 Data2 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [setData2(short value)](#setData2-short-) | 获取或设置 Data2 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [getData3()](#getData3--) | 获取或设置 Data3 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [setData3(short value)](#setData3-short-) | 获取或设置 Data3 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [getData4()](#getData4--) | 获取或设置 Data4 成员（第 2.3.4 节）的值，采用小端字节序。 |
+| [setData4(long value)](#setData4-long-) | 获取或设置 Data4 成员（第 2.3.4 节）的值，采用小端字节序。 |
 | [toString()](#toString--) | 返回表示此实例的 `System.String`。 |
 | [CloneTo(GuidPacketRepresentation that)](#CloneTo-com.aspose.imaging.fileformats.emf.dtyp.commondatastructures.GuidPacketRepresentation-) |  |
 | [Clone()](#Clone--) |  |
@@ -54,10 +54,10 @@ public GuidPacketRepresentation(int data1, short data2, short data3, long data4)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| data1 | int | 该 data1。 |
-| data2 | short | 该 data2。 |
-| data3 | short | 该 data3。 |
-| data4 | long | 该 data4。 |
+| data1 | int | data1。 |
+| data2 | 短 | data2。 |
+| data3 | 短 | data3。 |
+| data4 | long | data4。 |
 
 ### getData1() {#getData1--}
 ```
@@ -65,9 +65,9 @@ public int getData1()
 ```
 
 
-获取或设置 Data1 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data1 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：该 data1。
+值：data1。
 
 **Returns:**
 int
@@ -77,14 +77,14 @@ public void setData1(int value)
 ```
 
 
-获取或设置 Data1 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data1 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：该 data1。
+值：data1。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getData2() {#getData2--}
 ```
@@ -92,26 +92,26 @@ public short getData2()
 ```
 
 
-获取或设置 Data2 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data2 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据2。
+值：data2。
 
 **Returns:**
-short
+短
 ### setData2(short value) {#setData2-short-}
 ```
 public void setData2(short value)
 ```
 
 
-获取或设置 Data2 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data2 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据2。
+值：data2。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getData3() {#getData3--}
 ```
@@ -119,26 +119,26 @@ public short getData3()
 ```
 
 
-获取或设置 Data3 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data3 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据3。
+值：data3。
 
 **Returns:**
-short
+短
 ### setData3(short value) {#setData3-short-}
 ```
 public void setData3(short value)
 ```
 
 
-获取或设置 Data3 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data3 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据3。
+值：data3。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getData4() {#getData4--}
 ```
@@ -146,9 +146,9 @@ public long getData4()
 ```
 
 
-获取或设置 Data4 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data4 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据4。
+值：data4。
 
 **Returns:**
 long
@@ -158,14 +158,14 @@ public void setData4(long value)
 ```
 
 
-获取或设置 Data4 成员（第 2.3.4 节）的值，使用小端字节序。
+获取或设置 Data4 成员（第 2.3.4 节）的值，采用小端字节序。
 
-值：数据4。
+值：data4。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### toString() {#toString--}
 ```

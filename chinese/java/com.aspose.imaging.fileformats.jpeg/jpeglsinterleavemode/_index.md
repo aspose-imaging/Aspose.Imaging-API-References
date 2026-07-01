@@ -1,7 +1,7 @@
 ---
 title: "JpegLsInterleaveMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "定义多分量颜色像素数据的交错模式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "定义多分量彩色像素数据的交错模式。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/
@@ -17,16 +17,16 @@ public final class JpegLsInterleaveMode extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [None](#None) | 数据以分量为单位进行编码和存储：RRRGGGBBB。 |
+| [None](#None) | 数据以逐分量方式编码和存储：RRRGGGBBB。 |
 | [Line](#Line) | 交错模式为按行。 |
-| [Sample](#Sample) | 数据以样本方式进行编码和存储。 |
+| [Sample](#Sample) | 数据已被样本编码并存储。 |
 ### None {#None}
 ```
 public static final int None
 ```
 
 
-数据以分量为单位进行编码和存储：RRRGGGBBB。
+数据以逐分量方式编码和存储：RRRGGGBBB。
 
 ### Line {#Line}
 ```
@@ -34,7 +34,7 @@ public static final int Line
 ```
 
 
-交错模式为按行。每个分量的一整行在移动到下一行之前被编码。
+交错模式为按行。每个组件的完整一行在移动到下一行之前被编码。
 
 ### Sample {#Sample}
 ```
@@ -42,5 +42,5 @@ public static final int Sample
 ```
 
 
-数据以样本方式进行编码和存储。对于彩色图像，这种格式类似于 RGBRGBRGB。
+数据已被样本编码并存储。对于彩色图像，这种格式类似于 RGBRGBRGB。
 

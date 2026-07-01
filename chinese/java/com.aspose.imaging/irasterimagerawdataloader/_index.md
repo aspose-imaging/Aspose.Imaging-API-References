@@ -1,6 +1,6 @@
 ---
 title: "IRasterImageRawDataLoader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "光栅图像原始数据加载器。"
 type: docs
 weight: 148

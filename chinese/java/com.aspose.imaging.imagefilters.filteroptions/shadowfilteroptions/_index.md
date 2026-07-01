@@ -1,6 +1,6 @@
 ---
 title: "ShadowFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "阴影滤镜选项"
 type: docs
 weight: 24
@@ -23,14 +23,14 @@ public class ShadowFilterOptions extends FilterOptionsBase
 | 方法 | 描述 |
 | --- | --- |
 | [getBackground()](#getBackground--) | 背景 |
-| [getOffsetX()](#getOffsetX--) | 获取 x 偏移量。 |
-| [setOffsetX(float value)](#setOffsetX-float-) | 设置 x 偏移量。 |
-| [getOffsetY()](#getOffsetY--) | 获取 y 偏移量。 |
-| [setOffsetY(float value)](#setOffsetY-float-) | 设置 y 偏移量。 |
+| [getOffsetX()](#getOffsetX--) | 获取偏移量 x。 |
+| [setOffsetX(float value)](#setOffsetX-float-) | 设置偏移量 x。 |
+| [getOffsetY()](#getOffsetY--) | 获取偏移量 y。 |
+| [setOffsetY(float value)](#setOffsetY-float-) | 设置偏移量 y。 |
 | [getSize()](#getSize--) | 获取大小。 |
 | [setSize(int value)](#setSize-int-) | 设置大小。 |
-| [getSigma()](#getSigma--) | 获取 Sigma 值。 |
-| [setSigma(double value)](#setSigma-double-) | 设置 Sigma 值。 |
+| [getSigma()](#getSigma--) | 获取 sigma。 |
+| [setSigma(double value)](#setSigma-double-) | 设置 sigma。 |
 | [getColor()](#getColor--) | 获取颜色。 |
 | [setColor(Color value)](#setColor-com.aspose.imaging.Color-) | 设置颜色。 |
 | [getOpacity()](#getOpacity--) | 获取不透明度。 |
@@ -57,26 +57,26 @@ public final float getOffsetX()
 ```
 
 
-获取 x 偏移量。
+获取偏移量 x。
 
-值：偏移 x。
+值：偏移量 x。
 
 **Returns:**
-float - 偏移 x。
+float - 偏移量 x。
 ### setOffsetX(float value) {#setOffsetX-float-}
 ```
 public final void setOffsetX(float value)
 ```
 
 
-设置 x 偏移量。
+设置偏移量 x。
 
-值：偏移 x。
+值：偏移量 x。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 偏移 x。 |
+| 值 | float | 偏移量 x。 |
 
 ### getOffsetY() {#getOffsetY--}
 ```
@@ -84,26 +84,26 @@ public final float getOffsetY()
 ```
 
 
-获取 y 偏移量。
+获取偏移量 y。
 
-值：偏移 y。
+值：偏移量 y。
 
 **Returns:**
-float - 偏移 y。
+float - 偏移量 y。
 ### setOffsetY(float value) {#setOffsetY-float-}
 ```
 public final void setOffsetY(float value)
 ```
 
 
-设置 y 偏移量。
+设置偏移量 y。
 
-值：偏移 y。
+值：偏移量 y。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 偏移 y。 |
+| 值 | float | 偏移量 y。 |
 
 ### getSize() {#getSize--}
 ```
@@ -130,7 +130,7 @@ public final void setSize(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 大小。 |
+| 值 | int | 大小。 |
 
 ### getSigma() {#getSigma--}
 ```
@@ -138,7 +138,7 @@ public final double getSigma()
 ```
 
 
-获取 Sigma 值。
+获取 sigma。
 
 值：sigma。
 
@@ -150,14 +150,14 @@ public final void setSigma(double value)
 ```
 
 
-设置 Sigma 值。
+设置 sigma。
 
 值：sigma。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | sigma。 |
+| 值 | double | sigma。 |
 
 ### getColor() {#getColor--}
 ```
@@ -211,5 +211,5 @@ public final void setOpacity(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 不透明度。 |
+| 值 | float | 不透明度。 |
 

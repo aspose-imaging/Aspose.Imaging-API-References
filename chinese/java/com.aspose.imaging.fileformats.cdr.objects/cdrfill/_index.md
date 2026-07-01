@@ -1,7 +1,7 @@
 ---
 title: "CdrFill"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 填充"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 填充"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrfill/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFill extends CdrDictionaryItem
 ```
 
-cdr 填充
+该 cdr 填充
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,8 +26,8 @@ cdr 填充
 | [setFillType(short value)](#setFillType-short-) | 设置填充的类型。 |
 | [getColor1()](#getColor1--) | 获取 color1。 |
 | [setColor1(CdrColor value)](#setColor1-com.aspose.imaging.fileformats.cdr.types.CdrColor-) | 设置 color1。 |
-| [getColor2()](#getColor2--) | 获取 color2。 |
-| [setColor2(CdrColor value)](#setColor2-com.aspose.imaging.fileformats.cdr.types.CdrColor-) | 设置 color2。 |
+| [getColor2()](#getColor2--) | 获取颜色2。 |
+| [setColor2(CdrColor value)](#setColor2-com.aspose.imaging.fileformats.cdr.types.CdrColor-) | 设置颜色2。 |
 | [getGradient()](#getGradient--) | 获取渐变。 |
 | [setGradient(CdrGradient value)](#setGradient-com.aspose.imaging.fileformats.cdr.types.CdrGradient-) | 设置渐变。 |
 | [getImageFill()](#getImageFill--) | 获取图像填充。 |
@@ -47,7 +47,7 @@ public final short getFillType()
 获取填充的类型。
 
 **Returns:**
-short - 填充类型。
+short - 填充的类型。
 ### setFillType(short value) {#setFillType-short-}
 ```
 public final void setFillType(short value)
@@ -59,7 +59,7 @@ public final void setFillType(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 填充的类型。 |
+| 值 | 短 | 填充的类型。 |
 
 ### getColor1() {#getColor1--}
 ```
@@ -82,7 +82,7 @@ public final void setColor1(CdrColor value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [CdrColor](../../com.aspose.imaging.fileformats.cdr.types/cdrcolor) | color1。 |
+| value | [CdrColor](../../com.aspose.imaging.fileformats.cdr.types/cdrcolor) | 颜色1。 |
 
 ### getColor2() {#getColor2--}
 ```
@@ -90,7 +90,7 @@ public final CdrColor getColor2()
 ```
 
 
-获取 color2。
+获取颜色2。
 
 **Returns:**
 [CdrColor](../../com.aspose.imaging.fileformats.cdr.types/cdrcolor) - the color2.
@@ -100,12 +100,12 @@ public final void setColor2(CdrColor value)
 ```
 
 
-设置 color2。
+设置颜色2。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [CdrColor](../../com.aspose.imaging.fileformats.cdr.types/cdrcolor) | color2。 |
+| value | [CdrColor](../../com.aspose.imaging.fileformats.cdr.types/cdrcolor) | 颜色2。 |
 
 ### getGradient() {#getGradient--}
 ```

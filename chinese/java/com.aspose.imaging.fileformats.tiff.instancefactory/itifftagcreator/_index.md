@@ -1,7 +1,7 @@
 ---
 title: "ITiffTagCreator"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff 标签创建器。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "TIFF 标签创建器。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator/

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusDrawPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusDrawPath 记录指定绘制图形路径。"
 type: docs
 weight: 25
@@ -24,8 +24,8 @@ EmfPlusDrawPath 记录指定绘制图形路径。
 | --- | --- |
 | [getObjectId()](#getObjectId--) | 获取或设置对象标识符。 |
 | [setObjectId(byte value)](#setObjectId-byte-) | 获取或设置对象标识符。 |
-| [getPenId()](#getPenId--) | 获取或设置笔标识符，一个 32 位无符号整数，指定 EMF+ 对象表中用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）的索引。 |
-| [setPenId(int value)](#setPenId-int-) | 获取或设置笔标识符，一个 32 位无符号整数，指定 EMF+ 对象表中用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）的索引。 |
+| [getPenId()](#getPenId--) | 获取或设置笔标识符，指定用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）在 EMF+ 对象表中的 32 位无符号整数索引。 |
+| [setPenId(int value)](#setPenId-int-) | 获取或设置笔标识符，指定用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）在 EMF+ 对象表中的 32 位无符号整数索引。 |
 ### EmfPlusDrawPath(EmfPlusRecord source) {#EmfPlusDrawPath-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawPath(EmfPlusRecord source)
@@ -37,7 +37,7 @@ public EmfPlusDrawPath(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -45,7 +45,7 @@ public byte getObjectId()
 ```
 
 
-获取或设置对象标识符。EMF+ 对象表中用于绘制的 EmfPlusPath 对象（第 2.2.1.6 节）的索引。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。要绘制的 EmfPlusPath 对象（第 2.2.1.6 节）在 EMF+ 对象表中的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
@@ -57,14 +57,14 @@ public void setObjectId(byte value)
 ```
 
 
-获取或设置对象标识符。EMF+ 对象表中用于绘制的 EmfPlusPath 对象（第 2.2.1.6 节）的索引。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。要绘制的 EmfPlusPath 对象（第 2.2.1.6 节）在 EMF+ 对象表中的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getPenId() {#getPenId--}
 ```
@@ -72,7 +72,7 @@ public int getPenId()
 ```
 
 
-获取或设置笔标识符，一个 32 位无符号整数，指定 EMF+ 对象表中用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）的索引。该值必须在 0 到 63（含）之间。
+获取或设置笔标识符，指定用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）在 EMF+ 对象表中的 32 位无符号整数索引。该值必须在 0 到 63（含）之间。
 
 **Returns:**
 int
@@ -82,10 +82,10 @@ public void setPenId(int value)
 ```
 
 
-获取或设置笔标识符，一个 32 位无符号整数，指定 EMF+ 对象表中用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）的索引。该值必须在 0 到 63（含）之间。
+获取或设置笔标识符，指定用于绘制 EmfPlusPath 的 EmfPlusPen 对象（第 2.2.1.7 节）在 EMF+ 对象表中的 32 位无符号整数索引。该值必须在 0 到 63（含）之间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

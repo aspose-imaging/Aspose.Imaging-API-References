@@ -1,6 +1,6 @@
 ---
 title: "ColorAdjustType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定哪些对象使用颜色调整信息。"
 type: docs
 weight: 21

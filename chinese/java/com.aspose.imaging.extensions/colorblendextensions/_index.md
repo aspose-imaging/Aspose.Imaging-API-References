@@ -1,6 +1,6 @@
 ---
 title: "ColorBlendExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含 ColorBlend 扩展方法。"
 type: docs
 weight: 11

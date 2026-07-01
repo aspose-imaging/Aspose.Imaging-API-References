@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.palettehelper"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包包含用于将调色板调整为图像颜色以及反向调整的类。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含用于将调色板调整为图像颜色以及相反方向的类。"
 type: docs
 weight: 106
 url: /zh/java/com.aspose.imaging.palettehelper/
 ---
 
-该包包含用于将调色板调整为图像颜色以及反向调整的类。
+该包包含用于将调色板调整为图像颜色以及相反方向的类。
 
 
 ## 类

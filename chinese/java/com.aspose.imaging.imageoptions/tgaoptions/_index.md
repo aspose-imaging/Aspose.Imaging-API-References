@@ -1,6 +1,6 @@
 ---
 title: "TgaOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "TGA 文件格式创建选项。"
 type: docs
 weight: 47
@@ -17,8 +17,8 @@ TGA 文件格式创建选项。
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [TgaOptions()](#TgaOptions--) | 初始化一个新的 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的实例。 |
-| [TgaOptions(TgaOptions tgaOptions)](#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-) | 初始化一个新的 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的实例。 |
+| [TgaOptions()](#TgaOptions--) | 初始化 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的新实例。 |
+| [TgaOptions(TgaOptions tgaOptions)](#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-) | 初始化 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的新实例。 |
 
 ## Example: Saving of the JPG image as a TGA image.
 
@@ -35,7 +35,7 @@ public TgaOptions()
 ```
 
 
-初始化一个新的 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的实例。
+初始化 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的新实例。
 
 ### TgaOptions(TgaOptions tgaOptions) {#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-}
 ```
@@ -43,7 +43,7 @@ public TgaOptions(TgaOptions tgaOptions)
 ```
 
 
-初始化一个新的 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的实例。
+初始化 [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

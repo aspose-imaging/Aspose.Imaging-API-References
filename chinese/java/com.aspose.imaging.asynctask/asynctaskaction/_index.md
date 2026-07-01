@@ -1,6 +1,6 @@
 ---
 title: "AsyncTaskAction"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "不返回结果的异步任务长操作委托。"
 type: docs
 weight: 14

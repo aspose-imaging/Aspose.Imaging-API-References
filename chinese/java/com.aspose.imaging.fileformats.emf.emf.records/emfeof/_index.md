@@ -1,6 +1,6 @@
 ---
 title: "EmfEof"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_EOF 记录指示元文件的结束并指定调色板。"
 type: docs
 weight: 48
@@ -26,7 +26,7 @@ public final class EmfEof extends EmfControlRecordType
 | [getPaletteArgb32Entries()](#getPaletteArgb32Entries--) | 获取一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。 |
 | [setPaletteArgb32Entries(int[] value)](#setPaletteArgb32Entries-int---) | 设置一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。 |
 | [getSizeLast()](#getSizeLast--) | 获取一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个字段，从而也是元文件的最后一个字段。 |
-| [setSizeLast(int value)](#setSizeLast-int-) | 设置一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个字段，从而也是元文件的最后一个字段。 |
+| [setSizeLast(int value)](#setSizeLast-int-) | 设置一个 32 位无符号整数，必须与 Size 相同，并且必须是记录的最后一个字段，从而成为元文件。 |
 ### EmfEof(EmfRecord record) {#EmfEof-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfEof(EmfRecord record)
@@ -54,7 +54,7 @@ public int[] getPaletteArgb32Entries()
 ```
 
 
-获取一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。因此，缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。此字段的大小必须是 4 字节的整数倍。
+获取一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。因此，缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。此字段的大小必须是 4 字节的倍数。
 
 **Returns:**
 int[]
@@ -64,12 +64,12 @@ public void setPaletteArgb32Entries(int[] value)
 ```
 
 
-设置一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。因此，缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。此字段的大小必须是 4 字节的整数倍。
+设置一个可选缓冲区，其中包含调色板数据，该缓冲区不需要与 EMR\_EOF 记录的固定部分连续。因此，缓冲区中标记为 "UndefinedSpace" 的字段是可选的，必须被忽略。此字段的大小必须是 4 字节的倍数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 
 ### getSizeLast() {#getSizeLast--}
 ```
@@ -77,7 +77,7 @@ public int getSizeLast()
 ```
 
 
-获取一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个字段，从而也是元文件的最后一个字段。如果存在 LogPaletteEntry 对象，则它们必须位于此字段之前。
+获取一个 32 位无符号整数，必须与 Size 相同，并且必须是记录的最后一个字段，从而成为元文件。如果存在 LogPaletteEntry 对象，则必须位于此字段之前。
 
 **Returns:**
 int
@@ -87,10 +87,10 @@ public void setSizeLast(int value)
 ```
 
 
-设置一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个字段，从而也是元文件的最后一个字段。如果存在 LogPaletteEntry 对象，则它们必须位于此字段之前。
+设置一个 32 位无符号整数，必须与 Size 相同，并且必须是记录的最后一个字段，从而成为元文件。如果存在 LogPaletteEntry 对象，则必须位于此字段之前。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

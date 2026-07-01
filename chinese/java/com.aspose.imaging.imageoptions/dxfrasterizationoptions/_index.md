@@ -1,6 +1,6 @@
 ---
 title: "DxfRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Dxf 栅格化选项。"
 type: docs
 weight: 18

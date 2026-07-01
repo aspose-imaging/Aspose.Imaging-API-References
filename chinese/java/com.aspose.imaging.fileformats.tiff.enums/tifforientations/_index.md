@@ -1,6 +1,6 @@
 ---
 title: "TiffOrientations"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图像方向。"
 type: docs
 weight: 19
@@ -17,21 +17,21 @@ public final class TiffOrientations extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [TopLeft](#TopLeft) | 第 0 行在顶部，第 0 列在左侧。 |
-| [TopRight](#TopRight) | 第0行顶部，列0 rhs。 |
-| [BottomRight](#BottomRight) | 第0行底部，列0 rhs。 |
-| [BottomLeft](#BottomLeft) | 第0行底部，列0 lhs。 |
-| [LeftTop](#LeftTop) | 第0行 lhs，列0顶部。 |
-| [RightTop](#RightTop) | 第0行 rhs，列0顶部。 |
-| [RightBottom](#RightBottom) | 第0行 rhs，列0底部。 |
-| [LeftBottom](#LeftBottom) | 第0行 lhs，列0底部。 |
+| [TopLeft](#TopLeft) | 第0行顶部，列0左侧。 |
+| [TopRight](#TopRight) | 第0行顶部，列0右侧。 |
+| [BottomRight](#BottomRight) | 第0行底部，列0右侧。 |
+| [BottomLeft](#BottomLeft) | 第0行底部，列0左侧。 |
+| [LeftTop](#LeftTop) | 第0行左侧，列0顶部。 |
+| [RightTop](#RightTop) | 第0行右侧，列0顶部。 |
+| [RightBottom](#RightBottom) | 第0行右侧，列0底部。 |
+| [LeftBottom](#LeftBottom) | 第0行左侧，列0底部。 |
 ### TopLeft {#TopLeft}
 ```
 public static final int TopLeft
 ```
 
 
-第 0 行在顶部，第 0 列在左侧。
+第0行顶部，列0左侧。
 
 ### TopRight {#TopRight}
 ```
@@ -39,7 +39,7 @@ public static final int TopRight
 ```
 
 
-第0行顶部，列0 rhs。
+第0行顶部，列0右侧。
 
 ### BottomRight {#BottomRight}
 ```
@@ -47,7 +47,7 @@ public static final int BottomRight
 ```
 
 
-第0行底部，列0 rhs。
+第0行底部，列0右侧。
 
 ### BottomLeft {#BottomLeft}
 ```
@@ -55,7 +55,7 @@ public static final int BottomLeft
 ```
 
 
-第0行底部，列0 lhs。
+第0行底部，列0左侧。
 
 ### LeftTop {#LeftTop}
 ```
@@ -63,7 +63,7 @@ public static final int LeftTop
 ```
 
 
-第0行 lhs，列0顶部。
+第0行左侧，列0顶部。
 
 ### RightTop {#RightTop}
 ```
@@ -71,7 +71,7 @@ public static final int RightTop
 ```
 
 
-第0行 rhs，列0顶部。
+第0行右侧，列0顶部。
 
 ### RightBottom {#RightBottom}
 ```
@@ -79,7 +79,7 @@ public static final int RightBottom
 ```
 
 
-第0行 rhs，列0底部。
+第0行右侧，列0底部。
 
 ### LeftBottom {#LeftBottom}
 ```
@@ -87,5 +87,5 @@ public static final int LeftBottom
 ```
 
 
-第0行 lhs，列0底部。
+第0行左侧，列0底部。
 

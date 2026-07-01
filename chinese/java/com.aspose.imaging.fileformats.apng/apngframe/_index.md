@@ -1,7 +1,7 @@
 ---
 title: "ApngFrame"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "使用我们的 API 从单页光栅图像创建动画 PNG APNG 图像帧。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "使用我们的 API 从单页光栅图像制作动画 PNG（APNG）图像帧。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.apng/apngframe/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class ApngFrame extends RasterCachedImage implements IAnimationFrame
 ```
 
-使用我们的 API 从单页光栅图像创建动画 PNG（APNG）图像帧。无缝设置动画和帧持续时间，编程帧数，并调整伽马和对比度水平，确保生成引人入胜且可定制的动画，以符合您的设想。
+使用我们的 API 从单页光栅图像制作动画 PNG（APNG）图像帧。无缝设置动画和帧持续时间，编程帧数，并调整伽马和对比度水平，确保生成引人入胜且可定制的动画，以符合您的愿景。
 ## 方法
 
 | 方法 | 描述 |
@@ -27,19 +27,19 @@ public class ApngFrame extends RasterCachedImage implements IAnimationFrame
 | [setFrameTime(int value)](#setFrameTime-int-) | 设置帧持续时间。 |
 | [getFrameTop()](#getFrameTop--) | 获取帧顶部偏移。 |
 | [getFrameLeft()](#getFrameLeft--) | 获取帧左侧偏移。 |
-| [getDisposalMethod()](#getDisposalMethod--) | 获取处理方法。 |
+| [getDisposalMethod()](#getDisposalMethod--) | 获取处置方法。 |
 | [hasTransparentColor()](#hasTransparentColor--) | 获取一个值，指示图像是否具有透明颜色。 |
 | [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha 通道。 |
 | [getTransparentColor()](#getTransparentColor--) | 获取透明颜色。 |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 一个值，指示图像是否具有透明颜色。 |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 指示图像是否具有透明颜色的值。 |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | 透明颜色。 |
-| [hasBackgroundColor()](#hasBackgroundColor--) | 获取一个值，指示是否具有背景颜色。 |
+| [hasBackgroundColor()](#hasBackgroundColor--) | 获取指示它是否具有背景颜色的值。 |
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色。 |
-| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | 一个值，指示是否具有背景颜色。 |
+| [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | 指示它是否具有背景颜色的值。 |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | 背景颜色。 |
-| [isUseAlphaBlending()](#isUseAlphaBlending--) | 获取一个值，指示是否 [use alpha blending]。 |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | 获取一个指示是否[use alpha blending]的值。 |
 | [getFullFrame()](#getFullFrame--) | 获取完整帧。 |
-| [cacheData()](#cacheData--) | 缓存数据并确保不会从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 中执行额外的数据加载。 |
+| [cacheData()](#cacheData--) | 缓存数据并确保不会从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 进行额外的数据加载。 |
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -91,7 +91,7 @@ public final void setFrameTime(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 帧持续时间。 |
+| 值 | int | 帧持续时间。 |
 
 ### getFrameTop() {#getFrameTop--}
 ```
@@ -119,7 +119,7 @@ public final int getDisposalMethod()
 ```
 
 
-获取处理方法。
+获取处置方法。
 
 **Returns:**
 int - 处理方式。
@@ -132,7 +132,7 @@ public boolean hasTransparentColor()
 获取一个值，指示图像是否具有透明颜色。
 
 **Returns:**
-boolean - 一个值，指示图像是否具有透明颜色。
+布尔型 - 指示图像是否具有透明颜色的值。
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -159,12 +159,12 @@ public void setTransparentColor(boolean value)
 ```
 
 
-一个值，指示图像是否具有透明颜色。
+指示图像是否具有透明颜色的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个值，指示图像是否具有透明颜色。 |
+| 值 | boolean | 指示图像是否具有透明颜色的值。 |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
@@ -185,10 +185,10 @@ public boolean hasBackgroundColor()
 ```
 
 
-获取一个值，指示是否具有背景颜色。
+获取指示它是否具有背景颜色的值。
 
 **Returns:**
-boolean - 表示它是否具有背景颜色的值。
+布尔型 - 指示它是否具有背景颜色的值。
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Color getBackgroundColor()
@@ -205,12 +205,12 @@ public void setBackgroundColor(boolean value)
 ```
 
 
-一个值，指示是否具有背景颜色。
+指示它是否具有背景颜色的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 表示它是否具有背景颜色的值。 |
+| 值 | boolean | 指示它是否具有背景颜色的值。 |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.imaging.Color-}
 ```
@@ -231,12 +231,12 @@ public final boolean isUseAlphaBlending()
 ```
 
 
-获取一个值，指示是否 [use alpha blending]。
+获取一个指示是否[use alpha blending]的值。
 
-值：`true` 如果 [use alpha blending]；否则，`false`。
+值：`true` 表示 [use alpha blending]；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否 [use alpha blending] 的值。
+boolean - 一个指示是否 [use alpha blending] 的值。
 ### getFullFrame() {#getFullFrame--}
 ```
 public final RasterImage getFullFrame()
@@ -253,5 +253,5 @@ public void cacheData()
 ```
 
 
-缓存数据并确保不会从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 中执行额外的数据加载。
+缓存数据并确保不会从底层 `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)) 进行额外的数据加载。
 

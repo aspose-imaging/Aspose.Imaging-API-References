@@ -1,6 +1,6 @@
 ---
 title: "OdEnhancedGeometry"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "增强几何对象。"
 type: docs
 weight: 20
@@ -39,7 +39,7 @@ public OdEnhancedGeometry(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getEnhancedPath() {#getEnhancedPath--}
 ```
@@ -108,5 +108,5 @@ public void setType(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 类型。 |
+| 值 | java.lang.String | 类型。 |
 

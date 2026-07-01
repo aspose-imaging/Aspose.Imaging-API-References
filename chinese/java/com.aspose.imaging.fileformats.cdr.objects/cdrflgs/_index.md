@@ -1,7 +1,7 @@
 ---
 title: "CdrFlgs"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 标志"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 标志"
 type: docs
 weight: 21
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrflgs/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFlgs extends CdrObject
 ```
 
-cdr 标志
+该 cdr 标志
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -51,5 +51,5 @@ public final void setValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 值。 |
+| 值 | int | 值。 |
 

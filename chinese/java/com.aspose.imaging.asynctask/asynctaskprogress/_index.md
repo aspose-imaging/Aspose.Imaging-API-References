@@ -1,6 +1,6 @@
 ---
 title: "AsyncTaskProgress"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "提供异步任务的进度信息。"
 type: docs
 weight: 13
@@ -17,7 +17,7 @@ public class AsyncTaskProgress
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [AsyncTaskProgress(int progressPercentage, long duration)](#AsyncTaskProgress-int-long-) | 初始化一个新的 [AsyncTaskProgress](../../com.aspose.imaging.asynctask/asynctaskprogress) 类实例。 |
+| [AsyncTaskProgress(int progressPercentage, long duration)](#AsyncTaskProgress-int-long-) | 初始化 [AsyncTaskProgress](../../com.aspose.imaging.asynctask/asynctaskprogress) 类的新实例。 |
 ## 字段
 
 | 字段 | 描述 |
@@ -30,13 +30,13 @@ public AsyncTaskProgress(int progressPercentage, long duration)
 ```
 
 
-初始化一个新的 [AsyncTaskProgress](../../com.aspose.imaging.asynctask/asynctaskprogress) 类实例。
+初始化 [AsyncTaskProgress](../../com.aspose.imaging.asynctask/asynctaskprogress) 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | progressPercentage | int | 进度百分比。 |
-| duration | long | 持续时间。 |
+| 持续时间 | long | 持续时间。 |
 
 ### Duration {#Duration}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "CdrFont"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "cdr 字体"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 cdr 字体"
 type: docs
 weight: 22
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrfont/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrFont extends CdrDictionaryItem
 ```
 
-cdr 字体
+该 cdr 字体
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -53,7 +53,7 @@ public final void setFontName(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 字体的名称。 |
+| 值 | java.lang.String | 字体的名称。 |
 
 ### getEncoding() {#getEncoding--}
 ```
@@ -76,5 +76,5 @@ public final void setEncoding(short value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short | 编码。 |
+| 值 | 短 | 编码。 |
 

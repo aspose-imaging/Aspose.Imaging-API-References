@@ -1,6 +1,6 @@
 ---
 title: "CmxRectangleSpec"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示为矩形指定的几何信息。"
 type: docs
 weight: 16
@@ -33,8 +33,8 @@ public class CmxRectangleSpec implements ICmxObjectSpec
 | [setWidth(float value)](#setWidth-float-) | 设置矩形的宽度。 |
 | [getHeight()](#getHeight--) | 获取矩形的高度。 |
 | [setHeight(float value)](#setHeight-float-) | 设置矩形的高度。 |
-| [getRadius()](#getRadius--) | 获取圆角矩形的半径。 |
-| [setRadius(float value)](#setRadius-float-) | 设置圆角矩形的半径。 |
+| [getRadius()](#getRadius--) | 获取圆角矩形角的半径。 |
+| [setRadius(float value)](#setRadius-float-) | 设置圆角矩形角的半径。 |
 | [getAngle()](#getAngle--) | 获取矩形的旋转角度。 |
 | [setAngle(float value)](#setAngle-float-) | 设置矩形的旋转角度。 |
 | [toString()](#toString--) | 返回表示此实例的字符串。 |
@@ -67,7 +67,7 @@ public final void setCenterX(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 矩形中心的 X 坐标。 |
+| 值 | float | 矩形中心的 X 坐标。 |
 
 ### getCenterY() {#getCenterY--}
 ```
@@ -90,7 +90,7 @@ public final void setCenterY(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 矩形中心的 Y 坐标。 |
+| 值 | float | 矩形中心的 Y 坐标。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -113,7 +113,7 @@ public final void setWidth(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 矩形的宽度。 |
+| 值 | float | 矩形的宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -136,7 +136,7 @@ public final void setHeight(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 矩形的高度。 |
+| 值 | float | 矩形的高度。 |
 
 ### getRadius() {#getRadius--}
 ```
@@ -144,22 +144,22 @@ public final float getRadius()
 ```
 
 
-获取圆角矩形的角半径。如果其值为 `0` 则矩形没有圆角。以常用文档距离单位计量。
+获取圆角矩形角的半径。如果其值为 `0`，则矩形没有圆角。以常用文档距离单位计量。
 
 **Returns:**
-float - 圆角矩形的角半径。
+float - 圆角矩形角的半径。
 ### setRadius(float value) {#setRadius-float-}
 ```
 public final void setRadius(float value)
 ```
 
 
-设置圆角矩形的角半径。如果其值为 `0` 则矩形没有圆角。以常用文档距离单位计量。
+设置圆角矩形角的半径。如果其值为 `0`，则矩形没有圆角。以常用文档距离单位计量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 圆角矩形的角半径。 |
+| 值 | float | 圆角矩形角的半径。 |
 
 ### getAngle() {#getAngle--}
 ```
@@ -177,12 +177,12 @@ public final void setAngle(float value)
 ```
 
 
-设置矩形的旋转角度。以弧度计量。
+设置矩形的旋转角度。以弧度为单位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 矩形的旋转角度。 |
+| 值 | float | 矩形的旋转角度。 |
 
 ### toString() {#toString--}
 ```

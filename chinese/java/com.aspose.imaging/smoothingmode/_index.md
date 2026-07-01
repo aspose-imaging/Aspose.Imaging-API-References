@@ -1,6 +1,6 @@
 ---
 title: "SmoothingMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定是否对线条、曲线以及填充区域的边缘应用平滑抗锯齿。"
 type: docs
 weight: 106
@@ -20,9 +20,9 @@ public final class SmoothingMode extends System.Enum
 | [Invalid](#Invalid) | 指定无效模式。 |
 | [Default](#Default) | 指定不使用抗锯齿。 |
 | [HighSpeed](#HighSpeed) | 指定不使用抗锯齿。 |
-| [HighQuality](#HighQuality) | 指定使用抗锯齿渲染。 |
+| [HighQuality](#HighQuality) | 指定抗锯齿渲染。 |
 | [None](#None) | 指定不使用抗锯齿。 |
-| [AntiAlias](#AntiAlias) | 指定使用抗锯齿渲染。 |
+| [AntiAlias](#AntiAlias) | 指定抗锯齿渲染。 |
 ### Invalid {#Invalid}
 ```
 public static final int Invalid
@@ -53,7 +53,7 @@ public static final int HighQuality
 ```
 
 
-指定使用抗锯齿渲染。
+指定抗锯齿渲染。
 
 ### None {#None}
 ```
@@ -69,5 +69,5 @@ public static final int AntiAlias
 ```
 
 
-指定使用抗锯齿渲染。
+指定抗锯齿渲染。
 

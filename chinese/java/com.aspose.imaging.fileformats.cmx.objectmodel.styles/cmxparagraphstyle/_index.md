@@ -1,6 +1,6 @@
 ---
 title: "CmxParagraphStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "段落样式。"
 type: docs
 weight: 15
@@ -61,7 +61,7 @@ public final void setCharacterSpacing(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 字符间距。 |
+| 值 | float | 字符间距。 |
 
 ### getLanguageSpacing() {#getLanguageSpacing--}
 ```
@@ -84,7 +84,7 @@ public final void setLanguageSpacing(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 语言间距。 |
+| 值 | float | 语言间距。 |
 
 ### getWordSpacing() {#getWordSpacing--}
 ```
@@ -107,7 +107,7 @@ public final void setWordSpacing(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 单词间距。 |
+| 值 | float | 单词间距。 |
 
 ### getLineSpacing() {#getLineSpacing--}
 ```
@@ -130,7 +130,7 @@ public final void setLineSpacing(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 行间距。 |
+| 值 | float | 行间距。 |
 
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 ```
@@ -141,7 +141,7 @@ public final int getHorizontalAlignment()
 获取水平对齐方式。
 
 **Returns:**
-int - 水平对齐方式。
+int - 水平对齐。
 ### setHorizontalAlignment(int value) {#setHorizontalAlignment-int-}
 ```
 public final void setHorizontalAlignment(int value)
@@ -153,7 +153,7 @@ public final void setHorizontalAlignment(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 水平对齐方式。 |
+| 值 | int | 水平对齐。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

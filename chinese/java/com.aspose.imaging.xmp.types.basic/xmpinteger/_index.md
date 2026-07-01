@@ -1,6 +1,6 @@
 ---
 title: "XmpInteger"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 整数基本类型。"
 type: docs
 weight: 12
@@ -24,8 +24,8 @@ public final class XmpInteger extends XmpTypeBase
 
 | 方法 | 描述 |
 | --- | --- |
-| [getValue()](#getValue--) | 获取或设置值。 |
-| [setValue(long value)](#setValue-long-) | 获取或设置值。 |
+| [getValue()](#getValue--) | 获取或设置该值。 |
+| [setValue(long value)](#setValue-long-) | 获取或设置该值。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### XmpInteger(long value) {#XmpInteger-long-}
 ```
@@ -38,7 +38,7 @@ public XmpInteger(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 值。 |
+| 值 | long | 值。 |
 
 ### XmpInteger(int value) {#XmpInteger-int-}
 ```
@@ -51,7 +51,7 @@ public XmpInteger(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 值。 |
+| 值 | int | 值。 |
 
 ### XmpInteger(String value) {#XmpInteger-java.lang.String-}
 ```
@@ -64,7 +64,7 @@ public XmpInteger(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### getValue() {#getValue--}
 ```
@@ -72,9 +72,9 @@ public long getValue()
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
-值： 值。
+值：该值。
 
 **Returns:**
 long
@@ -84,14 +84,14 @@ public void setValue(long value)
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
-值： 值。
+值：该值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long |  |
+| 值 | long |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

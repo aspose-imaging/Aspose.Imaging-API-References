@@ -1,6 +1,6 @@
 ---
 title: "ImageExportersRegistry"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示图像导出器注册表。"
 type: docs
 weight: 59
@@ -20,8 +20,8 @@ public final class ImageExportersRegistry
 | [getRegisteredFormats()](#getRegisteredFormats--) | 获取已注册的导出格式。 |
 | [getRegisteredExporterDescriptors()](#getRegisteredExporterDescriptors--) | 获取已注册的导出器描述符。 |
 | [register(IImageExporterDescriptor exporterDescriptor)](#register-com.aspose.imaging.IImageExporterDescriptor-) | 注册指定的图像导出器描述符。 |
-| [getFirstSupportedDescriptor(Image image, ImageOptionsBase options)](#getFirstSupportedDescriptor-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | 获取首次找到的适用于指定保存选项和图像的受支持描述符。 |
-| [createFirstSupportedExporter(Image image, ImageOptionsBase options)](#createFirstSupportedExporter-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | 创建首次找到的适用于指定保存选项和图像的导出器。 |
+| [getFirstSupportedDescriptor(Image image, ImageOptionsBase options)](#getFirstSupportedDescriptor-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | 获取首次找到的支持的描述符，适用于指定的保存选项和图像。 |
+| [createFirstSupportedExporter(Image image, ImageOptionsBase options)](#createFirstSupportedExporter-com.aspose.imaging.Image-com.aspose.imaging.ImageOptionsBase-) | 创建首次找到的导出器，适用于指定的保存选项和图像。 |
 | [registerExporter(IImageExporterDescriptor exporterDescriptor)](#registerExporter-com.aspose.imaging.IImageExporterDescriptor-) | 注册导出器。 |
 | [unregisterExporter(IImageExporterDescriptor exporterDescriptor)](#unregisterExporter-com.aspose.imaging.IImageExporterDescriptor-) | 注销导出器。 |
 ### getRegisteredFormats() {#getRegisteredFormats--}
@@ -67,7 +67,7 @@ public static IImageExporterDescriptor getFirstSupportedDescriptor(Image image, 
 ```
 
 
-获取首次找到的适用于指定保存选项和图像的受支持描述符。
+获取首次找到的支持的描述符，适用于指定的保存选项和图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -85,7 +85,7 @@ public static IImageExporter createFirstSupportedExporter(Image image, ImageOpti
 ```
 
 
-创建首次找到的适用于指定保存选项和图像的导出器。
+创建首次找到的导出器，适用于指定的保存选项和图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

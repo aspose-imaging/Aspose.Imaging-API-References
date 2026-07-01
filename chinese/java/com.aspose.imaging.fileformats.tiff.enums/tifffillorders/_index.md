@@ -1,6 +1,6 @@
 ---
 title: "TiffFillOrders"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "字节内的数据顺序。"
 type: docs
 weight: 17

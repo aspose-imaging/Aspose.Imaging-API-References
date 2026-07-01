@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusMultiplyWorldTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusMultiplyWorldTransform 记录将当前世界空间变换乘以指定的变换矩阵。"
 type: docs
 weight: 41
@@ -22,7 +22,7 @@ EmfPlusMultiplyWorldTransform 记录将当前世界空间变换乘以指定的�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为 [post multiplied matrix]。 |
+| [getPostMultipliedMatrix()](#getPostMultipliedMatrix--) | 获取一个值，指示是否为[post multiplied matrix]。 |
 | [getMatrixData()](#getMatrixData--) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义乘法矩阵。 |
 | [setMatrixData(Matrix value)](#setMatrixData-com.aspose.imaging.Matrix-) | 获取或设置一个 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象定义乘法矩阵。 |
 ### EmfPlusMultiplyWorldTransform(EmfPlusRecord source) {#EmfPlusMultiplyWorldTransform-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
@@ -36,7 +36,7 @@ public EmfPlusMultiplyWorldTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPostMultipliedMatrix() {#getPostMultipliedMatrix--}
 ```
@@ -44,9 +44,9 @@ public boolean getPostMultipliedMatrix()
 ```
 
 
-获取一个值，指示是否为 [post multiplied matrix]。如果设置，则应对变换矩阵进行后乘。如果未设置，则应进行前乘。
+获取指示是否为 [post multiplied matrix] 的值。如果设置，则应对变换矩阵进行后乘。如果未设置，则应进行前乘。
 
-值：如果为 [post multiplied matrix] 则为 `true`；否则为 `false`。
+值：`true` 表示[post multiplied matrix]；否则为 `false`。
 
 **Returns:**
 boolean

@@ -1,7 +1,7 @@
 ---
 title: "PngOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "使用我们的 API 轻松创建高质量的便携式网络图形（PNG）栅格图像，提供可自定义的压缩级别、每像素位深度和 Alpha 位。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "使用我们的 API 轻松创建高质量的 Portable Network Graphics PNG 栅格图像，提供可自定义的压缩级别、每像素位深度和 alpha 位选项。"
 type: docs
 weight: 38
 url: /zh/java/com.aspose.imaging.imageoptions/pngoptions/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class PngOptions extends ImageOptionsBase
 ```
 
-使用我们的 API 轻松创建高质量的便携式网络图形（PNG）栅格图像，提供可自定义的压缩级别、每像素位深度和 Alpha 位。无缝处理 XMP 元数据容器，确保全面的图像元数据管理，并让您轻松根据精确规格定制 PNG 图像。
+使用我们的 API 轻松创建高质量的 Portable Network Graphics (PNG) 栅格图像，提供可自定义的压缩级别、每像素位深度和 alpha 位。无缝处理 XMP 元数据容器，确保全面的图像元数据管理，并使您能够轻松地将 PNG 图像定制到精确的规格。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PngOptions()](#PngOptions--) | 初始化一个新的 `PngOptions` 类实例。 |
-| [PngOptions(PngOptions pngOptions)](#PngOptions-com.aspose.imaging.imageoptions.PngOptions-) | 初始化一个新的 `PngOptions` 类实例。 |
+| [PngOptions()](#PngOptions--) | 初始化 `PngOptions` 类的新实例。 |
+| [PngOptions(PngOptions pngOptions)](#PngOptions-com.aspose.imaging.imageoptions.PngOptions-) | 初始化 `PngOptions` 类的新实例。 |
 ## 字段
 
 | 字段 | 描述 |
@@ -32,8 +32,8 @@ public class PngOptions extends ImageOptionsBase
 | [setColorType(int value)](#setColorType-int-) | 设置颜色的类型。 |
 | [getProgressive()](#getProgressive--) | 获取指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。 |
 | [setProgressive(boolean value)](#setProgressive-boolean-) | 设置指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。 |
-| [getFilterType()](#getFilterType--) | 获取在 PNG 文件保存过程中使用的过滤器类型。 |
-| [setFilterType(int value)](#setFilterType-int-) | 设置在 PNG 文件保存过程中使用的过滤器类型。 |
+| [getFilterType()](#getFilterType--) | 获取在 png 文件保存过程中使用的过滤器类型。 |
+| [setFilterType(int value)](#setFilterType-int-) | 设置在 png 文件保存过程中使用的过滤器类型。 |
 | [getCompressionLevel()](#getCompressionLevel--) | 获取 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 的压缩级别。 |
 | [setCompressionLevel(int value)](#setCompressionLevel-int-) | 设置 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 的压缩级别。 |
 | [getPngCompressionLevel()](#getPngCompressionLevel--) | 获取 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 的压缩级别。 |
@@ -42,11 +42,11 @@ public class PngOptions extends ImageOptionsBase
 | [setBitDepth(byte value)](#setBitDepth-byte-) | 设置位深度值，范围为 1、2、4、8、16。 |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
-此示例演示了如何使用 SaveOptions 命名空间中的不同类进行导出。将类型为 Gif 的图像加载到 Image 实例中，然后导出为多种格式。
+此示例演示了在导出场景中使用 SaveOptions 命名空间中的不同类。将类型为 Gif 的图像加载到 Image 实例中，然后导出为多种格式。
 ``` java
 String dir = "c:\\temp\\";
 
-//在 Image 类的实例中加载现有的（Gif 类型）图像
+//在 Image 类的实例中加载已有的图像（类型为 Gif）
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.gif");
 try {
     //使用默认选项导出为 BMP 文件格式
@@ -79,7 +79,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 {
     exportOptions.setMultiPageOptions(null);
 
-    // 仅导出前两页。实际上，由于 PNG 不是多页格式，只会光栅化一页。
+    // 仅导出前两页。事实上，由于 PNG 不是多页格式，只会栅格化一页。
     com.aspose.imaging.IMultipageImage multipageImage = (image instanceof com.aspose.imaging.IMultipageImage) ? (com.aspose.imaging.IMultipageImage) image : null;
     if (multipageImage != null && (multipageImage.getPages() != null && multipageImage.getPageCount() > 2))
     {
@@ -104,7 +104,7 @@ public PngOptions()
 ```
 
 
-初始化一个新的 `PngOptions` 类实例。
+初始化 `PngOptions` 类的新实例。
 
 ### PngOptions(PngOptions pngOptions) {#PngOptions-com.aspose.imaging.imageoptions.PngOptions-}
 ```
@@ -112,7 +112,7 @@ public PngOptions(PngOptions pngOptions)
 ```
 
 
-初始化一个新的 `PngOptions` 类实例。
+初始化 `PngOptions` 类的新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -152,7 +152,7 @@ public final void setColorType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色的类型。 |
+| 值 | int | 颜色的类型。 |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -170,8 +170,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // 使用最大压缩
     options.setCompressionLevel(9);
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -186,8 +186,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
-// 您也可以从文件或流中加载任何受支持格式的图像。
+// 创建一个 100x100 像素的 PNG 图像。
+// 您还可以从文件或流中加载任何受支持格式的图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
@@ -209,14 +209,14 @@ try {
     // 将水平和垂直分辨率设置为每英寸 96 像素。
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // 每个像素是一个 (红, 绿, 蓝) 三元组，随后是 alpha 通道。
+    // 每个像素是 (红, 绿, 蓝) 三元组，随后是 alpha。
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // 设置最大压缩级别。
+    // 设置最高压缩级别。
     saveOptions.setCompressionLevel(9);
 
     // 这是最佳压缩，但执行时间最慢。
-    // 自适应过滤意味着保存过程会为每行数据选择最合适的过滤器。
+    // 自适应过滤意味着保存过程会为每一行数据选择最合适的过滤器。
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // 每个通道的位数。
@@ -237,10 +237,10 @@ public final boolean getProgressive()
 
 获取指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。
 
-值：`` 如果为渐进式；否则为 ``。
+值：`` 如果是渐进式；否则，``。
 
 **Returns:**
-布尔型 - 指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。
+boolean - 一个指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。
 ### setProgressive(boolean value) {#setProgressive-boolean-}
 ```
 public final void setProgressive(boolean value)
@@ -249,12 +249,12 @@ public final void setProgressive(boolean value)
 
 设置指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。
 
-值：`` 如果为渐进式；否则为 ``。
+值：`` 如果是渐进式；否则，``。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。 |
+| value | boolean | 一个指示 [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) 是否为渐进式的值。 |
 
 
 **Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
@@ -272,8 +272,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // 使用最大压缩
     options.setCompressionLevel(9);
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -293,7 +293,7 @@ com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imagin
 // 每个颜色通道的位数
 createOptions.setBitDepth((byte) 8);
 
-// 每个像素是一个 (红, 绿, 蓝) 三元组，随后是 alpha 分量。
+// 每个像素是一个 (红色, 绿色, 蓝色) 三元组，后跟 alpha 分量。
 createOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
 // 最大压缩级别。
@@ -316,7 +316,7 @@ try {
 
     com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(pngImage);
 
-    // 用半透明渐变填充图像。
+    // 使用半透明渐变填充图像。
     graphics.fillRectangle(gradientBrush, pngImage.getBounds());
 
     // 保存到文件。
@@ -332,7 +332,7 @@ public final int getFilterType()
 ```
 
 
-获取在 PNG 文件保存过程中使用的过滤器类型。
+获取在 png 文件保存过程中使用的过滤器类型。
 
 **Returns:**
 int - 在 png 文件保存过程中使用的过滤器类型。
@@ -342,12 +342,12 @@ public final void setFilterType(int value)
 ```
 
 
-设置在 PNG 文件保存过程中使用的过滤器类型。
+设置在 png 文件保存过程中使用的过滤器类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 在 png 文件保存过程中使用的过滤器类型。 |
+| 值 | int | 在 png 文件保存过程中使用的过滤器类型。 |
 
 
 **Example: The following example shows how different filter types affect the size of the output PNG image.**
@@ -462,8 +462,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
     options.setColorType(com.aspose.imaging.fileformats.png.PngColorType.IndexedColor);
     // 使用最大压缩
     options.setCompressionLevel(9);
-    // 获取最接近的 8 位颜色调色板，覆盖尽可能多的像素，以便调色板图像
-    // 几乎在视觉上与非调色板图像无法区分。
+    // 获取最接近的 8 位颜色调色板，以覆盖尽可能多的像素，从而得到调色板图像
+    // 几乎在视觉上与非调色的图像没有区别。
     options.setPalette(com.aspose.imaging.ColorPaletteHelper.getCloseImagePalette((com.aspose.imaging.RasterImage)image, 
                                 256, Aspose.Imaging.PaletteMiningMethod.Histogram));
                      
@@ -478,8 +478,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
-// 您也可以从文件或流中加载任何受支持格式的图像。
+// 创建一个 100x100 像素的 PNG 图像。
+// 您还可以从文件或流中加载任何受支持格式的图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
@@ -501,14 +501,14 @@ try {
     // 将水平和垂直分辨率设置为每英寸 96 像素。
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // 每个像素是一个 (红, 绿, 蓝) 三元组，随后是 alpha 通道。
+    // 每个像素是 (红, 绿, 蓝) 三元组，随后是 alpha。
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // 设置最大压缩级别。
+    // 设置最高压缩级别。
     saveOptions.setCompressionLevel(9);
 
     // 这是最佳压缩，但执行时间最慢。
-    // 自适应过滤意味着保存过程会为每行数据选择最合适的过滤器。
+    // 自适应过滤意味着保存过程会为每一行数据选择最合适的过滤器。
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // 每个通道的位数。
@@ -581,7 +581,7 @@ public final void setBitDepth(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 位深度值范围为 1、2、4、8、16。 |
+| 值 | byte | 位深度值范围为 1、2、4、8、16。 |
 
 
 **Example: The following example shows how to save an image to PNG format using various options.**
@@ -589,8 +589,8 @@ public final void setBitDepth(byte value)
 ``` java
 String dir = "c:\\temp\\";
 
-// 创建 100x100 像素的 PNG 图像。
-// 您也可以从文件或流中加载任何受支持格式的图像。
+// 创建一个 100x100 像素的 PNG 图像。
+// 您还可以从文件或流中加载任何受支持格式的图像。
 com.aspose.imaging.fileformats.png.PngImage pngImage = new com.aspose.imaging.fileformats.png.PngImage(100, 100);
 try {
     com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
@@ -612,14 +612,14 @@ try {
     // 将水平和垂直分辨率设置为每英寸 96 像素。
     saveOptions.setResolutionSettings(new com.aspose.imaging.ResolutionSetting(96.0, 96.0));
 
-    // 每个像素是一个 (红, 绿, 蓝) 三元组，随后是 alpha 通道。
+    // 每个像素是 (红, 绿, 蓝) 三元组，随后是 alpha。
     saveOptions.setColorType(com.aspose.imaging.fileformats.png.PngColorType.TruecolorWithAlpha);
 
-    // 设置最大压缩级别。
+    // 设置最高压缩级别。
     saveOptions.setCompressionLevel(9);
 
     // 这是最佳压缩，但执行时间最慢。
-    // 自适应过滤意味着保存过程会为每行数据选择最合适的过滤器。
+    // 自适应过滤意味着保存过程会为每一行数据选择最合适的过滤器。
     saveOptions.setFilterType(com.aspose.imaging.fileformats.png.PngFilterType.Adaptive);
 
     // 每个通道的位数。

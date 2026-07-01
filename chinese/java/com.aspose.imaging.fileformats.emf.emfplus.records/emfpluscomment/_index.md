@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusComment"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusComment 记录指定任意私有数据。"
 type: docs
 weight: 14
@@ -22,10 +22,10 @@ EmfPlusComment 记录指定任意私有数据。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPrivateData()](#getPrivateData--) | 获取或设置长度为 DataSize 的私有数据字节数组。 |
-| [setPrivateData(byte[] value)](#setPrivateData-byte---) | 获取或设置长度为 DataSize 的私有数据字节数组。 |
-| [getFlags()](#getFlags--) | 获取或设置一个未使用的 16 位无符号整数。 |
-| [setFlags(short value)](#setFlags-short-) | 获取或设置一个未使用的 16 位无符号整数。 |
+| [getPrivateData()](#getPrivateData--) | 获取或设置一个长度为 DataSize 的私有数据字节数组。 |
+| [setPrivateData(byte[] value)](#setPrivateData-byte---) | 获取或设置一个长度为 DataSize 的私有数据字节数组。 |
+| [getFlags()](#getFlags--) | 获取或设置未使用的 16 位无符号整数。 |
+| [setFlags(short value)](#setFlags-short-) | 获取或设置未使用的 16 位无符号整数。 |
 ### EmfPlusComment(EmfPlusRecord source) {#EmfPlusComment-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusComment(EmfPlusRecord source)
@@ -37,7 +37,7 @@ public EmfPlusComment(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPrivateData() {#getPrivateData--}
 ```
@@ -45,7 +45,7 @@ public byte[] getPrivateData()
 ```
 
 
-获取或设置长度为 DataSize 的私有数据字节数组。后续的记录特定数据字节。
+获取或设置一个长度为 DataSize 的私有数据字节数组。后续的记录特定数据字节。
 
 **Returns:**
 byte[]
@@ -55,12 +55,12 @@ public void setPrivateData(byte[] value)
 ```
 
 
-获取或设置长度为 DataSize 的私有数据字节数组。后续的记录特定数据字节。
+获取或设置一个长度为 DataSize 的私有数据字节数组。后续的记录特定数据字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getFlags() {#getFlags--}
 ```
@@ -68,20 +68,20 @@ public short getFlags()
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Returns:**
-short
+短
 ### setFlags(short value) {#setFlags-short-}
 ```
 public void setFlags(short value)
 ```
 
 
-获取或设置一个未使用的 16 位无符号整数。该字段应设置为零，并且在接收时必须被忽略。
+获取或设置未使用的 16 位无符号整数。此字段应设置为零，并且在接收时必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

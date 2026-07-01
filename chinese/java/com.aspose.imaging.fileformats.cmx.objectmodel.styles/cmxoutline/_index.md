@@ -1,6 +1,6 @@
 ---
 title: "CmxOutline"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示一种轮廓样式。"
 type: docs
 weight: 14
@@ -22,25 +22,25 @@ public class CmxOutline
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLineType()](#getLineType--) | 获取线条的类型。 |
-| [setLineType(byte value)](#setLineType-byte-) | 设置线条的类型。 |
+| [getLineType()](#getLineType--) | 获取线的类型。 |
+| [setLineType(byte value)](#setLineType-byte-) | 设置线的类型。 |
 | [getCapsType()](#getCapsType--) | 获取线帽的类型。 |
 | [setCapsType(int value)](#setCapsType-int-) | 设置线帽的类型。 |
-| [getJoinType()](#getJoinType--) | 获取线段连接的类型。 |
-| [setJoinType(int value)](#setJoinType-int-) | 设置线段连接的类型。 |
-| [getLineWidth()](#getLineWidth--) | 获取线条的宽度。 |
-| [setLineWidth(float value)](#setLineWidth-float-) | 设置线条的宽度。 |
+| [getJoinType()](#getJoinType--) | 获取线连接的类型。 |
+| [setJoinType(int value)](#setJoinType-int-) | 设置线连接的类型。 |
+| [getLineWidth()](#getLineWidth--) | 获取线的宽度。 |
+| [setLineWidth(float value)](#setLineWidth-float-) | 设置线的宽度。 |
 | [getStretch()](#getStretch--) | 获取拉伸值。 |
 | [setStretch(float value)](#setStretch-float-) | 设置拉伸值。 |
 | [getAngle()](#getAngle--) | 获取角度。 |
 | [setAngle(double value)](#setAngle-double-) | 设置角度。 |
 | [getColor()](#getColor--) | 获取轮廓颜色。 |
 | [setColor(CmxColor value)](#setColor-com.aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor-) | 设置轮廓颜色。 |
-| [getStroke()](#getStroke--) | 获取描边模式。 |
-| [setStroke(int[] value)](#setStroke-int---) | 设置描边模式。 |
-| [getStartArrowhead()](#getStartArrowhead--) | 获取线条起始端的形状 |
-| [setStartArrowhead(CmxArrowSpec value)](#setStartArrowhead-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec-) | 设置线条起始端的形状 |
-| [getEndArrowhead()](#getEndArrowhead--) | 获取线条结束端的形状 |
+| [getStroke()](#getStroke--) | 获取笔画模式。 |
+| [setStroke(int[] value)](#setStroke-int---) | 设置笔画模式。 |
+| [getStartArrowhead()](#getStartArrowhead--) | 获取线起始的形状 |
+| [setStartArrowhead(CmxArrowSpec value)](#setStartArrowhead-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec-) | 设置线起始的形状 |
+| [getEndArrowhead()](#getEndArrowhead--) | 获取线结束的形状 |
 | [setEndArrowhead(CmxArrowSpec value)](#setEndArrowhead-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec-) | 设置线段末端的形状 |
 | [toString()](#toString--) | 返回表示此实例的字符串。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
@@ -57,7 +57,7 @@ public final byte getLineType()
 ```
 
 
-获取线条的类型。
+获取线的类型。
 
 **Returns:**
 byte - 线的类型。
@@ -67,12 +67,12 @@ public final void setLineType(byte value)
 ```
 
 
-设置线条的类型。
+设置线的类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 线的类型。 |
+| 值 | byte | 线的类型。 |
 
 ### getCapsType() {#getCapsType--}
 ```
@@ -95,7 +95,7 @@ public final void setCapsType(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 线帽的类型。 |
+| 值 | int | 线帽的类型。 |
 
 ### getJoinType() {#getJoinType--}
 ```
@@ -103,7 +103,7 @@ public final int getJoinType()
 ```
 
 
-获取线段连接的类型。
+获取线连接的类型。
 
 **Returns:**
 int - 线段连接的类型。
@@ -113,12 +113,12 @@ public final void setJoinType(int value)
 ```
 
 
-设置线段连接的类型。
+设置线连接的类型。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 线段连接的类型。 |
+| 值 | int | 线段连接的类型。 |
 
 ### getLineWidth() {#getLineWidth--}
 ```
@@ -126,7 +126,7 @@ public final float getLineWidth()
 ```
 
 
-获取线的宽度。使用常用文档距离度量单位。
+获取线的宽度。使用通用文档距离度量单位。
 
 **Returns:**
 float - 线的宽度。
@@ -136,12 +136,12 @@ public final void setLineWidth(float value)
 ```
 
 
-设置线的宽度。使用常用文档距离度量单位。
+设置线的宽度。使用通用文档距离度量单位。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 线的宽度。 |
+| 值 | float | 线的宽度。 |
 
 ### getStretch() {#getStretch--}
 ```
@@ -164,7 +164,7 @@ public final void setStretch(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 拉伸值。 |
+| 值 | float | 拉伸值。 |
 
 ### getAngle() {#getAngle--}
 ```
@@ -187,7 +187,7 @@ public final void setAngle(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 角度。 |
+| 值 | double | 角度。 |
 
 ### getColor() {#getColor--}
 ```
@@ -218,7 +218,7 @@ public final int[] getStroke()
 ```
 
 
-获取描边模式。
+获取笔画模式。
 
 **Returns:**
 int[] - 笔画模式。
@@ -228,12 +228,12 @@ public final void setStroke(int[] value)
 ```
 
 
-设置描边模式。
+设置笔画模式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 笔画模式。 |
+| 值 | int[] | 笔画模式。 |
 
 ### getStartArrowhead() {#getStartArrowhead--}
 ```
@@ -241,7 +241,7 @@ public final CmxArrowSpec getStartArrowhead()
 ```
 
 
-获取线条起始端的形状
+获取线起始的形状
 
 **Returns:**
 [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) - the shape for the start of the line
@@ -251,7 +251,7 @@ public final void setStartArrowhead(CmxArrowSpec value)
 ```
 
 
-设置线条起始端的形状
+设置线起始的形状
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -264,7 +264,7 @@ public final CmxArrowSpec getEndArrowhead()
 ```
 
 
-获取线条结束端的形状
+获取线结束的形状
 
 **Returns:**
 [CmxArrowSpec](../../com.aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec) - the shape for the end of the line

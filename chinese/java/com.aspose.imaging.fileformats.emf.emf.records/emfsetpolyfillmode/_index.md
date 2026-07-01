@@ -1,6 +1,6 @@
 ---
 title: "EmfSetPolyFillMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETPOLYFILLMODE 记录定义多边形填充模式。"
 type: docs
 weight: 136
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetPolyFillMode extends EmfStateRecordType
 ```
 
-EMR\_SETPOLYFILLMODE 记录定义多边形填充模式。
+该 EMR\_SETPOLYFILLMODE 记录定义多边形填充模式。
 
-一般而言，这些模式仅在需要填充复杂的、重叠的多边形时才有所区别；例如，一个由五条边组成的多边形形成一个中心带有五边形的五角星。在这种情况下，ALTERNATE 模式应填充多边形内部的每隔一个封闭区域（星形的各点），而 WINDING 模式应填充所有区域（星形的各点以及中心的五边形）。当填充模式为 ALTERNATE 时，每条扫描线在奇数边和偶数边之间的区域应被填充。也就是说，第一条边与第二条边之间的区域应被填充，第三条边与第四条边之间的区域亦如此，依此类推。当填充模式为 WINDING 时，任何具有非零 winding 值的区域都应被填充。winding 值是指用于绘制多边形的笔绕该区域的次数。多边形每条边的方向都是重要的。
+一般而言，这些模式仅在必须填充复杂的、重叠的多边形时才有所不同；例如，一个由五条边组成的多边形形成一个中心有五边形的五角星。在此类情况下，ALTERNATE 模式应填充多边形内部的每隔一个封闭区域（星形的尖点），而 WINDING 模式应填充所有区域（星形的尖点和中心的五边形）。当填充模式为 ALTERNATE 时，应填充每条扫描线上奇数边和偶数边之间的区域。即应填充第一条边与第二条边之间的区域，第三条边与第四条边之间的区域，依此类推。当填充模式为 WINDING 时，任何具有非零环绕值的区域都应被填充。环绕值是指用于绘制多边形的笔绕该区域的次数。多边形每条边的方向是重要的。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,8 +25,8 @@ EMR\_SETPOLYFILLMODE 记录定义多边形填充模式。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPolygonFillMode()](#getPolygonFillMode--) | 获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须属于 PolygonFillMode（第 2.1.27 节）枚举。 |
-| [setPolygonFillMode(int value)](#setPolygonFillMode-int-) | 获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须属于 PolygonFillMode（第 2.1.27 节）枚举。 |
+| [getPolygonFillMode()](#getPolygonFillMode--) | 获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须位于 PolygonFillMode 枚举中（第 2.1.27 节）。 |
+| [setPolygonFillMode(int value)](#setPolygonFillMode-int-) | 获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须位于 PolygonFillMode 枚举中（第 2.1.27 节）。 |
 ### EmfSetPolyFillMode(EmfRecord source) {#EmfSetPolyFillMode-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetPolyFillMode(EmfRecord source)
@@ -38,7 +38,7 @@ public EmfSetPolyFillMode(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetPolyFillMode() {#EmfSetPolyFillMode--}
 ```
@@ -54,7 +54,7 @@ public int getPolygonFillMode()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须属于 PolygonFillMode（第 2.1.27 节）枚举。
+获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须位于 PolygonFillMode 枚举中（第 2.1.27 节）。
 
 **Returns:**
 int
@@ -64,10 +64,10 @@ public void setPolygonFillMode(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须属于 PolygonFillMode（第 2.1.27 节）枚举。
+获取或设置一个 32 位无符号整数，指定多边形填充模式，且必须位于 PolygonFillMode 枚举中（第 2.1.27 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

@@ -1,7 +1,7 @@
 ---
 title: "WmfTernaryRasterOperationOperand"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "每个三元光栅操作码表示一种布尔操作，其中源像素、选定的画笔和目标像素的值被组合。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "每个三元光栅操作码表示一种布尔操作，其中源像素、选定的画刷和目标像素的值被组合。"
 type: docs
 weight: 35
 url: /zh/java/com.aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
@@ -12,13 +12,13 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class WmfTernaryRasterOperationOperand extends System.Enum
 ```
 
-每个三元光栅操作码表示一种布尔操作，其中源像素、选定的画笔和目标像素的值被组合。以下是这些操作中使用的三个操作数。
+每个三元光栅操作码表示一种布尔操作，其中源像素、选定的画刷和目标像素的值被组合。以下是这些操作中使用的三个操作数。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [D](#D) | 目标位图 |
-| [P](#P) | 选定的画笔（也称为图案） |
+| [P](#P) | 选定的画刷（亦称为图案） |
 | [S](#S) | 源位图 |
 | [a](#a) | 按位与 |
 | [n](#n) | 按位非（取反） |
@@ -38,7 +38,7 @@ public static final int P
 ```
 
 
-选定的画笔（也称为图案）
+选定的画刷（亦称为图案）
 
 ### S {#S}
 ```

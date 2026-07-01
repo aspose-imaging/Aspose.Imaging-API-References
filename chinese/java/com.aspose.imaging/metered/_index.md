@@ -1,7 +1,7 @@
 ---
 title: "Metered"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "提供用于集成的计量方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "提供用于集成的计量方法"
 type: docs
 weight: 74
 url: /zh/java/com.aspose.imaging/metered/
@@ -12,11 +12,11 @@ java.lang.Object
 public class Metered
 ```
 
-提供用于集成的计量方法。
+提供用于集成的计量方法
 
 在此示例中，将尝试设置计量的公钥和私钥。
 
-`// the component jar file: Metered metered = new Metered(); metered.setMeteredKey("PublicKey", "PrivateKey"); `
+`// the component jar file: Metered metered = new Metered(); metered.setMeteredKey(\"PublicKey\", \"PrivateKey\"); `
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -64,7 +64,7 @@ public void setMeteredKey(String publicKey, String privateKey)
 
 设置计量的公钥和私钥。
 
-如果您购买了计量许可证，在启动应用程序时应调用此 API，通常这已经足够。但如果始终无法上传消耗数据且超过 24 小时，许可证将被设置为评估状态。为避免这种情况，您应定期检查许可证状态，如果是评估状态，请再次调用此 API。
+如果您购买了计量许可证，在启动应用程序时应调用此 API，通常这已足够。然而，如果始终无法上传消耗数据且超过 24 小时，许可证将被设置为评估状态。为避免这种情况，您应定期检查许可证状态，如果是评估状态，请再次调用此 API。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

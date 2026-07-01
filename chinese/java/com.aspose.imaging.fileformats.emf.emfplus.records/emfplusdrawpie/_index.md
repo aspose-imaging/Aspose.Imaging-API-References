@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusDrawPie"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusDrawPie 记录指定绘制椭圆内部的一个扇形区域。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EmfPlusDrawPie 记录指定绘制椭圆内部的一段。"
 type: docs
 weight: 26
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusDrawPie extends EmfPlusDrawingRecordType
 ```
 
-EmfPlusDrawPie 记录指定绘制椭圆内部的一个扇形区域。
+EmfPlusDrawPie 记录指定绘制椭圆内部的一段。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -22,16 +22,16 @@ EmfPlusDrawPie 记录指定绘制椭圆内部的一个扇形区域。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getCompressed()](#getCompressed--) | 获取或设置一个值，指示 PointData 是否已压缩。 |
-| [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置一个值，指示 PointData 是否已压缩。 |
+| [getCompressed()](#getCompressed--) | 获取或设置指示 PointData 是否已压缩的值。 |
+| [setCompressed(boolean value)](#setCompressed-boolean-) | 获取或设置指示 PointData 是否已压缩的值。 |
 | [getObjectId()](#getObjectId--) | 获取或设置对象标识符。 |
 | [setObjectId(byte value)](#setObjectId-byte-) | 获取或设置对象标识符。 |
-| [getStartAngle()](#getStartAngle--) | 获取或设置起始角度。一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。 |
-| [setStartAngle(float value)](#setStartAngle-float-) | 获取或设置起始角度。一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。 |
-| [getSweepAngle()](#getSweepAngle--) | 获取或设置扫掠角度。一个 32 位浮点值，指定绘制饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。 |
-| [setSweepAngle(float value)](#setSweepAngle-float-) | 获取或设置扫掠角度。一个 32 位浮点值，指定绘制饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。 |
-| [getRectData()](#getRectData--) | 获取或设置矩形数据。可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
-| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | 获取或设置矩形数据。可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
+| [getStartAngle()](#getStartAngle--) | 获取或设置起始角度，一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。 |
+| [setStartAngle(float value)](#setStartAngle-float-) | 获取或设置起始角度，一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。 |
+| [getSweepAngle()](#getSweepAngle--) | 获取或设置扫掠角度，一个 32 位浮点值，指定定义要绘制的饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。 |
+| [setSweepAngle(float value)](#setSweepAngle-float-) | 获取或设置扫掠角度，一个 32 位浮点值，指定定义要绘制的饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。 |
+| [getRectData()](#getRectData--) | 获取或设置矩形数据：可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
+| [setRectData(RectangleF value)](#setRectData-com.aspose.imaging.RectangleF-) | 获取或设置矩形数据：可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 |
 ### EmfPlusDrawPie(EmfPlusRecord source) {#EmfPlusDrawPie-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawPie(EmfPlusRecord source)
@@ -43,7 +43,7 @@ public EmfPlusDrawPie(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCompressed() {#getCompressed--}
 ```
@@ -51,9 +51,9 @@ public boolean getCompressed()
 ```
 
 
-获取或设置一个值，指示 PointData 是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置指示 PointData 是否已压缩的值。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Returns:**
 boolean
@@ -63,14 +63,14 @@ public void setCompressed(boolean value)
 ```
 
 
-获取或设置一个值，指示 PointData 是否已压缩。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置指示 PointData 是否已压缩的值。如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果未设置，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -97,7 +97,7 @@ public void setObjectId(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getStartAngle() {#getStartAngle--}
 ```
@@ -105,7 +105,7 @@ public float getStartAngle()
 ```
 
 
-获取或设置起始角度。一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。接受任意值，但必须对 360 取模，使用的结果应在 0.0（含）到 360.0（不含）之间。
+获取或设置起始角度，一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。接受任何值，但必须对 360 取模，使用的结果应在 0.0（含）到 360.0（不含）之间。
 
 **Returns:**
 float
@@ -115,12 +115,12 @@ public void setStartAngle(float value)
 ```
 
 
-获取或设置起始角度。一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。接受任意值，但必须对 360 取模，使用的结果应在 0.0（含）到 360.0（不含）之间。
+获取或设置起始角度，一个 32 位非负浮点值，指定 x 轴与饼块起始点之间的角度。接受任何值，但必须对 360 取模，使用的结果应在 0.0（含）到 360.0（不含）之间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getSweepAngle() {#getSweepAngle--}
 ```
@@ -128,7 +128,7 @@ public float getSweepAngle()
 ```
 
 
-获取或设置扫掠角度。一个 32 位浮点值，指定绘制饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。接受任意值，但必须限制在 -360.0 到 360.0（含）之间。正值表示扫掠方向为顺时针，负值表示为逆时针。
+获取或设置扫掠角度，一个 32 位浮点值，指定定义要绘制的饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。接受任何值，但必须限制在 -360.0 到 360.0（含）之间。正值表示扫掠方向为顺时针，负值表示为逆时针。
 
 **Returns:**
 float
@@ -138,12 +138,12 @@ public void setSweepAngle(float value)
 ```
 
 
-获取或设置扫掠角度。一个 32 位浮点值，指定绘制饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。接受任意值，但必须限制在 -360.0 到 360.0（含）之间。正值表示扫掠方向为顺时针，负值表示为逆时针。
+获取或设置扫掠角度，一个 32 位浮点值，指定定义要绘制的饼块的弧段范围，以度数表示，测量自 StartAngle 值定义的起始点。接受任何值，但必须限制在 -360.0 到 360.0（含）之间。正值表示扫掠方向为顺时针，负值表示为逆时针。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getRectData() {#getRectData--}
 ```
@@ -151,7 +151,7 @@ public RectangleF getRectData()
 ```
 
 
-获取或设置矩形数据。可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。此矩形定义了饼块的位置、大小和形状。该字段中对象的类型由 Flags 字段的值指定。
+获取或设置矩形数据：可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。此矩形定义饼块的位置、大小和形状。该字段中对象的类型由 Flags 字段的值指定。
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef)
@@ -161,7 +161,7 @@ public void setRectData(RectangleF value)
 ```
 
 
-获取或设置矩形数据。可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。此矩形定义了饼块的位置、大小和形状。该字段中对象的类型由 Flags 字段的值指定。
+获取或设置矩形数据：可以是定义包含饼块的椭圆的边界框的 EmfPlusRect 或 EmfPlusRectF 对象。此矩形定义饼块的位置、大小和形状。该字段中对象的类型由 Flags 字段的值指定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

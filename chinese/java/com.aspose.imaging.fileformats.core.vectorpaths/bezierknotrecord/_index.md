@@ -1,13 +1,13 @@
 ---
 title: "BezierKnotRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Bezier Knot 记录类"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object，[com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class BezierKnotRecord extends VectorPathRecord
 ```
@@ -17,8 +17,8 @@ Bezier Knot 记录类
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [BezierKnotRecord()](#BezierKnotRecord--) | 初始化 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的新实例。 |
-| [BezierKnotRecord(byte[] data)](#BezierKnotRecord-byte---) | 初始化 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的新实例。 |
+| [BezierKnotRecord()](#BezierKnotRecord--) | 初始化一个新的 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的实例。 |
+| [BezierKnotRecord(byte[] data)](#BezierKnotRecord-byte---) | 初始化一个新的 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -27,12 +27,12 @@ Bezier Knot 记录类
 | [setPathPoints(PointF[] value)](#setPathPoints-com.aspose.imaging.PointF---) | 设置路径点。 |
 | [getPoints()](#getPoints--) | 获取点。 |
 | [setPoints(Point[] value)](#setPoints-com.aspose.imaging.Point---) | 设置点。 |
-| [isClosed()](#isClosed--) | 获取一个指示此实例是否已关闭的值。 |
-| [setClosed(boolean value)](#setClosed-boolean-) | 设置一个指示此实例是否已关闭的值。 |
-| [isLinked()](#isLinked--) | 获取一个指示此实例是否已链接的值。 |
-| [setLinked(boolean value)](#setLinked-boolean-) | 设置一个指示此实例是否已链接的值。 |
-| [isOpen()](#isOpen--) | 获取一个指示此实例是否已打开的值。 |
-| [setOpen(boolean value)](#setOpen-boolean-) | 设置一个指示此实例是否已打开的值。 |
+| [isClosed()](#isClosed--) | 获取指示此实例是否已关闭的值。 |
+| [setClosed(boolean value)](#setClosed-boolean-) | 设置指示此实例是否已关闭的值。 |
+| [isLinked()](#isLinked--) | 获取指示此实例是否已链接的值。 |
+| [setLinked(boolean value)](#setLinked-boolean-) | 设置指示此实例是否已链接的值。 |
+| [isOpen()](#isOpen--) | 获取指示此实例是否已打开的值。 |
+| [setOpen(boolean value)](#setOpen-boolean-) | 设置指示此实例是否已打开的值。 |
 | [getType()](#getType--) | 获取类型。 |
 ### BezierKnotRecord() {#BezierKnotRecord--}
 ```
@@ -40,7 +40,7 @@ public BezierKnotRecord()
 ```
 
 
-初始化 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的新实例。
+初始化一个新的 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的实例。
 
 ### BezierKnotRecord(byte[] data) {#BezierKnotRecord-byte---}
 ```
@@ -48,7 +48,7 @@ public BezierKnotRecord(byte[] data)
 ```
 
 
-初始化 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的新实例。
+初始化一个新的 [BezierKnotRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord) 类的实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -111,9 +111,9 @@ public final boolean isClosed()
 ```
 
 
-获取一个指示此实例是否已关闭的值。
+获取指示此实例是否已关闭的值。
 
-值：`true` 表示此实例已关闭；否则为 `false`。
+值：`true` 如果此实例已关闭；否则为 `false`。
 
 **Returns:**
 boolean - 指示此实例是否已关闭的值。
@@ -123,14 +123,14 @@ public final void setClosed(boolean value)
 ```
 
 
-设置一个指示此实例是否已关闭的值。
+设置指示此实例是否已关闭的值。
 
-值：`true` 表示此实例已关闭；否则为 `false`。
+值：`true` 如果此实例已关闭；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否已关闭的值。 |
+| 值 | boolean | 指示此实例是否已关闭的值。 |
 
 ### isLinked() {#isLinked--}
 ```
@@ -138,9 +138,9 @@ public final boolean isLinked()
 ```
 
 
-获取一个指示此实例是否已链接的值。
+获取指示此实例是否已链接的值。
 
-值：`true` 表示此实例已链接；否则为 `false`。
+值：`true` 如果此实例已链接；否则为 `false`。
 
 **Returns:**
 boolean - 指示此实例是否已链接的值。
@@ -150,14 +150,14 @@ public final void setLinked(boolean value)
 ```
 
 
-设置一个指示此实例是否已链接的值。
+设置指示此实例是否已链接的值。
 
-值：`true` 表示此实例已链接；否则为 `false`。
+值：`true` 如果此实例已链接；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否已链接的值。 |
+| 值 | boolean | 指示此实例是否已链接的值。 |
 
 ### isOpen() {#isOpen--}
 ```
@@ -165,26 +165,26 @@ public final boolean isOpen()
 ```
 
 
-获取一个指示此实例是否已打开的值。
+获取指示此实例是否已打开的值。
 
-值：`true` 表示此实例已打开；否则为 `false`。
+值：如果此实例已打开，则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 指示此实例是否已打开的值。
+boolean - 表示此实例是否打开的值。
 ### setOpen(boolean value) {#setOpen-boolean-}
 ```
 public final void setOpen(boolean value)
 ```
 
 
-设置一个指示此实例是否已打开的值。
+设置指示此实例是否已打开的值。
 
-值：`true` 表示此实例已打开；否则为 `false`。
+值：如果此实例已打开，则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示此实例是否已打开的值。 |
+| 值 | boolean | 表示此实例是否打开的值。 |
 
 ### getType() {#getType--}
 ```

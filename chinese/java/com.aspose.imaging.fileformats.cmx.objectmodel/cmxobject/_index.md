@@ -1,6 +1,6 @@
 ---
 title: "CmxObject"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "包含有关图形元素信息的对象。"
 type: docs
 weight: 14

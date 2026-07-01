@@ -1,7 +1,7 @@
 ---
 title: "DicomPage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "它是用于处理多帧类型 DICOM 文件的类"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "它是用于处理多帧类型 DICOM 文件的类。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.dicom/dicompage/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class DicomPage extends RasterCachedImage
 ```
 
-它是用于处理多帧类型 DICOM 文件的类
+它是用于处理多帧类型 DICOM 文件的类。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -58,7 +58,7 @@ try (DicomOptions dicomOptions = new DicomOptions())
             page.adjustBrightness(i * 30);
         }
 
-        // 在主页面前面添加几页，使其更亮。
+        // 在主页前面添加几页，使其更亮。
         for (int i = 1; i < 5; i++)
         {
             DicomPage page = image.insertPage(0);
@@ -84,7 +84,7 @@ public DicomPage(DicomImage image, int index)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) | 图像。 |
-| index | int | 索引。 |
+| 索引 | int | 索引。 |
 
 ### DicomPage(DicomImage image, int index, LoadOptions loadOptions) {#DicomPage-com.aspose.imaging.fileformats.dicom.DicomImage-int-com.aspose.imaging.LoadOptions-}
 ```
@@ -98,7 +98,7 @@ public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [DicomImage](../../com.aspose.imaging.fileformats.dicom/dicomimage) | 图像。 |
-| index | int | 索引。 |
+| 索引 | int | 索引。 |
 | loadOptions | [LoadOptions](../../com.aspose.imaging/loadoptions) | 加载选项。 |
 
 ### getIndex() {#getIndex--}

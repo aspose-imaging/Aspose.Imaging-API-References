@@ -1,6 +1,6 @@
 ---
 title: "XmpArrayType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XmpArray 中的数组类型。"
 type: docs
 weight: 14
@@ -19,7 +19,7 @@ public final class XmpArrayType extends System.Enum
 | --- | --- |
 | [UNORDERED](#UNORDERED) | 无序数组。 |
 | [ORDERED](#ORDERED) | 有序数组。 |
-| [ALTERNATIVE](#ALTERNATIVE) | 备用数组。 |
+| [ALTERNATIVE](#ALTERNATIVE) | 备选数组。 |
 ### UNORDERED {#UNORDERED}
 ```
 public static final int UNORDERED
@@ -42,5 +42,5 @@ public static final int ALTERNATIVE
 ```
 
 
-备用数组。
+备选数组。
 

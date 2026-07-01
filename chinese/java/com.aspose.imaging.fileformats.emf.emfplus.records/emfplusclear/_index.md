@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusClear"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusClear 记录清除输出坐标空间并使用背景颜色和透明度进行初始化。"
 type: docs
 weight: 12
@@ -35,7 +35,7 @@ public EmfPlusClear(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getArgb32Color() {#getArgb32Color--}
 ```
@@ -43,7 +43,7 @@ public int getArgb32Color()
 ```
 
 
-获取或设置颜色。一个定义屏幕绘制颜色的 EmfPlusARGB 对象（第 2.2.2.1 节）。所有颜色均采用 [IEC-RGB] 指定，除非另有说明。
+获取或设置颜色。一个 EmfPlusARGB 对象（第 2.2.2.1 节），定义用于绘制屏幕的颜色。除非另有说明，所有颜色均采用 [IEC-RGB] 指定。
 
 值：颜色。
 
@@ -55,12 +55,12 @@ public void setArgb32Color(int value)
 ```
 
 
-获取或设置颜色。一个定义屏幕绘制颜色的 EmfPlusARGB 对象（第 2.2.2.1 节）。所有颜色均采用 [IEC-RGB] 指定，除非另有说明。
+获取或设置颜色。一个 EmfPlusARGB 对象（第 2.2.2.1 节），定义用于绘制屏幕的颜色。除非另有说明，所有颜色均采用 [IEC-RGB] 指定。
 
 值：颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

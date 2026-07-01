@@ -1,6 +1,6 @@
 ---
 title: "MatrixOrder"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定矩阵变换操作的顺序。"
 type: docs
 weight: 73

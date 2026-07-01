@@ -1,6 +1,6 @@
 ---
 title: "EmfLogFontPanose"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "LogFontPanose 对象指定了逻辑字体的 PANOSE 特性。"
 type: docs
 weight: 25
@@ -22,24 +22,24 @@ LogFontPanose 对象指定了逻辑字体的 PANOSE 特性。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getFullName()](#getFullName--) | 获取或设置一个 64 个 Unicode 字符的字符串，用于定义字体的完整名称。 |
-| [setFullName(String value)](#setFullName-java.lang.String-) | 获取或设置一个 64 个 Unicode 字符的字符串，用于定义字体的完整名称。 |
-| [getStyle()](#getStyle--) | 获取或设置 定义字体样式的 32 个 Unicode 字符的字符串。 |
-| [setStyle(String value)](#setStyle-java.lang.String-) | 获取或设置 定义字体样式的 32 个 Unicode 字符的字符串。 |
-| [getVersion()](#getVersion--) | 获取或设置此字段，必须忽略。 |
-| [setVersion(int value)](#setVersion-int-) | 获取或设置此字段，必须忽略。 |
+| [getFullName()](#getFullName--) | 获取或设置一个 64 字符的 Unicode 字符串，定义字体的完整名称。 |
+| [setFullName(String value)](#setFullName-java.lang.String-) | 获取或设置一个 64 字符的 Unicode 字符串，定义字体的完整名称。 |
+| [getStyle()](#getStyle--) | 获取或设置一个定义字体样式的 32 个 Unicode 字符的字符串。 |
+| [setStyle(String value)](#setStyle-java.lang.String-) | 获取或设置一个定义字体样式的 32 个 Unicode 字符的字符串。 |
+| [getVersion()](#getVersion--) | 获取或设置 此字段必须被忽略。 |
+| [setVersion(int value)](#setVersion-int-) | 获取或设置 此字段必须被忽略。 |
 | [getStyleSize()](#getStyleSize--) | 获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。 |
 | [setStyleSize(int value)](#setStyleSize-int-) | 获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。 |
-| [getMatch()](#getMatch--) | 获取或设置此字段，必须忽略。 |
-| [setMatch(int value)](#setMatch-int-) | 获取或设置此字段，必须忽略。 |
-| [getVendorId()](#getVendorId--) | 获取或设置此字段，必须忽略。 |
-| [setVendorId(int value)](#setVendorId-int-) | 获取或设置此字段，必须忽略。 |
+| [getMatch()](#getMatch--) | 获取或设置 此字段必须被忽略。 |
+| [setMatch(int value)](#setMatch-int-) | 获取或设置 此字段必须被忽略。 |
+| [getVendorId()](#getVendorId--) | 获取或设置 此字段必须被忽略。 |
+| [setVendorId(int value)](#setVendorId-int-) | 获取或设置 此字段必须被忽略。 |
 | [getCulture()](#getCulture--) | 获取或设置一个 32 位无符号整数，该整数必须设为零且必须被忽略。 |
 | [setCulture(int value)](#setCulture-int-) | 获取或设置一个 32 位无符号整数，该整数必须设为零且必须被忽略。 |
-| [getPanose()](#getPanose--) | 获取或设置一个 Panose 对象（第 2.2.21 节），用于指定逻辑字体的 PANOSE 特性。 |
-| [setPanose(EmfPanose value)](#setPanose-com.aspose.imaging.fileformats.emf.emf.objects.EmfPanose-) | 获取或设置一个 Panose 对象（第 2.2.21 节），用于指定逻辑字体的 PANOSE 特性。 |
-| [getPadding()](#getPadding--) | 获取或设置仅用于确保此结构 32 位对齐的字段。 |
-| [setPadding(short value)](#setPadding-short-) | 获取或设置仅用于确保此结构 32 位对齐的字段。 |
+| [getPanose()](#getPanose--) | 获取或设置一个 Panose 对象（第 2.2.21 节），指定逻辑字体的 PANOSE 特性。 |
+| [setPanose(EmfPanose value)](#setPanose-com.aspose.imaging.fileformats.emf.emf.objects.EmfPanose-) | 获取或设置一个 Panose 对象（第 2.2.21 节），指定逻辑字体的 PANOSE 特性。 |
+| [getPadding()](#getPadding--) | 获取或设置仅用于确保此结构的 32 位对齐的字段。 |
+| [setPadding(short value)](#setPadding-short-) | 获取或设置仅用于确保此结构的 32 位对齐的字段。 |
 ### EmfLogFontPanose(EmfLogFont emfLogFont) {#EmfLogFontPanose-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogFont-}
 ```
 public EmfLogFontPanose(EmfLogFont emfLogFont)
@@ -59,7 +59,7 @@ public String getFullName()
 ```
 
 
-获取或设置一个 64 个 Unicode 字符的字符串，用于定义字体的完整名称。如果该字符串的长度少于 64 个字符，则必须存在一个终止的 NULL，之后该字段的其余部分必须被忽略。
+获取或设置一个 64 个 Unicode 字符的字符串，定义字体的完整名称。如果此字符串的长度少于 64 个字符，则必须存在一个终止的 NULL，之后该字段的其余部分必须被忽略。
 
 **Returns:**
 java.lang.String
@@ -69,12 +69,12 @@ public void setFullName(String value)
 ```
 
 
-获取或设置一个 64 个 Unicode 字符的字符串，用于定义字体的完整名称。如果该字符串的长度少于 64 个字符，则必须存在一个终止的 NULL，之后该字段的其余部分必须被忽略。
+获取或设置一个 64 个 Unicode 字符的字符串，定义字体的完整名称。如果此字符串的长度少于 64 个字符，则必须存在一个终止的 NULL，之后该字段的其余部分必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getStyle() {#getStyle--}
 ```
@@ -82,7 +82,7 @@ public String getStyle()
 ```
 
 
-获取或设置 定义字体样式的 32 个 Unicode 字符的字符串。如果此字符串的长度小于 32 个字符，则必须存在一个终止的 NULL，随后该字段的其余部分必须被忽略。
+获取或设置一个定义字体样式的 32 个 Unicode 字符的字符串。如果此字符串的长度小于 32 个字符，则必须存在终止的 NULL，之后该字段的其余部分必须被忽略。
 
 **Returns:**
 java.lang.String
@@ -92,12 +92,12 @@ public void setStyle(String value)
 ```
 
 
-获取或设置 定义字体样式的 32 个 Unicode 字符的字符串。如果此字符串的长度小于 32 个字符，则必须存在一个终止的 NULL，随后该字段的其余部分必须被忽略。
+获取或设置一个定义字体样式的 32 个 Unicode 字符的字符串。如果此字符串的长度小于 32 个字符，则必须存在终止的 NULL，之后该字段的其余部分必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getVersion() {#getVersion--}
 ```
@@ -105,7 +105,7 @@ public int getVersion()
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Returns:**
 int
@@ -115,12 +115,12 @@ public void setVersion(int value)
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getStyleSize() {#getStyleSize--}
 ```
@@ -128,7 +128,7 @@ public int getStyleSize()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。如果设为零，则在 LogFont 对象的 Height 字段对应的点大小下执行字体微调。
+获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。如果设置为零，则在 LogFont 对象的 Height 字段对应的点大小上执行字体微调。
 
 **Returns:**
 int
@@ -138,12 +138,12 @@ public void setStyleSize(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。如果设为零，则在 LogFont 对象的 Height 字段对应的点大小下执行字体微调。
+获取或设置一个 32 位无符号整数，指定执行字体微调的点大小。如果设置为零，则在 LogFont 对象的 Height 字段对应的点大小上执行字体微调。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getMatch() {#getMatch--}
 ```
@@ -151,7 +151,7 @@ public int getMatch()
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Returns:**
 int
@@ -161,12 +161,12 @@ public void setMatch(int value)
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getVendorId() {#getVendorId--}
 ```
@@ -174,7 +174,7 @@ public int getVendorId()
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Returns:**
 int
@@ -184,12 +184,12 @@ public void setVendorId(int value)
 ```
 
 
-获取或设置此字段，必须忽略。
+获取或设置 此字段必须被忽略。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getCulture() {#getCulture--}
 ```
@@ -212,7 +212,7 @@ public void setCulture(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPanose() {#getPanose--}
 ```
@@ -220,7 +220,7 @@ public EmfPanose getPanose()
 ```
 
 
-获取或设置一个 Panose 对象（第 2.2.21 节），用于指定逻辑字体的 PANOSE 特性。如果该对象的所有字段均为零，则必须忽略。
+获取或设置一个 Panose 对象（第 2.2.21 节），指定逻辑字体的 PANOSE 特性。如果该对象的所有字段均为零，则必须忽略它。
 
 **Returns:**
 [EmfPanose](../../com.aspose.imaging.fileformats.emf.emf.objects/emfpanose)
@@ -230,7 +230,7 @@ public void setPanose(EmfPanose value)
 ```
 
 
-获取或设置一个 Panose 对象（第 2.2.21 节），用于指定逻辑字体的 PANOSE 特性。如果该对象的所有字段均为零，则必须忽略。
+获取或设置一个 Panose 对象（第 2.2.21 节），指定逻辑字体的 PANOSE 特性。如果该对象的所有字段均为零，则必须忽略它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -243,20 +243,20 @@ public short getPadding()
 ```
 
 
-获取或设置仅用于确保此结构 32 位对齐的字段。它必须被忽略。
+获取或设置仅用于确保此结构的 32 位对齐的字段。必须忽略它。
 
 **Returns:**
-short
+短
 ### setPadding(short value) {#setPadding-short-}
 ```
 public void setPadding(short value)
 ```
 
 
-获取或设置仅用于确保此结构 32 位对齐的字段。它必须被忽略。
+获取或设置仅用于确保此结构的 32 位对齐的字段。必须忽略它。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

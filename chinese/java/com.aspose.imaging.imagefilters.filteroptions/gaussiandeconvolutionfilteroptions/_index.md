@@ -1,6 +1,6 @@
 ---
 title: "GaussianDeconvolutionFilterOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "使用高斯模糊的去卷积滤镜选项。"
 type: docs
 weight: 20
@@ -20,10 +20,10 @@ public abstract class GaussianDeconvolutionFilterOptions extends DeconvolutionFi
 
 | 方法 | 描述 |
 | --- | --- |
-| [getSize()](#getSize--) | 获取高斯内核大小。 |
+| [getSize()](#getSize--) | 获取 Gaussian 核的大小。 |
 | [setSize(int value)](#setSize-int-) | 高斯核的大小。 |
-| [getSigma()](#getSigma--) | 获取高斯内核 sigma（平滑）。 |
-| [setSigma(double value)](#setSigma-double-) | 高斯核 sigma（平滑）。 |
+| [getSigma()](#getSigma--) | 获取 Gaussian 核 sigma（平滑）。 |
+| [setSigma(double value)](#setSigma-double-) | Gaussian 核 sigma（平滑）。 |
 | [getRadius()](#getRadius--) | 获取 Gausseian ISquareConvolutionKernel 的半径。 |
 | [setRadius(int value)](#setRadius-int-) | Gausseian ISquareConvolutionKernel 的半径。 |
 ### getSize() {#getSize--}
@@ -32,22 +32,22 @@ public final int getSize()
 ```
 
 
-获取高斯核大小。必须是正的非零奇数值。
+获取 Gaussian 核大小。必须是正的、非零的奇数值。
 
 **Returns:**
-int - 高斯核大小。
+int - Gaussian 核大小。
 ### setSize(int value) {#setSize-int-}
 ```
 public final void setSize(int value)
 ```
 
 
-高斯核大小。必须是正的非零奇数值。
+Gaussian 核大小。必须是正的、非零的奇数值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 高斯核大小。 |
+| 值 | int | Gaussian 核大小。 |
 
 ### getSigma() {#getSigma--}
 ```
@@ -55,22 +55,22 @@ public final double getSigma()
 ```
 
 
-获取高斯核 sigma（平滑）。必须是正的非零值。
+获取 Gaussian 核 sigma（平滑）。必须是正的、非零的值。
 
 **Returns:**
-double - 高斯核 sigma（平滑）。
+double - Gaussian 核 sigma（平滑）。
 ### setSigma(double value) {#setSigma-double-}
 ```
 public final void setSigma(double value)
 ```
 
 
-高斯核 sigma（平滑）。必须是正的非零值。
+Gaussian 核 sigma（平滑）。必须是正的、非零的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 高斯核 sigma（平滑）。 |
+| 值 | double | Gaussian 核 sigma（平滑）。 |
 
 ### getRadius() {#getRadius--}
 ```
@@ -93,5 +93,5 @@ Gausseian ISquareConvolutionKernel 的半径。
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Gausseian ISquareConvolutionKernel 的半径。 |
+| 值 | int | Gausseian ISquareConvolutionKernel 的半径。 |
 

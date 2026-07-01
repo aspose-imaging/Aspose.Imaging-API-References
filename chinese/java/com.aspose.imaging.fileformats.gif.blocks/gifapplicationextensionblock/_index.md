@@ -1,7 +1,7 @@
 ---
 title: "GifApplicationExtensionBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 应用扩展块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 应用扩展块。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifApplicationExtensionBlock extends GifBlock
 ```
 
-Gif 应用扩展块.
+Gif 应用扩展块。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,17 +23,17 @@ Gif 应用扩展块.
 
 | 字段 | 描述 |
 | --- | --- |
-| [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | 指定块头大小。 |
+| [BLOCK_HEADER_SIZE](#BLOCK-HEADER-SIZE) | 指定块头部大小。 |
 | [EXTENSION_LABEL](#EXTENSION-LABEL) | 扩展标签。 |
 | [BLOCK_SIZE](#BLOCK-SIZE) | 扩展名称 + 版本块大小 |
 | [APPLICATION_IDENTIFIER_SIZE](#APPLICATION-IDENTIFIER-SIZE) | 指定应用程序标识符大小。 |
-| [APPLICATION_AUTHENTICATION_CODE_SIZE](#APPLICATION-AUTHENTICATION-CODE-SIZE) | 指定应用程序身份验证代码大小。 |
+| [APPLICATION_AUTHENTICATION_CODE_SIZE](#APPLICATION-AUTHENTICATION-CODE-SIZE) | 指定应用程序认证代码大小。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [getApplicationAuthenticationCode()](#getApplicationAuthenticationCode--) | 获取或设置应用程序身份验证代码。 |
-| [setApplicationAuthenticationCode(byte[] value)](#setApplicationAuthenticationCode-byte---) | 获取或设置应用程序身份验证代码。 |
+| [getApplicationAuthenticationCode()](#getApplicationAuthenticationCode--) | 获取或设置应用程序认证代码。 |
+| [setApplicationAuthenticationCode(byte[] value)](#setApplicationAuthenticationCode-byte---) | 获取或设置应用程序认证代码。 |
 | [getApplicationIdentifier()](#getApplicationIdentifier--) | 获取或设置应用程序标识符。 |
 | [setApplicationIdentifier(String value)](#setApplicationIdentifier-java.lang.String-) | 获取或设置应用程序标识符。 |
 | [getApplicationData()](#getApplicationData--) | 获取或设置应用程序数据。 |
@@ -58,7 +58,7 @@ public GifApplicationExtensionBlock(String applicationIdentifier, byte[] applica
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | applicationIdentifier | java.lang.String | 应用程序标识符。 |
-| applicationAuthenticationCode | byte[] | 应用程序身份验证代码。 |
+| applicationAuthenticationCode | byte[] | 应用程序认证代码。 |
 | applicationData | byte[] | 应用程序数据。 |
 
 ### BLOCK_HEADER_SIZE {#BLOCK-HEADER-SIZE}
@@ -67,7 +67,7 @@ public static final int BLOCK_HEADER_SIZE
 ```
 
 
-指定块头大小。
+指定块头部大小。
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
 ```
@@ -99,7 +99,7 @@ public static final int APPLICATION_AUTHENTICATION_CODE_SIZE
 ```
 
 
-指定应用程序身份验证代码大小。
+指定应用程序认证代码大小。
 
 ### getApplicationAuthenticationCode() {#getApplicationAuthenticationCode--}
 ```
@@ -107,9 +107,9 @@ public byte[] getApplicationAuthenticationCode()
 ```
 
 
-获取或设置应用程序身份验证代码。
+获取或设置应用程序认证代码。
 
-值：应用程序身份验证代码。
+值：应用程序认证代码。
 
 **Returns:**
 byte[]
@@ -119,14 +119,14 @@ public void setApplicationAuthenticationCode(byte[] value)
 ```
 
 
-获取或设置应用程序身份验证代码。
+获取或设置应用程序认证代码。
 
-值：应用程序身份验证代码。
+值：应用程序认证代码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getApplicationIdentifier() {#getApplicationIdentifier--}
 ```
@@ -153,7 +153,7 @@ public void setApplicationIdentifier(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getApplicationData() {#getApplicationData--}
 ```
@@ -180,5 +180,5 @@ public void setApplicationData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

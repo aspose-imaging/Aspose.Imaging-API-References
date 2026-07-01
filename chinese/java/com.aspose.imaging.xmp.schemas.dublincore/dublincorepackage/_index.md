@@ -1,20 +1,20 @@
 ---
 title: "DublinCorePackage"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 Dublic Core 架构。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 Dublic Core 模式。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
+java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.xmp/xmppackage)
 ```
 public final class DublinCorePackage extends XmpPackage
 ```
 
-表示 Dublic Core 架构。
+表示 Dublic Core 模式。
 
-欲了解更多信息，请参阅：http://dublincore.org/documents/usageguide/elements.shtml。
+欲了解更多信息，请访问：http://dublincore.org/documents/usageguide/elements.shtml。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void addValue(String key, String value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 键 | java.lang.String | 键的字符串表示形式，用于标识添加的值。 |
-| value | java.lang.String | 字符串值。 |
+| 值 | java.lang.String | 字符串值。 |
 
 ### setTitle(String title) {#setTitle-java.lang.String-}
 ```
@@ -68,7 +68,7 @@ public void setTitle(String title)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| title | java.lang.String | 标题。 |
+| 标题 | java.lang.String | 标题。 |
 
 ### setTitle(LangAlt title) {#setTitle-com.aspose.imaging.xmp.LangAlt-}
 ```
@@ -172,7 +172,7 @@ public void setPublisher(String publisher)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 出版商 | java.lang.String | 出版商。 |
+| 出版者 | java.lang.String | 出版者。 |
 
 ### setPublisher(String[] publisher) {#setPublisher-java.lang.String---}
 ```
@@ -185,5 +185,5 @@ public void setPublisher(String[] publisher)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 出版商 | java.lang.String[] | 出版商。 |
+| 出版者 | java.lang.String[] | 出版者。 |
 

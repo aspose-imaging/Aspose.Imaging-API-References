@@ -1,7 +1,7 @@
 ---
 title: "EmfRegionData"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "RegionData 对象指定用于定义由不重叠矩形组成的区域的数据。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "RegionData 对象指定定义由不重叠矩形组成的区域的数据。"
 type: docs
 weight: 33
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.objects/emfregiondata/

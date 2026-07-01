@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.fileformats.bmp.structures"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "用于支持位图头的逻辑结构。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "用于支持位图头部的逻辑结构。"
 type: docs
 weight: 29
 url: /zh/java/com.aspose.imaging.fileformats.bmp.structures/
 ---
 
-逻辑结构，用于支持位图标头。
+用于支持位图头的逻辑结构。
 
 
 ## 类

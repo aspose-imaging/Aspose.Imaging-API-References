@@ -1,7 +1,7 @@
 ---
 title: "ColorMapExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "ColorMap 的扩展方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "ColorMap 扩展方法。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.extensions/colormapextensions/

@@ -1,7 +1,7 @@
 ---
 title: "TiffASCIIType"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff ascii 类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "tiff ASCII 类型。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.a
 public final class TiffASCIIType extends TiffDataType
 ```
 
-tiff ascii 类型。
+tiff ASCII 类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -24,7 +24,7 @@ tiff ascii 类型。
 | --- | --- |
 | [getText()](#getText--) | 获取或设置文本。 |
 | [setText(String value)](#setText-java.lang.String-) | 获取或设置文本。 |
-| [getCount()](#getCount--) | 获取元素的计数。 |
+| [getCount()](#getCount--) | 获取元素的数量。 |
 | [getTagType()](#getTagType--) | 获取标签类型。 |
 | [getValue()](#getValue--) | 获取或设置此数据类型包含的值。 |
 | [setValue(Object value)](#setValue-java.lang.Object-) | 获取或设置此数据类型包含的值。 |
@@ -63,7 +63,7 @@ public void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本。 |
+| 值 | java.lang.String | 文本。 |
 
 ### getCount() {#getCount--}
 ```
@@ -71,10 +71,10 @@ public long getCount()
 ```
 
 
-获取元素的计数。
+获取元素的数量。
 
 **Returns:**
-long - 元素计数。
+long - 元素的计数。
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()
@@ -106,7 +106,7 @@ public void setValue(Object value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | 值。 |
+| 值 | java.lang.Object | 值。 |
 
 ### writeAdditionalData(TiffStreamWriter dataStream) {#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-}
 ```

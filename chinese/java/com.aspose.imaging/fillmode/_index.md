@@ -1,7 +1,7 @@
 ---
 title: "FillMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定闭合路径内部的填充方式。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "指定封闭路径内部的填充方式。"
 type: docs
 weight: 47
 url: /zh/java/com.aspose.imaging/fillmode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FillMode extends System.Enum
 ```
 
-指定闭合路径内部的填充方式。
+指定封闭路径内部的填充方式。
 ## 字段
 
 | 字段 | 描述 |

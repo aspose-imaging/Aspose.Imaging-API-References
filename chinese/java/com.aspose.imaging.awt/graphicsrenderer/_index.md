@@ -1,6 +1,6 @@
 ---
 title: "GraphicsRenderer"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该类直接在 java.awt.Graphic2D 上绘制 com.aspose.imaging.Image。"
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ public GraphicsRenderer(Image image)
 ```
 
 
-创建一个新的渲染。默认情况下，渲染将使用 [SmoothingMode.HighQuality](../../com.aspose.imaging/smoothingmode\\#HighQuality)、[TextRenderingHint.ClearTypeGridFit](../../com.aspose.imaging/textrenderinghint\\#ClearTypeGridFit) 进行处理，并使用白色背景颜色。
+创建一个新的渲染。默认情况下，渲染将使用 [SmoothingMode.HighQuality](../../com.aspose.imaging/smoothingmode\#HighQuality)、[TextRenderingHint.ClearTypeGridFit](../../com.aspose.imaging/textrenderinghint\#ClearTypeGridFit) 进行处理，并使用白色背景颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -80,7 +80,7 @@ public void render(Graphics2D graphics)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| graphics | java.awt.Graphics2D | 用于绘图的图形。 |
+| graphics | java.awt.Graphics2D | 用于绘图的 graphics。 |
 
 ### render(Graphics2D graphics, float scaleFactor) {#render-java.awt.Graphics2D-float-}
 ```
@@ -93,6 +93,6 @@ public void render(Graphics2D graphics, float scaleFactor)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| graphics | java.awt.Graphics2D | 用于绘图的图形。 |
+| graphics | java.awt.Graphics2D | 用于绘图的 graphics。 |
 | scaleFactor | float | 缩放因子。 |
 

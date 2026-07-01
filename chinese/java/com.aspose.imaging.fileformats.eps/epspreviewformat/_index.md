@@ -1,6 +1,6 @@
 ---
 title: "EpsPreviewFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "预览图像格式。"
 type: docs
 weight: 13
@@ -17,7 +17,7 @@ public final class EpsPreviewFormat extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [Default](#Default) | 最佳质量的预览由 [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) 实例包含。 |
+| [Default](#Default) | 最高质量的预览由 [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) 实例提供。 |
 | [TIFF](#TIFF) | 该 [FileFormat.Tiff](../../com.aspose.imaging/fileformat\#Tiff) 预览。 |
 | [WMF](#WMF) | 该 [FileFormat.Wmf](../../com.aspose.imaging/fileformat\#Wmf) 预览。 |
 | [PhotoshopThumbnail](#PhotoshopThumbnail) | 该 [FileFormat.Jpeg](../../com.aspose.imaging/fileformat\#Jpeg) 预览来自 Photoshop 注释。 |
@@ -27,7 +27,7 @@ public static final long Default
 ```
 
 
-最佳质量的预览由 [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) 实例包含。
+最高质量的预览由 [EpsImage](../../com.aspose.imaging.fileformats.eps/epsimage) 实例提供。
 
 ### TIFF {#TIFF}
 ```

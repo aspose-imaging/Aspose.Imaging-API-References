@@ -1,6 +1,6 @@
 ---
 title: "FileCreateSource"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示用于创建的文件源。"
 type: docs
 weight: 10
@@ -24,18 +24,18 @@ public final class FileCreateSource extends FileSource
 | 方法 | 描述 |
 | --- | --- |
 | [getFilePath()](#getFilePath--) | 获取要创建的文件路径。 |
-| [isTemporal()](#isTemporal--) | 获取一个值，指示文件是否为临时文件。 |
+| [isTemporal()](#isTemporal--) | 获取指示文件是否为临时文件的值。 |
 | [getStreamContainer()](#getStreamContainer--) | 获取流容器。 |
 
 ## Example: This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface.
-此示例演示了使用 Font 和 SolidBrush 类在 Image 表面绘制字符串。示例创建了一个新 Image 并使用 Figures 和 GraphicsPath 绘制形状。
+此示例演示了使用 Font 和 SolidBrush 类在 Image 表面绘制字符串。示例创建了一个新的 Image 并使用 Figures 和 GraphicsPath 绘制形状。
 ``` java
-//创建一个 BmpOptions 实例并设置其各种属性。
+//创建一个 BmpOptions 实例并设置其各种属性
 com.aspose.imaging.imageoptions.BmpOptions bmpOptions = new com.aspose.imaging.imageoptions.BmpOptions();
 bmpOptions.setBitsPerPixel(24);
 
-//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source。
-//第二个布尔参数决定要创建的文件是否为 IsTemporal。
+//创建 FileCreateSource 的实例并将其指定为 BmpOptions 实例的 Source
+//第二个 Boolean 参数决定要创建的文件是否为 IsTemporal。
 bmpOptions.setSource(new com.aspose.imaging.sources.FileCreateSource("C:\\temp\\sample.bmp", false));
 
 //创建 Image 的实例
@@ -88,7 +88,7 @@ public FileCreateSource(String filePath, boolean isTemporal)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | java.lang.String | 要创建的文件路径。 |
-| isTemporal | boolean | 如果设置为 `true`，创建的文件将是临时的。 |
+| isTemporal | boolean | 如果设置为 `true`，创建的文件将为临时文件。 |
 
 ### getFilePath() {#getFilePath--}
 ```
@@ -108,9 +108,9 @@ public boolean isTemporal()
 ```
 
 
-获取一个值，指示文件是否为临时文件。
+获取指示文件是否为临时文件的值。
 
-值：如果文件将是临时的则为 `true`；否则为 `false`。
+值：如果文件为临时文件则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -125,4 +125,4 @@ public StreamContainer getStreamContainer()
 **Returns:**
 [StreamContainer](../../com.aspose.imaging/streamcontainer) - the stream container.
 
-请谨慎使用。检索后需要释放流容器。
+请谨慎使用。检索后您需要释放流容器。

@@ -1,6 +1,6 @@
 ---
 title: "RdOptimizerSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "RD 优化器设置类"
 type: docs
 weight: 42
@@ -24,14 +24,14 @@ RD 优化器设置类
 | --- | --- |
 | [getBppScale()](#getBppScale--) | 获取 BPP（每像素位数）缩放因子。 |
 | [setBppScale(int value)](#setBppScale-int-) | 设置 BPP（每像素位数）缩放因子。 |
-| [getBppMax()](#getBppMax--) | 获取以每像素位数考虑的最大 R 值 |
-| [setBppMax(double value)](#setBppMax-double-) | 设置以每像素位数考虑的最大 R 值 |
+| [getBppMax()](#getBppMax--) | 获取在每像素位数中考虑的最大 R 值 |
+| [setBppMax(double value)](#setBppMax-double-) | 设置在每像素位数中考虑的最大 R 值 |
 | [getMaxQ()](#getMaxQ--) | 获取最大量化值。 |
 | [setMaxQ(int value)](#setMaxQ-int-) | 设置最大量化值。 |
 | [getMinQ()](#getMinQ--) | 获取允许的最小量化值。 |
 | [getMaxPixelValue()](#getMaxPixelValue--) | 获取最大像素值。 |
-| [getPsnrMax()](#getPsnrMax--) | 获取 PSNR 的最大预期值。 |
-| [getDiscretizedBppMax()](#getDiscretizedBppMax--) | 获取考虑的最大 R 值。 |
+| [getPsnrMax()](#getPsnrMax--) | 获取 PSNR 最大预期值。 |
+| [getDiscretizedBppMax()](#getDiscretizedBppMax--) | 获取用于考虑的最大 R 值。 |
 | [create()](#create--) | 创建此实例。 |
 ### RdOptimizerSettings() {#RdOptimizerSettings--}
 ```
@@ -50,7 +50,7 @@ public int getBppScale()
 获取 BPP（每像素位数）缩放因子。
 
 **Returns:**
-int - BPP 缩放。
+int - BPP 比例。
 ### setBppScale(int value) {#setBppScale-int-}
 ```
 public void setBppScale(int value)
@@ -62,7 +62,7 @@ public void setBppScale(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | BPP 缩放。 |
+| 值 | int | BPP 比例。 |
 
 ### getBppMax() {#getBppMax--}
 ```
@@ -70,22 +70,22 @@ public double getBppMax()
 ```
 
 
-获取以每像素位数考虑的最大 R 值
+获取在每像素位数中考虑的最大 R 值
 
 **Returns:**
-double - 以每像素位数考虑的最大 R 值。
+double - 每像素位数中用于考虑的最大 R 值。
 ### setBppMax(double value) {#setBppMax-double-}
 ```
 public void setBppMax(double value)
 ```
 
 
-设置以每像素位数考虑的最大 R 值
+设置在每像素位数中考虑的最大 R 值
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 每像素位数中考虑的最大 R 值。 |
+| 值 | double | 每像素位数中用于考虑的最大 R 值。 |
 
 ### getMaxQ() {#getMaxQ--}
 ```
@@ -108,7 +108,7 @@ public void setMaxQ(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 最大量化值。 |
+| 值 | int | 最大量化值。 |
 
 ### getMinQ() {#getMinQ--}
 ```
@@ -136,7 +136,7 @@ public int getPsnrMax()
 ```
 
 
-获取 PSNR 的最大预期值。
+获取 PSNR 最大预期值。
 
 **Returns:**
 int - 最大像素值。
@@ -146,10 +146,10 @@ public int getDiscretizedBppMax()
 ```
 
 
-获取考虑的最大 R 值。
+获取用于考虑的最大 R 值。
 
 **Returns:**
-int - 考虑的最大 R 值。
+int - 用于考虑的最大 R 值。
 ### create() {#create--}
 ```
 public static RdOptimizerSettings create()

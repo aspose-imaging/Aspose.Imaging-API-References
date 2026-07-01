@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusPathPointFlags"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "一个 32 位无符号整数，指定如何解释此对象定义的点及其关联的点类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "一个 32 位无符号整数，用于指定如何解释此对象定义的点及其关联的点类型。"
 type: docs
 weight: 38
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointflags/

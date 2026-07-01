@@ -1,7 +1,7 @@
 ---
 title: "GifUnknownExtensionBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 未知扩展块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 未知扩展块。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.gif.GifBlock](../../com.aspose
 public class GifUnknownExtensionBlock extends GifBlock
 ```
 
-Gif 未知扩展块.
+Gif 未知扩展块。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -74,7 +74,7 @@ public void setExtensionLabel(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getUnknownData() {#getUnknownData--}
 ```
@@ -101,5 +101,5 @@ public void setUnknownData(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

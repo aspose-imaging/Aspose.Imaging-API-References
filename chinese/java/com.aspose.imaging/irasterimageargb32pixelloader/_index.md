@@ -1,6 +1,6 @@
 ---
 title: "IRasterImageArgb32PixelLoader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "光栅图像 32 位 ARGB 像素加载器。"
 type: docs
 weight: 145

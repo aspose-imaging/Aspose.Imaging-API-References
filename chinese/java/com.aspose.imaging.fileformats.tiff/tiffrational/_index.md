@@ -1,7 +1,7 @@
 ---
 title: "TiffRational"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "tiff 有理数类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "TIFF 有理数类型。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.fileformats.tiff/tiffrational/
@@ -12,7 +12,7 @@ java.lang.Object
 public class TiffRational
 ```
 
-tiff 有理数类型。
+TIFF 有理数类型。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -59,9 +59,9 @@ public TiffRational(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-|  | value | long | 分子值。 |
+|  | 值 | long | 分子值。 |
 
-分子将用作指定的值，且分母将等于 1。 |
+分子将用作指定的值，分母将等于 1。 |
 
 ### TiffRational(long nominator, long denominator) {#TiffRational-long-long-}
 ```
@@ -96,8 +96,8 @@ public static TiffRational approximateFraction(double value, double epsilon)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 值。 |
-| epsilon | double | 允许的误差。 |
+| 值 | double | 值。 |
+| ε | double | 允许的误差。 |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `epsilon`.
@@ -112,7 +112,7 @@ public static TiffRational approximateFraction(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 值。 |
+| 值 | double | 值。 |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `Epsilon`.
@@ -127,8 +127,8 @@ public static TiffRational approximateFraction(float value, double epsilon)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
-| epsilon | double | 允许的误差。 |
+| 值 | float | 值。 |
+| ε | double | 允许的误差。 |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `epsilon`.
@@ -143,7 +143,7 @@ public static TiffRational approximateFraction(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 值。 |
+| 值 | float | 值。 |
 
 **Returns:**
 [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) - A rational number having error less than `Epsilon`.
@@ -179,7 +179,7 @@ public float getValue()
 
 获取 float 值。
 
-值：float 值。
+值：浮点值。
 
 **Returns:**
 float
@@ -219,7 +219,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于与此实例比较的 `Object`。 |
 
 **Returns:**
-布尔值 - 如果指定的 `Object` 等于此实例则为 `true`；否则为 `false`。
+布尔值 - 如果指定的 `Object` 等于此实例，则为 `true`；否则为 `false`。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

@@ -1,6 +1,6 @@
 ---
 title: "IOrderedShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示有序形状。"
 type: docs
 weight: 140

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusSetCompositingMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该 EmfPlusSetCompositingMode 记录指定源颜色如何与背景颜色组合。"
 type: docs
 weight: 58
@@ -35,7 +35,7 @@ public EmfPlusSetCompositingMode(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCompositingMode() {#getCompositingMode--}
 ```
@@ -45,7 +45,7 @@ public byte getCompositingMode()
 
 获取或设置合成模式值，来自 CompositingMode 枚举（第 2.1.1.5 节）。合成可以表示为 alpha 混合的状态，可能开启或关闭。
 
-值: 合成模式。
+值：合成模式。
 
 **Returns:**
 byte
@@ -57,10 +57,10 @@ public void setCompositingMode(byte value)
 
 获取或设置合成模式值，来自 CompositingMode 枚举（第 2.1.1.5 节）。合成可以表示为 alpha 混合的状态，可能开启或关闭。
 
-值: 合成模式。
+值：合成模式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

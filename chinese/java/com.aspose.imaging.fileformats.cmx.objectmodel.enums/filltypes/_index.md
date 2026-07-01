@@ -1,7 +1,7 @@
 ---
 title: "填充类型"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "画笔的填充类型。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "画刷的填充类型。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/
@@ -12,12 +12,12 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class FillTypes extends System.Enum
 ```
 
-画笔的填充类型。
+画刷的填充类型。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Unknown](#Unknown) | 未知填充类型。 |
+| [Unknown](#Unknown) | 未知的填充类型。 |
 | [NoFill](#NoFill) | 不需要填充 |
 | [Uniform](#Uniform) | 均匀填充。 |
 | [Fountain](#Fountain) | 喷泉填充。 |
@@ -32,7 +32,7 @@ public static final int Unknown
 ```
 
 
-未知填充类型。
+未知的填充类型。
 
 ### NoFill {#NoFill}
 ```
@@ -48,7 +48,7 @@ public static final int Uniform
 ```
 
 
-均匀填充。应用纯色填充。
+均匀填充。应用实色填充。
 
 ### Fountain {#Fountain}
 ```

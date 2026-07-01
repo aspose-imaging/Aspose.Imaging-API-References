@@ -1,6 +1,6 @@
 ---
-title: "单位"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "Units"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CMX 文档的基本单位。"
 type: docs
 weight: 20

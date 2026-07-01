@@ -1,6 +1,6 @@
 ---
 title: "DjvuPage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Djvu 页面类"
 type: docs
 weight: 11
@@ -17,7 +17,7 @@ Djvu 页面类
 
 | 字段 | 描述 |
 | --- | --- |
-| [PageExportedAction](#PageExportedAction) | 当 [page exported action] 发生时。 |
+| [PageExportedAction](#PageExportedAction) | 当 [page exported action] 发生。 |
 | [PropertyChanged](#PropertyChanged) | 当属性值更改时发生。 |
 ## 方法
 
@@ -28,8 +28,8 @@ Djvu 页面类
 | [getWidth()](#getWidth--) | 获取页面的宽度 |
 | [getHeight()](#getHeight--) | 获取页面的高度 |
 | [getImage()](#getImage--) | 获取图像。 |
-| [getThumbnailImage()](#getThumbnailImage--) | 获取或设置页面的缩略图 |
-| [setThumbnailImage(DjvuRaster value)](#setThumbnailImage-com.aspose.imaging.fileformats.djvu.DjvuRaster-) | 获取或设置页面的缩略图 |
+| [getThumbnailImage()](#getThumbnailImage--) | 获取或设置页面的缩略图像 |
+| [setThumbnailImage(DjvuRaster value)](#setThumbnailImage-com.aspose.imaging.fileformats.djvu.DjvuRaster-) | 获取或设置页面的缩略图像 |
 | [getPageNumber()](#getPageNumber--) | 获取页码。 |
 | [isColor()](#isColor--) | 获取一个值，指示此实例是否为彩色。 |
 | [getTextForLocation(Rectangle rect)](#getTextForLocation-com.aspose.imaging.Rectangle-) | 获取矩形位置的文本 |
@@ -38,14 +38,14 @@ Djvu 页面类
 | [getTextImage()](#getTextImage--) | 获取文本图像。 |
 | [getTextImage(int subsample)](#getTextImage-int-) | 获取文本图像。 |
 | [getBackgroundImage()](#getBackgroundImage--) | 获取背景图像。 |
-| [extractThumbnailImage()](#extractThumbnailImage--) | 从 Djvu 页面提取缩略图。 |
+| [extractThumbnailImage()](#extractThumbnailImage--) | 从 Djvu 页面提取缩略图像。 |
 ### PageExportedAction {#PageExportedAction}
 ```
 public static final DefEvent<OnPageExportedAction> PageExportedAction
 ```
 
 
-当 [page exported action] 发生时。
+当 [page exported action] 发生。
 
 ### PropertyChanged {#PropertyChanged}
 ```
@@ -121,9 +121,9 @@ public DjvuRaster getThumbnailImage()
 ```
 
 
-获取或设置页面的缩略图
+获取或设置页面的缩略图像
 
-值：缩略图。
+值：缩略图像。
 
 **Returns:**
 [DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster)
@@ -133,9 +133,9 @@ public void setThumbnailImage(DjvuRaster value)
 ```
 
 
-获取或设置页面的缩略图
+获取或设置页面的缩略图像
 
-值：缩略图。
+值：缩略图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -186,16 +186,16 @@ try {
 //输出可能如下所示：
 //总页数：2
 //当前页码：    1
-//第一页号：     1
-//最后页码：      2
+//第一页页码：     1
+//最后一页页码：      2
 //--------------------------------------------------
 //页码：     1
 //页面大小：       { Width = 2481, Height = 3508}
-//页面原始格式：RgbIndexed1Bpp，使用的通道： 1
+//页面原始格式：RgbIndexed1Bpp，使用的通道数：1
 //--------------------------------------------------
 //页码：     2
 //页面大小：       { Width = 2481, Height = 3508}
-//页面原始格式：RgbIndexed1Bpp，使用的通道： 1
+//页面原始格式：RgbIndexed1Bpp，使用的通道数：1
 ```
 
 ### isColor() {#isColor--}
@@ -206,7 +206,7 @@ public boolean isColor()
 
 获取一个值，指示此实例是否为彩色。
 
-值：如果此实例为颜色，则为 `true`；否则为 `false`。
+值：如果此实例为颜色则为 `true`；否则为 `false`。
 
 **Returns:**
 boolean
@@ -291,7 +291,7 @@ public DjvuRaster extractThumbnailImage()
 ```
 
 
-从 Djvu 页面提取缩略图。
+从 Djvu 页面提取缩略图像。
 
 **Returns:**
 [DjvuRaster](../../com.aspose.imaging.fileformats.djvu/djvuraster) - The DjVu raster image.

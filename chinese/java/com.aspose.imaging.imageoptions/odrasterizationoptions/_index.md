@@ -1,7 +1,7 @@
 ---
 title: "OdRasterizationOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Odg 光栅化选项"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Odg 光栅化选项。"
 type: docs
 weight: 32
 url: /zh/java/com.aspose.imaging.imageoptions/odrasterizationoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.imageoptions.VectorRasterizationOptions](.
 public class OdRasterizationOptions extends VectorRasterizationOptions
 ```
 
-Odg 光栅化选项
+Odg 光栅化选项。
 ## 构造函数
 
 | 构造函数 | 描述 |

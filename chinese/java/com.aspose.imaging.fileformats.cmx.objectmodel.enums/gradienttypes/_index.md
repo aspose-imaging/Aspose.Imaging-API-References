@@ -1,6 +1,6 @@
 ---
 title: "GradientTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "渐变填充类型"
 type: docs
 weight: 14
@@ -27,7 +27,7 @@ public static final int Linear
 ```
 
 
-线性喷泉填充。应用一种沿线性路径逐渐改变颜色的填充。
+线性喷泉填充。应用一种沿线性路径逐渐变化颜色的填充。
 
 ### Elliptical {#Elliptical}
 ```
@@ -35,7 +35,7 @@ public static final int Elliptical
 ```
 
 
-椭圆形喷泉填充。应用一种从中心向外逐渐在具体椭圆中改变颜色的填充。
+椭圆形喷泉填充。应用一种从中心向外逐渐在具体椭圆中变化颜色的填充。
 
 ### Conical {#Conical}
 ```
@@ -43,7 +43,7 @@ public static final int Conical
 ```
 
 
-圆锥形喷泉填充。应用一种在圆锥形状中逐渐改变颜色的填充。
+圆锥形喷泉填充。应用一种在圆锥形状中逐渐变化颜色的填充。
 
 ### Rectangular {#Rectangular}
 ```
@@ -51,5 +51,5 @@ public static final int Rectangular
 ```
 
 
-矩形喷泉填充。应用一种从中心向外在具体矩形中逐渐改变颜色的填充。
+矩形喷泉填充。应用一种从中心向外在具体矩形中逐渐变化颜色的填充。
 

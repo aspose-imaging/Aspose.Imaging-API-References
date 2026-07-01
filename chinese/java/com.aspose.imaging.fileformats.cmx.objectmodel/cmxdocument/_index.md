@@ -1,7 +1,7 @@
 ---
 title: "CmxDocument"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "CMX 文档。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 CMX 文档。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
@@ -12,12 +12,12 @@ java.lang.Object
 public class CmxDocument
 ```
 
-CMX 文档。
+该 CMX 文档。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CmxDocument()](#CmxDocument--) | 初始化 [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) 类的新实例。 |
+| [CmxDocument()](#CmxDocument--) | 初始化一个新的 [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -30,7 +30,7 @@ public CmxDocument()
 ```
 
 
-初始化 [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) 类的新实例。
+初始化一个新的 [CmxDocument](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxdocument) 类实例。
 
 ### getPages() {#getPages--}
 ```

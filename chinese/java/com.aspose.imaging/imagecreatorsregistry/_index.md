@@ -1,6 +1,6 @@
 ---
 title: "ImageCreatorsRegistry"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示图像创建者注册表。"
 type: docs
 weight: 58
@@ -20,8 +20,8 @@ public final class ImageCreatorsRegistry
 | [getRegisteredFormats()](#getRegisteredFormats--) | 获取已注册的图像创建格式。 |
 | [getRegisteredDescriptors()](#getRegisteredDescriptors--) | 获取已注册的描述符。 |
 | [register(IImageCreatorDescriptor creatorDescriptor)](#register-com.aspose.imaging.IImageCreatorDescriptor-) | 注册指定的图像创建器描述符。 |
-| [getFirstSupportedDescriptor(ImageOptionsBase imageOptions)](#getFirstSupportedDescriptor-com.aspose.imaging.ImageOptionsBase-) | 获取首次找到的适用于指定的受支持描述符。 |
-| [createFirstSupportedCreator(ImageOptionsBase imageOptions)](#createFirstSupportedCreator-com.aspose.imaging.ImageOptionsBase-) | 创建首次找到的适用于指定的创建器。 |
+| [getFirstSupportedDescriptor(ImageOptionsBase imageOptions)](#getFirstSupportedDescriptor-com.aspose.imaging.ImageOptionsBase-) | 获取第一个找到的适用于指定项的受支持描述符。 |
+| [createFirstSupportedCreator(ImageOptionsBase imageOptions)](#createFirstSupportedCreator-com.aspose.imaging.ImageOptionsBase-) | 创建第一个找到的适用于指定项的创建器。 |
 | [registerCreator(IImageCreatorDescriptor creatorDescriptor)](#registerCreator-com.aspose.imaging.IImageCreatorDescriptor-) | 注册创建器。 |
 | [unregisterCreator(IImageCreatorDescriptor creatorDescriptor)](#unregisterCreator-com.aspose.imaging.IImageCreatorDescriptor-) | 注销创建器。 |
 ### getRegisteredFormats() {#getRegisteredFormats--}
@@ -67,7 +67,7 @@ public static IImageCreatorDescriptor getFirstSupportedDescriptor(ImageOptionsBa
 ```
 
 
-获取首次找到的适用于指定的受支持描述符。
+获取第一个找到的适用于指定项的受支持描述符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -84,7 +84,7 @@ public static IImageCreator createFirstSupportedCreator(ImageOptionsBase imageOp
 ```
 
 
-创建首次找到的适用于指定的创建器。
+创建第一个找到的适用于指定项的创建器。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

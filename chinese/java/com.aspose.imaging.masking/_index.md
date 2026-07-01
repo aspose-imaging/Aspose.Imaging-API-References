@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.imaging.masking"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该软件包处理 ImageMasking。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包处理 ImageMasking。"
 type: docs
 weight: 99
 url: /zh/java/com.aspose.imaging.masking/
 ---
 
-该软件包处理 ImageMasking。
+该包处理 ImageMasking。
 
 
 ## 类

@@ -1,6 +1,6 @@
 ---
 title: "EmfColorCorrectPalette"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_COLORCORRECTPALETTE 记录指定如何使用 WCS 1.0 值校正逻辑调色板对象的条目。"
 type: docs
 weight: 23
@@ -39,7 +39,7 @@ public EmfColorCorrectPalette(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getIhPalette() {#getIhPalette--}
 ```
@@ -62,7 +62,7 @@ public void setIhPalette(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getNFirstEntry() {#getNFirstEntry--}
 ```
@@ -85,7 +85,7 @@ public void setNFirstEntry(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getNPalEntries() {#getNPalEntries--}
 ```
@@ -108,5 +108,5 @@ public void setNPalEntries(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

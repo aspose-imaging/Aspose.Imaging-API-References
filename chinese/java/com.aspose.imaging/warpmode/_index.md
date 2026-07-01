@@ -1,6 +1,6 @@
 ---
 title: "WarpMode"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定所应用的扭曲变换类型。"
 type: docs
 weight: 119

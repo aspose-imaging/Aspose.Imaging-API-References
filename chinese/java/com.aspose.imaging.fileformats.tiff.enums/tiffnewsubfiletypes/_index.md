@@ -1,6 +1,6 @@
 ---
 title: "TiffNewSubFileTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "tiff 新子文件类型枚举。"
 type: docs
 weight: 18

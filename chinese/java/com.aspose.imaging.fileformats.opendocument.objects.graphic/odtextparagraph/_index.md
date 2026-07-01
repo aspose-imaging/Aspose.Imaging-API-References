@@ -1,6 +1,6 @@
 ---
 title: "OdTextParagraph"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "文本段落"
 type: docs
 weight: 44
@@ -35,7 +35,7 @@ public OdTextParagraph(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getText() {#getText--}
 ```
@@ -58,5 +58,5 @@ public final void setText(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 文本。 |
+| 值 | java.lang.String | 文本。 |
 

@@ -1,13 +1,13 @@
 ---
 title: "WmfSetPalentries"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_SETPALENTRIES 记录定义了回放设备上下文中逻辑调色板范围内的 RGB 颜色值。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_SETPALENTRIES 记录定义了在回放设备上下文中定义的逻辑调色板范围内的 RGB 颜色值。"
 type: docs
 weight: 79
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetPalentries extends WmfObject
 ```
@@ -22,8 +22,8 @@ META\_SETPALENTRIES 记录在播放设备上下文中定义的逻辑调色板的
 
 | 方法 | 描述 |
 | --- | --- |
-| [getLogPalette()](#getLogPalette--) | 获取或设置日志调色板。 |
-| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | 获取或设置日志调色板。 |
+| [getLogPalette()](#getLogPalette--) | 获取或设置逻辑调色板。 |
+| [setLogPalette(EmfLogPalette value)](#setLogPalette-com.aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette-) | 获取或设置逻辑调色板。 |
 | [getStart()](#getStart--) | 获取或设置起始位置。 |
 | [setStart(int value)](#setStart-int-) | 获取或设置起始位置。 |
 ### WmfSetPalentries() {#WmfSetPalentries--}
@@ -38,7 +38,7 @@ public EmfLogPalette getLogPalette()
 ```
 
 
-获取或设置日志调色板。
+获取或设置逻辑调色板。
 
 值：逻辑调色板。
 
@@ -50,7 +50,7 @@ public void setLogPalette(EmfLogPalette value)
 ```
 
 
-获取或设置日志调色板。
+获取或设置逻辑调色板。
 
 值：逻辑调色板。
 
@@ -84,5 +84,5 @@ public void setStart(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

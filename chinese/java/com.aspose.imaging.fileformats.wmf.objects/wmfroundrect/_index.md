@@ -1,6 +1,6 @@
 ---
 title: "WmfRoundRect"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "矩形对象。"
 type: docs
 weight: 65
@@ -40,10 +40,10 @@ public short getHeight()
 
 获取或设置高度。
 
-值：用于绘制圆角的椭圆的高度（逻辑坐标）。
+值：用于绘制圆角的椭圆在逻辑坐标中的高度。
 
 **Returns:**
-short
+短
 ### setHeight(short value) {#setHeight-short-}
 ```
 public void setHeight(short value)
@@ -52,12 +52,12 @@ public void setHeight(short value)
 
 获取或设置高度。
 
-值：用于绘制圆角的椭圆的高度（逻辑坐标）。
+值：用于绘制圆角的椭圆在逻辑坐标中的高度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 
 ### getWidth() {#getWidth--}
 ```
@@ -67,10 +67,10 @@ public short getWidth()
 
 获取或设置宽度。
 
-值：用于绘制圆角的椭圆的宽度（逻辑坐标）。
+值：用于绘制圆角的椭圆在逻辑坐标中的宽度。
 
 **Returns:**
-short
+短
 ### setWidth(short value) {#setWidth-short-}
 ```
 public void setWidth(short value)
@@ -79,10 +79,10 @@ public void setWidth(short value)
 
 获取或设置宽度。
 
-值：用于绘制圆角的椭圆的宽度（逻辑坐标）。
+值：用于绘制圆角的椭圆在逻辑坐标中的宽度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | short |  |
+| 值 | 短 |  |
 

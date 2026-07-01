@@ -1,6 +1,6 @@
 ---
 title: "WmfArc"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_ARC 记录绘制椭圆弧。"
 type: docs
 weight: 11
@@ -40,7 +40,7 @@ public Point getEndArc()
 
 获取或设置结束弧。
 
-值：定义结束的径向线的终点坐标。
+值：定义结束的径向线的结束点坐标
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -52,7 +52,7 @@ public void setEndArc(Point value)
 
 获取或设置结束弧。
 
-值：定义结束的径向线的终点坐标。
+值：定义结束的径向线的结束点坐标
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -67,7 +67,7 @@ public Point getStartArc()
 
 获取或设置起始弧。
 
-值：以逻辑单位表示的定义弧起始点的径向线的终点坐标。
+值：以逻辑单位表示的定义弧起始点的径向线的结束点坐标
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -79,7 +79,7 @@ public void setStartArc(Point value)
 
 获取或设置起始弧。
 
-值：以逻辑单位表示的定义弧起始点的径向线的终点坐标。
+值：以逻辑单位表示的定义弧起始点的径向线的结束点坐标
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

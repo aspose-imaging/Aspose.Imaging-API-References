@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBlendColors"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBlendColors 对象指定渐变画笔的混合模式的位置信息和颜色。"
 type: docs
 weight: 17
@@ -22,8 +22,8 @@ EmfPlusBlendColors 对象指定渐变画笔的混合模式的位置信息和颜�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBlendArgb32Colors()](#getBlendArgb32Colors--) | 获取或设置一个 PositionCount EmfPlusARGB 对象数组（第 2.2.2.1 节），用于指定在 BlendPositions 字段定义的位置处的颜色。 |
-| [setBlendArgb32Colors(int[] value)](#setBlendArgb32Colors-int---) | 获取或设置一个 PositionCount EmfPlusARGB 对象数组（第 2.2.2.1 节），用于指定在 BlendPositions 字段定义的位置处的颜色。 |
+| [getBlendArgb32Colors()](#getBlendArgb32Colors--) | 获取或设置一个包含 PositionCount 个 EmfPlusARGB 对象（第 2.2.2.1 节）的数组，这些对象指定 BlendPositions 字段中定义位置的颜色。 |
+| [setBlendArgb32Colors(int[] value)](#setBlendArgb32Colors-int---) | 获取或设置一个包含 PositionCount 个 EmfPlusARGB 对象（第 2.2.2.1 节）的数组，这些对象指定 BlendPositions 字段中定义位置的颜色。 |
 ### EmfPlusBlendColors() {#EmfPlusBlendColors--}
 ```
 public EmfPlusBlendColors()
@@ -36,7 +36,7 @@ public int[] getBlendArgb32Colors()
 ```
 
 
-获取或设置一个 PositionCount EmfPlusARGB 对象数组（第 2.2.2.1 节），用于指定在 BlendPositions 字段定义的位置处的颜色。
+获取或设置一个包含 PositionCount 个 EmfPlusARGB 对象（第 2.2.2.1 节）的数组，这些对象指定 BlendPositions 字段中定义位置的颜色。
 
 **Returns:**
 int[]
@@ -46,10 +46,10 @@ public void setBlendArgb32Colors(int[] value)
 ```
 
 
-获取或设置一个 PositionCount EmfPlusARGB 对象数组（第 2.2.2.1 节），用于指定在 BlendPositions 字段定义的位置处的颜色。
+获取或设置一个包含 PositionCount 个 EmfPlusARGB 对象（第 2.2.2.1 节）的数组，这些对象指定 BlendPositions 字段中定义位置的颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] |  |
+| 值 | int[] |  |
 

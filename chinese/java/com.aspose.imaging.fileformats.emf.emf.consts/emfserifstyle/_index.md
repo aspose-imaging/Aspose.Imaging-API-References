@@ -1,6 +1,6 @@
 ---
 title: "EmfSerifStyle"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "SerifType 枚举定义了 PANOSE 系统中用于分类字体的特征之一的取值"
 type: docs
 weight: 40
@@ -18,13 +18,13 @@ SerifType 枚举定义了 PANOSE 系统中用于分类字体的特征之一的�
 | 字段 | 描述 |
 | --- | --- |
 | [PAN_ANY](#PAN-ANY) | 任意样式。 |
-| [PAN_NO_FIT](#PAN-NO-FIT) | 不匹配样式。 |
-| [PAN_SERIF_COVE](#PAN-SERIF-COVE) | 凹形样式。 |
+| [PAN_NO_FIT](#PAN-NO-FIT) | 不适配样式。 |
+| [PAN_SERIF_COVE](#PAN-SERIF-COVE) | 海湾样式。 |
 | [PAN_SERIF_OBTUSE_COVE](#PAN-SERIF-OBTUSE-COVE) | 钝角海湾样式。 |
 | [PAN_SERIF_SQUARE_COVE](#PAN-SERIF-SQUARE-COVE) | 方形海湾样式。 |
 | [PAN_SERIF_OBTUSE_SQUARE_COVE](#PAN-SERIF-OBTUSE-SQUARE-COVE) | 钝角方形海湾样式。 |
 | [PAN_SERIF_SQUARE](#PAN-SERIF-SQUARE) | 方形样式。 |
-| [PAN_SERIF_THIN](#PAN-SERIF-THIN) | 细长样式。 |
+| [PAN_SERIF_THIN](#PAN-SERIF-THIN) | 细体样式。 |
 | [PAN_SERIF_BONE](#PAN-SERIF-BONE) | 骨骼样式。 |
 | [PAN_SERIF_EXAGGERATED](#PAN-SERIF-EXAGGERATED) | 夸张样式。 |
 | [PAN_SERIF_TRIANGLE](#PAN-SERIF-TRIANGLE) | 三角形样式。 |
@@ -47,7 +47,7 @@ public static final byte PAN_NO_FIT
 ```
 
 
-不匹配样式。
+不适配样式。
 
 ### PAN_SERIF_COVE {#PAN-SERIF-COVE}
 ```
@@ -55,7 +55,7 @@ public static final byte PAN_SERIF_COVE
 ```
 
 
-凹形样式。
+海湾样式。
 
 ### PAN_SERIF_OBTUSE_COVE {#PAN-SERIF-OBTUSE-COVE}
 ```
@@ -95,7 +95,7 @@ public static final byte PAN_SERIF_THIN
 ```
 
 
-细长样式。
+细体样式。
 
 ### PAN_SERIF_BONE {#PAN-SERIF-BONE}
 ```

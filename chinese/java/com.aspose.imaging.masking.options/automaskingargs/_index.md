@@ -1,7 +1,7 @@
 ---
 title: "AutoMaskingArgs"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示为自动掩码方法指定的参数"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示为自动遮罩方法指定的参数"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.imaging.masking.options/automaskingargs/
@@ -15,7 +15,7 @@ java.lang.Object
 public class AutoMaskingArgs implements IMaskingArgs
 ```
 
-表示为自动掩码方法指定的参数
+表示为自动遮罩方法指定的参数
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -25,12 +25,12 @@ public class AutoMaskingArgs implements IMaskingArgs
 
 | 方法 | 描述 |
 | --- | --- |
-| [getNumberOfObjects()](#getNumberOfObjects--) | 获取要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。 |
-| [setNumberOfObjects(int value)](#setNumberOfObjects-int-) | 设置要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。 |
-| [getObjectsRectangles()](#getObjectsRectangles--) | 获取属于分离对象的对象矩形（可选）。 |
-| [setObjectsRectangles(Rectangle[] value)](#setObjectsRectangles-com.aspose.imaging.Rectangle---) | 设置属于分离对象的对象矩形（可选）。 |
-| [getObjectsPoints()](#getObjectsPoints--) | 获取属于分离对象的点（可选）NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。 |
-| [setObjectsPoints(Point[][] value)](#setObjectsPoints-com.aspose.imaging.Point-----) | 设置属于分离对象的点（可选）NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。 |
+| [getNumberOfObjects()](#getNumberOfObjects--) | 获取将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。 |
+| [setNumberOfObjects(int value)](#setNumberOfObjects-int-) | 设置将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。 |
+| [getObjectsRectangles()](#getObjectsRectangles--) | 获取属于已分割对象的矩形（可选）。 |
+| [setObjectsRectangles(Rectangle[] value)](#setObjectsRectangles-com.aspose.imaging.Rectangle---) | 设置属于已分割对象的矩形（可选）。 |
+| [getObjectsPoints()](#getObjectsPoints--) | 获取属于已分割对象的点（可选），NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。 |
+| [setObjectsPoints(Point[][] value)](#setObjectsPoints-com.aspose.imaging.Point-----) | 设置属于已分割对象的点（可选），NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。 |
 | [getOrphanedPoints()](#getOrphanedPoints--) | 获取不再属于任何对象的点（可选）。 |
 | [setOrphanedPoints(Point[] value)](#setOrphanedPoints-com.aspose.imaging.Point---) | 设置不再属于任何对象的点（可选）。 |
 | [getPrecision()](#getPrecision--) | 获取分割方法的精度（可选）。 |
@@ -39,7 +39,7 @@ public class AutoMaskingArgs implements IMaskingArgs
 | [setMaxIterationNumber(int value)](#setMaxIterationNumber-int-) | 设置最大迭代次数。 |
 
 ## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
-此示例展示如何使用图像掩码和 K-means 分割算法将光栅图像分解为多个图像。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何使用图像掩码和 K 均值分割算法将光栅图像分解为多个图像。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -53,7 +53,7 @@ try {
     // 设置最大迭代次数。
     args.setMaxIterationNumber(50);
 
-    // 设置分割方法的精度（可选）。
+    // 设置分割方法的精度（可选）
     args.setPrecision(1);
 
     // 每个簇（段）将存储为单独的 PNG 文件。
@@ -63,8 +63,8 @@ try {
 
     com.aspose.imaging.masking.options.MaskingOptions maskingOptions = new com.aspose.imaging.masking.options.MaskingOptions();
 
-    // 使用 K-means 聚类。
-    // K-means 聚类可以将图像拆分为多个独立的簇（段）。
+    // 使用 K 均值聚类。
+    // K 均值聚类可以将图像分割为多个独立的簇（段）。
     maskingOptions.setMethod(com.aspose.imaging.masking.options.SegmentationMethod.KMeans);
     maskingOptions.setDecompose(true);
     maskingOptions.setArgs(args);
@@ -103,7 +103,7 @@ try {
 
 
 ## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
-此示例展示如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
+本示例展示了如何为图像掩码算法指定建议，以提高分割（聚类）方法的精度。图像掩码是一种用于将背景与前景图像对象分离的图像处理技术。
 ``` java
 String dir = "c:\\temp\\";
 
@@ -119,7 +119,7 @@ try {
             });
 
     // 建议 #2。
-    // 对图像进行视觉分析并设置属于分离对象的点。
+    // 对图像进行可视化分析并设置属于分离对象的点。
     args.setObjectsPoints(new com.aspose.imaging.Point[][]
             {
                     new com.aspose.imaging.Point[]{new com.aspose.imaging.Point(103, 326)},
@@ -197,7 +197,7 @@ try
 {
     com.aspose.imaging.Size imageSize = image.getSize();
 
-    // 减小图像尺寸以加快分割过程
+    // 缩小图像尺寸以加快分割过程
     image.resizeHeightProportionally(600, com.aspose.imaging.ResizeType.HighQualityResample);
 
     // 创建 ImageMasking 类的实例。
@@ -211,7 +211,7 @@ try
         com.aspose.imaging.RasterImage foregroundMask = maskingResult.get_Item(1).getMask();
         try
         {
-            // 将掩码的大小增加到原始图像的尺寸
+            // 将掩码的尺寸扩大到原始图像的大小
             foregroundMask.resize(imageSize.getWidth(), imageSize.getHeight(), com.aspose.imaging.ResizeType.NearestNeighbourResample);
 
             // 将掩码应用于原始图像以获得前景段
@@ -265,7 +265,7 @@ maskingOptions.setArgs(new com.aspose.imaging.masking.options.AutoMaskingArgs())
 maskingOptions.setBackgroundReplacementColor(com.aspose.imaging.Color.getOrange());
 maskingOptions.setExportOptions(exportOptions);
 
-// 首次启动会话并保存到文件
+// 首次启动会话并保存到文件中。
 com.aspose.imaging.RasterImage image = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -305,7 +305,7 @@ finally
     image.close();
 }
 
-// 从文件恢复掩码会话
+// 从文件恢复掩码会话。
 com.aspose.imaging.RasterImage image2 = (com.aspose.imaging.RasterImage)com.aspose.imaging.Image.load(dir + "Gorilla.bmp");
 try
 {
@@ -317,7 +317,7 @@ try
     {
         com.aspose.imaging.masking.options.AutoMaskingArgs args = new com.aspose.imaging.masking.options.AutoMaskingArgs();
 
-        // 对图像进行视觉分析并设置属于分离对象的点。
+        // 对图像进行可视化分析并设置属于分离对象的点。
         args.setObjectsPoints(new Point[][]
                 {
                         new Point[]
@@ -330,7 +330,7 @@ try
         com.aspose.imaging.masking.result.MaskingResult maskingResult = session.improveDecomposition(args);
         try
         {
-            // 显式传递导出选项，因为它不可序列化
+            // 显式传输导出选项，因为它不可序列化。
             maskingResult.MaskingOptions.setExportOptions(exportOptions);
 
             com.aspose.imaging.RasterImage segmentImage = maskingResult.get_Item(1).getImage();
@@ -371,26 +371,26 @@ public final int getNumberOfObjects()
 ```
 
 
-获取要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。
+获取将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。
 
-值：对象数量。
+值：对象的数量。
 
 **Returns:**
-int - 要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。
+int - 将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。
 ### setNumberOfObjects(int value) {#setNumberOfObjects-int-}
 ```
 public final void setNumberOfObjects(int value)
 ```
 
 
-设置要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。
+设置将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。
 
-值：对象数量。
+值：对象的数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 要将初始图像分离成的对象数量（可选），默认值为 2（对象和背景）。 |
+| 值 | int | 将初始图像分割为的对象数量（可选），默认值为 2（对象和背景）。 |
 
 ### getObjectsRectangles() {#getObjectsRectangles--}
 ```
@@ -425,26 +425,26 @@ public final Point[][] getObjectsPoints()
 ```
 
 
-获取属于分离对象的点（可选）NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。此参数用于提高分割方法的精度。
+获取属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像的 NumberOfObjects 个对象。此参数用于提高分割方法的精度。
 
 值：对象点。
 
 **Returns:**
-com.aspose.imaging.Point[][] - 属于分离对象的点（可选）NumberOfObjects 坐标属于初始图像的 NumberOfObjects 对象。
+com.aspose.imaging.Point[][] - 属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像的 NumberOfObjects 个对象。
 ### setObjectsPoints(Point[][] value) {#setObjectsPoints-com.aspose.imaging.Point-----}
 ```
 public final void setObjectsPoints(Point[][] value)
 ```
 
 
-设置属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像中的 NumberOfObjects 个对象。此参数用于提高分割方法的精度。
+设置属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像的 NumberOfObjects 个对象。此参数用于提高分割方法的精度。
 
 值：对象点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Point\[\]](../../com.aspose.imaging/point) | 属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像中的 NumberOfObjects 个对象。 |
+| value | [Point\[\]](../../com.aspose.imaging/point) | 属于分离对象的点（可选）NumberOfObjects 坐标，这些坐标属于初始图像的 NumberOfObjects 个对象。 |
 
 ### getOrphanedPoints() {#getOrphanedPoints--}
 ```
@@ -498,7 +498,7 @@ public final void setPrecision(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 分割方法的精度（可选）。 |
+| 值 | double | 分割方法的精度（可选）。 |
 
 ### getMaxIterationNumber() {#getMaxIterationNumber--}
 ```
@@ -525,5 +525,5 @@ public final void setMaxIterationNumber(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 最大迭代次数。 |
+| 值 | int | 最大迭代次数。 |
 

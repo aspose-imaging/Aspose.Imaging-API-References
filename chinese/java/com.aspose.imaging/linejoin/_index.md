@@ -1,7 +1,7 @@
 ---
 title: "LineJoin"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定如何连接包含在 GraphicsPath 对象中的图形子路径的连续直线或曲线段。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "指定如何在 GraphicsPath 对象中包含的图形子路径的连续直线或曲线段之间进行连接。"
 type: docs
 weight: 69
 url: /zh/java/com.aspose.imaging/linejoin/
@@ -51,5 +51,5 @@ public static final int MiterClipped
 ```
 
 
-指定斜接连接。此操作会产生锐角或斜角，取决于斜接长度是否超过斜接限制。
+指定斜接连接。这会产生锐角或斜角，取决于斜接长度是否超过斜接限制。
 

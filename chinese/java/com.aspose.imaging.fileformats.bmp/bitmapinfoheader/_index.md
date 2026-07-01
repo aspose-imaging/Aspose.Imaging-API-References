@@ -1,6 +1,6 @@
 ---
 title: "BitmapInfoHeader"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定 BITMAPINFOHEADER。"
 type: docs
 weight: 12
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.bmp.BitmapCoreHeader](../../co
 public class BitmapInfoHeader extends BitmapCoreHeader
 ```
 
-指定 BITMAPINFOHEADER。操作系统支持：Windows NT、3.1x 或更高版本。特性：添加 16 bpp 和 32 bpp 格式。添加 RLE 压缩。
+指定 BITMAPINFOHEADER。操作系统支持：Windows NT、3.1x 或更高版本。特性：添加 16 位和 32 位像素格式。添加 RLE 压缩。
 ## 方法
 
 | 方法 | 描述 |
@@ -52,7 +52,7 @@ public void setBitmapCompression(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 位图压缩。 |
+| 值 | long | 位图压缩。 |
 
 ### getBitmapImageSize() {#getBitmapImageSize--}
 ```
@@ -75,7 +75,7 @@ public void setBitmapImageSize(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 位图原始数据大小（字节）。 |
+| 值 | long | 位图原始数据大小（字节）。 |
 
 ### getBitmapXPelsPerMeter() {#getBitmapXPelsPerMeter--}
 ```
@@ -98,7 +98,7 @@ public void setBitmapXPelsPerMeter(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 水平像素分辨率。 |
+| 值 | int | 水平像素分辨率。 |
 
 ### getBitmapYPelsPerMeter() {#getBitmapYPelsPerMeter--}
 ```
@@ -121,7 +121,7 @@ public void setBitmapYPelsPerMeter(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 垂直像素分辨率。 |
+| 值 | int | 垂直像素分辨率。 |
 
 ### getBitmapColorsUsed() {#getBitmapColorsUsed--}
 ```
@@ -144,7 +144,7 @@ public void setBitmapColorsUsed(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 使用的调色板颜色数量。 |
+| 值 | long | 使用的调色板颜色数量。 |
 
 ### getBitmapColorsImportant() {#getBitmapColorsImportant--}
 ```
@@ -155,7 +155,7 @@ public long getBitmapColorsImportant()
 获取或设置重要调色板颜色的数量。
 
 **Returns:**
-long - 重要调色板颜色的数量。
+long - 重要调色板颜色数量。
 ### setBitmapColorsImportant(long value) {#setBitmapColorsImportant-long-}
 ```
 public void setBitmapColorsImportant(long value)
@@ -167,7 +167,7 @@ public void setBitmapColorsImportant(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 重要调色板颜色的数量。 |
+| 值 | long | 重要调色板颜色数量。 |
 
 ### getExtraBitMasks() {#getExtraBitMasks--}
 ```
@@ -190,5 +190,5 @@ public void setExtraBitMasks(int[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int[] | 额外的位掩码。 |
+| 值 | int[] | 额外的位掩码。 |
 

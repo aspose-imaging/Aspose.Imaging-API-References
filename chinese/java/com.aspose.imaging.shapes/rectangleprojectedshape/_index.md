@@ -1,6 +1,6 @@
 ---
 title: "RectangleProjectedShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示投影到矩形上并旋转至特定方向的形状。"
 type: docs
 weight: 16
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.ObjectWithBounds](../../com.aspose.imaging
 public abstract class RectangleProjectedShape extends Shape
 ```
 
-表示一种形状，该形状投射在矩形上并旋转到特定方向。由四个点指定，这些点可以在空间中旋转，保持相同的边长且相邻边之间为90度。
+表示一个投射在矩形上并转向特定方向的形状。由四个点指定，这些点可以在空间中旋转，保持相同的边长且相邻边之间保持 90 度。
 ## 方法
 
 | 方法 | 描述 |
@@ -25,7 +25,7 @@ public abstract class RectangleProjectedShape extends Shape
 | [getBounds()](#getBounds--) | 获取对象的边界。 |
 | [getRectangleWidth()](#getRectangleWidth--) | 获取矩形宽度。 |
 | [getRectangleHeight()](#getRectangleHeight--) | 获取矩形高度。 |
-| [hasSegments()](#hasSegments--) | 获取指示形状是否具有段的值。 |
+| [hasSegments()](#hasSegments--) | 获取一个值，指示形状是否有段。 |
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | 获取对象的边界。 |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | 获取对象的边界。 |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | 对形状应用指定的变换。 |
@@ -133,7 +133,7 @@ public boolean hasSegments()
 ```
 
 
-获取指示形状是否具有段的值。
+获取一个值，指示形状是否有段。
 
 值：如果形状有段，则为 `True`；否则为 `false`。
 
@@ -150,7 +150,7 @@ public RectangleF getBounds(Matrix matrix)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -165,8 +165,8 @@ public RectangleF getBounds(Matrix matrix, Pen pen)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | [Matrix](../../com.aspose.imaging/matrix) | 在计算边界之前要应用的矩阵。 |
-| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能影响对象的边界尺寸。 |
+| matrix | [Matrix](../../com.aspose.imaging/matrix) | 将在边界之前应用的矩阵将被计算。 |
+| pen | [Pen](../../com.aspose.imaging/pen) | 用于对象的笔。它可能会影响对象的边界大小。 |
 
 **Returns:**
 [RectangleF](../../com.aspose.imaging/rectanglef) - The estimated object's bounds.
@@ -181,7 +181,7 @@ public void transform(Matrix transform)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的转换。 |
+| transform | [Matrix](../../com.aspose.imaging/matrix) | 要应用的变换。 |
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -197,7 +197,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于与此实例比较的 `Object`。 |
 
 **Returns:**
-布尔值 - 如果指定的 `Object` 等于此实例则为 `true`；否则为 `false`。
+布尔值 - 如果指定的 `Object` 等于此实例，则为 `true`；否则为 `false`。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

@@ -1,6 +1,6 @@
 ---
 title: "CacheType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "指定要使用的缓存类型。"
 type: docs
 weight: 16

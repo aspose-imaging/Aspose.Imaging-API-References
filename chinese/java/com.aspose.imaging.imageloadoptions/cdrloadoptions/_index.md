@@ -1,6 +1,6 @@
 ---
 title: "CdrLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "Cdr 加载选项"
 type: docs
 weight: 10
@@ -24,8 +24,8 @@ Cdr 加载选项
 | --- | --- |
 | [getDefaultFont()](#getDefaultFont--) | 获取默认字体。 |
 | [setDefaultFont(Font value)](#setDefaultFont-com.aspose.imaging.Font-) | 设置默认字体。 |
-| [getOptimalMemoryUsage()](#getOptimalMemoryUsage--) | 获取指示是否使用 [optimal memory usage] 的值。 |
-| [setOptimalMemoryUsage(boolean value)](#setOptimalMemoryUsage-boolean-) | 设置指示是否使用 [optimal memory usage] 的值。 |
+| [getOptimalMemoryUsage()](#getOptimalMemoryUsage--) | 获取指示是否[optimal memory usage]的值。 |
+| [setOptimalMemoryUsage(boolean value)](#setOptimalMemoryUsage-boolean-) | 设置指示是否[optimal memory usage]的值。 |
 ### CdrLoadOptions() {#CdrLoadOptions--}
 ```
 public CdrLoadOptions()
@@ -63,24 +63,24 @@ public final boolean getOptimalMemoryUsage()
 ```
 
 
-获取指示是否使用 [optimal memory usage] 的值。
+获取指示是否[optimal memory usage]的值。
 
-值：如果是 [optimal memory usage] 则为 `true`；否则为 `false`。
+值：如果[optimal memory usage]则为 `true`；否则为 `false`。
 
 **Returns:**
-boolean - 指示是否使用 [optimal memory usage] 的值。
+布尔 - 指示是否[optimal memory usage]的值。
 ### setOptimalMemoryUsage(boolean value) {#setOptimalMemoryUsage-boolean-}
 ```
 public final void setOptimalMemoryUsage(boolean value)
 ```
 
 
-设置指示是否使用 [optimal memory usage] 的值。
+设置指示是否[optimal memory usage]的值。
 
-值：如果是 [optimal memory usage] 则为 `true`；否则为 `false`。
+值：如果[optimal memory usage]则为 `true`；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 指示是否使用 [optimal memory usage] 的值。 |
+| 值 | boolean | 指示是否[optimal memory usage]的值。 |
 

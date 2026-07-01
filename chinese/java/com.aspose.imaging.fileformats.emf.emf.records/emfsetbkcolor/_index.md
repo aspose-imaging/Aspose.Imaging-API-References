@@ -1,6 +1,6 @@
 ---
 title: "EmfSetBkColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_SETBKCOLOR 记录指定背景颜色。"
 type: docs
 weight: 119
@@ -23,8 +23,8 @@ EMR\_SETBKCOLOR 记录指定背景颜色。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getArgb32Color()](#getArgb32Color--) | 获取或设置一个 32 位 WMF ColorRef 对象，定义于 [MS-WMF] 第 2.2.2.8 节，用于指定背景颜色值。 |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置一个 32 位 WMF ColorRef 对象，定义于 [MS-WMF] 第 2.2.2.8 节，用于指定背景颜色值。 |
+| [getArgb32Color()](#getArgb32Color--) | 获取或设置一个 32 位 WMF ColorRef 对象（在 [MS-WMF] 第 2.2.2.8 节中指定），该对象指定背景颜色值。 |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置一个 32 位 WMF ColorRef 对象（在 [MS-WMF] 第 2.2.2.8 节中指定），该对象指定背景颜色值。 |
 ### EmfSetBkColor(EmfRecord source) {#EmfSetBkColor-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetBkColor(EmfRecord source)
@@ -36,7 +36,7 @@ public EmfSetBkColor(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetBkColor() {#EmfSetBkColor--}
 ```
@@ -52,7 +52,7 @@ public int getArgb32Color()
 ```
 
 
-获取或设置一个 32 位 WMF ColorRef 对象，定义于 [MS-WMF] 第 2.2.2.8 节，用于指定背景颜色值。
+获取或设置一个 32 位 WMF ColorRef 对象（在 [MS-WMF] 第 2.2.2.8 节中指定），该对象指定背景颜色值。
 
 **Returns:**
 int
@@ -62,10 +62,10 @@ public void setArgb32Color(int value)
 ```
 
 
-获取或设置一个 32 位 WMF ColorRef 对象，定义于 [MS-WMF] 第 2.2.2.8 节，用于指定背景颜色值。
+获取或设置一个 32 位 WMF ColorRef 对象（在 [MS-WMF] 第 2.2.2.8 节中指定），该对象指定背景颜色值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusPathPointTypeEnum"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "PathPointType 枚举定义了图形路径上点的类型。"
 type: docs
 weight: 39
@@ -16,7 +16,7 @@ PathPointType 枚举定义了图形路径上点的类型。
 
 --------------------
 
-图形路径点类型由 [EmfPlusPathPointType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype) 对象指定（第 2.2.2.31 节）。
+Graphics 路径点类型由 [EmfPlusPathPointType](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype) 对象指定（第 2.2.2.31 节）。
 ## 字段
 
 | 字段 | 描述 |

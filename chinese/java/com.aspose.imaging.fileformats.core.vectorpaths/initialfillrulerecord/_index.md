@@ -1,13 +1,13 @@
 ---
 title: "InitialFillRuleRecord"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "初始填充规则记录类"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
+java.lang.Object，[com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord](../../com.aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord)
 ```
 public class InitialFillRuleRecord extends VectorPathRecord
 ```
@@ -46,7 +46,7 @@ public InitialFillRuleRecord(boolean isFillStartsWithAllPixels)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isFillStartsWithAllPixels | boolean | 填充是否从所有像素开始。 |
+| isFillStartsWithAllPixels | boolean | 该填充是否从所有像素开始。 |
 
 ### InitialFillRuleRecord(byte[] data) {#InitialFillRuleRecord-byte---}
 ```
@@ -69,10 +69,10 @@ public final boolean isFillStartsWithAllPixels()
 
 获取一个值，指示填充是否从所有像素开始。
 
-值：填充是否从所有像素开始。
+值：该填充是否从所有像素开始。
 
 **Returns:**
-boolean - 一个指示填充是否从所有像素开始的值。
+boolean - 指示填充是否从所有像素开始的值。
 ### setFillStartsWithAllPixels(boolean value) {#setFillStartsWithAllPixels-boolean-}
 ```
 public final void setFillStartsWithAllPixels(boolean value)
@@ -81,12 +81,12 @@ public final void setFillStartsWithAllPixels(boolean value)
 
 设置一个值，指示填充是否从所有像素开始。
 
-值：填充是否从所有像素开始。
+值：该填充是否从所有像素开始。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | 一个指示填充是否从所有像素开始的值。 |
+| 值 | boolean | 指示填充是否从所有像素开始的值。 |
 
 ### getType() {#getType--}
 ```

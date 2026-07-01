@@ -1,7 +1,7 @@
 ---
 title: "EmfBlendFunction.AlphaFormatEnum"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "指定如何根据 alpha 透明度解释源像素和目标像素的结构。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "一个结构，指定如何根据 alpha 透明度解释源像素和目标像素。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfblendfunction.alphaformatenum/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public static final class EmfBlendFunction.AlphaFormatEnum extends System.Enum
 ```
 
-指定如何根据 alpha 透明度解释源像素和目标像素的结构。
+一个结构，指定如何根据 alpha 透明度解释源像素和目标像素。
 ## 字段
 
 | 字段 | 描述 |

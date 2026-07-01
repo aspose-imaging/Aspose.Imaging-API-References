@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyPolyShape"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基础 EMF 多边形 多形状 类。"
 type: docs
 weight: 91
@@ -17,28 +17,28 @@ public abstract class EmfPolyPolyShape extends EmfBoundedRecord
 
 | 方法 | 描述 |
 | --- | --- |
-| [getAPoints()](#getAPoints--) | 获取 WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。 |
-| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | 设置 WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。 |
+| [getAPoints()](#getAPoints--) | 获取 WMF PointS 对象数组（在 [MS-WMF] 第 2.2.2.16 节中指定），该数组指定点的集合。 |
+| [setAPoints(Point[][] value)](#setAPoints-com.aspose.imaging.Point-----) | 设置 WMF PointS 对象数组（在 [MS-WMF] 第 2.2.2.16 节中指定），该数组指定点的集合。 |
 ### getAPoints() {#getAPoints--}
 ```
 public final Point[][] getAPoints()
 ```
 
 
-获取 WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。
+获取 WMF PointS 对象数组（在 [MS-WMF] 第 2.2.2.16 节中指定），该数组指定点的集合。
 
 **Returns:**
-com.aspose.imaging.Point[][] - WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。
+com.aspose.imaging.Point[][] - WMF PointS 对象数组（在 [MS-WMF] 第 2.2.16 节中指定），该数组指定点的集合。
 ### setAPoints(Point[][] value) {#setAPoints-com.aspose.imaging.Point-----}
 ```
 public final void setAPoints(Point[][] value)
 ```
 
 
-设置 WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。
+设置 WMF PointS 对象数组（在 [MS-WMF] 第 2.2.2.16 节中指定），该数组指定点的集合。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Point\[\]](../../com.aspose.imaging/point) | WMF PointS 对象数组，定义于 [MS-WMF] 第 2.2.2.16 节，指定点的数组。 |
+| value | [Point\[\]](../../com.aspose.imaging/point) | WMF PointS 对象数组（在 [MS-WMF] 第 2.2.2.16 节中指定），该数组指定点的集合。 |
 

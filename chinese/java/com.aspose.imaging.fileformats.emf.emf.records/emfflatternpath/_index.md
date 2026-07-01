@@ -1,6 +1,6 @@
 ---
 title: "EmfFlatternPath"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "此记录将选定路径中的所有曲线转换为回放设备上下文，每条曲线必须转换为一系列直线。"
 type: docs
 weight: 60
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfFlatternPath extends EmfPathBracketRecordType
 ```
 
-此记录将所选路径中的所有曲线转换到回放设备上下文；每条曲线必须转换为一系列直线。
+此记录将所选路径中的所有曲线转换为回放设备上下文；每条曲线必须转换为一系列直线。
 ## 构造函数
 
 | 构造函数 | 描述 |

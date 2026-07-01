@@ -1,6 +1,6 @@
 ---
 title: "DetectedObjectType"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "检测到的对象类型枚举。"
 type: docs
 weight: 13
@@ -21,7 +21,7 @@ public final class DetectedObjectType extends System.Enum
 | [Other](#Other) | 其他对象类型。 |
 
 ## Example: Saving image masking result with feathering based on image size.
-根据图像尺寸进行羽化后保存图像掩码结果。图像掩码使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
+根据图像尺寸保存带羽化的图像掩码结果。图像掩码使用自动计算的默认笔画进行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -65,7 +65,7 @@ for (MaskingResult res : results)
 
 
 ## Example: Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration.
-根据图像尺寸进行羽化后保存图像掩码结果，并在新的掩码迭代中重复使用掩码选项。图像掩码使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始掩码结果后，已应用的背景/前景笔画被修改，并进行另一次掩码迭代。
+根据图像尺寸保存带羽化的图像掩码结果并在新的掩码迭代中复用掩码选项。图像掩码使用自动计算的默认笔画进行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。在获得初始掩码结果后，已应用的背景/前景笔画被修改，并执行另一次掩码迭代。
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -92,7 +92,7 @@ try (RasterImage image = (RasterImage)Image.load("input.jpg"))
     }
 }
 
-// 此时，可以分析已应用的前景/背景笔画，并基于此进行额外的
+// 此时可以分析已应用的前景/背景笔画，并基于此进一步
 // 前景/背景笔画可以手动提供。
 Point[] appliedBackgroundStrokes = options.getDefaultBackgroundStrokes();
 Point[] appliedForegroundStrokes = options.getDefaultForegroundStrokes();
@@ -112,13 +112,13 @@ for (MaskingResult res : results)
 
 try (RasterImage image = (RasterImage)Image.load("input.jpg"))
 {
-    // 重复使用 AutoMaskingGraphCutOptions 时，无需第二次执行默认笔画计算。
+    // 复用 AutoMaskingGraphCutOptions 时，无需第二次执行默认笔画计算。
     options.setCalculateDefaultStrokes(false);
     // 当在 AutoMaskingArgs 的 Args 属性中同时提供默认笔画和 ObjectsPoints 时，点数组最终会合并。
-    // 第一个 ObjectsPoints 数组被视为背景点数组，并且
+    // 第一个 ObjectsPoints 数组被视为背景点数组，且
     // 第二个 ObjectsPoints 数组被视为前景点数组。
-    // 当 AutoMaskingArgs 的 Args 属性中同时提供 DefaultObjectsRectangles 和 ObjectsRectangles 时，
-    // 仅使用来自 Args 的数组。
+    // 当在 AutoMaskingArgs 的 Args 属性中同时提供 DefaultObjectsRectangles 和 ObjectsRectangles 时，
+    // 仅使用 Args 中的数组。
     AutoMaskingArgs args = new AutoMaskingArgs();
     args.setObjectsPoints(new Point[][]
             {
@@ -148,7 +148,7 @@ for (MaskingResult res : results)
 
 
 ## Example: Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration.
-保存基于图像尺寸的羽化图像遮罩结果，修改获得的默认笔画并将其用于新的遮罩迭代。图像遮罩使用自动计算的默认笔画执行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获取初始遮罩结果后，已应用的背景/前景笔画被修改，并使用新的 GraphCutMaskingOptions 实例执行另一次遮罩迭代。
+根据图像尺寸保存带羽化的图像掩码结果，修改获得的默认笔画并将其用于新的掩码迭代。图像掩码使用自动计算的默认笔画进行。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。在获得初始掩码结果后，已应用的背景/前景笔画被修改，并使用新的 GraphCutMaskingOptions 实例执行另一次掩码迭代。
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
 assumedObjects.add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle(100, 100, 150, 300)));
@@ -175,7 +175,7 @@ try (RasterImage image = (RasterImage)Image.load("input.jpg"))
     }
 }
 
-// 此时，可以分析已应用的前景/背景笔画，并基于此进行额外的
+// 此时可以分析已应用的前景/背景笔画，并基于此进一步
 // 前景/背景笔画可以手动提供。
 
 Point[] appliedBackgroundStrokes = options.getDefaultBackgroundStrokes();

@@ -1,6 +1,6 @@
 ---
-title: "颜色模式"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "ColorModes"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 PSD 文件格式的颜色模式。"
 type: docs
 weight: 10

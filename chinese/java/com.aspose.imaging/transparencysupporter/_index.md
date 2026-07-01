@@ -1,6 +1,6 @@
 ---
 title: "TransparencySupporter"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "支持透明度的对象。"
 type: docs
 weight: 116
@@ -53,7 +53,7 @@ public void setOpacity(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 不透明度值。 |
+| 值 | float | 不透明度值。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "GifFrameBlock"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "Gif 帧块."
+second_title: "Aspose.Imaging for Java API 参考"
+description: "Gif 帧块。"
 type: docs
 weight: 12
 url: /zh/java/com.aspose.imaging.fileformats.gif.blocks/gifframeblock/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class GifFrameBlock extends RasterCachedImage implements IGifBlock, IAnimationFrame, IInterlaced
 ```
 
-Gif 帧块.
+Gif 帧块。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -58,29 +58,29 @@ Gif 帧块.
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | 获取或设置一个值，指示颜色调色板是否已排序。 |
 | [getGifFrameBitsPerPixel()](#getGifFrameBitsPerPixel--) | 获取或设置 GIF 帧的每像素位数。 |
 | [setGifFrameBitsPerPixel(byte value)](#setGifFrameBitsPerPixel-byte-) | 获取或设置 GIF 帧的每像素位数。 |
-| [getLeft()](#getLeft--) | 获取或设置左侧图像位置。 |
-| [setLeft(int value)](#setLeft-int-) | 获取或设置左侧图像位置。 |
-| [getTop()](#getTop--) | 获取或设置顶部图像位置。 |
-| [setTop(int value)](#setTop-int-) | 获取或设置顶部图像位置。 |
+| [getLeft()](#getLeft--) | 获取或设置图像左侧位置。 |
+| [setLeft(int value)](#setLeft-int-) | 获取或设置图像左侧位置。 |
+| [getTop()](#getTop--) | 获取或设置图像顶部位置。 |
+| [setTop(int value)](#setTop-int-) | 获取或设置图像顶部位置。 |
 | [getFrameTop()](#getFrameTop--) | 转换为 p。 |
 | [getFrameLeft()](#getFrameLeft--) | 获取左侧。 |
-| [getDisposalMethod()](#getDisposalMethod--) | 获取处理方法。 |
+| [getDisposalMethod()](#getDisposalMethod--) | 获取处置方法。 |
 | [getFlags()](#getFlags--) | 获取或设置标志。 |
 | [setFlags(byte value)](#setFlags-byte-) | 获取或设置标志。 |
-| [isUseAlphaBlending()](#isUseAlphaBlending--) | 获取一个值，指示是否 [use alpha blending]。 |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | 获取一个指示是否[use alpha blending]的值。 |
 | [getControlBlock()](#getControlBlock--) | 获取与此块关联的图形控制块。 |
-| [hasTransparentColor()](#hasTransparentColor--) | 获取一个值，指示帧块是否具有透明颜色。 |
+| [hasTransparentColor()](#hasTransparentColor--) | 获取一个指示帧块是否具有透明颜色的值。 |
 | [getTransparentColor()](#getTransparentColor--) | 获取帧块的透明颜色。 |
-| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 获取一个值，指示帧块是否具有透明颜色。 |
+| [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | 获取一个指示帧块是否具有透明颜色的值。 |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | 获取帧块的透明颜色。 |
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色的值。 |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | 设置背景颜色的值。 |
 | [getOriginalOptions()](#getOriginalOptions--) | 根据原始文件设置获取选项。 |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | 调整图像的亮度。 |
-| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。 |
-| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。 |
+| [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | 在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。 |
+| [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | 将所有非透明颜色替换为新颜色，并保留原始的 alpha 值以保持平滑边缘。 |
 | [getFullFrame()](#getFullFrame--) | 获取完整帧。 |
-| [resize(int newWidth, int newHeight, ImageResizeSettings imageResizeSettings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 调整此 [RasterCachedImage](../../com.aspose.imaging/rastercachedimage) 实例的大小。 |
+| [resize(int newWidth, int newHeight, ImageResizeSettings imageResizeSettings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | 调整此[RasterCachedImage](../../com.aspose.imaging/rastercachedimage)实例的大小。 |
 ### GifFrameBlock(int width, int height) {#GifFrameBlock-int-int-}
 ```
 public GifFrameBlock(int width, int height)
@@ -92,8 +92,8 @@ public GifFrameBlock(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 图像宽度。 |
-| 高度 | int | 图像高度。 |
+| width | int | 图像宽度。 |
+| height | int | 图像高度。 |
 
 ### GifFrameBlock(int left, int top, int width, int height) {#GifFrameBlock-int-int-int-int-}
 ```
@@ -106,10 +106,10 @@ public GifFrameBlock(int left, int top, int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
-| 宽度 | int | 图像宽度。 |
-| 高度 | int | 图像高度。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
+| width | int | 图像宽度。 |
+| height | int | 图像高度。 |
 
 ### GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte bitsPerPixel) {#GifFrameBlock-int-int-int-int-com.aspose.imaging.IColorPalette-boolean-boolean-byte-}
 ```
@@ -122,13 +122,13 @@ public GifFrameBlock(int left, int top, int width, int height, IColorPalette col
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
-| 宽度 | int | 图像宽度。 |
-| 高度 | int | 图像高度。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
+| width | int | 图像宽度。 |
+| height | int | 图像高度。 |
 | colorPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | 颜色调色板。 |
-| isPaletteSorted | boolean | 如果设置为 `true`，则颜色调色板已排序。 |
-| isGifFrameInterlaced | boolean | 如果设置为 `true`，则 GIF 帧为隔行扫描。 |
+| isPaletteSorted | boolean | 如果设置为`true`，则颜色调色板已排序。 |
+| isGifFrameInterlaced | boolean | 如果设置为`true`，则 GIF 帧为隔行扫描。 |
 | bitsPerPixel | byte | 每像素位数。 |
 
 ### GifFrameBlock(RasterImage image) {#GifFrameBlock-com.aspose.imaging.RasterImage-}
@@ -156,8 +156,8 @@ public GifFrameBlock(RasterImage image, int left, int top)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于初始化帧像素和调色板数据的图像。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
 
 ### GifFrameBlock(RasterImage image, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize) {#GifFrameBlock-com.aspose.imaging.RasterImage-int-int-boolean-boolean-byte-}
 ```
@@ -171,10 +171,10 @@ public GifFrameBlock(RasterImage image, int left, int top, boolean isPaletteSort
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于初始化帧像素和调色板数据的图像。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
-| isPaletteSorted | boolean | 如果设置为 `true`，则颜色调色板已排序。 |
-| isGifFrameInterlaced | boolean | 如果设置为 `true`，则 GIF 帧为隔行扫描。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
+| isPaletteSorted | boolean | 如果设置为`true`，则颜色调色板已排序。 |
+| isGifFrameInterlaced | boolean | 如果设置为`true`，则 GIF 帧为隔行扫描。 |
 | lzwCodeSize | byte | 每像素位数。 |
 
 ### GifFrameBlock(InputStream stream) {#GifFrameBlock-java.io.InputStream-}
@@ -213,8 +213,8 @@ public GifFrameBlock(InputStream stream, int left, int top)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | java.io.InputStream | 用于加载图像并初始化帧像素和调色板数据的流。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
 
 ### GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize) {#GifFrameBlock-java.io.InputStream-int-int-boolean-boolean-byte-}
 ```
@@ -228,10 +228,10 @@ public GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSor
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 流 | java.io.InputStream | 用于加载图像并初始化帧像素和调色板数据的流。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
-| isPaletteSorted | boolean | 如果设置为 `true`，则颜色调色板已排序。 |
-| isGifFrameInterlaced | boolean | 如果设置为 `true`，则 GIF 帧为隔行扫描。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
+| isPaletteSorted | boolean | 如果设置为`true`，则颜色调色板已排序。 |
+| isGifFrameInterlaced | boolean | 如果设置为`true`，则 GIF 帧为隔行扫描。 |
 | lzwCodeSize | byte | 每像素位数。 |
 
 ### GifFrameBlock(String path) {#GifFrameBlock-java.lang.String-}
@@ -259,8 +259,8 @@ public GifFrameBlock(String path, int left, int top)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 路径 | java.lang.String | 用于加载图像并初始化帧像素和调色板数据的路径。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
 
 ### GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize) {#GifFrameBlock-java.lang.String-int-int-boolean-boolean-byte-}
 ```
@@ -274,10 +274,10 @@ public GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, bo
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 路径 | java.lang.String | 用于加载图像并初始化帧像素和调色板数据的路径。 |
-| 左 | int | 左侧图像位置。 |
-| 上 | int | 顶部图像位置。 |
-| isPaletteSorted | boolean | 如果设置为 `true`，则颜色调色板已排序。 |
-| isGifFrameInterlaced | boolean | 如果设置为 `true`，则 GIF 帧为隔行扫描。 |
+| 左 | int | 图像左侧位置。 |
+| 上 | int | 图像顶部位置。 |
+| isPaletteSorted | boolean | 如果设置为`true`，则颜色调色板已排序。 |
+| isGifFrameInterlaced | boolean | 如果设置为`true`，则 GIF 帧为隔行扫描。 |
 | lzwCodeSize | byte | 每像素位数。 |
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
@@ -324,11 +324,11 @@ public static byte createFlags(IColorPalette colorPalette, boolean isPaletteSort
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | colorPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | 颜色调色板。 |
-| isPaletteSorted | boolean | 如果设置为 `true`，则颜色调色板中的颜色已排序。 |
-| isGifFrameInterlaced | boolean | 如果设置为 `true`，则 GIF 帧图像为隔行扫描。 |
+| isPaletteSorted | boolean | 如果设置为`true`，则颜色调色板中的颜色已排序。 |
+| isGifFrameInterlaced | boolean | 如果设置为`true`，则 GIF 帧图像为隔行扫描。 |
 
 **Returns:**
-byte - 创建的标志。
+byte - 已创建的标志。
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -394,7 +394,7 @@ public void setFrameTime(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 持续时间。 |
+| 值 | int | 持续时间。 |
 
 ### getInterlaced() {#getInterlaced--}
 ```
@@ -405,7 +405,7 @@ public boolean getInterlaced()
 获取或设置一个值，指示此 `GifFrameBlock` 是否为交错。
 
 **Returns:**
-boolean - 如果为隔行扫描则为 `true`；否则为 `false`。
+boolean - 若为隔行扫描则为`true`；否则为`false`。
 ### isInterlaced() {#isInterlaced--}
 ```
 public boolean isInterlaced()
@@ -414,10 +414,10 @@ public boolean isInterlaced()
 
 获取一个值，指示此图像实例是否为交错。
 
-值：如果此图像实例为隔行扫描则为 `true`；否则为 `false`。
+值：若此图像实例为隔行扫描则为`true`；否则为`false`。
 
 **Returns:**
-boolean - 指示此图像实例是否为隔行扫描的值。
+boolean - 一个指示此图像实例是否交错的值。
 ### setInterlaced(boolean value) {#setInterlaced-boolean-}
 ```
 public void setInterlaced(boolean value)
@@ -429,7 +429,7 @@ public void setInterlaced(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示隔行扫描；否则为 `false`。 |
+| 值 | boolean | `true` 表示交错；否则为 `false`。 |
 
 ### isPaletteSorted() {#isPaletteSorted--}
 ```
@@ -452,7 +452,7 @@ public void setPaletteSorted(boolean value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | `true` 表示颜色调色板已排序；否则为 `false`。 |
+| 值 | boolean | `true` 表示颜色调色板已排序；否则为 `false`。 |
 
 ### getGifFrameBitsPerPixel() {#getGifFrameBitsPerPixel--}
 ```
@@ -463,7 +463,7 @@ public byte getGifFrameBitsPerPixel()
 获取或设置 GIF 帧的每像素位数。
 
 **Returns:**
-byte - GIF 帧每像素位数。
+byte - GIF 帧的每像素位数。
 ### setGifFrameBitsPerPixel(byte value) {#setGifFrameBitsPerPixel-byte-}
 ```
 public void setGifFrameBitsPerPixel(byte value)
@@ -475,7 +475,7 @@ public void setGifFrameBitsPerPixel(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | GIF 帧每像素位数。 |
+| 值 | byte | GIF 帧的每像素位数。 |
 
 ### getLeft() {#getLeft--}
 ```
@@ -483,22 +483,22 @@ public int getLeft()
 ```
 
 
-获取或设置左侧图像位置。
+获取或设置图像左侧位置。
 
 **Returns:**
-int - 左侧图像位置。
+int - 图像左侧位置。
 ### setLeft(int value) {#setLeft-int-}
 ```
 public void setLeft(int value)
 ```
 
 
-获取或设置左侧图像位置。
+获取或设置图像左侧位置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 左侧图像位置。 |
+| 值 | int | 图像左侧位置。 |
 
 ### getTop() {#getTop--}
 ```
@@ -506,22 +506,22 @@ public int getTop()
 ```
 
 
-获取或设置顶部图像位置。
+获取或设置图像顶部位置。
 
 **Returns:**
-int - 顶部图像位置。
+int - 图像顶部位置。
 ### setTop(int value) {#setTop-int-}
 ```
 public void setTop(int value)
 ```
 
 
-获取或设置顶部图像位置。
+获取或设置图像顶部位置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 顶部图像位置。 |
+| 值 | int | 图像顶部位置。 |
 
 ### getFrameTop() {#getFrameTop--}
 ```
@@ -553,7 +553,7 @@ public int getDisposalMethod()
 ```
 
 
-获取处理方法。
+获取处置方法。
 
 **Returns:**
 int - 处理方式。
@@ -578,7 +578,7 @@ public void setFlags(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 标志。 |
+| 值 | byte | 标志。 |
 
 ### isUseAlphaBlending() {#isUseAlphaBlending--}
 ```
@@ -586,12 +586,12 @@ public boolean isUseAlphaBlending()
 ```
 
 
-获取一个值，指示是否 [use alpha blending]。
+获取一个指示是否[use alpha blending]的值。
 
-值：`true` 如果 [use alpha blending]；否则，`false`。
+值：`true` 表示 [use alpha blending]；否则为 `false`。
 
 **Returns:**
-boolean - 表示是否 [use alpha blending] 的值。
+boolean - 一个指示是否 [use alpha blending] 的值。
 ### getControlBlock() {#getControlBlock--}
 ```
 public GifGraphicsControlBlock getControlBlock()
@@ -608,7 +608,7 @@ public boolean hasTransparentColor()
 ```
 
 
-获取一个值，指示帧块是否具有透明颜色。
+获取一个指示帧块是否具有透明颜色的值。
 
 **Returns:**
 boolean
@@ -628,12 +628,12 @@ public void setTransparentColor(boolean value)
 ```
 
 
-获取一个值，指示帧块是否具有透明颜色。
+获取一个指示帧块是否具有透明颜色的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### setTransparentColor(Color value) {#setTransparentColor-com.aspose.imaging.Color-}
 ```
@@ -669,7 +669,7 @@ public void setBackgroundColor(Color value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | 背景颜色的值。 |
+| value | [Color](../../com.aspose.imaging/color) | 用于背景颜色的值。 |
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -677,7 +677,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一张每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的输出 PNG 图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
+根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一幅每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的 PNG 输出图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将它们作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -700,7 +700,7 @@ public void replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)
 ```
 
 
-将一种颜色替换为另一种颜色（允许差异），并保留原始 alpha 值以保持平滑边缘。
+在允许的差异范围内将一种颜色替换为另一种颜色，并保留原始的 alpha 值以保持平滑边缘。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -715,7 +715,7 @@ public void replaceNonTransparentColors(int newColorArgb)
 ```
 
 
-将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它将把所有颜色替换为单一颜色。
+将所有非透明颜色替换为新颜色，并保留原始 alpha 值以保持平滑边缘。注意：如果在没有透明度的图像上使用，它会将所有颜色替换为单一颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -738,7 +738,7 @@ public void resize(int newWidth, int newHeight, ImageResizeSettings imageResizeS
 ```
 
 
-调整此 [RasterCachedImage](../../com.aspose.imaging/rastercachedimage) 实例的大小。
+调整此[RasterCachedImage](../../com.aspose.imaging/rastercachedimage)实例的大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

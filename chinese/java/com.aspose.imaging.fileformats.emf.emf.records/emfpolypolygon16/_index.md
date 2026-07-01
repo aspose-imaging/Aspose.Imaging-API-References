@@ -1,6 +1,6 @@
 ---
 title: "EmfPolyPolygon16"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_POLYPOLYGON16 记录指定一系列闭合多边形。"
 type: docs
 weight: 93
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolyPolygon16 extends EmfPolyPolyShape
 ```
 
-EMR\_POLYPOLYGON16 记录指定一系列闭合多边形。每个多边形使用当前笔进行描边，并使用当前画刷和多边形填充模式进行填充。此记录绘制的多边形可以相互重叠。
+EMR\_POLYPOLYGON16 记录指定一系列闭合多边形。每个多边形使用当前笔进行描边，使用当前画刷和多边形填充模式进行填充。该记录绘制的多边形可以重叠。
 
-每个多边形应使用当前笔进行描边，并使用当前画刷和在回放设备上下文中定义的多边形填充模式进行填充。此记录定义的多边形可以重叠。
+每个多边形 SHOULD 使用当前笔进行描边，并使用在回放设备上下文中定义的当前画刷和多边形填充模式进行填充。此记录定义的多边形可以重叠。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -32,7 +32,7 @@ public EmfPolyPolygon16(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolyPolygon16() {#EmfPolyPolygon16--}
 ```

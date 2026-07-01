@@ -1,7 +1,7 @@
 ---
 title: "EmfPolygon16"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_POLYGON16 记录指定一个由两条或更多顶点通过直线连接组成的多边形。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_POLYGON16 记录指定一个由两个或多个顶点通过直线连接组成的多边形。"
 type: docs
 weight: 100
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfpolygon16/
@@ -12,9 +12,9 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPolygon16 extends EmfPolyShape
 ```
 
-EMR\_POLYGON16 记录指定一个由两条或更多顶点通过直线连接组成的多边形。该多边形使用当前笔进行描边，使用当前画笔和多边形填充模式进行填充。通过从最后一个顶点绘制到第一个顶点的线段，自动闭合多边形。
+EMR\\_POLYGON16 记录指定一个由两个或多个顶点通过直线连接组成的多边形。该多边形使用当前笔进行描边，使用当前画刷和多边形填充模式进行填充。通过从最后一个顶点绘制到第一个顶点的线段，自动闭合多边形。
 
-应使用当前笔描边并使用当前画刷和多边形填充模式填充该多边形。应通过从最后一个顶点绘制到第一个顶点的直线自动闭合多边形。
+多边形 SHOULD 使用当前笔进行描边，并使用当前画刷和多边形填充模式进行填充。多边形 SHOULD 通过从最后一个顶点绘制到第一个顶点的线自动闭合。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -32,7 +32,7 @@ public EmfPolygon16(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfPolygon16() {#EmfPolygon16--}
 ```

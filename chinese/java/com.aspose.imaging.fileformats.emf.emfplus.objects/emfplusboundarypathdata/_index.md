@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusBoundaryPathData"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusBoundaryPathData 对象指定渐变画笔的图形路径边界。"
 type: docs
 weight: 21
@@ -22,8 +22,8 @@ EmfPlusBoundaryPathData 对象指定渐变画笔的图形路径边界。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getBoundaryPathData()](#getBoundaryPathData--) | 获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），用于指定画刷的边界。 |
-| [setBoundaryPathData(EmfPlusPath value)](#setBoundaryPathData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），用于指定画刷的边界。 |
+| [getBoundaryPathData()](#getBoundaryPathData--) | 获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），指定画笔的边界。 |
+| [setBoundaryPathData(EmfPlusPath value)](#setBoundaryPathData-com.aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath-) | 获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），指定画笔的边界。 |
 ### EmfPlusBoundaryPathData() {#EmfPlusBoundaryPathData--}
 ```
 public EmfPlusBoundaryPathData()
@@ -36,7 +36,7 @@ public EmfPlusPath getBoundaryPathData()
 ```
 
 
-获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），用于指定画刷的边界。
+获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），指定画笔的边界。
 
 **Returns:**
 [EmfPlusPath](../../com.aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)
@@ -46,7 +46,7 @@ public void setBoundaryPathData(EmfPlusPath value)
 ```
 
 
-获取或设置 EmfPlusPath 对象（第 2.2.1.6 节），用于指定画刷的边界。
+获取或设置一个 EmfPlusPath 对象（第 2.2.1.6 节），指定画笔的边界。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

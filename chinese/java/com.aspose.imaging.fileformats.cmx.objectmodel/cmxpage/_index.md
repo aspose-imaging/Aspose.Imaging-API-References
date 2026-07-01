@@ -1,6 +1,6 @@
 ---
 title: "CmxPage"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "CMX 文档的页面。"
 type: docs
 weight: 15
@@ -17,7 +17,7 @@ CMX 文档的页面。
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [CmxPage()](#CmxPage--) | 初始化 [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) 类的新实例。 |
+| [CmxPage()](#CmxPage--) | 初始化一个新的 [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) 类实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -26,7 +26,7 @@ CMX 文档的页面。
 | [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | 设置边界框。 |
 | [getFlags()](#getFlags--) | 获取标志。 |
 | [setFlags(long value)](#setFlags-long-) | 设置标志。 |
-| [getLayers()](#getLayers--) | 获取页面图层。 |
+| [getLayers()](#getLayers--) | 获取页面层。 |
 | [getPageNumber()](#getPageNumber--) | 获取页面顺序号。 |
 | [setPageNumber(int value)](#setPageNumber-int-) | 设置页面顺序号。 |
 | [getWidth()](#getWidth--) | 获取页面宽度。 |
@@ -41,7 +41,7 @@ public CmxPage()
 ```
 
 
-初始化 [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) 类的新实例。
+初始化一个新的 [CmxPage](../../com.aspose.imaging.fileformats.cmx.objectmodel/cmxpage) 类实例。
 
 ### getBoundBox() {#getBoundBox--}
 ```
@@ -87,7 +87,7 @@ public final void setFlags(long value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | 标志。 |
+| 值 | long | 标志。 |
 
 ### getLayers() {#getLayers--}
 ```
@@ -95,10 +95,10 @@ public List<CmxLayer> getLayers()
 ```
 
 
-获取页面图层。
+获取页面层。
 
 **Returns:**
-java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.CmxLayer> - 页面图层。
+java.util.List<com.aspose.imaging.fileformats.cmx.objectmodel.CmxLayer> - 页面层。
 ### getPageNumber() {#getPageNumber--}
 ```
 public final int getPageNumber()
@@ -120,7 +120,7 @@ public final void setPageNumber(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 页面顺序号。 |
+| 值 | int | 页面顺序号。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -143,7 +143,7 @@ public final void setWidth(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 页面宽度。 |
+| 值 | float | 页面宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -166,7 +166,7 @@ public final void setHeight(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 页面高度。 |
+| 值 | float | 页面高度。 |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

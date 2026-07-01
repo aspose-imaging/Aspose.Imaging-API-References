@@ -1,7 +1,7 @@
 ---
 title: "CdrPolygonTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "多边形 变换"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 多边形 变换"
 type: docs
 weight: 35
 url: /zh/java/com.aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public class CdrPolygonTransform extends CdrObjectContainer
 ```
 
-多边形 变换
+该 多边形 变换
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -59,7 +59,7 @@ public final void setXRadius(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | x 半径。 |
+| 值 | double | x 半径。 |
 
 ### getYRadius() {#getYRadius--}
 ```
@@ -82,7 +82,7 @@ public final void setYRadius(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | y 半径。 |
+| 值 | double | y 半径。 |
 
 ### getPosition() {#getPosition--}
 ```
@@ -128,7 +128,7 @@ public final void setNumAngles(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 角度数量。 |
+| 值 | int | 角度数量。 |
 
 ### getNextPoint() {#getNextPoint--}
 ```
@@ -151,5 +151,5 @@ public final void setNextPoint(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 下一个点。 |
+| 值 | int | 下一个点。 |
 

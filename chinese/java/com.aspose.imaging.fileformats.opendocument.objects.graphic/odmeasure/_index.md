@@ -1,7 +1,7 @@
 ---
 title: "OdMeasure"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "度量"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "测量"
 type: docs
 weight: 30
 url: /zh/java/com.aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.opendocument.OdObject](../../c
 public class OdMeasure extends OdStyledObject
 ```
 
-度量
+测量
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -41,7 +41,7 @@ public OdMeasure(OdObject parent)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父对象。 |
+| parent | [OdObject](../../com.aspose.imaging.fileformats.opendocument/odobject) | 父级。 |
 
 ### getPoint1() {#getPoint1--}
 ```

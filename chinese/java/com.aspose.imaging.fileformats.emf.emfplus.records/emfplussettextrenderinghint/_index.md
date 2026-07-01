@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusSetTextRenderingHint"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EmfPlusSetTextRenderingHint 记录指定文本渲染的质量，包括抗锯齿的类型。"
 type: docs
 weight: 65
@@ -35,7 +35,7 @@ public EmfPlusSetTextRenderingHint(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getTextRenderingHint() {#getTextRenderingHint--}
 ```
@@ -62,5 +62,5 @@ public void setTextRenderingHint(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 

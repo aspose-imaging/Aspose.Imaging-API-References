@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusDrawCurve"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EmfPlusDrawCurve 记录指定绘制基数样条 NOTE ObjectID 1 字节 用于绘制曲线的 EmfPlusPen 对象在 EMF 对象表中的索引（章节 2.2.1.7）。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EmfPlusDrawCurve 记录指定绘制基数样条。注意 ObjectID 1 字节：在 EMF 对象表中用于绘制曲线的 EmfPlusPen 对象（章节 2.2.1.7）的索引。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusDrawCurve extends EmfPlusDrawingRecordType
 ```
 
-EmfPlusDrawCurve 记录指定绘制基数样条 NOTE: ObjectID（1 字节）：用于绘制曲线的 EmfPlusPen 对象在 EMF+ 对象表中的索引（章节 2.2.1.7）。该值必须在 0 到 63（含）之间。
+EmfPlusDrawCurve 记录指定绘制基数样条。注意：ObjectID（1 字节）：在 EMF+ 对象表中用于绘制曲线的 EmfPlusPen 对象（章节 2.2.1.7）的索引。该值必须在 0 到 63（含）之间。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -30,8 +30,8 @@ EmfPlusDrawCurve 记录指定绘制基数样条 NOTE: ObjectID（1 字节）：�
 | [setTension(float value)](#setTension-float-) | 获取或设置张力，一个 32 位浮点数，指定样条在通过各点时的弯曲程度。 |
 | [getNumSegments()](#getNumSegments--) | 获取或设置段计数，一个 32 位无符号整数，指定构成样条的线段数量。 |
 | [setNumSegments(int value)](#setNumSegments-int-) | 获取或设置段计数，一个 32 位无符号整数，指定构成样条的线段数量。 |
-| [getPointData()](#getPointData--) | 获取或设置一个数组，长度为 Count，元素为 32 位有符号整数或 32 位浮点数，用于定义要描边的线段端点的坐标值。 |
-| [setPointData(PointF[] value)](#setPointData-com.aspose.imaging.PointF---) | 获取或设置一个数组，长度为 Count，元素为 32 位有符号整数或 32 位浮点数，用于定义要描边的线段端点的坐标值。 |
+| [getPointData()](#getPointData--) | 获取或设置一个数组，长度为 Count，数组元素可以是 32 位有符号整数或 32 位浮点数，定义要描边的线段端点的坐标值。 |
+| [setPointData(PointF[] value)](#setPointData-com.aspose.imaging.PointF---) | 获取或设置一个数组，长度为 Count，数组元素可以是 32 位有符号整数或 32 位浮点数，定义要描边的线段端点的坐标值。 |
 ### EmfPlusDrawCurve(EmfPlusRecord source) {#EmfPlusDrawCurve-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}
 ```
 public EmfPlusDrawCurve(EmfPlusRecord source)
@@ -43,7 +43,7 @@ public EmfPlusDrawCurve(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getCompressed() {#getCompressed--}
 ```
@@ -51,9 +51,9 @@ public boolean getCompressed()
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否被压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 指定坐标空间中使用 16 位整数坐标的绝对位置。如果清除，则 PointData 指定坐标空间中使用 32 位浮点坐标的绝对位置。注意：如果下面的 Relative 标志被设置，则此标志未定义，必须被忽略
+获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果清除，PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 Relative 标志被设置，则此标志未定义，必须被忽略。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Returns:**
 boolean
@@ -63,14 +63,14 @@ public void setCompressed(boolean value)
 ```
 
 
-获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否被压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，则 PointData 指定坐标空间中使用 16 位整数坐标的绝对位置。如果清除，则 PointData 指定坐标空间中使用 32 位浮点坐标的绝对位置。注意：如果下面的 Relative 标志被设置，则此标志未定义，必须被忽略
+获取或设置一个值，指示此 `EmfPlusDrawClosedCurve` 是否已压缩。此位指示 PointData 字段是否指定压缩数据。如果设置，PointData 使用 16 位整数坐标指定坐标空间中的绝对位置。如果清除，PointData 使用 32 位浮点坐标指定坐标空间中的绝对位置。注意：如果下面的 Relative 标志被设置，则此标志未定义，必须被忽略。
 
-值：如果已压缩则为 `true`；否则为 `false`。
+值：`true` 表示已压缩；否则为 `false`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean |  |
+| 值 | boolean |  |
 
 ### getObjectId() {#getObjectId--}
 ```
@@ -78,7 +78,7 @@ public byte getObjectId()
 ```
 
 
-获取或设置对象标识符。用于绘制曲线的 EmfPlusPen 对象在 EMF+ 对象表中的索引（章节 2.2.1.7）。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。用于绘制曲线的 EmfPlusPen 对象（章节 2.2.1.7）在 EMF+ 对象表中的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
@@ -90,14 +90,14 @@ public void setObjectId(byte value)
 ```
 
 
-获取或设置对象标识符。用于绘制曲线的 EmfPlusPen 对象在 EMF+ 对象表中的索引（章节 2.2.1.7）。该值必须在 0 到 63（含）之间。
+获取或设置对象标识符。用于绘制曲线的 EmfPlusPen 对象（章节 2.2.1.7）在 EMF+ 对象表中的索引。该值必须在 0 到 63（含）之间。
 
 值：对象标识符。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte |  |
+| 值 | byte |  |
 
 ### getTension() {#getTension--}
 ```
@@ -105,7 +105,7 @@ public float getTension()
 ```
 
 
-获取或设置张力。一个 32 位浮点数，指定样条线在经过各点时的弯曲程度。值为 0 表示样条线是一系列直线。值越大，曲线越圆滑。更多信息，请参见 [SPLINE77] 和 [PETZOLD]。
+获取或设置张力，一个 32 位浮点数，指定样条在通过各点时的弯曲程度。值为 0 表示样条是一系列直线。值增大时，曲线变得更圆滑。欲了解更多信息，请参阅 [SPLINE77] 和 [PETZOLD]。
 
 **Returns:**
 float
@@ -115,12 +115,12 @@ public void setTension(float value)
 ```
 
 
-获取或设置张力。一个 32 位浮点数，指定样条线在经过各点时的弯曲程度。值为 0 表示样条线是一系列直线。值越大，曲线越圆滑。更多信息，请参见 [SPLINE77] 和 [PETZOLD]。
+获取或设置张力，一个 32 位浮点数，指定样条在通过各点时的弯曲程度。值为 0 表示样条是一系列直线。值增大时，曲线变得更圆滑。欲了解更多信息，请参阅 [SPLINE77] 和 [PETZOLD]。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getNumSegments() {#getNumSegments--}
 ```
@@ -143,7 +143,7 @@ public void setNumSegments(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getPointData() {#getPointData--}
 ```
@@ -151,7 +151,7 @@ public PointF[] getPointData()
 ```
 
 
-获取或设置一个数组，长度为 Count，元素为 32 位有符号整数或 32 位浮点数，用于定义要描边的线段端点的坐标值。
+获取或设置一个数组，长度为 Count，数组元素可以是 32 位有符号整数或 32 位浮点数，定义要描边的线段端点的坐标值。
 
 **Returns:**
 com.aspose.imaging.PointF[]
@@ -161,7 +161,7 @@ public void setPointData(PointF[] value)
 ```
 
 
-获取或设置一个数组，长度为 Count，元素为 32 位有符号整数或 32 位浮点数，用于定义要描边的线段端点的坐标值。
+获取或设置一个数组，长度为 Count，数组元素可以是 32 位有符号整数或 32 位浮点数，定义要描边的线段端点的坐标值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

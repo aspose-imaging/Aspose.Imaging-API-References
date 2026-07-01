@@ -1,6 +1,6 @@
 ---
 title: "RemoveBackgroundSettings"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "去除背景设置"
 type: docs
 weight: 96
@@ -28,8 +28,8 @@ public class RemoveBackgroundSettings
 | [setBounds(RectangleF value)](#setBounds-com.aspose.imaging.RectangleF-) | 设置边界。 |
 | [getColor1()](#getColor1--) | 获取颜色。 |
 | [setColor1(Color value)](#setColor1-com.aspose.imaging.Color-) | 设置颜色。 |
-| [getColor2()](#getColor2--) | 获取 color2。 |
-| [setColor2(Color value)](#setColor2-com.aspose.imaging.Color-) | 设置 color2。 |
+| [getColor2()](#getColor2--) | 获取颜色2。 |
+| [setColor2(Color value)](#setColor2-com.aspose.imaging.Color-) | 设置颜色2。 |
 ### RemoveBackgroundSettings() {#RemoveBackgroundSettings--}
 ```
 public RemoveBackgroundSettings()
@@ -61,7 +61,7 @@ public final void setDetectionLevel(Integer value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Integer | 检测级别。 |
+| 值 | java.lang.Integer | 检测级别。 |
 
 ### getBounds() {#getBounds--}
 ```
@@ -123,9 +123,9 @@ public final Color getColor2()
 ```
 
 
-获取 color2。
+获取颜色2。
 
-值：color2。
+值：颜色2。
 
 **Returns:**
 [Color](../../com.aspose.imaging/color) - the color2.
@@ -135,12 +135,12 @@ public final void setColor2(Color value)
 ```
 
 
-设置 color2。
+设置颜色2。
 
-值：color2。
+值：颜色2。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | color2。 |
+| value | [Color](../../com.aspose.imaging/color) | 颜色2。 |
 

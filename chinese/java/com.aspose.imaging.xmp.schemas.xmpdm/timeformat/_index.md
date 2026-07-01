@@ -1,6 +1,6 @@
 ---
 title: "TimeFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 Timecode 中的时间格式。"
 type: docs
 weight: 15
@@ -69,7 +69,7 @@ public boolean equals(Object obj)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | java.lang.Object | 与此实例比较的 `System.Object`。 |
+| obj | java.lang.Object | 要与此实例比较的 `System.Object`。 |
 
 **Returns:**
 boolean - 如果指定的 `System.Object` 等于此实例，则为 `true`；否则，为 `false`。
@@ -81,7 +81,7 @@ public static TimeFormat getTimecode24()
 
 获取 timecode24。
 
-值： timecode24。
+值：timecode24。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -93,7 +93,7 @@ public static TimeFormat getTimecode25()
 
 获取 timecode25。
 
-值： timecode25。
+值：timecode25。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -105,7 +105,7 @@ public static TimeFormat getDropTimecode2997()
 
 获取 drop timecode2997。
 
-值： drop timecode2997。
+值：drop timecode2997。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -117,7 +117,7 @@ public static TimeFormat getNonDropTimecode2997()
 
 获取 non drop timecode2997。
 
-值： non drop timecode2997。
+值：non drop timecode2997。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -129,7 +129,7 @@ public static TimeFormat getTimecode30()
 
 获取 timecode30。
 
-值： timecode30。
+值：timecode30。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -141,7 +141,7 @@ public static TimeFormat getTimecode50()
 
 获取 timecode50。
 
-值： timecode50。
+值：timecode50。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -153,7 +153,7 @@ public static TimeFormat getDropTimecode5994()
 
 获取 drop timecode5994。
 
-值： drop timecode5994。
+值：drop timecode5994。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -165,7 +165,7 @@ public static TimeFormat getNonDropTimecode5994()
 
 获取 non drop timecode5994。
 
-值： non drop timecode5994。
+值：non drop timecode5994。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -177,7 +177,7 @@ public static TimeFormat getTimecode60()
 
 获取 timecode60。
 
-值： timecode60。
+值：timecode60。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)
@@ -189,7 +189,7 @@ public static TimeFormat getTimecode23976()
 
 获取 timecode23976。
 
-值： timecode23976。
+值：时间码23976。
 
 **Returns:**
 [TimeFormat](../../com.aspose.imaging.xmp.schemas.xmpdm/timeformat)

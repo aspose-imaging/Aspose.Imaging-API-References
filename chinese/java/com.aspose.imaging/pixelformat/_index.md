@@ -1,6 +1,6 @@
 ---
 title: "PixelFormat"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "像素数据格式的实际含义。"
 type: docs
 weight: 85

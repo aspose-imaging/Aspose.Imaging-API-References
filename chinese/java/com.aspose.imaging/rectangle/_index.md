@@ -1,6 +1,6 @@
 ---
 title: "矩形"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "存储表示矩形位置和大小的四个整数。"
 type: docs
 weight: 93
@@ -26,14 +26,14 @@ public class Rectangle extends Struct<Rectangle>
 | --- | --- |
 | [getEmpty()](#getEmpty--) | 获取一个 `com.aspose.imaging.Rectangle` 结构的新实例，其 `com.aspose.imaging.Rectangle.X`、`com.aspose.imaging.Rectangle.Y`、`com.aspose.imaging.Rectangle.Width` 和 `com.aspose.imaging.Rectangle.Height` 值均为零。 |
 | [fromPoints(Point point1, Point point2)](#fromPoints-com.aspose.imaging.Point-com.aspose.imaging.Point-) | 根据指定的两个点创建一个新的 `Rectangle`。 |
-| [ceiling(RectangleF value)](#ceiling-com.aspose.imaging.RectangleF-) | 通过将指定的 `com.aspose.imaging.RectangleF` 结构的值向上取整为下一个更高的整数，将其转换为 `com.aspose.imaging.Rectangle` 结构。 |
-| [truncate(RectangleF value)](#truncate-com.aspose.imaging.RectangleF-) | 通过截断指定的 `com.aspose.imaging.RectangleF` 的值，将其转换为 `com.aspose.imaging.Rectangle`。 |
-| [round(RectangleF value)](#round-com.aspose.imaging.RectangleF-) | 将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过将 `com.aspose.imaging.RectangleF` 的值四舍五入为最接近的整数值。 |
+| [ceiling(RectangleF value)](#ceiling-com.aspose.imaging.RectangleF-) | 通过将 `com.aspose.imaging.RectangleF` 的值向上取整为下一个更高的整数，将指定的 `com.aspose.imaging.RectangleF` 结构转换为 `com.aspose.imaging.Rectangle` 结构。 |
+| [truncate(RectangleF value)](#truncate-com.aspose.imaging.RectangleF-) | 将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过截断 `com.aspose.imaging.RectangleF` 的值。 |
+| [round(RectangleF value)](#round-com.aspose.imaging.RectangleF-) | 将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过将 `com.aspose.imaging.RectangleF` 的值四舍五入为最接近的整数。 |
 | [inflate(Rectangle rect, int x, int y)](#inflate-com.aspose.imaging.Rectangle-int-int-) | 创建并返回指定的 `com.aspose.imaging.Rectangle` 结构的膨胀副本。 |
 | [intersect(Rectangle a, Rectangle b)](#intersect-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 返回第三个 `com.aspose.imaging.Rectangle` 结构，表示另外两个 `com.aspose.imaging.Rectangle` 结构的交集。 |
 | [union(Rectangle a, Rectangle b)](#union-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 获取一个包含两个 `com.aspose.imaging.Rectangle` 结构并集的 `com.aspose.imaging.Rectangle` 结构。 |
-| [op_Equality(Rectangle left, Rectangle right)](#op-Equality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 测试两个 `com.aspose.imaging.Rectangle` 结构的位置和大小是否相等。 |
-| [op_Inequality(Rectangle left, Rectangle right)](#op-Inequality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 测试两个 `com.aspose.imaging.Rectangle` 结构的位置或大小是否不同。 |
+| [op_Equality(Rectangle left, Rectangle right)](#op-Equality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 测试两个 `com.aspose.imaging.Rectangle` 结构是否具有相同的位置和大小。 |
+| [op_Inequality(Rectangle left, Rectangle right)](#op-Inequality-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) | 测试两个 `com.aspose.imaging.Rectangle` 结构在位置或大小上是否不同。 |
 | [fromLeftTopRightBottom(int left, int top, int right, int bottom)](#fromLeftTopRightBottom-int-int-int-int-) | 使用指定的边缘位置创建一个 `com.aspose.imaging.Rectangle` 结构。 |
 | [isEquals(Rectangle obj1, Rectangle obj2)](#isEquals-com.aspose.imaging.Rectangle-com.aspose.imaging.Rectangle-) |  |
 | [getLocation()](#getLocation--) | 获取或设置此 `com.aspose.imaging.Rectangle` 结构左上角的坐标。 |
@@ -62,12 +62,12 @@ public class Rectangle extends Struct<Rectangle>
 | [contains(Rectangle rect)](#contains-com.aspose.imaging.Rectangle-) | 确定由 `rect` 表示的矩形区域是否完全包含在此 `com.aspose.imaging.Rectangle` 结构中。 |
 | [inflate(int width, int height)](#inflate-int-int-) | 按指定量膨胀此 `com.aspose.imaging.Rectangle`。 |
 | [inflate(Size size)](#inflate-com.aspose.imaging.Size-) | 按指定量膨胀此 `com.aspose.imaging.Rectangle`。 |
-| [intersect(Rectangle rect)](#intersect-com.aspose.imaging.Rectangle-) | 用自身与指定的 `com.aspose.imaging.Rectangle` 的交集替换此 `com.aspose.imaging.Rectangle`。 |
+| [intersect(Rectangle rect)](#intersect-com.aspose.imaging.Rectangle-) | 用此 `com.aspose.imaging.Rectangle` 与指定的 `com.aspose.imaging.Rectangle` 的交集替换此 `com.aspose.imaging.Rectangle`。 |
 | [intersectsWith(Rectangle rect)](#intersectsWith-com.aspose.imaging.Rectangle-) | 确定此矩形是否与 `rect` 相交。 |
 | [offset(Point pos)](#offset-com.aspose.imaging.Point-) | 按指定量调整此矩形的位置。 |
 | [offset(int x, int y)](#offset-int-int-) | 按指定量调整此矩形的位置。 |
-| [normalize()](#normalize--) | 通过使宽度和高度为正、左侧小于右侧、顶部小于底部来规范化矩形。 |
-| [equals(Object obj)](#equals-java.lang.Object-) | 测试 `obj` 是否为具有此 `com.aspose.imaging.Rectangle` 结构相同位置和大小的 `com.aspose.imaging.Rectangle` 结构。 |
+| [normalize()](#normalize--) | 通过使矩形的宽度和高度为正、左侧小于右侧、顶部小于底部来标准化该矩形。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | 测试 `obj` 是否为具有与此 `com.aspose.imaging.Rectangle` 结构相同位置和大小的 `com.aspose.imaging.Rectangle` 结构。 |
 | [hashCode()](#hashCode--) | 返回此 `com.aspose.imaging.Rectangle` 结构的哈希码。 |
 | [toString()](#toString--) | 将此 `com.aspose.imaging.Rectangle` 的属性转换为可读的字符串。 |
 | [CloneTo(Rectangle that)](#CloneTo-com.aspose.imaging.Rectangle-) |  |
@@ -91,8 +91,8 @@ public Rectangle(int x, int y, int width, int height)
 | --- | --- | --- |
 | x | int | 矩形左上角的 x 坐标。 |
 | y | int | 矩形左上角的 y 坐标。 |
-| 宽度 | int | 矩形的宽度。 |
-| 高度 | int | 矩形的高度。 |
+| width | int | 矩形的宽度。 |
+| height | int | 矩形的高度。 |
 
 ### Rectangle(Point location, Size size) {#Rectangle-com.aspose.imaging.Point-com.aspose.imaging.Size-}
 ```
@@ -105,8 +105,8 @@ public Rectangle(Point location, Size size)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| location | [Point](../../com.aspose.imaging/point) | `com.aspose.imaging.Point` 表示矩形区域的左上角。 |
-| size | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` 表示矩形区域的宽度和高度。 |
+| location | [Point](../../com.aspose.imaging/point) | 表示矩形区域左上角的 `com.aspose.imaging.Point`。 |
+| size | [Size](../../com.aspose.imaging/size) | 表示矩形区域宽度和高度的 `com.aspose.imaging.Size`。 |
 
 ### getEmpty() {#getEmpty--}
 ```
@@ -124,7 +124,7 @@ public static Rectangle fromPoints(Point point1, Point point2)
 ```
 
 
-从指定的两个点创建一个新的 `Rectangle`。创建的 `Rectangle` 的两个垂直边将等于传入的 `point1` 和 `point2`。这些通常是相对的顶点。
+根据指定的两个点创建一个新的 `Rectangle`。创建的 `Rectangle` 的两个垂直边将等于传入的 `point1` 和 `point2`。这些通常是相对的顶点。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -140,7 +140,7 @@ public static Rectangle ceiling(RectangleF value)
 ```
 
 
-通过将指定的 `com.aspose.imaging.RectangleF` 结构的值向上取整为下一个更高的整数，将其转换为 `com.aspose.imaging.Rectangle` 结构。
+通过将 `com.aspose.imaging.RectangleF` 的值向上取整为下一个更高的整数，将指定的 `com.aspose.imaging.RectangleF` 结构转换为 `com.aspose.imaging.Rectangle` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -155,7 +155,7 @@ public static Rectangle truncate(RectangleF value)
 ```
 
 
-通过截断指定的 `com.aspose.imaging.RectangleF` 的值，将其转换为 `com.aspose.imaging.Rectangle`。
+将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过截断 `com.aspose.imaging.RectangleF` 的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -170,7 +170,7 @@ public static Rectangle round(RectangleF value)
 ```
 
 
-将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过将 `com.aspose.imaging.RectangleF` 的值四舍五入为最接近的整数值。
+将指定的 `com.aspose.imaging.RectangleF` 转换为 `com.aspose.imaging.Rectangle`，通过将 `com.aspose.imaging.RectangleF` 的值四舍五入为最接近的整数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -185,7 +185,7 @@ public static Rectangle inflate(Rectangle rect, int x, int y)
 ```
 
 
-创建并返回指定 `com.aspose.imaging.Rectangle` 结构的膨胀副本。副本按指定量膨胀。原始的 `com.aspose.imaging.Rectangle` 结构保持不变。
+创建并返回指定 `com.aspose.imaging.Rectangle` 结构的膨胀副本。副本按指定的量进行膨胀。原始的 `com.aspose.imaging.Rectangle` 结构保持不变。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -202,7 +202,7 @@ public static Rectangle intersect(Rectangle a, Rectangle b)
 ```
 
 
-返回一个第三个 `com.aspose.imaging.Rectangle` 结构，表示两个其他 `com.aspose.imaging.Rectangle` 结构的交集。如果没有交集，则返回一个空的 `com.aspose.imaging.Rectangle`。
+返回第三个 `com.aspose.imaging.Rectangle` 结构，表示另外两个 `com.aspose.imaging.Rectangle` 结构的交集。如果没有交集，则返回一个空的 `com.aspose.imaging.Rectangle`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -234,7 +234,7 @@ public static boolean op_Equality(Rectangle left, Rectangle right)
 ```
 
 
-测试两个 `com.aspose.imaging.Rectangle` 结构的位置和大小是否相等。
+测试两个 `com.aspose.imaging.Rectangle` 结构是否具有相同的位置和大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -250,7 +250,7 @@ public static boolean op_Inequality(Rectangle left, Rectangle right)
 ```
 
 
-测试两个 `com.aspose.imaging.Rectangle` 结构的位置或大小是否不同。
+测试两个 `com.aspose.imaging.Rectangle` 结构在位置或大小上是否不同。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -259,7 +259,7 @@ public static boolean op_Inequality(Rectangle left, Rectangle right)
 | right | [Rectangle](../../com.aspose.imaging/rectangle) | 不等号运算符右侧的 `com.aspose.imaging.Rectangle` 结构。 |
 
 **Returns:**
-boolean - 如果两个 `com.aspose.imaging.Rectangle` 结构的 `com.aspose.imaging.Rectangle.X`、`com.aspose.imaging.Rectangle.Y`、`com.aspose.imaging.Rectangle.Width` 或 `com.aspose.imaging.Rectangle.Height` 属性中有任何不相等，则此运算符返回 true；否则返回 false。
+boolean - 如果两个 `com.aspose.imaging.Rectangle` 结构的 `com.aspose.imaging.Rectangle.X`、`com.aspose.imaging.Rectangle.Y`、`com.aspose.imaging.Rectangle.Width` 或 `com.aspose.imaging.Rectangle.Height` 属性中任意一个不相等，则此运算符返回 true；否则返回 false。
 ### fromLeftTopRightBottom(int left, int top, int right, int bottom) {#fromLeftTopRightBottom-int-int-int-int-}
 ```
 public static Rectangle fromLeftTopRightBottom(int left, int top, int right, int bottom)
@@ -315,7 +315,7 @@ public void setLocation(Point value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Point](../../com.aspose.imaging/point) | `Point` 表示此 `com.aspose.imaging.Rectangle` 结构左上角。 |
+| value | [Point](../../com.aspose.imaging/point) | 表示此 `com.aspose.imaging.Rectangle` 结构左上角的 `Point`。 |
 
 ### getSize() {#getSize--}
 ```
@@ -338,7 +338,7 @@ public void setSize(Size value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Size](../../com.aspose.imaging/size) | `com.aspose.imaging.Size` 表示此 `com.aspose.imaging.Rectangle` 结构的宽度和高度。 |
+| value | [Size](../../com.aspose.imaging/size) | 表示此 `com.aspose.imaging.Rectangle` 结构宽度和高度的 `com.aspose.imaging.Size`。 |
 
 ### getX() {#getX--}
 ```
@@ -361,7 +361,7 @@ public void setX(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构左上角的 x 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构左上角的 x 坐标。 |
 
 ### getY() {#getY--}
 ```
@@ -384,7 +384,7 @@ public void setY(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构左上角的 y 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构左上角的 y 坐标。 |
 
 ### getWidth() {#getWidth--}
 ```
@@ -407,7 +407,7 @@ public void setWidth(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构的宽度。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构的宽度。 |
 
 ### getHeight() {#getHeight--}
 ```
@@ -430,7 +430,7 @@ public void setHeight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构的高度。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构的高度。 |
 
 ### getLeft() {#getLeft--}
 ```
@@ -453,7 +453,7 @@ public void setLeft(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构左边缘的 x 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构左边缘的 x 坐标。 |
 
 ### getTop() {#getTop--}
 ```
@@ -464,7 +464,7 @@ public int getTop()
 获取或设置此 `com.aspose.imaging.Rectangle` 结构顶部边缘的 y 坐标。
 
 **Returns:**
-int - 此 `com.aspose.imaging.Rectangle` 结构顶部边缘的 y 坐标。
+int - 此 `com.aspose.imaging.Rectangle` 结构上边缘的 y 坐标。
 ### setTop(int value) {#setTop-int-}
 ```
 public void setTop(int value)
@@ -476,7 +476,7 @@ public void setTop(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 结构顶部边缘的 y 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 结构上边缘的 y 坐标。 |
 
 ### getRight() {#getRight--}
 ```
@@ -499,7 +499,7 @@ public void setRight(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 的 `com.aspose.imaging.Rectangle.X` 与 `com.aspose.imaging.Rectangle.Width` 的和所得到的 x 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 的 `com.aspose.imaging.Rectangle.X` 与 `com.aspose.imaging.Rectangle.Width` 的和所得到的 x 坐标。 |
 
 ### getBottom() {#getBottom--}
 ```
@@ -522,7 +522,7 @@ public void setBottom(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 此 `com.aspose.imaging.Rectangle` 的 `com.aspose.imaging.Rectangle.Y` 与 `com.aspose.imaging.Rectangle.Height` 的和所得到的 y 坐标。 |
+| 值 | int | 此 `com.aspose.imaging.Rectangle` 的 `com.aspose.imaging.Rectangle.Y` 与 `com.aspose.imaging.Rectangle.Height` 的和所得到的 y 坐标。 |
 
 ### isEmpty() {#isEmpty--}
 ```
@@ -591,8 +591,8 @@ public void inflate(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 水平膨胀此 `com.aspose.imaging.Rectangle` 的量。 |
-| 高度 | int | 垂直膨胀此 `com.aspose.imaging.Rectangle` 的量。 |
+| width | int | 水平膨胀此 `com.aspose.imaging.Rectangle` 的量。 |
+| height | int | 垂直膨胀此 `com.aspose.imaging.Rectangle` 的量。 |
 
 ### inflate(Size size) {#inflate-com.aspose.imaging.Size-}
 ```
@@ -613,7 +613,7 @@ public void intersect(Rectangle rect)
 ```
 
 
-用自身与指定的 `com.aspose.imaging.Rectangle` 的交集替换此 `com.aspose.imaging.Rectangle`。
+用此 `com.aspose.imaging.Rectangle` 与指定的 `com.aspose.imaging.Rectangle` 的交集替换此 `com.aspose.imaging.Rectangle`。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -634,7 +634,7 @@ public boolean intersectsWith(Rectangle rect)
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | 要测试的矩形。 |
 
 **Returns:**
-boolean - 如果存在任何相交，则此方法返回 true；否则返回 false。
+boolean - 如果存在任何交叉，则此方法返回 true；否则返回 false。
 ### offset(Point pos) {#offset-com.aspose.imaging.Point-}
 ```
 public void offset(Point pos)
@@ -668,7 +668,7 @@ public void normalize()
 ```
 
 
-通过使宽度和高度为正、左侧小于右侧、顶部小于底部来规范化矩形。
+通过使矩形的宽度和高度为正、左侧小于右侧、顶部小于底部来标准化该矩形。
 
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -676,7 +676,7 @@ public boolean equals(Object obj)
 ```
 
 
-测试 `obj` 是否为具有此 `com.aspose.imaging.Rectangle` 结构相同位置和大小的 `com.aspose.imaging.Rectangle` 结构。
+测试 `obj` 是否为具有与此 `com.aspose.imaging.Rectangle` 结构相同位置和大小的 `com.aspose.imaging.Rectangle` 结构。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -684,7 +684,7 @@ public boolean equals(Object obj)
 | obj | java.lang.Object | 用于测试的 `System.Object`。 |
 
 **Returns:**
-boolean - 如果 `obj` 是 `com.aspose.imaging.Rectangle` 结构且其 `com.aspose.imaging.Rectangle.X`、`com.aspose.imaging.Rectangle.Y`、`com.aspose.imaging.Rectangle.Width` 和 `com.aspose.imaging.Rectangle.Height` 属性等于此 `com.aspose.imaging.Rectangle` 结构的对应属性，则此方法返回 true；否则返回 false。
+boolean - 如果 `obj` 是 `com.aspose.imaging.Rectangle` 结构，并且其 `com.aspose.imaging.Rectangle.X`、`com.aspose.imaging.Rectangle.Y`、`com.aspose.imaging.Rectangle.Width` 和 `com.aspose.imaging.Rectangle.Height` 属性等于此 `com.aspose.imaging.Rectangle` 结构的相应属性，则此方法返回 true；否则返回 false。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

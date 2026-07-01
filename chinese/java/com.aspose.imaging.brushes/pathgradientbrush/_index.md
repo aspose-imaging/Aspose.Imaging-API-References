@@ -1,7 +1,7 @@
 ---
 title: "PathGradientBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "封装一个带有渐变的 Aspose.Imaging.Brush 对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "封装一个 Aspose.Imaging.Brush 对象并带有渐变。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.brushes/pathgradientbrush/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public final class PathGradientBrush extends PathGradientBrushBase
 ```
 
-封装一个带有渐变的 `Aspose.Imaging.Brush` 对象。此类不可被继承。
+封装一个 `Aspose.Imaging.Brush` 对象并带有渐变。此类不可被继承。
 
-默认情况下，中心颜色为白色。用户可以在以后随时更改此值。
+中心颜色默认是白色。用户可以在以后随时更改此值。
 
-默认情况下，环绕颜色数组通过包含白色的单个元素进行初始化。环绕颜色以后可以更改，但在设置环绕颜色时至少需要一个元素。
+环绕颜色数组默认使用包含白色的单个元素进行初始化。环绕颜色以后可以更改，但在设置环绕颜色时至少需要一个元素。
 
-有关其初始化的更多详细信息，请参阅 `Blend`。
+有关其初始化的更多细节，请参阅 `Blend`。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,12 +38,12 @@ public final class PathGradientBrush extends PathGradientBrushBase
 | [setCenterColor(Color value)](#setCenterColor-com.aspose.imaging.Color-) | 设置路径渐变中心的颜色。 |
 | [getSurroundColors()](#getSurroundColors--) | 获取与此 `PathGradientBrush` 填充的路径中的点对应的颜色数组。 |
 | [setSurroundColors(Color[] value)](#setSurroundColors-com.aspose.imaging.Color---) | 设置与此 `PathGradientBrush` 填充的路径中的点对应的颜色数组。 |
-| [getBlend()](#getBlend--) | 获取一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。 |
-| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | 设置一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。 |
-| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | 创建一种渐变画刷，从路径中心向路径边界逐渐改变颜色。 |
-| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | 创建一种渐变画刷，从路径中心向路径边界逐渐改变颜色。 |
-| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | 创建一种渐变，以中心颜色和线性衰减到单个环绕颜色。 |
-| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | 创建一种渐变，以中心颜色和线性衰减到每个环绕颜色。 |
+| [getBlend()](#getBlend--) | 获取一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。 |
+| [setBlend(Blend value)](#setBlend-com.aspose.imaging.Blend-) | 设置一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。 |
+| [setSigmaBellShape(float focus)](#setSigmaBellShape-float-) | 创建一个渐变画刷，使颜色从路径中心向外变化至路径边界。 |
+| [setSigmaBellShape(float focus, float scale)](#setSigmaBellShape-float-float-) | 创建一个渐变画刷，使颜色从路径中心向外变化至路径边界。 |
+| [setBlendTriangularShape(float focus)](#setBlendTriangularShape-float-) | 创建一个渐变，具有中心颜色并线性衰减到一种环绕颜色。 |
+| [setBlendTriangularShape(float focus, float scale)](#setBlendTriangularShape-float-float-) | 创建一个渐变，具有中心颜色并线性衰减到每种环绕颜色。 |
 ### PathGradientBrush(PointF[] points) {#PathGradientBrush-com.aspose.imaging.PointF---}
 ```
 public PathGradientBrush(PointF[] points)
@@ -55,7 +55,7 @@ public PathGradientBrush(PointF[] points)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| points | [PointF\[\]](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构数组，表示构成路径顶点的点。 |
+| points | [PointF\[\]](../../com.aspose.imaging/pointf) | 一个 `Aspose.Imaging.PointF` 结构数组，表示构成路径顶点的点。 |
 
 ### PathGradientBrush(PointF[] points, int wrapMode) {#PathGradientBrush-com.aspose.imaging.PointF---int-}
 ```
@@ -68,8 +68,8 @@ public PathGradientBrush(PointF[] points, int wrapMode)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| points | [PointF\[\]](../../com.aspose.imaging/pointf) | `Aspose.Imaging.PointF` 结构数组，表示构成路径顶点的点。 |
-| wrapMode | int | `Aspose.Imaging.WrapMode`，指定使用此 `PathGradientBrush` 绘制的填充如何平铺。 |
+| points | [PointF\[\]](../../com.aspose.imaging/pointf) | 一个 `Aspose.Imaging.PointF` 结构数组，表示构成路径顶点的点。 |
+| wrapMode | int | 一个 `Aspose.Imaging.WrapMode`，指定使用此 `PathGradientBrush` 绘制的填充如何平铺。 |
 
 ### PathGradientBrush(Point[] points) {#PathGradientBrush-com.aspose.imaging.Point---}
 ```
@@ -82,7 +82,7 @@ public PathGradientBrush(Point[] points)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| points | [Point\[\]](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构数组，表示构成路径顶点的点。 |
+| points | [Point\[\]](../../com.aspose.imaging/point) | 一个 `Aspose.Imaging.Point` 结构数组，表示构成路径顶点的点。 |
 
 ### PathGradientBrush(Point[] points, int wrapMode) {#PathGradientBrush-com.aspose.imaging.Point---int-}
 ```
@@ -95,8 +95,8 @@ public PathGradientBrush(Point[] points, int wrapMode)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| points | [Point\[\]](../../com.aspose.imaging/point) | `Aspose.Imaging.Point` 结构数组，表示构成路径顶点的点。 |
-| wrapMode | int | `Aspose.Imaging.WrapMode`，指定使用此 `PathGradientBrush` 绘制的填充如何平铺。 |
+| points | [Point\[\]](../../com.aspose.imaging/point) | 一个 `Aspose.Imaging.Point` 结构数组，表示构成路径顶点的点。 |
+| wrapMode | int | 一个 `Aspose.Imaging.WrapMode`，指定使用此 `PathGradientBrush` 绘制的填充如何平铺。 |
 
 ### PathGradientBrush(GraphicsPath path) {#PathGradientBrush-com.aspose.imaging.GraphicsPath-}
 ```
@@ -155,7 +155,7 @@ public void setCenterColor(Color value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color](../../com.aspose.imaging/color) | `com.aspose.imaging.Color`，表示路径渐变中心的颜色。 |
+| value | [Color](../../com.aspose.imaging/color) | 一个表示路径渐变中心颜色的 `com.aspose.imaging.Color`。 |
 
 ### getSurroundColors() {#getSurroundColors--}
 ```
@@ -166,7 +166,7 @@ public Color[] getSurroundColors()
 获取与此 `PathGradientBrush` 填充的路径中的点对应的颜色数组。
 
 **Returns:**
-com.aspose.imaging.Color[] - `com.aspose.imaging.Color` 结构数组，表示与此 `PathGradientBrush` 填充的路径中每个点关联的颜色。
+com.aspose.imaging.Color[] - 一个 `com.aspose.imaging.Color` 结构数组，表示与此 `PathGradientBrush` 填充的路径中每个点关联的颜色。
 ### setSurroundColors(Color[] value) {#setSurroundColors-com.aspose.imaging.Color---}
 ```
 public void setSurroundColors(Color[] value)
@@ -178,7 +178,7 @@ public void setSurroundColors(Color[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Color\[\]](../../com.aspose.imaging/color) | `com.aspose.imaging.Color` 结构数组，表示与此 `PathGradientBrush` 填充的路径中每个点关联的颜色。 |
+| value | [Color\[\]](../../com.aspose.imaging/color) | 一个 `com.aspose.imaging.Color` 结构数组，表示与此 `PathGradientBrush` 填充的路径中每个点关联的颜色。 |
 
 ### getBlend() {#getBlend--}
 ```
@@ -186,7 +186,7 @@ public Blend getBlend()
 ```
 
 
-获取一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。
+获取一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。
 
 **Returns:**
 [Blend](../../com.aspose.imaging/blend) - A `Aspose.Imaging.Blend` that represents a custom falloff for the gradient.
@@ -196,7 +196,7 @@ public void setBlend(Blend value)
 ```
 
 
-设置一个 `Aspose.Imaging.Blend`，它指定用于定义渐变自定义衰减的位置信息和因子。
+设置一个 `Aspose.Imaging.Blend`，它指定了定义渐变自定义衰减的位置信息和因子。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -209,12 +209,12 @@ public void setSigmaBellShape(float focus)
 ```
 
 
-创建一种渐变画刷，从路径中心向路径边界逐渐改变颜色。颜色之间的过渡基于钟形曲线。
+创建一个渐变画刷，使颜色从路径中心向路径边界逐渐变化。颜色之间的过渡基于钟形曲线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 取值范围为 0 到 1，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
+| focus | float | 一个介于 0 到 1 之间的值，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
 
 ### setSigmaBellShape(float focus, float scale) {#setSigmaBellShape-float-float-}
 ```
@@ -222,13 +222,13 @@ public void setSigmaBellShape(float focus, float scale)
 ```
 
 
-创建一种渐变画刷，从路径中心向路径边界逐渐改变颜色。颜色之间的过渡基于钟形曲线。
+创建一个渐变画刷，使颜色从路径中心向路径边界逐渐变化。颜色之间的过渡基于钟形曲线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 取值范围为 0 到 1，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
-| 比例 | float | 取值范围为 0 到 1，指定中心颜色与边界颜色混合的最大强度。值为 1 时会产生中心颜色的最高可能强度，这是默认值。 |
+| focus | float | 一个介于 0 到 1 之间的值，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
+| scale | float | 一个介于 0 到 1 之间的值，指定中心颜色与边界颜色混合时的最大强度。值为 1 时会产生中心颜色的最高可能强度，这是默认值。 |
 
 ### setBlendTriangularShape(float focus) {#setBlendTriangularShape-float-}
 ```
@@ -236,12 +236,12 @@ public void setBlendTriangularShape(float focus)
 ```
 
 
-创建一种渐变，以中心颜色和线性衰减到单个环绕颜色。
+创建一个渐变，具有中心颜色并线性衰减到一种环绕颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 取值范围为 0 到 1，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
+| focus | float | 一个介于 0 到 1 之间的值，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
 
 ### setBlendTriangularShape(float focus, float scale) {#setBlendTriangularShape-float-float-}
 ```
@@ -249,11 +249,11 @@ public void setBlendTriangularShape(float focus, float scale)
 ```
 
 
-创建一种渐变，以中心颜色和线性衰减到每个环绕颜色。
+创建一个渐变，具有中心颜色并线性衰减到每种环绕颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 焦点 | float | 取值范围为 0 到 1，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
-| 比例 | float | 取值范围为 0 到 1，指定中心颜色与边界颜色混合的最大强度。值为 1 时会产生中心颜色的最高可能强度，这是默认值。 |
+| focus | float | 一个介于 0 到 1 之间的值，指定沿从路径中心到路径边界的任意径向，中心颜色达到最高强度的位置。值为 1（默认）时，最高强度位于路径中心。 |
+| scale | float | 一个介于 0 到 1 之间的值，指定中心颜色与边界颜色混合时的最大强度。值为 1 时会产生中心颜色的最高可能强度，这是默认值。 |
 

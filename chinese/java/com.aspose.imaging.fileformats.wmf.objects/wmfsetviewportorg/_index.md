@@ -1,6 +1,6 @@
 ---
 title: "WmfSetViewportOrg"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_SETVIEWPORTORG 记录定义了回放设备上下文中的视口原点。"
 type: docs
 weight: 90

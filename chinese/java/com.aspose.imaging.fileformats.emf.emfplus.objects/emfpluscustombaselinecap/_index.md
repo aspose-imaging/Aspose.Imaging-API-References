@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusCustomBaseLineCap"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "自定义线帽类型的基类。"
 type: docs
 weight: 32

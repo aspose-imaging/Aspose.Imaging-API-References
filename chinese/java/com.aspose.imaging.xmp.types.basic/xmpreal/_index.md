@@ -1,7 +1,7 @@
 ---
 title: "XmpReal"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "表示 XMP 实数。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "表示 XMP Real。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.imaging.xmp.types.basic/xmpreal/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.xmp.types.XmpTypeBase](../../com.aspose.im
 public final class XmpReal extends XmpTypeBase
 ```
 
-表示 XMP 实数。
+表示 XMP Real。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -37,7 +37,7 @@ public XmpReal(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 浮点值。 |
+| 值 | float | 浮点值。 |
 
 ### XmpReal(String value) {#XmpReal-java.lang.String-}
 ```
@@ -50,7 +50,7 @@ public XmpReal(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### getValue() {#getValue--}
 ```
@@ -60,7 +60,7 @@ public float getValue()
 
 获取或设置 float 值。
 
-值：float 值。
+值：浮点值。
 
 **Returns:**
 float
@@ -72,12 +72,12 @@ public void setValue(float value)
 
 获取或设置 float 值。
 
-值：float 值。
+值：浮点值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

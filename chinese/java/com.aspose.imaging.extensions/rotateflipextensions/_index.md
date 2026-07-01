@@ -1,7 +1,7 @@
 ---
 title: "RotateFlipExtensions"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "包含用于转换 System.Drawing.RotateFlipType 和 RotateFlipType 类的扩展方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "包含用于在 System.Drawing.RotateFlipType 和 RotateFlipType 类之间转换的扩展方法。"
 type: docs
 weight: 23
 url: /zh/java/com.aspose.imaging.extensions/rotateflipextensions/
@@ -12,7 +12,7 @@ java.lang.Object
 public final class RotateFlipExtensions
 ```
 
-包含 `System.Drawing.RotateFlipType` 和 `RotateFlipType` 类的转换扩展方法。
+包含用于转换 `System.Drawing.RotateFlipType` 和 `RotateFlipType` 类的扩展方法。
 ## 方法
 
 | 方法 | 描述 |

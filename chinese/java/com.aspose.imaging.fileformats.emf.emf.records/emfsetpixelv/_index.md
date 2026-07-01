@@ -1,7 +1,7 @@
 ---
 title: "EmfSetPixelV"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "EMR_SETPIXELV 记录定义了在指定逻辑坐标处像素的颜色。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "EMR_SETPIXELV 记录定义了指定逻辑坐标处像素的颜色。"
 type: docs
 weight: 135
 url: /zh/java/com.aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfSetPixelV extends EmfDrawingRecordType
 ```
 
-EMR\_SETPIXELV 记录定义指定逻辑坐标处像素的颜色。
+该 EMR\_SETPIXELV 记录定义指定逻辑坐标处像素的颜色。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -23,10 +23,10 @@ EMR\_SETPIXELV 记录定义指定逻辑坐标处像素的颜色。
 
 | 方法 | 描述 |
 | --- | --- |
-| [getPixel()](#getPixel--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定像素的逻辑坐标。 |
-| [setPixel(Point value)](#setPixel-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定像素的逻辑坐标。 |
-| [getArgb32Color()](#getArgb32Color--) | 获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定像素颜色。 |
-| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定像素颜色。 |
+| [getPixel()](#getPixel--) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定像素的逻辑坐标。 |
+| [setPixel(Point value)](#setPixel-com.aspose.imaging.Point-) | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定像素的逻辑坐标。 |
+| [getArgb32Color()](#getArgb32Color--) | 获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.8 节），指定像素颜色。 |
+| [setArgb32Color(int value)](#setArgb32Color-int-) | 获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.8 节），指定像素颜色。 |
 ### EmfSetPixelV(EmfRecord source) {#EmfSetPixelV-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfSetPixelV(EmfRecord source)
@@ -38,7 +38,7 @@ public EmfSetPixelV(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### EmfSetPixelV() {#EmfSetPixelV--}
 ```
@@ -54,7 +54,7 @@ public Point getPixel()
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定像素的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定像素的逻辑坐标。
 
 **Returns:**
 [Point](../../com.aspose.imaging/point)
@@ -64,7 +64,7 @@ public void setPixel(Point value)
 ```
 
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定像素的逻辑坐标。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），指定像素的逻辑坐标。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -77,7 +77,7 @@ public int getArgb32Color()
 ```
 
 
-获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定像素颜色。
+获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.8 节），指定像素颜色。
 
 **Returns:**
 int
@@ -87,10 +87,10 @@ public void setArgb32Color(int value)
 ```
 
 
-获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定像素颜色。
+获取或设置一个 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.8 节），指定像素颜色。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

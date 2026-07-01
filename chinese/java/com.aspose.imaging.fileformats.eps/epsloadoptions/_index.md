@@ -1,6 +1,6 @@
 ---
 title: "EpsLoadOptions"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EPS 加载选项"
 type: docs
 weight: 11

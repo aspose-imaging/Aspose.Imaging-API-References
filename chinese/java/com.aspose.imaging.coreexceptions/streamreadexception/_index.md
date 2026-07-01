@@ -1,6 +1,6 @@
 ---
 title: "StreamReadException"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "流读取异常。"
 type: docs
 weight: 25
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class StreamReadException extends FrameworkException
 ```
 
-流读取异常。当因偏移量不正确或字节计数请求错误导致流读取失败时产生。
+流读取异常。当因偏移量或字节计数请求不正确导致流读取失败时产生。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -38,7 +38,7 @@ public StreamReadException(String message)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 
 ### StreamReadException(String message, Throwable innerException) {#StreamReadException-java.lang.String-java.lang.Throwable-}
 ```
@@ -51,7 +51,7 @@ public StreamReadException(String message, Throwable innerException)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 
 ### StreamReadException(String message, Throwable innerException, int expectedReadCount, int actualReadCount) {#StreamReadException-java.lang.String-java.lang.Throwable-int-int-}
@@ -65,7 +65,7 @@ public StreamReadException(String message, Throwable innerException, int expecte
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | innerException | java.lang.Throwable | 内部异常。 |
 | expectedReadCount | int | 预期读取计数。 |
 | actualReadCount | int | 实际读取计数。 |
@@ -81,7 +81,7 @@ public StreamReadException(String message, int expectedReadCount, int actualRead
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | 该消息。 |
+| 消息 | java.lang.String | 该消息。 |
 | expectedReadCount | int | 预期读取计数。 |
 | actualReadCount | int | 实际读取计数。 |
 

@@ -1,6 +1,6 @@
 ---
 title: "ExifExposureProgram"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "exif 曝光程序枚举。"
 type: docs
 weight: 14

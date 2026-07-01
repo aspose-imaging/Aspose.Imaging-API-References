@@ -1,6 +1,6 @@
 ---
 title: "com.aspose.imaging.metadata"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "该命名空间包含元数据相关实体。"
 type: docs
 weight: 104

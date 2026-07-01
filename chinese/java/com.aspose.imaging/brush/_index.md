@@ -1,6 +1,6 @@
 ---
 title: "Brush"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "基础画刷类。"
 type: docs
 weight: 13
@@ -24,7 +24,7 @@ public abstract class Brush extends DisposableObject
 | --- | --- |
 | [getOpacity()](#getOpacity--) | 获取画笔的不透明度。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置画笔的不透明度。 |
-| [deepClone()](#deepClone--) | 创建当前 `Brush` 的新深度克隆。 |
+| [deepClone()](#deepClone--) | 创建当前 `Brush` 的深度克隆副本。 |
 | [equals(Object o)](#equals-java.lang.Object-) | 检查对象是否相等。 |
 | [hashCode()](#hashCode--) | 获取当前对象的哈希码。 |
 ### Brush() {#Brush--}
@@ -39,7 +39,7 @@ public float getOpacity()
 ```
 
 
-获取画笔的不透明度。该值应在 0 到 1 之间。值为 0 表示画笔完全可见，值为 1 表示画笔完全不透明。
+获取画笔的不透明度。该值应在 0 到 1 之间。0 表示画笔完全可见，1 表示画笔完全不透明。
 
 **Returns:**
 float - 画笔不透明度值。
@@ -49,12 +49,12 @@ public void setOpacity(float value)
 ```
 
 
-设置画笔的不透明度。该值应在 0 到 1 之间。值为 0 表示画笔完全可见，值为 1 表示画笔完全不透明。
+设置画笔的不透明度。该值应在 0 到 1 之间。0 表示画笔完全可见，1 表示画笔完全不透明。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | 画笔不透明度值。 |
+| 值 | float | 画笔不透明度值。 |
 
 ### deepClone() {#deepClone--}
 ```
@@ -62,7 +62,7 @@ public Brush deepClone()
 ```
 
 
-创建当前 `Brush` 的新深度克隆。
+创建当前 `Brush` 的深度克隆副本。
 
 **Returns:**
 [Brush](../../com.aspose.imaging/brush) - A new `Brush` which is the deep clone of this `Brush` instance.

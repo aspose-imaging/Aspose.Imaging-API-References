@@ -1,6 +1,6 @@
 ---
 title: "CdrColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "cdr 颜色"
 type: docs
 weight: 10
@@ -57,7 +57,7 @@ public final void setColorModel(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色模型。 |
+| 值 | int | 颜色模型。 |
 
 ### getColorValue() {#getColorValue--}
 ```
@@ -80,7 +80,7 @@ public final void setColorValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | 颜色值。 |
+| 值 | int | 颜色值。 |
 
 ### getRgbColorValue() {#getRgbColorValue--}
 ```
@@ -103,7 +103,7 @@ public final void setRgbColorValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | RGB 颜色值。 |
+| 值 | int | RGB 颜色值。 |
 
 ### getOpacity() {#getOpacity--}
 ```
@@ -126,5 +126,5 @@ public final void setOpacity(byte value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | 不透明度。 |
+| 值 | byte | 不透明度。 |
 

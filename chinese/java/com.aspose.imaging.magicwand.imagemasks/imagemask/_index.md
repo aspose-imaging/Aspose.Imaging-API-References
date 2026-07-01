@@ -1,7 +1,7 @@
 ---
 title: "ImageMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "描述二值图像掩码。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "描述二进制图像掩码。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.imaging.magicwand.imagemasks/imagemask/
@@ -15,7 +15,7 @@ java.lang.Object
 public abstract class ImageMask implements IImageMask
 ```
 
-描述二值图像掩码。
+描述二进制图像掩码。
 ## 方法
 
 | 方法 | 描述 |
@@ -25,37 +25,37 @@ public abstract class ImageMask implements IImageMask
 | [op_Addition(ImageMask a, ImageMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 两个掩码的并集。 |
 | [op_Subtraction(ImageMask a, ImageMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 从第一个掩码中减去第二个掩码。 |
 | [op_Multiply(ImageMask a, ImageMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 两个掩码的交集。 |
-| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 两个掩码的异或。 |
+| [op_ExclusiveOr(ImageMask a, ImageMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageMask-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 两个掩码的互斥或。 |
 | [getSource()](#getSource--) | 获取用于创建此掩码的源图像（如果存在）。 |
 | [getWidth()](#getWidth--) | 获取此掩码的宽度（以像素为单位）。 |
 | [getHeight()](#getHeight--) | 获取此掩码的高度（以像素为单位）。 |
 | [getBounds()](#getBounds--) | 获取此掩码的边界（以像素为单位）。 |
 | [get_Item(int x, int y)](#get-Item-int-int-) | 获取指定像素的透明度。 |
-| [inflate(int size)](#inflate-int-) | 按指定量膨胀此掩码。 |
+| [inflate(int size)](#inflate-int-) | 按指定的量膨胀此掩码。 |
 | [crop(Size size)](#crop-com.aspose.imaging.Size-) | 使用指定的尺寸裁剪掩码。 |
 | [crop(int width, int height)](#crop-int-int-) | 使用指定的宽度和高度裁剪掩码。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形裁剪掩码。 |
 | [isOpaque(int x, int y)](#isOpaque-int-int-) | 检查指定像素是否不透明。 |
 | [isTransparent(int x, int y)](#isTransparent-int-int-) | 检查指定像素是否透明。 |
-| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精确到字节。 |
-| [getFeathered()](#getFeathered--) | 获取使用默认设置羽化边框的灰度掩码。 |
-| [getFeathered(FeatheringSettings settings)](#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-) | 获取使用指定设置羽化边框的灰度掩码。 |
-| [apply()](#apply--) | 如果存在，则将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。 |
+| [getByteOpacity(int x, int y)](#getByteOpacity-int-int-) | 获取指定像素的透明度，精度为字节。 |
+| [getFeathered()](#getFeathered--) | 获取边框使用默认设置羽化的灰度掩码。 |
+| [getFeathered(FeatheringSettings settings)](#getFeathered-com.aspose.imaging.magicwand.imagemasks.FeatheringSettings-) | 获取边框使用指定设置羽化的灰度掩码。 |
+| [apply()](#apply--) | 如果存在，将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。 |
 | [applyTo(RasterImage image)](#applyTo-com.aspose.imaging.RasterImage-) | 将当前掩码应用于指定的 [RasterImage](../../com.aspose.imaging/rasterimage)。 |
 | [invert()](#invert--) | 获取当前掩码的反转。 |
 | [union(ImageMask mask)](#union-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 获取当前掩码与提供的掩码的并集。 |
-| [union()](#union--) | 获取当前掩码与对掩码源应用魔棒选择结果的并集。 |
-| [union(MagicWandSettings settings)](#union-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对掩码源应用魔棒选择结果的并集。 |
-| [union(RasterImage image)](#union-com.aspose.imaging.RasterImage-) | 获取当前掩码与对提供的图像应用魔棒选择结果的并集。 |
-| [union(RasterImage image, MagicWandSettings settings)](#union-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对提供的图像应用魔棒选择结果的并集。 |
+| [union()](#union--) | 获取当前掩码与对掩码源应用魔棒选择的结果的并集。 |
+| [union(MagicWandSettings settings)](#union-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对掩码源应用魔棒选择的结果的并集。 |
+| [union(RasterImage image)](#union-com.aspose.imaging.RasterImage-) | 获取当前掩码与对提供的图像应用魔棒选择的结果的并集。 |
+| [union(RasterImage image, MagicWandSettings settings)](#union-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对提供的图像应用魔棒选择的结果的并集。 |
 | [subtract(ImageMask mask)](#subtract-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 获取从当前掩码中减去提供的掩码的结果。 |
-| [subtract()](#subtract--) | 获取对当前掩码源应用魔棒选择后，从掩码中减去的结果。 |
-| [subtract(MagicWandSettings settings)](#subtract-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取对当前掩码源应用魔棒选择后，从掩码中减去的结果。 |
-| [subtract(RasterImage image)](#subtract-com.aspose.imaging.RasterImage-) | 获取对提供的图像应用魔棒选择后，从当前掩码中减去的结果。 |
-| [subtract(RasterImage image, MagicWandSettings settings)](#subtract-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取对提供的图像应用魔棒选择后，从当前掩码中减去的结果。 |
+| [subtract()](#subtract--) | 获取对当前掩码源应用魔棒选择的结果并从掩码中减去后的结果。 |
+| [subtract(MagicWandSettings settings)](#subtract-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取对当前掩码源应用魔棒选择的结果并从掩码中减去后的结果。 |
+| [subtract(RasterImage image)](#subtract-com.aspose.imaging.RasterImage-) | 获取对提供的图像应用魔棒选择的结果从当前掩码中减去后的结果。 |
+| [subtract(RasterImage image, MagicWandSettings settings)](#subtract-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取对提供的图像应用魔棒选择的结果从当前掩码中减去后的结果。 |
 | [intersect(ImageMask mask)](#intersect-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 获取当前掩码与提供的掩码的交集。 |
-| [intersect()](#intersect--) | 获取当前掩码与对掩码源应用魔棒选择结果的交集。 |
-| [intersect(MagicWandSettings settings)](#intersect-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对掩码源应用魔棒选择结果的交集。 |
+| [intersect()](#intersect--) | 获取当前掩码与对掩码源应用魔棒选择的结果的交集。 |
+| [intersect(MagicWandSettings settings)](#intersect-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对掩码源应用魔棒选择的结果的交集。 |
 | [intersect(RasterImage image)](#intersect-com.aspose.imaging.RasterImage-) | 获取当前掩码与对提供的图像应用魔棒选择的结果的交集。 |
 | [intersect(RasterImage image, MagicWandSettings settings)](#intersect-com.aspose.imaging.RasterImage-com.aspose.imaging.magicwand.MagicWandSettings-) | 获取当前掩码与对提供的图像应用魔棒选择的结果的交集。 |
 | [exclusiveDisjunction(ImageMask mask)](#exclusiveDisjunction-com.aspose.imaging.magicwand.imagemasks.ImageMask-) | 获取当前掩码与提供的掩码的异或。 |
@@ -73,18 +73,18 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
     // 使用魔棒工具基于像素 (845, 128) 的色调和颜色创建新掩码
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // 将现有掩码与由魔棒工具创建的指定掩码合并
+            // 将现有掩码与魔棒工具创建的指定掩码进行合并
             .union(new MagicWandSettings(416, 387))
-            // 反转现有掩码
+            // 反转现有的遮罩
             .invert()
-            // 从现有掩码中减去由魔棒工具创建的、具有指定阈值的指定掩码
+            // 从现有遮罩中减去使用魔棒工具并具有指定阈值创建的指定遮罩
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
-            // 逐个从现有掩码中减去四个指定的矩形掩码
+            // 一次一次地从现有遮罩中减去四个指定的矩形遮罩
             .subtract(new RectangleMask(0, 0, 800, 150))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // 使用指定设置羽化掩码
+            // 使用指定设置羽化遮罩
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
             // 将掩码应用于图像
             .apply();
@@ -179,7 +179,7 @@ public static ImageBitMask op_ExclusiveOr(ImageMask a, ImageMask b)
 ```
 
 
-两个掩码的异或。
+两个掩码的互斥或。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -251,12 +251,12 @@ public abstract ImageMask inflate(int size)
 ```
 
 
-按指定量膨胀此掩码。
+按指定的量膨胀此掩码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 用于膨胀此掩码的量。 |
+| size | int | 膨胀此掩码的量。 |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An ImageMask.
@@ -286,8 +286,8 @@ public final ImageMask crop(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 指定的宽度。 |
-| 高度 | int | 指定的高度。 |
+| width | int | 指定的宽度。 |
+| height | int | 指定的高度。 |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An ImageMask.
@@ -344,7 +344,7 @@ public final byte getByteOpacity(int x, int y)
 ```
 
 
-获取指定像素的透明度，精确到字节。
+获取指定像素的透明度，精度为字节。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -360,7 +360,7 @@ public final ImageGrayscaleMask getFeathered()
 ```
 
 
-获取使用默认设置羽化边框的灰度掩码。
+获取边框使用默认设置羽化的灰度掩码。
 
 **Returns:**
 [ImageGrayscaleMask](../../com.aspose.imaging.magicwand.imagemasks/imagegrayscalemask) - \#to\_ImageGrayscaleMask(ImageMask).to\_ImageGrayscaleMask(ImageMask)\} with feathered border.
@@ -370,7 +370,7 @@ public final ImageGrayscaleMask getFeathered(FeatheringSettings settings)
 ```
 
 
-获取使用指定设置羽化边框的灰度掩码。
+获取边框使用指定设置羽化的灰度掩码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -385,7 +385,7 @@ public final void apply()
 ```
 
 
-如果存在，则将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。
+如果存在，将当前掩码应用于 [RasterImage](../../com.aspose.imaging/rasterimage) 源。
 
 
 **Example: The example shows how to select a simple area of an image based on tone and color of any pixel using Magic Wand tool.**
@@ -395,13 +395,13 @@ String imageFilePath = "input.png";
 String outputFilePath = "masked.png";
 try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
-    // 使用魔棒工具基于像素 (120, 100) 的色调和颜色创建新掩码，自定义阈值为 150。
+    // 使用魔棒工具基于像素 (120, 100) 的色调和颜色创建新掩码，自定义阈值设为 150。
     MagicWandTool
             .select(image, new MagicWandSettings(120, 100) {{ setThreshold(150); }})
             // 将掩码应用于图像
             .apply();
 
-    // 保存图像并强制使用透明颜色类型选项
+    // 使用强制透明颜色类型选项保存图像
     image.save(outputFilePath, new PngOptions()
     {{
         setColorType(PngColorType.TruecolorWithAlpha);
@@ -443,18 +443,18 @@ try (RasterImage image = (RasterImage)Image.load(imageFilePath))
 {
     // 使用魔棒工具基于像素 (845, 128) 的色调和颜色创建新掩码
     MagicWandTool.select(image, new MagicWandSettings(845, 128))
-            // 将现有掩码与由魔棒工具创建的指定掩码合并
+            // 将现有掩码与魔棒工具创建的指定掩码进行合并
             .union(new MagicWandSettings(416, 387))
-            // 反转现有掩码
+            // 反转现有的遮罩
             .invert()
-            // 从现有掩码中减去由魔棒工具创建的、具有指定阈值的指定掩码
+            // 从现有遮罩中减去使用魔棒工具并具有指定阈值创建的指定遮罩
             .subtract(new MagicWandSettings(1482, 346) {{ setThreshold(69); }})
-            // 逐个从现有掩码中减去四个指定的矩形掩码
+            // 一次一次地从现有遮罩中减去四个指定的矩形遮罩
             .subtract(new RectangleMask(0, 0, 800, 150))
             .subtract(new RectangleMask(0, 380, 600, 220))
             .subtract(new RectangleMask(930, 520, 110, 40))
             .subtract(new RectangleMask(1370, 400, 120, 200))
-            // 使用指定设置羽化掩码
+            // 使用指定设置羽化遮罩
             .getFeathered(new FeatheringSettings() {{ setSize(3); }})
             // 将掩码应用于图像
             .apply();
@@ -486,7 +486,7 @@ public final ImageBitMask union()
 ```
 
 
-获取当前掩码与对掩码源应用魔棒选择结果的并集。
+获取当前掩码与对掩码源应用魔棒选择的结果的并集。
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -496,7 +496,7 @@ public final ImageBitMask union(MagicWandSettings settings)
 ```
 
 
-获取当前掩码与对掩码源应用魔棒选择结果的并集。
+获取当前掩码与对掩码源应用魔棒选择的结果的并集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -511,12 +511,12 @@ public final ImageBitMask union(RasterImage image)
 ```
 
 
-获取当前掩码与对提供的图像应用魔棒选择结果的并集。
+获取当前掩码与对提供的图像应用魔棒选择的结果的并集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -526,12 +526,12 @@ public final ImageBitMask union(RasterImage image, MagicWandSettings settings)
 ```
 
 
-获取当前掩码与对提供的图像应用魔棒选择结果的并集。
+获取当前掩码与对提供的图像应用魔棒选择的结果的并集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | 魔棒设置。 |
 
 **Returns:**
@@ -557,7 +557,7 @@ public final ImageBitMask subtract()
 ```
 
 
-获取对当前掩码源应用魔棒选择后，从掩码中减去的结果。
+获取对当前掩码源应用魔棒选择的结果并从掩码中减去后的结果。
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -567,7 +567,7 @@ public final ImageBitMask subtract(MagicWandSettings settings)
 ```
 
 
-获取对当前掩码源应用魔棒选择后，从掩码中减去的结果。
+获取对当前掩码源应用魔棒选择的结果并从掩码中减去后的结果。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -582,12 +582,12 @@ public final ImageBitMask subtract(RasterImage image)
 ```
 
 
-获取对提供的图像应用魔棒选择后，从当前掩码中减去的结果。
+获取对提供的图像应用魔棒选择的结果从当前掩码中减去后的结果。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -597,12 +597,12 @@ public final ImageBitMask subtract(RasterImage image, MagicWandSettings settings
 ```
 
 
-获取对提供的图像应用魔棒选择后，从当前掩码中减去的结果。
+获取对提供的图像应用魔棒选择的结果从当前掩码中减去后的结果。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | 魔棒设置。 |
 
 **Returns:**
@@ -628,7 +628,7 @@ public final ImageBitMask intersect()
 ```
 
 
-获取当前掩码与对掩码源应用魔棒选择结果的交集。
+获取当前掩码与对掩码源应用魔棒选择的结果的交集。
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -638,7 +638,7 @@ public final ImageBitMask intersect(MagicWandSettings settings)
 ```
 
 
-获取当前掩码与对掩码源应用魔棒选择结果的交集。
+获取当前掩码与对掩码源应用魔棒选择的结果的交集。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -658,7 +658,7 @@ public final ImageBitMask intersect(RasterImage image)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -673,7 +673,7 @@ public final ImageBitMask intersect(RasterImage image, MagicWandSettings setting
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | 魔棒设置。 |
 
 **Returns:**
@@ -729,7 +729,7 @@ public final ImageBitMask exclusiveDisjunction(RasterImage image)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 
 **Returns:**
 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) - New [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask).
@@ -744,7 +744,7 @@ public final ImageBitMask exclusiveDisjunction(RasterImage image, MagicWandSetti
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 用于魔棒的图像。 |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | 魔棒使用的图像。 |
 | settings | [MagicWandSettings](../../com.aspose.imaging.magicwand/magicwandsettings) | 魔棒设置。 |
 
 **Returns:**

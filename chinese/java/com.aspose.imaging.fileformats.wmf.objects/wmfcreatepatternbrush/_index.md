@@ -1,7 +1,7 @@
 ---
 title: "WmfCreatePatternBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "META_CREATEPATTERNBRUSH 记录创建一个使用位图指定的图案的画笔对象。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "META_CREATEPATTERNBRUSH 记录创建一个刷子对象，其图案由位图指定。"
 type: docs
 weight: 23
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/
@@ -44,7 +44,7 @@ public WmfBitmap16 getBitmap()
 
 获取或设置位图。
 
-值：指定画笔图案的位图。
+值：指定刷子图案的位图。
 
 **Returns:**
 [WmfBitmap16](../../com.aspose.imaging.fileformats.wmf.objects/wmfbitmap16)
@@ -56,7 +56,7 @@ public void setBitmap(WmfBitmap16 value)
 
 获取或设置位图。
 
-值：指定画笔图案的位图。
+值：指定刷子图案的位图。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -88,7 +88,7 @@ public void setReserved(byte[] value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 
 ### getPattern() {#getPattern--}
 ```
@@ -98,7 +98,7 @@ public byte[] getPattern()
 
 获取或设置图案。
 
-值：一个可变长度的字节数组，定义组成画笔图案的位图像素数据。此字段的长度（以字节为单位）可以根据位图参数按如下方式计算。
+值：一个可变长度的字节数组，定义组成刷子图案的位图像素数据。此字段的长度（以字节为单位）可以按如下方式从位图参数计算得到。
 
 **Returns:**
 byte[]
@@ -110,10 +110,10 @@ public void setPattern(byte[] value)
 
 获取或设置图案。
 
-值：一个可变长度的字节数组，定义组成画笔图案的位图像素数据。此字段的长度（以字节为单位）可以根据位图参数按如下方式计算。
+值：一个可变长度的字节数组，定义组成刷子图案的位图像素数据。此字段的长度（以字节为单位）可以按如下方式从位图参数计算得到。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] |  |
+| 值 | byte[] |  |
 

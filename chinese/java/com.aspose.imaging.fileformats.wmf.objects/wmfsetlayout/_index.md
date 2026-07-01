@@ -1,13 +1,13 @@
 ---
 title: "WmfSetLayout"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "META_SETLAYOUT 记录定义了回放设备上下文中的布局方向。"
 type: docs
 weight: 76
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfsetlayout/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging/fileformats.wmf.objects/wmfobject)
+java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspose.imaging.fileformats.emf/metaobject), [com.aspose.imaging.fileformats.wmf.objects.WmfObject](../../com.aspose.imaging.fileformats.wmf.objects/wmfobject)
 ```
 public class WmfSetLayout extends WmfObject
 ```
@@ -38,7 +38,7 @@ public int getLayoutMode()
 
 获取或设置 LayoutMode。
 
-值：文本和图形的布局。此值必须是布局枚举（第 2.1.1.13 节）中的一个值。
+值：文本和图形的布局。此值必须是 Layout Enumeration（第 2.1.1.13 节）中的一个。
 
 **Returns:**
 int
@@ -50,10 +50,10 @@ public void setLayoutMode(int value)
 
 获取或设置 LayoutMode。
 
-值：文本和图形的布局。此值必须是布局枚举（第 2.1.1.13 节）中的一个值。
+值：文本和图形的布局。此值必须是 Layout Enumeration（第 2.1.1.13 节）中的一个。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 

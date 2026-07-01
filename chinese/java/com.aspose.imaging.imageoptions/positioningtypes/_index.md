@@ -1,6 +1,6 @@
 ---
 title: "PositioningTypes"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "图形场景的定位和尺寸类型。"
 type: docs
 weight: 39
@@ -17,8 +17,8 @@ public final class PositioningTypes extends System.Enum
 
 | 字段 | 描述 |
 | --- | --- |
-| [DefinedByDocument](#DefinedByDocument) | 由文档页面设置定义的页面绝对定位。 |
-| [DefinedByOptions](#DefinedByOptions) | 由选项页面设置定义的页面绝对定位。 |
+| [DefinedByDocument](#DefinedByDocument) | 页面上由文档页面设置定义的绝对定位。 |
+| [DefinedByOptions](#DefinedByOptions) | 页面上由选项页面设置定义的绝对定位。 |
 | [Relative](#Relative) | 相对定位和大小。 |
 ### DefinedByDocument {#DefinedByDocument}
 ```
@@ -26,7 +26,7 @@ public static final int DefinedByDocument
 ```
 
 
-由文档页面设置定义的页面绝对定位。
+页面上由文档页面设置定义的绝对定位。
 
 ### DefinedByOptions {#DefinedByOptions}
 ```
@@ -34,7 +34,7 @@ public static final int DefinedByOptions
 ```
 
 
-由选项页面设置定义的页面绝对定位。
+页面上由选项页面设置定义的绝对定位。
 
 ### Relative {#Relative}
 ```

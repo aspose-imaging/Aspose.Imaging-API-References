@@ -1,7 +1,7 @@
 ---
 title: "WmfCreateBrushInDirect"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "直接创建画笔。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "创建直接画笔。"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public class WmfCreateBrushInDirect extends WmfGraphicObject
 ```
 
-直接创建画笔。
+创建直接画笔。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -40,7 +40,7 @@ public EmfLogBrushEx getLogBrush()
 
 获取或设置日志画笔。
 
-值：日志画笔。
+值：log brush。
 
 **Returns:**
 [EmfLogBrushEx](../../com.aspose.imaging.fileformats.emf.emf.objects/emflogbrushex)
@@ -52,7 +52,7 @@ public void setLogBrush(EmfLogBrushEx value)
 
 获取或设置日志画笔。
 
-值：日志画笔。
+值：log brush。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

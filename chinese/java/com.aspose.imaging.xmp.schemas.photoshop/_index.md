@@ -1,7 +1,7 @@
 ---
 title: "com.aspose.imaging.xmp.schemas.photoshop"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该包包含与 Adobe Photoshop 一起使用的相关帮助类、常量和方法。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该包包含与 Adobe Photoshop 一起使用的相关辅助类、常量和方法。"
 type: docs
 weight: 117
 url: /zh/java/com.aspose.imaging.xmp.schemas.photoshop/

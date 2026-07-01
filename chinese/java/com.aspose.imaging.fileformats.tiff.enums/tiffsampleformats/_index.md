@@ -1,6 +1,6 @@
 ---
 title: "TiffSampleFormats"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "样本格式枚举"
 type: docs
 weight: 24
@@ -20,9 +20,9 @@ public final class TiffSampleFormats extends System.Enum
 | [Uint](#Uint) | 无符号整数数据 |
 | [Int](#Int) | 有符号整数数据 |
 | [IeeeFp](#IeeeFp) | IEEE 浮点数据 |
-| [Void](#Void) | 未定义数据 |
+| [Void](#Void) | 未类型化数据 |
 | [ComplexInt](#ComplexInt) | 复数有符号整数 |
-| [ComplexIeeeFp](#ComplexIeeeFp) | 复数 IEEE 浮点 |
+| [ComplexIeeeFp](#ComplexIeeeFp) | 复数 IEEE 浮点数 |
 ### Uint {#Uint}
 ```
 public static final int Uint
@@ -53,7 +53,7 @@ public static final int Void
 ```
 
 
-未定义数据
+未类型化数据
 
 ### ComplexInt {#ComplexInt}
 ```
@@ -69,5 +69,5 @@ public static final int ComplexIeeeFp
 ```
 
 
-复数 IEEE 浮点
+复数 IEEE 浮点数
 

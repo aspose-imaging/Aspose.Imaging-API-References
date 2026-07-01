@@ -1,6 +1,6 @@
 ---
 title: "TiffFrame"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "TIFF 帧。"
 type: docs
 weight: 12
@@ -30,7 +30,7 @@ TIFF 帧。
 | --- | --- |
 | [getBackgroundColor()](#getBackgroundColor--) | 获取背景颜色的值。 |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | 设置背景颜色的值。 |
-| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha 通道。 |
+| [hasAlpha()](#hasAlpha--) | 获取一个值，指示此实例是否具有 alpha。 |
 | [getBitsPerPixel()](#getBitsPerPixel--) | 获取图像每像素位数计数。 |
 | [getFrameOptions()](#getFrameOptions--) | 获取帧创建选项。 |
 | [getHeight()](#getHeight--) | 获取图像高度。 |
@@ -41,7 +41,7 @@ TIFF 帧。
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | 设置此 `RasterImage` 的垂直分辨率（每英寸像素数）。 |
 | [getPathResources()](#getPathResources--) | 获取路径资源。 |
 | [setPathResources(List<PathResource> value)](#setPathResources-java.util.List-com.aspose.imaging.fileformats.tiff.pathresources.PathResource--) | 设置路径资源。 |
-| [removeMetadata()](#removeMetadata--) | 通过将此 IHasXmpData.XmpData（[IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 和 `IHasExifData.ExifData`（[IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData）的值设为 `null`，以删除此图像实例的元数据。 |
+| [removeMetadata()](#removeMetadata--) | 通过将此 IHasXmpData.XmpData ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 和 `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) 的值设为 `null`，移除该图像实例的元数据。 |
 | [getOriginalOptions()](#getOriginalOptions--) | 根据原始文件设置获取选项。 |
 | [alignResolutions()](#alignResolutions--) | 帮助方法，使水平和垂直分辨率相等。 |
 | [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | 复制整个帧（重复）。 |
@@ -75,7 +75,7 @@ createOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhoto
 createOptions.setPlanarConfiguration(com.aspose.imaging.fileformats.tiff.enums.TiffPlanarConfigs.Contiguous);
 
 // 创建一个 100x100 像素的 TIFF 帧。
-// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放帧。
+// 请注意，如果帧已包含在 TiffImage 中，则无需显式释放该帧。
 // 当容器被释放时，所有帧将自动被释放。
 com.aspose.imaging.fileformats.tiff.TiffFrame firstFrame = new com.aspose.imaging.fileformats.tiff.TiffFrame(createOptions, 100, 100);
 
@@ -191,8 +191,8 @@ public TiffFrame(TiffOptions options, int width, int height)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | 帧选项。 |
-| 宽度 | int | 宽度。 |
-| 高度 | int | 高度。 |
+| width | int | 宽度。 |
+| height | int | 高度。 |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
@@ -223,7 +223,7 @@ public boolean hasAlpha()
 ```
 
 
-获取一个值，指示此实例是否具有 alpha 通道。
+获取一个值，指示此实例是否具有 alpha。
 
 **Returns:**
 boolean - 如果此实例具有 alpha，则为 `true`；否则为 `false`。
@@ -238,7 +238,7 @@ com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName);
 try {
     com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) image;
 
-    // 如果活动 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
+    // 如果活动的 TIFF 帧具有 alpha 通道，则整个 TIFF 图像被视为具有 alpha 通道。
     System.out.printf("ImageFile=%s, FileFormat=%s, HasAlpha=%s\r\n", fileName, tiffImage.getRawDataFormat(), tiffImage.hasAlpha());
 
     int i = 0;
@@ -250,9 +250,9 @@ try {
 }
 
 // 输出可能如下所示：
-// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
-// Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
+// Frame=2, FileFormat=RgbIndexed1Bpp, 使用的通道: 1, HasAlpha=False
 ```
 
 ### getBitsPerPixel() {#getBitsPerPixel--}
@@ -351,7 +351,7 @@ public void setHorizontalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 水平分辨率。 |
+| 值 | double | 水平分辨率。 |
 
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
@@ -409,7 +409,7 @@ public void setVerticalResolution(double value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | 垂直分辨率。 |
+| 值 | double | 垂直分辨率。 |
 
 ### getPathResources() {#getPathResources--}
 ```
@@ -438,7 +438,7 @@ try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
 
 
 **Example: The following example shows how to modify already existing Clipping Paths.**
-以下示例展示了如何修改已存在的剪裁路径。例如，您可以在图像中仅保留一个剪裁路径。
+以下示例展示了如何修改已存在的裁剪路径。例如，您可以在图像中仅保留一个裁剪路径。
 ``` java
 try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
 {
@@ -520,7 +520,7 @@ public void setPathResources(List<PathResource> value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> | 路径资源。 |
+| 值 | java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> | 路径资源。 |
 
 ### removeMetadata() {#removeMetadata--}
 ```
@@ -528,7 +528,7 @@ public void removeMetadata()
 ```
 
 
-通过将此 IHasXmpData.XmpData（[IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 和 `IHasExifData.ExifData`（[IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData）的值设为 `null`，以删除此图像实例的元数据。
+通过将此 IHasXmpData.XmpData ([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) 和 `IHasExifData.ExifData`([IHasExifData.getExifData](../../com.aspose.imaging.exif/ihasexifdata\#getExifData)/[IHasExifData.setExifData(ExifData)](../../com.aspose.imaging.exif/ihasexifdata\#setExifData-ExifData-) IHasExifData.setExifData) 的值设为 `null`，移除该图像实例的元数据。
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
@@ -536,7 +536,7 @@ public ImageOptionsBase getOriginalOptions()
 ```
 
 
-根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一张每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的输出 PNG 图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将其作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
+根据原始文件设置获取选项。这有助于保持原始图像的位深度和其他参数不变。例如，如果我们加载一幅每像素 1 位的黑白 PNG 图像，然后使用 [DataStreamSupporter.save(String)](../../com.aspose.imaging/datastreamsupporter\#save-String-) 方法保存，它将生成每像素 8 位的 PNG 输出图像。为避免这种情况并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项，并将它们作为第二个参数传递给 [Image.save(String, ImageOptionsBase)](../../com.aspose.imaging/image\#save-String--ImageOptionsBase-) 方法。
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
@@ -559,7 +559,7 @@ public static TiffFrame copyFrame(TiffFrame tiffFrame)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 要复制的 TIFF 帧。 |
+| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | 要复制的 tiff 帧。 |
 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly copied tiff frame.
@@ -588,7 +588,7 @@ String dir = "c:\\temp\\";
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
         = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
 
-// 创建永久的（非临时的）文件源。
+// 创建一个永久的（而非临时的）文件源。
 createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
 createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
 createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});

@@ -1,6 +1,6 @@
 ---
 title: "EmfPlusImageEffectsIdentifiers"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "ImageEffects 标识符定义了用于指定图形图像效果的标准 GUID。"
 type: docs
 weight: 28
@@ -12,7 +12,7 @@ java.lang.Object
 public final class EmfPlusImageEffectsIdentifiers
 ```
 
-ImageEffects 标识符定义了用于指定图形图像效果的标准 GUID。这些标识符由设备驱动程序使用，以公布它们对这些效果的支持级别。标识符常量使用 GUID 大括号字符串表示法（[MS-DTYP] 第 2.3.4.3 节）定义。
+ImageEffects 标识符定义了用于指定图形图像效果的标准 GUID。这些标识符由设备驱动程序用于公布它们对这些效果的支持级别。标识符常量使用 GUID 大括号字符串表示法（[MS-DTYP] 第 2.3.4.3 节）进行定义。
 
 --------------------
 
@@ -139,4 +139,4 @@ public static boolean contain(String objectGuid)
 | objectGuid | java.lang.String | 对象的唯一标识符。 |
 
 **Returns:**
-布尔 - 如果包含则为 True。
+布尔值 - 如果包含则为 True。

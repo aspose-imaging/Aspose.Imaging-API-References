@@ -1,7 +1,7 @@
 ---
 title: "EmfPlusSetPageTransform"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "该 EmfPlusSetPageTransform 记录指定用于将页面空间坐标转换为设备空间坐标的缩放因子和单位。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "该 EmfPlusSetPageTransform 记录指定将页面空间坐标转换为设备空间坐标的缩放因子和单位。"
 type: docs
 weight: 61
 url: /zh/java/com.aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.fileformats.emf.MetaObject](../../com.aspo
 public final class EmfPlusSetPageTransform extends EmfPlusTerminalServerRecordType
 ```
 
-该 EmfPlusSetPageTransform 记录指定用于将页面空间坐标转换为设备空间坐标的缩放因子和单位。
+该 EmfPlusSetPageTransform 记录指定将页面空间坐标转换为设备空间坐标的缩放因子和单位。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -36,7 +36,7 @@ public EmfPlusSetPageTransform(EmfPlusRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 源。 |
+| source | [EmfPlusRecord](../../com.aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | 来源。 |
 
 ### getPageUnit() {#getPageUnit--}
 ```
@@ -75,5 +75,5 @@ public void setPageScale(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float |  |
+| 值 | float |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "CmykColor"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "像素的 CMYK 颜色。"
 type: docs
 weight: 18
@@ -23,16 +23,16 @@ public class CmykColor extends Struct<CmykColor>
 | 方法 | 描述 |
 | --- | --- |
 | [getEmpty()](#getEmpty--) | 获取空值。 |
-| [fromParams(int cyan, int magenta, int yellow, int black)](#fromParams-int-int-int-int-) | 根据 32 位青色、品红、黄色和黑色值创建一个 `CmykColor` 结构。 |
-| [toCmyk(int[] argbPixels)](#toCmyk-int---) | 从 32 位 ARGB 颜色转换为 CMYKColor。 |
-| [toColor(CmykColor[] cmykPixels)](#toColor-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。 |
-| [toArgb32(CmykColor[] cmykPixels)](#toArgb32-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换将 CMYKColor 转换为 32 位 ARGB Color。 |
-| [toCmyk(int argbPixel)](#toCmyk-int-) | 从 32 位 ARGB 转换为 CMYKColor。 |
-| [toColor(CmykColor cmykPixel)](#toColor-com.aspose.imaging.CmykColor-) | 从 CMYKColor 转换为 Color。 |
-| [toColorIcc(CmykColor[] cmykPixels)](#toColorIcc-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。 |
-| [toColorIcc(CmykColor cmykPixel)](#toColorIcc-com.aspose.imaging.CmykColor-) | 使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。 |
-| [toColorIcc(CmykColor[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor---java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换将 CMYKColor 转换为 Color。 |
-| [toColorIcc(CmykColor cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor-java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换将 CMYKColor 转换为 Color。 |
+| [fromParams(int cyan, int magenta, int yellow, int black)](#fromParams-int-int-int-int-) | 从 32 位青色、品红、黄色和黑色值创建一个 `CmykColor` 结构。 |
+| [toCmyk(int[] argbPixels)](#toCmyk-int---) | 从 32 位 ARGB 颜色到 CMYKColor 的转换。 |
+| [toColor(CmykColor[] cmykPixels)](#toColor-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换，将 CMYKColor 转换为 Color。 |
+| [toArgb32(CmykColor[] cmykPixels)](#toArgb32-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换，将 CMYKColor 转换为 32 位 ARGB Color。 |
+| [toCmyk(int argbPixel)](#toCmyk-int-) | 从 32 位 ARGB 到 CMYKColor 的转换。 |
+| [toColor(CmykColor cmykPixel)](#toColor-com.aspose.imaging.CmykColor-) | 从 CMYKColor 到 Color 的转换。 |
+| [toColorIcc(CmykColor[] cmykPixels)](#toColorIcc-com.aspose.imaging.CmykColor---) | 使用默认配置文件的 ICC 转换，将 CMYKColor 转换为 Color。 |
+| [toColorIcc(CmykColor cmykPixel)](#toColorIcc-com.aspose.imaging.CmykColor-) | 使用默认配置文件的 ICC 转换，将 CMYKColor 转换为 Color。 |
+| [toColorIcc(CmykColor[] cmykPixels, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor---java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换，将 CMYKColor 转换为 Color。 |
+| [toColorIcc(CmykColor cmykPixel, InputStream cmykIccStream, InputStream rgbIccStream)](#toColorIcc-com.aspose.imaging.CmykColor-java.io.InputStream-java.io.InputStream-) | 使用 ICC 转换，将 CMYKColor 转换为 Color。 |
 | [isEquals(CmykColor obj1, CmykColor obj2)](#isEquals-com.aspose.imaging.CmykColor-com.aspose.imaging.CmykColor-) |  |
 | [getC()](#getC--) | 获取此 `com.com.aspose.imaging.Color` 结构的青色分量值。 |
 | [getM()](#getM--) | 获取此 `com.com.aspose.imaging.Color` 结构的品红分量值。 |
@@ -66,7 +66,7 @@ public static CmykColor fromParams(int cyan, int magenta, int yellow, int black)
 ```
 
 
-从 32 位青色、品红、黄色和黑色值创建一个 `CmykColor` 结构。此方法已弃用。请使用更有效的 CmykColorHelper\#fromComponents(int, int, int, int)。
+从 32 位青色、品红、黄色和黑色值创建一个 `CmykColor` 结构。此方法已弃用。请使用更有效的 CmykColorHelper\\#fromComponents(int, int, int, int)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -99,7 +99,7 @@ public static Color[] toColor(CmykColor[] cmykPixels)
 ```
 
 
-使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。此方法已弃用。请使用更有效的 [CmykColorHelper.toArgb(int)](../../com.aspose.imaging/cmykcolorhelper\#toArgb-int-)\}。
+使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。此方法已弃用。请使用更有效的 [CmykColorHelper.toArgb(int)](../../com.aspose.imaging/cmykcolorhelper\\#toArgb-int-)\\}。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -159,7 +159,7 @@ public static Color[] toColorIcc(CmykColor[] cmykPixels)
 ```
 
 
-使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。此方法已弃用。请使用更有效的 CmykColorHelper\#toArgbIcc(int[]).
+使用默认配置文件的 ICC 转换将 CMYKColor 转换为 Color。此方法已弃用。请使用更有效的 CmykColorHelper\\#toArgbIcc(int[]).
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -271,7 +271,7 @@ public byte getK()
 
 获取此 `com.com.aspose.imaging.Color` 结构的黑色分量值。
 
-值：此 `com.com.aspose.imaging.Color` 的黑色分量值。
+Value: 此 `com.com.aspose.imaging.Color` 的黑色分量值。
 
 **Returns:**
 byte
@@ -294,7 +294,7 @@ public int hashCode()
 获取哈希码。
 
 **Returns:**
-int - 该 `int`。
+int - 此 `int`。
 ### toValue() {#toValue--}
 ```
 public long toValue()
@@ -304,7 +304,7 @@ public long toValue()
 获取值。
 
 **Returns:**
-long - 该长 CMYK 值。
+long - 长整型 CMYK 值。
 ### CloneTo(CmykColor that) {#CloneTo-com.aspose.imaging.CmykColor-}
 ```
 public void CloneTo(CmykColor that)

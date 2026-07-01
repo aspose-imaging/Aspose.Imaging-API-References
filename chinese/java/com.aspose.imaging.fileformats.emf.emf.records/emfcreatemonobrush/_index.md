@@ -1,6 +1,6 @@
 ---
 title: "EmfCreateMonoBrush"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "EMR_CREATEMONOBRUSH 记录定义了用于图形操作的单色图案画刷。"
 type: docs
 weight: 39
@@ -22,12 +22,12 @@ EMR\_CREATEMONOBRUSH 记录定义了用于图形操作的单色图案画刷。�
 
 | 方法 | 描述 |
 | --- | --- |
-| [getIhBrush()](#getIhBrush--) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画笔对象的索引。 |
-| [setIhBrush(int value)](#setIhBrush-int-) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画笔对象的索引。 |
-| [getUsage()](#getUsage--) | 获取或设置指定如何解释 DIB 标头中颜色表值的 32 位无符号整数。 |
-| [setUsage(int value)](#setUsage-int-) | 获取或设置指定如何解释 DIB 标头中颜色表值的 32 位无符号整数。 |
-| [getBitmapBuffer()](#getBitmapBuffer--) | 获取或设置包含以 WMF DeviceIndependentBitmap 对象形式打包的 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节）。 |
-| [setBitmapBuffer(WmfDeviceIndependentBitmap value)](#setBitmapBuffer-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | 获取或设置包含以 WMF DeviceIndependentBitmap 对象形式打包的 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节）。 |
+| [getIhBrush()](#getIhBrush--) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画刷对象的索引。 |
+| [setIhBrush(int value)](#setIhBrush-int-) | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画刷对象的索引。 |
+| [getUsage()](#getUsage--) | 获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中颜色表的值。 |
+| [setUsage(int value)](#setUsage-int-) | 获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中颜色表的值。 |
+| [getBitmapBuffer()](#getBitmapBuffer--) | 获取或设置一个缓冲区，其中包含以 WMF DeviceIndependentBitmap 对象形式打包的 DIB（[MS-WMF] 第 2.2.2.9 节）。 |
+| [setBitmapBuffer(WmfDeviceIndependentBitmap value)](#setBitmapBuffer-com.aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap-) | 获取或设置一个缓冲区，其中包含以 WMF DeviceIndependentBitmap 对象形式打包的 DIB（[MS-WMF] 第 2.2.2.9 节）。 |
 ### EmfCreateMonoBrush(EmfRecord source) {#EmfCreateMonoBrush-com.aspose.imaging.fileformats.emf.emf.records.EmfRecord-}
 ```
 public EmfCreateMonoBrush(EmfRecord source)
@@ -39,7 +39,7 @@ public EmfCreateMonoBrush(EmfRecord source)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 源。 |
+| source | [EmfRecord](../../com.aspose.imaging.fileformats.emf.emf.records/emfrecord) | 来源。 |
 
 ### getIhBrush() {#getIhBrush--}
 ```
@@ -47,7 +47,7 @@ public int getIhBrush()
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画笔对象的索引。必须保存此索引，以便可以重新使用或修改该对象。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画刷对象的索引。必须保存此索引，以便可以重新使用或修改该对象。
 
 **Returns:**
 int
@@ -57,12 +57,12 @@ public void setIhBrush(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画笔对象的索引。必须保存此索引，以便可以重新使用或修改该对象。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色图案画刷对象的索引。必须保存此索引，以便可以重新使用或修改该对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getUsage() {#getUsage--}
 ```
@@ -70,7 +70,7 @@ public int getUsage()
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定如何解释 DIB 标头中颜色表的值。此值必须位于 DIBColors 枚举中（第 2.1.9 节）。
+获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中颜色表的值。此值必须位于 DIBColors 枚举中（第 2.1.9 节）。
 
 **Returns:**
 int
@@ -80,12 +80,12 @@ public void setUsage(int value)
 ```
 
 
-获取或设置一个 32 位无符号整数，用于指定如何解释 DIB 标头中颜色表的值。此值必须位于 DIBColors 枚举中（第 2.1.9 节）。
+获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中颜色表的值。此值必须位于 DIBColors 枚举中（第 2.1.9 节）。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getBitmapBuffer() {#getBitmapBuffer--}
 ```

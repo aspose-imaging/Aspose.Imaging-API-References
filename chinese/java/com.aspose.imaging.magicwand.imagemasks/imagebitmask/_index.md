@@ -1,7 +1,7 @@
 ---
 title: "ImageBitMask"
-second_title: "Aspose.Imaging for Java API 参考文档"
-description: "描述二值图像掩码。"
+second_title: "Aspose.Imaging for Java API 参考"
+description: "描述二进制图像掩码。"
 type: docs
 weight: 14
 url: /zh/java/com.aspose.imaging.magicwand.imagemasks/imagebitmask/
@@ -12,28 +12,28 @@ java.lang.Object, [com.aspose.imaging.magicwand.imagemasks.ImageMask](../../com.
 public class ImageBitMask extends ImageMask
 ```
 
-描述二值图像掩码。
+描述二进制图像掩码。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ImageBitMask(int width, int height)](#ImageBitMask-int-int-) | 使用指定的宽度和高度初始化 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) 类的新实例。 |
-| [ImageBitMask(RasterImage image)](#ImageBitMask-com.aspose.imaging.RasterImage-) | 使用指定的现有 [RasterImage](../../com.aspose.imaging/rasterimage) 的尺寸初始化 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) 类的新实例。 |
+| [ImageBitMask(RasterImage image)](#ImageBitMask-com.aspose.imaging.RasterImage-) | 使用指定现有 [RasterImage](../../com.aspose.imaging/rasterimage) 的大小初始化 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) 类的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [getSelectionBounds()](#getSelectionBounds--) | 获取掩码选定部分的边界（以像素为单位）。 |
 | [get_Item(int x, int y)](#get-Item-int-int-) | 获取指定像素的透明度。 |
-| [inflate(int size)](#inflate-int-) | 按指定量膨胀此掩码。 |
+| [inflate(int size)](#inflate-int-) | 按指定的量膨胀此掩码。 |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | 使用指定的矩形裁剪掩码。 |
 | [deepClone()](#deepClone--) | 创建一个新对象，该对象是当前实例的副本。 |
-| [setMaskPixel(int x, int y, boolean value)](#setMaskPixel-int-int-boolean-) | 设置指定像素的透明度。 |
+| [setMaskPixel(int x, int y, boolean value)](#setMaskPixel-int-int-boolean-) | 为指定像素设置不透明度。 |
 | [op_LogicalNot(ImageBitMask a)](#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 反转掩码。 |
 | [op_Addition(ImageBitMask a, ImageBitMask b)](#op-Addition-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 两个掩码的并集。 |
 | [op_Subtraction(ImageBitMask a, ImageBitMask b)](#op-Subtraction-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 从第一个掩码中减去第二个掩码。 |
 | [op_Multiply(ImageBitMask a, ImageBitMask b)](#op-Multiply-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 两个掩码的交集。 |
-| [op_ExclusiveOr(ImageBitMask a, ImageBitMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 两个掩码的异或。 |
+| [op_ExclusiveOr(ImageBitMask a, ImageBitMask b)](#op-ExclusiveOr-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-) | 两个掩码的互斥或。 |
 ### ImageBitMask(int width, int height) {#ImageBitMask-int-int-}
 ```
 public ImageBitMask(int width, int height)
@@ -45,8 +45,8 @@ public ImageBitMask(int width, int height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | int | 掩码的宽度。 |
-| 高度 | int | 掩码的高度。 |
+| width | int | 掩码的宽度。 |
+| height | int | 掩码的高度。 |
 
 ### ImageBitMask(RasterImage image) {#ImageBitMask-com.aspose.imaging.RasterImage-}
 ```
@@ -54,7 +54,7 @@ public ImageBitMask(RasterImage image)
 ```
 
 
-初始化一个新的 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) 类实例，大小为指定的现有 [RasterImage](../../com.aspose.imaging/rasterimage)。指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 将被存储为源图像。
+使用指定现有 [RasterImage](../../com.aspose.imaging/rasterimage) 的大小初始化 [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) 类的新实例。指定的 [RasterImage](../../com.aspose.imaging/rasterimage) 将被存储为源图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -93,12 +93,12 @@ public ImageMask inflate(int size)
 ```
 
 
-按指定量膨胀此掩码。
+按指定的量膨胀此掩码。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | int | 用于膨胀此掩码的量。 |
+| size | int | 膨胀此掩码的量。 |
 
 **Returns:**
 [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask) - An inflated [ImageBitMask](../../com.aspose.imaging.magicwand.imagemasks/imagebitmask) as [ImageMask](../../com.aspose.imaging.magicwand.imagemasks/imagemask).
@@ -126,21 +126,21 @@ public Object deepClone()
 创建一个新对象，该对象是当前实例的副本。
 
 **Returns:**
-java.lang.Object - 此实例的副本的新对象。
+java.lang.Object - 一个新对象，是此实例的副本。
 ### setMaskPixel(int x, int y, boolean value) {#setMaskPixel-int-int-boolean-}
 ```
 public final void setMaskPixel(int x, int y, boolean value)
 ```
 
 
-设置指定像素的透明度。
+为指定像素设置不透明度。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | x | int | 像素的 x 坐标。 |
 | y | int | 像素的 y 坐标。 |
-| value | boolean | 如果指定像素是不透明的则为 true；否则为 false。 |
+| 值 | boolean | 如果指定像素是不透明的则为 true；否则为 false。 |
 
 ### op_LogicalNot(ImageBitMask a) {#op-LogicalNot-com.aspose.imaging.magicwand.imagemasks.ImageBitMask-}
 ```
@@ -211,7 +211,7 @@ public static ImageBitMask op_ExclusiveOr(ImageBitMask a, ImageBitMask b)
 ```
 
 
-两个掩码的异或。
+两个掩码的互斥或。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

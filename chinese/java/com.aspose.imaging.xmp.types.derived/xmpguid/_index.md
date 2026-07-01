@@ -1,6 +1,6 @@
 ---
 title: "XmpGuid"
-second_title: "Aspose.Imaging for Java API 参考文档"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "表示 XMP 全局唯一标识符。"
 type: docs
 weight: 14
@@ -25,8 +25,8 @@ public final class XmpGuid extends XmpTypeBase
 | --- | --- |
 | [getPrefix()](#getPrefix--) | 获取或设置类似 uuid 的前缀。 |
 | [setPrefix(String value)](#setPrefix-java.lang.String-) | 获取或设置类似 uuid 的前缀。 |
-| [getValue()](#getValue--) | 获取或设置值。 |
-| [setValue(UUID value)](#setValue-java.util.UUID-) | 获取或设置值。 |
+| [getValue()](#getValue--) | 获取或设置该值。 |
+| [setValue(UUID value)](#setValue-java.util.UUID-) | 获取或设置该值。 |
 | [getXmpRepresentation()](#getXmpRepresentation--) | 获取 XMP 格式的字符串值。 |
 ### XmpGuid(String value) {#XmpGuid-java.lang.String-}
 ```
@@ -39,7 +39,7 @@ public XmpGuid(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | 值。 |
+| 值 | java.lang.String | 值。 |
 
 ### XmpGuid(UUID guid) {#XmpGuid-java.util.UUID-}
 ```
@@ -79,7 +79,7 @@ public void setPrefix(String value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| 值 | java.lang.String |  |
 
 ### getValue() {#getValue--}
 ```
@@ -87,9 +87,9 @@ public UUID getValue()
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
-值： 值。
+值：该值。
 
 **Returns:**
 java.util.UUID
@@ -99,14 +99,14 @@ public void setValue(UUID value)
 ```
 
 
-获取或设置值。
+获取或设置该值。
 
-值： 值。
+值：该值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID |  |
+| 值 | java.util.UUID |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```

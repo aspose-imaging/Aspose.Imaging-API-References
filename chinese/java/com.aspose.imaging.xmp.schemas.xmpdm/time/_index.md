@@ -1,6 +1,6 @@
 ---
-title: "Time"
-second_title: "Aspose.Imaging for Java API 参考文档"
+title: "时间"
+second_title: "Aspose.Imaging for Java API 参考"
 description: "以秒为单位的时间值表示。"
 type: docs
 weight: 14
@@ -39,7 +39,7 @@ public Time(Rational scale, int value)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | scale | [Rational](../../com.aspose.imaging.xmp.types.derived/rational) | 比例。 |
-| value | int | 值。 |
+| 值 | int | 值。 |
 
 ### getScale() {#getScale--}
 ```
@@ -93,7 +93,7 @@ public void setValue(int value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int |  |
+| 值 | int |  |
 
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
