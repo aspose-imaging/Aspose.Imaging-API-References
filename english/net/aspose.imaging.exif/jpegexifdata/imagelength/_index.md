@@ -3,7 +3,7 @@ title: JpegExifData.ImageLength
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the image length
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging.exif/jpegexifdata/imagelength/
 ---
 ## JpegExifData.ImageLength property

@@ -66,7 +66,7 @@ public abstract class MetaImage : VectorImage
 | abstract [GetUsedFonts](../../aspose.imaging.fileformats.emf/metaimage/getusedfonts/)() | Returns the list of font which used inside metafile. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../../aspose.imaging/image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |

@@ -3,7 +3,7 @@ title: XmpPacketWrapper.HeaderPi
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper property. Gets the header processing instruction
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.xmp/xmppacketwrapper/headerpi/
 ---
 ## XmpPacketWrapper.HeaderPi property

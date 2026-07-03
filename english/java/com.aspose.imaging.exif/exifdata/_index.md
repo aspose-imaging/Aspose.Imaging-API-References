@@ -25,10 +25,17 @@ EXIF data container.
 | [ExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)](#ExifData-com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---com.aspose.imaging.fileformats.tiff.TiffDataType---) | Initializes a new instance of the `ExifData` class with data from array. |
 | [ExifData(ExifData exifdata)](#ExifData-com.aspose.imaging.exif.ExifData-) | Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class with data from array. |
 | [ExifData(byte[] binaryData)](#ExifData-byte---) | Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifdata) class. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [DATE_TIME_FORMAT](#DATE-TIME-FORMAT) | Default EXIF datetime format "YYYY:MM:DD HH:MM:SS". |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getDateTime()](#getDateTime--) | Gets the date time. |
+| [setDateTime(String value)](#setDateTime-java.lang.String-) | Sets the date time. |
 | [isBigEndian()](#isBigEndian--) | Gets or sets a value indicating whether the stream EXIF data created from is big endian. |
 | [setBigEndian(boolean value)](#setBigEndian-boolean-) | Gets or sets a value indicating whether the stream EXIF data created from is big endian. |
 | [getMake()](#getMake--) | Gets the manufacturer of the recording equipment. |
@@ -332,6 +339,44 @@ Initializes a new instance of the [ExifData](../../com.aspose.imaging.exif/exifd
 | --- | --- | --- |
 | binaryData | byte[] | The binary data. |
 
+### DATE_TIME_FORMAT {#DATE-TIME-FORMAT}
+```
+public static final String DATE_TIME_FORMAT
+```
+
+
+Default EXIF datetime format "YYYY:MM:DD HH:MM:SS". (See Exchangeable image file format for digital still cameras: Exif Version 2.2 page 22 at [Exif2-2.PDF][]).
+
+
+[Exif2-2.PDF]: http://www.exif.org/Exif2-2.PDF
+
+### getDateTime() {#getDateTime--}
+```
+public String getDateTime()
+```
+
+
+Gets the date time.
+
+Value: The date time.
+
+**Returns:**
+java.lang.String - the date time.
+### setDateTime(String value) {#setDateTime-java.lang.String-}
+```
+public void setDateTime(String value)
+```
+
+
+Sets the date time.
+
+Value: The date time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | the date time. |
+
 ### isBigEndian() {#isBigEndian--}
 ```
 public boolean isBigEndian()
@@ -556,7 +601,7 @@ public byte[] getComponentsConfiguration()
 
 Gets or sets the components configuration.
 
-Value: The components configuration.
+Value: The component configuration.
 
 **Returns:**
 byte[]
@@ -568,7 +613,7 @@ public void setComponentsConfiguration(byte[] value)
 
 Gets or sets the components configuration.
 
-Value: The components configuration.
+Value: The component configuration.
 
 **Parameters:**
 | Parameter | Type | Description |

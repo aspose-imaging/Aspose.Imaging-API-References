@@ -42,7 +42,7 @@ public sealed class JpegExifData : ExifData
 | [Contrast](../../aspose.imaging.exif/exifdata/contrast/) { get; set; } | Gets or sets the contrast. |
 | [Copyright](../../aspose.imaging.exif/jpegexifdata/copyright/) { get; set; } | Gets or sets the copyright. |
 | [CustomRendered](../../aspose.imaging.exif/exifdata/customrendered/) { get; set; } | Gets or sets the custom rendered. |
-| [DateTime](../../aspose.imaging.exif/jpegexifdata/datetime/) { get; set; } | Gets or sets the date time. |
+| virtual [DateTime](../../aspose.imaging.exif/exifdata/datetime/) { get; set; } | Gets or sets the date time. |
 | [DateTimeDigitized](../../aspose.imaging.exif/exifdata/datetimedigitized/) { get; set; } | Gets or sets the date time digitized. |
 | [DateTimeOriginal](../../aspose.imaging.exif/exifdata/datetimeoriginal/) { get; set; } | Gets or sets the date time original. |
 | [DeviceSettingDescription](../../aspose.imaging.exif/exifdata/devicesettingdescription/) { get; set; } | Gets or sets device settings description |

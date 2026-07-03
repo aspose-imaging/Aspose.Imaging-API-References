@@ -3,7 +3,7 @@ title: ExifData.ExposureProgram
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the exposure program
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.imaging.exif/exifdata/exposureprogram/
 ---
 ## ExifData.ExposureProgram property

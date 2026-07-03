@@ -3,7 +3,7 @@ title: ExifData.GPSSatellites
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS satellites used for measurements
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.imaging.exif/exifdata/gpssatellites/
 ---
 ## ExifData.GPSSatellites property

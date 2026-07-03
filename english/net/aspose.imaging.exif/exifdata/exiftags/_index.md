@@ -3,7 +3,7 @@ title: ExifData.ExifTags
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets tags which belong to EXIF section only
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.imaging.exif/exifdata/exiftags/
 ---
 ## ExifData.ExifTags property

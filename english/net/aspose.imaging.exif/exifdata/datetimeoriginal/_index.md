@@ -3,7 +3,7 @@ title: ExifData.DateTimeOriginal
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the date time original
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging.exif/exifdata/datetimeoriginal/
 ---
 ## ExifData.DateTimeOriginal property

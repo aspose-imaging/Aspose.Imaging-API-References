@@ -38,8 +38,6 @@ EXIF data container for jpeg files.
 | [setCompression(int value)](#setCompression-int-) | Gets or sets the compression. |
 | [getCopyright()](#getCopyright--) | Gets or sets the copyright. |
 | [setCopyright(String value)](#setCopyright-java.lang.String-) | Gets or sets the copyright. |
-| [getDateTime()](#getDateTime--) | Gets or sets the date time. |
-| [setDateTime(String value)](#setDateTime-java.lang.String-) | Gets or sets the date time. |
 | [getImageDescription()](#getImageDescription--) | Gets or sets the image description. |
 | [setImageDescription(String value)](#setImageDescription-java.lang.String-) | Gets or sets the image description. |
 | [getImageLength()](#getImageLength--) | Gets or sets the image length. |
@@ -234,33 +232,6 @@ public void setCopyright(String value)
 Gets or sets the copyright.
 
 Value: The copyright.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### getDateTime() {#getDateTime--}
-```
-public String getDateTime()
-```
-
-
-Gets or sets the date time.
-
-Value: The date time.
-
-**Returns:**
-java.lang.String
-### setDateTime(String value) {#setDateTime-java.lang.String-}
-```
-public void setDateTime(String value)
-```
-
-
-Gets or sets the date time.
-
-Value: The date time.
 
 **Parameters:**
 | Parameter | Type | Description |

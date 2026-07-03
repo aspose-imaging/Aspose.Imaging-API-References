@@ -3,7 +3,7 @@ title: ExifData.FocalLengthIn35MmFilm
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the focal length in 35 mm film
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.imaging.exif/exifdata/focallengthin35mmfilm/
 ---
 ## ExifData.FocalLengthIn35MmFilm property

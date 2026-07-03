@@ -3,7 +3,7 @@ title: ExifData.FocalPlaneYResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the focal plane y resolution
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging.exif/exifdata/focalplaneyresolution/
 ---
 ## ExifData.FocalPlaneYResolution property

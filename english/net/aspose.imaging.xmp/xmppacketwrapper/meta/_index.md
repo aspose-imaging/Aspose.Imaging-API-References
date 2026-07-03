@@ -3,7 +3,7 @@ title: XmpPacketWrapper.Meta
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper property. Gets the XMP meta. Optional
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.xmp/xmppacketwrapper/meta/
 ---
 ## XmpPacketWrapper.Meta property
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.xmp/xmppacketwrapper/meta/
 Gets the XMP meta. Optional.
 
 ```csharp
-public XmpMeta Meta { get; set; }
+public XmpMeta Meta { get; }
 ```
 
 ### Property Value

@@ -3,7 +3,7 @@ title: ExifData.FocalLength
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the focal length
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging.exif/exifdata/focallength/
 ---
 ## ExifData.FocalLength property

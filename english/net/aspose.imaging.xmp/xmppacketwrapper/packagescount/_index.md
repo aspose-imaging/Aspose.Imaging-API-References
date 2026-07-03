@@ -3,7 +3,7 @@ title: XmpPacketWrapper.PackagesCount
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper property. Gets amount of packages inside XMP structure
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.xmp/xmppacketwrapper/packagescount/
 ---
 ## XmpPacketWrapper.PackagesCount property

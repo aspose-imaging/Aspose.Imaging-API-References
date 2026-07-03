@@ -16,7 +16,7 @@ public virtual object Clone()
 
 ### Return Value
 
-A memberwise clone.
+A shallow clone.
 
 ### See Also
 

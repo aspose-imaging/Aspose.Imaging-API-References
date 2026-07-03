@@ -3,7 +3,7 @@ title: ExifData.GPSDestBearing
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS bearing to the destination point
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.imaging.exif/exifdata/gpsdestbearing/
 ---
 ## ExifData.GPSDestBearing property

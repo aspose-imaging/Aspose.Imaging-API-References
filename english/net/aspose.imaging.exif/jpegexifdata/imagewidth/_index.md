@@ -3,7 +3,7 @@ title: JpegExifData.ImageWidth
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the image width
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging.exif/jpegexifdata/imagewidth/
 ---
 ## JpegExifData.ImageWidth property

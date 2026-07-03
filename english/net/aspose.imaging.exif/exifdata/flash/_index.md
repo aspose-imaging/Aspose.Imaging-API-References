@@ -3,7 +3,7 @@ title: ExifData.Flash
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the flash
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging.exif/exifdata/flash/
 ---
 ## ExifData.Flash property

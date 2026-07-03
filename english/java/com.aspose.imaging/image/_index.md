@@ -43,7 +43,7 @@ The image is the base class for all type of images.
 | [getFittingRectangle(Rectangle rectangle, int[] pixels, int width, int height)](#getFittingRectangle-com.aspose.imaging.Rectangle-int---int-int-) | Gets rectangle which fits the current image. |
 | [getProportionalWidth(int width, int height, int newHeight)](#getProportionalWidth-int-int-int-) | Gets a proportional width. |
 | [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | Gets a proportional height. |
-| [removeMetadata()](#removeMetadata--) | Removes metadata. |
+| [removeMetadata()](#removeMetadata--) | Removes the metadata from `Metadata`(\#getMetadata.getMetadata) property. |
 | [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) type. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getBounds()](#getBounds--) | Gets the image bounds. |
@@ -749,7 +749,7 @@ public void removeMetadata()
 ```
 
 
-Removes metadata.
+Removes the metadata from `Metadata`(\#getMetadata.getMetadata) property.
 
 ### trySetMetadata(IImageMetadataFormat metadata) {#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-}
 ```

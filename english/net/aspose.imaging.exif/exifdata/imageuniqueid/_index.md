@@ -3,7 +3,7 @@ title: ExifData.ImageUniqueID
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the image unique identifier
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.imaging.exif/exifdata/imageuniqueid/
 ---
 ## ExifData.ImageUniqueID property

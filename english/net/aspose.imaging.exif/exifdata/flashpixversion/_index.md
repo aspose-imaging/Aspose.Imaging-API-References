@@ -3,7 +3,7 @@ title: ExifData.FlashpixVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the flash pix version
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging.exif/exifdata/flashpixversion/
 ---
 ## ExifData.FlashpixVersion property

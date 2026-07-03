@@ -14,4 +14,4 @@ The package contains Dublin Core metadata related helper classes, constants and 
 
 | Class | Description |
 | --- | --- |
-| [DublinCorePackage](../com.aspose.imaging.xmp.schemas.dublincore/dublincorepackage) | Represents Dublic Core schema. |
+| [DublinCorePackage](../com.aspose.imaging.xmp.schemas.dublincore/dublincorepackage) | Represents Dublin Core schema. |

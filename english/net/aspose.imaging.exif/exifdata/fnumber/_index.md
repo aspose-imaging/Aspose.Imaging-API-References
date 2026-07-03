@@ -3,7 +3,7 @@ title: ExifData.FNumber
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the Fnumber
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.imaging.exif/exifdata/fnumber/
 ---
 ## ExifData.FNumber property

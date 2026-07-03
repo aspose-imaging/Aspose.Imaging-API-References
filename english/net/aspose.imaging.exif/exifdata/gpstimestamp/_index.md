@@ -3,7 +3,7 @@ title: ExifData.GPSTimestamp
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS time as UTC Coordinated Universal Time
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.imaging.exif/exifdata/gpstimestamp/
 ---
 ## ExifData.GPSTimestamp property

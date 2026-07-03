@@ -1,14 +1,14 @@
 ---
 title: XmpPackage.Remove
 second_title: Aspose.Imaging for .NET API Reference
-description: XmpPackage method. Remove the value with the specified key
+description: XmpPackage method. Removes the first element or attribute value with the specified key
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.xmp/xmppackage/remove/
 ---
 ## XmpPackage.Remove method
 
-Remove the value with the specified key.
+Removes the first element or attribute value with the specified key.
 
 ```csharp
 public virtual bool Remove(string key)

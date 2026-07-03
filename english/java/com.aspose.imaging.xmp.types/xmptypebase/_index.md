@@ -52,4 +52,4 @@ public Object deepClone()
 Clones this instance.
 
 **Returns:**
-java.lang.Object - A memberwise clone.
+java.lang.Object - A shallow clone.

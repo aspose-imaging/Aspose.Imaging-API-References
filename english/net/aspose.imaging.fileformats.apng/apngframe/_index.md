@@ -52,7 +52,7 @@ public class ApngFrame : RasterCachedImage, IAnimationFrame
 | virtual [RawLineSize](../../aspose.imaging/rasterimage/rawlinesize/) { get; } | Gets the raw line size in bytes. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | override [TransparentColor](../../aspose.imaging.fileformats.apng/apngframe/transparentcolor/) { get; set; } | Gets the transparent color. |
-| virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata/) { get; set; } | Gets or sets a value indicating whether to update the XMP metadata. |
+| [UpdateModifiedDate](../../aspose.imaging/rasterimage/updatemodifieddate/) { get; set; } | Gets or sets a value indicating whether to update this [`Image`](../../aspose.imaging/image/) instance last modification datetime metadata on saving. Modified date related Metadata properties and internal image settings will be updated to the datetime of [`Save`](../../aspose.imaging/datastreamsupporter/save/) execution. |
 | [UseAlphaBlending](../../aspose.imaging.fileformats.apng/apngframe/usealphablending/) { get; } | Gets a value indicating whether [use alpha blending]. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
@@ -93,7 +93,7 @@ public class ApngFrame : RasterCachedImage, IAnimationFrame
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata/)(Rectangle, RawDataSettings) | Gets the default raw data array. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata/)(Rectangle, IPartialRawDataLoader, RawDataSettings) | Gets the default raw data array using partial pixel loader. |
 | [GetFullFrame](../../aspose.imaging.fileformats.apng/apngframe/getfullframe/)() | Gets the full frame. |
-| virtual [GetModifyDate](../../aspose.imaging/rasterimage/getmodifydate/)(bool) | Gets the date and time the resource image was last modified. |
+| virtual [GetModifyDate](../../aspose.imaging/rasterimage/getmodifydate/)(bool) | Gets the DateTime value the image was last modified. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions/)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save/) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save/) method as the second parameter. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel/)(int, int) | Gets an image pixel. |
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |

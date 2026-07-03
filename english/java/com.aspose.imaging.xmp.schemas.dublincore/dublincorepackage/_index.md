@@ -1,7 +1,7 @@
 ---
 title: DublinCorePackage
 second_title: Aspose.Imaging for Java API Reference
-description: Represents Dublic Core schema.
+description: Represents Dublin Core schema.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
@@ -12,9 +12,12 @@ java.lang.Object, [com.aspose.imaging.xmp.XmpPackage](../../com.aspose.imaging.x
 public final class DublinCorePackage extends XmpPackage
 ```
 
-Represents Dublic Core schema.
+Represents Dublin Core schema.
 
-For more information see: http://dublincore.org/documents/usageguide/elements.shtml.
+For more information see: [usageguide/elements][usageguide_elements].
+
+
+[usageguide_elements]: http://dublincore.org/documents/usageguide/elements.shtml
 ## Constructors
 
 | Constructor | Description |

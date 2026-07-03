@@ -20,7 +20,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 | [None](#None) | No disposal specified. |
 | [Preserve](#Preserve) | Do not dispose. |
 | [Restore](#Restore) | Restore to background color. |
-| [Previuos](#Previuos) | Restore to previous. |
+| [Previous](#Previous) | Restore to previous. |
 | [Undefined](#Undefined) | Undefined value. |
 ### None {#None}
 ```
@@ -46,9 +46,9 @@ public static final int Restore
 
 Restore to background color. The area used by the graphic must be restored to the background color.
 
-### Previuos {#Previuos}
+### Previous {#Previous}
 ```
-public static final int Previuos
+public static final int Previous
 ```
 
 

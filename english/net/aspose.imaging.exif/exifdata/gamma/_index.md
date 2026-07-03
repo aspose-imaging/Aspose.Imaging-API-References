@@ -3,7 +3,7 @@ title: ExifData.Gamma
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the gamma
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.imaging.exif/exifdata/gamma/
 ---
 ## ExifData.Gamma property

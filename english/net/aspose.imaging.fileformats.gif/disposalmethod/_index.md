@@ -21,7 +21,7 @@ public enum DisposalMethod
 | None | `0` | No disposal specified. |
 | Preserve | `1` | Do not dispose. The graphic is to be left in place. |
 | Restore | `2` | Restore to background color. The area used by the graphic must be restored to the background color. |
-| Previuos | `3` | Restore to previous. The decoder is required to restore the area overwritten by the graphic with what was there prior to rendering the graphic. |
+| Previous | `3` | Restore to previous. The decoder is required to restore the area overwritten by the graphic with what was there prior to rendering the graphic. |
 | Undefined | `4` | Undefined value. |
 
 ### See Also

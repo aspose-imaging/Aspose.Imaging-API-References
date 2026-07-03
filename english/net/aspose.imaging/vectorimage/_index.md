@@ -57,7 +57,7 @@ public abstract class VectorImage : Image, IObjectWithSizeF
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/#removebackground)() | Removes the background. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/#removebackground_1)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/#resize_2)(int, int, ResizeType) | Resizes the specified new width. |

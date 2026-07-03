@@ -3,7 +3,7 @@ title: ExifData.GPSVersionID
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS version identifier
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.imaging.exif/exifdata/gpsversionid/
 ---
 ## ExifData.GPSVersionID property

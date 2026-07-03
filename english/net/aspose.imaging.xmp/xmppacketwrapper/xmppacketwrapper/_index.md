@@ -45,4 +45,30 @@ public XmpPacketWrapper()
 * namespace [Aspose.Imaging.Xmp](../../xmppacketwrapper/)
 * assembly [Aspose.Imaging](../../../)
 
+---
+
+## XmpPacketWrapper(byte[]) {#constructor_2}
+
+Initializes a new instance of the [`XmpPacketWrapper`](../) class.
+
+```csharp
+public XmpPacketWrapper(byte[] bytes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bytes | Byte[] | The original Xmp metadata bytes. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [XmpException](../../../aspose.imaging.coreexceptions/xmpexception/) | [`XmpException`](../../../aspose.imaging.coreexceptions/xmpexception/) |
+
+### See Also
+
+* class [XmpPacketWrapper](../)
+* namespace [Aspose.Imaging.Xmp](../../xmppacketwrapper/)
+* assembly [Aspose.Imaging](../../../)
+
 

@@ -29,8 +29,8 @@ Create Scalar Vector Graphics (SVG) image files with our API, utilizing versatil
 | [setColorType(int value)](#setColorType-int-) | Gets or sets the color type for SVG image. |
 | [getTextAsShapes()](#getTextAsShapes--) | Gets a value indicating whether text must be rendered as shapes. |
 | [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | Sets a value indicating whether text must be rendered as shapes. |
-| [getCallback()](#getCallback--) | Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
-| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
+| [getCallback()](#getCallback--) | Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images. |
+| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images. |
 | [getCompress()](#getCompress--) | Gets a value indicating whether the output image must be compressed. |
 | [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether the output image must be compressed. |
 
@@ -235,22 +235,22 @@ public ISvgResourceKeeperCallback getCallback()
 ```
 
 
-Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
+Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images.
 
 **Returns:**
-[ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) - the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
+[ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) - the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images.
 ### setCallback(ISvgResourceKeeperCallback value) {#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-}
 ```
 public void setCallback(ISvgResourceKeeperCallback value)
 ```
 
 
-Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
+Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
+| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested raster images. |
 
 ### getCompress() {#getCompress--}
 ```

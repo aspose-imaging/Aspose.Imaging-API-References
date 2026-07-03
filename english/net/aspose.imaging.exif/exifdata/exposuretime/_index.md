@@ -3,7 +3,7 @@ title: ExifData.ExposureTime
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the exposure time
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging.exif/exifdata/exposuretime/
 ---
 ## ExifData.ExposureTime property

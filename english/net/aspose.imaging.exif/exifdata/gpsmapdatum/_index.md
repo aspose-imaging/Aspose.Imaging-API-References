@@ -3,7 +3,7 @@ title: ExifData.GPSMapDatum
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS geodetic survey data used by the GPS receiver
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.imaging.exif/exifdata/gpsmapdatum/
 ---
 ## ExifData.GPSMapDatum property

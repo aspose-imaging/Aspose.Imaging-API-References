@@ -3,7 +3,7 @@ title: ExifData.GPSDestLongitudeRef
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS value which indicates whether the longitude of the destination point is east or west longitude
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.imaging.exif/exifdata/gpsdestlongituderef/
 ---
 ## ExifData.GPSDestLongitudeRef property

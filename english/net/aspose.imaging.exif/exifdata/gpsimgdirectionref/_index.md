@@ -3,7 +3,7 @@ title: ExifData.GPSImgDirectionRef
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS reference for giving the direction of the image when it is captured
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.imaging.exif/exifdata/gpsimgdirectionref/
 ---
 ## ExifData.GPSImgDirectionRef property

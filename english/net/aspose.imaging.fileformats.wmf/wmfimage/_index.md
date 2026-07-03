@@ -71,7 +71,7 @@ public class WmfImage : MetaImage
 | override [GetUsedFonts](../../aspose.imaging.fileformats.wmf/wmfimage/getusedfonts/)() | Retrieve the list of fonts used within the metafile, providing insight into the font resources utilized in the image. Utilize this method to analyze font usage and ensure font availability for rendering or further processing within your application. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../../aspose.imaging/image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |

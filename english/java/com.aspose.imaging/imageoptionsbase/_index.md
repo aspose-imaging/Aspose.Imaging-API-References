@@ -20,8 +20,8 @@ The image base options.
 
 | Method | Description |
 | --- | --- |
-| [isKeepMetadata()](#isKeepMetadata--) | Gets a value whether to keep original image metadata on export. |
-| [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | A value whether to keep original image metadata on export. |
+| [isKeepMetadata()](#isKeepMetadata--) | Gets a value whether to keep the original image metadata on export. |
+| [setKeepMetadata(boolean value)](#setKeepMetadata-boolean-) | A value whether to keep the original image metadata on export. |
 | [getXmpData()](#getXmpData--) | Gets the XMP metadata container. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata container. |
 | [getExifData()](#getExifData--) | Gets the Exif data. |
@@ -50,22 +50,22 @@ public final boolean isKeepMetadata()
 ```
 
 
-Gets a value whether to keep original image metadata on export.
+Gets a value whether to keep the original image metadata on export.
 
 **Returns:**
-boolean - a value whether to keep original image metadata on export.
+boolean - a value whether to keep the original image metadata on export.
 ### setKeepMetadata(boolean value) {#setKeepMetadata-boolean-}
 ```
 public final void setKeepMetadata(boolean value)
 ```
 
 
-A value whether to keep original image metadata on export.
+A value whether to keep the original image metadata on export.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value whether to keep original image metadata on export. |
+| value | boolean | a value whether to keep the original image metadata on export. |
 
 ### getXmpData() {#getXmpData--}
 ```

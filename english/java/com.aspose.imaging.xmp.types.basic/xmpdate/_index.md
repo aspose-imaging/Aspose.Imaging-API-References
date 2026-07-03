@@ -25,14 +25,14 @@ A date-time value is represented using a subset of the formats as defined in Dat
 
 | Field | Description |
 | --- | --- |
-| [ISO_8601_FORMAT](#ISO-8601-FORMAT) | The ISO 8601 (roundtrip) format string. |
+| [ISO_8601_FORMAT](#ISO-8601-FORMAT) | The ISO 8601 (round trip) format string. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getValue()](#getValue--) | Gets or sets the date value. |
 | [setValue(Date value)](#setValue-java.util.Date-) | Gets or sets the date value. |
-| [getFormat()](#getFormat--) | Gets the format string for current value. |
+| [getFormat()](#getFormat--) | r |
 | [getXmpRepresentation()](#getXmpRepresentation--) | Returns string contained value in XMP format. |
 ### XmpDate(Date dateTime) {#XmpDate-java.util.Date-}
 ```
@@ -66,7 +66,7 @@ public static final String ISO_8601_FORMAT
 ```
 
 
-The ISO 8601 (roundtrip) format string.
+The ISO 8601 (round trip) format string.
 
 See more: [ here ][here].
 
@@ -106,12 +106,14 @@ public String getFormat()
 ```
 
 
+r
+
 Gets the format string for current value.
 
 Value: The format string for current value.
 
 **Returns:**
-java.lang.String
+java.lang.String - the format string for current value.
 ### getXmpRepresentation() {#getXmpRepresentation--}
 ```
 public String getXmpRepresentation()

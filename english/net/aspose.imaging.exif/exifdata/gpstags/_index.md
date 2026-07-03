@@ -3,7 +3,7 @@ title: ExifData.GPSTags
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets tags which belong to GPS section only
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.imaging.exif/exifdata/gpstags/
 ---
 ## ExifData.GPSTags property

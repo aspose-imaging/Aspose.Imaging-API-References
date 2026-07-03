@@ -13,10 +13,20 @@ The namespace contains classes that represent the values of XMP properties in th
 | Class | Description |
 | --- | --- |
 | [XmpTypeBase](./xmptypebase/) | Represents base class for basic XMP type. |
+## Structures
+
+| Structure | Description |
+| --- | --- |
+| [XmpValue](./xmpvalue/) | XML node value representing an XMP value entry. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
 | [IXmpType](./ixmptype/) | Base interface for XMP type. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| [XmpValueType](./xmpvaluetype/) | XMP value type. |
 
 

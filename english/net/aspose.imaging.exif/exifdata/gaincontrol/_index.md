@@ -3,7 +3,7 @@ title: ExifData.GainControl
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the degree of overall image gain adjustment
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.imaging.exif/exifdata/gaincontrol/
 ---
 ## ExifData.GainControl property

@@ -1,14 +1,14 @@
 ---
 title: XmpPacketWrapper.ContainsPackage
 second_title: Aspose.Imaging for .NET API Reference
-description: XmpPacketWrapper method. Determines whethere package is exist in xmp wrapper
+description: XmpPacketWrapper method. Determines whether a namespaceUri exists in the Xmp instance
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.xmp/xmppacketwrapper/containspackage/
 ---
 ## XmpPacketWrapper.ContainsPackage method
 
-Determines whethere package is exist in xmp wrapper.
+Determines whether a *namespaceUri* exists in the Xmp instance.
 
 ```csharp
 public bool ContainsPackage(string namespaceUri)
@@ -16,7 +16,7 @@ public bool ContainsPackage(string namespaceUri)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| namespaceUri | String | Package schema uri. |
+| namespaceUri | String | The Xmp package schema uri. |
 
 ### Return Value
 

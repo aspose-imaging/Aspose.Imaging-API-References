@@ -3,7 +3,7 @@ title: ExifData.IsBigEndian
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets a value indicating whether the stream EXIF data created from is big endian
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.imaging.exif/exifdata/isbigendian/
 ---
 ## ExifData.IsBigEndian property

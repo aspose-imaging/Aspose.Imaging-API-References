@@ -15,6 +15,8 @@ The package contains classes that represent the values of XMP properties in thre
 | Class | Description |
 | --- | --- |
 | [XmpTypeBase](../com.aspose.imaging.xmp.types/xmptypebase) | Represents base class for basic XMP type. |
+| [XmpValue](../com.aspose.imaging.xmp.types/xmpvalue) | XML node value representing an XMP value entry. |
+| [XmpValueType](../com.aspose.imaging.xmp.types/xmpvaluetype) | XMP value type. |
 
 ## Interfaces
 

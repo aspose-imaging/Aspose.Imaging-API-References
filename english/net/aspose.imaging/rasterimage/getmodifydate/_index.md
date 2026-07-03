@@ -1,14 +1,14 @@
 ---
 title: RasterImage.GetModifyDate
 second_title: Aspose.Imaging for .NET API Reference
-description: RasterImage method. Gets the date and time the resource image was last modified
+description: RasterImage method. Gets the DateTime value the image was last modified
 type: docs
 weight: 350
 url: /net/aspose.imaging/rasterimage/getmodifydate/
 ---
 ## RasterImage.GetModifyDate method
 
-Gets the date and time the resource image was last modified.
+Gets the DateTime value the image was last modified.
 
 ```csharp
 public virtual DateTime GetModifyDate(bool useDefault)
@@ -16,11 +16,11 @@ public virtual DateTime GetModifyDate(bool useDefault)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| useDefault | Boolean | if set to `true` uses the information from FileInfo as default value. |
+| useDefault | Boolean | If value is to `true`, it returns LastWriteTimeUtc of the image source file. Otherwise, it tries to parse it from [`XmpData`](../../image/xmpdata/) or [`ExifData`](../../image/exifdata/). |
 
 ### Return Value
 
-The date and time the resource image was last modified.
+DateTime or MinValue in case the value is absent or a parsing error occured.
 
 ### See Also
 

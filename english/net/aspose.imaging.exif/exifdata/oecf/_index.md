@@ -3,7 +3,7 @@ title: ExifData.OECF
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the OptoElectric Conversion Function OECF specified in ISO 14524
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.imaging.exif/exifdata/oecf/
 ---
 ## ExifData.OECF property

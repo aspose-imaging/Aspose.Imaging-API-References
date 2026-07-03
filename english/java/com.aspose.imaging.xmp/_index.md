@@ -24,7 +24,6 @@ The package contains XMP related helper classes and methods.
 | [XmpHeaderPi](../com.aspose.imaging.xmp/xmpheaderpi) | Represents XMP header processing instruction. |
 | [XmpMeta](../com.aspose.imaging.xmp/xmpmeta) | Represents xmp meta. |
 | [XmpPackage](../com.aspose.imaging.xmp/xmppackage) | Represents base abstraction for XMP package. |
-| [XmpPackageBaseCollection](../com.aspose.imaging.xmp/xmppackagebasecollection) | Represents collection of `XmpPackage`. |
 | [XmpPacketWrapper](../com.aspose.imaging.xmp/xmppacketwrapper) | Contains serialized xmp package including header and trailer. |
 | [XmpRdfRoot](../com.aspose.imaging.xmp/xmprdfroot) | Represents rdf:RDF element. |
 | [XmpTrailerPi](../com.aspose.imaging.xmp/xmptrailerpi) | Represents XMP trailer processing instruction. |

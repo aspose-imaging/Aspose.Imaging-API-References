@@ -11,7 +11,7 @@ url: /net/aspose.imaging.xmp/xmppackage/keys/
 Gets the keys in XMP package.
 
 ```csharp
-public virtual KeyCollection<string, object> Keys { get; }
+public virtual ICollection<string> Keys { get; }
 ```
 
 ### Property Value

@@ -3,7 +3,7 @@ title: ExifData.ExifVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the EXIF version
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.exif/exifdata/exifversion/
 ---
 ## ExifData.ExifVersion property

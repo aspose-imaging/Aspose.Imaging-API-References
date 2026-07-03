@@ -3,7 +3,7 @@ title: XmpPacketWrapper.AddPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper method. Adds the package
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.xmp/xmppacketwrapper/addpackage/
 ---
 ## XmpPacketWrapper.AddPackage method

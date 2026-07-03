@@ -57,7 +57,7 @@ public sealed class BigTiffOptions : TiffOptions
 | [IsExtraSamplesPresent](../../aspose.imaging.imageoptions/tiffoptions/isextrasamplespresent/) { get; } | Gets a value indicating whether the extra samples is present. |
 | [IsTiled](../../aspose.imaging.imageoptions/tiffoptions/istiled/) { get; } | Gets a value indicating whether image is tiled. |
 | [IsValid](../../aspose.imaging.imageoptions/tiffoptions/isvalid/) { get; } | Gets a value indicating whether the [`TiffOptions`](../tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
-| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep the original image metadata on export. |
 | [MaxSampleValue](../../aspose.imaging.imageoptions/tiffoptions/maxsamplevalue/) { get; set; } | Gets or sets the max sample value. |
 | [MinSampleValue](../../aspose.imaging.imageoptions/tiffoptions/minsamplevalue/) { get; set; } | Gets or sets the min sample value. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |

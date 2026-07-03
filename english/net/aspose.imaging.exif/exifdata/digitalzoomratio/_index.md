@@ -3,7 +3,7 @@ title: ExifData.DigitalZoomRatio
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the digital zoom ratio
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging.exif/exifdata/digitalzoomratio/
 ---
 ## ExifData.DigitalZoomRatio property

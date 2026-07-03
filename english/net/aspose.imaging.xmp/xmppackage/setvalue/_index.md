@@ -3,7 +3,7 @@ title: XmpPackage.SetValue
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage method. Sets the value
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging.xmp/xmppackage/setvalue/
 ---
 ## SetValue(string, IXmlValue) {#setvalue}

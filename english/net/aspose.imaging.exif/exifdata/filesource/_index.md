@@ -3,7 +3,7 @@ title: ExifData.FileSource
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the file source type
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.imaging.exif/exifdata/filesource/
 ---
 ## ExifData.FileSource property

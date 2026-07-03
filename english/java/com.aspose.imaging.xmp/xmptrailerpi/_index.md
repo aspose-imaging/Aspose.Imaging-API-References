@@ -3,7 +3,7 @@ title: XmpTrailerPi
 second_title: Aspose.Imaging for Java API Reference
 description: Represents XMP trailer processing instruction.
 type: docs
-weight: 23
+weight: 22
 url: /java/com.aspose.imaging.xmp/xmptrailerpi/
 ---
 **Inheritance:**
@@ -30,9 +30,9 @@ The end="w" or end="r" portion shall be used by packet scanning processors to de
 | --- | --- |
 | [isWritable()](#isWritable--) | Gets or sets a value indicating whether this instance is writable. |
 | [setWritable(boolean value)](#setWritable-boolean-) | Gets or sets a value indicating whether this instance is writable. |
-| [getXmlValue()](#getXmlValue--) | Converts xmp value to the xml representation. |
+| [getXmlValue()](#getXmlValue--) | Converts xmp value to the XML representation. |
 | [isEquals(XmpTrailerPi other)](#isEquals-com.aspose.imaging.xmp.XmpTrailerPi-) | Indicates whether the current object is equal to another object of the same type. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `System.Object`, is equal to this instance. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `Object`, is equal to this instance. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 ### XmpTrailerPi(boolean isWritable) {#XmpTrailerPi-boolean-}
 ```
@@ -45,7 +45,7 @@ Initializes a new instance of the `XmpTrailerPi` class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isWritable | boolean | Inditacates whether trailer is writable. |
+| isWritable | boolean | Indicates whether trailer is writable. |
 
 ### XmpTrailerPi() {#XmpTrailerPi--}
 ```
@@ -88,7 +88,7 @@ public String getXmlValue()
 ```
 
 
-Converts xmp value to the xml representation.
+Converts xmp value to the XML representation.
 
 **Returns:**
 java.lang.String - Returns XML representation of XMP.
@@ -113,15 +113,15 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified `System.Object`, is equal to this instance.
+Determines whether the specified `Object`, is equal to this instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The `System.Object` to compare with this instance. |
+| obj | java.lang.Object | The `Object` to compare with this instance. |
 
 **Returns:**
-boolean - `true` if the specified `System.Object` is equal to this instance; otherwise, `false`.
+boolean - `true` if the specified `Object` is equal to this instance; otherwise, `false`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

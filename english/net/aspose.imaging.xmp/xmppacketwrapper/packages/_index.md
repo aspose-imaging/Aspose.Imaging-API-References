@@ -3,7 +3,7 @@ title: XmpPacketWrapper.Packages
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper property. Gets array of XmpPackage inside XMP
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.xmp/xmppacketwrapper/packages/
 ---
 ## XmpPacketWrapper.Packages property

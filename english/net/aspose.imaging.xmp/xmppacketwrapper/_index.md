@@ -3,7 +3,7 @@ title: Class XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.XmpPacketWrapper class. Contains serialized xmp package including header and trailer
 type: docs
-weight: 12450
+weight: 12460
 url: /net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 ## XmpPacketWrapper class
@@ -19,14 +19,16 @@ public class XmpPacketWrapper : IImageMetadataFormat, IXmlValue
 | Name | Description |
 | --- | --- |
 | [XmpPacketWrapper](xmppacketwrapper/#constructor)() | Initializes a new instance of the `XmpPacketWrapper` class. |
+| [XmpPacketWrapper](xmppacketwrapper/#constructor_2)(byte[]) | Initializes a new instance of the `XmpPacketWrapper` class. |
 | [XmpPacketWrapper](xmppacketwrapper/#constructor_1)(XmpHeaderPi, XmpTrailerPi, XmpMeta) | Initializes a new instance of the `XmpPacketWrapper` class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [Bytes](../../aspose.imaging.xmp/xmppacketwrapper/bytes/) { get; } | Gets the original Xmp bytes. |
 | [HeaderPi](../../aspose.imaging.xmp/xmppacketwrapper/headerpi/) { get; } | Gets the header processing instruction. |
-| [Meta](../../aspose.imaging.xmp/xmppacketwrapper/meta/) { get; set; } | Gets the XMP meta. Optional. |
+| [Meta](../../aspose.imaging.xmp/xmppacketwrapper/meta/) { get; } | Gets the XMP meta. Optional. |
 | [Packages](../../aspose.imaging.xmp/xmppacketwrapper/packages/) { get; } | Gets array of [`XmpPackage`](../xmppackage/) inside XMP. |
 | [PackagesCount](../../aspose.imaging.xmp/xmppacketwrapper/packagescount/) { get; } | Gets amount of packages inside XMP structure. |
 | [TrailerPi](../../aspose.imaging.xmp/xmppacketwrapper/trailerpi/) { get; } | Gets the trailer processing instruction. |
@@ -37,7 +39,7 @@ public class XmpPacketWrapper : IImageMetadataFormat, IXmlValue
 | --- | --- |
 | [AddPackage](../../aspose.imaging.xmp/xmppacketwrapper/addpackage/)(XmpPackage) | Adds the package. |
 | [ClearPackages](../../aspose.imaging.xmp/xmppacketwrapper/clearpackages/)() | Removes all [`XmpPackage`](../xmppackage/) inside XMP. |
-| [ContainsPackage](../../aspose.imaging.xmp/xmppacketwrapper/containspackage/)(string) | Determines whethere package is exist in xmp wrapper. |
+| [ContainsPackage](../../aspose.imaging.xmp/xmppacketwrapper/containspackage/)(string) | Determines whether a *namespaceUri* exists in the Xmp instance. |
 | [GetPackage](../../aspose.imaging.xmp/xmppacketwrapper/getpackage/)(string) | Gets package by namespace URI. |
 | [GetXmlValue](../../aspose.imaging.xmp/xmppacketwrapper/getxmlvalue/)() | Converts XMP value to the XML representation. |
 | [RemovePackage](../../aspose.imaging.xmp/xmppacketwrapper/removepackage/)(XmpPackage) | Removes the XMP package. |

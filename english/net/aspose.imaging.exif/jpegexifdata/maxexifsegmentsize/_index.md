@@ -3,7 +3,7 @@ title: JpegExifData.MaxExifSegmentSize
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData field. The maximum EXIF segment size in bytes allowed
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.exif/jpegexifdata/maxexifsegmentsize/
 ---
 ## JpegExifData.MaxExifSegmentSize field

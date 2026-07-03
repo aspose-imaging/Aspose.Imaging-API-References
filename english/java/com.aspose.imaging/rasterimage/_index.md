@@ -24,8 +24,8 @@ Represents a raster image supporting raster graphics operations.
 | [setPremultiplyComponents(boolean value)](#setPremultiplyComponents-boolean-) | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [getUseRawData()](#getUseRawData--) | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | [setUseRawData(boolean value)](#setUseRawData-boolean-) | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
-| [getUpdateXmpData()](#getUpdateXmpData--) | Gets or sets a value indicating whether to update the XMP metadata. |
-| [setUpdateXmpData(boolean value)](#setUpdateXmpData-boolean-) | Gets or sets a value indicating whether to update the XMP metadata. |
+| [isUpdateModifiedDate()](#isUpdateModifiedDate--) | Gets a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving. |
+| [setUpdateModifiedDate(boolean value)](#setUpdateModifiedDate-boolean-) | Sets a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving. |
 | [getRawIndexedColorConverter()](#getRawIndexedColorConverter--) | Gets or sets the indexed color converter |
 | [setRawIndexedColorConverter(IIndexedColorConverter value)](#setRawIndexedColorConverter-com.aspose.imaging.IIndexedColorConverter-) | Gets or sets the indexed color converter |
 | [getRawCustomColorConverter()](#getRawCustomColorConverter--) | Gets or sets the custom color converter |
@@ -48,7 +48,7 @@ Represents a raster image supporting raster graphics operations.
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the image transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
-| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Retrieves the date and time when the resource image underwent its latest modification. |
+| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the java.util.Date value the image was last modified. |
 | [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | Performs dithering on the current image. |
 | [dither(int ditheringMethod, int bitsCount, IColorPalette customPalette)](#dither-int-int-com.aspose.imaging.IColorPalette-) | Performs dithering on the current image. |
 | [getDefaultPixels(Rectangle rectangle, IPartialArgb32PixelLoader partialPixelLoader)](#getDefaultPixels-com.aspose.imaging.Rectangle-com.aspose.imaging.IPartialArgb32PixelLoader-) | Gets the default pixels array using partial pixel loader. |
@@ -241,28 +241,32 @@ Gets or sets a value indicating whether to use raw data loading when the raw dat
 | --- | --- | --- |
 | value | boolean | `true` if use raw data loading when the raw data loading is available.; otherwise, `false`. |
 
-### getUpdateXmpData() {#getUpdateXmpData--}
+### isUpdateModifiedDate() {#isUpdateModifiedDate--}
 ```
-public boolean getUpdateXmpData()
+public final boolean isUpdateModifiedDate()
 ```
 
 
-Gets or sets a value indicating whether to update the XMP metadata.
+Gets a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving. Modified date related `Metadata`([Image.getMetadata](../../com.aspose.imaging/image\#getMetadata)) properties and internal image settings will be updated to the datetime of [DataStreamSupporter.saveData(Stream)](../../com.aspose.imaging/datastreamsupporter\#saveData-Stream-) execution.
+
+Value: `boolean`.
 
 **Returns:**
-boolean - `true` if update the XMP metadata; otherwise, `false`.
-### setUpdateXmpData(boolean value) {#setUpdateXmpData-boolean-}
+boolean - a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving.
+### setUpdateModifiedDate(boolean value) {#setUpdateModifiedDate-boolean-}
 ```
-public void setUpdateXmpData(boolean value)
+public final void setUpdateModifiedDate(boolean value)
 ```
 
 
-Gets or sets a value indicating whether to update the XMP metadata.
+Sets a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving. Modified date related `Metadata`([Image.getMetadata](../../com.aspose.imaging/image\#getMetadata)) properties and internal image settings will be updated to the datetime of [DataStreamSupporter.saveData(Stream)](../../com.aspose.imaging/datastreamsupporter\#saveData-Stream-) execution.
+
+Value: `boolean`.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | `true` if update the XMP metadata; otherwise, `false`. |
+| value | boolean | a value indicating whether to update this [Image](../../com.aspose.imaging/image) instance last modification datetime metadata on saving. |
 
 ### getRawIndexedColorConverter() {#getRawIndexedColorConverter--}
 ```
@@ -659,15 +663,15 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-Retrieves the date and time when the resource image underwent its latest modification. This method provides valuable metadata, enabling users to track and manage updates to the image file effectively. By accessing this information, users can ensure the integrity and currency of their image assets, facilitating informed decision-making regarding image usage and maintenance.
+Gets the java.util.Date value the image was last modified.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| useDefault | boolean | if set to `true` uses the information from FileInfo as default value. |
+| useDefault | boolean | If value is to `true`, it returns last write time in UTC of the image source file. Otherwise, it tries to parse it from `Image.XmpData` ([Image.getXmpData()](../../com.aspose.imaging/image\#getXmpData--)/[Image.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging/image\#setXmpData-XmpPacketWrapper-)) or `Image.ExifData`([Image.getExifData()](../../com.aspose.imaging/image\#getExifData--)/[Image.setExifData(ExifData)](../../com.aspose.imaging/image\#setExifData-ExifData-)). |
 
 **Returns:**
-java.util.Date - The date and time the resource image was last modified.
+java.util.Date - java.util.Date or `java.util.Date()` in case the value is absent or a parsing error occurred.
 ### dither(int ditheringMethod, int bitsCount) {#dither-int-int-}
 ```
 public void dither(int ditheringMethod, int bitsCount)

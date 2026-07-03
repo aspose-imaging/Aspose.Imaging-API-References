@@ -3,7 +3,7 @@ title: ExifData.GPSStatus
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the status of the GPS receiver when the image is recorded
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.imaging.exif/exifdata/gpsstatus/
 ---
 ## ExifData.GPSStatus property

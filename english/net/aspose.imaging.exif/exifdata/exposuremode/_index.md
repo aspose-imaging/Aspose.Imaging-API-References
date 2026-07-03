@@ -3,7 +3,7 @@ title: ExifData.ExposureMode
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the exposure mode
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging.exif/exifdata/exposuremode/
 ---
 ## ExifData.ExposureMode property

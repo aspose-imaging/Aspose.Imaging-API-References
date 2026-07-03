@@ -148,7 +148,7 @@ Sets the color mode.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| colorMode | byte | The color mode. |
+| colorMode | byte | The color mode ([ColorMode](../../com.aspose.imaging.xmp.schemas.photoshop/colormode)). |
 
 ### setCountry(String country) {#setCountry-java.lang.String-}
 ```

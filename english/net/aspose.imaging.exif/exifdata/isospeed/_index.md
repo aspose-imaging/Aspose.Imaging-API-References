@@ -3,7 +3,7 @@ title: ExifData.ISOSpeed
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets ISO speed
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.imaging.exif/exifdata/isospeed/
 ---
 ## ExifData.ISOSpeed property

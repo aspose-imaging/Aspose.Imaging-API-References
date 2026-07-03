@@ -3,7 +3,7 @@ title: ExifData.WhitePoint
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the chromaticity of the white point of the image
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.imaging.exif/exifdata/whitepoint/
 ---
 ## ExifData.WhitePoint property

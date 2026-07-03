@@ -3,7 +3,7 @@ title: XmpPacketWrapper.GetXmlValue
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper method. Converts XMP value to the XML representation
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging.xmp/xmppacketwrapper/getxmlvalue/
 ---
 ## XmpPacketWrapper.GetXmlValue method

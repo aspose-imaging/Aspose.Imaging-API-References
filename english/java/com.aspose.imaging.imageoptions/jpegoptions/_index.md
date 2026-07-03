@@ -67,6 +67,7 @@ Create high-quality JPEG images effortlessly with our API, offering adjustable l
 | [setPreblendAlphaIfPresent(boolean value)](#setPreblendAlphaIfPresent-boolean-) | Sets a value indicating whether red, green and blue components should be mixed with a background color, if alpha channel is present. |
 | [getResolutionUnit()](#getResolutionUnit--) | Gets the resolution unit. |
 | [setResolutionUnit(byte value)](#setResolutionUnit-byte-) | Sets the resolution unit. |
+| [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) |  |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
@@ -1028,4 +1029,19 @@ try {
     image.dispose();
 }
 ```
+
+### setXmpData(XmpPacketWrapper value) {#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-}
+```
+public void setXmpData(XmpPacketWrapper value)
+```
+
+
+Sets the XMP metadata container.
+
+Value: The XMP data container.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [XmpPacketWrapper](../../com.aspose.imaging.xmp/xmppacketwrapper) |  |
 

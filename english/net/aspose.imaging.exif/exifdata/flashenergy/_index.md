@@ -3,7 +3,7 @@ title: ExifData.FlashEnergy
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the flash energy
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging.exif/exifdata/flashenergy/
 ---
 ## ExifData.FlashEnergy property

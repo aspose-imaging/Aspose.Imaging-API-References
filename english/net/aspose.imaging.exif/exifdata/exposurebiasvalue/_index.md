@@ -3,7 +3,7 @@ title: ExifData.ExposureBiasValue
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the exposure bias value
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging.exif/exifdata/exposurebiasvalue/
 ---
 ## ExifData.ExposureBiasValue property

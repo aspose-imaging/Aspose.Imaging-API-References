@@ -3,7 +3,7 @@ title: ExifData.GPSLatitude
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS latitude
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.imaging.exif/exifdata/gpslatitude/
 ---
 ## ExifData.GPSLatitude property

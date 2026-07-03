@@ -44,7 +44,7 @@ public virtual void AddValue(string key, object value)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | key is null. |
+| ArgumentException | *key* is null or empty. |
 
 ### See Also
 

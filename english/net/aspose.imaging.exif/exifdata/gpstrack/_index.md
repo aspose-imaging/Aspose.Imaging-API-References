@@ -3,7 +3,7 @@ title: ExifData.GPSTrack
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets direction of GPS receiver movement
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.imaging.exif/exifdata/gpstrack/
 ---
 ## ExifData.GPSTrack property

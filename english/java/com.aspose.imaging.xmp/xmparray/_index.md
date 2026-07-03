@@ -17,8 +17,8 @@ Represents Xmp Array in [XmpPackage](../../com.aspose.imaging.xmp/xmppackage).
 
 | Constructor | Description |
 | --- | --- |
-| [XmpArray()](#XmpArray--) |  |
-| [XmpArray(int type)](#XmpArray-int-) |  |
+| [XmpArray()](#XmpArray--) | Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class with [XmpArrayType.UNORDERED](../../com.aspose.imaging.xmp/xmparraytype\#UNORDERED) type and `null` value. |
+| [XmpArray(int type)](#XmpArray-int-) | Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class with `type` and `null` value. |
 | [XmpArray(int type, String[] items)](#XmpArray-int-java.lang.String---) | Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class. |
 ## Methods
 
@@ -32,16 +32,20 @@ public XmpArray()
 ```
 
 
+Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class with [XmpArrayType.UNORDERED](../../com.aspose.imaging.xmp/xmparraytype\#UNORDERED) type and `null` value.
+
 ### XmpArray(int type) {#XmpArray-int-}
 ```
 public XmpArray(int type)
 ```
 
 
+Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparray) class with `type` and `null` value.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| type | int | The type of array. |
 
 ### XmpArray(int type, String[] items) {#XmpArray-int-java.lang.String---}
 ```
@@ -54,7 +58,7 @@ Initializes a new instance of the [XmpArray](../../com.aspose.imaging.xmp/xmparr
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The type of array. |
+| type | int | The [XmpArrayType](../../com.aspose.imaging.xmp/xmparraytype) type of array. |
 | items | java.lang.String[] | The items list. |
 
 ### getValues() {#getValues--}

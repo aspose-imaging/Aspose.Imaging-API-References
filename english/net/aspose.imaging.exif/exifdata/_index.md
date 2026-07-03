@@ -39,6 +39,7 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 | [CompressedBitsPerPixel](../../aspose.imaging.exif/exifdata/compressedbitsperpixel/) { get; set; } | Gets or sets the compressed bits per pixel. |
 | [Contrast](../../aspose.imaging.exif/exifdata/contrast/) { get; set; } | Gets or sets the contrast. |
 | [CustomRendered](../../aspose.imaging.exif/exifdata/customrendered/) { get; set; } | Gets or sets the custom rendered. |
+| virtual [DateTime](../../aspose.imaging.exif/exifdata/datetime/) { get; set; } | Gets or sets the date time. |
 | [DateTimeDigitized](../../aspose.imaging.exif/exifdata/datetimedigitized/) { get; set; } | Gets or sets the date time digitized. |
 | [DateTimeOriginal](../../aspose.imaging.exif/exifdata/datetimeoriginal/) { get; set; } | Gets or sets the date time original. |
 | [DeviceSettingDescription](../../aspose.imaging.exif/exifdata/devicesettingdescription/) { get; set; } | Gets or sets device settings description |
@@ -150,6 +151,12 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 | [GetTagValue](../../aspose.imaging.exif/exifdata/gettagvalue/)(ExifProperties) | Gets the tag value. |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag)(ExifProperties) | Remove tag from container |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag_1)(ushort) | Remove tag from container |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [DateTimeFormat](../../aspose.imaging.exif/exifdata/datetimeformat/) | Defaulet EXIF datatime fortmat "YYYY:MM:DD HH:MM:SS". (See Exchangeable image file format for digital still cameras: Exif Version 2.2 page 22 at http://www.exif.org/Exif2-2.PDF). |
 
 ## Examples
 

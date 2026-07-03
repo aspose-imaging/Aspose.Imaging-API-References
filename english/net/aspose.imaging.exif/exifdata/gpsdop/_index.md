@@ -3,7 +3,7 @@ title: ExifData.GPSDOP
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS DOP data degree of precision
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.imaging.exif/exifdata/gpsdop/
 ---
 ## ExifData.GPSDOP property

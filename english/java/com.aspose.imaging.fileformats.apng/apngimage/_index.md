@@ -35,7 +35,7 @@ The API for Animated PNG (Animated Portable Network Graphics) image file format 
 | [getInterlaced()](#getInterlaced--) | Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve options based on the original file settings effortlessly with this intuitive method. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
-| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Quickly obtain the date and time when the resource image was last modified with this user-friendly method. |
+| [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the java.util.Date value the image was last modified. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Add a new page to the image effortlessly with this intuitive method. |
 | [addFrame()](#addFrame--) | /\*\* |
 | [addFrame(RasterImage frameImage)](#addFrame-com.aspose.imaging.RasterImage-) | Effortlessly expand your frame collection by adding a new frame to the end with this intuitive method. |
@@ -231,15 +231,15 @@ public Date getModifyDate(boolean useDefault)
 ```
 
 
-Quickly obtain the date and time when the resource image was last modified with this user-friendly method. Ideal for developers needing to track changes and manage resources effectively.
+Gets the java.util.Date value the image was last modified.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| useDefault | boolean | if set to `true` uses the information from FileInfo as default value. |
+| useDefault | boolean | If value is to ``, it uses the information from com.aspose.ms.System.IO.FileInfo. Otherwise, it tries to extract it from internal PNG settings or `Image.XmpData`([Image.getXmpData](../../com.aspose.imaging/image\#getXmpData)/[Image.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging/image\#setXmpData-XmpPacketWrapper-)). |
 
 **Returns:**
-java.util.Date - The date and time the resource image was last modified.
+java.util.Date - java.util.Date or `java.util.Date()` in case of exception while retrieving the value.
 ### addPage(RasterImage page) {#addPage-com.aspose.imaging.RasterImage-}
 ```
 public void addPage(RasterImage page)

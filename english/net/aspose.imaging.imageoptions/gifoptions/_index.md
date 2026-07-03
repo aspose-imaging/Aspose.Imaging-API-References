@@ -37,7 +37,7 @@ public class GifOptions : ImageOptionsBase
 | [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context. |
 | [Interlaced](../../aspose.imaging.imageoptions/gifoptions/interlaced/) { get; set; } | True if image should be interlaced. |
 | [IsPaletteSorted](../../aspose.imaging.imageoptions/gifoptions/ispalettesorted/) { get; set; } | Gets or sets a value indicating whether palette entries are sorted. |
-| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep original image metadata on export. |
+| [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep the original image metadata on export. |
 | [LoopsCount](../../aspose.imaging.imageoptions/gifoptions/loopscount/) { get; set; } | Gets or sets the loops count (Default 1 loop) |
 | [MaxDiff](../../aspose.imaging.imageoptions/gifoptions/maxdiff/) { get; set; } | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |

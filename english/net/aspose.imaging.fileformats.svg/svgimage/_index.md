@@ -66,7 +66,7 @@ public sealed class SvgImage : VectorImage
 | virtual [GetSerializedStream](../../aspose.imaging/image/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../../aspose.imaging/image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging.fileformats.svg/svgimage/resize/#resize_2)(int, int, ResizeType) | Resize the image to fit the specified dimensions while preserving its aspect ratio. This method provides a convenient way to adjust the size of the image without distorting its proportions, ensuring optimal display or storage according to the desired dimensions. |

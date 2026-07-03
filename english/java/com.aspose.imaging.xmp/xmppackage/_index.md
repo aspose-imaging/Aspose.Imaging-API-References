@@ -10,17 +10,12 @@ url: /java/com.aspose.imaging.xmp/xmppackage/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.xmp.IXmlValue](../../com.aspose.imaging.xmp/ixmlvalue), com.aspose.ms.System.Collections.Generic.IGenericEnumerable
+java.lang.Iterable
 ```
-public class XmpPackage implements IXmlValue, System.Collections.Generic.IGenericEnumerable<System.Collections.Generic.KeyValuePair<String,Object>>
+public class XmpPackage implements Iterable<Map.Entry<String,XmpValue>>
 ```
 
 Represents base abstraction for XMP package.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [XmpPackage(String prefix, String namespaceUri)](#XmpPackage-java.lang.String-java.lang.String-) | Initializes a new instance of the `XmpPackage` class. |
 ## Methods
 
 | Method | Description |
@@ -30,36 +25,21 @@ Represents base abstraction for XMP package.
 | [getNamespaceUri()](#getNamespaceUri--) | Gets the namespace URI. |
 | [getKeys()](#getKeys--) | Gets the keys in XMP package. |
 | [getCount()](#getCount--) | Gets the XMP key count. |
+| [get_Item(String key)](#get-Item-java.lang.String-) | Gets the first XMP attribute or element value with by specified `key`. |
+| [set_Item(String key, XmpValue value)](#set-Item-java.lang.String-com.aspose.imaging.xmp.types.XmpValue-) | Sets the first XMP attribute or element value with by specified `key`. |
 | [containsKey(String key)](#containsKey-java.lang.String-) | Determines whether this collection specified key. |
-| [get_Item(String key)](#get-Item-java.lang.String-) | Gets or sets the `Object` with the specified key. |
-| [set_Item(String key, Object value)](#set-Item-java.lang.String-java.lang.Object-) | Sets the `Object` with the specified key. |
 | [addValue(String key, String value)](#addValue-java.lang.String-java.lang.String-) | Adds the value to the specified key. |
 | [addValue(String key, Object value)](#addValue-java.lang.String-java.lang.Object-) | Adds the value to the specified key. |
-| [tryGetValue(String key, Object[] value)](#tryGetValue-java.lang.String-java.lang.Object---) | Gets the value by the `key`. |
-| [remove(String key)](#remove-java.lang.String-) | Remove the value with the specified key. |
+| [tryGetValue(String key, XmpValue[] value)](#tryGetValue-java.lang.String-com.aspose.imaging.xmp.types.XmpValue---) | Gets the value by the `key`. |
+| [remove(String key)](#remove-java.lang.String-) | Removes the first element or attribute value with the specified key. |
 | [clear()](#clear--) | Clears this instance. |
 | [setValue(String key, IXmlValue value)](#setValue-java.lang.String-com.aspose.imaging.xmp.IXmlValue-) | Sets the value. |
 | [setValue(String key, IXmpType value)](#setValue-java.lang.String-com.aspose.imaging.xmp.types.IXmpType-) | Sets the value. |
 | [setXmpTypeValue(String key, XmpTypeBase value)](#setXmpTypeValue-java.lang.String-com.aspose.imaging.xmp.types.XmpTypeBase-) | Sets the XMP type value. |
-| [getXmlValue()](#getXmlValue--) | Converts XMP value to the XML representation. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
-### XmpPackage(String prefix, String namespaceUri) {#XmpPackage-java.lang.String-java.lang.String-}
-```
-public XmpPackage(String prefix, String namespaceUri)
-```
-
-
-Initializes a new instance of the `XmpPackage` class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| prefix | java.lang.String | The prefix. |
-| namespaceUri | java.lang.String | The namespace URI. |
-
 ### getXmlNamespace() {#getXmlNamespace--}
 ```
-public String getXmlNamespace()
+public final String getXmlNamespace()
 ```
 
 
@@ -68,10 +48,10 @@ Gets the XML namespace.
 Value: The XML namespace.
 
 **Returns:**
-java.lang.String
+java.lang.String - the XML namespace.
 ### getPrefix() {#getPrefix--}
 ```
-public String getPrefix()
+public final String getPrefix()
 ```
 
 
@@ -80,10 +60,10 @@ Gets the prefix.
 Value: The prefix.
 
 **Returns:**
-java.lang.String
+java.lang.String - the prefix.
 ### getNamespaceUri() {#getNamespaceUri--}
 ```
-public String getNamespaceUri()
+public final String getNamespaceUri()
 ```
 
 
@@ -92,17 +72,19 @@ Gets the namespace URI.
 Value: The namespace URI.
 
 **Returns:**
-java.lang.String
+java.lang.String - the namespace URI.
 ### getKeys() {#getKeys--}
 ```
-public System.Collections.Generic.Dictionary.KeyCollection<String,Object> getKeys()
+public System.Collections.Generic.IGenericCollection<String> getKeys()
 ```
 
 
 Gets the keys in XMP package.
 
+Value: The keys in XMP package.
+
 **Returns:**
-com.aspose.ms.System.Collections.Generic.Dictionary.KeyCollection<java.lang.String,java.lang.Object>
+com.aspose.ms.System.Collections.Generic.IGenericCollection<java.lang.String> - the keys in XMP package.
 ### getCount() {#getCount--}
 ```
 public final int getCount()
@@ -113,6 +95,35 @@ Gets the XMP key count.
 
 **Returns:**
 int - the XMP key count.
+### get_Item(String key) {#get-Item-java.lang.String-}
+```
+public XmpValue get_Item(String key)
+```
+
+
+Gets the first XMP attribute or element value with by specified `key`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.String | The key that identifies value. Value: The [XmpValue](../../com.aspose.imaging.xmp.types/xmpvalue). |
+
+**Returns:**
+[XmpValue](../../com.aspose.imaging.xmp.types/xmpvalue) - Returns the [XmpValue](../../com.aspose.imaging.xmp.types/xmpvalue) by the specified key.
+### set_Item(String key, XmpValue value) {#set-Item-java.lang.String-com.aspose.imaging.xmp.types.XmpValue-}
+```
+public void set_Item(String key, XmpValue value)
+```
+
+
+Sets the first XMP attribute or element value with by specified `key`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.String | The key that identifies value. Value: The [XmpValue](../../com.aspose.imaging.xmp.types/xmpvalue). |
+| value | [XmpValue](../../com.aspose.imaging.xmp.types/xmpvalue) | the first XMP attribute or element value with by specified `key`. |
+
 ### containsKey(String key) {#containsKey-java.lang.String-}
 ```
 public boolean containsKey(String key)
@@ -127,36 +138,7 @@ Determines whether this collection specified key.
 | key | java.lang.String | The key to be checked. |
 
 **Returns:**
-boolean - `true` if the collection contains the specified key; otherwise, `false`.
-### get_Item(String key) {#get-Item-java.lang.String-}
-```
-public Object get_Item(String key)
-```
-
-
-Gets or sets the `Object` with the specified key.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | java.lang.String | The key that identifies value. |
-
-**Returns:**
-java.lang.Object - Returns the `Object` with the specified key.
-### set_Item(String key, Object value) {#set-Item-java.lang.String-java.lang.Object-}
-```
-public void set_Item(String key, Object value)
-```
-
-
-Sets the `Object` with the specified key.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | java.lang.String | The key that identifies value. |
-| value | java.lang.Object | The `Object` value. |
-
+boolean - `` if the `IDictionary\{TKey, TValue\}` contains the specified key; otherwise, ``.
 ### addValue(String key, String value) {#addValue-java.lang.String-java.lang.String-}
 ```
 public void addValue(String key, String value)
@@ -185,9 +167,9 @@ Adds the value to the specified key.
 | key | java.lang.String | The string representation of key that is identified with added value. |
 | value | java.lang.Object | The value to add to. |
 
-### tryGetValue(String key, Object[] value) {#tryGetValue-java.lang.String-java.lang.Object---}
+### tryGetValue(String key, XmpValue[] value) {#tryGetValue-java.lang.String-com.aspose.imaging.xmp.types.XmpValue---}
 ```
-public final boolean tryGetValue(String key, Object[] value)
+public final boolean tryGetValue(String key, XmpValue[] value)
 ```
 
 
@@ -197,17 +179,17 @@ Gets the value by the `key`.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | java.lang.String | The XMP element key. |
-| value | java.lang.Object[] | The XMP value. |
+| value | [XmpValue\[\]](../../com.aspose.imaging.xmp.types/xmpvalue) | The XMP value. |
 
 **Returns:**
-boolean - `true`, if the collection contains the `key`; otherwise, `false`.
+boolean - ``, if the `IDictionary\{TKey, TValue\}` contains the `key`; otherwise, ``.
 ### remove(String key) {#remove-java.lang.String-}
 ```
 public boolean remove(String key)
 ```
 
 
-Remove the value with the specified key.
+Removes the first element or attribute value with the specified key.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -266,23 +248,13 @@ Sets the XMP type value.
 | key | java.lang.String | The string representation of key that is identified with set value. |
 | value | [XmpTypeBase](../../com.aspose.imaging.xmp.types/xmptypebase) | The value to set to. |
 
-### getXmlValue() {#getXmlValue--}
-```
-public String getXmlValue()
-```
-
-
-Converts XMP value to the XML representation.
-
-**Returns:**
-java.lang.String - Returns the XMP value converted to the XML representation.
 ### iterator() {#iterator--}
 ```
-public System.Collections.Generic.IGenericEnumerator<System.Collections.Generic.KeyValuePair<String,Object>> iterator()
+public final Iterator<Map.Entry<String,XmpValue>> iterator()
 ```
 
 
 Returns an enumerator that iterates through the collection.
 
 **Returns:**
-com.aspose.ms.System.Collections.Generic.IGenericEnumerator<com.aspose.ms.System.Collections.Generic.KeyValuePair<java.lang.String,java.lang.Object>> - A `T:System.Collections.Generic.IEnumerator\`1` that can be used to iterate through the collection.
+java.util.Iterator<java.util.Map.Entry<java.lang.String,com.aspose.imaging.xmp.types.XmpValue>> - A `System.Collections.Generic.IEnumerator\`1` that can be used to iterate through the collection.

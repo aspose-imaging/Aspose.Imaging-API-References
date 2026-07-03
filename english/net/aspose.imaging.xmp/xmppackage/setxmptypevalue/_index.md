@@ -3,7 +3,7 @@ title: XmpPackage.SetXmpTypeValue
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPackage method. Sets the XMP type value
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.imaging.xmp/xmppackage/setxmptypevalue/
 ---
 ## XmpPackage.SetXmpTypeValue method

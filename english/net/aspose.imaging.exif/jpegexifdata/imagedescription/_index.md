@@ -3,7 +3,7 @@ title: JpegExifData.ImageDescription
 second_title: Aspose.Imaging for .NET API Reference
 description: JpegExifData property. Gets or sets the image description
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.imaging.exif/jpegexifdata/imagedescription/
 ---
 ## JpegExifData.ImageDescription property

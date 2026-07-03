@@ -68,7 +68,7 @@ public sealed class EmfImage : MetaImage
 | override [GetUsedFonts](../../aspose.imaging.fileformats.emf/emfimage/getusedfonts/)() | Retrieve the list of fonts utilized within the metafile with this method. Gain insights into font usage, facilitating efficient management and optimization of font resources for enhanced rendering and display fidelity. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)() | Removes the background. |
 | virtual [RemoveBackground](../../aspose.imaging/vectorimage/removebackground/)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../../aspose.imaging/image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ImageResizeSettings) | Resizes the image with extended options. |
 | override [Resize](../../aspose.imaging/vectorimage/resize/)(int, int, ResizeType) | Resizes the specified new width. |

@@ -3,7 +3,7 @@ title: XmpPacketWrapper.GetPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper method. Gets package by namespace URI
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging.xmp/xmppacketwrapper/getpackage/
 ---
 ## XmpPacketWrapper.GetPackage method

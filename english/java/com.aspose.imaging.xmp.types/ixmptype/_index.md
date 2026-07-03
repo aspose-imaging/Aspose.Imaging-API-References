@@ -3,7 +3,7 @@ title: IXmpType
 second_title: Aspose.Imaging for Java API Reference
 description: Base interface for XMP type.
 type: docs
-weight: 11
+weight: 13
 url: /java/com.aspose.imaging.xmp.types/ixmptype/
 ---```
 public interface IXmpType

@@ -3,7 +3,7 @@ title: ExifData.GPSMeasureMode
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets the GPS measurement mode
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.imaging.exif/exifdata/gpsmeasuremode/
 ---
 ## ExifData.GPSMeasureMode property

@@ -3,7 +3,7 @@ title: ExifData.DeviceSettingDescription
 second_title: Aspose.Imaging for .NET API Reference
 description: ExifData property. Gets or sets device settings description
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.exif/exifdata/devicesettingdescription/
 ---
 ## ExifData.DeviceSettingDescription property

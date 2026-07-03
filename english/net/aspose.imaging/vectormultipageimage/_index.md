@@ -60,7 +60,7 @@ public abstract class VectorMultipageImage : VectorImage, IMultipageImage
 | override [GetSerializedStream](../../aspose.imaging/vectormultipageimage/getserializedstream/)(ImageOptionsBase, Rectangle, out int) | Converts to aps. |
 | override [RemoveBackground](../../aspose.imaging/vectormultipageimage/removebackground/#removebackground)() | Removes the background. |
 | override [RemoveBackground](../../aspose.imaging/vectormultipageimage/removebackground/#removebackground_1)(RemoveBackgroundSettings) | Removes the background. |
-| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes metadata. |
+| virtual [RemoveMetadata](../../aspose.imaging/image/removemetadata/)() | Removes the metadata from [`Metadata`](../image/metadata/) property. |
 | [Resize](../../aspose.imaging/image/resize/)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |
 | override [Resize](../../aspose.imaging/vectormultipageimage/resize/#resize_1)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](../../aspose.imaging/vectormultipageimage/resize/#resize_2)(int, int, ResizeType) | Resizes the image. |

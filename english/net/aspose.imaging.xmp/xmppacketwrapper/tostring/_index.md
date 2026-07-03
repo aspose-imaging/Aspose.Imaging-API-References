@@ -3,7 +3,7 @@ title: XmpPacketWrapper.ToString
 second_title: Aspose.Imaging for .NET API Reference
 description: XmpPacketWrapper method. Returns an XML string that represents the current object
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging.xmp/xmppacketwrapper/tostring/
 ---
 ## XmpPacketWrapper.ToString method
