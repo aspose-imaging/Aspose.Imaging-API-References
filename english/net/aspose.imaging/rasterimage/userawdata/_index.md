@@ -3,7 +3,7 @@ title: RasterImage.UseRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets a value indicating whether to use raw data loading when the raw data loading is available
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging/rasterimage/userawdata/
 ---
 ## RasterImage.UseRawData property

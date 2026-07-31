@@ -3,7 +3,7 @@ title: Class TiffExifIfd
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.TiffExifIfd class. The TIFF Exif image file directory class
 type: docs
-weight: 8010
+weight: 8020
 url: /net/aspose.imaging.fileformats.tiff/tiffexififd/
 ---
 ## TiffExifIfd class

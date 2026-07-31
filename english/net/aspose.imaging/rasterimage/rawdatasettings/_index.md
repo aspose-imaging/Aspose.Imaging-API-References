@@ -3,7 +3,7 @@ title: RasterImage.RawDataSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets the current raw data settings. Note when using these settings the data loads without conversion
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging/rasterimage/rawdatasettings/
 ---
 ## RasterImage.RawDataSettings property

@@ -3,7 +3,7 @@ title: RasterImage.ImageOpacity
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets opacity of this image
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging/rasterimage/imageopacity/
 ---
 ## RasterImage.ImageOpacity property

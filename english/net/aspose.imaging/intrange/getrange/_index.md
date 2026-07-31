@@ -28,7 +28,7 @@ Array of items
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Count can not be lover than 1 or {D255958A-8513-4226-94B9-080D98F904A1}Start page can not be lover than 0 |
+| ArgumentException | Count can not be lover than 1 or Start page can not be lower than 0 |
 
 ### See Also
 

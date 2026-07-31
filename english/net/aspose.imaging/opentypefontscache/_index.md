@@ -3,7 +3,7 @@ title: Class OpenTypeFontsCache
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.OpenTypeFontsCache class. Cache for OpenType fonts that are installed in the system
 type: docs
-weight: 11210
+weight: 11220
 url: /net/aspose.imaging/opentypefontscache/
 ---
 ## OpenTypeFontsCache class

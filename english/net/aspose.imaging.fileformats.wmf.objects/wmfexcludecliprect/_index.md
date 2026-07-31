@@ -3,7 +3,7 @@ title: Class WmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfExcludeClipRect class. The META_EXCLUDECLIPRECT record sets the clipping region in the playback device context to the existing clipping region minus the specified rectangle
 type: docs
-weight: 8830
+weight: 8840
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
 ---
 ## WmfExcludeClipRect class

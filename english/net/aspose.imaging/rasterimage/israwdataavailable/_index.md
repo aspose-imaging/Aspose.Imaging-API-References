@@ -3,7 +3,7 @@ title: RasterImage.IsRawDataAvailable
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets a value indicating whether raw data loading is available
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging/rasterimage/israwdataavailable/
 ---
 ## RasterImage.IsRawDataAvailable property

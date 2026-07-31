@@ -3,7 +3,7 @@ title: Class WmfRecorderGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Graphics.WmfRecorderGraphics2D class. The Wmf recorder
 type: docs
-weight: 8550
+weight: 8560
 url: /net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
 ---
 ## WmfRecorderGraphics2D class

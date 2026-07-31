@@ -3,7 +3,7 @@ title: RasterImage.VerticalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets the vertical resolution in pixels per inch of this RasterImage
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.imaging/rasterimage/verticalresolution/
 ---
 ## RasterImage.VerticalResolution property

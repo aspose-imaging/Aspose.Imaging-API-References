@@ -3,7 +3,7 @@ title: RasterImage.EmbedDigitalSignature
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Embed digital sign based on provided password into the image using steganography
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging/rasterimage/embeddigitalsignature/
 ---
 ## RasterImage.EmbedDigitalSignature method

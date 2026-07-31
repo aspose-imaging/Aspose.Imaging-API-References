@@ -3,7 +3,7 @@ title: Class TimeInterval
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageOptions.TimeInterval class. Represents the time interval in milliseconds
 type: docs
-weight: 10630
+weight: 10640
 url: /net/aspose.imaging.imageoptions/timeinterval/
 ---
 ## TimeInterval class

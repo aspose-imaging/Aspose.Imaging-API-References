@@ -3,7 +3,7 @@ title: Class XmpMimeType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.Derived.XmpMimeType class. Represents MIME type
 type: docs
-weight: 12330
+weight: 12340
 url: /net/aspose.imaging.xmp.types.derived/xmpmimetype/
 ---
 ## XmpMimeType class

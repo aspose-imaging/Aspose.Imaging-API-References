@@ -3,7 +3,7 @@ title: RasterImage.HasAlpha
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets a value indicating whether this instance has alpha
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.imaging/rasterimage/hasalpha/
 ---
 ## RasterImage.HasAlpha property

@@ -3,7 +3,7 @@ title: Class DublinCorePackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.DublinCore.DublinCorePackage class. Represents Dublin Core schema
 type: docs
-weight: 11930
+weight: 11940
 url: /net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 ---
 ## DublinCorePackage class

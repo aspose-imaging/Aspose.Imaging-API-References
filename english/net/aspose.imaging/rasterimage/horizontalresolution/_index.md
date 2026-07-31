@@ -3,7 +3,7 @@ title: RasterImage.HorizontalResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets the horizontal resolution in pixels per inch of this RasterImage
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging/rasterimage/horizontalresolution/
 ---
 ## RasterImage.HorizontalResolution property

@@ -3,7 +3,7 @@ title: RasterImage.RawLineSize
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets the raw line size in bytes
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/rasterimage/rawlinesize/
 ---
 ## RasterImage.RawLineSize property

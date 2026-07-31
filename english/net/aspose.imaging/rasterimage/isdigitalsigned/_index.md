@@ -3,7 +3,7 @@ title: RasterImage.IsDigitalSigned
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Performs a fast check to determine if the image is digitally signed using the provided password and threshold
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.imaging/rasterimage/isdigitalsigned/
 ---
 ## RasterImage.IsDigitalSigned method

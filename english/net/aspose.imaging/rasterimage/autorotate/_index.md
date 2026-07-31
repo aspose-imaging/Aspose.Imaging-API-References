@@ -3,7 +3,7 @@ title: RasterImage.AutoRotate
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information the image is rotated accordingly providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability especially when dealing with large batches of images with varying orientations
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging/rasterimage/autorotate/
 ---
 ## RasterImage.AutoRotate method

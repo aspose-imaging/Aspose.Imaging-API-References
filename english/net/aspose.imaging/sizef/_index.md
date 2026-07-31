@@ -3,7 +3,7 @@ title: Struct SizeF
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.SizeF struct. Stores an ordered pair of floatingpoint numbers typically the width and height of a rectangle
 type: docs
-weight: 11640
+weight: 11650
 url: /net/aspose.imaging/sizef/
 ---
 ## SizeF structure

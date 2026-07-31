@@ -3,7 +3,7 @@ title: Enum HatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.HatchStyle enum. Specifies the different patterns available for HatchBrush objects
 type: docs
-weight: 9570
+weight: 9580
 url: /net/aspose.imaging/hatchstyle/
 ---
 ## HatchStyle enumeration

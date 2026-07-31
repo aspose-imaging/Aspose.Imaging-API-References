@@ -3,7 +3,7 @@ title: Class WmfCreateBrushInDirect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect class. The Create brush in direct
 type: docs
-weight: 8690
+weight: 8700
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 ---
 ## WmfCreateBrushInDirect class

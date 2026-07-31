@@ -3,7 +3,7 @@ title: Class Time
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.Time class. Representation of a time value in seconds
 type: docs
-weight: 12030
+weight: 12040
 url: /net/aspose.imaging.xmp.schemas.xmpdm/time/
 ---
 ## Time class

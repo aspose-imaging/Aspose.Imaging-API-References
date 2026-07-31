@@ -3,7 +3,7 @@ title: Enum BlendingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.BlendingMode enum. The blending mode
 type: docs
-weight: 9980
+weight: 9990
 url: /net/aspose.imaging.imagefilters.filteroptions/blendingmode/
 ---
 ## BlendingMode enumeration

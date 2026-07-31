@@ -3,7 +3,7 @@ title: Class BigTiffWriterBE
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Tiff.FileManagement.BigTiff.BigTiffWriterBE class. The big endian BigTiff stream writer
 type: docs
-weight: 7900
+weight: 7910
 url: /net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriterbe/
 ---
 ## BigTiffWriterBE class

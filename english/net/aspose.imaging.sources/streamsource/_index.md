@@ -3,7 +3,7 @@ title: Class StreamSource
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Sources.StreamSource class. Represents a stream source
 type: docs
-weight: 11700
+weight: 11710
 url: /net/aspose.imaging.sources/streamsource/
 ---
 ## StreamSource class

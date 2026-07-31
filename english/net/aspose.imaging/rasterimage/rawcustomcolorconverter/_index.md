@@ -3,7 +3,7 @@ title: RasterImage.RawCustomColorConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets the custom color converter
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/rasterimage/rawcustomcolorconverter/
 ---
 ## RasterImage.RawCustomColorConverter property

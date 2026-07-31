@@ -3,7 +3,7 @@ title: Enum WmfMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Consts.WmfMapMode enum. The map modes
 type: docs
-weight: 8400
+weight: 8410
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmapmode/
 ---
 ## WmfMapMode enumeration

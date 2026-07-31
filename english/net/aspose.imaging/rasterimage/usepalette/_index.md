@@ -3,7 +3,7 @@ title: RasterImage.UsePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets a value indicating whether the image palette is used
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/rasterimage/usepalette/
 ---
 ## RasterImage.UsePalette property

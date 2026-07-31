@@ -3,7 +3,7 @@ title: Enum StringFormatFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.StringFormatFlags enum. Specifies the display and layout information for text strings
 type: docs
-weight: 11760
+weight: 11770
 url: /net/aspose.imaging/stringformatflags/
 ---
 ## StringFormatFlags enumeration

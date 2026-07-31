@@ -3,7 +3,7 @@ title: RasterImage.RawDataFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets the raw data format
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging/rasterimage/rawdataformat/
 ---
 ## RasterImage.RawDataFormat property

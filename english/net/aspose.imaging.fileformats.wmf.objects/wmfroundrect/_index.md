@@ -3,7 +3,7 @@ title: Class WmfRoundRect
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.FileFormats.Wmf.Objects.WmfRoundRect class. The rectangle object
 type: docs
-weight: 9140
+weight: 9150
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfroundrect/
 ---
 ## WmfRoundRect class

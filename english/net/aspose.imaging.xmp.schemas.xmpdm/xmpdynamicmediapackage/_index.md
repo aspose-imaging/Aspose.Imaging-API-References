@@ -3,7 +3,7 @@ title: Class XmpDynamicMediaPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.XmpDynamicMediaPackage class. Represents XMP Dynamic Media namespace
 type: docs
-weight: 12060
+weight: 12070
 url: /net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 ## XmpDynamicMediaPackage class

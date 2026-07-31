@@ -3,7 +3,7 @@ title: RasterImage.HasTransparentColor
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets a value indicating whether this RasterImage instance has a transparent color
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging/rasterimage/hastransparentcolor/
 ---
 ## RasterImage.HasTransparentColor property

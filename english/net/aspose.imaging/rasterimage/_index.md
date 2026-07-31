@@ -3,7 +3,7 @@ title: Class RasterImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterImage class. Represents a raster image supporting raster graphics operations
 type: docs
-weight: 11390
+weight: 11400
 url: /net/aspose.imaging/rasterimage/
 ---
 ## RasterImage class
@@ -59,6 +59,8 @@ public abstract class RasterImage : Image, IRasterImageArgb32PixelLoader
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.imaging/rasterimage/create/#create)(int, int) | Creates a new raster image stored in memory. |
+| static [Create](../../aspose.imaging/rasterimage/create/#create_1)(int, int, int[]) | Creates a new raster image stored in memory. |
 | virtual [AdjustBrightness](../../aspose.imaging/rasterimage/adjustbrightness/)(int) | Adjust of a brightness for image. |
 | virtual [AdjustContrast](../../aspose.imaging/rasterimage/adjustcontrast/)(float) | Image contrasting |
 | virtual [AdjustGamma](../../aspose.imaging/rasterimage/adjustgamma/#adjustgamma)(float) | Gamma-correction of an image. |

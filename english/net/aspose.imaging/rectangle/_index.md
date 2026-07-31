@@ -3,7 +3,7 @@ title: Struct Rectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Rectangle struct. Stores a set of four integers that represent the location and size of a rectangle
 type: docs
-weight: 11410
+weight: 11420
 url: /net/aspose.imaging/rectangle/
 ---
 ## Rectangle structure

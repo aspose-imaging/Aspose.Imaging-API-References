@@ -25,7 +25,8 @@ public static class CmykColorHelper
 | static [GetY](../../aspose.imaging/cmykcolorhelper/gety/)(int) | Gets the yellow component value. |
 | static [ToArgb](../../aspose.imaging/cmykcolorhelper/toargb/#toargb)(int) | The conversion from CMYK color to ARGB color. |
 | static [ToArgb](../../aspose.imaging/cmykcolorhelper/toargb/#toargb_1)(int[]) | The conversion from CMYK colors to ARGB colors. |
-| static [ToArgb32](../../aspose.imaging/cmykcolorhelper/toargb32/)(int[]) | The conversion from CMYK colors to ARGB colors. |
+| static [ToArgb32](../../aspose.imaging/cmykcolorhelper/toargb32/#toargb32)(int[]) | The conversion from CMYK colors to ARGB colors. |
+| static [ToArgb32](../../aspose.imaging/cmykcolorhelper/toargb32/#toargb32_1)(int[], bool) | The conversion from CMYK colors to ARGB colors. |
 | static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc/#toargbicc)(int) | The conversion from CMYK color to ARGB Color using Icc conversion with default profiles. |
 | static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc/#toargbicc_2)(int[]) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
 | static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc/#toargbicc_1)(int, Stream, Stream) | The conversion from CMYK color to ARGB color using Icc conversion with custom profile. |

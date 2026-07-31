@@ -3,7 +3,7 @@ title: Struct XmpValue
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.XmpValue struct. XML node value representing an XMP value entry
 type: docs
-weight: 12360
+weight: 12370
 url: /net/aspose.imaging.xmp.types/xmpvalue/
 ---
 ## XmpValue structure

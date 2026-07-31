@@ -3,7 +3,7 @@ title: Class ShadowFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ImageFilters.FilterOptions.ShadowFilterOptions class. The shadow filter options
 type: docs
-weight: 10090
+weight: 10100
 url: /net/aspose.imaging.imagefilters.filteroptions/shadowfilteroptions/
 ---
 ## ShadowFilterOptions class
