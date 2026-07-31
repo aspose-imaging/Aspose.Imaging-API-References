@@ -3,7 +3,7 @@ title: SvgResourceKeeperCallback
 second_title: Aspose.Imaging for Java API Reference
 description: The resource keeper callback
 type: docs
-weight: 12
+weight: 13
 url: /java/com.aspose.imaging.fileformats.svg/svgresourcekeepercallback/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ISvgResourceKeeperCallback
 second_title: Aspose.Imaging for Java API Reference
 description: The svg callback interface
 type: docs
-weight: 13
+weight: 14
 url: /java/com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback/
 ---```
 public interface ISvgResourceKeeperCallback

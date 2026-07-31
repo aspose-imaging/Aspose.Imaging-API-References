@@ -3,7 +3,7 @@ title: SvgColorMode
 second_title: Aspose.Imaging for Java API Reference
 description: u0421olor mode for SVG images.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.aspose.imaging.fileformats.svg/svgcolormode/
 ---
 **Inheritance:**

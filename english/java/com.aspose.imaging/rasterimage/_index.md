@@ -47,6 +47,8 @@ Represents a raster image supporting raster graphics operations.
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Sets a value indicating whether this [RasterImage](../../com.aspose.imaging/rasterimage) instance has a transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the image transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
+| [create(int width, int height)](#create-int-int-) | Creates a new raster image stored in memory. |
+| [create(int width, int height, int[] argb32Pixels)](#create-int-int-int---) | Creates a new raster image stored in memory. |
 | [removeMetadata()](#removeMetadata--) | Removes this image instance metadata by setting this `IHasXmpData.XmpData`([IHasXmpData.getXmpData](../../com.aspose.imaging.xmp/ihasxmpdata\#getXmpData)/[IHasXmpData.setXmpData(XmpPacketWrapper)](../../com.aspose.imaging.xmp/ihasxmpdata\#setXmpData-XmpPacketWrapper-)) value to `null`. |
 | [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the java.util.Date value the image was last modified. |
 | [dither(int ditheringMethod, int bitsCount)](#dither-int-int-) | Performs dithering on the current image. |
@@ -649,6 +651,39 @@ Gets opacity of this image.
 
 **Returns:**
 float - The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
+### create(int width, int height) {#create-int-int-}
+```
+public static RasterImage create(int width, int height)
+```
+
+
+Creates a new raster image stored in memory.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | int | The width in pixels. |
+| height | int | The height in pixels. |
+
+**Returns:**
+[RasterImage](../../com.aspose.imaging/rasterimage) - The newly created raster image.
+### create(int width, int height, int[] argb32Pixels) {#create-int-int-int---}
+```
+public static RasterImage create(int width, int height, int[] argb32Pixels)
+```
+
+
+Creates a new raster image stored in memory.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | int | The width in pixels. |
+| height | int | The height in pixels. |
+| argb32Pixels | int[] | The ARGB32 pixels for putting into the new image. |
+
+**Returns:**
+[RasterImage](../../com.aspose.imaging/rasterimage) - The newly created raster image.
 ### removeMetadata() {#removeMetadata--}
 ```
 public void removeMetadata()

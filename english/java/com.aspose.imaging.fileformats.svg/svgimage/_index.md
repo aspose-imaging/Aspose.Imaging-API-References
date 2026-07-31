@@ -3,7 +3,7 @@ title: SvgImage
 second_title: Aspose.Imaging for Java API Reference
 description: Manipulate Scalar Vector Graphics SVG image files with our API utilizing the power of XML-based text format for seamless customization and scalability.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.aspose.imaging.fileformats.svg/svgimage/
 ---
 **Inheritance:**
@@ -36,6 +36,7 @@ Manipulate Scalar Vector Graphics (SVG) image files with our API, utilizing the 
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Crops the specified rectangle. |
 | [rotate(float angle)](#rotate-float-) | Rotate image around the center. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Applies a specified palette to the image, enabling customization of color schemes for aesthetic or functional purposes. |
+| [getSvgObjects()](#getSvgObjects--) | Retrieves an array of SvgNode objects representing the SVG elements contained in the image. |
 
 ## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
 
@@ -265,3 +266,13 @@ Applies a specified palette to the image, enabling customization of color scheme
 | palette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The palette to set. |
 | updateColors | boolean | if set to `true` colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
+### getSvgObjects() {#getSvgObjects--}
+```
+public List<AsposeSvgNode> getSvgObjects()
+```
+
+
+Retrieves an array of SvgNode objects representing the SVG elements contained in the image.
+
+**Returns:**
+java.util.List<com.aspose.imaging.fileformats.svg.AsposeSvgNode> - An array of SvgNode objects.

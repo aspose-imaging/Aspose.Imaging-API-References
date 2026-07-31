@@ -45,7 +45,7 @@ The image is the base class for all type of images.
 | [getProportionalHeight(int width, int height, int newWidth)](#getProportionalHeight-int-int-int-) | Gets a proportional height. |
 | [removeMetadata()](#removeMetadata--) | Removes the metadata from `Metadata`(\#getMetadata.getMetadata) property. |
 | [trySetMetadata(IImageMetadataFormat metadata)](#trySetMetadata-com.aspose.imaging.metadata.IImageMetadataFormat-) | Tries to set a `metadata` instance, if this [Image](../../com.aspose.imaging/image) instance supports and implements [IImageMetadataFormat](../../com.aspose.imaging.metadata/iimagemetadataformat) type. |
-| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
+| [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits count per pixel. |
 | [getBounds()](#getBounds--) | Gets the image bounds. |
 | [getContainer()](#getContainer--) | Gets the `Image` container. |
 | [getPalette()](#getPalette--) | Gets the color palette. |
@@ -772,10 +772,10 @@ public abstract int getBitsPerPixel()
 ```
 
 
-Gets the image bits per pixel count.
+Gets the image bits count per pixel.
 
 **Returns:**
-int - The image bits per pixel count.
+int - The image bits count per pixel.
 ### getBounds() {#getBounds--}
 ```
 public Rectangle getBounds()

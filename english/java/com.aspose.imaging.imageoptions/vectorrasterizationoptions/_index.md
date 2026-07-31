@@ -25,16 +25,17 @@ The vector rasterization options. Please note that [VectorRasterizationOptions](
 | --- | --- |
 | [getSmoothingMode()](#getSmoothingMode--) | Gets the smoothing mode. |
 | [setSmoothingMode(int value)](#setSmoothingMode-int-) | Sets the smoothing mode. |
-| [getBorderX()](#getBorderX--) | Gets or sets the border X. |
-| [setBorderX(float value)](#setBorderX-float-) | Gets or sets the border X. |
-| [getBorderY()](#getBorderY--) | Gets or sets the border Y. |
-| [setBorderY(float value)](#setBorderY-float-) | Gets or sets the border Y. |
+| [getBorderX()](#getBorderX--) | Gets or sets the border X in pixels. |
+| [setBorderX(float value)](#setBorderX-float-) | Gets or sets the border X in pixels. |
+| [getBorderY()](#getBorderY--) | Gets or sets the border Y in pixels. |
+| [setBorderY(float value)](#setBorderY-float-) | Gets or sets the border Y in pixels. |
 | [getCenterDrawing()](#getCenterDrawing--) | Gets a value indicating whether center drawing. |
 | [setCenterDrawing(boolean value)](#setCenterDrawing-boolean-) | Sets a value indicating whether center drawing. |
 | [getPageHeight()](#getPageHeight--) | Gets the page height. |
-| [setPageHeight(float value)](#setPageHeight-float-) | Sets the page height. |
-| [getPageSize()](#getPageSize--) | Gets the page size. |
-| [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | Sets the page size. |
+| [setPageHeight(float value)](#setPageHeight-float-) | Sets the page height in pixels. |
+| [getPageSize()](#getPageSize--) | Gets the page size in pixels. |
+| [setPageSize(SizeF value)](#setPageSize-com.aspose.imaging.SizeF-) | Sets the page size in pixels. |
+| [setPageSize(Size value)](#setPageSize-com.aspose.imaging.Size-) | Sets the page size in pixels. |
 | [getPageWidth()](#getPageWidth--) | Gets the page width. |
 | [setPageWidth(float value)](#setPageWidth-float-) | Sets the page width. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a background color. |
@@ -133,22 +134,22 @@ public float getBorderX()
 ```
 
 
-Gets or sets the border X.
+Gets or sets the border X in pixels.
 
 **Returns:**
-float - The border X.
+float - The border X in pixels.
 ### setBorderX(float value) {#setBorderX-float-}
 ```
 public void setBorderX(float value)
 ```
 
 
-Gets or sets the border X.
+Gets or sets the border X in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float | The border X. |
+| value | float | The border X in pixels. |
 
 ### getBorderY() {#getBorderY--}
 ```
@@ -156,22 +157,22 @@ public float getBorderY()
 ```
 
 
-Gets or sets the border Y.
+Gets or sets the border Y in pixels.
 
 **Returns:**
-float - The border Y.
+float - The border Y in pixels.
 ### setBorderY(float value) {#setBorderY-float-}
 ```
 public void setBorderY(float value)
 ```
 
 
-Gets or sets the border Y.
+Gets or sets the border Y in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float | The border Y. |
+| value | float | The border Y in pixels. |
 
 ### getCenterDrawing() {#getCenterDrawing--}
 ```
@@ -205,19 +206,19 @@ public float getPageHeight()
 Gets the page height.
 
 **Returns:**
-float - the page height.
+float - the page height in pixels.
 ### setPageHeight(float value) {#setPageHeight-float-}
 ```
 public void setPageHeight(float value)
 ```
 
 
-Sets the page height.
+Sets the page height in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float | the page height. |
+| value | float | the page height in pixels. |
 
 ### getPageSize() {#getPageSize--}
 ```
@@ -225,22 +226,22 @@ public SizeF getPageSize()
 ```
 
 
-Gets the page size.
+Gets the page size in pixels.
 
 **Returns:**
-[SizeF](../../com.aspose.imaging/sizef) - the page size.
+[SizeF](../../com.aspose.imaging/sizef) - the page size in pixels.
 ### setPageSize(SizeF value) {#setPageSize-com.aspose.imaging.SizeF-}
 ```
 public void setPageSize(SizeF value)
 ```
 
 
-Sets the page size.
+Sets the page size in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SizeF](../../com.aspose.imaging/sizef) | the page size. |
+| value | [SizeF](../../com.aspose.imaging/sizef) | the page size in pixels. |
 
 
 **Example: This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions.**
@@ -311,6 +312,19 @@ try {
     emfImage.dispose();
 }
 ```
+
+### setPageSize(Size value) {#setPageSize-com.aspose.imaging.Size-}
+```
+public void setPageSize(Size value)
+```
+
+
+Sets the page size in pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Size](../../com.aspose.imaging/size) | the page size in pixels. |
 
 ### getPageWidth() {#getPageWidth--}
 ```
