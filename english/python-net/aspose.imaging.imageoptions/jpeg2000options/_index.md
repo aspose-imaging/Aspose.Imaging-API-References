@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | [irreversible](#irreversible2) | bool | r/w | Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
@@ -73,9 +73,9 @@ Gets or sets the JPEG2000 codec
 
 **See also:**
 
-**[Example # 1](#example_161)**: This example shows how to create a JPEG2000 image with the desired options an...
+**[Example # 1](#example_169)**: This example shows how to create a JPEG2000 image with the desired options an...
 
-**[Example # 2](#example_163)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+**[Example # 2](#example_171)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
 
 
 ### Property: irreversible {#irreversible2}
@@ -84,9 +84,9 @@ Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or u
 
 **See also:**
 
-**[Example # 1](#example_161)**: This example shows how to create a JPEG2000 image with the desired options an...
+**[Example # 1](#example_169)**: This example shows how to create a JPEG2000 image with the desired options an...
 
-**[Example # 2](#example_163)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+**[Example # 2](#example_171)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
 
 
 ### Method: clone() {#clone__1}
@@ -128,7 +128,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_161}
+### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_169}
 ``` python
 
 from aspose.imaging import Graphics, Color
@@ -157,7 +157,7 @@ with Jpeg2000Image(100, 100, create_options) as jpeg2000_image:
 
 ```
 
-### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_163}
+### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_171}
 ``` python
 
 from aspose.imaging import Graphics, Color

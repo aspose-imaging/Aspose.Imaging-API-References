@@ -1,7 +1,7 @@
 ---
 title: FontStoreType Enumeration
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.imaging.fileformats.svg/fontstoretype/
 ---
 

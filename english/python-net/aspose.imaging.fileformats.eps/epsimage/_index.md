@@ -96,7 +96,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_41) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_42) | Removes the background. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_43) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_44) | Resizes the specified new width. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_45) | Resizes the image with extended options. |
@@ -1081,7 +1081,7 @@ Resizes the specified new width.
 
 **See also:**
 
-**[Example # 1](#example_218)**: Resize EPS image and export it to PNG format.
+**[Example # 1](#example_230)**: Resize EPS image and export it to PNG format.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_45}
@@ -1104,7 +1104,7 @@ Resizes the image with extended options.
 
 **See also:**
 
-**[Example # 1](#example_219)**: Resize EPS image using advanced settings.
+**[Example # 1](#example_231)**: Resize EPS image using advanced settings.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_46}
@@ -1529,7 +1529,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Convert EPS image to PNG using PostScript rendering. {#example_205}
+### Convert EPS image to PNG using PostScript rendering. {#example_217}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -1549,7 +1549,7 @@ with aspycore.as_of(Image.load("Sample.eps"), EpsImage) as image:
 
 ```
 
-### Convert EPS image to PDF using PostScript rendering. {#example_206}
+### Convert EPS image to PDF using PostScript rendering. {#example_218}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion
@@ -1565,7 +1565,7 @@ with Image.load("Sample.eps") as image:
 
 ```
 
-### Resize EPS image and export it to PNG format. {#example_218}
+### Resize EPS image and export it to PNG format. {#example_230}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1582,7 +1582,7 @@ with Image.load("AstrixObelix.eps") as image:
 
 ```
 
-### Resize EPS image using advanced settings. {#example_219}
+### Resize EPS image using advanced settings. {#example_231}
 ``` python
 
 import aspose.pycore as aspycore

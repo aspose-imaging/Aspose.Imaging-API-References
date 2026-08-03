@@ -89,9 +89,9 @@ Draws an arc representing a portion of an ellipse specified by a Rectangle struc
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_cubic_bezier(pen, pt1, pt2, pt3, pt4) {#draw_cubic_bezier_pen_pt1_pt2_pt3_pt4_2}
@@ -116,9 +116,9 @@ Draws the cubic bezier.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_ellipse(pen, rect) {#draw_ellipse_pen_rect_3}
@@ -158,9 +158,9 @@ Draws the specified portion of the specified Image at the specified location and
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_image(image, location) {#draw_image_image_location_5}
@@ -286,9 +286,9 @@ Draws the line.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_path(pen, path) {#draw_path_pen_path_12}
@@ -310,9 +310,9 @@ Draws the path.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_13}
@@ -419,9 +419,9 @@ Draws the rectangle.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_string(string, font, color, x, y) {#draw_string_string_font_color_x_y_19}
@@ -446,9 +446,9 @@ Draws the string.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: draw_string(string, font, color, x, y, angle) {#draw_string_string_font_color_x_y_angle_20}
@@ -567,9 +567,9 @@ Fills the path.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: fill_pie(brush, rect, start_angle, sweep_angle) {#fill_pie_brush_rect_start_angle_sweep_angle_27}
@@ -593,9 +593,9 @@ Fills the pie.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: fill_polygon(brush, points) {#fill_polygon_brush_points_28}
@@ -650,9 +650,9 @@ Fills the rectangle.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
-**[Example # 2](#example_174)**: This example shows how to create a EMF image and draw some geometric shapes o...
+**[Example # 2](#example_185)**: This example shows how to create a EMF image and draw some geometric shapes o...
 
 
 ### Method: get_transform() {#get_transform__31}
@@ -876,7 +876,7 @@ Changes the origin of the coordinate system by applying the specified translatio
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the translation is prepended or appended to the transformation matrix. |
 
 ## **Examples**
-### This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D. {#example_172}
+### This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D. {#example_182}
 ``` python
 
 from os.path import join as path_join
@@ -944,7 +944,7 @@ with graphics.end_recording() as wmf_image:
 
 ```
 
-### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_174}
+### This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D. {#example_185}
 ``` python
 
 import aspose.pycore as aspycore

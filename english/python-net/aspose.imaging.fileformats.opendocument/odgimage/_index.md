@@ -93,7 +93,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/odgimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_39) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_40) | Removes the background. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_41) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_42) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_43) | Resizes the image. |
@@ -1278,7 +1278,7 @@ Rotates, flips, or rotates and flips the image.
 
 **See also:**
 
-**[Example # 1](#example_175)**: This example loads a ODG image, rotates it by 90 degrees clockwise and option...
+**[Example # 1](#example_186)**: This example loads a ODG image, rotates it by 90 degrees clockwise and option...
 
 
 ### Method: save(file_path) {#save_file_path_56}
@@ -1513,7 +1513,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example loads a ODG image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_175}
+### This example loads a ODG image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically. {#example_186}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore
@@ -1532,7 +1532,7 @@ for rotate_flip_type in rotate_flip_types:
 
 ```
 
-### The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format. {#example_189}
+### The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format. {#example_200}
 ``` python
 from os.path import join
 import aspose.pycore as aspycore

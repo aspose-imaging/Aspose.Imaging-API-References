@@ -53,7 +53,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | is_extra_samples_present | bool | r | Gets a value indicating whether the extra samples is present. |
 | is_tiled | bool | r | Gets a value indicating whether image is tiled. |
 | is_valid | bool | r | Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | max_sample_value | int[] | r/w | Gets or sets the max sample value. |
 | min_sample_value | int[] | r/w | Gets or sets the min sample value. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |

@@ -11,4 +11,4 @@ The module contains Dublin Core metadata related helper classes, constants and m
 ## **Classes**
 | **Class** | **Description** |
 | :- | :- |
-| [DublinCorePackage](/imaging/python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/) | Represents Dublic Core schema. |
+| [DublinCorePackage](/imaging/python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/) | Represents Dublin Core schema. |

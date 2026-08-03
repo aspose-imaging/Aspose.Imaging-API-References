@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 5030
+weight: 5040
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -2796,6 +2796,12 @@ Draws the specified text string at the specified location with the specified [Br
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf/) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that specifies the upper-left corner of the drawn text. |
 | format | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) | [StringFormat](/imaging/python-net/aspose.imaging/stringformat/) that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
+
+**See also:**
+
+**[Example # 1](#example_237)**: Support of PixelPerfect text alignment
+
+
 ### Method: draw_string(s, font, brush, x, y) {#draw_string_s_font_brush_x_y_138}
 
 
@@ -4089,7 +4095,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_114}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_116}
 ``` python
 
 import aspose.pycore as aspycore
@@ -4108,6 +4114,33 @@ with PngImage(100, 100) as png_image:
 	graphics.fill_rectangle(brush, png_image.bounds)
 	# Save to a file.
 	png_image.save(join(dir_, "output.png"))
+
+
+```
+
+### Support of PixelPerfect text alignment {#example_237}
+``` python
+import aspose.pycore as aspycore
+
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.sources import StreamSource
+from aspose.imaging import Image, Graphics, Color, Font, PointF, StringFormat, StringFormatFlags, Rectangle, Pen
+from aspose.imaging.brushes import SolidBrush
+
+output_file_name: str = "TestExactAligment.png"
+with open(output_file_name, "wb") as stream:
+	png_options = PngOptions()
+	png_options.source = StreamSource(stream)
+	with Image.create(png_options, 500, 100) as image:
+		graphics = Graphics(image)
+		graphics.clear(Color.white)
+		brush = SolidBrush(Color.black)
+		font = Font("Arial", 24)
+		graphics.draw_string("DrawString with ExactAligment", font, brush, PointF(0, 0),
+							StringFormat(StringFormatFlags.EXACT_ALIGNMENT))
+		graphics.draw_string("DrawString without ExactAligment", font, brush, PointF(0, 30), StringFormat())
+		graphics.draw_rectangle(Pen(Color.red), Rectangle(0, 0, 499, 99))
+		image.save()
 
 
 ```

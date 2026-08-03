@@ -53,7 +53,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | is_extra_samples_present | bool | r | Gets a value indicating whether the extra samples is present. |
 | is_tiled | bool | r | Gets a value indicating whether image is tiled. |
 | is_valid | bool | r | Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | max_sample_value | int[] | r/w | Gets or sets the max sample value. |
 | min_sample_value | int[] | r/w | Gets or sets the min sample value. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
@@ -187,7 +187,7 @@ Gets or sets compressed image quality.<br/>            Used with the Jpeg compre
 
 **See also:**
 
-**[Example # 1](#example_117)**: This example shows how to create a TIFF image with the Jpeg compression and t...
+**[Example # 1](#example_120)**: This example shows how to create a TIFF image with the Jpeg compression and t...
 
 
 ### Method: add_tag(tag_to_add) {#add_tag_tag_to_add_1}
@@ -499,7 +499,7 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 
 ```
 
-### This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality. {#example_117}
+### This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality. {#example_120}
 ``` python
 
 import aspose.pycore as aspycore

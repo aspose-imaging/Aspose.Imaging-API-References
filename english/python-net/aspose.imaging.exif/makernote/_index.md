@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.exif/makernote/
 
 
 ## **Examples**
-### Access camera manufacturer maker notes in Jpeg image. {#example_222}
+### Access camera manufacturer maker notes in Jpeg image. {#example_235}
 ``` python
 
 from aspose.pycore import as_of

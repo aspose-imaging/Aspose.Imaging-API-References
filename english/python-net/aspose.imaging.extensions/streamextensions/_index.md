@@ -18,6 +18,8 @@ url: /python-net/aspose.imaging.extensions/streamextensions/
 | [create_memory_stream()](#create_memory_stream__2) | Creates a MemoryStream. |
 | [create_memory_stream_from_bytes(array)](#create_memory_stream_from_bytes_array_3) | Creates a MemoryStream with a given array inside. |
 | [create_memory_stream_with_size(capacity)](#create_memory_stream_with_size_capacity_4) | Creates a MemoryStream with a given capacity. |
+| [read_and_return_byte_array(stream, length)](#read_and_return_byte_array_stream_length_5) | Reads a string. |
+| [read_utf_8_string(stream, length)](#read_utf_8_string_stream_length_6) | Reads a string. |
 
 
 ### Method: create_file_stream(path, file_mode)  [static] {#create_file_stream_path_file_mode_1}
@@ -101,5 +103,51 @@ Creates a MemoryStream with a given capacity.
 | Type | Description |
 | :- | :- |
 | _io.BufferedRandom | The MemoryStream instance. |
+
+
+### Method: read_and_return_byte_array(stream, length)  [static] {#read_and_return_byte_array_stream_length_5}
+
+
+```
+ read_and_return_byte_array(stream, length) 
+```
+
+Reads a string.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | _io.BufferedRandom | _stream_ |
+| length | int | _length_ |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| System.Byte | string |
+
+
+### Method: read_utf_8_string(stream, length)  [static] {#read_utf_8_string_stream_length_6}
+
+
+```
+ read_utf_8_string(stream, length) 
+```
+
+Reads a string.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | _io.BufferedRandom | _stream_ |
+| length | int | _length_ |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| string | string |
 
 

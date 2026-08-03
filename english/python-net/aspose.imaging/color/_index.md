@@ -1,7 +1,7 @@
 ---
 title: Color Class
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.imaging/color/
 ---
 

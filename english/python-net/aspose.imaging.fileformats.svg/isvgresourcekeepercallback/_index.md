@@ -1,7 +1,7 @@
 ---
 title: ISvgResourceKeeperCallback Class
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/
 ---
 

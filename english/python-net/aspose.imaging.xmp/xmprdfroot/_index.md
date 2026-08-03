@@ -1,7 +1,7 @@
 ---
 title: XmpRdfRoot Class
 type: docs
-weight: 490
+weight: 480
 url: /python-net/aspose.imaging.xmp/xmprdfroot/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: PaletteMiningMethod Enumeration
 type: docs
-weight: 10950
+weight: 10960
 url: /python-net/aspose.imaging/paletteminingmethod/
 ---
 

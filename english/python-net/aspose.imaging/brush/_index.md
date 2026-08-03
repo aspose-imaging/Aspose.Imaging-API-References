@@ -1,7 +1,7 @@
 ---
 title: Brush Class
 type: docs
-weight: 340
+weight: 350
 url: /python-net/aspose.imaging/brush/
 ---
 

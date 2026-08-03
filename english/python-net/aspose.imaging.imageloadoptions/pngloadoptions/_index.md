@@ -44,11 +44,11 @@ Gets or sets a value indicating whether [strict mode].
 
 **See also:**
 
-**[Example # 1](#example_186)**: The following example shows how to read PNG file in a strict mode. The strict...
+**[Example # 1](#example_197)**: The following example shows how to read PNG file in a strict mode. The strict...
 
 
 ## **Examples**
-### The following example shows how to read PNG file in a strict mode. The strict mode allows to find potential problems in PNG images, e.g. unrecognized data blocks, unexpected end of file. Such files still can be opened in default (non-strict) mode by `aspose.imaging` and by common viewers as well. However any attempts to open them in the strict mode cause a corresponding exception. {#example_186}
+### The following example shows how to read PNG file in a strict mode. The strict mode allows to find potential problems in PNG images, e.g. unrecognized data blocks, unexpected end of file. Such files still can be opened in default (non-strict) mode by `aspose.imaging` and by common viewers as well. However any attempts to open them in the strict mode cause a corresponding exception. {#example_197}
 ``` python
 
 from aspose.imaging import Image

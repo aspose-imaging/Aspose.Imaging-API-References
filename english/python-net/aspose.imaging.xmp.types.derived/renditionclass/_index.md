@@ -69,7 +69,7 @@ Clones this instance.
 
 | Type | Description |
 | :- | :- |
-| System.Object | A memberwise clone. |
+| System.Object | A shallow clone. |
 
 
 ### Method: get_xmp_representation() {#get_xmp_representation__2}

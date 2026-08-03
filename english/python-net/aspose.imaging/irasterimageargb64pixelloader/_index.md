@@ -1,7 +1,7 @@
 ---
 title: IRasterImageArgb64PixelLoader Class
 type: docs
-weight: 5550
+weight: 5560
 url: /python-net/aspose.imaging/irasterimageargb64pixelloader/
 ---
 

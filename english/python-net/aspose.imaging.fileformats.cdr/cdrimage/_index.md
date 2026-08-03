@@ -92,7 +92,7 @@ url: /python-net/aspose.imaging.fileformats.cdr/cdrimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_39) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_40) | Removes the background. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_41) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_42) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_43) | Resizes the image. |
@@ -147,9 +147,9 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_176)**: The following example shows how to cache all pages of a CDR image.
+**[Example # 1](#example_187)**: The following example shows how to cache all pages of a CDR image.
 
-**[Example # 2](#example_188)**: The following example shows how to export a single page of CDR document to PDF.
+**[Example # 2](#example_199)**: The following example shows how to export a single page of CDR document to PDF.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1502,7 +1502,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to cache all pages of a CDR image. {#example_176}
+### The following example shows how to cache all pages of a CDR image. {#example_187}
 ``` python
 
 import aspose.pycore as aspycore
@@ -1523,7 +1523,7 @@ with aspycore.as_of(Image.load(join(dir_, "sample.cdr")), CdrImage) as image:
 
 ```
 
-### The following example shows how to export a single page of CDR document to PDF. {#example_188}
+### The following example shows how to export a single page of CDR document to PDF. {#example_199}
 ``` python
 
 import aspose.pycore as aspycore

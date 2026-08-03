@@ -1,7 +1,7 @@
 ---
 title: DisposableObject Class
 type: docs
-weight: 1440
+weight: 1450
 url: /python-net/aspose.imaging/disposableobject/
 ---
 

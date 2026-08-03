@@ -1,7 +1,7 @@
 ---
 title: RawDataSettings Class
 type: docs
-weight: 7100
+weight: 7110
 url: /python-net/aspose.imaging/rawdatasettings/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CompositingQuality Enumeration
 type: docs
-weight: 9410
+weight: 9420
 url: /python-net/aspose.imaging/compositingquality/
 ---
 

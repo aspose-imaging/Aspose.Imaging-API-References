@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 | jpeg_ls_allowed_lossy_error | int | r/w | Gets or sets the JPEG-LS difference bound for near-lossless coding (NEAR parameter from the JPEG-LS specification). |
 | jpeg_ls_interleave_mode | [JpegLsInterleaveMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/) | r/w | Gets or sets the JPEG-LS interleave mode. |
 | jpeg_ls_preset | [JpegLsPresetCodingParameters](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/) | r/w | Gets or sets the JPEG-LS preset parameters. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | preblend_alpha_if_present | bool | r/w | Gets or sets a value indicating whether red, green and blue components should be mixed with a background color, if alpha channel is present. |

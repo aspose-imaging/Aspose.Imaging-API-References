@@ -45,11 +45,52 @@ Gets or sets the feathering radius.
 
 **See also:**
 
-**[Example # 1](#example_220)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
+**[Example # 1](#example_232)**: Saving image masking result with feathering based on image size. Image maskin...
+
+**[Example # 2](#example_233)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
 
 
 ## **Examples**
-### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_220}
+### Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end. {#example_232}
+``` python
+
+import aspose.pycore as aspycore
+from aspose.imaging import Image, RasterImage, Color
+from aspose.imaging.sources import FileCreateSource
+from aspose.imaging.fileformats.png import PngColorType
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.masking.options import AutoMaskingGraphCutOptions, SegmentationMethod
+from aspose.imaging.masking import ImageMasking
+
+results = None
+with aspycore.as_of(Image.load("input.jpg"), RasterImage) as image:
+	obj_init = PngOptions()
+	obj_init.color_type = PngColorType.TRUECOLOR_WITH_ALPHA
+	obj_init.source = FileCreateSource("tempFile")
+	options = AutoMaskingGraphCutOptions()
+	options.calculate_default_strokes = True
+	options.feathering_radius = (max(image.width, image.height) // 500) + 1
+	options.method = SegmentationMethod.GRAPH_CUT
+	options.decompose = False
+	options.export_options = obj_init
+	options.background_replacement_color = Color.transparent
+
+	results = ImageMasking(image).decompose(options)
+
+with aspycore.as_of(results[1].get_image(), RasterImage) as result_image:
+	obj_init3 = PngOptions()
+	obj_init3.color_type = PngColorType.TRUECOLOR_WITH_ALPHA
+	result_image.save("output.png", obj_init3)
+	
+# disposing
+for it in results:
+	with it as _:
+		pass
+
+
+```
+
+### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_233}
 ``` python
 
 import aspose.pycore as aspycore

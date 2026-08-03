@@ -1,7 +1,7 @@
 ---
 title: ResolutionSetting Class
 type: docs
-weight: 7210
+weight: 7220
 url: /python-net/aspose.imaging/resolutionsetting/
 ---
 

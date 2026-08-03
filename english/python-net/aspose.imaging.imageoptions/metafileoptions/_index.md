@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.imageoptions/metafileoptions/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
@@ -54,9 +54,9 @@ Gets or sets a value indicating whether this [ICompressedOptions](/imaging/pytho
 
 **See also:**
 
-**[Example # 1](#example_194)**: The following example shows how to convert a emf images to emz format
+**[Example # 1](#example_205)**: The following example shows how to convert a emf images to emz format
 
-**[Example # 2](#example_195)**: The following example shows how to convert a wmf images to wmz format
+**[Example # 2](#example_206)**: The following example shows how to convert a wmf images to wmz format
 
 
 ### Method: clone() {#clone__1}
@@ -98,7 +98,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert a emf images to emz format {#example_194}
+### The following example shows how to convert a emf images to emz format {#example_205}
 ``` python
 
 from os.path import join as path_combine
@@ -121,7 +121,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a wmf images to wmz format {#example_195}
+### The following example shows how to convert a wmf images to wmz format {#example_206}
 ``` python
 
 from os.path import join as path_combine

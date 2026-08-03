@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
@@ -96,11 +96,11 @@ Gets or sets the compression type. The default compression type is [BitmapCompre
 
 **[Example # 2](#example_92)**: The following example creates a palettized grayscale BMP image and then saves...
 
-**[Example # 3](#example_208)**: Decompress BMP image which was previously compressed using DXT1 compression a...
+**[Example # 3](#example_220)**: Decompress BMP image which was previously compressed using DXT1 compression a...
 
-**[Example # 4](#example_225)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
+**[Example # 4](#example_239)**: The example shows how to export a BMP from a PNG file while keeping the alpha...
 
-**[Example # 5](#example_226)**: The example shows how to export a BMP with the RGB compression type.
+**[Example # 5](#example_240)**: The example shows how to export a BMP with the RGB compression type.
 
 
 ### Method: clone() {#clone__1}
@@ -307,7 +307,7 @@ with Image.create(createOptions, 100, 100) as image:
 
 ```
 
-### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_208}
+### Decompress BMP image which was previously compressed using DXT1 compression algorithm. {#example_220}
 ``` python
 
 from aspose.imaging import Image
@@ -319,7 +319,7 @@ with Image.load("CompressedTiger.bmp") as image:
 
 ```
 
-### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_225}
+### The example shows how to export a BMP from a PNG file while keeping the alpha channel, save a BMP file with transparency. {#example_239}
 ``` python
 from aspose.imaging import Image
 from aspose.imaging.fileformats.png import BmpOptions
@@ -346,7 +346,7 @@ with Image.load(source_path) as pngImage:
 
 ```
 
-### The example shows how to export a BMP with the RGB compression type. {#example_226}
+### The example shows how to export a BMP with the RGB compression type. {#example_240}
 ``` python
 
 from aspose.imaging import Image

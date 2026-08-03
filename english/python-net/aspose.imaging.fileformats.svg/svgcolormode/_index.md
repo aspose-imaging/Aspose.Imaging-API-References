@@ -1,7 +1,7 @@
 ---
 title: SvgColorMode Enumeration
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.imaging.fileformats.svg/svgcolormode/
 ---
 

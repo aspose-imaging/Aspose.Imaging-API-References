@@ -1,7 +1,7 @@
 ---
 title: SvgImageType Enumeration
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.imaging.fileformats.svg/svgimagetype/
 ---
 

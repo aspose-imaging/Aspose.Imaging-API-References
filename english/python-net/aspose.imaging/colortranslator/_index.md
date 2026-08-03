@@ -1,7 +1,7 @@
 ---
 title: ColorTranslator Class
 type: docs
-weight: 1210
+weight: 1220
 url: /python-net/aspose.imaging/colortranslator/
 ---
 

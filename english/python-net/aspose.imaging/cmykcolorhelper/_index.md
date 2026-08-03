@@ -1,7 +1,7 @@
 ---
 title: CmykColorHelper Class
 type: docs
-weight: 1140
+weight: 1150
 url: /python-net/aspose.imaging/cmykcolorhelper/
 ---
 
@@ -30,43 +30,44 @@ url: /python-net/aspose.imaging/cmykcolorhelper/
 | [to_argb(cmyk_pixel)](#to_argb_cmyk_pixel_14) | The conversion from CMYK colors to ARGB colors. |
 | [to_argb(cmyk_pixels)](#to_argb_cmyk_pixels_15) | The conversion from CMYK colors to ARGB colors. |
 | [to_argb32(cmyk_pixels)](#to_argb32_cmyk_pixels_16) | The conversion from CMYK colors to ARGB colors. |
-| [to_argb_color(cmyk_pixel)](#to_argb_color_cmyk_pixel_17) | The conversion from CMYK colors to ARGB colors. |
-| [to_argb_color_with_def_icc(cmyk_pixel)](#to_argb_color_with_def_icc_cmyk_pixel_18) | The conversion from CMYK color to ARGB Color using Icc conversion with default profiles. |
-| [to_argb_color_with_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)](#to_argb_color_with_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_19) | The conversion from CMYK color to ARGB color using Icc conversion with custom profile. |
-| [to_argb_colors(cmyk_pixels)](#to_argb_colors_cmyk_pixels_20) | The conversion from CMYK colors to ARGB colors. |
-| [to_argb_colors_with_def_icc(cmyk_pixels)](#to_argb_colors_with_def_icc_cmyk_pixels_21) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
-| [to_argb_colors_with_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)](#to_argb_colors_with_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_22) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
-| [to_argb_icc(cmyk_pixel)](#to_argb_icc_cmyk_pixel_23) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
-| [to_argb_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)](#to_argb_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_24) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
-| [to_argb_icc(cmyk_pixels)](#to_argb_icc_cmyk_pixels_25) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
-| [to_argb_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)](#to_argb_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_26) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
-| [to_cmyk(argb_pixel)](#to_cmyk_argb_pixel_27) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk(argb_pixels)](#to_cmyk_argb_pixels_28) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk(pixel)](#to_cmyk_pixel_29) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk(pixels)](#to_cmyk_pixels_30) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk_array(argb_pixels)](#to_cmyk_array_argb_pixels_31) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk_array_with_def_icc(pixels)](#to_cmyk_array_with_def_icc_pixels_32) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
-| [to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_33) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
-| [to_cmyk_bytes(argb_pixels, start_index, length)](#to_cmyk_bytes_argb_pixels_start_index_length_34) | Converts ARGB to CMYK. |
-| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_35) | The conversion from ARGB color to CMYK color. |
-| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_36) | The conversion from ARGB colors to CMYK colors. |
-| [to_cmyk_icc(argb)](#to_cmyk_icc_argb_37) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
-| [to_cmyk_icc(argb, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_argb_rgb_icc_stream_cmyk_icc_stream_38) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
-| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_39) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
-| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_40) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
-| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_41) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
+| [to_argb32(cmyk_pixels, reuse_array)](#to_argb32_cmyk_pixels_reuse_array_17) | The conversion from CMYK colors to ARGB colors. |
+| [to_argb_color(cmyk_pixel)](#to_argb_color_cmyk_pixel_18) | The conversion from CMYK colors to ARGB colors. |
+| [to_argb_color_with_def_icc(cmyk_pixel)](#to_argb_color_with_def_icc_cmyk_pixel_19) | The conversion from CMYK color to ARGB Color using Icc conversion with default profiles. |
+| [to_argb_color_with_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)](#to_argb_color_with_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_20) | The conversion from CMYK color to ARGB color using Icc conversion with custom profile. |
+| [to_argb_colors(cmyk_pixels)](#to_argb_colors_cmyk_pixels_21) | The conversion from CMYK colors to ARGB colors. |
+| [to_argb_colors_with_def_icc(cmyk_pixels)](#to_argb_colors_with_def_icc_cmyk_pixels_22) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
+| [to_argb_colors_with_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)](#to_argb_colors_with_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_23) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
+| [to_argb_icc(cmyk_pixel)](#to_argb_icc_cmyk_pixel_24) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
+| [to_argb_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)](#to_argb_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_25) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
+| [to_argb_icc(cmyk_pixels)](#to_argb_icc_cmyk_pixels_26) | The conversion from CMYK colors to ARGB colors using Icc conversion with default profiles. |
+| [to_argb_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)](#to_argb_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_27) | The conversion from CMYK colors to ARGB colors using Icc conversion with custom profiles. |
+| [to_cmyk(argb_pixel)](#to_cmyk_argb_pixel_28) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk(argb_pixels)](#to_cmyk_argb_pixels_29) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk(pixel)](#to_cmyk_pixel_30) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk(pixels)](#to_cmyk_pixels_31) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk_array(argb_pixels)](#to_cmyk_array_argb_pixels_32) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk_array_with_def_icc(pixels)](#to_cmyk_array_with_def_icc_pixels_33) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
+| [to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_34) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
+| [to_cmyk_bytes(argb_pixels, start_index, length)](#to_cmyk_bytes_argb_pixels_start_index_length_35) | Converts ARGB to CMYK. |
+| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_36) | The conversion from ARGB color to CMYK color. |
+| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_37) | The conversion from ARGB colors to CMYK colors. |
+| [to_cmyk_icc(argb)](#to_cmyk_icc_argb_38) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
+| [to_cmyk_icc(argb, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_argb_rgb_icc_stream_cmyk_icc_stream_39) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
+| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_40) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
+| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_41) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
 | [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_42) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
-| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_43) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
+| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_43) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
 | [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_44) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
-| [to_cmyk_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_45) | Converts RGB to CMYK using custom ICC profiles. |
-| [to_cmyk_with_def_icc(pixel)](#to_cmyk_with_def_icc_pixel_46) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
-| [to_cmyk_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_47) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
-| [to_cmyka_bytes(argb_pixels, start_index, length)](#to_cmyka_bytes_argb_pixels_start_index_length_48) | Converts ARGB to CMYKA (with transparency). |
-| [to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)](#to_cmyka_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_49) | Converts RGB to CMYKA (with alpha) using custom ICC profiles. |
-| [to_psd_cmyk_icc(argb)](#to_psd_cmyk_icc_argb_50) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
-| [to_psd_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_psd_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_51) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
-| [to_psd_cmyk_icc(pixels)](#to_psd_cmyk_icc_pixels_52) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
-| [to_psd_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_psd_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_53) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_45) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
+| [to_cmyk_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_46) | Converts RGB to CMYK using custom ICC profiles. |
+| [to_cmyk_with_def_icc(pixel)](#to_cmyk_with_def_icc_pixel_47) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
+| [to_cmyk_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_48) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
+| [to_cmyka_bytes(argb_pixels, start_index, length)](#to_cmyka_bytes_argb_pixels_start_index_length_49) | Converts ARGB to CMYKA (with transparency). |
+| [to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)](#to_cmyka_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_50) | Converts RGB to CMYKA (with alpha) using custom ICC profiles. |
+| [to_psd_cmyk_icc(argb)](#to_psd_cmyk_icc_argb_51) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| [to_psd_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_psd_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_52) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| [to_psd_cmyk_icc(pixels)](#to_psd_cmyk_icc_pixels_53) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| [to_psd_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_psd_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_54) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.<br/>            Uses PSD CMYK format KCMY byte order with inverted channel values. |
 
 
 ### Method: argb_32_to_cmyk(argb)  [static] {#argb_32_to_cmyk_argb_1}
@@ -303,7 +304,7 @@ Gets the cyan component value.
 
 **See also:**
 
-**[Example # 1](#example_178)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_189)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_k(cmyk)  [static] {#get_k_cmyk_11}
@@ -331,7 +332,7 @@ Gets the black component value.
 
 **See also:**
 
-**[Example # 1](#example_178)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_189)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_m(cmyk)  [static] {#get_m_cmyk_12}
@@ -359,7 +360,7 @@ Gets the magenta component value.
 
 **See also:**
 
-**[Example # 1](#example_178)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_189)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: get_y(cmyk)  [static] {#get_y_cmyk_13}
@@ -387,7 +388,7 @@ Gets the yellow component value.
 
 **See also:**
 
-**[Example # 1](#example_178)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_189)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
 ### Method: to_argb(cmyk_pixel)  [static] {#to_argb_cmyk_pixel_14}
@@ -456,7 +457,30 @@ The conversion from CMYK colors to ARGB colors.
 | int[] | The ARGB colors presented as 32-bit integer values. |
 
 
-### Method: to_argb_color(cmyk_pixel)  [static] {#to_argb_color_cmyk_pixel_17}
+### Method: to_argb32(cmyk_pixels, reuse_array)  [static] {#to_argb32_cmyk_pixels_reuse_array_17}
+
+
+```
+ to_argb32(cmyk_pixels, reuse_array) 
+```
+
+The conversion from CMYK colors to ARGB colors.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| cmyk_pixels | int[] | The CMYK colors presented as 32-bit integer values. |
+| reuse_array | bool | if {@code true} the input {@code cmykPixels} array will be refilled by new values <br/>            and returned; otherwise a new array will be allocated and returned. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| int[] | The new allocated array or _cmykPixels_ filled by ARGB colors presented as 32-bit integer values. |
+
+
+### Method: to_argb_color(cmyk_pixel)  [static] {#to_argb_color_cmyk_pixel_18}
 
 
 ```
@@ -478,7 +502,7 @@ The conversion from CMYK colors to ARGB colors.
 | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_color_with_def_icc(cmyk_pixel)  [static] {#to_argb_color_with_def_icc_cmyk_pixel_18}
+### Method: to_argb_color_with_def_icc(cmyk_pixel)  [static] {#to_argb_color_with_def_icc_cmyk_pixel_19}
 
 
 ```
@@ -500,7 +524,7 @@ The conversion from CMYK color to ARGB Color using Icc conversion with default p
 | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 
-### Method: to_argb_color_with_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_color_with_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_19}
+### Method: to_argb_color_with_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_color_with_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_20}
 
 
 ```
@@ -524,7 +548,7 @@ The conversion from CMYK color to ARGB color using Icc conversion with custom pr
 | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB color. |
 
 
-### Method: to_argb_colors(cmyk_pixels)  [static] {#to_argb_colors_cmyk_pixels_20}
+### Method: to_argb_colors(cmyk_pixels)  [static] {#to_argb_colors_cmyk_pixels_21}
 
 
 ```
@@ -546,7 +570,7 @@ The conversion from CMYK colors to ARGB colors.
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_colors_with_def_icc(cmyk_pixels)  [static] {#to_argb_colors_with_def_icc_cmyk_pixels_21}
+### Method: to_argb_colors_with_def_icc(cmyk_pixels)  [static] {#to_argb_colors_with_def_icc_cmyk_pixels_22}
 
 
 ```
@@ -568,7 +592,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_colors_with_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_colors_with_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_22}
+### Method: to_argb_colors_with_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_colors_with_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_23}
 
 
 ```
@@ -592,7 +616,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_icc(cmyk_pixel)  [static] {#to_argb_icc_cmyk_pixel_23}
+### Method: to_argb_icc(cmyk_pixel)  [static] {#to_argb_icc_cmyk_pixel_24}
 
 
 ```
@@ -614,7 +638,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_24}
+### Method: to_argb_icc(cmyk_pixel, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixel_cmyk_icc_stream_rgb_icc_stream_25}
 
 
 ```
@@ -638,7 +662,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 | [Color](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_icc(cmyk_pixels)  [static] {#to_argb_icc_cmyk_pixels_25}
+### Method: to_argb_icc(cmyk_pixels)  [static] {#to_argb_icc_cmyk_pixels_26}
 
 
 ```
@@ -660,7 +684,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with default
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_argb_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_26}
+### Method: to_argb_icc(cmyk_pixels, cmyk_icc_stream, rgb_icc_stream)  [static] {#to_argb_icc_cmyk_pixels_cmyk_icc_stream_rgb_icc_stream_27}
 
 
 ```
@@ -684,7 +708,7 @@ The conversion from CMYK colors to ARGB colors using Icc conversion with custom 
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 
-### Method: to_cmyk(argb_pixel)  [static] {#to_cmyk_argb_pixel_27}
+### Method: to_cmyk(argb_pixel)  [static] {#to_cmyk_argb_pixel_28}
 
 
 ```
@@ -706,7 +730,7 @@ The conversion from ARGB colors to CMYK colors.
 | int | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk(argb_pixels)  [static] {#to_cmyk_argb_pixels_28}
+### Method: to_cmyk(argb_pixels)  [static] {#to_cmyk_argb_pixels_29}
 
 
 ```
@@ -731,10 +755,10 @@ The conversion from ARGB colors to CMYK colors.
 
 **See also:**
 
-**[Example # 1](#example_178)**: The following example shows how to convert RGB colors to their CMYK counterpa...
+**[Example # 1](#example_189)**: The following example shows how to convert RGB colors to their CMYK counterpa...
 
 
-### Method: to_cmyk(pixel)  [static] {#to_cmyk_pixel_29}
+### Method: to_cmyk(pixel)  [static] {#to_cmyk_pixel_30}
 
 
 ```
@@ -762,7 +786,7 @@ The conversion from ARGB colors to CMYK colors.
 **[Example # 1](#example_48)**: The following example fills the central area of a raster image with black pix...
 
 
-### Method: to_cmyk(pixels)  [static] {#to_cmyk_pixels_30}
+### Method: to_cmyk(pixels)  [static] {#to_cmyk_pixels_31}
 
 
 ```
@@ -784,7 +808,7 @@ The conversion from ARGB colors to CMYK colors.
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_array(argb_pixels)  [static] {#to_cmyk_array_argb_pixels_31}
+### Method: to_cmyk_array(argb_pixels)  [static] {#to_cmyk_array_argb_pixels_32}
 
 
 ```
@@ -806,7 +830,7 @@ The conversion from ARGB colors to CMYK colors.
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_array_with_def_icc(pixels)  [static] {#to_cmyk_array_with_def_icc_pixels_32}
+### Method: to_cmyk_array_with_def_icc(pixels)  [static] {#to_cmyk_array_with_def_icc_pixels_33}
 
 
 ```
@@ -828,7 +852,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_33}
+### Method: to_cmyk_array_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_array_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_34}
 
 
 ```
@@ -852,7 +876,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_bytes(argb_pixels, start_index, length)  [static] {#to_cmyk_bytes_argb_pixels_start_index_length_34}
+### Method: to_cmyk_bytes(argb_pixels, start_index, length)  [static] {#to_cmyk_bytes_argb_pixels_start_index_length_35}
 
 
 ```
@@ -876,7 +900,7 @@ Converts ARGB to CMYK.
 | System.Byte | The CMYK colors presented as a byte array. |
 
 
-### Method: to_cmyk_color(pixel)  [static] {#to_cmyk_color_pixel_35}
+### Method: to_cmyk_color(pixel)  [static] {#to_cmyk_color_pixel_36}
 
 
 ```
@@ -898,7 +922,7 @@ The conversion from ARGB color to CMYK color.
 | int | The CMYK color presented as a 32-bit integer value. |
 
 
-### Method: to_cmyk_colors(pixels)  [static] {#to_cmyk_colors_pixels_36}
+### Method: to_cmyk_colors(pixels)  [static] {#to_cmyk_colors_pixels_37}
 
 
 ```
@@ -920,7 +944,7 @@ The conversion from ARGB colors to CMYK colors.
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_icc(argb)  [static] {#to_cmyk_icc_argb_37}
+### Method: to_cmyk_icc(argb)  [static] {#to_cmyk_icc_argb_38}
 
 
 ```
@@ -942,7 +966,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with default p
 | int | The CMYK color presented as a 32-bit integer value. |
 
 
-### Method: to_cmyk_icc(argb, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_argb_rgb_icc_stream_cmyk_icc_stream_38}
+### Method: to_cmyk_icc(argb, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_argb_rgb_icc_stream_cmyk_icc_stream_39}
 
 
 ```
@@ -966,7 +990,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with custom pr
 | int | The CMYK color presented as a 32-bit integer value. |
 
 
-### Method: to_cmyk_icc(pixel)  [static] {#to_cmyk_icc_pixel_39}
+### Method: to_cmyk_icc(pixel)  [static] {#to_cmyk_icc_pixel_40}
 
 
 ```
@@ -988,7 +1012,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 | int | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_40}
+### Method: to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_41}
 
 
 ```
@@ -1012,28 +1036,6 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 | int | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_41}
-
-
-```
- to_cmyk_icc(pixels) 
-```
-
-The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| int[] | The CMYK colors presented as 32-bit integer values. |
-
-
 ### Method: to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_42}
 
 
@@ -1047,7 +1049,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | int[] | The ARGB colors. |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
 
 **Returns**
 
@@ -1056,22 +1058,20 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_43}
+### Method: to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_43}
 
 
 ```
- to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
+ to_cmyk_icc(pixels) 
 ```
 
-The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.
+The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
-| rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
-| cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
+| pixels | int[] | The ARGB colors. |
 
 **Returns**
 
@@ -1093,6 +1093,30 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The ARGB colors. |
+| rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
+| cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| int[] | The CMYK colors presented as 32-bit integer values. |
+
+
+### Method: to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_45}
+
+
+```
+ to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
+```
+
+The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
 | pixels | int[] | The ARGB colors. |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing RGB Icc profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing CMYK Icc profile. |
@@ -1104,7 +1128,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 | int[] | The CMYK colors presented as 32-bit integer values. |
 
 
-### Method: to_cmyk_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_45}
+### Method: to_cmyk_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_46}
 
 
 ```
@@ -1130,7 +1154,7 @@ Converts RGB to CMYK using custom ICC profiles.
 | System.Byte | The CMYK colors presented as a byte array. |
 
 
-### Method: to_cmyk_with_def_icc(pixel)  [static] {#to_cmyk_with_def_icc_pixel_46}
+### Method: to_cmyk_with_def_icc(pixel)  [static] {#to_cmyk_with_def_icc_pixel_47}
 
 
 ```
@@ -1152,7 +1176,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with default p
 | int | The CMYK color presented as a 32-bit integer value. |
 
 
-### Method: to_cmyk_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_47}
+### Method: to_cmyk_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_48}
 
 
 ```
@@ -1176,7 +1200,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with custom pr
 | int | The CMYK color presented as a 32-bit integer value. |
 
 
-### Method: to_cmyka_bytes(argb_pixels, start_index, length)  [static] {#to_cmyka_bytes_argb_pixels_start_index_length_48}
+### Method: to_cmyka_bytes(argb_pixels, start_index, length)  [static] {#to_cmyka_bytes_argb_pixels_start_index_length_49}
 
 
 ```
@@ -1200,7 +1224,7 @@ Converts ARGB to CMYKA (with transparency).
 | System.Byte | The CMYK colors presented as a byte array. |
 
 
-### Method: to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyka_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_49}
+### Method: to_cmyka_icc_bytes(pixels, start_index, length, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyka_icc_bytes_pixels_start_index_length_rgb_icc_stream_cmyk_icc_stream_50}
 
 
 ```
@@ -1226,7 +1250,7 @@ Converts RGB to CMYKA (with alpha) using custom ICC profiles.
 | System.Byte | The CMYK colors presented as a byte array. |
 
 
-### Method: to_psd_cmyk_icc(argb)  [static] {#to_psd_cmyk_icc_argb_50}
+### Method: to_psd_cmyk_icc(argb)  [static] {#to_psd_cmyk_icc_argb_51}
 
 
 ```
@@ -1248,7 +1272,7 @@ The conversion from ARGB color to CMYK color using Icc conversion with default p
 | int | The CMYK color presented as a 32-bit integer value in KCMY byte order with inverted channel values. |
 
 
-### Method: to_psd_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_psd_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_51}
+### Method: to_psd_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_psd_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_52}
 
 
 ```
@@ -1272,7 +1296,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with custom 
 | int | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
-### Method: to_psd_cmyk_icc(pixels)  [static] {#to_psd_cmyk_icc_pixels_52}
+### Method: to_psd_cmyk_icc(pixels)  [static] {#to_psd_cmyk_icc_pixels_53}
 
 
 ```
@@ -1294,7 +1318,7 @@ The conversion from ARGB colors to CMYK colors using Icc conversion with default
 | int[] | The CMYK colors presented as 32-bit integer values in KCMY byte order with inverted channel values.. |
 
 
-### Method: to_psd_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_psd_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_53}
+### Method: to_psd_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_psd_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_54}
 
 
 ```
@@ -1343,7 +1367,7 @@ with Image.load(join_path(directory, "sample.png")) as image:
 
 ```
 
-### The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles. {#example_178}
+### The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles. {#example_189}
 ``` python
 
 from aspose.imaging import Color, CmykColorHelper

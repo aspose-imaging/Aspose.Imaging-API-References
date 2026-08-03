@@ -1,7 +1,7 @@
 ---
 title: SvgImage Class
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 ---
 
@@ -83,46 +83,47 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_31) | Gets a proportional height. |
 | [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_32) | Gets a proportional width. |
 | [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_33) | Converts to aps. |
-| [load(file_path)](#load_file_path_34) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| [load(file_path, load_options)](#load_file_path_load_options_35) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| [load(stream)](#load_stream_36) | Loads the SVG section. |
-| [load(stream, load_options)](#load_stream_load_options_37) | Loads a new image from the specified stream. |
-| [load_stream(stream)](#load_stream_stream_38) | Loads a new image from the specified stream. |
-| [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_39) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_40) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [get_svg_objects()](#get_svg_objects__34) | Retrieves an array of [SvgNode](/imaging/python-net/aspose.svg.model/svgnode/) objects representing the SVG elements contained in the image. |
+| [load(file_path)](#load_file_path_35) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_36) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(stream)](#load_stream_37) | Loads the SVG section. |
+| [load(stream, load_options)](#load_stream_load_options_38) | Loads a new image from the specified stream. |
+| [load_stream(stream)](#load_stream_stream_39) | Loads a new image from the specified stream. |
+| [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_40) | Loads a new image from the specified stream. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_41) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
-| [remove_background(settings)](#remove_background_settings_41) | Removes the background. |
-| remove_metadata() | Removes metadata. |
-| [resize(new_width, new_height)](#resize_new_width_new_height_42) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_43) | Resize the image to fit the specified dimensions while preserving its aspect <br/>            ratio. This method provides a convenient way to adjust the size of the image <br/>            without distorting its proportions, ensuring optimal display or storage <br/>            according to the desired dimensions. |
-| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_44) | Resizes the image with extended options. |
-| [resize_by_settings(new_width, new_height, settings)](#resize_by_settings_new_width_new_height_settings_45) | Resizes the image. |
-| [resize_by_type(new_width, new_height, resize_type)](#resize_by_type_new_width_new_height_resize_type_46) | Resizes the image. |
-| [resize_height_proportionally(new_height)](#resize_height_proportionally_new_height_47) | Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize_height_proportionally(new_height, resize_type)](#resize_height_proportionally_new_height_resize_type_48) | Resizes the height proportionally. |
-| [resize_height_proportionally(new_height, settings)](#resize_height_proportionally_new_height_settings_49) | Resizes the height proportionally. |
-| [resize_height_proportionally_settings(new_height, settings)](#resize_height_proportionally_settings_new_height_settings_50) | Resizes the height proportionally. |
-| [resize_width_proportionally(new_width)](#resize_width_proportionally_new_width_51) | Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize_width_proportionally(new_width, resize_type)](#resize_width_proportionally_new_width_resize_type_52) | Resizes the width proportionally. |
-| [resize_width_proportionally(new_width, settings)](#resize_width_proportionally_new_width_settings_53) | Resizes the width proportionally. |
-| [resize_width_proportionally_settings(new_width, settings)](#resize_width_proportionally_settings_new_width_settings_54) | Resizes the width proportionally. |
-| [rotate(angle)](#rotate_angle_55) | Rotate image around the center. |
-| [rotate_flip(rotate_flip_type)](#rotate_flip_rotate_flip_type_56) | Rotates, flips, or rotates and flips the image. |
+| [remove_background(settings)](#remove_background_settings_42) | Removes the background. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
+| [resize(new_width, new_height)](#resize_new_width_new_height_43) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_44) | Resize the image to fit the specified dimensions while preserving its aspect <br/>            ratio. This method provides a convenient way to adjust the size of the image <br/>            without distorting its proportions, ensuring optimal display or storage <br/>            according to the desired dimensions. |
+| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_45) | Resizes the image with extended options. |
+| [resize_by_settings(new_width, new_height, settings)](#resize_by_settings_new_width_new_height_settings_46) | Resizes the image. |
+| [resize_by_type(new_width, new_height, resize_type)](#resize_by_type_new_width_new_height_resize_type_47) | Resizes the image. |
+| [resize_height_proportionally(new_height)](#resize_height_proportionally_new_height_48) | Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize_height_proportionally(new_height, resize_type)](#resize_height_proportionally_new_height_resize_type_49) | Resizes the height proportionally. |
+| [resize_height_proportionally(new_height, settings)](#resize_height_proportionally_new_height_settings_50) | Resizes the height proportionally. |
+| [resize_height_proportionally_settings(new_height, settings)](#resize_height_proportionally_settings_new_height_settings_51) | Resizes the height proportionally. |
+| [resize_width_proportionally(new_width)](#resize_width_proportionally_new_width_52) | Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize_width_proportionally(new_width, resize_type)](#resize_width_proportionally_new_width_resize_type_53) | Resizes the width proportionally. |
+| [resize_width_proportionally(new_width, settings)](#resize_width_proportionally_new_width_settings_54) | Resizes the width proportionally. |
+| [resize_width_proportionally_settings(new_width, settings)](#resize_width_proportionally_settings_new_width_settings_55) | Resizes the width proportionally. |
+| [rotate(angle)](#rotate_angle_56) | Rotate image around the center. |
+| [rotate_flip(rotate_flip_type)](#rotate_flip_rotate_flip_type_57) | Rotates, flips, or rotates and flips the image. |
 | save() | Saves the image data to the underlying stream. |
-| [save(file_path)](#save_file_path_57) | Saves the image to the specified file location. |
-| [save(file_path, options)](#save_file_path_options_58) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_59) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save(file_path, over_write)](#save_file_path_over_write_60) | Saves the object's data to the specified file location. |
-| [save(stream)](#save_stream_61) | Saves the data. |
-| [save(stream, options_base)](#save_stream_options_base_62) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_63) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_to_stream(stream)](#save_to_stream_stream_64) | Saves the object's data to the specified stream. |
-| [save_to_stream_with_options(stream, options_base)](#save_to_stream_with_options_stream_options_base_65) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_to_stream_with_options_rect(stream, options_base, bounds_rectangle)](#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_66) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_with_options(file_path, options)](#save_with_options_file_path_options_67) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_68) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [set_palette(palette, update_colors)](#set_palette_palette_update_colors_69) | Applies a specified palette to the image, enabling customization of color <br/>            schemes for aesthetic or functional purposes. This method provides flexibility <br/>            in managing color palettes to suit various design or application requirements. |
-| [try_set_metadata(metadata)](#try_set_metadata_metadata_70) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
+| [save(file_path)](#save_file_path_58) | Saves the image to the specified file location. |
+| [save(file_path, options)](#save_file_path_options_59) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_60) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save(file_path, over_write)](#save_file_path_over_write_61) | Saves the object's data to the specified file location. |
+| [save(stream)](#save_stream_62) | Saves the data. |
+| [save(stream, options_base)](#save_stream_options_base_63) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_64) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_to_stream(stream)](#save_to_stream_stream_65) | Saves the object's data to the specified stream. |
+| [save_to_stream_with_options(stream, options_base)](#save_to_stream_with_options_stream_options_base_66) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_to_stream_with_options_rect(stream, options_base, bounds_rectangle)](#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_67) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_with_options(file_path, options)](#save_with_options_file_path_options_68) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_69) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [set_palette(palette, update_colors)](#set_palette_palette_update_colors_70) | Applies a specified palette to the image, enabling customization of color <br/>            schemes for aesthetic or functional purposes. This method provides flexibility <br/>            in managing color palettes to suit various design or application requirements. |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_71) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
 
 
 ### Constructor: SvgImage(path) {#SvgImage_path_1}
@@ -158,7 +159,7 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_170)**: This example shows how to load an SVG image from a file stream and rasterize ...
+**[Example # 1](#example_179)**: This example shows how to load an SVG image from a file stream and rasterize ...
 
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
@@ -921,7 +922,23 @@ Converts to aps.
 | _io.BufferedRandom | The serialized stream |
 
 
-### Method: load(file_path)  [static] {#load_file_path_34}
+### Method: get_svg_objects() {#get_svg_objects__34}
+
+
+```
+ get_svg_objects() 
+```
+
+Retrieves an array of [SvgNode](/imaging/python-net/aspose.svg.model/svgnode/) objects representing the SVG elements contained in the image.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [AsposeSvgNode[]](/imaging/python-net/aspose.imaging.fileformats.svg/asposesvgnode/) | An array of [SvgNode](/imaging/python-net/aspose.svg.model/svgnode/) objects. |
+
+
+### Method: load(file_path)  [static] {#load_file_path_35}
 
 
 ```
@@ -943,7 +960,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load(file_path, load_options)  [static] {#load_file_path_load_options_35}
+### Method: load(file_path, load_options)  [static] {#load_file_path_load_options_36}
 
 
 ```
@@ -966,7 +983,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load(stream)  [static] {#load_stream_36}
+### Method: load(stream)  [static] {#load_stream_37}
 
 
 ```
@@ -988,7 +1005,7 @@ Loads the SVG section.
 | [Image](/imaging/python-net/aspose.imaging/image/) |  |
 
 
-### Method: load(stream, load_options)  [static] {#load_stream_load_options_37}
+### Method: load(stream, load_options)  [static] {#load_stream_load_options_38}
 
 
 ```
@@ -1011,7 +1028,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_stream(stream)  [static] {#load_stream_stream_38}
+### Method: load_stream(stream)  [static] {#load_stream_stream_39}
 
 
 ```
@@ -1033,7 +1050,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_stream_with_options(stream, load_options)  [static] {#load_stream_with_options_stream_load_options_39}
+### Method: load_stream_with_options(stream, load_options)  [static] {#load_stream_with_options_stream_load_options_40}
 
 
 ```
@@ -1056,7 +1073,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_with_options(file_path, load_options)  [static] {#load_with_options_file_path_load_options_40}
+### Method: load_with_options(file_path, load_options)  [static] {#load_with_options_file_path_load_options_41}
 
 
 ```
@@ -1079,7 +1096,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: remove_background(settings) {#remove_background_settings_41}
+### Method: remove_background(settings) {#remove_background_settings_42}
 
 
 ```
@@ -1094,7 +1111,7 @@ Removes the background.
 | :- | :- | :- |
 | settings | [RemoveBackgroundSettings](/imaging/python-net/aspose.imaging/removebackgroundsettings/) | The settings. |
 
-### Method: resize(new_width, new_height) {#resize_new_width_new_height_42}
+### Method: resize(new_width, new_height) {#resize_new_width_new_height_43}
 
 
 ```
@@ -1110,7 +1127,7 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 | new_width | int | The new width. |
 | new_height | int | The new height. |
 
-### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_43}
+### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_44}
 
 
 ```
@@ -1127,7 +1144,7 @@ Resize the image to fit the specified dimensions while preserving its aspect <br
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | The resize type. |
 
-### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_44}
+### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_45}
 
 
 ```
@@ -1144,7 +1161,7 @@ Resizes the image with extended options.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The resize settings. |
 
-### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_45}
+### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_46}
 
 
 ```
@@ -1161,7 +1178,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The resize settings. |
 
-### Method: resize_by_type(new_width, new_height, resize_type) {#resize_by_type_new_width_new_height_resize_type_46}
+### Method: resize_by_type(new_width, new_height, resize_type) {#resize_by_type_new_width_new_height_resize_type_47}
 
 
 ```
@@ -1178,7 +1195,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | The resize type. |
 
-### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_47}
+### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_48}
 
 
 ```
@@ -1193,7 +1210,7 @@ Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RES
 | :- | :- | :- |
 | new_height | int | The new height. |
 
-### Method: resize_height_proportionally(new_height, resize_type) {#resize_height_proportionally_new_height_resize_type_48}
+### Method: resize_height_proportionally(new_height, resize_type) {#resize_height_proportionally_new_height_resize_type_49}
 
 
 ```
@@ -1209,7 +1226,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Type of the resize. |
 
-### Method: resize_height_proportionally(new_height, settings) {#resize_height_proportionally_new_height_settings_49}
+### Method: resize_height_proportionally(new_height, settings) {#resize_height_proportionally_new_height_settings_50}
 
 
 ```
@@ -1225,7 +1242,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_height_proportionally_settings(new_height, settings) {#resize_height_proportionally_settings_new_height_settings_50}
+### Method: resize_height_proportionally_settings(new_height, settings) {#resize_height_proportionally_settings_new_height_settings_51}
 
 
 ```
@@ -1241,7 +1258,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_width_proportionally(new_width) {#resize_width_proportionally_new_width_51}
+### Method: resize_width_proportionally(new_width) {#resize_width_proportionally_new_width_52}
 
 
 ```
@@ -1256,7 +1273,7 @@ Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESA
 | :- | :- | :- |
 | new_width | int | The new width. |
 
-### Method: resize_width_proportionally(new_width, resize_type) {#resize_width_proportionally_new_width_resize_type_52}
+### Method: resize_width_proportionally(new_width, resize_type) {#resize_width_proportionally_new_width_resize_type_53}
 
 
 ```
@@ -1272,7 +1289,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Type of the resize. |
 
-### Method: resize_width_proportionally(new_width, settings) {#resize_width_proportionally_new_width_settings_53}
+### Method: resize_width_proportionally(new_width, settings) {#resize_width_proportionally_new_width_settings_54}
 
 
 ```
@@ -1288,7 +1305,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_width_proportionally_settings(new_width, settings) {#resize_width_proportionally_settings_new_width_settings_54}
+### Method: resize_width_proportionally_settings(new_width, settings) {#resize_width_proportionally_settings_new_width_settings_55}
 
 
 ```
@@ -1304,7 +1321,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: rotate(angle) {#rotate_angle_55}
+### Method: rotate(angle) {#rotate_angle_56}
 
 
 ```
@@ -1319,7 +1336,7 @@ Rotate image around the center.
 | :- | :- | :- |
 | angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
-### Method: rotate_flip(rotate_flip_type) {#rotate_flip_rotate_flip_type_56}
+### Method: rotate_flip(rotate_flip_type) {#rotate_flip_rotate_flip_type_57}
 
 
 ```
@@ -1334,7 +1351,7 @@ Rotates, flips, or rotates and flips the image.
 | :- | :- | :- |
 | rotate_flip_type | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/) | Type of the rotate flip. |
 
-### Method: save(file_path) {#save_file_path_57}
+### Method: save(file_path) {#save_file_path_58}
 
 
 ```
@@ -1349,7 +1366,7 @@ Saves the image to the specified file location.
 | :- | :- | :- |
 | file_path | string | The file path to save the image to. |
 
-### Method: save(file_path, options) {#save_file_path_options_58}
+### Method: save(file_path, options) {#save_file_path_options_59}
 
 
 ```
@@ -1365,7 +1382,7 @@ Saves the object's data to the specified file location in the specified file for
 | file_path | string | The file path. |
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 
-### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_59}
+### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_60}
 
 
 ```
@@ -1382,7 +1399,7 @@ Saves the object's data to the specified file location in the specified file for
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use sourse bounds. |
 
-### Method: save(file_path, over_write) {#save_file_path_over_write_60}
+### Method: save(file_path, over_write) {#save_file_path_over_write_61}
 
 
 ```
@@ -1398,7 +1415,7 @@ Saves the object's data to the specified file location.
 | file_path | string | The file path to save the object's data to. |
 | over_write | bool | if set to <c>true</c> over write the file contents, otherwise append will occur. |
 
-### Method: save(stream) {#save_stream_61}
+### Method: save(stream) {#save_stream_62}
 
 
 ```
@@ -1413,7 +1430,7 @@ Saves the data.
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to save data to. |
 
-### Method: save(stream, options_base) {#save_stream_options_base_62}
+### Method: save(stream, options_base) {#save_stream_options_base_63}
 
 
 ```
@@ -1429,7 +1446,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | stream | _io.BufferedRandom | The stream to save the image's data to. |
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 
-### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_63}
+### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_64}
 
 
 ```
@@ -1446,7 +1463,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
-### Method: save_to_stream(stream) {#save_to_stream_stream_64}
+### Method: save_to_stream(stream) {#save_to_stream_stream_65}
 
 
 ```
@@ -1461,7 +1478,7 @@ Saves the object's data to the specified stream.
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to save the object's data to. |
 
-### Method: save_to_stream_with_options(stream, options_base) {#save_to_stream_with_options_stream_options_base_65}
+### Method: save_to_stream_with_options(stream, options_base) {#save_to_stream_with_options_stream_options_base_66}
 
 
 ```
@@ -1477,7 +1494,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | stream | _io.BufferedRandom | The stream to save the image's data to. |
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 
-### Method: save_to_stream_with_options_rect(stream, options_base, bounds_rectangle) {#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_66}
+### Method: save_to_stream_with_options_rect(stream, options_base, bounds_rectangle) {#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_67}
 
 
 ```
@@ -1494,7 +1511,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
-### Method: save_with_options(file_path, options) {#save_with_options_file_path_options_67}
+### Method: save_with_options(file_path, options) {#save_with_options_file_path_options_68}
 
 
 ```
@@ -1510,7 +1527,7 @@ Saves the object's data to the specified file location in the specified file for
 | file_path | string | The file path. |
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 
-### Method: save_with_options_rect(file_path, options, bounds_rectangle) {#save_with_options_rect_file_path_options_bounds_rectangle_68}
+### Method: save_with_options_rect(file_path, options, bounds_rectangle) {#save_with_options_rect_file_path_options_bounds_rectangle_69}
 
 
 ```
@@ -1527,7 +1544,7 @@ Saves the object's data to the specified file location in the specified file for
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use sourse bounds. |
 
-### Method: set_palette(palette, update_colors) {#set_palette_palette_update_colors_69}
+### Method: set_palette(palette, update_colors) {#set_palette_palette_update_colors_70}
 
 
 ```
@@ -1543,7 +1560,7 @@ Applies a specified palette to the image, enabling customization of color <br/> 
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The palette to set. |
 | update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
-### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_70}
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_71}
 
 
 ```
@@ -1566,7 +1583,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_170}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_179}
 ``` python
 import aspose.pycore as aspycore
 from os.path import join
@@ -1586,7 +1603,7 @@ with open(join(dir_, "test.svg"), "rb") as stream:
 
 ```
 
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_201}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1607,7 +1624,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_193}
+### The following example shows how to convert a svgz images to svg fromat {#example_204}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1628,7 +1645,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a svg images to svgz format {#example_196}
+### The following example shows how to convert a svg images to svgz format {#example_207}
 ``` python
 
 from os.path import join as path_combine

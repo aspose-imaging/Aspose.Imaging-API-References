@@ -96,7 +96,7 @@ Initializes a new instance of the [WmfRecorderGraphics2D](/imaging/python-net/as
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
 
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
@@ -465,7 +465,7 @@ Ends the recording.
 
 **See also:**
 
-**[Example # 1](#example_172)**: This example shows how to create a WMF image and draw some geometric shapes u...
+**[Example # 1](#example_182)**: This example shows how to create a WMF image and draw some geometric shapes u...
 
 
 ### Method: exclude_clip(rect) {#exclude_clip_rect_22}
@@ -871,7 +871,7 @@ Changes the origin of the coordinate system by applying the specified translatio
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies whether the translation is prepended or appended to the transformation matrix. |
 
 ## **Examples**
-### This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D. {#example_172}
+### This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D. {#example_182}
 ``` python
 
 from os.path import join as path_join

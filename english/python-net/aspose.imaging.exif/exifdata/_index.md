@@ -23,6 +23,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
+| DATE_TIME_FORMAT [static] | string | r | Defaulet EXIF datatime fortmat "YYYY:MM:DD HH:MM:SS".<br/>            (See Exchangeable image file format for digital still cameras: Exif Version 2.2  page 22 at http://www.exif.org/Exif2-2.PDF). |
 | aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the aperture value. |
 | body_serial_number | string | r/w | Gets or sets camera body serial number. |
 | brightness_value | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | r/w | Gets or sets the brightness value. |
@@ -34,6 +35,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | compressed_bits_per_pixel | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the compressed bits per pixel. |
 | contrast | [ExifContrast](/imaging/python-net/aspose.imaging.exif.enums/exifcontrast/) | r/w | Gets or sets the contrast. |
 | custom_rendered | [ExifCustomRendered](/imaging/python-net/aspose.imaging.exif.enums/exifcustomrendered/) | r/w | Gets or sets the custom rendered. |
+| date_time | string | r/w | Gets or sets the date time. |
 | date_time_digitized | string | r/w | Gets or sets the date time digitized. |
 | date_time_original | string | r/w | Gets or sets the date time original. |
 | device_setting_description | System.Byte | r/w | Gets or sets device settings description |
@@ -209,7 +211,7 @@ Gets the maker notes.
 
 **See also:**
 
-**[Example # 1](#example_222)**: Access camera manufacturer maker notes in Jpeg image.
+**[Example # 1](#example_235)**: Access camera manufacturer maker notes in Jpeg image.
 
 
 ### Method: get_tag_value(key) {#get_tag_value_key_1}
@@ -302,7 +304,7 @@ Remove tag from container
 | tag_id | int | The tag identifier to remove. |
 
 ## **Examples**
-### Access camera manufacturer maker notes in Jpeg image. {#example_222}
+### Access camera manufacturer maker notes in Jpeg image. {#example_235}
 ``` python
 
 from aspose.pycore import as_of

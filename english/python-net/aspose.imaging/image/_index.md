@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5650
+weight: 5660
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -78,7 +78,7 @@ url: /python-net/aspose.imaging/image/
 | [load_stream(stream)](#load_stream_stream_36) | Loads a new image from the specified stream. |
 | [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_37) | Loads a new image from the specified stream. |
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_38) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_39) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_40) | Resizes the image. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_41) | Resizes the image. |
@@ -117,7 +117,7 @@ Gets a value indicating whether the image palette is used.
 
 **See also:**
 
-**[Example # 1](#example_221)**: Determine if the palette is used by the image.
+**[Example # 1](#example_234)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -1034,9 +1034,9 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 
 **See also:**
 
-**[Example # 1](#example_182)**: The following example shows how to resize a metafile (WMF and EMF).
+**[Example # 1](#example_193)**: The following example shows how to resize a metafile (WMF and EMF).
 
-**[Example # 2](#example_185)**: The following example shows how to resize SVG image and save it to PNG.
+**[Example # 2](#example_196)**: The following example shows how to resize SVG image and save it to PNG.
 
 
 ### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_40}
@@ -1059,7 +1059,7 @@ Resizes the image.
 
 **See also:**
 
-**[Example # 1](#example_209)**: Resize image using specific Resize Type.
+**[Example # 1](#example_221)**: Resize image using specific Resize Type.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_41}
@@ -1084,7 +1084,7 @@ Resizes the image.
 
 **[Example # 1](#example_28)**: This example loads an image and resizes it using various resizing settings.
 
-**[Example # 2](#example_209)**: Resize image using specific Resize Type.
+**[Example # 2](#example_221)**: Resize image using specific Resize Type.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_42}
@@ -1987,7 +1987,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### The following example shows how to resize a metafile (WMF and EMF). {#example_182}
+### The following example shows how to resize a metafile (WMF and EMF). {#example_193}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2007,7 +2007,7 @@ for file_name in file_names:
 
 ```
 
-### The following example shows how to resize SVG image and save it to PNG. {#example_185}
+### The following example shows how to resize SVG image and save it to PNG. {#example_196}
 ``` python
 
 from aspose.imaging import PointF, Image
@@ -2027,7 +2027,7 @@ for input_file in file_names:
 
 ```
 
-### Resize image using specific Resize Type. {#example_209}
+### Resize image using specific Resize Type. {#example_221}
 ``` python
 from aspose.imaging import Image, ResizeType, ImageResizeSettings, ImageFilterType
 
@@ -2045,7 +2045,7 @@ with Image.load("Photo.jpg") as image:
 
 ```
 
-### Determine if the palette is used by the image. {#example_221}
+### Determine if the palette is used by the image. {#example_234}
 ``` python
 
 from aspose.imaging import Image

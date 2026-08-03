@@ -33,7 +33,7 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 | has_transparent_color | System.Nullable`1[[System.Boolean]] | r/w | Gets or sets a value indicating whether a GIF image has transparent color. <br/>            If the return value is **None**, this property is overridden by the source image context. |
 | interlaced | bool | r/w | True if image should be interlaced. |
 | is_palette_sorted | bool | r/w | Gets or sets a value indicating whether palette entries are sorted. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | loops_count | int | r/w | Gets or sets the loops count (Default 1 loop) |
 | max_diff | int | r/w | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used.<br/>            Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy.<br/>            It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain.<br/>            The range of allowed values is [0, 1000]. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |

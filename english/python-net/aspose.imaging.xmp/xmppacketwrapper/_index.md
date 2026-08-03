@@ -1,7 +1,7 @@
 ---
 title: XmpPacketWrapper Class
 type: docs
-weight: 480
+weight: 470
 url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 ---
 
@@ -17,12 +17,14 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 | **Name** | **Description** |
 | :- | :- |
 | [XmpPacketWrapper()](#XmpPacketWrapper__1) | Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class. |
-| [XmpPacketWrapper(header, trailer, xmp_meta)](#XmpPacketWrapper_header_trailer_xmp_meta_2) | Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class. |
+| [XmpPacketWrapper(bytes)](#XmpPacketWrapper_bytes_2) | Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class. |
+| [XmpPacketWrapper(header, trailer, xmp_meta)](#XmpPacketWrapper_header_trailer_xmp_meta_3) | Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
+| bytes | System.Byte | r | Gets the original Xmp bytes. |
 | header_pi | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) | r | Gets the header processing instruction. |
-| meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) | r/w | Gets the XMP meta. Optional. |
+| meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) | r | Gets the XMP meta. Optional. |
 | packages | [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage/) | r | Gets array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |
 | packages_count | int | r | Gets amount of packages inside XMP structure. |
 | trailer_pi | [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi/) | r | Gets the trailer processing instruction. |
@@ -31,7 +33,7 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 | :- | :- |
 | [add_package(package)](#add_package_package_1) | Adds the package. |
 | clear_packages() | Removes all [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |
-| [contains_package(namespace_uri)](#contains_package_namespace_uri_2) | Determines whethere package is exist in xmp wrapper. |
+| [contains_package(namespace_uri)](#contains_package_namespace_uri_2) | Determines whether a _namespaceUri_ exists in the Xmp instance. |
 | [get_package(namespace_uri)](#get_package_namespace_uri_3) | Gets package by namespace URI. |
 | [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
 | [remove_package(package)](#remove_package_package_5) | Removes the XMP package. |
@@ -46,7 +48,22 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 
 Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class.
 
-### Constructor: XmpPacketWrapper(header, trailer, xmp_meta) {#XmpPacketWrapper_header_trailer_xmp_meta_2}
+### Constructor: XmpPacketWrapper(bytes) {#XmpPacketWrapper_bytes_2}
+
+
+```
+ XmpPacketWrapper(bytes) 
+```
+
+Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| bytes | System.Byte | The original Xmp metadata bytes. |
+
+### Constructor: XmpPacketWrapper(header, trailer, xmp_meta) {#XmpPacketWrapper_header_trailer_xmp_meta_3}
 
 
 ```
@@ -85,13 +102,13 @@ Adds the package.
  contains_package(namespace_uri) 
 ```
 
-Determines whethere package is exist in xmp wrapper.
+Determines whether a _namespaceUri_ exists in the Xmp instance.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| namespace_uri | string | Package schema uri. |
+| namespace_uri | string | The Xmp package schema uri. |
 
 **Returns**
 

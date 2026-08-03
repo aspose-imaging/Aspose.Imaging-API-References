@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.imageoptions/tgaoptions/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
@@ -51,7 +51,7 @@ Initializes a new instance of the [TgaOptions](/imaging/python-net/aspose.imagin
 
 **See also:**
 
-**[Example # 1](#example_215)**: Saving of the JPG image as a TGA image.
+**[Example # 1](#example_227)**: Saving of the JPG image as a TGA image.
 
 
 ### Constructor: TgaOptions(tga_options) {#TgaOptions_tga_options_2}
@@ -108,7 +108,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Saving of the JPG image as a TGA image. {#example_215}
+### Saving of the JPG image as a TGA image. {#example_227}
 ``` python
 
 from aspose.imaging import Image

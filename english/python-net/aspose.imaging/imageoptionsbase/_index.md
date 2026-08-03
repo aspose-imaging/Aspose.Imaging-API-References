@@ -1,7 +1,7 @@
 ---
 title: ImageOptionsBase Class
 type: docs
-weight: 5760
+weight: 5770
 url: /python-net/aspose.imaging/imageoptionsbase/
 ---
 
@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/imageoptionsbase/
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | [palette](#palette2) | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | [resolution_settings](#resolution_settings3) | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
@@ -40,7 +40,7 @@ Gets or sets the buffer size hint which is defined max allowed size for all inte
 
 **See also:**
 
-**[Example # 1](#example_180)**: The following example shows how to set a memory limit when creating a new JPE...
+**[Example # 1](#example_191)**: The following example shows how to set a memory limit when creating a new JPE...
 
 
 ### Property: palette {#palette2}
@@ -253,7 +253,7 @@ with Image.create(createOptions, 100, 100) as image:
 
 ```
 
-### The following example shows how to set a memory limit when creating a new JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_180}
+### The following example shows how to set a memory limit when creating a new JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers. {#example_191}
 ``` python
 from os.path import join
 from aspose.imaging import Image

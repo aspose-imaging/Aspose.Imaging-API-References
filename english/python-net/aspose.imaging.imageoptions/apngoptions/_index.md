@@ -30,7 +30,7 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | filter_type | [PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/) | r/w | Gets or sets the filter type used during png file save process. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| keep_metadata | bool | r/w | Gets a value whether to keep original image metadata on export. |
+| keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | [num_plays](#num_plays2) | int | r/w | Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
@@ -62,7 +62,7 @@ Gets or sets the default frame duration.
 
 **See also:**
 
-**[Example # 1](#example_198)**: The following example shows how to export apng APNG file format from other no...
+**[Example # 1](#example_209)**: The following example shows how to export apng APNG file format from other no...
 
 
 ### Property: num_plays {#num_plays2}
@@ -71,7 +71,7 @@ Gets or sets the number of times to loop animation.<br/>            0 indicates 
 
 **See also:**
 
-**[Example # 1](#example_197)**: The following example shows how to export to APNG file format.
+**[Example # 1](#example_208)**: The following example shows how to export to APNG file format.
 
 
 ### Method: clone() {#clone__1}
@@ -113,7 +113,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to export to APNG file format. {#example_197}
+### The following example shows how to export to APNG file format. {#example_208}
 ``` python
 
 import aspose.pycore as aspycore
@@ -132,7 +132,7 @@ with Image.load("Animation1.webp") as image:
 
 ```
 
-### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_198}
+### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_209}
 ``` python
 
 from aspose.imaging import Image

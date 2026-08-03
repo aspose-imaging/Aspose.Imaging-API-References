@@ -1,7 +1,7 @@
 ---
 title: IHasMetadata Class
 type: docs
-weight: 5270
+weight: 5280
 url: /python-net/aspose.imaging/ihasmetadata/
 ---
 

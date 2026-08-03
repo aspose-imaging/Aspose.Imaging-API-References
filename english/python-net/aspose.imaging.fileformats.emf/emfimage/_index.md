@@ -93,7 +93,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_41) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_42) | Removes the background. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_43) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_44) | Resizes the specified new width. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_45) | Resizes the image with extended options. |
@@ -1549,7 +1549,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_201}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1570,7 +1570,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a emz images to emf format {#example_191}
+### The following example shows how to convert a emz images to emf format {#example_202}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1591,7 +1591,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a emf images to emz format {#example_194}
+### The following example shows how to convert a emf images to emz format {#example_205}
 ``` python
 
 from os.path import join as path_combine

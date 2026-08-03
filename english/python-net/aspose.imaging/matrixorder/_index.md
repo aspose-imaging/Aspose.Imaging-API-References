@@ -1,7 +1,7 @@
 ---
 title: MatrixOrder Enumeration
 type: docs
-weight: 10840
+weight: 10850
 url: /python-net/aspose.imaging/matrixorder/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ColorPalette Class
 type: docs
-weight: 1190
+weight: 1200
 url: /python-net/aspose.imaging/colorpalette/
 ---
 

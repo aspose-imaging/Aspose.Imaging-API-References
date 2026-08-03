@@ -96,7 +96,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_43) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | remove_background() | Removes the background. |
 | [remove_background(settings)](#remove_background_settings_44) | Removes the background. |
-| remove_metadata() | Removes metadata. |
+| remove_metadata() | Removes the metadata from [Image.metadata](/imaging/python-net/aspose.imaging/image/) property. |
 | [resize(new_width, new_height)](#resize_new_width_new_height_45) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
 | [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_46) | Resizes the specified new width. |
 | [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_47) | Resizes the image with extended options. |
@@ -1136,6 +1136,12 @@ Resizes the specified new width.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Type of the resize. |
 
+
+**See also:**
+
+**[Example # 1](#example_184)**: This example loads a WMF image and resizes it using various resizing methods.
+
+
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_47}
 
 
@@ -1590,7 +1596,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_173}
+### This example shows how to load a WMF image from a file and convert it to SVG using WmfRasterizationOptions. {#example_183}
 ``` python
 
 from aspose.pycore import as_of, cast
@@ -1616,7 +1622,35 @@ with as_of(Image.load("test.wmf") as image:
 
 ```
 
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_190}
+### This example loads a WMF image and resizes it using various resizing methods. {#example_184}
+``` python
+
+import aspose.pycore as aspycore
+from os.path import join as path_join
+from aspose.imaging import Image, ResizeType
+from aspose.imaging.fileformats.wmf import WmfImage
+
+dir_: str = "c:\\temp"
+with aspycore.as_of(Image.load(path_join(dir_, "sample.wmf")), WmfImage) as image:
+	# Scale up by 2 times using Nearest Neighbor resampling.
+	image.resize(image.width * 2, image.height * 2, ResizeType.NEAREST_NEIGHBOUR_RESAMPLE)
+
+with aspycore.as_of(Image.load(path_join(dir_, "sample.wmf")), WmfImage) as image:
+	# Scale down by 2 times using Nearest Neighbour resampling.
+	image.resize(image.width // 2, image.height // 2, ResizeType.NEAREST_NEIGHBOUR_RESAMPLE)
+
+with aspycore.as_of(Image.load(path_join(dir_, "sample.wmf")), WmfImage) as image:
+	# Scale up by 2 times using Bilinear resampling.
+	image.resize(image.width * 2, image.height * 2, ResizeType.BILINEAR_RESAMPLE)
+
+with aspycore.as_of(Image.load(path_join(dir_, "sample.wmf")), WmfImage) as image:
+	# Scale down by 2 times using Bilinear resampling.
+	image.resize(image.width // 2, image.height // 2, ResizeType.BILINEAR_RESAMPLE)
+
+
+```
+
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_201}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1637,7 +1671,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a wmz images to wmf fromat {#example_192}
+### The following example shows how to convert a wmz images to wmf fromat {#example_203}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1658,7 +1692,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a wmf images to wmz format {#example_195}
+### The following example shows how to convert a wmf images to wmz format {#example_206}
 ``` python
 
 from os.path import join as path_combine

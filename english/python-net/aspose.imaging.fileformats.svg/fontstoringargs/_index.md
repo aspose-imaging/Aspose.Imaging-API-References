@@ -1,7 +1,7 @@
 ---
 title: FontStoringArgs Class
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.imaging.fileformats.svg/fontstoringargs/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Cache Class
 type: docs
-weight: 360
+weight: 370
 url: /python-net/aspose.imaging/cache/
 ---
 

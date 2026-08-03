@@ -1,7 +1,7 @@
 ---
 title: InterpolationMode Enumeration
 type: docs
-weight: 10710
+weight: 10720
 url: /python-net/aspose.imaging/interpolationmode/
 ---
 
