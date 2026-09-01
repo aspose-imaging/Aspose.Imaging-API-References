@@ -3,7 +3,7 @@ title: VectorImage.HeightF
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage property. Gets the object height in inches
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging/vectorimage/heightf/
 ---
 ## VectorImage.HeightF property

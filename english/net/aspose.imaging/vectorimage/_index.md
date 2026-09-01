@@ -46,6 +46,7 @@ public abstract class VectorImage : Image, IObjectWithSizeF
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.imaging/vectorimage/create/)(float, float, GraphicsUnit) | Creates a new instance of a vector image with the specified dimensions and graphics unit. |
 | abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata/)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer/). |
 | [CanSave](../../aspose.imaging/image/cansave/)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging/vectorimage/crop/#crop)(Rectangle) | Crops the specified rectangle. |

@@ -3,7 +3,7 @@ title: VectorImage.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage property. Gets the image width
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging/vectorimage/width/
 ---
 ## VectorImage.Width property

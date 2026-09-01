@@ -3,7 +3,7 @@ title: VectorImage.GetDefaultOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Gets the default image options
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/vectorimage/getdefaultoptions/
 ---
 ## VectorImage.GetDefaultOptions method

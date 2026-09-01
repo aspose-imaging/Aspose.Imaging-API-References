@@ -3,7 +3,7 @@ title: VectorImage.SizeF
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage property. Gets the object size in inches
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging/vectorimage/sizef/
 ---
 ## VectorImage.SizeF property

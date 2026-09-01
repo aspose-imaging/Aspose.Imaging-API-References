@@ -3,7 +3,7 @@ title: VectorImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage method. Crops the specified rectangle
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging/vectorimage/crop/
 ---
 ## VectorImage.Crop method

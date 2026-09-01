@@ -3,7 +3,7 @@ title: VectorImage.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: VectorImage property. Gets the image height
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.imaging/vectorimage/height/
 ---
 ## VectorImage.Height property
