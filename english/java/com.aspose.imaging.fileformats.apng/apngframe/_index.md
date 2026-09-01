@@ -27,6 +27,7 @@ Craft animated PNG (APNG) image frames from single-page raster images with our A
 | [setFrameTime(int value)](#setFrameTime-int-) | Sets the frame duration. |
 | [getFrameTop()](#getFrameTop--) | Gets the frame top offset. |
 | [getFrameLeft()](#getFrameLeft--) | Gets the frame left offset. |
+| [getFileFormat()](#getFileFormat--) |  |
 | [getDisposalMethod()](#getDisposalMethod--) | Gets the disposal method. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
 | [hasAlpha()](#hasAlpha--) | Get a value indicating whether this instance has alpha. |
@@ -113,6 +114,16 @@ Gets the frame left offset.
 
 **Returns:**
 int - the frame left offset.
+### getFileFormat() {#getFileFormat--}
+```
+public long getFileFormat()
+```
+
+
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+
+**Returns:**
+long
 ### getDisposalMethod() {#getDisposalMethod--}
 ```
 public final int getDisposalMethod()

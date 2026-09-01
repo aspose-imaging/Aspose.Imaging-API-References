@@ -32,6 +32,7 @@ The tiff frame.
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
+| [getFileFormat()](#getFileFormat--) |  |
 | [getFrameOptions()](#getFrameOptions--) | Gets the frame create options. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getWidth()](#getWidth--) | Gets the image width. |
@@ -264,6 +265,16 @@ Gets the image bits per pixel count.
 
 **Returns:**
 int - The image bits per pixel count.
+### getFileFormat() {#getFileFormat--}
+```
+public long getFileFormat()
+```
+
+
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+
+**Returns:**
+long
 ### getFrameOptions() {#getFrameOptions--}
 ```
 public TiffOptions getFrameOptions()

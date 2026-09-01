@@ -18,6 +18,7 @@ The class contains the x,y, and z coordinates of a specific color in a specified
 | Constructor | Description |
 | --- | --- |
 | [CieCoordinates(byte[] bytes)](#CieCoordinates-byte---) | Initializes a new instance of the `CieCoordinates` class. |
+| [CieCoordinates(byte[] bytes, int offset)](#CieCoordinates-byte---int-) | Initializes a new instance of the [CieCoordinates](../../com.aspose.imaging.fileformats.bmp.structures/ciecoordinates) class from a byte array. |
 ## Methods
 
 | Method | Description |
@@ -39,7 +40,21 @@ Initializes a new instance of the `CieCoordinates` class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bytes | byte[] | The array bytes. |
+| bytes | byte[] | The byte array containing the serialized CIE coordinates data. |
+
+### CieCoordinates(byte[] bytes, int offset) {#CieCoordinates-byte---int-}
+```
+public CieCoordinates(byte[] bytes, int offset)
+```
+
+
+Initializes a new instance of the [CieCoordinates](../../com.aspose.imaging.fileformats.bmp.structures/ciecoordinates) class from a byte array.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bytes | byte[] | The byte array containing the serialized CIE coordinates data. |
+| offset | int | The zero-based byte offset in `bytes` at which to begin reading the coordinates. The coordinates are expected to be stored as three consecutive 32-bit unsigned integers (x, y, z) in big-endian order, each representing a fixed-point (2.30) value. |
 
 ### getCieCoordinatesX() {#getCieCoordinatesX--}
 ```

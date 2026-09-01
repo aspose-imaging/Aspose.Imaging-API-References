@@ -30,6 +30,8 @@ The vector image is the base class for all type of vector images.
 | [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
+| [create(float width, float height)](#create-float-float-) | Creates a new instance of a vector image with the specified dimensions in pixels. |
+| [create(float width, float height, int graphicsUnit)](#create-float-float-int-) | Creates a new instance of a vector image with the specified dimensions and graphics unit. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default image options. |
 | [getEmbeddedImages()](#getEmbeddedImages--) | Gets the embedded images. |
 | [removeBackground()](#removeBackground--) | Removes the background. |
@@ -186,6 +188,39 @@ Gets the image height.
 
 **Returns:**
 int - the image height.
+### create(float width, float height) {#create-float-float-}
+```
+public static VectorImage create(float width, float height)
+```
+
+
+Creates a new instance of a vector image with the specified dimensions in pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | float | The width of the vector image, in pixels. Must be greater than or equal to 0. |
+| height | float | The height of the vector image, in pixels. Must be greater than or equal to 0. |
+
+**Returns:**
+[VectorImage](../../com.aspose.imaging/vectorimage) - A new [VectorImage](../../com.aspose.imaging/vectorimage) instance with the specified dimensions in pixels.
+### create(float width, float height, int graphicsUnit) {#create-float-float-int-}
+```
+public static VectorImage create(float width, float height, int graphicsUnit)
+```
+
+
+Creates a new instance of a vector image with the specified dimensions and graphics unit.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | float | The width of the vector image, in the specified graphics unit. Must be greater than or equal to 0. |
+| height | float | The height of the vector image, in the specified graphics unit. Must be greater than or equal to 0. |
+| graphicsUnit | int | The unit of measurement for the width and height. The default is [GraphicsUnit.Pixel](../../com.aspose.imaging/graphicsunit\#Pixel). |
+
+**Returns:**
+[VectorImage](../../com.aspose.imaging/vectorimage) - A new [VectorImage](../../com.aspose.imaging/vectorimage) instance with the specified dimensions and graphics unit.
 ### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
 ```
 public ImageOptionsBase getDefaultOptions(Object[] args)

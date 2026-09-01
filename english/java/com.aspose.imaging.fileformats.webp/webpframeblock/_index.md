@@ -27,6 +27,7 @@ Represents the webp blocks openers registry.
 | Method | Description |
 | --- | --- |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
+| [getFileFormat()](#getFileFormat--) |  |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
@@ -81,6 +82,16 @@ Gets the image bits per pixel count.
 
 **Returns:**
 int - The image bits per pixel count.
+### getFileFormat() {#getFileFormat--}
+```
+public long getFileFormat()
+```
+
+
+Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+
+**Returns:**
+long
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
