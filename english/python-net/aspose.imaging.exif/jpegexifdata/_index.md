@@ -162,12 +162,13 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_tag_value(key)](#get_tag_value_key_1) | Gets the tag value. |
-| [load_from_bytes(binary_data)](#load_from_bytes_binary_data_2) | Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array. |
-| [remove_tag(tag)](#remove_tag_tag_3) | Remove tag from container |
-| [remove_tag(tag_id)](#remove_tag_tag_id_4) | Remove tag from container |
-| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_5) | Remove tag from container |
-| [serialize_exif_data()](#serialize_exif_data__6) | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |
+| [clone()](#clone__1) | Creates a deep clone. |
+| [get_tag_value(key)](#get_tag_value_key_2) | Gets the tag value. |
+| [load_from_bytes(binary_data)](#load_from_bytes_binary_data_3) | Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array. |
+| [remove_tag(tag)](#remove_tag_tag_4) | Remove tag from container |
+| [remove_tag(tag_id)](#remove_tag_tag_id_5) | Remove tag from container |
+| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_6) | Remove tag from container |
+| [serialize_exif_data()](#serialize_exif_data__7) | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |
 
 
 ### Constructor: JpegExifData() {#JpegExifData__1}
@@ -226,7 +227,23 @@ Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | exifdata | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | Array of EXIF tags together with common and GPS tags. |
 
-### Method: get_tag_value(key) {#get_tag_value_key_1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Creates a deep clone.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) | Deep clone. |
+
+
+### Method: get_tag_value(key) {#get_tag_value_key_2}
 
 
 ```
@@ -248,7 +265,7 @@ Gets the tag value.
 | [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The TiffDataType |
 
 
-### Method: load_from_bytes(binary_data)  [static] {#load_from_bytes_binary_data_2}
+### Method: load_from_bytes(binary_data)  [static] {#load_from_bytes_binary_data_3}
 
 
 ```
@@ -270,7 +287,7 @@ Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif
 | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | The loaded ExifData instance. |
 
 
-### Method: remove_tag(tag) {#remove_tag_tag_3}
+### Method: remove_tag(tag) {#remove_tag_tag_4}
 
 
 ```
@@ -285,7 +302,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | The tag to remove |
 
-### Method: remove_tag(tag_id) {#remove_tag_tag_id_4}
+### Method: remove_tag(tag_id) {#remove_tag_tag_id_5}
 
 
 ```
@@ -300,7 +317,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_5}
+### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_6}
 
 
 ```
@@ -315,7 +332,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: serialize_exif_data() {#serialize_exif_data__6}
+### Method: serialize_exif_data() {#serialize_exif_data__7}
 
 
 ```

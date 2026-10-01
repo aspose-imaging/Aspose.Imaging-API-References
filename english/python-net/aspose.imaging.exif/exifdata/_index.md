@@ -142,11 +142,12 @@ url: /python-net/aspose.imaging.exif/exifdata/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_tag_value(key)](#get_tag_value_key_1) | Gets the tag value. |
-| [load_from_bytes(binary_data)](#load_from_bytes_binary_data_2) | Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array. |
-| [remove_tag(tag)](#remove_tag_tag_3) | Remove tag from container |
-| [remove_tag(tag_id)](#remove_tag_tag_id_4) | Remove tag from container |
-| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_5) | Remove tag from container |
+| [clone()](#clone__1) | Creates a deep clone. |
+| [get_tag_value(key)](#get_tag_value_key_2) | Gets the tag value. |
+| [load_from_bytes(binary_data)](#load_from_bytes_binary_data_3) | Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class by load it from the byte array. |
+| [remove_tag(tag)](#remove_tag_tag_4) | Remove tag from container |
+| [remove_tag(tag_id)](#remove_tag_tag_id_5) | Remove tag from container |
+| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_6) | Remove tag from container |
 
 
 ### Constructor: ExifData() {#ExifData__1}
@@ -214,7 +215,23 @@ Gets the maker notes.
 **[Example # 1](#example_235)**: Access camera manufacturer maker notes in Jpeg image.
 
 
-### Method: get_tag_value(key) {#get_tag_value_key_1}
+### Method: clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Creates a deep clone.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | Deep clone. |
+
+
+### Method: get_tag_value(key) {#get_tag_value_key_2}
 
 
 ```
@@ -236,7 +253,7 @@ Gets the tag value.
 | [TiffDataType](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The TiffDataType |
 
 
-### Method: load_from_bytes(binary_data)  [static] {#load_from_bytes_binary_data_2}
+### Method: load_from_bytes(binary_data)  [static] {#load_from_bytes_binary_data_3}
 
 
 ```
@@ -258,7 +275,7 @@ Creates a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif
 | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | The loaded ExifData instance. |
 
 
-### Method: remove_tag(tag) {#remove_tag_tag_3}
+### Method: remove_tag(tag) {#remove_tag_tag_4}
 
 
 ```
@@ -273,7 +290,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | The tag to remove |
 
-### Method: remove_tag(tag_id) {#remove_tag_tag_id_4}
+### Method: remove_tag(tag_id) {#remove_tag_tag_id_5}
 
 
 ```
@@ -288,7 +305,7 @@ Remove tag from container
 | :- | :- | :- |
 | tag_id | int | The tag identifier to remove. |
 
-### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_5}
+### Method: remove_tag_id(tag_id) {#remove_tag_id_tag_id_6}
 
 
 ```
