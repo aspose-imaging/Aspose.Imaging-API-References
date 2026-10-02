@@ -72,6 +72,7 @@ EXIF data container for jpeg files.
 | [setYCbCrSubSampling(int[] value)](#setYCbCrSubSampling-int---) | Gets or sets the sampling ratio of chrominance components in relation to the luminance component. |
 | [getYResolution()](#getYResolution--) | Gets or sets the y resolution. |
 | [setYResolution(TiffRational value)](#setYResolution-com.aspose.imaging.fileformats.tiff.TiffRational-) | Gets or sets the y resolution. |
+| [deepClone()](#deepClone--) | Creates a deep clone. |
 | [serializeExifData()](#serializeExifData--) | Serializes the EXIF data. |
 ### JpegExifData() {#JpegExifData--}
 ```
@@ -697,6 +698,16 @@ Value: The y resolution.
 | --- | --- | --- |
 | value | [TiffRational](../../com.aspose.imaging.fileformats.tiff/tiffrational) |  |
 
+### deepClone() {#deepClone--}
+```
+public JpegExifData deepClone()
+```
+
+
+Creates a deep clone.
+
+**Returns:**
+[JpegExifData](../../com.aspose.imaging.exif/jpegexifdata) - Deep clone.
 ### serializeExifData() {#serializeExifData--}
 ```
 public byte[] serializeExifData()

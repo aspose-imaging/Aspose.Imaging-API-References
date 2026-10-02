@@ -262,6 +262,7 @@ EXIF data container.
 | [setXResolution(int value)](#setXResolution-int-) | Sets the x resolution. |
 | [getYResolutionInt()](#getYResolutionInt--) | Gets the y resolution. |
 | [setYResolution(int value)](#setYResolution-int-) | Sets the y resolution. |
+| [deepClone()](#deepClone--) | Creates a deep clone. |
 | [removeTag(int tagId)](#removeTag-int-) | Remove tag from container |
 | [getTagValue(int key)](#getTagValue-int-) | Gets the tag value. |
 
@@ -3442,6 +3443,16 @@ Value: The y resolution.
 | --- | --- | --- |
 | value | int | the y resolution. |
 
+### deepClone() {#deepClone--}
+```
+public ExifData deepClone()
+```
+
+
+Creates a deep clone.
+
+**Returns:**
+[ExifData](../../com.aspose.imaging.exif/exifdata) - Deep clone.
 ### removeTag(int tagId) {#removeTag-int-}
 ```
 public void removeTag(int tagId)
