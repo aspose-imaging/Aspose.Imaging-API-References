@@ -39,7 +39,7 @@ public sealed class TiffFrame : RasterCachedImage
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
-| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets a value of file format |
+| override [FileFormat](../../aspose.imaging.fileformats.tiff/tiffframe/fileformat/) { get; } | Gets the file format. |
 | [FrameOptions](../../aspose.imaging.fileformats.tiff/tiffframe/frameoptions/) { get; } | Gets the frame create options. |
 | override [HasAlpha](../../aspose.imaging.fileformats.tiff/tiffframe/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |

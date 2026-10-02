@@ -11,7 +11,7 @@ url: /net/aspose.imaging.exif/exifdata/
 EXIF data container.
 
 ```csharp
-public class ExifData : TiffDataTypeController, IImageMetadataFormat
+public class ExifData : TiffDataTypeController, ICloneable, IImageMetadataFormat
 ```
 
 ## Constructors
@@ -148,6 +148,7 @@ public class ExifData : TiffDataTypeController, IImageMetadataFormat
 
 | Name | Description |
 | --- | --- |
+| [Clone](../../aspose.imaging.exif/exifdata/clone/)() | Creates a deep clone. |
 | [GetTagValue](../../aspose.imaging.exif/exifdata/gettagvalue/)(ExifProperties) | Gets the tag value. |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag)(ExifProperties) | Remove tag from container |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/#removetag_1)(ushort) | Remove tag from container |

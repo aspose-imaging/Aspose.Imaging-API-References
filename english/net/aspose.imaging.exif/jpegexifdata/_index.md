@@ -166,6 +166,7 @@ public sealed class JpegExifData : ExifData
 
 | Name | Description |
 | --- | --- |
+| [Clone](../../aspose.imaging.exif/jpegexifdata/clone/#clone_1)() | Creates a deep clone. (2 methods) |
 | [GetTagValue](../../aspose.imaging.exif/exifdata/gettagvalue/)(ExifProperties) | Gets the tag value. |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/)(ExifProperties) | Remove tag from container |
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag/)(ushort) | Remove tag from container |

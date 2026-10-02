@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.svg/asposesvgnode/
 The AsposeSvgNode
 
 ```csharp
-public class AsposeSvgNode : #=ztrLwDju58Scr_rwHbcbzfLWd79A1
+public class AsposeSvgNode : #=z6JLKDNyREMXOoyvJ9JkQn7__7VHO
 ```
 
 ## Constructors
