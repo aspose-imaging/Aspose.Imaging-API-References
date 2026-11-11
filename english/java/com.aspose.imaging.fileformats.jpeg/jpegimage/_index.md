@@ -51,12 +51,12 @@ Efficiently manipulate JPEG raster images with our API, offering support for var
 | [setRgbColorProfile(StreamSource value)](#setRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGB color profile for CMYK and YCCK JPEG images ensures accurate color conversion and representation. |
 | [getCmykColorProfile()](#getCmykColorProfile--) | The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. |
 | [setCmykColorProfile(StreamSource value)](#setCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile associated with CMYK and YCCK JPEG images ensures precise color conversion and fidelity. |
-| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
-| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
-| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
-| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. |
-| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
-| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. |
+| [getDestinationRgbColorProfile()](#getDestinationRgbColorProfile--) | Gets the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)) |
+| [setDestinationRgbColorProfile(StreamSource value)](#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-) | Sets the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)) |
+| [getDestinationCmykColorProfile()](#getDestinationCmykColorProfile--) | Gets the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) |
+| [setDestinationCmykColorProfile(StreamSource value)](#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-) | Sets the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) |
+| [getIgnoreEmbeddedColorProfile()](#getIgnoreEmbeddedColorProfile--) | Gets the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)). |
+| [setIgnoreEmbeddedColorProfile(boolean value)](#setIgnoreEmbeddedColorProfile-boolean-) | Sets the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)). |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the original image options of this [Image](../../com.aspose.imaging/image) instance. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Establishes the resolution for the specified [RasterImage](../../com.aspose.imaging/rasterimage), ensuring accurate scaling and printing capabilities. |
 
@@ -702,22 +702,22 @@ public StreamSource getDestinationRgbColorProfile()
 ```
 
 
-The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. When paired with the CMYKColorProfile, it ensures that the colors are rendered correctly and maintains consistency across different devices and applications. This combination is crucial for preserving the intended color representation and achieving high-quality image output.
+Gets the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource))
 
 **Returns:**
-[StreamSource](../../com.aspose.imaging.sources/streamsource)
+[StreamSource](../../com.aspose.imaging.sources/streamsource) - the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource))
 ### setDestinationRgbColorProfile(StreamSource value) {#setDestinationRgbColorProfile-com.aspose.imaging.sources.StreamSource-}
 ```
 public void setDestinationRgbColorProfile(StreamSource value)
 ```
 
 
-The RGBColorProfile is essential for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. When paired with the CMYKColorProfile, it ensures that the colors are rendered correctly and maintains consistency across different devices and applications. This combination is crucial for preserving the intended color representation and achieving high-quality image output.
+Sets the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource))
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
+| value | [StreamSource](../../com.aspose.imaging.sources/streamsource) | the `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)) |
 
 ### getDestinationCmykColorProfile() {#getDestinationCmykColorProfile--}
 ```
@@ -725,22 +725,22 @@ public StreamSource getDestinationCmykColorProfile()
 ```
 
 
-The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. It works in tandem with the RGBColorProfile to ensure correct color representation, maintaining consistency and quality across different devices and software. This synchronization is crucial for achieving accurate and reliable color rendering in the final saved images.
+Gets the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource))
 
 **Returns:**
-[StreamSource](../../com.aspose.imaging.sources/streamsource)
+[StreamSource](../../com.aspose.imaging.sources/streamsource) - the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource))
 ### setDestinationCmykColorProfile(StreamSource value) {#setDestinationCmykColorProfile-com.aspose.imaging.sources.StreamSource-}
 ```
 public void setDestinationCmykColorProfile(StreamSource value)
 ```
 
 
-The CMYK color profile is vital for the accurate color conversion of CMYK and YCCK JPEG images during the saving process. It works in tandem with the RGBColorProfile to ensure correct color representation, maintaining consistency and quality across different devices and software. This synchronization is crucial for achieving accurate and reliable color rendering in the final saved images.
+Sets the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource))
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
+| value | [StreamSource](../../com.aspose.imaging.sources/streamsource) | the `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) |
 
 ### getIgnoreEmbeddedColorProfile() {#getIgnoreEmbeddedColorProfile--}
 ```
@@ -748,22 +748,22 @@ public boolean getIgnoreEmbeddedColorProfile()
 ```
 
 
-Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
+Gets the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)).
 
 **Returns:**
-boolean
+boolean - the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)).
 ### setIgnoreEmbeddedColorProfile(boolean value) {#setIgnoreEmbeddedColorProfile-boolean-}
 ```
 public void setIgnoreEmbeddedColorProfile(boolean value)
 ```
 
 
-Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
+Sets the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | the value whether to ignore embedded `CmykColorProfile`(\#getCmykColorProfile.getCmykColorProfile/\#setCmykColorProfile(StreamSource).setCmykColorProfile(StreamSource)) or `RgbColorProfile`(\#getRgbColorProfile.getRgbColorProfile/\#setRgbColorProfile(StreamSource).setRgbColorProfile(StreamSource)). |
 
 ### getOriginalOptions() {#getOriginalOptions--}
 ```

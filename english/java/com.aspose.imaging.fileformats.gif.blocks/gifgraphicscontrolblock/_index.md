@@ -31,19 +31,19 @@ Gif graphics control block.
 
 | Method | Description |
 | --- | --- |
+| [createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod)](#createFlags-boolean-boolean-int-) | Creates the flags. |
 | [getDelayTime()](#getDelayTime--) | Gets or sets the frame delay time expressed in 1/100 seconds. |
 | [setDelayTime(int value)](#setDelayTime-int-) | Gets or sets the frame delay time expressed in 1/100 seconds. |
 | [getFlags()](#getFlags--) | Gets or sets the flags. |
 | [setFlags(byte value)](#setFlags-byte-) | Gets or sets the flags. |
 | [getTransparentColorIndex()](#getTransparentColorIndex--) | Gets or sets the transparent color index. |
 | [setTransparentColorIndex(byte value)](#setTransparentColorIndex-byte-) | Gets or sets the transparent color index. |
-| [getDisposalMethod()](#getDisposalMethod--) | Gets or sets the disposal method. |
-| [setDisposalMethod(int value)](#setDisposalMethod-int-) | Gets or sets the disposal method. |
+| [getDisposalMethod()](#getDisposalMethod--) | Gets or sets the disposal method ([DisposalMethod](../../com.aspose.imaging.fileformats.gif/disposalmethod)). |
+| [setDisposalMethod(int value)](#setDisposalMethod-int-) | Gets or sets the disposal method ([DisposalMethod](../../com.aspose.imaging.fileformats.gif/disposalmethod)). |
 | [getUserInputExpected()](#getUserInputExpected--) | Gets or sets a value indicating whether user input is expected. |
 | [setUserInputExpected(boolean value)](#setUserInputExpected-boolean-) | Gets or sets a value indicating whether user input is expected. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets or sets a value indicating whether graphics control block has transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets or sets a value indicating whether graphics control block has transparent color. |
-| [createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod)](#createFlags-boolean-boolean-int-) | Creates the flags. |
 ### GifGraphicsControlBlock() {#GifGraphicsControlBlock--}
 ```
 public GifGraphicsControlBlock()
@@ -108,6 +108,23 @@ public static final byte SUB_BLOCK_SIZE
 
 Gets the sub-block size.
 
+### createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod) {#createFlags-boolean-boolean-int-}
+```
+public static byte createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod)
+```
+
+
+Creates the flags.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hasTransparentColor | boolean | if set to `true` the `GifGraphicsControlBlock` has valid transparent color index. |
+| requiresUserInput | boolean | if set to `true` the user input is expected. |
+| disposalMethod | int | The disposal method. |
+
+**Returns:**
+byte - The generated flags.
 ### getDelayTime() {#getDelayTime--}
 ```
 public int getDelayTime()
@@ -191,26 +208,22 @@ public int getDisposalMethod()
 ```
 
 
-Gets or sets the disposal method.
-
-Value: The disposal method.
+Gets or sets the disposal method ([DisposalMethod](../../com.aspose.imaging.fileformats.gif/disposalmethod)).
 
 **Returns:**
-int
+int - The disposal method.
 ### setDisposalMethod(int value) {#setDisposalMethod-int-}
 ```
 public void setDisposalMethod(int value)
 ```
 
 
-Gets or sets the disposal method.
-
-Value: The disposal method.
+Gets or sets the disposal method ([DisposalMethod](../../com.aspose.imaging.fileformats.gif/disposalmethod)).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The disposal method. |
 
 ### getUserInputExpected() {#getUserInputExpected--}
 ```
@@ -266,20 +279,3 @@ Value: `true` if graphics control block has transparent color; otherwise, `false
 | --- | --- | --- |
 | value | boolean |  |
 
-### createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod) {#createFlags-boolean-boolean-int-}
-```
-public static byte createFlags(boolean hasTransparentColor, boolean requiresUserInput, int disposalMethod)
-```
-
-
-Creates the flags.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| hasTransparentColor | boolean | if set to `true` the `GifGraphicsControlBlock` has valid transparent color index. |
-| requiresUserInput | boolean | if set to `true` the user input is expected. |
-| disposalMethod | int | The disposal method. |
-
-**Returns:**
-byte - The generated flags.

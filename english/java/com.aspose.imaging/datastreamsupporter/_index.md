@@ -125,7 +125,7 @@ Saves the object's data to the current `DataStreamSupporter`.
 
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
-public void save(OutputStream stream)
+public final void save(OutputStream stream)
 ```
 
 
@@ -138,7 +138,7 @@ Saves the object's data to the specified stream.
 
 ### save(RandomAccessFile file) {#save-java.io.RandomAccessFile-}
 ```
-public void save(RandomAccessFile file)
+public final void save(RandomAccessFile file)
 ```
 
 

@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.apng/apngimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext)
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), com.aspose.internal.interfaces.IInterlaced, com.aspose.internal.imageoptions.interfaces.IHasAnimationLoopCount, com.aspose.internal.interfaces.IAnimatedImage
 ```
-public final class ApngImage extends RasterCachedMultipageImage implements IMultipageImageExt
+public final class ApngImage extends RasterCachedMultipageImage implements IMultipageImageExt, IInterlaced, IHasAnimationLoopCount, IAnimatedImage
 ```
 
 The API for Animated PNG (Animated Portable Network Graphics) image file format is a versatile solution for developers looking to integrate animated content into their applications. This API offers extensive control over frame settings, allowing users to define frame-specific parameters, including loop duration and PNG file settings. With this feature-rich tool, you can effortlessly manage and optimize the display of APNG images, import and export images, enhancing the dynamic and interactive aspects of your applications.
@@ -28,11 +28,12 @@ The API for Animated PNG (Animated Portable Network Graphics) image file format 
 | [getFileFormat()](#getFileFormat--) | Quickly access information about the file format with this convenient property. |
 | [getPageCount()](#getPageCount--) | Retrieve the total number of pages in your image file effortlessly with this property. |
 | [getPages()](#getPages--) | Effortlessly access the pages of your image with this convenient property. |
-| [getNumPlays()](#getNumPlays--) | Effortlessly control the number of times your animation loops with this versatile property. |
-| [setNumPlays(int value)](#setNumPlays-int-) | Effortlessly control the number of times your animation loops with this versatile property. |
+| [getLoopCount()](#getLoopCount--) | Gets the animation loop count. |
+| [setLoopCount(int value)](#setLoopCount-int-) | Sets the animation loop count. |
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Easily adjust the default frame duration for creating new frames with this flexible property. |
 | [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Easily adjust the default frame duration for creating new frames with this flexible property. |
-| [getInterlaced()](#getInterlaced--) | Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. |
+| [isInterlaced()](#isInterlaced--) | Get the value indicating whether image is interlaced. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getOriginalOptions()](#getOriginalOptions--) | Retrieve options based on the original file settings effortlessly with this intuitive method. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
 | [getModifyDate(boolean useDefault)](#getModifyDate-boolean-) | Gets the java.util.Date value the image was last modified. |
@@ -134,32 +135,28 @@ Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[]
-### getNumPlays() {#getNumPlays--}
+### getLoopCount() {#getLoopCount--}
 ```
-public int getNumPlays()
+public int getLoopCount()
 ```
 
 
-Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0.
-
-Value: The number of times to loop.
+Gets the animation loop count. Negative or 0 values result infinite looping.
 
 **Returns:**
-int
-### setNumPlays(int value) {#setNumPlays-int-}
+int - the animation loop count.
+### setLoopCount(int value) {#setLoopCount-int-}
 ```
-public void setNumPlays(int value)
+public void setLoopCount(int value)
 ```
 
 
-Effortlessly control the number of times your animation loops with this versatile property. Perfect for developers seeking precise control over animation behavior, with support for infinite looping in case of the value equals to 0.
-
-Value: The number of times to loop.
+Sets the animation loop count. Negative or 0 values result infinite looping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | the animation loop count. |
 
 ### getDefaultFrameTime() {#getDefaultFrameTime--}
 ```
@@ -188,18 +185,26 @@ Value: The default frame duration, in milliseconds.
 | --- | --- | --- |
 | value | long |  |
 
-### getInterlaced() {#getInterlaced--}
+### isInterlaced() {#isInterlaced--}
 ```
-public boolean getInterlaced()
+public boolean isInterlaced()
 ```
 
 
-Quickly determine whether this [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) object is interlaced with this convenient property. Ideal for developers needing to check the interlacing status of PNG images easily.
-
-Value: `true` if interlaced; otherwise, `false`.
+Get the value indicating whether image is interlaced.
 
 **Returns:**
-boolean
+boolean - the value indicating whether image is interlaced.
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getOriginalOptions() {#getOriginalOptions--}
 ```
 public ImageOptionsBase getOriginalOptions()

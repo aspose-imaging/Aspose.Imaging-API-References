@@ -17,10 +17,10 @@ Color palette adjustment class
 
 | Method | Description |
 | --- | --- |
-| [getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod, int colorCompareMethod)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-int-) | Gets the close image palette. |
-### getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod, int colorCompareMethod) {#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-int-}
+| [getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-) | Gets the close image palette. |
+### getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod) {#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-}
 ```
-public static IColorPalette getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod, int colorCompareMethod)
+public static IColorPalette getCloseImagePalette(RasterImage image, int entriesCount, int colorQuantizationMethod)
 ```
 
 
@@ -32,7 +32,6 @@ Gets the close image palette.
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | The image. |
 | entriesCount | int | The entries count. |
 | colorQuantizationMethod | int | The color quantization method. |
-| colorCompareMethod | int | The color compare method. |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - Optimized for image palette

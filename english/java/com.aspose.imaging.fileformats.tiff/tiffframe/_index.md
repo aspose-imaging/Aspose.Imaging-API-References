@@ -28,12 +28,16 @@ The tiff frame.
 
 | Method | Description |
 | --- | --- |
+| [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Copies the entire frame (duplicates). |
+| [createFrameFrom(TiffFrame tiffFrame, TiffOptions options)](#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) | Creates the frame from specified `tiffFrame` using the specified `options`. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFileFormat()](#getFileFormat--) |  |
 | [getFrameOptions()](#getFrameOptions--) | Gets the frame create options. |
+| [getPalette()](#getPalette--) | Gets the color palette. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution, in pixels per inch, of this `RasterImage`. |
@@ -45,8 +49,6 @@ The tiff frame.
 | [removeMetadata()](#removeMetadata--) |  |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 | [alignResolutions()](#alignResolutions--) | Helper method to make horizontal and vertical resolutions equal. |
-| [copyFrame(TiffFrame tiffFrame)](#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Copies the entire frame (duplicates). |
-| [createFrameFrom(TiffFrame tiffFrame, TiffOptions options)](#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-) | Creates the frame from specified `tiffFrame` using the specified `options`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
@@ -195,6 +197,96 @@ Initializes a new instance of the `TiffFrame` class.
 | width | int | The width. |
 | height | int | The height. |
 
+### copyFrame(TiffFrame tiffFrame) {#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
+```
+public static TiffFrame copyFrame(TiffFrame tiffFrame)
+```
+
+
+Copies the entire frame (duplicates).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The tiff frame to copy. |
+
+**Returns:**
+[TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly copied tiff frame.
+### createFrameFrom(TiffFrame tiffFrame, TiffOptions options) {#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-}
+```
+public static TiffFrame createFrameFrom(TiffFrame tiffFrame, TiffOptions options)
+```
+
+
+Creates the frame from specified `tiffFrame` using the specified `options`. The pixel data is preserved but converted to the desired format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The tiff frame to create from. |
+| options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | The new options to use. |
+
+**Returns:**
+[TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly created frame.
+
+**Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
+
+``` java
+String dir = "c:\\temp\\";
+
+com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
+        = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
+
+// Create a permanent, not temporary file source.
+createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
+createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
+createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
+
+com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.create(createTiffOptions, 100, 100);
+try {
+    // The linear gradient from the left-top to the right-bottom corner of the image.
+    com.aspose.imaging.brushes.LinearGradientBrush brush =
+            new com.aspose.imaging.brushes.LinearGradientBrush(
+                    new com.aspose.imaging.Point(0, 0),
+                    new com.aspose.imaging.Point(tiffImage.getWidth(), tiffImage.getHeight()),
+                    com.aspose.imaging.Color.getRed(),
+                    com.aspose.imaging.Color.getGreen());
+
+    // Fill the active frame with a linear gradient brush.
+    com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(tiffImage.getActiveFrame());
+    gr.fillRectangle(brush, tiffImage.getBounds());
+
+    // Grayscale options
+    com.aspose.imaging.imageoptions.TiffOptions createTiffFrameOptions
+            = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
+    createTiffFrameOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[0])));
+    createTiffFrameOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.MinIsBlack);
+    createTiffFrameOptions.setBitsPerSample(new int[]{8});
+
+    // Create a grayscale copy of the active frame.
+    // The pixel data is preserved but converted to the desired format.
+    com.aspose.imaging.fileformats.tiff.TiffFrame grayscaleFrame
+            = com.aspose.imaging.fileformats.tiff.TiffFrame.createFrameFrom(tiffImage.getActiveFrame(), createTiffFrameOptions);
+
+    // Add the newly created frame to the TIFF image.
+    tiffImage.addFrame(grayscaleFrame);
+
+    tiffImage.save();
+} finally {
+    tiffImage.dispose();
+}
+```
+
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Color getBackgroundColor()
@@ -272,7 +364,7 @@ public long getFileFormat()
 ```
 
 
-Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+Gets the file format.
 
 **Returns:**
 long
@@ -286,6 +378,16 @@ Gets the frame create options.
 
 **Returns:**
 [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions)
+### getPalette() {#getPalette--}
+```
+public IColorPalette getPalette()
+```
+
+
+Gets the color palette. It can also be accessed via `TiffOptions.Palette`([ImageOptionsBase.getPalette](../../com.aspose.imaging/imageoptionsbase\#getPalette)/[ImageOptionsBase.setPalette(IColorPalette)](../../com.aspose.imaging/imageoptionsbase\#setPalette-IColorPalette-)).
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - the color palette.
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()
@@ -558,86 +660,6 @@ public void alignResolutions()
 
 
 Helper method to make horizontal and vertical resolutions equal.
-
-### copyFrame(TiffFrame tiffFrame) {#copyFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
-```
-public static TiffFrame copyFrame(TiffFrame tiffFrame)
-```
-
-
-Copies the entire frame (duplicates).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The tiff frame to copy. |
-
-**Returns:**
-[TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly copied tiff frame.
-### createFrameFrom(TiffFrame tiffFrame, TiffOptions options) {#createFrameFrom-com.aspose.imaging.fileformats.tiff.TiffFrame-com.aspose.imaging.imageoptions.TiffOptions-}
-```
-public static TiffFrame createFrameFrom(TiffFrame tiffFrame, TiffOptions options)
-```
-
-
-Creates the frame from specified `tiffFrame` using the specified `options`. The pixel data is preserved but converted to the desired format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tiffFrame | [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) | The tiff frame to create from. |
-| options | [TiffOptions](../../com.aspose.imaging.imageoptions/tiffoptions) | The new options to use. |
-
-**Returns:**
-[TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly created frame.
-
-**Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
-
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.imageoptions.TiffOptions createTiffOptions
-        = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
-
-// Create a permanent, not temporary file source.
-createTiffOptions.setSource(new com.aspose.imaging.sources.FileCreateSource(dir + "multipage.tif", false));
-createTiffOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.Rgb);
-createTiffOptions.setBitsPerSample(new int[]{8, 8, 8});
-
-com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.create(createTiffOptions, 100, 100);
-try {
-    // The linear gradient from the left-top to the right-bottom corner of the image.
-    com.aspose.imaging.brushes.LinearGradientBrush brush =
-            new com.aspose.imaging.brushes.LinearGradientBrush(
-                    new com.aspose.imaging.Point(0, 0),
-                    new com.aspose.imaging.Point(tiffImage.getWidth(), tiffImage.getHeight()),
-                    com.aspose.imaging.Color.getRed(),
-                    com.aspose.imaging.Color.getGreen());
-
-    // Fill the active frame with a linear gradient brush.
-    com.aspose.imaging.Graphics gr = new com.aspose.imaging.Graphics(tiffImage.getActiveFrame());
-    gr.fillRectangle(brush, tiffImage.getBounds());
-
-    // Grayscale options
-    com.aspose.imaging.imageoptions.TiffOptions createTiffFrameOptions
-            = new com.aspose.imaging.imageoptions.TiffOptions(com.aspose.imaging.fileformats.tiff.enums.TiffExpectedFormat.Default);
-    createTiffFrameOptions.setSource(new com.aspose.imaging.sources.StreamSource(new java.io.ByteArrayInputStream(new byte[0])));
-    createTiffFrameOptions.setPhotometric(com.aspose.imaging.fileformats.tiff.enums.TiffPhotometrics.MinIsBlack);
-    createTiffFrameOptions.setBitsPerSample(new int[]{8});
-
-    // Create a grayscale copy of the active frame.
-    // The pixel data is preserved but converted to the desired format.
-    com.aspose.imaging.fileformats.tiff.TiffFrame grayscaleFrame
-            = com.aspose.imaging.fileformats.tiff.TiffFrame.createFrameFrom(tiffImage.getActiveFrame(), createTiffFrameOptions);
-
-    // Add the newly created frame to the TIFF image.
-    tiffImage.addFrame(grayscaleFrame);
-
-    tiffImage.save();
-} finally {
-    tiffImage.dispose();
-}
-```
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```

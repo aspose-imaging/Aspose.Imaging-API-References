@@ -10,7 +10,7 @@ url: /java/com.aspose.imaging.fileformats.png/pngimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
 
 **All Implemented Interfaces:**
-com.aspose.fileformats.core.interfaces.IInterlaced
+com.aspose.internal.interfaces.IInterlaced
 ```
 public class PngImage extends RasterCachedImage implements IInterlaced
 ```
@@ -32,8 +32,9 @@ Manipulate Portable Network Graphics (PNG) raster images with our versatile API,
 
 | Method | Description |
 | --- | --- |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Retrieve the bits per pixel value for the image. |
-| [getHeight()](#getHeight--) | Obtain the height of the image in pixels. |
+| [getHeight()](#getHeight--) | Obtain the height of the image. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Retrieve or modify the horizontal resolution of the image. |
 | [setHorizontalResolution(double value)](#setHorizontalResolution-double-) | Retrieve or modify the horizontal resolution of the image. |
 | [getFileFormat()](#getFileFormat--) | Retrieves the format of the file associated with the image instance. |
@@ -50,7 +51,6 @@ Manipulate Portable Network Graphics (PNG) raster images with our versatile API,
 | [getBackgroundColor()](#getBackgroundColor--) | Retrieves the background color of the image, if one is specified. |
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Retrieves a boolean value indicating whether the image has a background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Retrieves the background color of the image, if one is specified. |
-| [getInterlaced()](#getInterlaced--) | Retrieves a boolean value indicating whether the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission. |
 | [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
@@ -184,6 +184,16 @@ Initialize a new instance of the [PngImage](../../com.aspose.imaging.fileformats
 | width | int | The width. |
 | height | int | The height. |
 
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -200,7 +210,7 @@ public int getHeight()
 ```
 
 
-Obtain the height of the image in pixels. This property returns the vertical dimension of the image, allowing developers to determine its size in pixels along the vertical axis.
+Obtain the height of the image. This property returns the vertical dimension of the image, allowing developers to determine its size in pixels along the vertical axis.
 
 **Returns:**
 int
@@ -686,16 +696,6 @@ try {
 }
 ```
 
-### getInterlaced() {#getInterlaced--}
-```
-public boolean getInterlaced()
-```
-
-
-Retrieves a boolean value indicating whether the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission.
-
-**Returns:**
-boolean - `true` if interlaced; otherwise, `false`.
 ### isInterlaced() {#isInterlaced--}
 ```
 public final boolean isInterlaced()

@@ -97,6 +97,7 @@ is_root: true
 | [com.aspose.imaging.imageloadoptions](./com.aspose.imaging.imageloadoptions) | The package contains different file format load options. |
 | [com.aspose.imaging.imageoptions](./com.aspose.imaging.imageoptions) | The package contains classes suitable for export, save or creation of different file formats. |
 | [com.aspose.imaging.interfaces](./com.aspose.imaging.interfaces) | The package contains the Aspose.Imaging interfaces |
+| [com.aspose.imaging.lut.cubelut](./com.aspose.imaging.lut.cubelut) | The namespace Cube lut processing. |
 | [com.aspose.imaging.magicwand](./com.aspose.imaging.magicwand) | The package handles MagicWand processing. |
 | [com.aspose.imaging.magicwand.imagemasks](./com.aspose.imaging.magicwand.imagemasks) | The package handles image masks processing. |
 | [com.aspose.imaging.masking](./com.aspose.imaging.masking) | The package handles ImageMasking processing. |

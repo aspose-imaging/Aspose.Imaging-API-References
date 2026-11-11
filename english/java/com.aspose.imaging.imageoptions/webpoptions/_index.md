@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.imageoptions/webpoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.imageoptions.interfaces.IHasAnimationLoopCount
 ```
-public class WebPOptions extends ImageOptionsBase
+public class WebPOptions extends ImageOptionsBase implements IHasAnimationLoopCount
 ```
 
 Create modern WebP raster web images using our API, featuring robust support for lossless and lossy compression, as well as alpha channels and animation loops. Enhance your web content with dynamic visuals while optimizing file sizes for improved loading speeds and user experience.
@@ -26,8 +29,8 @@ Create modern WebP raster web images using our API, featuring robust support for
 | [setLossless(boolean value)](#setLossless-boolean-) | Gets or sets a value indicating whether this `WebPOptions` is lossless. |
 | [getQuality()](#getQuality--) | Gets or sets the quality. |
 | [setQuality(float value)](#setQuality-float-) | Gets or sets the quality. |
-| [getAnimLoopCount()](#getAnimLoopCount--) | Gets or sets the animation loop count. |
-| [setAnimLoopCount(int value)](#setAnimLoopCount-int-) | Gets or sets the animation loop count. |
+| [getLoopCount()](#getLoopCount--) | Gets the animation loop count. |
+| [setLoopCount(int value)](#setLoopCount-int-) | Sets the animation loop count. |
 | [getAnimBackgroundColor()](#getAnimBackgroundColor--) | Gets or sets the color of the animation background. |
 | [setAnimBackgroundColor(long value)](#setAnimBackgroundColor-long-) | Gets or sets the color of the animation background. |
 
@@ -115,28 +118,28 @@ Gets or sets the quality.
 | --- | --- | --- |
 | value | float | The quality. |
 
-### getAnimLoopCount() {#getAnimLoopCount--}
+### getLoopCount() {#getLoopCount--}
 ```
-public int getAnimLoopCount()
+public final int getLoopCount()
 ```
 
 
-Gets or sets the animation loop count.
+Gets the animation loop count. Default is 0 (infinite looping).
 
 **Returns:**
-int - The animation loop count, 0 - infinity.
-### setAnimLoopCount(int value) {#setAnimLoopCount-int-}
+int - the animation loop count.
+### setLoopCount(int value) {#setLoopCount-int-}
 ```
-public void setAnimLoopCount(int value)
+public final void setLoopCount(int value)
 ```
 
 
-Gets or sets the animation loop count.
+Sets the animation loop count. Default is 0 (infinite looping).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The animation loop count, 0 - infinity. |
+| value | int | the animation loop count. |
 
 ### getAnimBackgroundColor() {#getAnimBackgroundColor--}
 ```

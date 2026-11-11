@@ -33,7 +33,7 @@ Represents a raster image supporting raster graphics operations.
 | [getRawFallbackIndex()](#getRawFallbackIndex--) | Gets or sets the fallback index to use when palette index is out of bounds |
 | [setRawFallbackIndex(int value)](#setRawFallbackIndex-int-) | Gets or sets the fallback index to use when palette index is out of bounds |
 | [getRawDataSettings()](#getRawDataSettings--) |  |
-| [isUsePalette()](#isUsePalette--) | Gets a value indicating whether the image palette is used. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image uses palette. |
 | [getRawDataFormat()](#getRawDataFormat--) | Gets the raw data format. |
 | [getRawLineSize()](#getRawLineSize--) | Gets the raw line size in bytes. |
 | [isRawDataAvailable()](#isRawDataAvailable--) | Gets a value indicating whether raw data loading is available. |
@@ -114,6 +114,12 @@ Represents a raster image supporting raster graphics operations.
 | [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replaceNonTransparentColors(Color newColor)](#replaceNonTransparentColors-com.aspose.imaging.Color-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
 | [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
+| [applyCubeLut(String fileName, Rectangle bounds)](#applyCubeLut-java.lang.String-com.aspose.imaging.Rectangle-) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image. |
+| [applyCubeLut(String fileName)](#applyCubeLut-java.lang.String-) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image. |
+| [applyCubeLut(InputStream stream)](#applyCubeLut-java.io.InputStream-) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image. |
+| [applyCubeLut(InputStream stream, Rectangle bounds)](#applyCubeLut-java.io.InputStream-com.aspose.imaging.Rectangle-) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image. |
+| [applyCubeLut(CubeLut cubeLut, Rectangle bounds)](#applyCubeLut-com.aspose.imaging.lut.cubelut.CubeLut-com.aspose.imaging.Rectangle-) | Applies the specified 3D cube lookup table (LUT) to the pixels within the specified bounds of the image. |
+| [applyCubeLut(CubeLut cubeLut)](#applyCubeLut-com.aspose.imaging.lut.cubelut.CubeLut-) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
 
 ## Example: This example shows how to load pixel information in an array of colors, manipulates the array and set it back to the image.
 
@@ -349,18 +355,16 @@ Gets the current raw data settings. Note when using these settings the data load
 
 **Returns:**
 [RawDataSettings](../../com.aspose.imaging/rawdatasettings)
-### isUsePalette() {#isUsePalette--}
+### isIndexed() {#isIndexed--}
 ```
-public boolean isUsePalette()
+public boolean isIndexed()
 ```
 
 
-Gets a value indicating whether the image palette is used.
-
-Value: `true` if the palette is used in the image; otherwise, `false`.
+Gets a value indicating whether the image uses palette.
 
 **Returns:**
-boolean - a value indicating whether the image palette is used.
+boolean - a value indicating whether the image uses palette.
 ### getRawDataFormat() {#getRawDataFormat--}
 ```
 public PixelDataFormat getRawDataFormat()
@@ -2407,4 +2411,109 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newColorArgb | int | New color ARGB value to replace non-transparent colors with. |
+
+### applyCubeLut(String fileName, Rectangle bounds) {#applyCubeLut-java.lang.String-com.aspose.imaging.Rectangle-}
+```
+public final void applyCubeLut(String fileName, Rectangle bounds)
+```
+
+
+Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The path to the `.cube` file containing the lookup table. |
+| bounds | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangular region of the image to which the lookup table is applied. Pixels outside this region are not modified.
+
+--------------------
+
+The LUT file is opened for reading and the resulting stream is disposed automatically after the operation has completed. |
+
+### applyCubeLut(String fileName) {#applyCubeLut-java.lang.String-}
+```
+public final void applyCubeLut(String fileName)
+```
+
+
+Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The path to the `.cube` file containing the lookup table.
+
+--------------------
+
+The lookup table is applied to `Bounds`([Image.getBounds](../../com.aspose.imaging/image\#getBounds)), causing all pixels within the image bounds to be processed. |
+
+### applyCubeLut(InputStream stream) {#applyCubeLut-java.io.InputStream-}
+```
+public final void applyCubeLut(InputStream stream)
+```
+
+
+Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream containing the `.cube` lookup table data.
+
+--------------------
+
+The lookup table is applied to `Bounds`([Image.getBounds](../../com.aspose.imaging/image\#getBounds)), causing all pixels within the image bounds to be processed. The stream is used to load the lookup table and is not explicitly disposed by this method. |
+
+### applyCubeLut(InputStream stream, Rectangle bounds) {#applyCubeLut-java.io.InputStream-com.aspose.imaging.Rectangle-}
+```
+public final void applyCubeLut(InputStream stream, Rectangle bounds)
+```
+
+
+Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The stream containing the `.cube` lookup table data. |
+| bounds | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangular region of the image to which the lookup table is applied. Pixels outside this region are not modified.
+
+--------------------
+
+The lookup table is parsed from the supplied stream by [CubeLut.load(InputStream)](../../com.aspose.imaging.lut.cubelut/cubelut\#load-InputStream-) and then applied to the specified image region. The stream is not explicitly disposed by this method. |
+
+### applyCubeLut(CubeLut cubeLut, Rectangle bounds) {#applyCubeLut-com.aspose.imaging.lut.cubelut.CubeLut-com.aspose.imaging.Rectangle-}
+```
+public void applyCubeLut(CubeLut cubeLut, Rectangle bounds)
+```
+
+
+Applies the specified 3D cube lookup table (LUT) to the pixels within the specified bounds of the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cubeLut | [CubeLut](../../com.aspose.imaging.lut.cubelut/cubelut) | The [CubeLut](../../com.aspose.imaging.lut.cubelut/cubelut) instance containing the color transformation to apply to the image pixels. |
+| bounds | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangular region of the image to which the lookup table is applied. Pixels outside this region are not modified.
+
+--------------------
+
+Image pixels within the specified region are loaded in ARGB32 format and transformed in place using the LUT processor. The transformed pixels are then written back to the corresponding image region. |
+
+### applyCubeLut(CubeLut cubeLut) {#applyCubeLut-com.aspose.imaging.lut.cubelut.CubeLut-}
+```
+public final void applyCubeLut(CubeLut cubeLut)
+```
+
+
+Applies the specified 3D cube lookup table (LUT) to the entire image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cubeLut | [CubeLut](../../com.aspose.imaging.lut.cubelut/cubelut) | The [CubeLut](../../com.aspose.imaging.lut.cubelut/cubelut) instance containing the color transformation to apply to the image pixels.
+
+--------------------
+
+The lookup table is applied to `Bounds`([Image.getBounds](../../com.aspose.imaging/image\#getBounds)), causing all pixels within the image bounds to be processed. |
 

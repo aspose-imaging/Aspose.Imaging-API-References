@@ -43,6 +43,7 @@ You can effortlessly handle Bitmap (BMP) and Device Independent Bitmap (DIB) fil
 | [getVerticalResolution()](#getVerticalResolution--) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Easily retrieve or set the vertical resolution, measured in pixels per inch, of this [RasterImage](../../com.aspose.imaging/rasterimage) object with this property. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Adjust the resolution of your [RasterImage](../../com.aspose.imaging/rasterimage) effortlessly with this user-friendly method. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Retrieve the default options effortlessly with this straightforward method. |
 
@@ -968,6 +969,16 @@ Gets a value indicating whether this instance has alpha.
 
 **Returns:**
 boolean - a value indicating whether this instance has alpha.
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### setResolution(double dpiX, double dpiY) {#setResolution-double-double-}
 ```
 public void setResolution(double dpiX, double dpiY)

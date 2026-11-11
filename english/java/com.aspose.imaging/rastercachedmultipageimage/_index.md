@@ -20,6 +20,7 @@ The raster multipage image
 
 | Method | Description |
 | --- | --- |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
@@ -94,6 +95,16 @@ try(com.aspose.imaging.fileformats.tiff.TiffImage tiffImage = (com.aspose.imagin
 }
 ```
 
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getHeight() {#getHeight--}
 ```
 public int getHeight()

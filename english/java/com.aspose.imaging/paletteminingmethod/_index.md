@@ -17,9 +17,12 @@ The image palette mining method
 
 | Field | Description |
 | --- | --- |
-| [UseCurrentPalette](#UseCurrentPalette) | Use exisiting palette of the image |
+| [UseCurrentPalette](#UseCurrentPalette) | Use existing palette of the image |
 | [ColorClustering](#ColorClustering) | The color clustering method |
 | [Histogram](#Histogram) | The histogram method |
+| [Uniform](#Uniform) | Uniform 256 bit palette. |
+| [Downscale](#Downscale) | Downscaled 256 bit palette. |
+| [Popularity](#Popularity) | Popularity. |
 
 ## Example: The following example shows how to compress a PNG image, using indexed color with best fit palette
 
@@ -52,7 +55,7 @@ public static final int UseCurrentPalette
 ```
 
 
-Use exisiting palette of the image
+Use existing palette of the image
 
 ### ColorClustering {#ColorClustering}
 ```
@@ -69,4 +72,28 @@ public static final int Histogram
 
 
 The histogram method
+
+### Uniform {#Uniform}
+```
+public static final int Uniform
+```
+
+
+Uniform 256 bit palette.
+
+### Downscale {#Downscale}
+```
+public static final int Downscale
+```
+
+
+Downscaled 256 bit palette.
+
+### Popularity {#Popularity}
+```
+public static final int Popularity
+```
+
+
+Popularity.
 

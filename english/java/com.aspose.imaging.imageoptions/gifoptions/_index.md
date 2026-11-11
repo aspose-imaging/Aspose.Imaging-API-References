@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.imageoptions/gifoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.imageoptions.interfaces.IHasAnimationLoopCount, com.aspose.internal.interfaces.IInterlaced
 ```
-public class GifOptions extends ImageOptionsBase
+public class GifOptions extends ImageOptionsBase implements IHasAnimationLoopCount, IInterlaced
 ```
 
 The API for Graphical Interchange Format (GIF) raster image file creation offers developers comprehensive options for generating GIF images with precise control. With features to set background color, color palette, resolution, interlaced type, transparent color, XMP metadata container, and image compression, this API ensures flexibility and efficiency in creating optimized and visually appealing GIFs tailored to specific application requirements.
@@ -23,12 +26,10 @@ The API for Graphical Interchange Format (GIF) raster image file creation offers
 
 | Method | Description |
 | --- | --- |
-| [getDoPaletteCorrection()](#getDoPaletteCorrection--) | Gets or sets a value indicating whether palette correction is applied. |
-| [setDoPaletteCorrection(boolean value)](#setDoPaletteCorrection-boolean-) | Gets or sets a value indicating whether palette correction is applied. |
-| [getLoopsCount()](#getLoopsCount--) | Gets the loops count (Default 1 loop) |
-| [setLoopsCount(int value)](#setLoopsCount-int-) | Sets the loops count (Default 1 loop) |
-| [getColorResolution()](#getColorResolution--) | Gets or sets the GIF color resolution. |
-| [setColorResolution(byte value)](#setColorResolution-byte-) | Gets or sets the GIF color resolution. |
+| [getLoopCount()](#getLoopCount--) | Gets the animation loop count. |
+| [setLoopCount(int value)](#setLoopCount-int-) | Sets the animation loop count. |
+| [getColorResolution()](#getColorResolution--) | Gets the GIF color resolution. |
+| [setColorResolution(byte value)](#setColorResolution-byte-) | Sets the GIF color resolution. |
 | [isPaletteSorted()](#isPaletteSorted--) | Gets or sets a value indicating whether palette entries are sorted. |
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Gets or sets a value indicating whether palette entries are sorted. |
 | [getPixelAspectRatio()](#getPixelAspectRatio--) | Gets or sets the GIF pixel aspect ratio. |
@@ -37,14 +38,17 @@ The API for Graphical Interchange Format (GIF) raster image file creation offers
 | [setBackgroundColorIndex(byte value)](#setBackgroundColorIndex-byte-) | Gets or sets the GIF background color index. |
 | [hasTrailer()](#hasTrailer--) | Gets or sets a value indicating whether GIF has trailer. |
 | [setTrailer(boolean value)](#setTrailer-boolean-) | Gets or sets a value indicating whether GIF has trailer. |
-| [getInterlaced()](#getInterlaced--) | True if image should be interlaced. |
-| [setInterlaced(boolean value)](#setInterlaced-boolean-) | True if image should be interlaced. |
-| [getMaxDiff()](#getMaxDiff--) | Gets or sets the maximum allowed pixel difference. |
-| [setMaxDiff(int value)](#setMaxDiff-int-) | Gets or sets the maximum allowed pixel difference. |
+| [isInterlaced()](#isInterlaced--) | Gets a value whether to interlace image. |
+| [setInterlaced(boolean value)](#setInterlaced-boolean-) | Sets a value whether to interlace image. |
+| [getMaxDiff()](#getMaxDiff--) | Gets the maximum allowed pixel difference. |
+| [setMaxDiff(int value)](#setMaxDiff-int-) | Sets the maximum allowed pixel difference. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets the background color. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether a GIF image has transparent color. |
 | [setTransparentColor(Boolean value)](#setTransparentColor-java.lang.Boolean-) | Sets a value indicating whether a GIF image has transparent color. |
+| [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | Sets the color palette. |
+| [getAlphaThreshold()](#getAlphaThreshold--) | Gets the alpha threshold. |
+| [setAlphaThreshold(byte value)](#setAlphaThreshold-byte-) | Sets the alpha threshold. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
@@ -124,148 +128,51 @@ Initializes a new instance of the `GifOptions` class.
 | --- | --- | --- |
 | gifOptions | [GifOptions](../../com.aspose.imaging.imageoptions/gifoptions) | The GIF Options. |
 
-### getDoPaletteCorrection() {#getDoPaletteCorrection--}
+### getLoopCount() {#getLoopCount--}
 ```
-public boolean getDoPaletteCorrection()
+public final int getLoopCount()
 ```
 
 
-Gets or sets a value indicating whether palette correction is applied.
+Gets the animation loop count. Default is 1, 0 for infinite looping.
 
 **Returns:**
-boolean - `true` if palette correction is applied; otherwise, `false`.
-
-Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analysis process takes some time however the output image will have the best matching color palette and result is visually better.
-### setDoPaletteCorrection(boolean value) {#setDoPaletteCorrection-boolean-}
+int - the animation loop count.
+### setLoopCount(int value) {#setLoopCount-int-}
 ```
-public void setDoPaletteCorrection(boolean value)
+public final void setLoopCount(int value)
 ```
 
 
-Gets or sets a value indicating whether palette correction is applied.
+Sets the animation loop count. Default is 1, 0 for infinite looping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | `true` if palette correction is applied; otherwise, `false`.
-
-Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analysis process takes some time however the output image will have the best matching color palette and result is visually better. |
-
-
-**Example: This example shows how to save a BMP image to GIF format using various options.**
-
-``` java
-String dir = "c:\\temp\\";
-
-com.aspose.imaging.Image bmpImage = new com.aspose.imaging.fileformats.bmp.BmpImage(1000, 1000);
-try {
-    // Fill the entire image with the blue-yellow gradient.
-    com.aspose.imaging.brushes.LinearGradientBrush gradientBrush = new com.aspose.imaging.brushes.LinearGradientBrush(
-            new com.aspose.imaging.Point(0, 0),
-            new com.aspose.imaging.Point(bmpImage.getWidth(), bmpImage.getHeight()),
-            com.aspose.imaging.Color.getBlue(),
-            com.aspose.imaging.Color.getYellow());
-
-    com.aspose.imaging.Graphics graphics = new com.aspose.imaging.Graphics(bmpImage);
-    graphics.fillRectangle(gradientBrush, bmpImage.getBounds());
-
-    com.aspose.imaging.imageoptions.GifOptions saveOptions = new com.aspose.imaging.imageoptions.GifOptions();
-
-    // The number of bits required to store a color, minus 1.
-    saveOptions.setColorResolution((byte) 7);
-
-    // Palette correction means that whenever image is exported to GIF the source image colors will be analyzed
-    // in order to build the best matching palette (in case image Palette does not exist or not specified in the options)
-    saveOptions.setDoPaletteCorrection(true);
-
-    // Load a GIF image in a progressive way.
-    // An interlaced GIF doesn't display its scanlines linearly from top to bottom, but instead reorders it
-    // so the content of the GIF becomes clear even before it finishes loading.
-    saveOptions.setInterlaced(true);
-
-    // Save as a lossless GIF.
-    java.io.FileOutputStream stream = new java.io.FileOutputStream(dir + "output.gif");
-    try {
-        bmpImage.save(stream, saveOptions);
-        System.out.printf("The size of the lossless GIF: %s bytes.\r\n", stream.getChannel().size());
-    } finally {
-        stream.close();
-    }
-
-    // Set the maximum allowed pixel difference. If greater than zero, lossy compression will be used.
-    // The recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy.
-    saveOptions.setMaxDiff(80);
-
-    // Save as a lossy GIF.
-    stream = new java.io.FileOutputStream(dir + "output.lossy.gif");
-    try {
-        bmpImage.save(stream, saveOptions);
-        System.out.printf("The size of the lossy GIF: %s bytes.\r\n", stream.getChannel().size());
-    } finally {
-        stream.close();
-    }
-} finally {
-    bmpImage.close();
-}
-
-//The output may look like this:
-//The size of the lossless GIF: 212816 bytes.
-//The size of the lossy GIF: 89726 bytes.
-```
-
-### getLoopsCount() {#getLoopsCount--}
-```
-public final int getLoopsCount()
-```
-
-
-Gets the loops count (Default 1 loop)
-
-Value: The loops count.
-
-**Returns:**
-int - the loops count (Default 1 loop)
-### setLoopsCount(int value) {#setLoopsCount-int-}
-```
-public final void setLoopsCount(int value)
-```
-
-
-Sets the loops count (Default 1 loop)
-
-Value: The loops count.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | the loops count (Default 1 loop) |
+| value | int | the animation loop count. |
 
 ### getColorResolution() {#getColorResolution--}
 ```
-public byte getColorResolution()
+public final byte getColorResolution()
 ```
 
 
-Gets or sets the GIF color resolution.
+Gets the GIF color resolution. Allowed range: 1-7.
 
 **Returns:**
-byte - The color resolution.
-
-Color Resolution - Number of bits per primary color available to the original image, minus 1. This value represents the size of the entire palette from which the colors in the graphic were selected, not the number of colors actually used in the graphic. For example, if the value in this field is 3, then the palette of the original image had 4 bits per primary color available to create the image. This value should be set to indicate the richness of the original palette, even if not every color from the whole palette is available on the source machine.
+byte - the GIF color resolution.
 ### setColorResolution(byte value) {#setColorResolution-byte-}
 ```
-public void setColorResolution(byte value)
+public final void setColorResolution(byte value)
 ```
 
 
-Gets or sets the GIF color resolution.
+Sets the GIF color resolution. Allowed range: 1-7.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte | The color resolution.
-
-Color Resolution - Number of bits per primary color available to the original image, minus 1. This value represents the size of the entire palette from which the colors in the graphic were selected, not the number of colors actually used in the graphic. For example, if the value in this field is 3, then the palette of the original image had 4 bits per primary color available to create the image. This value should be set to indicate the richness of the original palette, even if not every color from the whole palette is available on the source machine. |
+| value | byte | the GIF color resolution. |
 
 
 **Example: This example shows how to save a BMP image to GIF format using various options.**
@@ -425,28 +332,28 @@ Gets or sets a value indicating whether GIF has trailer.
 | --- | --- | --- |
 | value | boolean | `true` if GIF has trailer; otherwise, `false`. |
 
-### getInterlaced() {#getInterlaced--}
+### isInterlaced() {#isInterlaced--}
 ```
-public boolean getInterlaced()
+public final boolean isInterlaced()
 ```
 
 
-True if image should be interlaced.
+Gets a value whether to interlace image.
 
 **Returns:**
-boolean
+boolean - a value whether to interlace image.
 ### setInterlaced(boolean value) {#setInterlaced-boolean-}
 ```
-public void setInterlaced(boolean value)
+public final void setInterlaced(boolean value)
 ```
 
 
-True if image should be interlaced.
+Sets a value whether to interlace image.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | a value whether to interlace image. |
 
 
 **Example: This example shows how to save a BMP image to GIF format using various options.**
@@ -512,26 +419,26 @@ try {
 
 ### getMaxDiff() {#getMaxDiff--}
 ```
-public int getMaxDiff()
+public final int getMaxDiff()
 ```
 
 
-Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000].
+Gets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. The allowed range of is [0, 1000]. Optimal value is below 200.
 
 **Returns:**
-int - The range of allowed values.
+int - the maximum allowed pixel difference.
 ### setMaxDiff(int value) {#setMaxDiff-int-}
 ```
-public void setMaxDiff(int value)
+public final void setMaxDiff(int value)
 ```
 
 
-Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000].
+Sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. The allowed range of is [0, 1000]. Optimal value is below 200.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The range of allowed values. |
+| value | int | the maximum allowed pixel difference. |
 
 
 **Example: This example shows how to save a BMP image to GIF format using various options.**
@@ -640,4 +547,40 @@ Sets a value indicating whether a GIF image has transparent color. If the return
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.Boolean | a value indicating whether a GIF image has transparent color. |
+
+### setPalette(IColorPalette value) {#setPalette-com.aspose.imaging.IColorPalette-}
+```
+public void setPalette(IColorPalette value)
+```
+
+
+Sets the color palette. Maximum palette length is 256. `ColorResolution`(\#getColorResolution.getColorResolution/\#setColorResolution(byte).setColorResolution(byte)) will be overwritten when less than Ceiling(Log2(paletteLength)).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IColorPalette](../../com.aspose.imaging/icolorpalette) | the color palette. |
+
+### getAlphaThreshold() {#getAlphaThreshold--}
+```
+public final byte getAlphaThreshold()
+```
+
+
+Gets the alpha threshold.
+
+**Returns:**
+byte - the alpha threshold.
+### setAlphaThreshold(byte value) {#setAlphaThreshold-byte-}
+```
+public final void setAlphaThreshold(byte value)
+```
+
+
+Sets the alpha threshold.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte | the alpha threshold. |
 

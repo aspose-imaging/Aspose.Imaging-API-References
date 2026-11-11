@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.gif/gifblock/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.fileformats.gif.IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock)
+[com.aspose.imaging.fileformats.gif.IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock), java.lang.Cloneable
 ```
-public abstract class GifBlock implements IGifBlock
+public abstract class GifBlock implements IGifBlock, Cloneable
 ```
 
 The default gif block implementation.
@@ -33,6 +33,7 @@ The default gif block implementation.
 | [isChanged()](#isChanged--) | Gets or sets a value indicating whether block has changed and requires save. |
 | [setChanged(boolean value)](#setChanged-boolean-) | Gets or sets a value indicating whether block has changed and requires save. |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves the block to the specified stream. |
+| [clone()](#clone--) |  |
 ### GifBlock() {#GifBlock--}
 ```
 public GifBlock()
@@ -87,3 +88,13 @@ Saves the block to the specified stream.
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream to save data to. |
 
+### clone() {#clone--}
+```
+public GifBlock clone()
+```
+
+
+
+
+**Returns:**
+[GifBlock](../../com.aspose.imaging.fileformats.gif/gifblock)

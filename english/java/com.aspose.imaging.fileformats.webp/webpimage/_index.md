@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.webp/webpimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer)
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), [com.aspose.imaging.IMetadataContainer](../../com.aspose.imaging/imetadatacontainer), com.aspose.internal.interfaces.IAnimatedImage
 ```
-public final class WebPImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer
+public final class WebPImage extends RasterCachedMultipageImage implements IMultipageImageExt, IMetadataContainer, IAnimatedImage
 ```
 
 Manipulate WebP raster images with our API, using its modern features for both lossless and lossy compression, ensuring optimal image quality with reduced file sizes. Seamlessly handle extended file formats, animations, and alpha channels, while easily updating dimensions, resizing proportionally, cropping, rotating, applying filters, adjusting image parameters, and converting to other image formats for versatile web image optimization.
@@ -32,7 +32,7 @@ Manipulate WebP raster images with our API, using its modern features for both l
 
 | Method | Description |
 | --- | --- |
-| [getOptions()](#getOptions--) | Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. |
+| [getOptions()](#getOptions--) | Gets the [WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) of this [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage). |
 | [getPages()](#getPages--) | Access the WebP blocks within the image, allowing detailed examination or manipulation of the underlying block structure. |
 | [getPageCount()](#getPageCount--) | Retrieve the total count of pages within the specified document, facilitating efficient navigation and management of multipage content. |
 | [getFileFormat()](#getFileFormat--) | Access the file format value associated with the image, providing information about the format in which the image is stored. |
@@ -196,10 +196,10 @@ public WebPOptions getOptions()
 ```
 
 
-Retrieve or modify the options associated with the specified property, enabling fine-tuned customization of behavior and settings. Utilize this property to seamlessly access and manipulate configurable parameters, facilitating versatile control and optimization within your application's functionality.
+Gets the [WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) of this [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage).
 
 **Returns:**
-[WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) - the options.
+[WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) - the [WebPOptions](../../com.aspose.imaging.imageoptions/webpoptions) of this [WebPImage](../../com.aspose.imaging.fileformats.webp/webpimage).
 ### getPages() {#getPages--}
 ```
 public Image[] getPages()

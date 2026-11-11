@@ -237,7 +237,7 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | --- | --- | --- |
 | image | [RasterImage](../../com.aspose.imaging/rasterimage) | The raster image. |
 | entriesCount | int | The desired entries count. |
-| paletteMiningMethod | int | The palette mining method. |
+| paletteMiningMethod | int | The palette mining method ([PaletteMiningMethod](../../com.aspose.imaging/paletteminingmethod)). |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.

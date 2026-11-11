@@ -10,9 +10,9 @@ url: /java/com.aspose.imaging.fileformats.gif.blocks/gifframeblock/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.fileformats.gif.IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock), [com.aspose.imaging.IAnimationFrame](../../com.aspose.imaging/ianimationframe), com.aspose.fileformats.core.interfaces.IInterlaced
+[com.aspose.imaging.fileformats.gif.IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock), com.aspose.internal.animation.IExtendedAnimationFrame, com.aspose.internal.interfaces.IInterlaced
 ```
-public final class GifFrameBlock extends RasterCachedImage implements IGifBlock, IAnimationFrame, IInterlaced
+public final class GifFrameBlock extends RasterCachedImage implements IGifBlock, IExtendedAnimationFrame, IInterlaced
 ```
 
 Gif frame block.
@@ -22,17 +22,17 @@ Gif frame block.
 | --- | --- |
 | [GifFrameBlock(int width, int height)](#GifFrameBlock-int-int-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(int left, int top, int width, int height)](#GifFrameBlock-int-int-int-int-) | Initializes a new instance of the `GifFrameBlock` class. |
-| [GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte bitsPerPixel)](#GifFrameBlock-int-int-int-int-com.aspose.imaging.IColorPalette-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
+| [GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)](#GifFrameBlock-int-int-int-int-com.aspose.imaging.IColorPalette-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(RasterImage image)](#GifFrameBlock-com.aspose.imaging.RasterImage-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(RasterImage image, int left, int top)](#GifFrameBlock-com.aspose.imaging.RasterImage-int-int-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(RasterImage image, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize)](#GifFrameBlock-com.aspose.imaging.RasterImage-int-int-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(InputStream stream)](#GifFrameBlock-java.io.InputStream-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(System.IO.Stream stream)](#GifFrameBlock-com.aspose.ms.System.IO.Stream-) |  |
 | [GifFrameBlock(InputStream stream, int left, int top)](#GifFrameBlock-java.io.InputStream-int-int-) | Initializes a new instance of the `GifFrameBlock` class. |
-| [GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize)](#GifFrameBlock-java.io.InputStream-int-int-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
+| [GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)](#GifFrameBlock-java.io.InputStream-int-int-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(String path)](#GifFrameBlock-java.lang.String-) | Initializes a new instance of the `GifFrameBlock` class. |
 | [GifFrameBlock(String path, int left, int top)](#GifFrameBlock-java.lang.String-int-int-) | Initializes a new instance of the `GifFrameBlock` class. |
-| [GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize)](#GifFrameBlock-java.lang.String-int-int-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
+| [GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)](#GifFrameBlock-java.lang.String-int-int-boolean-boolean-byte-) | Initializes a new instance of the `GifFrameBlock` class. |
 ## Fields
 
 | Field | Description |
@@ -43,21 +43,18 @@ Gif frame block.
 
 | Method | Description |
 | --- | --- |
-| [getColorPalette(IColorPalette framePalette, IColorPalette containerPalette)](#getColorPalette-com.aspose.imaging.IColorPalette-com.aspose.imaging.IColorPalette-) | Gets the associated color palette. |
 | [createFlags(IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced)](#createFlags-com.aspose.imaging.IColorPalette-boolean-boolean-) | Creates the flags. |
+| [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFrameTime()](#getFrameTime--) | Gets the duration. |
 | [setFrameTime(int value)](#setFrameTime-int-) | Sets the duration. |
-| [getInterlaced()](#getInterlaced--) | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
-| [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
+| [isInterlaced()](#isInterlaced--) |  |
 | [setInterlaced(boolean value)](#setInterlaced-boolean-) | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
 | [isPaletteSorted()](#isPaletteSorted--) | Gets or sets a value indicating whether color palette is sorted. |
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Gets or sets a value indicating whether color palette is sorted. |
-| [getGifFrameBitsPerPixel()](#getGifFrameBitsPerPixel--) | Gets or sets the GIF frame bits per pixel. |
-| [setGifFrameBitsPerPixel(byte value)](#setGifFrameBitsPerPixel-byte-) | Gets or sets the GIF frame bits per pixel. |
 | [getLeft()](#getLeft--) | Gets or sets the left image location. |
 | [setLeft(int value)](#setLeft-int-) | Gets or sets the left image location. |
 | [getTop()](#getTop--) | Gets or sets the top image location. |
@@ -73,10 +70,11 @@ Gif frame block.
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color of frame block. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether frame block has transparent color. |
 | [setTransparentColor(Color value)](#setTransparentColor-com.aspose.imaging.Color-) | Gets the transparent color of frame block. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
+| [getPalette()](#getPalette--) | Gets the image palette. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a value for the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Sets a value for the background color. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
-| [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a brightness for image. |
 | [replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)](#replaceColor-int-byte-int-) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
 | [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
@@ -111,9 +109,9 @@ Initializes a new instance of the `GifFrameBlock` class.
 | width | int | The image width. |
 | height | int | The image height. |
 
-### GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte bitsPerPixel) {#GifFrameBlock-int-int-int-int-com.aspose.imaging.IColorPalette-boolean-boolean-byte-}
+### GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel) {#GifFrameBlock-int-int-int-int-com.aspose.imaging.IColorPalette-boolean-boolean-byte-}
 ```
-public GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte bitsPerPixel)
+public GifFrameBlock(int left, int top, int width, int height, IColorPalette colorPalette, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)
 ```
 
 
@@ -128,8 +126,8 @@ Initializes a new instance of the `GifFrameBlock` class.
 | height | int | The image Height. |
 | colorPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The color palette. |
 | isPaletteSorted | boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
-| bitsPerPixel | byte | The bits per pixel. |
+| isInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | byte | The bits per pixel in 1-8 range. |
 
 ### GifFrameBlock(RasterImage image) {#GifFrameBlock-com.aspose.imaging.RasterImage-}
 ```
@@ -216,9 +214,9 @@ Initializes a new instance of the `GifFrameBlock` class.
 | left | int | The left image position. |
 | top | int | The top image position. |
 
-### GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize) {#GifFrameBlock-java.io.InputStream-int-int-boolean-boolean-byte-}
+### GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel) {#GifFrameBlock-java.io.InputStream-int-int-boolean-boolean-byte-}
 ```
-public GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize)
+public GifFrameBlock(InputStream stream, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)
 ```
 
 
@@ -231,8 +229,8 @@ Initializes a new instance of the `GifFrameBlock` class.
 | left | int | The left image position. |
 | top | int | The top image position. |
 | isPaletteSorted | boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
-| lzwCodeSize | byte | The bits per pixel. |
+| isInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | byte | The bits per pixel in 1-8 range. |
 
 ### GifFrameBlock(String path) {#GifFrameBlock-java.lang.String-}
 ```
@@ -262,9 +260,9 @@ Initializes a new instance of the `GifFrameBlock` class.
 | left | int | The left image position. |
 | top | int | The top image position. |
 
-### GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize) {#GifFrameBlock-java.lang.String-int-int-boolean-boolean-byte-}
+### GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel) {#GifFrameBlock-java.lang.String-int-int-boolean-boolean-byte-}
 ```
-public GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isGifFrameInterlaced, byte lzwCodeSize)
+public GifFrameBlock(String path, int left, int top, boolean isPaletteSorted, boolean isInterlaced, byte bitsPerPixel)
 ```
 
 
@@ -277,8 +275,8 @@ Initializes a new instance of the `GifFrameBlock` class.
 | left | int | The left image position. |
 | top | int | The top image position. |
 | isPaletteSorted | boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
-| lzwCodeSize | byte | The bits per pixel. |
+| isInterlaced | boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | byte | The bits per pixel in 1-8 range. |
 
 ### EXTENSION_LABEL {#EXTENSION-LABEL}
 ```
@@ -296,22 +294,6 @@ public static final int IMAGE_DESCRIPTOR_SIZE
 
 The image descriptor size.
 
-### getColorPalette(IColorPalette framePalette, IColorPalette containerPalette) {#getColorPalette-com.aspose.imaging.IColorPalette-com.aspose.imaging.IColorPalette-}
-```
-public static IColorPalette getColorPalette(IColorPalette framePalette, IColorPalette containerPalette)
-```
-
-
-Gets the associated color palette.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| framePalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The frame palette. |
-| containerPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The container palette. |
-
-**Returns:**
-[IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette.
 ### createFlags(IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced) {#createFlags-com.aspose.imaging.IColorPalette-boolean-boolean-}
 ```
 public static byte createFlags(IColorPalette colorPalette, boolean isPaletteSorted, boolean isGifFrameInterlaced)
@@ -329,6 +311,21 @@ Creates the flags.
 
 **Returns:**
 byte - The created flags.
+### rotate(float angle, boolean resizeProportionally, Color backgroundColor) {#rotate-float-boolean-com.aspose.imaging.Color-}
+```
+public void rotate(float angle, boolean resizeProportionally, Color backgroundColor)
+```
+
+
+Rotate image around the center.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+| resizeProportionally | boolean | if set to `true` you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
+| backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
+
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -396,16 +393,6 @@ Value: The duration, in milliseconds.
 | --- | --- | --- |
 | value | int | the duration. |
 
-### getInterlaced() {#getInterlaced--}
-```
-public boolean getInterlaced()
-```
-
-
-Gets or sets a value indicating whether this `GifFrameBlock` is interlaced.
-
-**Returns:**
-boolean - `true` if interlaced; otherwise, `false`.
 ### isInterlaced() {#isInterlaced--}
 ```
 public boolean isInterlaced()
@@ -414,10 +401,8 @@ public boolean isInterlaced()
 
 Gets a value indicating whether this image instance is interlaced.
 
-Value: `true` if this image instance is interlaced; otherwise, `false`.
-
 **Returns:**
-boolean - a value indicating whether this image instance is interlaced.
+boolean
 ### setInterlaced(boolean value) {#setInterlaced-boolean-}
 ```
 public void setInterlaced(boolean value)
@@ -453,29 +438,6 @@ Gets or sets a value indicating whether color palette is sorted.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | `true` if color palette is sorted; otherwise, `false`. |
-
-### getGifFrameBitsPerPixel() {#getGifFrameBitsPerPixel--}
-```
-public byte getGifFrameBitsPerPixel()
-```
-
-
-Gets or sets the GIF frame bits per pixel.
-
-**Returns:**
-byte - The GIF frame bits per pixel.
-### setGifFrameBitsPerPixel(byte value) {#setGifFrameBitsPerPixel-byte-}
-```
-public void setGifFrameBitsPerPixel(byte value)
-```
-
-
-Gets or sets the GIF frame bits per pixel.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte | The GIF frame bits per pixel. |
 
 ### getLeft() {#getLeft--}
 ```
@@ -648,6 +610,26 @@ Gets the transparent color of frame block.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) |  |
 
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
+### getPalette() {#getPalette--}
+```
+public IColorPalette getPalette()
+```
+
+
+Gets the image palette. GIF frame may have a global from `Image.Container`([Image.getContainer](../../com.aspose.imaging/image\#getContainer)) or local palette.
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - the image palette.
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public Color getBackgroundColor()
@@ -681,19 +663,6 @@ Gets the options based on the original file settings. This can be helpful to kee
 
 **Returns:**
 [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - The options based on the original file settings.
-### adjustBrightness(int brightness) {#adjustBrightness-int-}
-```
-public void adjustBrightness(int brightness)
-```
-
-
-Adjust of a brightness for image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| brightness | int | Brightness value. |
-
 ### replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb) {#replaceColor-int-byte-int-}
 ```
 public void replaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)

@@ -10,7 +10,7 @@ url: /java/com.aspose.imaging.fileformats.gif/gifimage/
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.DataStreamSupporter](../../com.aspose.imaging/datastreamsupporter), [com.aspose.imaging.Image](../../com.aspose.imaging/image), [com.aspose.imaging.RasterImage](../../com.aspose.imaging/rasterimage), [com.aspose.imaging.RasterCachedImage](../../com.aspose.imaging/rastercachedimage), [com.aspose.imaging.RasterCachedMultipageImage](../../com.aspose.imaging/rastercachedmultipageimage)
 
 **All Implemented Interfaces:**
-[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), com.aspose.fileformats.core.interfaces.IInterlaced
+[com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext), com.aspose.internal.interfaces.IInterlaced
 ```
 public final class GifImage extends RasterCachedMultipageImage implements IMultipageImageExt, IInterlaced
 ```
@@ -20,22 +20,25 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 
 | Constructor | Description |
 | --- | --- |
-| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) | Initiate a new [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) object with specified parameters for the first frame and global palette. |
-| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) | Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. |
+| [GifImage(GifFrameBlock firstFrame)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-) |  |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-) |  |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-) |  |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-) |  |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-) |  |
+| [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-) |  |
 | [GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer)](#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-) | Get started effortlessly with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getFileFormat()](#getFileFormat--) | Retrieve the file format effortlessly with this property. |
 | [hasTrailer()](#hasTrailer--) | Manage the presence of a trailer in your GIF files with this property. |
 | [setTrailer(boolean value)](#setTrailer-boolean-) | Manage the presence of a trailer in your GIF files with this property. |
 | [isPaletteSorted()](#isPaletteSorted--) | Control the sorting of the palette in your GIF images using this property. |
 | [setPaletteSorted(boolean value)](#setPaletteSorted-boolean-) | Control the sorting of the palette in your GIF images using this property. |
-| [getLoopsCount()](#getLoopsCount--) | Retrieve the loop count effortlessly with this property. |
-| [setLoopsCount(int value)](#setLoopsCount-int-) | Retrieve the loop count effortlessly with this property. |
-| [getPaletteColorResolutionBits()](#getPaletteColorResolutionBits--) | Manage the palette color resolution of your GIF images with this property. |
-| [setPaletteColorResolutionBits(byte value)](#setPaletteColorResolutionBits-byte-) | Manage the palette color resolution of your GIF images with this property. |
+| [getLoopCount()](#getLoopCount--) | Gets the animation loop count. |
+| [setLoopCount(int value)](#setLoopCount-int-) | Sets the animation loop count. |
 | [getPageCount()](#getPageCount--) | Retrieve the total number of pages contained within the image with this straightforward property. |
 | [getPages()](#getPages--) | Gain access to the pages within the image through this convenient property, allowing seamless navigation and manipulation of individual pages as needed. |
 | [getBlocks()](#getBlocks--) | Gain access to the GIF blocks seamlessly with this property, facilitating easy retrieval and manipulation of the image's underlying data structures. |
@@ -70,13 +73,13 @@ The API for Graphical Interchange Format (GIF) image file provides developers wi
 | [grayscale()](#grayscale--) | The transformation of an image to its grayscale representation converts the color image into a grayscale version by removing color information while preserving luminance. |
 | [binarizeFixed(byte threshold)](#binarizeFixed-byte-) | Binarization of an image with a predefined threshold converts a grayscale or color image into a binary image, where each pixel is classified as either black or white based on whether its intensity value exceeds a specified threshold. |
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding is a method used to automatically determine the optimal threshold value for converting a grayscale image into a binary image. |
-| [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm with integral image thresholding is a method for converting a grayscale image into a binary image. |
+| [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [orderBlocks()](#orderBlocks--) | Ordering the GIF blocks according to the GIF specification ensures proper GIF layout and compliance with the standard. |
 | [clearBlocks()](#clearBlocks--) | Clearing all the GIF blocks removes any existing data stored within the image. |
 | [insertBlock(int index, IGifBlock block)](#insertBlock-int-com.aspose.imaging.fileformats.gif.IGifBlock-) | Inserting a new GIF block allows you to add custom data at a specific position within the image. |
 | [addBlock(IGifBlock block)](#addBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Adding a new GIF block allows you to include additional data within the image. |
 | [removeBlock(IGifBlock block)](#removeBlock-com.aspose.imaging.fileformats.gif.IGifBlock-) | Removing a GIF block removes specific data from the image, offering the ability to clean up or modify the image structure. |
-| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Proportional resizing maintains the aspect ratio of the image while adjusting its size, ensuring that the image does not appear stretched or distorted. |
+| [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Resizes the GIF canvas and all frames to the specified size. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | This method rotates the image around its center point. |
 
 ## Example: This example shows how to create a GIF image and save it to a file.
@@ -165,32 +168,86 @@ try (Image image = Image.load("Animation.gif"))
 }
 ```
 
-### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-}
-```
-public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
-```
-
-
-Initiate a new [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) object with specified parameters for the first frame and global palette. Start managing GIF images swiftly, ensuring accurate representation with customizable settings for optimal results.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize GIF image with. |
-| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The global palette to use. Note if both `firstFrame` and `globalPalette` are null then default global palette is used. |
-
 ### GifImage(GifFrameBlock firstFrame) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-}
 ```
 public GifImage(GifFrameBlock firstFrame)
 ```
 
 
-Crafting GIF images becomes effortless with the [GifImage](../../com.aspose.imaging.fileformats.gif/gifimage) constructor. With just the firstFrame parameter, it enters a world of dynamic visual communication.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+
+### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-}
+```
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
+```
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) | The first frame to initialize GIF image with. |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
+
+### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-}
+```
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
+| isPaletteSorted | boolean |  |
+
+### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-}
+```
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
+| isPaletteSorted | boolean |  |
+| paletteColorResolution | byte |  |
+
+### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-}
+```
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
+| isPaletteSorted | boolean |  |
+| paletteColorResolution | byte |  |
+| paletteBackgroundColorIndex | byte |  |
+
+### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-}
+```
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstFrame | [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) |  |
+| globalPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) |  |
+| isPaletteSorted | boolean |  |
+| paletteColorResolution | byte |  |
+| paletteBackgroundColorIndex | byte |  |
+| aspectRatio | byte |  |
 
 ### GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, boolean isPaletteSorted, byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, boolean hasTrailer) {#GifImage-com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock-com.aspose.imaging.IColorPalette-boolean-byte-byte-byte-boolean-}
 ```
@@ -211,6 +268,16 @@ Get started effortlessly with the [GifImage](../../com.aspose.imaging.fileformat
 | aspectRatio | byte | The aspect ratio. |
 | hasTrailer | boolean | if set to `true` the GIF image has trailer otherwise no trailer written at the end of the stream. |
 
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -267,51 +334,28 @@ Control the sorting of the palette in your GIF images using this property. Wheth
 | --- | --- | --- |
 | value | boolean | `true` if palette is sorted; otherwise, `false`. |
 
-### getLoopsCount() {#getLoopsCount--}
+### getLoopCount() {#getLoopCount--}
 ```
-public int getLoopsCount()
+public int getLoopCount()
 ```
 
 
-Retrieve the loop count effortlessly with this property. If your GIF image includes loop information, this property gives you quick access to the loop count, enabling you to seamlessly manage looping behavior in your GIF files.
+Gets the animation loop count. Default is 1. Negative or 0 for infinity looping.
 
 **Returns:**
-int - The loops count or 1 (default value)
-### setLoopsCount(int value) {#setLoopsCount-int-}
+int - the animation loop count.
+### setLoopCount(int value) {#setLoopCount-int-}
 ```
-public void setLoopsCount(int value)
+public void setLoopCount(int value)
 ```
 
 
-Retrieve the loop count effortlessly with this property. If your GIF image includes loop information, this property gives you quick access to the loop count, enabling you to seamlessly manage looping behavior in your GIF files.
+Sets the animation loop count. Default is 1. Negative or 0 for infinity looping.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The loops count or 1 (default value) |
-
-### getPaletteColorResolutionBits() {#getPaletteColorResolutionBits--}
-```
-public byte getPaletteColorResolutionBits()
-```
-
-
-Manage the palette color resolution of your GIF images with this property. Adjust the number of bits used to represent colors in the palette, providing fine control over color depth and image quality.
-
-**Returns:**
-byte - The palette color resolution bits.
-### setPaletteColorResolutionBits(byte value) {#setPaletteColorResolutionBits-byte-}
-```
-public void setPaletteColorResolutionBits(byte value)
-```
-
-
-Manage the palette color resolution of your GIF images with this property. Adjust the number of bits used to represent colors in the palette, providing fine control over color depth and image quality.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | byte | The palette color resolution bits. |
+| value | int | the animation loop count. |
 
 ### getPageCount() {#getPageCount--}
 ```
@@ -1207,18 +1251,19 @@ try {
 }
 ```
 
-### binarizeBradley(double brightnessDifference) {#binarizeBradley-double-}
+### binarizeBradley(double brightnessDifference, int windowSize) {#binarizeBradley-double-int-}
 ```
-public void binarizeBradley(double brightnessDifference)
+public void binarizeBradley(double brightnessDifference, int windowSize)
 ```
 
 
-Binarization of an image using Bradley's adaptive thresholding algorithm with integral image thresholding is a method for converting a grayscale image into a binary image. This algorithm calculates a local threshold for each pixel based on the average intensity of the surrounding pixels within a specified window. By adaptively adjusting the threshold based on local pixel intensities, Bradley's method is effective at handling variations in lighting and contrast across the image.
+Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | brightnessDifference | double | The brightness difference between pixel and the average of an s x s window of pixels centered around this pixel. |
+| windowSize | int | The size of s x s window of pixels centered around this pixel |
 
 ### orderBlocks() {#orderBlocks--}
 ```
@@ -1363,7 +1408,7 @@ public void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 
-Proportional resizing maintains the aspect ratio of the image while adjusting its size, ensuring that the image does not appear stretched or distorted. This method resizes the image proportionally, scaling both the width and height by the same factor. The proportional resize will resize each frame according to the ratio of `newWidth`/width and `newHeight`/height.
+Resizes the GIF canvas and all frames to the specified size. Each frame is composited onto the animation canvas before resampling, so frame offsets and partial-frame layout stay consistent with the new canvas.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -50,16 +50,16 @@ The image is the base class for all type of images.
 | [getContainer()](#getContainer--) | Gets the `Image` container. |
 | [getPalette()](#getPalette--) | Gets the color palette. |
 | [setPalette(IColorPalette value)](#setPalette-com.aspose.imaging.IColorPalette-) | Sets the color palette. |
-| [isUsePalette()](#isUsePalette--) | Gets a value indicating whether the image palette is used. |
 | [getSize()](#getSize--) | Gets the image size. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [setInterruptMonitor(InterruptMonitor value)](#setInterruptMonitor-com.aspose.imaging.multithreading.InterruptMonitor-) | Sets the interrupt monitor. |
 | [getBufferSizeHint()](#getBufferSizeHint--) | Gets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | Sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [isAutoAdjustPalette()](#isAutoAdjustPalette--) | Gets a value indicating whether automatic adjust palette. |
-| [setAutoAdjustPalette(boolean value)](#setAutoAdjustPalette-boolean-) | Sets a value indicating whether automatic adjust palette. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
+| [isAutoAdjustPalette()](#isAutoAdjustPalette--) | Gets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. |
+| [setAutoAdjustPalette(boolean value)](#setAutoAdjustPalette-boolean-) | Sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. |
 | [hasBackgroundColor()](#hasBackgroundColor--) | Gets a value indicating whether image has background color. |
-| [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
+| [getFileFormat()](#getFileFormat--) | Gets the file format. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets or sets a value for the background color. |
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Gets or sets a value indicating whether image has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Gets or sets a value for the background color. |
@@ -824,31 +824,6 @@ Sets the color palette. The color palette is not used when pixels are represente
 | --- | --- | --- |
 | value | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The color palette. |
 
-### isUsePalette() {#isUsePalette--}
-```
-public boolean isUsePalette()
-```
-
-
-Gets a value indicating whether the image palette is used.
-
-Value: `true` if the palette is used in the image; otherwise, `false`.
-
-**Returns:**
-boolean - a value indicating whether the image palette is used.
-
-**Example: Determine if the palette is used by the image.**
-
-``` java
-try (Image image = Image.load("Sample.bmp"))
-{
-    if (image.isUsePalette())
-    {
-        System.out.println("The palette is used by the image");
-    }
-}
-```
-
 ### getSize() {#getSize--}
 ```
 public Size getSize()
@@ -953,28 +928,38 @@ Value: The buffer size hint, in megabytes. Non-positive value means no memory li
 | --- | --- | --- |
 | value | int | the buffer size hint which is defined max allowed size for all internal buffers. |
 
-### isAutoAdjustPalette() {#isAutoAdjustPalette--}
+### isIndexed() {#isIndexed--}
 ```
-public boolean isAutoAdjustPalette()
+public boolean isIndexed()
 ```
 
 
-Gets a value indicating whether automatic adjust palette.
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
 
 **Returns:**
-boolean - `true` if enable automatic adjust palette; otherwise, `false`.
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
+### isAutoAdjustPalette() {#isAutoAdjustPalette--}
+```
+public final boolean isAutoAdjustPalette()
+```
+
+
+Gets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Tiff](../../com.aspose.imaging/fileformat\#Tiff), [FileFormat.BigTiff](../../com.aspose.imaging/fileformat\#BigTiff). Effectively returns ``, if `IsIndexed`(\#isIndexed.isIndexed) is ``.
+
+**Returns:**
+boolean - a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc.
 ### setAutoAdjustPalette(boolean value) {#setAutoAdjustPalette-boolean-}
 ```
-public void setAutoAdjustPalette(boolean value)
+public final void setAutoAdjustPalette(boolean value)
 ```
 
 
-Sets a value indicating whether automatic adjust palette.
+Sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: [FileFormat.Gif](../../com.aspose.imaging/fileformat\#Gif), [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png), [FileFormat.Apng](../../com.aspose.imaging/fileformat\#Apng), [FileFormat.Tiff](../../com.aspose.imaging/fileformat\#Tiff), [FileFormat.BigTiff](../../com.aspose.imaging/fileformat\#BigTiff). Effectively returns ``, if `IsIndexed`(\#isIndexed.isIndexed) is ``.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | `true` if enable automatic adjust palette; otherwise, `false`. |
+| value | boolean | a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. |
 
 ### hasBackgroundColor() {#hasBackgroundColor--}
 ```
@@ -992,7 +977,7 @@ public long getFileFormat()
 ```
 
 
-Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+Gets the file format.
 
 **Returns:**
 long

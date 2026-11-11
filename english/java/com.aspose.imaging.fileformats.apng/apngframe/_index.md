@@ -20,6 +20,8 @@ Craft animated PNG (APNG) image frames from single-page raster images with our A
 
 | Method | Description |
 | --- | --- |
+| [getPalette()](#getPalette--) | Gets the color palette. |
+| [isIndexed()](#isIndexed--) | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
@@ -41,6 +43,26 @@ Craft animated PNG (APNG) image frames from single-page raster images with our A
 | [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
+### getPalette() {#getPalette--}
+```
+public IColorPalette getPalette()
+```
+
+
+Gets the color palette. [ApngImage](../../com.aspose.imaging.fileformats.apng/apngimage) uses single palette, so [ApngFrame](../../com.aspose.imaging.fileformats.apng/apngframe) effectively returns `Image.Container`([Image.getContainer](../../com.aspose.imaging/image\#getContainer)) palette, when `Image.Container`([Image.getContainer](../../com.aspose.imaging/image\#getContainer)) is set. Otherwise, returns own palette.
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - the color palette.
+### isIndexed() {#isIndexed--}
+```
+public boolean isIndexed()
+```
+
+
+Gets a value indicating whether the image has indexed pixel type and uses a color palette.
+
+**Returns:**
+boolean - a value indicating whether the image has indexed pixel type and uses a color palette.
 ### getBitsPerPixel() {#getBitsPerPixel--}
 ```
 public int getBitsPerPixel()
@@ -120,7 +142,7 @@ public long getFileFormat()
 ```
 
 
-Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+Gets the file format.
 
 **Returns:**
 long

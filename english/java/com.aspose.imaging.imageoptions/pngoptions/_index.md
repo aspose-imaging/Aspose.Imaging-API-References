@@ -8,8 +8,11 @@ url: /java/com.aspose.imaging.imageoptions/pngoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging/disposableobject), [com.aspose.imaging.ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase)
+
+**All Implemented Interfaces:**
+com.aspose.internal.interfaces.IInterlaced
 ```
-public class PngOptions extends ImageOptionsBase
+public class PngOptions extends ImageOptionsBase implements IInterlaced
 ```
 
 Create high-quality Portable Network Graphics (PNG) raster images effortlessly with our API, offering customizable options for compression levels, bits per pixel depths, and alpha bits. Seamlessly process XMP metadata containers, ensuring comprehensive image metadata management, and empowering you to tailor PNG images to your exact specifications with ease.
@@ -40,6 +43,8 @@ Create high-quality Portable Network Graphics (PNG) raster images effortlessly w
 | [setPngCompressionLevel(int value)](#setPngCompressionLevel-int-) | Sets the [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) compression level. |
 | [getBitDepth()](#getBitDepth--) | Gets the bit depth values in range of 1, 2, 4, 8, 16. |
 | [setBitDepth(byte value)](#setBitDepth-byte-) | Sets the bit depth values in range of 1, 2, 4, 8, 16. |
+| [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image is interlaced. |
+| [setInterlaced(boolean value)](#setInterlaced-boolean-) | Sets a value indicating whether this image is interlaced. |
 
 ## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
@@ -235,9 +240,7 @@ public final boolean getProgressive()
 ```
 
 
-Gets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
-
-Value: `` if progressive; otherwise, ``.
+Gets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. Mirrors `IsInterlaced`(\#isInterlaced.isInterlaced/\#setInterlaced(boolean).setInterlaced(boolean)).
 
 **Returns:**
 boolean - a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
@@ -247,9 +250,7 @@ public final void setProgressive(boolean value)
 ```
 
 
-Sets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive.
-
-Value: `` if progressive; otherwise, ``.
+Sets a value indicating whether a [PngImage](../../com.aspose.imaging.fileformats.png/pngimage) is progressive. Mirrors `IsInterlaced`(\#isInterlaced.isInterlaced/\#setInterlaced(boolean).setInterlaced(boolean)).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,4 +632,27 @@ try {
     pngImage.dispose();
 }
 ```
+
+### isInterlaced() {#isInterlaced--}
+```
+public final boolean isInterlaced()
+```
+
+
+Gets a value indicating whether this image is interlaced.
+
+**Returns:**
+boolean - a value indicating whether this image is interlaced.
+### setInterlaced(boolean value) {#setInterlaced-boolean-}
+```
+public final void setInterlaced(boolean value)
+```
+
+
+Sets a value indicating whether this image is interlaced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | a value indicating whether this image is interlaced. |
 

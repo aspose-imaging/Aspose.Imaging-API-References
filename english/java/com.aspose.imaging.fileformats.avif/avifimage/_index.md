@@ -24,6 +24,7 @@ The Avif image.
 | --- | --- |
 | [getFileFormat()](#getFileFormat--) | Easily retrieve the file format value with this user-friendly property. |
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the bits per pixel value. |
+| [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this image has an alpha channel. |
 | [getWidth()](#getWidth--) | Gets the AVIF image width. |
 | [getHeight()](#getHeight--) | Gets the AVIF image height. |
 ### AvifImage() {#AvifImage--}
@@ -54,6 +55,16 @@ Value: The bits per pixel.
 
 **Returns:**
 int - the bits per pixel value.
+### hasAlpha() {#hasAlpha--}
+```
+public boolean hasAlpha()
+```
+
+
+Gets a value indicating whether this image has an alpha channel.
+
+**Returns:**
+boolean - a value indicating whether this image has an alpha channel.
 ### getWidth() {#getWidth--}
 ```
 public int getWidth()

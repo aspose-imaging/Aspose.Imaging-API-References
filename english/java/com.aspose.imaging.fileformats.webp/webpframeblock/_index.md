@@ -88,7 +88,7 @@ public long getFileFormat()
 ```
 
 
-Easily retrieve the file format value with this user-friendly property. Ideal for developers seeking quick access to information about the file format.
+Gets the file format.
 
 **Returns:**
 long
