@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.AdjustGamma
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Gammacorrection of an image
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/rastercachedmultipageimage/adjustgamma/
 ---
 ## AdjustGamma(float, float, float) {#adjustgamma_1}

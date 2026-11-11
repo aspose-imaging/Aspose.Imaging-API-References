@@ -24,7 +24,7 @@ public class CdrImage : VectorMultipageImage, ICdrImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.cdr/cdrimage/bitsperpixel/) { get; } | Retrieve the bit depth of the image effortlessly with this user-friendly property. Ideal for developers seeking to determine the level of detail or color depth present in their images, ensuring accurate processing and manipulation. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -40,14 +40,14 @@ public class CdrImage : VectorMultipageImage, ICdrImage
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.cdr/cdrimage/iscached/) { get; } | Effortlessly determine whether the object's data is currently cached, eliminating the need for data reading. Ideal for developers seeking to optimize performance by leveraging cached data efficiently, ensuring faster access to object information. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | override [Metadata](../../aspose.imaging/vectormultipageimage/metadata/) { get; } | Gets the image metadata. |
 | override [PageCount](../../aspose.imaging.fileformats.cdr/cdrimage/pagecount/) { get; } | Effortlessly retrieve or update the total page count of the image with this intuitive property. Ideal for developers seeking to manage multi-page images dynamically, ensuring efficient navigation and manipulation of image content. |
 | virtual [PageExportingAction](../../aspose.imaging/vectormultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](../../aspose.imaging.fileformats.cdr/cdrimage/pages/) { get; } | Retrieve the pages of the image seamlessly with this intuitive property. Ideal for developers seeking to access and manipulate individual pages within multi-page images, ensuring efficient navigation and processing. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging.fileformats.cdr/cdrimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
@@ -80,7 +80,7 @@ public class CdrImage : VectorMultipageImage, ICdrImage
 | override [Rotate](../../aspose.imaging/vectormultipageimage/rotate/)(float) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/vectormultipageimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |

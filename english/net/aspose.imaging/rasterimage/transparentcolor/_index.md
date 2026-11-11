@@ -3,7 +3,7 @@ title: RasterImage.TransparentColor
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets the image transparent color
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging/rasterimage/transparentcolor/
 ---
 ## RasterImage.TransparentColor property

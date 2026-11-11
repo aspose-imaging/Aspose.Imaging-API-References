@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.IsDigitalSigned
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Performs a fast check to determine if the image is digitally signed using the provided password and threshold
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.imaging/rastercachedmultipageimage/isdigitalsigned/
 ---
 ## RasterCachedMultipageImage.IsDigitalSigned method

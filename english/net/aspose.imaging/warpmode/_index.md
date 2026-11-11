@@ -3,7 +3,7 @@ title: Enum WarpMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.WarpMode enum. Specifies the type of warp transformation applied
 type: docs
-weight: 11830
+weight: 11840
 url: /net/aspose.imaging/warpmode/
 ---
 ## WarpMode enumeration

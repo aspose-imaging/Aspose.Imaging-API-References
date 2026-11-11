@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Cropping the image
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.imaging/rastercachedmultipageimage/crop/
 ---
 ## Crop(Rectangle) {#crop}

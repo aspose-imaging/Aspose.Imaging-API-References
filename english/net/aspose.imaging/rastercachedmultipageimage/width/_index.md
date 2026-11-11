@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Width
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage property. Gets the image width
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/rastercachedmultipageimage/width/
 ---
 ## RasterCachedMultipageImage.Width property

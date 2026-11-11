@@ -3,7 +3,7 @@ title: Image.Palette
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets or sets the color palette. The color palette is not used when pixels are represented directly
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/image/palette/
 ---
 ## Image.Palette property
@@ -11,7 +11,7 @@ url: /net/aspose.imaging/image/palette/
 Gets or sets the color palette. The color palette is not used when pixels are represented directly.
 
 ```csharp
-public IColorPalette Palette { get; set; }
+public virtual IColorPalette Palette { get; set; }
 ```
 
 ### Property Value

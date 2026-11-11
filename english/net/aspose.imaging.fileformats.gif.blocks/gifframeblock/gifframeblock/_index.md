@@ -223,7 +223,7 @@ Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteSorted, 
-    bool isGifFrameInterlaced, byte lzwCodeSize)
+    bool isInterlaced, byte bitsPerPixel)
 ```
 
 | Parameter | Type | Description |
@@ -232,8 +232,8 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteS
 | left | UInt16 | The left image position. |
 | top | UInt16 | The top image position. |
 | isPaletteSorted | Boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
-| lzwCodeSize | Byte | The bits per pixel. |
+| isInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | Byte | The bits per pixel in 1-8 range. |
 
 ### See Also
 
@@ -292,7 +292,7 @@ Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
 public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorted, 
-    bool isGifFrameInterlaced, byte lzwCodeSize)
+    bool isInterlaced, byte bitsPerPixel)
 ```
 
 | Parameter | Type | Description |
@@ -301,8 +301,8 @@ public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorte
 | left | UInt16 | The left image position. |
 | top | UInt16 | The top image position. |
 | isPaletteSorted | Boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
-| lzwCodeSize | Byte | The bits per pixel. |
+| isInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | Byte | The bits per pixel in 1-8 range. |
 
 ### See Also
 
@@ -359,8 +359,8 @@ public GifFrameBlock(string path, ushort left, ushort top)
 Initializes a new instance of the [`GifFrameBlock`](../) class.
 
 ```csharp
-public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted, 
-    bool isGifFrameInterlaced, byte lzwCodeSize)
+public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted, bool isInterlaced, 
+    byte bitsPerPixel)
 ```
 
 | Parameter | Type | Description |
@@ -369,8 +369,8 @@ public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted,
 | left | UInt16 | The left image position. |
 | top | UInt16 | The top image position. |
 | isPaletteSorted | Boolean | if set to `true` the color palette is sorted. |
-| isGifFrameInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
-| lzwCodeSize | Byte | The bits per pixel. |
+| isInterlaced | Boolean | if set to `true` the GIF frame is interlaced. |
+| bitsPerPixel | Byte | The bits per pixel in 1-8 range. |
 
 ### See Also
 

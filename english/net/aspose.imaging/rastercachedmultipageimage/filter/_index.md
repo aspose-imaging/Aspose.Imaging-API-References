@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Filter
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Filters the specified rectangle
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.imaging/rastercachedmultipageimage/filter/
 ---
 ## RasterCachedMultipageImage.Filter method

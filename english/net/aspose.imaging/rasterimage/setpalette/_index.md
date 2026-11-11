@@ -3,7 +3,7 @@ title: RasterImage.SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Sets the image palette
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.imaging/rasterimage/setpalette/
 ---
 ## RasterImage.SetPalette method

@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.AdjustBrightness
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Adjust of a brightness for image
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging/rastercachedmultipageimage/adjustbrightness/
 ---
 ## RasterCachedMultipageImage.AdjustBrightness method

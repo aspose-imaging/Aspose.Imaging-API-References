@@ -3,7 +3,7 @@ title: ApngImage.PageCount
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage property. Retrieve the total number of pages in your image file effortlessly with this property. Ideal for developers needing quick access to page count information
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.fileformats.apng/apngimage/pagecount/
 ---
 ## ApngImage.PageCount property

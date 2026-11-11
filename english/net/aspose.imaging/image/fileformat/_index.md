@@ -1,14 +1,14 @@
 ---
 title: Image.FileFormat
 second_title: Aspose.Imaging for .NET API Reference
-description: Image property. Gets a value of file format
+description: Image property. Gets the file format
 type: docs
 weight: 100
 url: /net/aspose.imaging/image/fileformat/
 ---
 ## Image.FileFormat property
 
-Gets a value of file format
+Gets the file format.
 
 ```csharp
 public virtual FileFormat FileFormat { get; }

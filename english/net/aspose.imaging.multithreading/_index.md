@@ -3,7 +3,7 @@ title: Aspose.Imaging.Multithreading
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Multithreading classes
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.imaging.multithreading/
 ---
 The namespace contains Multithreading classes.

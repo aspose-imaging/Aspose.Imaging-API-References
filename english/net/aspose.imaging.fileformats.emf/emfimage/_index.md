@@ -25,7 +25,7 @@ public sealed class EmfImage : MetaImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.emf/emfimage/bitsperpixel/) { get; } | Retrieve the bit-per-pixel count specific to raster images, as this parameter doesn't apply to vector images. Quickly ascertain the pixel depth of raster images for precise analysis and manipulation, ensuring accurate handling of image data. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -41,12 +41,12 @@ public sealed class EmfImage : MetaImage
 | override [HeightF](../../aspose.imaging.fileformats.emf/emfimage/heightf/) { get; } | Retrieve the image's height, facilitating accurate rendering and layout adjustments. Accessing the height property ensures compatibility and seamless integration across different platforms and applications. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.emf/emfimage/iscached/) { get; } | Access a value indicating whether the object's data is currently cached, eliminating the need for additional data reading. Enhance efficiency by quickly determining if cached data is available for immediate access. Optimize your workflow with streamlined data retrieval processes. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | override [Records](../../aspose.imaging.fileformats.emf/emfimage/records/) { get; set; } | Retrieve or modify the records associated with the object. Efficiently access and manage the collection of records for enhanced data manipulation and processing. Optimize your workflow by seamlessly interacting with the object's records. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.emf/emfimage/widthf/) { get; } | Access to the width of the image, providing essential information for precise rendering and processing. Quickly retrieve the image's width to ensure compatibility and proper layout within various applications and platforms. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
@@ -82,7 +82,7 @@ public sealed class EmfImage : MetaImage
 | override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |

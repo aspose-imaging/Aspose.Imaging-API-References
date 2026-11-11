@@ -3,7 +3,7 @@ title: Class Matrix
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Matrix class. Replaces the GDI Matrix
 type: docs
-weight: 11110
+weight: 11120
 url: /net/aspose.imaging/matrix/
 ---
 ## Matrix class

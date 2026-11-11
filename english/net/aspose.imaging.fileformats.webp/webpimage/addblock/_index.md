@@ -33,7 +33,7 @@ createOptions.Quality = 100f;
 createOptions.AnimBackgroundColor = (uint)Aspose.Imaging.Color.Gray.ToArgb();
 
 // The default frame plus 36 + 36 additional frames.
-createOptions.AnimLoopCount = 36 + 36 + 1;
+createOptions.LoopCount = 36 + 36 + 1;
 
 // Create a WebP image of 100x100 px.
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(100, 100, createOptions))

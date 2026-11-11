@@ -32,12 +32,13 @@ public class PngOptions : ImageOptionsBase
 | virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [IsInterlaced](../../aspose.imaging.imageoptions/pngoptions/isinterlaced/) { get; set; } | Gets or sets a value indicating whether this image is interlaced. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep the original image metadata on export. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [PngCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/pngcompressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
-| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. |
+| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. Mirrors [`IsInterlaced`](./isinterlaced/). |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |

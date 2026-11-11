@@ -3,7 +3,7 @@ title: Enum FeatheringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.MagicWand.ImageMasks.FeatheringMode enum. Specifies how a feathering algorithm works
 type: docs
-weight: 10850
+weight: 10860
 url: /net/aspose.imaging.magicwand.imagemasks/featheringmode/
 ---
 ## FeatheringMode enumeration

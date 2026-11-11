@@ -3,7 +3,7 @@ title: GifFrameBlock.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock method. Resizes this RasterCachedImage instance
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/resize/
 ---
 ## GifFrameBlock.Resize method

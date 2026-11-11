@@ -3,7 +3,7 @@ title: ApngImage.SetDefaultImage
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngImage method. Sets the default image taht is displayed by decoders that do not support APNG. ApngImage class uses first element of Pages as the default main page
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging.fileformats.apng/apngimage/setdefaultimage/
 ---
 ## ApngImage.SetDefaultImage method

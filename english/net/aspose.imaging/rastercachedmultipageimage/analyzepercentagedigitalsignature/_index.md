@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.AnalyzePercentageDigitalSignature
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Calculates the percentage similarity between the extracted data and the original password
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/
 ---
 ## RasterCachedMultipageImage.AnalyzePercentageDigitalSignature method

@@ -3,7 +3,7 @@ title: Class AdjustPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PaletteHelper.AdjustPalette class. Color palette adjustment class
 type: docs
-weight: 11240
+weight: 11250
 url: /net/aspose.imaging.palettehelper/adjustpalette/
 ---
 ## AdjustPalette class
@@ -24,7 +24,7 @@ public class AdjustPalette
 
 | Name | Description |
 | --- | --- |
-| static [GetCloseImagePalette](../../aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette/)(RasterImage, int, ColorQuantizationMethod, ColorCompareMethod) | Gets the close image palette. |
+| static [GetCloseImagePalette](../../aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette/)(RasterImage, int, ColorQuantizationMethod) | Gets the close image palette. |
 
 ### See Also
 

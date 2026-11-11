@@ -25,7 +25,7 @@ public class WmfImage : MetaImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.wmf/wmfimage/bitsperpixel/) { get; } | Retrieve the count of bits per pixel for the image, indicating the level of color depth or granularity. Utilize this property to determine the image's color representation and precision, facilitating compatibility checks and color-related processing within your application. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -42,12 +42,12 @@ public class WmfImage : MetaImage
 | [Inch](../../aspose.imaging.fileformats.wmf/wmfimage/inch/) { get; set; } | Access or modify the inch property, representing a unit of measurement typically used for specifying physical dimensions in print or display contexts. Utilize this property to establish or retrieve inch values associated with the image, facilitating accurate representation of physical dimensions within your application. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.wmf/wmfimage/iscached/) { get; } | Retrieve a boolean value indicating whether the object's data is currently cached, eliminating the need for additional data reading operations. Utilize this property to optimize performance by determining if the object's data is readily available without the need for costly data retrieval processes within your application. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [Records](../../aspose.imaging.fileformats.emf/metaimage/records/) { get; set; } | Gets or sets the records. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.wmf/wmfimage/widthf/) { get; } | Access the width of the image, indicating the number of pixels along its horizontal axis. Utilize this property to determine the image's spatial dimensions and aspect ratio, enabling precise layout and rendering adjustments within your application. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
@@ -85,7 +85,7 @@ public class WmfImage : MetaImage
 | override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |

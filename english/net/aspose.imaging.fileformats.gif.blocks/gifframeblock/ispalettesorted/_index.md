@@ -3,7 +3,7 @@ title: GifFrameBlock.IsPaletteSorted
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock property. Gets or sets a value indicating whether color palette is sorted
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/ispalettesorted/
 ---
 ## GifFrameBlock.IsPaletteSorted property

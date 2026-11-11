@@ -3,7 +3,7 @@ title: Aspose.Imaging.MagicWand.ImageMasks
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles image masks processing
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.imaging.magicwand.imagemasks/
 ---
 The namespace handles image masks processing.

@@ -3,7 +3,7 @@ title: PngOptions.PngCompressionLevel
 second_title: Aspose.Imaging for .NET API Reference
 description: PngOptions property. Gets or sets the PngImage compression level
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.imageoptions/pngoptions/pngcompressionlevel/
 ---
 ## PngOptions.PngCompressionLevel property

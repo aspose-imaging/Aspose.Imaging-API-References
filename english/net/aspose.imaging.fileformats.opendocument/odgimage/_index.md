@@ -25,7 +25,7 @@ public class OdgImage : OdImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.opendocument/odimage/bitsperpixel/) { get; } | Retrieves the count of bits per pixel for the image. This property provides insight into the level of detail and color depth represented in the image, aiding in various image processing tasks and optimizations. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -40,16 +40,16 @@ public class OdgImage : OdImage
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf/) { get; } | Gets the object height, in inches. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.opendocument/odimage/iscached/) { get; } | Obtains a boolean value indicating whether the data of the object is currently cached, thus eliminating the need for data reading. This property serves as an optimization indicator, enhancing performance by minimizing redundant data access operation. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [Metadata](../../aspose.imaging.fileformats.opendocument/odimage/metadata/) { get; } | Retrieves metadata specific to OpenDocument files. This property allows access to essential information embedded within OD files, facilitating various operations such as extraction, modification, or analysis of metadata. |
 | override [Metadata](../../aspose.imaging/vectormultipageimage/metadata/) { get; } | Gets the image metadata. |
 | override [PageCount](../../aspose.imaging.fileformats.opendocument/odimage/pagecount/) { get; } | Retrieves the total count of pages within the image. This property is essential for applications managing multi-page images, enabling them to accurately determine the number of pages available for processing or display. |
 | virtual [PageExportingAction](../../aspose.imaging/vectormultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](../../aspose.imaging.fileformats.opendocument/odgimage/pages/) { get; } | Retrieving the collection of pages, this property empowers to access the entirety of pages associated with an image. By accessing this property, developers can iterate through individual pages, retrieve specific pages based on their index, or perform batch operations on the entire collection. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [Records](../../aspose.imaging.fileformats.opendocument/odimage/records/) { get; } | Retrieves the OpenDocument records stored within the image. This property grants access to specific structured data elements embedded within OpenDocument files, facilitating retrieval or manipulation of relevant information for further processing or analysis. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectormultipageimage/width/) { get; } | Gets the image width. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf/) { get; } | Gets the object width, in inches. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
@@ -82,7 +82,7 @@ public class OdgImage : OdImage
 | override [Rotate](../../aspose.imaging/vectormultipageimage/rotate/)(float) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/vectormultipageimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |

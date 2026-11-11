@@ -3,7 +3,7 @@ title: GifFrameBlock.ReplaceColor
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock method. Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/replacecolor/
 ---
 ## GifFrameBlock.ReplaceColor method

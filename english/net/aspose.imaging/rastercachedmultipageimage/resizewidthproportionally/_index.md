@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.ResizeWidthProportionally
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Resizes the width proportionally
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.imaging/rastercachedmultipageimage/resizewidthproportionally/
 ---
 ## RasterCachedMultipageImage.ResizeWidthProportionally method

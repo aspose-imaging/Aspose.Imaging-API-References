@@ -96,6 +96,7 @@ is_root: true
 | [Aspose.Imaging.ImageLoadOptions](./aspose.imaging.imageloadoptions/) | The namespace contains different file format load options. |
 | [Aspose.Imaging.ImageOptions](./aspose.imaging.imageoptions/) | The namespace contains classes suitable for export, save or creation of different file formats. |
 | [Aspose.Imaging.Interfaces](./aspose.imaging.interfaces/) | The namespace handles Tiff file format processing. |
+| [Aspose.Imaging.Lut.CubeLut](./aspose.imaging.lut.cubelut/) | The namespace Cube lut processing. |
 | [Aspose.Imaging.MagicWand](./aspose.imaging.magicwand/) | The namespace handles MagicWand processing. |
 | [Aspose.Imaging.MagicWand.ImageMasks](./aspose.imaging.magicwand.imagemasks/) | The namespace handles image masks processing. |
 | [Aspose.Imaging.Masking](./aspose.imaging.masking/) | The namespace handles ImageMasking processing. |

@@ -1,14 +1,14 @@
 ---
 title: StreamSource.GetStreamContainer
 second_title: Aspose.Imaging for .NET API Reference
-description: StreamSource method. Gets the stream container
+description: StreamSource method. Gets the stream container for the source
 type: docs
 weight: 40
 url: /net/aspose.imaging.sources/streamsource/getstreamcontainer/
 ---
 ## StreamSource.GetStreamContainer method
 
-Gets the stream container.
+Gets the stream container for the source.
 
 ```csharp
 public override StreamContainer GetStreamContainer()
@@ -16,7 +16,7 @@ public override StreamContainer GetStreamContainer()
 
 ### Return Value
 
-the stream container.
+The stream container.
 
 ## Remarks
 

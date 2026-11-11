@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.EmbedDigitalSignature
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Embed digital sign based on provided password into each page of the image
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.imaging/rastercachedmultipageimage/embeddigitalsignature/
 ---
 ## RasterCachedMultipageImage.EmbedDigitalSignature method

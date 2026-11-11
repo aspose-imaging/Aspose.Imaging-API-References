@@ -3,7 +3,7 @@ title: Class Layer
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.Photoshop.Layer class. Represents Photoshop text layer
 type: docs
-weight: 11970
+weight: 11980
 url: /net/aspose.imaging.xmp.schemas.photoshop/layer/
 ---
 ## Layer class

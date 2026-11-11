@@ -32,13 +32,14 @@ public class ApngOptions : PngOptions
 | virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FilterType](../../aspose.imaging.imageoptions/pngoptions/filtertype/) { get; set; } | Gets or sets the filter type used during png file save process. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [IsInterlaced](../../aspose.imaging.imageoptions/pngoptions/isinterlaced/) { get; set; } | Gets or sets a value indicating whether this image is interlaced. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep the original image metadata on export. |
+| [LoopCount](../../aspose.imaging.imageoptions/apngoptions/loopcount/) { get; set; } | Gets or sets the number of times to loop animation. Default is -1 meaning the value may be inherited from saved image or will be set to 0 (infinite looping). |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
-| [NumPlays](../../aspose.imaging.imageoptions/apngoptions/numplays/) { get; set; } | Gets or sets the number of times to loop animation. 0 indicates infinite looping. |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
 | [PngCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/pngcompressionlevel/) { get; set; } | Gets or sets the [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) compression level. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
-| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. |
+| [Progressive](../../aspose.imaging.imageoptions/pngoptions/progressive/) { get; set; } | Gets or sets a value indicating whether a [`PngImage`](../../aspose.imaging.fileformats.png/pngimage/) is progressive. Mirrors [`IsInterlaced`](../pngoptions/isinterlaced/). |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |
 | [Source](../../aspose.imaging/imageoptionsbase/source/) { get; set; } | Gets or sets the source to create image in. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions/) { get; set; } | Gets or sets the vector rasterization options. |
@@ -81,7 +82,7 @@ using (Image image = Image.Load("Animation1.webp")) {
     // Export to APNG animation with unlimited animation cycles as default
     image.Save("Animation1.webp.png", new ApngOptions());
     // Setting up animation cycles
-    image.Save("Animation2.webp.png", new ApngOptions() { NumPlays = 5 }); // 5 cycles
+    image.Save("Animation2.webp.png", new ApngOptions() { LoopCount = 5 }); // 5 cycles
 }
 ```
 

@@ -3,7 +3,7 @@ title: GifOptions.BackgroundColorIndex
 second_title: Aspose.Imaging for .NET API Reference
 description: GifOptions property. Gets or sets the GIF background color index
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.imageoptions/gifoptions/backgroundcolorindex/
 ---
 ## GifOptions.BackgroundColorIndex property

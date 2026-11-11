@@ -1,14 +1,14 @@
 ---
 title: GifOptions.ColorResolution
 second_title: Aspose.Imaging for .NET API Reference
-description: GifOptions property. Gets or sets the GIF color resolution
+description: GifOptions property. Gets or sets the GIF color resolution. Allowed range 17
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.imageoptions/gifoptions/colorresolution/
 ---
 ## GifOptions.ColorResolution property
 
-Gets or sets the GIF color resolution.
+Gets or sets the GIF color resolution. Allowed range: 1-7.
 
 ```csharp
 public byte ColorResolution { get; set; }
@@ -18,9 +18,15 @@ public byte ColorResolution { get; set; }
 
 The color resolution.
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | ArgumentOutOfRangeException |
+
 ## Remarks
 
-Color Resolution - Number of bits per primary color available to the original image, minus 1. This value represents the size of the entire palette from which the colors in the graphic were selected, not the number of colors actually used in the graphic. For example, if the value in this field is 3, then the palette of the original image had 4 bits per primary color available to create the image. This value should be set to indicate the richness of the original palette, even if not every color from the whole palette is available on the source machine.
+Color Resolution is the number of bits per primary color available to the original image, minus 1. This value represents the size of the entire palette from which the colors in the graphic were selected, not the number of colors actually used in the graphic. For example, if the value in this field is 3, then the palette of the original image has 4 bits per primary color available to create the image (or 2^4=16 colors). This value should be set to indicate the richness of the original palette, even if not every color from the whole palette is available on the source machine.
 
 ## Examples
 
@@ -48,14 +54,10 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
     // The number of bits required to store a color, minus 1.
     saveOptions.ColorResolution = 7;
 
-    // Palette correction means that whenever image is exported to GIF the source image colors will be analyzed
-    // in order to build the best matching palette (in case image Palette does not exist or not specified in the options)
-    saveOptions.DoPaletteCorrection = true;
-
     // Load a GIF image in a progressive way.
     // An interlaced GIF doesn't display its scanlines linearly from top to bottom, but instead reorders it
     // so the content of the GIF becomes clear even before it finishes loading.
-    saveOptions.Interlaced = true;
+    saveOptions.IsInterlaced = true;
 
     // Save as a lossless GIF.
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.gif"))

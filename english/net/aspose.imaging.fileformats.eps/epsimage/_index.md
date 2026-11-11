@@ -18,7 +18,7 @@ public sealed class EpsImage : VectorImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.eps/epsimage/bitsperpixel/) { get; } | Access the precise bit depth of the image effortlessly with this property. Retrieve the bits per pixel count, providing crucial insights into the image's color depth and aiding in optimizing processing tasks. Ideal for applications requiring fine-grained control over image manipulation and analysis. |
 | [BoundingBox](../../aspose.imaging.fileformats.eps/epsimage/boundingbox/) { get; } | Accessing the original bounding box in device-independent points, this property provides crucial geometric information about the `EpsImage` dimensions. By retrieving this data, users can accurately assess the image's size and aspect ratio, facilitating precise layout and positioning in various applications. |
@@ -39,15 +39,15 @@ public sealed class EpsImage : VectorImage
 | override [HeightF](../../aspose.imaging.fileformats.eps/epsimage/heightf/) { get; } | Access the height of the image using this property. Obtain the image's height with ease, enabling seamless layout adjustments, aspect ratio calculations, and precise rendering across different screen resolutions and display environments. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging.fileformats.eps/epsimage/iscached/) { get; } | This property provides a convenient way to check if the object's data is currently cached, eliminating the need for additional data reading. It offers a quick and efficient method to determine if the required information is readily available, optimizing performance and reducing resource overhead in data-intensive operations. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [PostScriptVersion](../../aspose.imaging.fileformats.eps/epsimage/postscriptversion/) { get; } | This property retrieves the PostScript version associated with the `EpsImage` instance. It offers insight into the specific PostScript language version utilized within the EPS file, aiding in compatibility assessment and facilitating seamless integration with PostScript-compatible environments. |
 | [PreviewImageCount](../../aspose.imaging.fileformats.eps/epsimage/previewimagecount/) { get; } | Access the number of preview images available with ease. This property allows you to effortlessly retrieve the count of preview images associated with your file, enabling efficient management and navigation of your image previews. Ideal for optimizing your workflow and organizing your image assets effectively. |
 | [PreviewImages](../../aspose.imaging.fileformats.eps/epsimage/previewimages/) { get; } | Retrieve the preview images associated with your file. This property provides seamless access to the collection of preview images, allowing you to efficiently browse and manage them as needed. Ideal for quickly previewing and selecting the right image for your project. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef/) { get; } | Gets the object size, in inches. |
 | [Title](../../aspose.imaging.fileformats.eps/epsimage/title/) { get; } | This property retrieves the title extracted from the EPS Document Structuring Conventions (DSC) comments embedded within the EPS file. It provides valuable metadata about the content of the EPS file, aiding in document organization and identification within compatible software applications. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | override [Width](../../aspose.imaging/vectorimage/width/) { get; } | Gets the image width. |
 | override [WidthF](../../aspose.imaging.fileformats.eps/epsimage/widthf/) { get; } | Retrieve the width of the image with this convenient property. Obtain the image's width effortlessly, facilitating precise layout calculations, scaling operations, and dimension-related tasks within your application. Ideal for ensuring accurate rendering and display of images across various platforms and devices. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
@@ -82,7 +82,7 @@ public sealed class EpsImage : VectorImage
 | override [Rotate](../../aspose.imaging/vectorimage/rotate/)(float) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/vectorimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |

@@ -3,7 +3,7 @@ title: GifFrameBlock.Left
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock property. Gets or sets the left image location
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/left/
 ---
 ## GifFrameBlock.Left property

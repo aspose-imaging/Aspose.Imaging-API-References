@@ -18,7 +18,7 @@ public abstract class Image : DataStreamSupporter, IMetadataContainer, IObjectWi
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](./isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | abstract [BitsPerPixel](../../aspose.imaging/image/bitsperpixel/) { get; } | Gets the image bits per pixel count. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -27,15 +27,15 @@ public abstract class Image : DataStreamSupporter, IMetadataContainer, IObjectWi
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
-| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets a value of file format |
+| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets the file format. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | abstract [Height](../../aspose.imaging/image/height/) { get; } | Gets the image height. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | abstract [IsCached](../../aspose.imaging/datastreamsupporter/iscached/) { get; } | Gets a value indicating whether object's data is cached currently and no data reading is required. |
+| virtual [IsIndexed](../../aspose.imaging/image/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
-| virtual [UsePalette](../../aspose.imaging/image/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | abstract [Width](../../aspose.imaging/image/width/) { get; } | Gets the image width. |
 | [XmpData](../../aspose.imaging/image/xmpdata/) { get; set; } | Gets or sets the Xmp data. |
 
@@ -75,7 +75,7 @@ public abstract class Image : DataStreamSupporter, IMetadataContainer, IObjectWi
 | virtual [Rotate](../../aspose.imaging/image/rotate/)(float) | Rotate image around the center. |
 | abstract [RotateFlip](../../aspose.imaging/image/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/#save)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/#save_4)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/#save_2)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |
@@ -104,7 +104,7 @@ Determine if the palette is used by the image.
 
 using (var image = Image.Load(folder + "Sample.bmp"))
 {
-    if (image.UsePalette)
+    if (image.IsIndexed)
     {
         Console.WriteLine("The palette is used by the image");
     }

@@ -1,23 +1,30 @@
 ---
 title: GifImage.GifImage
 second_title: Aspose.Imaging for .NET API Reference
-description: GifImage constructor. Initiate a new GifImage object with specified parameters for the first frame and global palette. Start managing GIF images swiftly ensuring accurate representation with customizable settings for optimal results
+description: GifImage constructor. Get started effortlessly with the GifImage constructor. With this simple method you can dive into creating animated GIFs with ease. Just supply the firstFrame globalPalette paletteColorResolution aspectRatio and other parameters and youre ready to bring your visuals to life
 type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.gif/gifimage/gifimage/
 ---
-## GifImage(GifFrameBlock, IColorPalette) {#constructor_1}
+## GifImage constructor
 
-Initiate a new [`GifImage`](../) object with specified parameters for the first frame and global palette. Start managing GIF images swiftly, ensuring accurate representation with customizable settings for optimal results.
+Get started effortlessly with the [`GifImage`](../) constructor. With this simple method, you can dive into creating animated GIFs with ease. Just supply the firstFrame, globalPalette, paletteColorResolution, aspectRatio, and other parameters, and you're ready to bring your visuals to life.
 
 ```csharp
-public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
+public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette = null, 
+    bool isPaletteSorted = false, byte paletteColorResolution = 0, 
+    byte paletteBackgroundColorIndex = 0, byte aspectRatio = 0, bool hasTrailer = true)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | firstFrame | GifFrameBlock | The first frame to initialize gif image with. |
 | globalPalette | IColorPalette | The global palette to use. Note if both *firstFrame* and *globalPalette* are null then default global palette is used. |
+| isPaletteSorted | Boolean | if set to `true` the palette is sorted. Note the parameter is used when *globalPalette* is not null. |
+| paletteColorResolution | Byte | The palette color resolution. Note the parameter is used when *globalPalette* is not null. |
+| paletteBackgroundColorIndex | Byte | The palette background color index. |
+| aspectRatio | Byte | The aspect ratio. |
+| hasTrailer | Boolean | if set to `true` the gif image has trailer otherwise no trailer written at the end of the stream. |
 
 ### Exceptions
 
@@ -28,6 +35,28 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 | [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ## Examples
+
+This example shows how to create a GIF image and save it to a file.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Create a GIF Frame block of 100x100 px.
+using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
+{
+    // Fill the entire block in red.
+    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    gr.FillRectangle(brush, firstBlock.Bounds);
+
+    using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
+    {
+        gifImage.Save(dir + "output.gif");
+    }
+}
+```
 
 This example shows how to create a GIF image with a custom palette and save it to a file.
 
@@ -48,60 +77,6 @@ using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspo
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.Create4Bit();
 
     using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock, palette))
-    {
-        gifImage.Save(dir + "output.gif");
-    }
-}
-```
-
-### See Also
-
-* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock/)
-* interface [IColorPalette](../../../aspose.imaging/icolorpalette/)
-* class [GifImage](../)
-* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## GifImage(GifFrameBlock) {#constructor}
-
-Crafting GIF images becomes effortless with the [`GifImage`](../) constructor. With just the firstFrame parameter, it enters in a world of dynamic visual communication.
-
-```csharp
-public GifImage(GifFrameBlock firstFrame)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| firstFrame | GifFrameBlock | The first frame to initialize gif image with. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | The *firstFrame* cannot be null |
-| ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The palette specified must contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
-
-## Examples
-
-This example shows how to create a GIF image and save it to a file.
-
-```csharp
-[C#]
-
-string dir = "c:\\temp\\";
-
-// Create a GIF Frame block of 100x100 px.
-using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
-{
-    // Fill the entire block in red.
-    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
-    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
-    gr.FillRectangle(brush, firstBlock.Bounds);
-
-    using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
     {
         gifImage.Save(dir + "output.gif");
     }
@@ -152,43 +127,6 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
     gifImage.Save(dir + "animated_radar.gif");
 }
 ```
-
-### See Also
-
-* class [GifFrameBlock](../../../aspose.imaging.fileformats.gif.blocks/gifframeblock/)
-* class [GifImage](../)
-* namespace [Aspose.Imaging.FileFormats.Gif](../../gifimage/)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## GifImage(GifFrameBlock, IColorPalette, bool, byte, byte, byte, bool) {#constructor_2}
-
-Get started effortlessly with the [`GifImage`](../) constructor. With this simple method, you can dive into creating animated GIFs with ease. Just supply the firstFrame, globalPalette, paletteColorResolution, aspectRatio, and other parameters, and you're ready to bring your visuals to life.
-
-```csharp
-public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPaletteSorted, 
-    byte paletteColorResolution, byte paletteBackgroundColorIndex, byte aspectRatio, 
-    bool hasTrailer)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| firstFrame | GifFrameBlock | The first frame to initialize gif image with. |
-| globalPalette | IColorPalette | The global palette to use. Note if both *firstFrame* and *globalPalette* are null then default global palette is used. |
-| isPaletteSorted | Boolean | if set to `true` the palette is sorted. Note the parameter is used when *globalPalette* is not null. |
-| paletteColorResolution | Byte | The palette color resolution. Note the parameter is used when *globalPalette* is not null. |
-| paletteBackgroundColorIndex | Byte | The palette background color index. |
-| aspectRatio | Byte | The aspect ratio. |
-| hasTrailer | Boolean | if set to `true` the gif image has trailer otherwise no trailer written at the end of the stream. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | The *firstFrame* cannot be null |
-| ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception/) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ### See Also
 

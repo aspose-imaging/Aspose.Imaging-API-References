@@ -3,7 +3,7 @@ title: RasterImage.RawIndexedColorConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets the indexed color converter
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/rasterimage/rawindexedcolorconverter/
 ---
 ## RasterImage.RawIndexedColorConverter property

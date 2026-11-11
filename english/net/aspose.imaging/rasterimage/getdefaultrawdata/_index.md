@@ -3,7 +3,7 @@ title: RasterImage.GetDefaultRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Gets the default raw data array using partial pixel loader
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.imaging/rasterimage/getdefaultrawdata/
 ---
 ## GetDefaultRawData(Rectangle, IPartialRawDataLoader, RawDataSettings) {#getdefaultrawdata_1}

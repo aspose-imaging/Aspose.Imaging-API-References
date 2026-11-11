@@ -3,7 +3,7 @@ title: RasterImage.PremultiplyComponents
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage property. Gets or sets a value indicating whether the image components must be premultiplied
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/rasterimage/premultiplycomponents/
 ---
 ## RasterImage.PremultiplyComponents property

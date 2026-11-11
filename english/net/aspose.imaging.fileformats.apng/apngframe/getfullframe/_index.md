@@ -3,7 +3,7 @@ title: ApngFrame.GetFullFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngFrame method. Gets the full frame
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.imaging.fileformats.apng/apngframe/getfullframe/
 ---
 ## ApngFrame.GetFullFrame method

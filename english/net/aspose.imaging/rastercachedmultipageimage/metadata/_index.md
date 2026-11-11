@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Metadata
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage property. Gets or sets XMP data from frame
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging/rastercachedmultipageimage/metadata/
 ---
 ## RasterCachedMultipageImage.Metadata property

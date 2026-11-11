@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.AdjustContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Image contrasting
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging/rastercachedmultipageimage/adjustcontrast/
 ---
 ## RasterCachedMultipageImage.AdjustContrast method

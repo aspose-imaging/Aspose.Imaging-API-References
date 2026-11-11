@@ -3,7 +3,7 @@ title: Enum PaletteMiningMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PaletteMiningMethod enum. The image palette mining method
 type: docs
-weight: 11250
+weight: 11260
 url: /net/aspose.imaging/paletteminingmethod/
 ---
 ## PaletteMiningMethod enumeration
@@ -18,9 +18,12 @@ public enum PaletteMiningMethod
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UseCurrentPalette | `0` | Use exisiting palette of the image |
+| UseCurrentPalette | `0` | Use existing palette of the image |
 | ColorClustering | `1` | The color clustering method |
 | Histogram | `2` | The histogram method |
+| Uniform | `3` | Uniform 256 bit palette. |
+| Downscale | `4` | Downscaled 256 bit palette. |
+| Popularity | `5` | Popularity. |
 
 ## Examples
 

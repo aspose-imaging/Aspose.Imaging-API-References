@@ -3,7 +3,7 @@ title: Class TimeFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Schemas.XmpDm.TimeFormat class. Represents time format in Timecode
 type: docs
-weight: 12050
+weight: 12060
 url: /net/aspose.imaging.xmp.schemas.xmpdm/timeformat/
 ---
 ## TimeFormat class

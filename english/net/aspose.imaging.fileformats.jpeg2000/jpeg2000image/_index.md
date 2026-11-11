@@ -32,7 +32,7 @@ public sealed class Jpeg2000Image : RasterCachedImage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.jpeg2000/jpeg2000image/bitsperpixel/) { get; } | This property returns the depth of the image, measured in bits per pixel (bpp). It indicates the amount of color information stored in each pixel of the image. Understanding the image depth is crucial for determining the color fidelity and quality of the image. With this information, users can gauge the level of detail and richness of colors present in the image. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -52,9 +52,10 @@ public sealed class Jpeg2000Image : RasterCachedImage
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
+| override [IsIndexed](../../aspose.imaging/rasterimage/isindexed/) { get; } | Gets a value indicating whether the image uses palette. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
 | override [RawDataFormat](../../aspose.imaging.fileformats.jpeg2000/jpeg2000image/rawdataformat/) { get; } | This property retrieves the raw data format of the image. It provides information about how the pixel data is stored in memory. Use this property to understand the underlying data format of the image, which can be crucial for various image processing operations like color conversion, compression, or decompression. |
@@ -65,7 +66,6 @@ public sealed class Jpeg2000Image : RasterCachedImage
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor/) { get; set; } | Gets the image transparent color. |
 | [UpdateModifiedDate](../../aspose.imaging/rasterimage/updatemodifieddate/) { get; set; } | Gets or sets a value indicating whether to update this [`Image`](../../aspose.imaging/image/) instance last modification datetime metadata on saving. Modified date related Metadata properties and internal image settings will be updated to the datetime of [`Save`](../../aspose.imaging/datastreamsupporter/save/) execution. |
-| override [UsePalette](../../aspose.imaging/rasterimage/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | override [VerticalResolution](../../aspose.imaging.fileformats.jpeg2000/jpeg2000image/verticalresolution/) { get; set; } | This property provides access to the vertical resolution of the [`RasterImage`](../../aspose.imaging/rasterimage/), measured in pixels per inch (PPI). Modifying this resolution can affect the quality and size of the image when printed or displayed. By adjusting the vertical resolution, users can optimize the image for different output devices or applications, ensuring optimal visual rendering. |
 | override [Width](../../aspose.imaging.fileformats.jpeg2000/jpeg2000image/width/) { get; } | This property returns the width of the image in pixels. It provides a fundamental piece of information about the image's dimensions, crucial for various image processing tasks, including resizing, cropping, and rendering. |
@@ -80,6 +80,12 @@ public sealed class Jpeg2000Image : RasterCachedImage
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image. |
+| virtual [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut, Rectangle) | Applies the specified 3D cube lookup table (LUT) to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -142,12 +148,12 @@ public sealed class Jpeg2000Image : RasterCachedImage
 | override [Rotate](../../aspose.imaging/rastercachedimage/rotate/)(float, bool, Color) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/rastercachedimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| [Save](../../aspose.imaging/rastercachedimage/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| override [Save](../../aspose.imaging/rasterimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| override [Save](../../aspose.imaging/rastercachedimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [SaveArgb32Pixels](../../aspose.imaging/rasterimage/saveargb32pixels/)(Rectangle, int[]) | Saves the 32-bit ARGB pixels. |
 | [SaveCmyk32Pixels](../../aspose.imaging/rasterimage/savecmyk32pixels/)(Rectangle, int[]) | Saves the pixels. |

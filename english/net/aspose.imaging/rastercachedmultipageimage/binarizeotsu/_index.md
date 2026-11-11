@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.BinarizeOtsu
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Binarization of an image with Otsu thresholding
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.imaging/rastercachedmultipageimage/binarizeotsu/
 ---
 ## RasterCachedMultipageImage.BinarizeOtsu method

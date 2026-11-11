@@ -3,7 +3,7 @@ title: Enum XmpValueType
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.Types.XmpValueType enum. XMP value type
 type: docs
-weight: 12380
+weight: 12390
 url: /net/aspose.imaging.xmp.types/xmpvaluetype/
 ---
 ## XmpValueType enumeration

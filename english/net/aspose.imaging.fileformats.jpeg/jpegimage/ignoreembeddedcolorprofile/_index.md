@@ -1,14 +1,14 @@
 ---
 title: JpegImage.IgnoreEmbeddedColorProfile
 second_title: Aspose.Imaging for .NET API Reference
-description: JpegImage property. Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management facilitating adjustments for consistency and compatibility across various platforms and applications
+description: JpegImage property. Gets or sets the value whether to ignore embedded CmykColorProfile or RgbColorProfile
 type: docs
 weight: 110
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/ignoreembeddedcolorprofile/
 ---
 ## JpegImage.IgnoreEmbeddedColorProfile property
 
-Retrieves or modifies the flag denoting whether the embedded color profile is disregarded. By setting this flag, users can specify whether the default color profile should be used instead of the embedded one. This option ensures greater control over color management, facilitating adjustments for consistency and compatibility across various platforms and applications.
+Gets or sets the value whether to ignore embedded [`CmykColorProfile`](../cmykcolorprofile/) or [`RgbColorProfile`](../rgbcolorprofile/).
 
 ```csharp
 public bool IgnoreEmbeddedColorProfile { get; set; }

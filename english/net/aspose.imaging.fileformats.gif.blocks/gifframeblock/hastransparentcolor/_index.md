@@ -3,7 +3,7 @@ title: GifFrameBlock.HasTransparentColor
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock property. Gets a value indicating whether frame block has transparent color
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/hastransparentcolor/
 ---
 ## GifFrameBlock.HasTransparentColor property

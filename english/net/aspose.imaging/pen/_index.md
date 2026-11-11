@@ -3,7 +3,7 @@ title: Class Pen
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Pen class. Defines an object used to draw lines curves and figures
 type: docs
-weight: 11270
+weight: 11280
 url: /net/aspose.imaging/pen/
 ---
 ## Pen class

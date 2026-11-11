@@ -36,6 +36,7 @@ protected enum ImageOperation
 | AdjustGamma | `15` | Adjust gamma operation |
 | Rotate | `16` | Rotate operation |
 | RotateFlip | `17` | Rotate flip operation |
+| ApplyCubeLut | `18` | The apply cube lut |
 
 ### See Also
 

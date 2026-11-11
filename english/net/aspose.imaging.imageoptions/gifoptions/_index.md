@@ -25,23 +25,23 @@ public class GifOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
+| [AlphaThreshold](../../aspose.imaging.imageoptions/gifoptions/alphathreshold/) { get; set; } | Gets or sets the alpha threshold. |
 | [BackgroundColor](../../aspose.imaging.imageoptions/gifoptions/backgroundcolor/) { get; set; } | Gets or sets the background color. |
 | [BackgroundColorIndex](../../aspose.imaging.imageoptions/gifoptions/backgroundcolorindex/) { get; set; } | Gets or sets the GIF background color index. |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint/) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [ColorResolution](../../aspose.imaging.imageoptions/gifoptions/colorresolution/) { get; set; } | Gets or sets the GIF color resolution. |
+| [ColorResolution](../../aspose.imaging.imageoptions/gifoptions/colorresolution/) { get; set; } | Gets or sets the GIF color resolution. Allowed range: 1-7. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
-| [DoPaletteCorrection](../../aspose.imaging.imageoptions/gifoptions/dopalettecorrection/) { get; set; } | Gets or sets a value indicating whether palette correction is applied. |
 | virtual [ExifData](../../aspose.imaging/imageoptionsbase/exifdata/) { get; set; } | Gets or sets the Exif data. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe/) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [HasTrailer](../../aspose.imaging.imageoptions/gifoptions/hastrailer/) { get; set; } | Gets or sets a value indicating whether GIF has trailer. |
 | [HasTransparentColor](../../aspose.imaging.imageoptions/gifoptions/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether a GIF image has transparent color. If the return value is `null`, this property is overridden by the source image context. |
-| [Interlaced](../../aspose.imaging.imageoptions/gifoptions/interlaced/) { get; set; } | True if image should be interlaced. |
+| [IsInterlaced](../../aspose.imaging.imageoptions/gifoptions/isinterlaced/) { get; set; } | Gets or sets a value whether to interlace image. |
 | [IsPaletteSorted](../../aspose.imaging.imageoptions/gifoptions/ispalettesorted/) { get; set; } | Gets or sets a value indicating whether palette entries are sorted. |
 | [KeepMetadata](../../aspose.imaging/imageoptionsbase/keepmetadata/) { get; set; } | Gets a value whether to keep the original image metadata on export. |
-| [LoopsCount](../../aspose.imaging.imageoptions/gifoptions/loopscount/) { get; set; } | Gets or sets the loops count (Default 1 loop) |
-| [MaxDiff](../../aspose.imaging.imageoptions/gifoptions/maxdiff/) { get; set; } | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000]. |
+| [LoopCount](../../aspose.imaging.imageoptions/gifoptions/loopcount/) { get; set; } | Gets or sets the animation loop count. Default is 1, 0 for infinite looping. |
+| [MaxDiff](../../aspose.imaging.imageoptions/gifoptions/maxdiff/) { get; set; } | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. The allowed range of is [0, 1000]. Optimal value is below 200. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions/) { get; set; } | The multipage options |
-| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette/) { get; set; } | Gets or sets the color palette. |
+| override [Palette](../../aspose.imaging.imageoptions/gifoptions/palette/) { get; set; } | Gets or sets the color palette. Maximum palette length is 256. [`ColorResolution`](./colorresolution/) will be overwritten when less than Ceiling(Log2(paletteLength))). |
 | [PixelAspectRatio](../../aspose.imaging.imageoptions/gifoptions/pixelaspectratio/) { get; set; } | Gets or sets the GIF pixel aspect ratio. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler/) { get; set; } | Gets or sets the progress event handler. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings/) { get; set; } | Gets or sets the resolution settings. |

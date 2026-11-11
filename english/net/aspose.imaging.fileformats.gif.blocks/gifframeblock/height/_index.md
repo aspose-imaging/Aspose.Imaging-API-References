@@ -3,7 +3,7 @@ title: GifFrameBlock.Height
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock property. Gets the image height
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/height/
 ---
 ## GifFrameBlock.Height property

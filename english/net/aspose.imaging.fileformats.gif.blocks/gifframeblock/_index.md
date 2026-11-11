@@ -37,7 +37,7 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | override [BackgroundColor](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/bitsperpixel/) { get; } | Gets the image bits per pixel count. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -53,22 +53,21 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | [FrameLeft](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/frameleft/) { get; } | Gets the left. |
 | [FrameTime](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/frametime/) { get; set; } | Gets or sets the duration. |
 | [FrameTop](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/frametop/) { get; } | Converts to p. |
-| [GifFrameBitsPerPixel](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/gifframebitsperpixel/) { get; set; } | Gets or sets the GIF frame bits per pixel. |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [HasTransparentColor](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/hastransparentcolor/) { get; set; } | Gets a value indicating whether frame block has transparent color. |
 | override [Height](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/height/) { get; } | Gets the image height. |
 | virtual [HorizontalResolution](../../aspose.imaging/rasterimage/horizontalresolution/) { get; set; } | Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity/) { get; } | Gets opacity of this image. |
-| [Interlaced](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/interlaced/) { get; set; } | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
-| [IsInterlaced](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/isinterlaced/) { get; } | Gets a value indicating whether this image instance is interlaced. |
+| override [IsIndexed](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
+| [IsInterlaced](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/isinterlaced/) { get; set; } | Gets or sets a value indicating whether this `GifFrameBlock` is interlaced. |
 | [IsPaletteSorted](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/ispalettesorted/) { get; set; } | Gets or sets a value indicating whether color palette is sorted. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
 | [Left](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/left/) { get; set; } | Gets or sets the left image location. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| override [Palette](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/palette/) { get; set; } | Gets or sets the image palette. GIF frame may have a global from [`Container`](../../aspose.imaging/image/container/) or local palette. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
 | virtual [RawDataFormat](../../aspose.imaging/rasterimage/rawdataformat/) { get; } | Gets the raw data format. |
@@ -81,7 +80,6 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | override [TransparentColor](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/transparentcolor/) { get; set; } | Gets the transparent color of frame block. |
 | [UpdateModifiedDate](../../aspose.imaging/rasterimage/updatemodifieddate/) { get; set; } | Gets or sets a value indicating whether to update this [`Image`](../../aspose.imaging/image/) instance last modification datetime metadata on saving. Modified date related Metadata properties and internal image settings will be updated to the datetime of [`Save`](../../aspose.imaging/datastreamsupporter/save/) execution. |
 | [UseAlphaBlending](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/usealphablending/) { get; } | Gets a value indicating whether [use alpha blending]. |
-| override [UsePalette](../../aspose.imaging/rasterimage/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/width/) { get; } | Gets the image width. |
@@ -91,11 +89,17 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 
 | Name | Description |
 | --- | --- |
-| override [AdjustBrightness](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/adjustbrightness/)(int) | Adjust of a brightness for image. |
+| override [AdjustBrightness](../../aspose.imaging/rastercachedimage/adjustbrightness/)(int) | Adjust of a brightness for image. |
 | override [AdjustContrast](../../aspose.imaging/rastercachedimage/adjustcontrast/)(float) | Image contrasting |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image. |
+| virtual [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut, Rectangle) | Applies the specified 3D cube lookup table (LUT) to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -156,15 +160,15 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ImageResizeSettings) | Resizes the width proportionally. |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally/)(int, ResizeType) | Resizes the width proportionally. |
 | override [Rotate](../../aspose.imaging/rasterimage/rotate/)(float) | Rotate image around the center. |
-| override [Rotate](../../aspose.imaging/rastercachedimage/rotate/)(float, bool, Color) | Rotate image around the center. |
+| override [Rotate](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/rotate/#rotate_1)(float, bool, Color) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/rastercachedimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| [Save](../../aspose.imaging/rastercachedimage/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| override [Save](../../aspose.imaging/rasterimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| override [Save](../../aspose.imaging/rastercachedimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [SaveArgb32Pixels](../../aspose.imaging/rasterimage/saveargb32pixels/)(Rectangle, int[]) | Saves the 32-bit ARGB pixels. |
 | [SaveCmyk32Pixels](../../aspose.imaging/rasterimage/savecmyk32pixels/)(Rectangle, int[]) | Saves the pixels. |
@@ -179,7 +183,6 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline/)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline/)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 | static [CreateFlags](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/createflags/)(IColorPalette, bool, bool) | Creates the flags. |
-| static [GetColorPalette](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/getcolorpalette/)(IColorPalette, IColorPalette) | Gets the associated color palette. |
 
 ## Fields
 

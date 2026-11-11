@@ -1,14 +1,14 @@
 ---
 title: StreamSource.StreamSource
 second_title: Aspose.Imaging for .NET API Reference
-description: StreamSource constructor. Initializes a new instance of the StreamSource class
+description: StreamSource constructor. Initializes a new instance of the StreamSource class with a new MemoryStream
 type: docs
 weight: 10
 url: /net/aspose.imaging.sources/streamsource/streamsource/
 ---
 ## StreamSource() {#constructor}
 
-Initializes a new instance of the [`StreamSource`](../) class.
+Initializes a new instance of the [`StreamSource`](../) class with a new MemoryStream.
 
 ```csharp
 public StreamSource()

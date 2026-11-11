@@ -3,7 +3,7 @@ title: Image.Metadata
 second_title: Aspose.Imaging for .NET API Reference
 description: Image property. Gets the image metadata
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.imaging/image/metadata/
 ---
 ## Image.Metadata property

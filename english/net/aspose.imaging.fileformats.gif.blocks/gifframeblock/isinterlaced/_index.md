@@ -1,22 +1,18 @@
 ---
 title: GifFrameBlock.IsInterlaced
 second_title: Aspose.Imaging for .NET API Reference
-description: GifFrameBlock property. Gets a value indicating whether this image instance is interlaced
+description: GifFrameBlock property. Gets or sets a value indicating whether this GifFrameBlock is interlaced
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/isinterlaced/
 ---
 ## GifFrameBlock.IsInterlaced property
 
-Gets a value indicating whether this image instance is interlaced.
+Gets or sets a value indicating whether this [`GifFrameBlock`](../) is interlaced.
 
 ```csharp
-public bool IsInterlaced { get; }
+public bool IsInterlaced { get; set; }
 ```
-
-### Property Value
-
-`true` if this image instance is interlaced; otherwise, `false`.
 
 ### See Also
 

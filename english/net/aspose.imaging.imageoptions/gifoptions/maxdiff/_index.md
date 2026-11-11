@@ -1,18 +1,24 @@
 ---
 title: GifOptions.MaxDiff
 second_title: Aspose.Imaging for .NET API Reference
-description: GifOptions property. Gets or sets the maximum allowed pixel difference. If greater than zero lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression 200 is heavy. It works best when only little loss is introduced and due to limitation of the compression algorithm very high loss levels wont give as much gain. The range of allowed values is 0 1000
+description: GifOptions property. Gets or sets the maximum allowed pixel difference. If greater than zero lossy compression will be used. The allowed range of is 0 1000. Optimal value is below 200
 type: docs
 weight: 110
 url: /net/aspose.imaging.imageoptions/gifoptions/maxdiff/
 ---
 ## GifOptions.MaxDiff property
 
-Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy. It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain. The range of allowed values is [0, 1000].
+Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used. The allowed range of is [0, 1000]. Optimal value is below 200.
 
 ```csharp
 public int MaxDiff { get; set; }
 ```
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | ArgumentOutOfRangeException |
 
 ## Examples
 
@@ -40,14 +46,10 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
     // The number of bits required to store a color, minus 1.
     saveOptions.ColorResolution = 7;
 
-    // Palette correction means that whenever image is exported to GIF the source image colors will be analyzed
-    // in order to build the best matching palette (in case image Palette does not exist or not specified in the options)
-    saveOptions.DoPaletteCorrection = true;
-
     // Load a GIF image in a progressive way.
     // An interlaced GIF doesn't display its scanlines linearly from top to bottom, but instead reorders it
     // so the content of the GIF becomes clear even before it finishes loading.
-    saveOptions.Interlaced = true;
+    saveOptions.IsInterlaced = true;
 
     // Save as a lossless GIF.
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.gif"))

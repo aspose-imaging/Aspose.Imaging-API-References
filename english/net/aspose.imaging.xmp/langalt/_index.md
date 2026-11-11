@@ -3,7 +3,7 @@ title: Class LangAlt
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Xmp.LangAlt class. Represents XMP Language Alternative
 type: docs
-weight: 11910
+weight: 11920
 url: /net/aspose.imaging.xmp/langalt/
 ---
 ## LangAlt class

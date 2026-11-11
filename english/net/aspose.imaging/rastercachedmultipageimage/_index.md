@@ -3,7 +3,7 @@ title: Class RasterCachedMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.RasterCachedMultipageImage class. The raster multipage image
 type: docs
-weight: 11390
+weight: 11400
 url: /net/aspose.imaging/rastercachedmultipageimage/
 ---
 ## RasterCachedMultipageImage class
@@ -18,7 +18,7 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../image/isindexed/) is `false`. |
 | override [BackgroundColor](../../aspose.imaging/rastercachedmultipageimage/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging/rastercachedmultipageimage/bitsperpixel/) { get; } | Gets the image bits per pixel count. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -27,7 +27,7 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
-| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets a value of file format |
+| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets the file format. |
 | override [HasAlpha](../../aspose.imaging/rastercachedmultipageimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor/) { get; } | Gets a value indicating whether the image has a transparent color. |
@@ -36,12 +36,13 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | override [ImageOpacity](../../aspose.imaging/rastercachedmultipageimage/imageopacity/) { get; } | Gets opacity of this image. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedmultipageimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
+| override [IsIndexed](../../aspose.imaging/rastercachedmultipageimage/isindexed/) { get; } | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
 | override [Metadata](../../aspose.imaging/rastercachedmultipageimage/metadata/) { get; } | Gets or sets XMP data from frame. |
 | abstract [PageCount](../../aspose.imaging/rastercachedmultipageimage/pagecount/) { get; } | Gets the page count. |
 | virtual [PageExportingAction](../../aspose.imaging/rastercachedmultipageimage/pageexportingaction/) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | abstract [Pages](../../aspose.imaging/rastercachedmultipageimage/pages/) { get; } | Gets the pages. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
 | virtual [RawDataFormat](../../aspose.imaging/rasterimage/rawdataformat/) { get; } | Gets the raw data format. |
@@ -52,7 +53,6 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | [Size](../../aspose.imaging/image/size/) { get; } | Gets the image size. |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor/) { get; set; } | Gets the image transparent color. |
 | [UpdateModifiedDate](../../aspose.imaging/rasterimage/updatemodifieddate/) { get; set; } | Gets or sets a value indicating whether to update this [`Image`](../image/) instance last modification datetime metadata on saving. Modified date related Metadata properties and internal image settings will be updated to the datetime of [`Save`](../datastreamsupporter/save/) execution. |
-| override [UsePalette](../../aspose.imaging/rasterimage/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../rasterimage/). |
 | override [Width](../../aspose.imaging/rastercachedmultipageimage/width/) { get; } | Gets the image width. |
@@ -67,6 +67,12 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | override [AdjustGamma](../../aspose.imaging/rastercachedmultipageimage/adjustgamma/#adjustgamma)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedmultipageimage/adjustgamma/#adjustgamma_1)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedmultipageimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image. |
+| override [ApplyCubeLut](../../aspose.imaging/rastercachedmultipageimage/applycubelut/#applycubelut_1)(CubeLut, Rectangle) | Applies the specified [`CubeLut`](../../aspose.imaging.lut.cubelut/cubelut/) to each page of the image within the given *bounds*. The operation is performed in parallel across all pages to improve performance. For each page, the method loads the ARGB32 pixel data for the specified rectangle, applies the LUT processor in-place, and then saves the modified pixel data back to the page. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedmultipageimage/binarizebradley/#binarizebradley)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -129,12 +135,12 @@ public abstract class RasterCachedMultipageImage : RasterCachedImage, IMultipage
 | override [Rotate](../../aspose.imaging/rastercachedmultipageimage/rotate/#rotate_1)(float, bool, Color) | [`Rotate`](./rotate/) image around the center. |
 | override [RotateFlip](../../aspose.imaging/rastercachedmultipageimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips all pages. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| [Save](../../aspose.imaging/rastercachedimage/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| override [Save](../../aspose.imaging/rasterimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| override [Save](../../aspose.imaging/rastercachedimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [SaveArgb32Pixels](../../aspose.imaging/rasterimage/saveargb32pixels/)(Rectangle, int[]) | Saves the 32-bit ARGB pixels. |
 | [SaveCmyk32Pixels](../../aspose.imaging/rasterimage/savecmyk32pixels/)(Rectangle, int[]) | Saves the pixels. |

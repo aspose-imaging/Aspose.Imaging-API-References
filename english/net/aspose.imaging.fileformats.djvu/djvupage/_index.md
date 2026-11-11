@@ -18,7 +18,7 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether automatic adjust palette. |
+| [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette/) { get; set; } | Gets or sets a value indicating whether to re-generate the image palette after applying graphics effects or modifications like resizing, filtering etc. Applies only to the images supporting the color palette: Gif, Png, Apng, Tiff, BigTiff. Effectively returns `false`, if [`IsIndexed`](../../aspose.imaging/image/isindexed/) is `false`. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor/) { get; set; } | Gets or sets a value for the background color. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.djvu/djvupage/bitsperpixel/) { get; } | Gets the image bits per pixel count. |
 | [Bounds](../../aspose.imaging/image/bounds/) { get; } | Gets the image bounds. |
@@ -27,7 +27,7 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer/) { get; } | Gets the object's data stream. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed/) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging/image/exifdata/) { get; set; } | Gets or sets the Exif data. |
-| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets a value of file format |
+| virtual [FileFormat](../../aspose.imaging/image/fileformat/) { get; } | Gets the file format. |
 | virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha/) { get; } | Gets a value indicating whether this instance has alpha. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor/) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor/) { get; set; } | Gets or sets a value indicating whether this [`RasterImage`](../../aspose.imaging/rasterimage/) instance has a transparent color. |
@@ -38,10 +38,11 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor/) { get; set; } | Gets or sets the interrupt monitor. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached/) { get; } | Gets a value indicating whether image data is cached currently. |
 | [IsColor](../../aspose.imaging.fileformats.djvu/djvupage/iscolor/) { get; } | Gets a value indicating whether this instance is color. |
+| override [IsIndexed](../../aspose.imaging/rasterimage/isindexed/) { get; } | Gets a value indicating whether the image uses palette. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable/) { get; } | Gets a value indicating whether raw data loading is available. |
 | virtual [Metadata](../../aspose.imaging/image/metadata/) { get; } | Gets the image metadata. |
 | [PageNumber](../../aspose.imaging.fileformats.djvu/djvupage/pagenumber/) { get; } | Gets the page number. |
-| [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| virtual [Palette](../../aspose.imaging/image/palette/) { get; set; } | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | [ParentImage](../../aspose.imaging.fileformats.djvu/djvupage/parentimage/) { get; } | Gets the parent image the page belongs to |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents/) { get; set; } | Gets or sets a value indicating whether the image components must be premultiplied. |
 | [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter/) { get; set; } | Gets or sets the custom color converter |
@@ -54,7 +55,6 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | [ThumbnailImage](../../aspose.imaging.fileformats.djvu/djvupage/thumbnailimage/) { get; set; } | Gets or sets the thumbnail image for the page |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor/) { get; set; } | Gets the image transparent color. |
 | [UpdateModifiedDate](../../aspose.imaging/rasterimage/updatemodifieddate/) { get; set; } | Gets or sets a value indicating whether to update this [`Image`](../../aspose.imaging/image/) instance last modification datetime metadata on saving. Modified date related Metadata properties and internal image settings will be updated to the datetime of [`Save`](../../aspose.imaging/datastreamsupporter/save/) execution. |
-| override [UsePalette](../../aspose.imaging/rasterimage/usepalette/) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata/) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution/) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage/). |
 | override [Width](../../aspose.imaging.fileformats.djvu/djvupage/width/) { get; } | Gets the width of the page |
@@ -69,6 +69,12 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float) | Gamma-correction of an image. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma/)(float, float, float) | Gamma-correction of an image. |
 | override [AnalyzePercentageDigitalSignature](../../aspose.imaging/rastercachedimage/analyzepercentagedigitalsignature/)(string) | Calculates the percentage similarity between the extracted data and the original password. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the entire image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the entire image. |
+| virtual [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(CubeLut, Rectangle) | Applies the specified 3D cube lookup table (LUT) to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(Stream, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified stream to the pixels within the specified bounds of the image. |
+| [ApplyCubeLut](../../aspose.imaging/rasterimage/applycubelut/)(string, Rectangle) | Applies a 3D cube lookup table (LUT) loaded from the specified file to the pixels within the specified bounds of the image. |
 | override [AutoBrightnessContrast](../../aspose.imaging/rastercachedimage/autobrightnesscontrast/)() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
 | [AutoRotate](../../aspose.imaging/rasterimage/autorotate/)() | Automatically rotates the image based on orientation data extracted from Exif metadata. This method ensures that images are displayed in the correct orientation, enhancing user experience and eliminating the need for manual adjustments. By analyzing Exif information, the image is rotated accordingly, providing a seamless viewing experience across different platforms and devices. This automated rotation process simplifies image handling and improves overall usability, especially when dealing with large batches of images with varying orientations. |
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley/)(double) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
@@ -136,12 +142,12 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | override [Rotate](../../aspose.imaging/rastercachedimage/rotate/)(float, bool, Color) | Rotate image around the center. |
 | override [RotateFlip](../../aspose.imaging/rastercachedimage/rotateflip/)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |
 | [Save](../../aspose.imaging/image/save/)() | Saves the image data to the underlying stream. |
-| [Save](../../aspose.imaging/datastreamsupporter/save/)(Stream) | Saves the object's data to the specified stream. |
+| [Save](../../aspose.imaging/rastercachedimage/save/)(Stream) | Saves the object's data to the specified stream. |
 | override [Save](../../aspose.imaging/image/save/)(string) | Saves the image to the specified file location. |
 | [Save](../../aspose.imaging/image/save/)(Stream, ImageOptionsBase) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save/)(string, bool) | Saves the object's data to the specified file location. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| override [Save](../../aspose.imaging/rasterimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| override [Save](../../aspose.imaging/rastercachedimage/save/)(Stream, ImageOptionsBase, Rectangle) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | virtual [Save](../../aspose.imaging/image/save/)(string, ImageOptionsBase, Rectangle) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [SaveArgb32Pixels](../../aspose.imaging/rasterimage/saveargb32pixels/)(Rectangle, int[]) | Saves the 32-bit ARGB pixels. |
 | [SaveCmyk32Pixels](../../aspose.imaging/rasterimage/savecmyk32pixels/)(Rectangle, int[]) | Saves the pixels. |

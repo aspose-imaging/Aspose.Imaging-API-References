@@ -1,22 +1,18 @@
 ---
 title: PngOptions.Progressive
 second_title: Aspose.Imaging for .NET API Reference
-description: PngOptions property. Gets or sets a value indicating whether a PngImage is progressive
+description: PngOptions property. Gets or sets a value indicating whether a PngImage is progressive. Mirrors IsInterlaced
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.imageoptions/pngoptions/progressive/
 ---
 ## PngOptions.Progressive property
 
-Gets or sets a value indicating whether a [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage/) is progressive.
+Gets or sets a value indicating whether a [`PngImage`](../../../aspose.imaging.fileformats.png/pngimage/) is progressive. Mirrors [`IsInterlaced`](../isinterlaced/).
 
 ```csharp
 public bool Progressive { get; set; }
 ```
-
-### Property Value
-
-`true` if progressive; otherwise, `false`.
 
 ## Examples
 

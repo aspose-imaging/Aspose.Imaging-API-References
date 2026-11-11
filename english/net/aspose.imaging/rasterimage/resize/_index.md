@@ -3,7 +3,7 @@ title: RasterImage.Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterImage method. Resizes the image with extended options
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.imaging/rasterimage/resize/
 ---
 ## RasterImage.Resize method

@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage.Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: RasterCachedMultipageImage method. Performs dithering on the current image
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.imaging/rastercachedmultipageimage/dither/
 ---
 ## RasterCachedMultipageImage.Dither method

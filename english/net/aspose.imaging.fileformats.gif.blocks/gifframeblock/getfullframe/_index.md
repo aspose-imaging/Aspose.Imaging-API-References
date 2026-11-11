@@ -3,7 +3,7 @@ title: GifFrameBlock.GetFullFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: GifFrameBlock method. Gets the full frame
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/getfullframe/
 ---
 ## GifFrameBlock.GetFullFrame method

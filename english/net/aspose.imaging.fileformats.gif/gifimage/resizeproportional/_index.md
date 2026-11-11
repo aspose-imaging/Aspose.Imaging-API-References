@@ -1,14 +1,14 @@
 ---
 title: GifImage.ResizeProportional
 second_title: Aspose.Imaging for .NET API Reference
-description: GifImage method. Proportional resizing maintains the aspect ratio of the image while adjusting its size ensuring that the image does not appear stretched or distorted. This method resizes the image proportionally scaling both the width and height by the same factor. The proportional resize will resize each frame according to the ratio of newWidth/width and newHeight/height
+description: GifImage method. Resizes the GIF canvas and all frames to the specified size. Each frame is composited onto the animation canvas before resampling so frame offsets and partialframe layout stay consistent with the new canvas
 type: docs
 weight: 380
 url: /net/aspose.imaging.fileformats.gif/gifimage/resizeproportional/
 ---
 ## GifImage.ResizeProportional method
 
-Proportional resizing maintains the aspect ratio of the image while adjusting its size, ensuring that the image does not appear stretched or distorted. This method resizes the image proportionally, scaling both the width and height by the same factor. The proportional resize will resize each frame according to the ratio of *newWidth*/width and *newHeight*/height.
+Resizes the GIF canvas and all frames to the specified size. Each frame is composited onto the animation canvas before resampling, so frame offsets and partial-frame layout stay consistent with the new canvas.
 
 ```csharp
 public void ResizeProportional(int newWidth, int newHeight, ResizeType resizeType)

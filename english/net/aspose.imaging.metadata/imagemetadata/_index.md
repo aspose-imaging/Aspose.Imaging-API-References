@@ -3,7 +3,7 @@ title: Class ImageMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.Metadata.ImageMetadata class. Image meta data class
 type: docs
-weight: 11150
+weight: 11160
 url: /net/aspose.imaging.metadata/imagemetadata/
 ---
 ## ImageMetadata class

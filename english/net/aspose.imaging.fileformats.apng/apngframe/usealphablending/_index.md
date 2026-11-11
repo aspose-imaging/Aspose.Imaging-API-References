@@ -3,7 +3,7 @@ title: ApngFrame.UseAlphaBlending
 second_title: Aspose.Imaging for .NET API Reference
 description: ApngFrame property. Gets a value indicating whether use alpha blending
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.imaging.fileformats.apng/apngframe/usealphablending/
 ---
 ## ApngFrame.UseAlphaBlending property

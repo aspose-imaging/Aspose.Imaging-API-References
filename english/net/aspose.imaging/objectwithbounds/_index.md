@@ -3,7 +3,7 @@ title: Class ObjectWithBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.ObjectWithBounds class. The object having bounds
 type: docs
-weight: 11210
+weight: 11220
 url: /net/aspose.imaging/objectwithbounds/
 ---
 ## ObjectWithBounds class

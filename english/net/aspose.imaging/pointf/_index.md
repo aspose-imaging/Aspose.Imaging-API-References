@@ -3,7 +3,7 @@ title: Struct PointF
 second_title: Aspose.Imaging for .NET API Reference
 description: Aspose.Imaging.PointF struct. Represents an ordered pair of floatingpoint x and ycoordinates that defines a point in a twodimensional plane
 type: docs
-weight: 11330
+weight: 11340
 url: /net/aspose.imaging/pointf/
 ---
 ## PointF structure

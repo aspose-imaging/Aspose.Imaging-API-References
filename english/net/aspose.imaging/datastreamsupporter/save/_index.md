@@ -27,7 +27,7 @@ public virtual void Save()
 Saves the object's data to the specified stream.
 
 ```csharp
-public void Save(Stream stream)
+public virtual void Save(Stream stream)
 ```
 
 | Parameter | Type | Description |

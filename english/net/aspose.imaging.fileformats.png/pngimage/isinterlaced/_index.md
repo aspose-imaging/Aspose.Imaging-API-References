@@ -1,22 +1,18 @@
 ---
 title: PngImage.IsInterlaced
 second_title: Aspose.Imaging for .NET API Reference
-description: PngImage property. Returns a boolean value indicating if the image instance is interlaced. This property is crucial for optimizing loading strategies and ensuring efficient performance during image processing or display tasks
+description: PngImage property. Retrieves a boolean value indicating whether the PngImage is interlaced which determines if the image data is stored in a progressive manner for faster loading or transmission
 type: docs
 weight: 110
 url: /net/aspose.imaging.fileformats.png/pngimage/isinterlaced/
 ---
 ## PngImage.IsInterlaced property
 
-Returns a boolean value indicating if the image instance is interlaced. This property is crucial for optimizing loading strategies and ensuring efficient performance during image processing or display tasks.
+Retrieves a boolean value indicating whether the [`PngImage`](../) is interlaced, which determines if the image data is stored in a progressive manner for faster loading or transmission.
 
 ```csharp
 public bool IsInterlaced { get; }
 ```
-
-### Property Value
-
-`true` if this image instance is interlaced; otherwise, `false`.
 
 ### See Also
 
