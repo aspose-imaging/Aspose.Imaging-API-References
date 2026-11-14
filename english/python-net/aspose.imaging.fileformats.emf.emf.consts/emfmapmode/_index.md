@@ -22,3 +22,4 @@ The MapMode enumeration is used to define the unit of measure for transforming p
 | MM_LOMETRIC | Each logical unit is mapped to 0.1 millimeter. Positive x is to the right; positive y is up. |
 | MM_TEXT | Each logical unit is mapped to one device pixel. Positive x is to the right; positive y is down. |
 | MM_TWIPS | Each logical unit is mapped to one-twentieth of a printer's point <br/>            (1/1440 inch, also called a "twip"). Positive x is to the right; positive y is up. |
+| UNKNOWN | Unknown. |

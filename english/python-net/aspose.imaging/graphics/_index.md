@@ -1,7 +1,7 @@
 ---
 title: Graphics Class
 type: docs
-weight: 5040
+weight: 5050
 url: /python-net/aspose.imaging/graphics/
 ---
 
@@ -2799,7 +2799,7 @@ Draws the specified text string at the specified location with the specified [Br
 
 **See also:**
 
-**[Example # 1](#example_237)**: Support of PixelPerfect text alignment
+**[Example # 1](#example_242)**: Support of PixelPerfect text alignment
 
 
 ### Method: draw_string(s, font, brush, x, y) {#draw_string_s_font_brush_x_y_138}
@@ -4095,7 +4095,7 @@ with GifFrameBlock(100, 100) as firstBlock:
 
 ```
 
-### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_116}
+### This example shows how to create a PNG image of the specified size, fill it with a solid color and save it to a file. {#example_117}
 ``` python
 
 import aspose.pycore as aspycore
@@ -4118,7 +4118,7 @@ with PngImage(100, 100) as png_image:
 
 ```
 
-### Support of PixelPerfect text alignment {#example_237}
+### Support of PixelPerfect text alignment {#example_242}
 ``` python
 import aspose.pycore as aspycore
 

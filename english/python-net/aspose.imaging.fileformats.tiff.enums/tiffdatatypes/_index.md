@@ -30,3 +30,4 @@ The tiff data type enum.
 | SSHORT | 16-bit signed integer. |
 | S_LONG8 | Signed 64-bit integer. |
 | UNDEFINED | 8-bit untyped data. |
+| UNKNOWN | Unknown type. |

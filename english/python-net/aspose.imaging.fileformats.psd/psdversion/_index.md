@@ -16,3 +16,4 @@ File format version
 | :- | :- |
 | PSB | The PSB version. |
 | PSD | The default PSD version. |
+| UNKNOWN | Unknown version. |

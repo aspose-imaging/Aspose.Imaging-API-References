@@ -72,3 +72,4 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 | EMF_PLUS_SET_WORLD_TRANSFORM | This record defines the current world space transform in the playback device_context, according to a specified transform matrix. |
 | EMF_PLUS_STROKE_FILL_PATH | This record closes any open figures in a path, strokes the outline of the path by using the current pen, and fills its interior by using the current brush. |
 | EMF_PLUS_TRANSLATE_WORLD_TRANSFORM | This record applies a translation transform to the current world space by specified horizontal and vertical distances. |
+| UNKNOWN | Unknown type. |

@@ -1,7 +1,7 @@
 ---
 title: Image Class
 type: docs
-weight: 5660
+weight: 5670
 url: /python-net/aspose.imaging/image/
 ---
 
@@ -16,7 +16,7 @@ url: /python-net/aspose.imaging/image/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the image bounds. |
@@ -25,15 +25,15 @@ url: /python-net/aspose.imaging/image/
 | data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
-| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets a value of file format |
+| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the file format. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
 | height | int | r | Gets the image height. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Gets a value indicating whether object's data is cached currently and no data reading is required. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the image size. |
-| [use_palette](#use_palette1) | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the Xmp data. |
 ## **Methods**
@@ -51,7 +51,7 @@ url: /python-net/aspose.imaging/image/
 | [create(files)](#create_files_9) | Creates the multipage image containing the specified files. |
 | [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_10) | Creates the multipage image containing the specified files. |
 | [create(image_options, width, height)](#create_image_options_width_height_11) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
 | [create(images)](#create_images_13) | Creates a new image using the specified images as pages |
 | [create(images, dispose_images)](#create_images_dispose_images_14) | Creates a new image the specified images as pages. |
 | [create(multipage_create_options)](#create_multipage_create_options_15) | Creates the specified multipage create options. |
@@ -109,15 +109,6 @@ url: /python-net/aspose.imaging/image/
 | [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_65) | Saves the object's data to the specified file location in the specified file format according to save options. |
 | [set_palette(palette, update_colors)](#set_palette_palette_update_colors_66) | Sets the image palette. |
 | [try_set_metadata(metadata)](#try_set_metadata_metadata_67) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) type. |
-
-
-### Property: use_palette {#use_palette1}
-
-Gets a value indicating whether the image palette is used.
-
-**See also:**
-
-**[Example # 1](#example_234)**: Determine if the palette is used by the image.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -400,7 +391,7 @@ Creates a new image using the specified create options.
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -1034,9 +1025,9 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 
 **See also:**
 
-**[Example # 1](#example_193)**: The following example shows how to resize a metafile (WMF and EMF).
+**[Example # 1](#example_196)**: The following example shows how to resize a metafile (WMF and EMF).
 
-**[Example # 2](#example_196)**: The following example shows how to resize SVG image and save it to PNG.
+**[Example # 2](#example_199)**: The following example shows how to resize SVG image and save it to PNG.
 
 
 ### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_40}
@@ -1059,7 +1050,7 @@ Resizes the image.
 
 **See also:**
 
-**[Example # 1](#example_221)**: Resize image using specific Resize Type.
+**[Example # 1](#example_225)**: Resize image using specific Resize Type.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_41}
@@ -1084,7 +1075,7 @@ Resizes the image.
 
 **[Example # 1](#example_28)**: This example loads an image and resizes it using various resizing settings.
 
-**[Example # 2](#example_221)**: Resize image using specific Resize Type.
+**[Example # 2](#example_225)**: Resize image using specific Resize Type.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_42}
@@ -1987,7 +1978,7 @@ with Image.load(path_join(directory, "sample.bmp")) as image:
 
 ```
 
-### The following example shows how to resize a metafile (WMF and EMF). {#example_193}
+### The following example shows how to resize a metafile (WMF and EMF). {#example_196}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2007,7 +1998,7 @@ for file_name in file_names:
 
 ```
 
-### The following example shows how to resize SVG image and save it to PNG. {#example_196}
+### The following example shows how to resize SVG image and save it to PNG. {#example_199}
 ``` python
 
 from aspose.imaging import PointF, Image
@@ -2027,7 +2018,7 @@ for input_file in file_names:
 
 ```
 
-### Resize image using specific Resize Type. {#example_221}
+### Resize image using specific Resize Type. {#example_225}
 ``` python
 from aspose.imaging import Image, ResizeType, ImageResizeSettings, ImageFilterType
 
@@ -2045,7 +2036,7 @@ with Image.load("Photo.jpg") as image:
 
 ```
 
-### Determine if the palette is used by the image. {#example_234}
+### Determine if the palette is used by the image. {#example_239}
 ``` python
 
 from aspose.imaging import Image

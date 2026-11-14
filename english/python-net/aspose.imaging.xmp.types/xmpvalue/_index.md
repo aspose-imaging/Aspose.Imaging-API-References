@@ -15,6 +15,7 @@ url: /python-net/aspose.imaging.xmp.types/xmpvalue/
 | **Name** | **Description** |
 | :- | :- |
 | [XmpValue()](#XmpValue__1) | Initializes a new instance of the XmpValue class |
+| [XmpValue(value)](#XmpValue_value_2) | Initializes [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) text entry. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
@@ -30,4 +31,19 @@ url: /python-net/aspose.imaging.xmp.types/xmpvalue/
 ```
 
 Initializes a new instance of the XmpValue class
+
+### Constructor: XmpValue(value) {#XmpValue_value_2}
+
+
+```
+ XmpValue(value) 
+```
+
+Initializes [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) text entry.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| value | string | _value_ |
 

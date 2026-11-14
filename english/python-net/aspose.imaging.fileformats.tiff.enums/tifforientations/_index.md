@@ -22,3 +22,4 @@ Image orientation.<br /><br/>            Possible values for ORIENTATION tag.
 | RIGHT_TOP | Row 0 rhs, Column 0 top. |
 | TOP_LEFT | Row 0 top, Column 0 lhs. |
 | TOP_RIGHT | Row 0 top, Column 0 rhs. |
+| UNKNOWN | Unknown orientation. |

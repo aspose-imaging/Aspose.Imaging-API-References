@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds the value to the specified key. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_equipment_institution(equipment_institution)](#set_equipment_institution_equipment_institution_6) | Sets the equipment institution. |
 | [set_equipment_manufacturer(equipment_manufacturer)](#set_equipment_manufacturer_equipment_manufacturer_7) | Sets the equipment manufacturer. |
@@ -40,11 +40,11 @@ url: /python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/
 | [set_patient_id(patient_id)](#set_patient_id_patient_id_9) | Sets the patient's ID. |
 | [set_patient_name(patient_name)](#set_patient_name_patient_name_10) | Sets the color mode. |
 | [set_patient_sex(patient_sex)](#set_patient_sex_patient_sex_11) | Sets the patient's sex. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_12) | Sets the first XMP attribute or element value with by specified _key_. |
-| [set_series_date_time(series_date_time)](#set_series_date_time_series_date_time_13) | Sets the series date time. |
-| [set_series_description(series_description)](#set_series_description_series_description_14) | Sets series description. |
-| [set_series_modality(series_modality)](#set_series_modality_series_modality_15) | Sets the document series modality. |
-| [set_series_number(series_number)](#set_series_number_series_number_16) | Sets the series number. |
+| [set_series_date_time(series_date_time)](#set_series_date_time_series_date_time_12) | Sets the series date time. |
+| [set_series_description(series_description)](#set_series_description_series_description_13) | Sets series description. |
+| [set_series_modality(series_modality)](#set_series_modality_series_modality_14) | Sets the document series modality. |
+| [set_series_number(series_number)](#set_series_number_series_number_15) | Sets the series number. |
+| [set_str_value(key, value)](#set_str_value_key_value_16) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_study_date_time(study_date_time)](#set_study_date_time_study_date_time_17) | Sets the study DateTime. |
 | [set_study_description(study_description)](#set_study_description_study_description_18) | Sets the study description. |
 | [set_study_id(study_id)](#set_study_id_study_id_19) | Sets the study ID. |
@@ -118,11 +118,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -252,23 +252,7 @@ Sets the patient's sex.
 | :- | :- | :- |
 | patient_sex | string | The patient's sex. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_12}
-
-
-```
- set_prop_value(key, value) 
-```
-
-Sets the first XMP attribute or element value with by specified _key_.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
-
-### Method: set_series_date_time(series_date_time) {#set_series_date_time_series_date_time_13}
+### Method: set_series_date_time(series_date_time) {#set_series_date_time_series_date_time_12}
 
 
 ```
@@ -283,7 +267,7 @@ Sets the series date time.
 | :- | :- | :- |
 | series_date_time | string | The series date time. |
 
-### Method: set_series_description(series_description) {#set_series_description_series_description_14}
+### Method: set_series_description(series_description) {#set_series_description_series_description_13}
 
 
 ```
@@ -298,7 +282,7 @@ Sets series description.
 | :- | :- | :- |
 | series_description | string | The series description. |
 
-### Method: set_series_modality(series_modality) {#set_series_modality_series_modality_15}
+### Method: set_series_modality(series_modality) {#set_series_modality_series_modality_14}
 
 
 ```
@@ -313,7 +297,7 @@ Sets the document series modality.
 | :- | :- | :- |
 | series_modality | string | The series modality. |
 
-### Method: set_series_number(series_number) {#set_series_number_series_number_16}
+### Method: set_series_number(series_number) {#set_series_number_series_number_15}
 
 
 ```
@@ -327,6 +311,22 @@ Sets the series number.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | series_number | string | The series number. |
+
+### Method: set_str_value(key, value) {#set_str_value_key_value_16}
+
+
+```
+ set_str_value(key, value) 
+```
+
+Sets the first XMP attribute or element value with by specified _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The key that identifies value. |
+| value | string | The value. |
 
 ### Method: set_study_date_time(study_date_time) {#set_study_date_time_study_date_time_17}
 

@@ -19,3 +19,4 @@ The CompositingQuality enumeration defines levels of quality for creating compos
 | COMPOSITING_QUALITY_GAMMA_CORRECTED | Enable gamma correction for higher-quality compositing with lower speed. In terms of the result, there is no difference between this value and CompositingQualityHighQuality. |
 | COMPOSITING_QUALITY_HIGH_QUALITY | Gamma correction is performed. Compositing quality is favored at the expense of speed. |
 | COMPOSITING_QUALITY_HIGH_SPEED | No gamma correction is performed. Compositing speed is favored at the expense of quality. In terms of the result, there is no difference between this value and CompositingQualityDefault. |
+| UNKNOWN | Unknown. |

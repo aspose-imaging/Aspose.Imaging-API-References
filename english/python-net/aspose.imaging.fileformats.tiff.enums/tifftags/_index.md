@@ -94,6 +94,7 @@ The tiff tag enum.
 | TILE_WIDTH | Tile width in pixels. |
 | TRANSFER_FUNCTION | Colorimetry info. |
 | TRANSFER_RANGE | Variable TransferRange |
+| UNKNOWN_TYPE | Unknown TIFF tag. |
 | WHITE_POINT | Image white point. |
 | XCLIPPATHUNITS | XClipPathUnits. Introduced post TIFF rev 6.0 by Adobe TIFF technote 2. |
 | XML_PACKET | XML packet. Introduced post TIFF rev 6.0 by Adobe XMP Specification, January 2004. |

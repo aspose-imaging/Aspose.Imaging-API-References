@@ -89,3 +89,33 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 | bool | True, if the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 
+## **Examples**
+### The following example shows how to convert a multipage vector image to PDF format in general way without referencing to a particular image type. {#example_204}
+``` python
+from os.path import join as path_join
+import aspose.pycore as aspycore
+from aspose.imaging import Image, IMultipageImage, IntRange, VectorImage, Color, TextRenderingHint, SmoothingMode
+from aspose.imaging.imageoptions import PdfOptions, MultiPageOptions, VectorRasterizationOptions
+
+dir_: str = "C:\\testdata\\2548"
+input_file_path: str = path_join(dir_, "Multipage.cdr")
+output_file_path: str = path_join(dir_, "Multipage.cdr.pdf")
+export_options = PdfOptions()
+with Image.load(input_file_path) as image:
+	export_options.multi_page_options = None
+	# Export only first two pages to the corresponding pages of the output PDF document.
+	if aspycore.is_assignable(image, IMultipageImage)
+		multipage_image = aspycore.as_of(image, IMultipageImage)
+		if multipage_image.page_count > 2:
+			export_options.multi_page_options = MultiPageOptions(IntRange(0, 2))
+
+	if aspycore.is_assignable(image, VectorImage):
+		export_options.vector_rasterization_options = aspycore.as_of(image.get_default_options([Color.white, image.width, image.height]), VectorRasterizationOptions)
+		export_options.vector_rasterization_options.text_rendering_hint = TextRenderingHint.SINGLE_BIT_PER_PIXEL
+		export_options.vector_rasterization_options.smoothing_mode = SmoothingMode.NONE
+
+	image.save(output_file_path, export_options)
+
+
+```
+

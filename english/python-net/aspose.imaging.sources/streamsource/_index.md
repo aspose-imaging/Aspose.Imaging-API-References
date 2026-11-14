@@ -16,7 +16,7 @@ url: /python-net/aspose.imaging.sources/streamsource/
 ## **Constructors**
 | **Name** | **Description** |
 | :- | :- |
-| [StreamSource()](#StreamSource__1) | Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class. |
+| [StreamSource()](#StreamSource__1) | Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class with a new MemoryStream. |
 | [StreamSource(stream)](#StreamSource_stream_2) | Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class. |
 | [StreamSource(stream, dispose_stream)](#StreamSource_stream_dispose_stream_3) | Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class. |
 ## **Properties**
@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging.sources/streamsource/
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_stream_container()](#get_stream_container__1) | Gets the stream container. |
+| [get_stream_container()](#get_stream_container__1) | Gets the stream container for the source. |
 
 
 ### Constructor: StreamSource() {#StreamSource__1}
@@ -37,7 +37,7 @@ url: /python-net/aspose.imaging.sources/streamsource/
  StreamSource() 
 ```
 
-Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class.
+Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) class with a new MemoryStream.
 
 ### Constructor: StreamSource(stream) {#StreamSource_stream_2}
 
@@ -89,13 +89,13 @@ Initializes a new instance of the [StreamSource](/imaging/python-net/aspose.imag
  get_stream_container() 
 ```
 
-Gets the stream container.
+Gets the stream container for the source.
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | the stream container. |
+| [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | The stream container. |
 
 
 ## **Examples**

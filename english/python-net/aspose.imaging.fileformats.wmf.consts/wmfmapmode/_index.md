@@ -22,3 +22,4 @@ The map modes
 | LOMETRIC | The lometric<br/>                Each logical unit is mapped to 0.1 millimeter. Positive x is to the right; positive y is up. |
 | TEXT | The text<br/>                Each logical unit is mapped to one device pixel. Positive x is to the right; positive y is down |
 | TWIPS | The twips<br/>                Each logical unit is mapped to one twentieth (1/20) of a point. In printing, a point is 1/72 of an inch; therefore,<br/>                1/20 of a point is 1/1440 of an inch. This unit is also known as a "twip". |
+| UNKNOWN | Unknown |

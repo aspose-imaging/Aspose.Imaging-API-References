@@ -43,11 +43,11 @@ Processes the specified images.
 
 **See also:**
 
-**[Example # 1](#example_249)**: The example shows how HDR processing is carried out.
+**[Example # 1](#example_254)**: The example shows how HDR processing is carried out.
 
 
 ## **Examples**
-### The example shows how HDR processing is carried out. {#example_249}
+### The example shows how HDR processing is carried out. {#example_254}
 ``` python
 
 import aspose.pycore as aspycore

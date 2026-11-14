@@ -23,3 +23,4 @@ The RegionNodeDataType enumeration defines types of region node data.
 | REGION_NODE_DATA_TYPE_PATH | Specifies a region node with no child nodes. The RegionNodeData field SHOULD specify a boundary with an [EmfPlusRegionNodePath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath/) object (section 2.2.2.42). |
 | REGION_NODE_DATA_TYPE_RECT | Specifies a region node with no child nodes. The RegionNodeData field SHOULD specify a boundary with an [EmfPlusRectF](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/) object (section 2.2.2.39). |
 | REGION_NODE_DATA_TYPE_XOR | Specifies a region node with child nodes. A Boolean XOR operation SHOULD be applied to the left and right child nodes specified by an [EmfPlusRegionNodeChildNodes](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/) object. |
+| UNKNOWN | Unknown. |

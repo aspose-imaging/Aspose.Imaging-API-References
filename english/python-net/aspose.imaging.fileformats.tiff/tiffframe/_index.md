@@ -26,7 +26,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the object bounds. |
@@ -35,7 +35,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | data_stream_container | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) | r | Gets the object's data stream. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
-| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets a value of file format |
+| file_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | r | Gets the file format. |
 | frame_options | [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) | r | Gets the frame create options. |
 | has_alpha | bool | r | Gets a value indicating whether this instance has alpha. |
 | has_background_color | bool | r/w | Gets or sets a value indicating whether image has background color. |
@@ -45,9 +45,10 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | image_opacity | float | r | Gets opacity of this image. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Gets a value indicating whether image data is cached currently. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. It can also be accessed via [TiffOptions.palette](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/). |
 | [path_resources](#path_resources1) | System.Collections.Generic.List`1[[Aspose.Imaging.FileFormats.Tiff.PathResources.PathResource]] | r/w | Gets or sets the path resources. |
 | premultiply_components | bool | r/w | Gets or sets a value indicating whether the image components must be premultiplied. |
 | raw_custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter/) | r/w | Gets or sets the custom color converter |
@@ -59,7 +60,6 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | transparent_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets the image transparent color. |
 | update_modified_date | bool | r/w | Gets or sets a value indicating whether to update this [Image](/imaging/python-net/aspose.imaging/image/) instance last modification datetime metadata on saving.<br/>            Modified date related [aspose.imaging.metadata](/imaging/python-net/aspose.imaging.metadata/) properties and internal image settings will be updated to the datetime of [DataStreamSupporter.save(stream)](/imaging/python-net/aspose.imaging/datastreamsupporter/) execution. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | use_raw_data | bool | r/w | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | vertical_resolution | float | r/w | Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | width | int | r | Gets the image width. |
@@ -73,138 +73,144 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 | [adjust_gamma(gamma_red, gamma_green, gamma_blue)](#adjust_gamma_gamma_red_gamma_green_gamma_blue_4) | Gamma-correction of an image. |
 | align_resolutions() | Helper method to make horizontal and vertical resolutions equal. |
 | [analyze_percentage_digital_signature(password)](#analyze_percentage_digital_signature_password_5) | Calculates the percentage similarity between the extracted data and the original password. |
+| [apply_cube_lut(cube_lut)](#apply_cube_lut_cube_lut_6) | Applies the specified 3D cube lookup table (LUT) to the entire image. |
+| [apply_cube_lut(cube_lut, bounds)](#apply_cube_lut_cube_lut_bounds_7) | Applies the specified 3D cube lookup table (LUT) to the pixels<br/>            within the specified bounds of the image. |
+| [apply_cube_lut(file_name)](#apply_cube_lut_file_name_8) | Applies a 3D cube lookup table (LUT) loaded from the specified file<br/>            to the entire image. |
+| [apply_cube_lut(file_name, bounds)](#apply_cube_lut_file_name_bounds_9) | Applies a 3D cube lookup table (LUT) loaded from the specified file<br/>            to the pixels within the specified bounds of the image. |
+| [apply_cube_lut(stream)](#apply_cube_lut_stream_10) | Applies a 3D cube lookup table (LUT) loaded from the specified stream<br/>            to the entire image. |
+| [apply_cube_lut(stream, bounds)](#apply_cube_lut_stream_bounds_11) | Applies a 3D cube lookup table (LUT) loaded from the specified stream<br/>            to the pixels within the specified bounds of the image. |
 | auto_brightness_contrast() | Performs automatic adaptive brightness and contrast normalization for the entire image. |
-| auto_rotate() | Automatically rotates the image based on orientation data extracted from Exif <br/>            metadata. This method ensures that images are displayed in the correct orientation, <br/>            enhancing user experience and eliminating the need for manual adjustments. By <br/>            analyzing Exif information, the image is rotated accordingly, providing a seamless <br/>            viewing experience across different platforms and devices. This automated rotation <br/>            process simplifies image handling and improves overall usability, especially when <br/>            dealing with large batches of images with varying orientations. |
-| [binarize_bradley(brightness_difference)](#binarize_bradley_brightness_difference_6) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [binarize_bradley(brightness_difference, window_size)](#binarize_bradley_brightness_difference_window_size_7) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [binarize_fixed(threshold)](#binarize_fixed_threshold_8) | Binarization of an image with predefined threshold |
+| auto_rotate() | Automatically rotates the image based on orientation data extracted from Exif<br/>            metadata. This method ensures that images are displayed in the correct orientation,<br/>            enhancing user experience and eliminating the need for manual adjustments. By<br/>            analyzing Exif information, the image is rotated accordingly, providing a seamless<br/>            viewing experience across different platforms and devices. This automated rotation<br/>            process simplifies image handling and improves overall usability, especially when<br/>            dealing with large batches of images with varying orientations. |
+| [binarize_bradley(brightness_difference)](#binarize_bradley_brightness_difference_12) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
+| [binarize_bradley(brightness_difference, window_size)](#binarize_bradley_brightness_difference_window_size_13) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
+| [binarize_fixed(threshold)](#binarize_fixed_threshold_14) | Binarization of an image with predefined threshold |
 | binarize_otsu() | Binarization of an image with Otsu thresholding |
-| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_9) | Blends this image instance with the _overlay_ image. |
-| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_10) | Blends this image instance with the _overlay_ image. |
+| [blend(origin, overlay, overlay_alpha)](#blend_origin_overlay_overlay_alpha_15) | Blends this image instance with the _overlay_ image. |
+| [blend(origin, overlay, overlay_area, overlay_alpha)](#blend_origin_overlay_overlay_area_overlay_alpha_16) | Blends this image instance with the _overlay_ image. |
 | cache_data() | Caches the data and ensures no additional data loading will be performed from the underlying [DataStreamSupporter.data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/). |
-| [can_load(file_path)](#can_load_file_path_11) | Determines whether image can be loaded from the specified file path. |
-| [can_load(file_path, load_options)](#can_load_file_path_load_options_12) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
-| [can_load(stream)](#can_load_stream_13) | Determines whether image can be loaded from the specified stream. |
-| [can_load(stream, load_options)](#can_load_stream_load_options_14) | Determines whether image can be loaded from the specified stream and optionally using the specified _loadOptions_. |
-| [can_load_stream(stream)](#can_load_stream_stream_15) | Determines whether image can be loaded from the specified stream. |
-| [can_load_stream_with_options(stream, load_options)](#can_load_stream_with_options_stream_load_options_16) | Determines whether image can be loaded from the specified stream and optionally using the specified _loadOptions_. |
-| [can_load_with_options(file_path, load_options)](#can_load_with_options_file_path_load_options_17) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
-| [can_save(options)](#can_save_options_18) | Determines whether image can be saved to the specified file format represented by the passed save options. |
-| [copy_frame(tiff_frame)](#copy_frame_tiff_frame_19) | Copies the entire frame (duplicates). |
-| [create(files)](#create_files_20) | Creates the multipage image containing the specified files. |
-| [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_21) | Creates the multipage image containing the specified files. |
-| [create(image_options, width, height)](#create_image_options_width_height_22) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_23) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
-| [create(images)](#create_images_24) | Creates a new image using the specified images as pages |
-| [create(images, dispose_images)](#create_images_dispose_images_25) | Creates a new image the specified images as pages. |
-| [create(multipage_create_options)](#create_multipage_create_options_26) | Creates the specified multipage create options. |
-| [create(width, height)](#create_width_height_27) | Creates a new raster image stored in memory. |
-| [create(width, height, argb_32_pixels)](#create_width_height_argb_32_pixels_28) | Creates a new raster image stored in memory. |
-| [create_frame_from(tiff_frame, options)](#create_frame_from_tiff_frame_options_29) | Creates the frame from specified _tiffFrame_ using the specified _options_.<br/>            The pixel data is preserved but converted to the desired format. |
-| [create_from_file_with_options(path, options)](#create_from_file_with_options_path_options_30) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
-| [create_from_files(files)](#create_from_files_files_31) | Creates the multipage image containing the specified files as lazy loading pages. |
-| [create_from_files(files, throw_exception_on_load_error)](#create_from_files_files_throw_exception_on_load_error_32) | Creates the multipage image containing the specified files as lazy loading pages. |
-| [create_from_image(image)](#create_from_image_image_33) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
-| [create_from_image_with_options(image, options)](#create_from_image_with_options_image_options_34) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
-| [create_from_images(images)](#create_from_images_images_35) | Creates a new image using the specified images as pages |
-| [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_36) | Creates a new image the specified images as pages. |
-| [create_from_stream(stream)](#create_from_stream_stream_37) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
-| [create_from_stream_with_options(stream, options)](#create_from_stream_with_options_stream_options_38) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
-| [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_39) | Crop image with shifts. |
-| [crop(rectangle)](#crop_rectangle_40) | Cropping the image. |
-| [dither(dithering_method, bits_count)](#dither_dithering_method_bits_count_41) | Performs dithering on the current image. |
-| [dither(dithering_method, bits_count, custom_palette)](#dither_dithering_method_bits_count_custom_palette_42) | Performs dithering on the current image. |
-| [embed_digital_signature(password)](#embed_digital_signature_password_43) | Embed digital sign based on provided password into the image using steganography. |
-| [filter(rectangle, options)](#filter_rectangle_options_44) | Filters the specified rectangle. |
-| [get_argb_32_pixel(x, y)](#get_argb_32_pixel_x_y_45) | Gets an image 32-bit ARGB pixel. |
-| [get_default_argb_32_pixels(rectangle)](#get_default_argb_32_pixels_rectangle_46) | Gets the default 32-bit ARGB pixels array. |
-| [get_default_options(args)](#get_default_options_args_47) | Gets the default options. |
-| [get_default_pixels(rectangle, partial_pixel_loader)](#get_default_pixels_rectangle_partial_pixel_loader_48) | Gets the default pixels array using partial pixel loader. |
-| [get_default_raw_data(rectangle, partial_raw_data_loader, raw_data_settings)](#get_default_raw_data_rectangle_partial_raw_data_loader_raw_data_settings_49) | Gets the default raw data array using partial pixel loader. |
-| [get_default_raw_data(rectangle, raw_data_settings)](#get_default_raw_data_rectangle_raw_data_settings_50) | Gets the default raw data array. |
-| [get_file_format(file_path)](#get_file_format_file_path_51) | Gets the file format. |
-| [get_file_format(stream)](#get_file_format_stream_52) | Gets the file format. |
-| [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_53) | Gets the file format. |
-| [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_54) | Gets rectangle which fits the current image. |
-| [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_55) | Gets rectangle which fits the current image. |
-| [get_modify_date(use_default)](#get_modify_date_use_default_56) | Gets the datetime value the image was last modified. |
-| [get_original_options()](#get_original_options__57) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
-| [get_pixel(x, y)](#get_pixel_x_y_58) | Gets an image pixel. |
-| [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_59) | Gets a proportional height. |
-| [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_60) | Gets a proportional width. |
-| [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_61) | Converts to aps. |
-| [get_skew_angle()](#get_skew_angle__62) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
+| [can_load(file_path)](#can_load_file_path_17) | Determines whether image can be loaded from the specified file path. |
+| [can_load(file_path, load_options)](#can_load_file_path_load_options_18) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
+| [can_load(stream)](#can_load_stream_19) | Determines whether image can be loaded from the specified stream. |
+| [can_load(stream, load_options)](#can_load_stream_load_options_20) | Determines whether image can be loaded from the specified stream and optionally using the specified _loadOptions_. |
+| [can_load_stream(stream)](#can_load_stream_stream_21) | Determines whether image can be loaded from the specified stream. |
+| [can_load_stream_with_options(stream, load_options)](#can_load_stream_with_options_stream_load_options_22) | Determines whether image can be loaded from the specified stream and optionally using the specified _loadOptions_. |
+| [can_load_with_options(file_path, load_options)](#can_load_with_options_file_path_load_options_23) | Determines whether image can be loaded from the specified file path and optionally using the specified open options. |
+| [can_save(options)](#can_save_options_24) | Determines whether image can be saved to the specified file format represented by the passed save options. |
+| [copy_frame(tiff_frame)](#copy_frame_tiff_frame_25) | Copies the entire frame (duplicates). |
+| [create(files)](#create_files_26) | Creates the multipage image containing the specified files. |
+| [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_27) | Creates the multipage image containing the specified files. |
+| [create(image_options, width, height)](#create_image_options_width_height_28) | Creates a new image using the specified create options. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_29) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
+| [create(images)](#create_images_30) | Creates a new image using the specified images as pages |
+| [create(images, dispose_images)](#create_images_dispose_images_31) | Creates a new image the specified images as pages. |
+| [create(multipage_create_options)](#create_multipage_create_options_32) | Creates the specified multipage create options. |
+| [create(width, height)](#create_width_height_33) | Creates a new raster image stored in memory. |
+| [create(width, height, argb_32_pixels)](#create_width_height_argb_32_pixels_34) | Creates a new raster image stored in memory. |
+| [create_frame_from(tiff_frame, options)](#create_frame_from_tiff_frame_options_35) | Creates the frame from specified _tiffFrame_ using the specified _options_.<br/>            The pixel data is preserved but converted to the desired format. |
+| [create_from_file_with_options(path, options)](#create_from_file_with_options_path_options_36) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
+| [create_from_files(files)](#create_from_files_files_37) | Creates the multipage image containing the specified files as lazy loading pages. |
+| [create_from_files(files, throw_exception_on_load_error)](#create_from_files_files_throw_exception_on_load_error_38) | Creates the multipage image containing the specified files as lazy loading pages. |
+| [create_from_image(image)](#create_from_image_image_39) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
+| [create_from_image_with_options(image, options)](#create_from_image_with_options_image_options_40) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
+| [create_from_images(images)](#create_from_images_images_41) | Creates a new image using the specified images as pages |
+| [create_from_images(images, dispose_images)](#create_from_images_images_dispose_images_42) | Creates a new image the specified images as pages. |
+| [create_from_stream(stream)](#create_from_stream_stream_43) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
+| [create_from_stream_with_options(stream, options)](#create_from_stream_with_options_stream_options_44) | Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class. |
+| [crop(left_shift, right_shift, top_shift, bottom_shift)](#crop_left_shift_right_shift_top_shift_bottom_shift_45) | Crop image with shifts. |
+| [crop(rectangle)](#crop_rectangle_46) | Cropping the image. |
+| [dither(dithering_method, bits_count)](#dither_dithering_method_bits_count_47) | Performs dithering on the current image. |
+| [dither(dithering_method, bits_count, custom_palette)](#dither_dithering_method_bits_count_custom_palette_48) | Performs dithering on the current image. |
+| [embed_digital_signature(password)](#embed_digital_signature_password_49) | Embed digital sign based on provided password into the image using steganography. |
+| [filter(rectangle, options)](#filter_rectangle_options_50) | Filters the specified rectangle. |
+| [get_argb_32_pixel(x, y)](#get_argb_32_pixel_x_y_51) | Gets an image 32-bit ARGB pixel. |
+| [get_default_argb_32_pixels(rectangle)](#get_default_argb_32_pixels_rectangle_52) | Gets the default 32-bit ARGB pixels array. |
+| [get_default_options(args)](#get_default_options_args_53) | Gets the default options. |
+| [get_default_pixels(rectangle, partial_pixel_loader)](#get_default_pixels_rectangle_partial_pixel_loader_54) | Gets the default pixels array using partial pixel loader. |
+| [get_default_raw_data(rectangle, partial_raw_data_loader, raw_data_settings)](#get_default_raw_data_rectangle_partial_raw_data_loader_raw_data_settings_55) | Gets the default raw data array using partial pixel loader. |
+| [get_default_raw_data(rectangle, raw_data_settings)](#get_default_raw_data_rectangle_raw_data_settings_56) | Gets the default raw data array. |
+| [get_file_format(file_path)](#get_file_format_file_path_57) | Gets the file format. |
+| [get_file_format(stream)](#get_file_format_stream_58) | Gets the file format. |
+| [get_file_format_of_stream(stream)](#get_file_format_of_stream_stream_59) | Gets the file format. |
+| [get_fitting_rectangle(rectangle, pixels, width, height)](#get_fitting_rectangle_rectangle_pixels_width_height_60) | Gets rectangle which fits the current image. |
+| [get_fitting_rectangle(rectangle, width, height)](#get_fitting_rectangle_rectangle_width_height_61) | Gets rectangle which fits the current image. |
+| [get_modify_date(use_default)](#get_modify_date_use_default_62) | Gets the datetime value the image was last modified. |
+| [get_original_options()](#get_original_options__63) | Gets the options based on the original file settings.<br/>            This can be helpful to keep bit-depth and other parameters of the original image unchanged.<br/>            For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the<br/>            [DataStreamSupporter.save(file_path)](/imaging/python-net/aspose.imaging/datastreamsupporter/) method, the output PNG image with 8-bit per pixel will be produced.<br/>            To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them<br/>            to the [Image.save(file_path, options)](/imaging/python-net/aspose.imaging/image/) method as the second parameter. |
+| [get_pixel(x, y)](#get_pixel_x_y_64) | Gets an image pixel. |
+| [get_proportional_height(width, height, new_width)](#get_proportional_height_width_height_new_width_65) | Gets a proportional height. |
+| [get_proportional_width(width, height, new_height)](#get_proportional_width_width_height_new_height_66) | Gets a proportional width. |
+| [get_serialized_stream(image_options, clipping_rectangle, page_number)](#get_serialized_stream_image_options_clipping_rectangle_page_number_67) | Converts to aps. |
+| [get_skew_angle()](#get_skew_angle__68) | Gets the skew angle.<br/>            This method is applicable to scanned text documents, to determine the skew angle when scanning. |
 | grayscale() | Transformation of an image to its grayscale representation |
-| [is_digital_signed(password, percentage_threshold)](#is_digital_signed_password_percentage_threshold_63) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
-| [load(file_path)](#load_file_path_64) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| [load(file_path, load_options)](#load_file_path_load_options_65) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
-| [load(stream)](#load_stream_66) | Loads a new image from the specified stream. |
-| [load(stream, load_options)](#load_stream_load_options_67) | Loads a new image from the specified stream. |
-| [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_68) | Loads 32-bit ARGB pixels. |
-| [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_69) | Loads 64-bit ARGB pixels. |
-| [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_70) | Loads pixels in CMYK format. |
-| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_71) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
-| [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_72) | Loads 32-bit ARGB pixels partially (by blocks). |
-| [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_73) | Loads 64-bit ARGB pixels partially by packs. |
-| [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_74) | Loads pixels partially by packs. |
-| [load_pixels(rectangle)](#load_pixels_rectangle_75) | Loads pixels. |
-| [load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_76) | Loads raw data. |
-| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_77) | Loads raw data. |
-| [load_stream(stream)](#load_stream_stream_78) | Loads a new image from the specified stream. |
-| [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_79) | Loads a new image from the specified stream. |
-| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_80) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [is_digital_signed(password, percentage_threshold)](#is_digital_signed_password_percentage_threshold_69) | Performs a fast check to determine if the image is digitally signed, using the provided password and threshold. |
+| [load(file_path)](#load_file_path_70) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(file_path, load_options)](#load_file_path_load_options_71) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
+| [load(stream)](#load_stream_72) | Loads a new image from the specified stream. |
+| [load(stream, load_options)](#load_stream_load_options_73) | Loads a new image from the specified stream. |
+| [load_argb_32_pixels(rectangle)](#load_argb_32_pixels_rectangle_74) | Loads 32-bit ARGB pixels. |
+| [load_argb_64_pixels(rectangle)](#load_argb_64_pixels_rectangle_75) | Loads 64-bit ARGB pixels. |
+| [load_cmyk_32_pixels(rectangle)](#load_cmyk_32_pixels_rectangle_76) | Loads pixels in CMYK format. |
+| [load_cmyk_pixels(rectangle)](#load_cmyk_pixels_rectangle_77) | Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the [RasterImage.load_cmyk_32_pixels(rectangle)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
+| [load_partial_argb_32_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_78) | Loads 32-bit ARGB pixels partially (by blocks). |
+| [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_79) | Loads 64-bit ARGB pixels partially by packs. |
+| [load_partial_pixels(desired_rectangle, pixel_loader)](#load_partial_pixels_desired_rectangle_pixel_loader_80) | Loads pixels partially by packs. |
+| [load_pixels(rectangle)](#load_pixels_rectangle_81) | Loads pixels. |
+| [load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_82) | Loads raw data. |
+| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_83) | Loads raw data. |
+| [load_stream(stream)](#load_stream_stream_84) | Loads a new image from the specified stream. |
+| [load_stream_with_options(stream, load_options)](#load_stream_with_options_stream_load_options_85) | Loads a new image from the specified stream. |
+| [load_with_options(file_path, load_options)](#load_with_options_file_path_load_options_86) | Loads a new image from the specified file path or URL.<br/>            If _filePath_ is a file path the method just opens the file.<br/>            If _filePath_ is an URL, the method downloads the file, stores it as a temporary one, and opens it. |
 | normalize_angle() | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
-| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_81) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
+| [normalize_angle(resize_proportionally, background_color)](#normalize_angle_resize_proportionally_background_color_87) | Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [RasterImage.get_skew_angle()](/imaging/python-net/aspose.imaging/rasterimage/) and [RasterImage.rotate(angle, resize_proportionally, background_color)](/imaging/python-net/aspose.imaging/rasterimage/) methods. |
 | normalize_histogram() | Normalizes the image histogram — adjust pixel values to use all available range. |
-| [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_82) | Reads the whole scan line by the specified scan line index. |
-| [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_83) | Reads the whole scan line by the specified scan line index. |
+| [read_argb_32_scan_line(scan_line_index)](#read_argb_32_scan_line_scan_line_index_88) | Reads the whole scan line by the specified scan line index. |
+| [read_scan_line(scan_line_index)](#read_scan_line_scan_line_index_89) | Reads the whole scan line by the specified scan line index. |
 | remove_metadata() | Removes this image instance metadata by setting this [IHasXmpData.xmp_data](/imaging/python-net/aspose.imaging.xmp/ihasxmpdata/) and [IHasExifData.exif_data](/imaging/python-net/aspose.imaging.exif/ihasexifdata/) values to **None**. |
-| [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_84) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
-| [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_85) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
-| [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_86) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
-| [replace_non_transparent_colors(new_color)](#replace_non_transparent_colors_new_color_87) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one. |
-| [replace_non_transparent_colors(new_color_argb)](#replace_non_transparent_colors_new_color_argb_88) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one. |
-| [resize(new_width, new_height)](#resize_new_width_new_height_89) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_90) | Resizes the image. |
-| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_91) | Resizes the image. |
-| [resize_by_settings(new_width, new_height, settings)](#resize_by_settings_new_width_new_height_settings_92) | Resizes the image. |
-| [resize_by_type(new_width, new_height, resize_type)](#resize_by_type_new_width_new_height_resize_type_93) | Resizes the image. |
-| [resize_height_proportionally(new_height)](#resize_height_proportionally_new_height_94) | Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize_height_proportionally(new_height, resize_type)](#resize_height_proportionally_new_height_resize_type_95) | Resizes the height proportionally. |
-| [resize_height_proportionally(new_height, settings)](#resize_height_proportionally_new_height_settings_96) | Resizes the height proportionally. |
-| [resize_height_proportionally_settings(new_height, settings)](#resize_height_proportionally_settings_new_height_settings_97) | Resizes the height proportionally. |
-| [resize_width_proportionally(new_width)](#resize_width_proportionally_new_width_98) | Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
-| [resize_width_proportionally(new_width, resize_type)](#resize_width_proportionally_new_width_resize_type_99) | Resizes the width proportionally. |
-| [resize_width_proportionally(new_width, settings)](#resize_width_proportionally_new_width_settings_100) | Resizes the width proportionally. |
-| [resize_width_proportionally_settings(new_width, settings)](#resize_width_proportionally_settings_new_width_settings_101) | Resizes the width proportionally. |
-| [rotate(angle)](#rotate_angle_102) | Rotate image around the center. |
-| [rotate(angle, resize_proportionally, background_color)](#rotate_angle_resize_proportionally_background_color_103) | Rotate image around the center. |
-| [rotate_flip(rotate_flip_type)](#rotate_flip_rotate_flip_type_104) | Rotates, flips, or rotates and flips the image. |
+| [replace_argb(old_color_argb, old_color_diff, new_color_argb)](#replace_argb_old_color_argb_old_color_diff_new_color_argb_90) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
+| [replace_color(old_color, old_color_diff, new_color)](#replace_color_old_color_old_color_diff_new_color_91) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
+| [replace_color(old_color_argb, old_color_diff, new_color_argb)](#replace_color_old_color_argb_old_color_diff_new_color_argb_92) | Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges. |
+| [replace_non_transparent_colors(new_color)](#replace_non_transparent_colors_new_color_93) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one. |
+| [replace_non_transparent_colors(new_color_argb)](#replace_non_transparent_colors_new_color_argb_94) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one. |
+| [resize(new_width, new_height)](#resize_new_width_new_height_95) | Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize(new_width, new_height, resize_type)](#resize_new_width_new_height_resize_type_96) | Resizes the image. |
+| [resize(new_width, new_height, settings)](#resize_new_width_new_height_settings_97) | Resizes the image. |
+| [resize_by_settings(new_width, new_height, settings)](#resize_by_settings_new_width_new_height_settings_98) | Resizes the image. |
+| [resize_by_type(new_width, new_height, resize_type)](#resize_by_type_new_width_new_height_resize_type_99) | Resizes the image. |
+| [resize_height_proportionally(new_height)](#resize_height_proportionally_new_height_100) | Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize_height_proportionally(new_height, resize_type)](#resize_height_proportionally_new_height_resize_type_101) | Resizes the height proportionally. |
+| [resize_height_proportionally(new_height, settings)](#resize_height_proportionally_new_height_settings_102) | Resizes the height proportionally. |
+| [resize_height_proportionally_settings(new_height, settings)](#resize_height_proportionally_settings_new_height_settings_103) | Resizes the height proportionally. |
+| [resize_width_proportionally(new_width)](#resize_width_proportionally_new_width_104) | Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used. |
+| [resize_width_proportionally(new_width, resize_type)](#resize_width_proportionally_new_width_resize_type_105) | Resizes the width proportionally. |
+| [resize_width_proportionally(new_width, settings)](#resize_width_proportionally_new_width_settings_106) | Resizes the width proportionally. |
+| [resize_width_proportionally_settings(new_width, settings)](#resize_width_proportionally_settings_new_width_settings_107) | Resizes the width proportionally. |
+| [rotate(angle)](#rotate_angle_108) | Rotate image around the center. |
+| [rotate(angle, resize_proportionally, background_color)](#rotate_angle_resize_proportionally_background_color_109) | Rotate image around the center. |
+| [rotate_flip(rotate_flip_type)](#rotate_flip_rotate_flip_type_110) | Rotates, flips, or rotates and flips the image. |
 | save() | Saves the image data to the underlying stream. |
-| [save(file_path)](#save_file_path_105) | Saves the image to the specified file location. |
-| [save(file_path, options)](#save_file_path_options_106) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_107) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save(file_path, over_write)](#save_file_path_over_write_108) | Saves the object's data to the specified file location. |
-| [save(stream)](#save_stream_109) | Saves the object's data to the specified stream. |
-| [save(stream, options_base)](#save_stream_options_base_110) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_111) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_112) | Saves the 32-bit ARGB pixels. |
-| [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_113) | Saves the pixels. |
-| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_114) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
-| [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_115) | Saves pixels (format specific method). |
-| [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_116) | Saves the raw data. |
-| [save_to_stream(stream)](#save_to_stream_stream_117) | Saves the object's data to the specified stream. |
-| [save_to_stream_with_options(stream, options_base)](#save_to_stream_with_options_stream_options_base_118) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_to_stream_with_options_rect(stream, options_base, bounds_rectangle)](#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_119) | Saves the image's data to the specified stream in the specified file format according to save options. |
-| [save_with_options(file_path, options)](#save_with_options_file_path_options_120) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_121) | Saves the object's data to the specified file location in the specified file format according to save options. |
-| [set_argb_32_pixel(x, y, argb_32_color)](#set_argb_32_pixel_x_y_argb_32_color_122) | Sets an image 32-bit ARGB pixel for the specified position. |
-| [set_palette(palette, update_colors)](#set_palette_palette_update_colors_123) | Sets the image palette. |
-| [set_pixel(x, y, color)](#set_pixel_x_y_color_124) | Sets an image pixel for the specified position. |
-| [set_resolution(dpi_x, dpi_y)](#set_resolution_dpi_x_dpi_y_125) | Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
-| [try_set_metadata(metadata)](#try_set_metadata_metadata_126) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
-| [write_argb_32_scan_line(scan_line_index, argb_32_pixels)](#write_argb_32_scan_line_scan_line_index_argb_32_pixels_127) | Writes the whole scan line to the specified scan line index. |
-| [write_scan_line(scan_line_index, pixels)](#write_scan_line_scan_line_index_pixels_128) | Writes the whole scan line to the specified scan line index. |
+| [save(file_path)](#save_file_path_111) | Saves the image to the specified file location. |
+| [save(file_path, options)](#save_file_path_options_112) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save(file_path, options, bounds_rectangle)](#save_file_path_options_bounds_rectangle_113) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save(file_path, over_write)](#save_file_path_over_write_114) | Saves the object's data to the specified file location. |
+| [save(stream)](#save_stream_115) | Saves the object's data to the specified stream. |
+| [save(stream, options_base)](#save_stream_options_base_116) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save(stream, options_base, bounds_rectangle)](#save_stream_options_base_bounds_rectangle_117) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_argb_32_pixels(rectangle, pixels)](#save_argb_32_pixels_rectangle_pixels_118) | Saves the 32-bit ARGB pixels. |
+| [save_cmyk_32_pixels(rectangle, pixels)](#save_cmyk_32_pixels_rectangle_pixels_119) | Saves the pixels. |
+| [save_cmyk_pixels(rectangle, pixels)](#save_cmyk_pixels_rectangle_pixels_120) | Saves the pixels.<br/>            This method is deprecated. Please use more effective the [RasterImage.save_cmyk_32_pixels(rectangle, pixels)](/imaging/python-net/aspose.imaging/rasterimage/) method. |
+| [save_pixels(rectangle, pixels)](#save_pixels_rectangle_pixels_121) | Saves pixels (format specific method). |
+| [save_raw_data(data, data_offset, rectangle, raw_data_settings)](#save_raw_data_data_data_offset_rectangle_raw_data_settings_122) | Saves the raw data. |
+| [save_to_stream(stream)](#save_to_stream_stream_123) | Saves the object's data to the specified stream. |
+| [save_to_stream_with_options(stream, options_base)](#save_to_stream_with_options_stream_options_base_124) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_to_stream_with_options_rect(stream, options_base, bounds_rectangle)](#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_125) | Saves the image's data to the specified stream in the specified file format according to save options. |
+| [save_with_options(file_path, options)](#save_with_options_file_path_options_126) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [save_with_options_rect(file_path, options, bounds_rectangle)](#save_with_options_rect_file_path_options_bounds_rectangle_127) | Saves the object's data to the specified file location in the specified file format according to save options. |
+| [set_argb_32_pixel(x, y, argb_32_color)](#set_argb_32_pixel_x_y_argb_32_color_128) | Sets an image 32-bit ARGB pixel for the specified position. |
+| [set_palette(palette, update_colors)](#set_palette_palette_update_colors_129) | Sets the image palette. |
+| [set_pixel(x, y, color)](#set_pixel_x_y_color_130) | Sets an image pixel for the specified position. |
+| [set_resolution(dpi_x, dpi_y)](#set_resolution_dpi_x_dpi_y_131) | Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
+| [try_set_metadata(metadata)](#try_set_metadata_metadata_132) | Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.imaging/image/) instance supports and implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance. |
+| [write_argb_32_scan_line(scan_line_index, argb_32_pixels)](#write_argb_32_scan_line_scan_line_index_argb_32_pixels_133) | Writes the whole scan line to the specified scan line index. |
+| [write_scan_line(scan_line_index, pixels)](#write_scan_line_scan_line_index_pixels_134) | Writes the whole scan line to the specified scan line index. |
 
 
 ### Constructor: TiffFrame(image) {#TiffFrame_image_1}
@@ -323,13 +329,13 @@ Gets or sets the path resources.
 
 **See also:**
 
-**[Example # 1](#example_212)**: The following example shows how to retrieve paths from TIFF image and display...
+**[Example # 1](#example_216)**: The following example shows how to retrieve paths from TIFF image and display...
 
-**[Example # 2](#example_213)**: The following example shows how to modify already existing Clipping Paths. Fo...
+**[Example # 2](#example_217)**: The following example shows how to modify already existing Clipping Paths. Fo...
 
-**[Example # 3](#example_214)**: The following example shows how to create Clipping Path in TIFF image. In ord...
+**[Example # 3](#example_218)**: The following example shows how to create Clipping Path in TIFF image. In ord...
 
-**[Example # 4](#example_216)**: Transfer Clipping Paths during export from TIFF to PSD image.
+**[Example # 4](#example_220)**: Transfer Clipping Paths during export from TIFF to PSD image.
 
 
 ### Method: adjust_brightness(brightness) {#adjust_brightness_brightness_1}
@@ -416,7 +422,100 @@ Calculates the percentage similarity between the extracted data and the original
 | int | The percentage similarity value. |
 
 
-### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_6}
+### Method: apply_cube_lut(cube_lut) {#apply_cube_lut_cube_lut_6}
+
+
+```
+ apply_cube_lut(cube_lut) 
+```
+
+Applies the specified 3D cube lookup table (LUT) to the entire image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| cube_lut | [CubeLut](/imaging/python-net/aspose.imaging.lut.cubelut/cubelut/) | The [CubeLut](/imaging/python-net/aspose.imaging.lut.cubelut/cubelut/) instance containing the color transformation<br/>            to apply to the image pixels. |
+
+### Method: apply_cube_lut(cube_lut, bounds) {#apply_cube_lut_cube_lut_bounds_7}
+
+
+```
+ apply_cube_lut(cube_lut, bounds) 
+```
+
+Applies the specified 3D cube lookup table (LUT) to the pixels<br/>            within the specified bounds of the image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| cube_lut | [CubeLut](/imaging/python-net/aspose.imaging.lut.cubelut/cubelut/) | The [CubeLut](/imaging/python-net/aspose.imaging.lut.cubelut/cubelut/) instance containing the color transformation<br/>            to apply to the image pixels. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangular region of the image to which the lookup table is applied.<br/>            Pixels outside this region are not modified. |
+
+### Method: apply_cube_lut(file_name) {#apply_cube_lut_file_name_8}
+
+
+```
+ apply_cube_lut(file_name) 
+```
+
+Applies a 3D cube lookup table (LUT) loaded from the specified file<br/>            to the entire image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| file_name | string | The path to the <c>.cube</c> file containing the lookup table. |
+
+### Method: apply_cube_lut(file_name, bounds) {#apply_cube_lut_file_name_bounds_9}
+
+
+```
+ apply_cube_lut(file_name, bounds) 
+```
+
+Applies a 3D cube lookup table (LUT) loaded from the specified file<br/>            to the pixels within the specified bounds of the image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| file_name | string | The path to the <c>.cube</c> file containing the lookup table. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangular region of the image to which the lookup table is applied.<br/>            Pixels outside this region are not modified. |
+
+### Method: apply_cube_lut(stream) {#apply_cube_lut_stream_10}
+
+
+```
+ apply_cube_lut(stream) 
+```
+
+Applies a 3D cube lookup table (LUT) loaded from the specified stream<br/>            to the entire image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | _io.BufferedRandom | The stream containing the <c>.cube</c> lookup table data. |
+
+### Method: apply_cube_lut(stream, bounds) {#apply_cube_lut_stream_bounds_11}
+
+
+```
+ apply_cube_lut(stream, bounds) 
+```
+
+Applies a 3D cube lookup table (LUT) loaded from the specified stream<br/>            to the pixels within the specified bounds of the image.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| stream | _io.BufferedRandom | The stream containing the <c>.cube</c> lookup table data. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangular region of the image to which the lookup table is applied.<br/>            Pixels outside this region are not modified. |
+
+### Method: binarize_bradley(brightness_difference) {#binarize_bradley_brightness_difference_12}
 
 
 ```
@@ -431,7 +530,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | :- | :- | :- |
 | brightness_difference | float | The brightness difference between pixel and the average of an s x s window of pixels centered around this pixel. |
 
-### Method: binarize_bradley(brightness_difference, window_size) {#binarize_bradley_brightness_difference_window_size_7}
+### Method: binarize_bradley(brightness_difference, window_size) {#binarize_bradley_brightness_difference_window_size_13}
 
 
 ```
@@ -447,7 +546,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | brightness_difference | float | The brightness difference between pixel and the average of an s x s window of pixels centered around this pixel. |
 | window_size | int | The size of s x s window of pixels centered around this pixel |
 
-### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_8}
+### Method: binarize_fixed(threshold) {#binarize_fixed_threshold_14}
 
 
 ```
@@ -462,7 +561,7 @@ Binarization of an image with predefined threshold
 | :- | :- | :- |
 | threshold | System.Byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
 
-### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_9}
+### Method: blend(origin, overlay, overlay_alpha) {#blend_origin_overlay_overlay_alpha_15}
 
 
 ```
@@ -479,7 +578,7 @@ Blends this image instance with the _overlay_ image.
 | overlay | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The overlay image. |
 | overlay_alpha | System.Byte | The overlay alpha. |
 
-### Method: blend(origin, overlay, overlay_area, overlay_alpha) {#blend_origin_overlay_overlay_area_overlay_alpha_10}
+### Method: blend(origin, overlay, overlay_area, overlay_alpha) {#blend_origin_overlay_overlay_area_overlay_alpha_16}
 
 
 ```
@@ -497,7 +596,7 @@ Blends this image instance with the _overlay_ image.
 | overlay_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The overlay area. |
 | overlay_alpha | System.Byte | The overlay alpha. |
 
-### Method: can_load(file_path)  [static] {#can_load_file_path_11}
+### Method: can_load(file_path)  [static] {#can_load_file_path_17}
 
 
 ```
@@ -519,7 +618,7 @@ Determines whether image can be loaded from the specified file path.
 | bool | <c>true</c> if image can be loaded from the specified file; otherwise, <c>false</c>. |
 
 
-### Method: can_load(file_path, load_options)  [static] {#can_load_file_path_load_options_12}
+### Method: can_load(file_path, load_options)  [static] {#can_load_file_path_load_options_18}
 
 
 ```
@@ -542,7 +641,7 @@ Determines whether image can be loaded from the specified file path and optional
 | bool | <c>true</c> if image can be loaded from the specified file; otherwise, <c>false</c>. |
 
 
-### Method: can_load(stream)  [static] {#can_load_stream_13}
+### Method: can_load(stream)  [static] {#can_load_stream_19}
 
 
 ```
@@ -564,7 +663,7 @@ Determines whether image can be loaded from the specified stream.
 | bool | <c>true</c> if image can be loaded from the specified stream; otherwise, <c>false</c>. |
 
 
-### Method: can_load(stream, load_options)  [static] {#can_load_stream_load_options_14}
+### Method: can_load(stream, load_options)  [static] {#can_load_stream_load_options_20}
 
 
 ```
@@ -587,7 +686,7 @@ Determines whether image can be loaded from the specified stream and optionally 
 | bool | <c>true</c> if image can be loaded from the specified stream; otherwise, <c>false</c>. |
 
 
-### Method: can_load_stream(stream)  [static] {#can_load_stream_stream_15}
+### Method: can_load_stream(stream)  [static] {#can_load_stream_stream_21}
 
 
 ```
@@ -609,7 +708,7 @@ Determines whether image can be loaded from the specified stream.
 | bool | <c>true</c> if image can be loaded from the specified stream; otherwise, <c>false</c>. |
 
 
-### Method: can_load_stream_with_options(stream, load_options)  [static] {#can_load_stream_with_options_stream_load_options_16}
+### Method: can_load_stream_with_options(stream, load_options)  [static] {#can_load_stream_with_options_stream_load_options_22}
 
 
 ```
@@ -632,7 +731,7 @@ Determines whether image can be loaded from the specified stream and optionally 
 | bool | <c>true</c> if image can be loaded from the specified stream; otherwise, <c>false</c>. |
 
 
-### Method: can_load_with_options(file_path, load_options)  [static] {#can_load_with_options_file_path_load_options_17}
+### Method: can_load_with_options(file_path, load_options)  [static] {#can_load_with_options_file_path_load_options_23}
 
 
 ```
@@ -655,7 +754,7 @@ Determines whether image can be loaded from the specified file path and optional
 | bool | <c>true</c> if image can be loaded from the specified file; otherwise, <c>false</c>. |
 
 
-### Method: can_save(options) {#can_save_options_18}
+### Method: can_save(options) {#can_save_options_24}
 
 
 ```
@@ -677,7 +776,7 @@ Determines whether image can be saved to the specified file format represented b
 | bool | <c>true</c> if image can be saved to the specified file format represented by the passed save options; otherwise, <c>false</c>. |
 
 
-### Method: copy_frame(tiff_frame)  [static] {#copy_frame_tiff_frame_19}
+### Method: copy_frame(tiff_frame)  [static] {#copy_frame_tiff_frame_25}
 
 
 ```
@@ -699,7 +798,7 @@ Copies the entire frame (duplicates).
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The newly copied tiff frame. |
 
 
-### Method: create(files)  [static] {#create_files_20}
+### Method: create(files)  [static] {#create_files_26}
 
 
 ```
@@ -721,7 +820,7 @@ Creates the multipage image containing the specified files.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The multipage image |
 
 
-### Method: create(files, throw_exception_on_load_error)  [static] {#create_files_throw_exception_on_load_error_21}
+### Method: create(files, throw_exception_on_load_error)  [static] {#create_files_throw_exception_on_load_error_27}
 
 
 ```
@@ -744,7 +843,7 @@ Creates the multipage image containing the specified files.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The multipage image |
 
 
-### Method: create(image_options, width, height)  [static] {#create_image_options_width_height_22}
+### Method: create(image_options, width, height)  [static] {#create_image_options_width_height_28}
 
 
 ```
@@ -768,14 +867,14 @@ Creates a new image using the specified create options.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The newly created image. |
 
 
-### Method: create(image_options, width, height, pixels)  [static] {#create_image_options_width_height_pixels_23}
+### Method: create(image_options, width, height, pixels)  [static] {#create_image_options_width_height_pixels_29}
 
 
 ```
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -793,7 +892,7 @@ Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instanc
 | [Image](/imaging/python-net/aspose.imaging/image/) | A [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) populated with the provided pixel data. |
 
 
-### Method: create(images)  [static] {#create_images_24}
+### Method: create(images)  [static] {#create_images_30}
 
 
 ```
@@ -815,7 +914,7 @@ Creates a new image using the specified images as pages
 | [Image](/imaging/python-net/aspose.imaging/image/) | The Image as IMultipageImage |
 
 
-### Method: create(images, dispose_images)  [static] {#create_images_dispose_images_25}
+### Method: create(images, dispose_images)  [static] {#create_images_dispose_images_31}
 
 
 ```
@@ -838,7 +937,7 @@ Creates a new image the specified images as pages.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The Image as IMultipageImage |
 
 
-### Method: create(multipage_create_options)  [static] {#create_multipage_create_options_26}
+### Method: create(multipage_create_options)  [static] {#create_multipage_create_options_32}
 
 
 ```
@@ -860,7 +959,7 @@ Creates the specified multipage create options.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The multipage image |
 
 
-### Method: create(width, height)  [static] {#create_width_height_27}
+### Method: create(width, height)  [static] {#create_width_height_33}
 
 
 ```
@@ -883,7 +982,7 @@ Creates a new raster image stored in memory.
 | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The newly created raster image. |
 
 
-### Method: create(width, height, argb_32_pixels)  [static] {#create_width_height_argb_32_pixels_28}
+### Method: create(width, height, argb_32_pixels)  [static] {#create_width_height_argb_32_pixels_34}
 
 
 ```
@@ -907,7 +1006,7 @@ Creates a new raster image stored in memory.
 | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) | The newly created raster image. |
 
 
-### Method: create_frame_from(tiff_frame, options)  [static] {#create_frame_from_tiff_frame_options_29}
+### Method: create_frame_from(tiff_frame, options)  [static] {#create_frame_from_tiff_frame_options_35}
 
 
 ```
@@ -930,7 +1029,7 @@ Creates the frame from specified _tiffFrame_ using the specified _options_.<br/>
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) | The newly created frame. |
 
 
-### Method: create_from_file_with_options(path, options)  [static] {#create_from_file_with_options_path_options_30}
+### Method: create_from_file_with_options(path, options)  [static] {#create_from_file_with_options_path_options_36}
 
 
 ```
@@ -953,7 +1052,7 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 
-### Method: create_from_files(files)  [static] {#create_from_files_files_31}
+### Method: create_from_files(files)  [static] {#create_from_files_files_37}
 
 
 ```
@@ -975,7 +1074,7 @@ Creates the multipage image containing the specified files as lazy loading pages
 | [Image](/imaging/python-net/aspose.imaging/image/) | The multipage image |
 
 
-### Method: create_from_files(files, throw_exception_on_load_error)  [static] {#create_from_files_files_throw_exception_on_load_error_32}
+### Method: create_from_files(files, throw_exception_on_load_error)  [static] {#create_from_files_files_throw_exception_on_load_error_38}
 
 
 ```
@@ -998,7 +1097,7 @@ Creates the multipage image containing the specified files as lazy loading pages
 | [Image](/imaging/python-net/aspose.imaging/image/) | The multipage image |
 
 
-### Method: create_from_image(image)  [static] {#create_from_image_image_33}
+### Method: create_from_image(image)  [static] {#create_from_image_image_39}
 
 
 ```
@@ -1020,7 +1119,7 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 
-### Method: create_from_image_with_options(image, options)  [static] {#create_from_image_with_options_image_options_34}
+### Method: create_from_image_with_options(image, options)  [static] {#create_from_image_with_options_image_options_40}
 
 
 ```
@@ -1043,7 +1142,7 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 
-### Method: create_from_images(images)  [static] {#create_from_images_images_35}
+### Method: create_from_images(images)  [static] {#create_from_images_images_41}
 
 
 ```
@@ -1065,7 +1164,7 @@ Creates a new image using the specified images as pages
 | [Image](/imaging/python-net/aspose.imaging/image/) | The Image as IMultipageImage |
 
 
-### Method: create_from_images(images, dispose_images)  [static] {#create_from_images_images_dispose_images_36}
+### Method: create_from_images(images, dispose_images)  [static] {#create_from_images_images_dispose_images_42}
 
 
 ```
@@ -1088,7 +1187,7 @@ Creates a new image the specified images as pages.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The Image as IMultipageImage |
 
 
-### Method: create_from_stream(stream)  [static] {#create_from_stream_stream_37}
+### Method: create_from_stream(stream)  [static] {#create_from_stream_stream_43}
 
 
 ```
@@ -1110,7 +1209,7 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 
-### Method: create_from_stream_with_options(stream, options)  [static] {#create_from_stream_with_options_stream_options_38}
+### Method: create_from_stream_with_options(stream, options)  [static] {#create_from_stream_with_options_stream_options_44}
 
 
 ```
@@ -1133,7 +1232,7 @@ Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging
 | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) |  |
 
 
-### Method: crop(left_shift, right_shift, top_shift, bottom_shift) {#crop_left_shift_right_shift_top_shift_bottom_shift_39}
+### Method: crop(left_shift, right_shift, top_shift, bottom_shift) {#crop_left_shift_right_shift_top_shift_bottom_shift_45}
 
 
 ```
@@ -1151,7 +1250,7 @@ Crop image with shifts.
 | top_shift | int | The top shift. |
 | bottom_shift | int | The bottom shift. |
 
-### Method: crop(rectangle) {#crop_rectangle_40}
+### Method: crop(rectangle) {#crop_rectangle_46}
 
 
 ```
@@ -1166,7 +1265,7 @@ Cropping the image.
 | :- | :- | :- |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle. |
 
-### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_41}
+### Method: dither(dithering_method, bits_count) {#dither_dithering_method_bits_count_47}
 
 
 ```
@@ -1182,7 +1281,7 @@ Performs dithering on the current image.
 | dithering_method | [DitheringMethod](/imaging/python-net/aspose.imaging/ditheringmethod/) | The dithering method. |
 | bits_count | int | The final bits count for dithering. |
 
-### Method: dither(dithering_method, bits_count, custom_palette) {#dither_dithering_method_bits_count_custom_palette_42}
+### Method: dither(dithering_method, bits_count, custom_palette) {#dither_dithering_method_bits_count_custom_palette_48}
 
 
 ```
@@ -1199,7 +1298,7 @@ Performs dithering on the current image.
 | bits_count | int | The final bits count for dithering. |
 | custom_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The custom palette for dithering. |
 
-### Method: embed_digital_signature(password) {#embed_digital_signature_password_43}
+### Method: embed_digital_signature(password) {#embed_digital_signature_password_49}
 
 
 ```
@@ -1214,7 +1313,7 @@ Embed digital sign based on provided password into the image using steganography
 | :- | :- | :- |
 | password | string | The password used for generate digital sign data |
 
-### Method: filter(rectangle, options) {#filter_rectangle_options_44}
+### Method: filter(rectangle, options) {#filter_rectangle_options_50}
 
 
 ```
@@ -1230,7 +1329,7 @@ Filters the specified rectangle.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle. |
 | options | [FilterOptionsBase](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/) | The options. |
 
-### Method: get_argb_32_pixel(x, y) {#get_argb_32_pixel_x_y_45}
+### Method: get_argb_32_pixel(x, y) {#get_argb_32_pixel_x_y_51}
 
 
 ```
@@ -1253,7 +1352,7 @@ Gets an image 32-bit ARGB pixel.
 | int | The 32-bit ARGB pixel for the specified location. |
 
 
-### Method: get_default_argb_32_pixels(rectangle) {#get_default_argb_32_pixels_rectangle_46}
+### Method: get_default_argb_32_pixels(rectangle) {#get_default_argb_32_pixels_rectangle_52}
 
 
 ```
@@ -1275,7 +1374,7 @@ Gets the default 32-bit ARGB pixels array.
 | int[] | The default pixels array. |
 
 
-### Method: get_default_options(args) {#get_default_options_args_47}
+### Method: get_default_options(args) {#get_default_options_args_53}
 
 
 ```
@@ -1297,7 +1396,7 @@ Gets the default options.
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | Default options |
 
 
-### Method: get_default_pixels(rectangle, partial_pixel_loader) {#get_default_pixels_rectangle_partial_pixel_loader_48}
+### Method: get_default_pixels(rectangle, partial_pixel_loader) {#get_default_pixels_rectangle_partial_pixel_loader_54}
 
 
 ```
@@ -1313,7 +1412,7 @@ Gets the default pixels array using partial pixel loader.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to get pixels for. |
 | partial_pixel_loader | [IPartialArgb32PixelLoader](/imaging/python-net/aspose.imaging/ipartialargb32pixelloader/) | The partial pixel loader. |
 
-### Method: get_default_raw_data(rectangle, partial_raw_data_loader, raw_data_settings) {#get_default_raw_data_rectangle_partial_raw_data_loader_raw_data_settings_49}
+### Method: get_default_raw_data(rectangle, partial_raw_data_loader, raw_data_settings) {#get_default_raw_data_rectangle_partial_raw_data_loader_raw_data_settings_55}
 
 
 ```
@@ -1330,7 +1429,7 @@ Gets the default raw data array using partial pixel loader.
 | partial_raw_data_loader | [IPartialRawDataLoader](/imaging/python-net/aspose.imaging/ipartialrawdataloader/) | The partial raw data loader. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | The raw data settings. |
 
-### Method: get_default_raw_data(rectangle, raw_data_settings) {#get_default_raw_data_rectangle_raw_data_settings_50}
+### Method: get_default_raw_data(rectangle, raw_data_settings) {#get_default_raw_data_rectangle_raw_data_settings_56}
 
 
 ```
@@ -1353,7 +1452,7 @@ Gets the default raw data array.
 | System.Byte | The default raw data array. |
 
 
-### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_51}
+### Method: get_file_format(file_path)  [static] {#get_file_format_file_path_57}
 
 
 ```
@@ -1375,7 +1474,7 @@ Gets the file format.
 | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | The determined file format. |
 
 
-### Method: get_file_format(stream)  [static] {#get_file_format_stream_52}
+### Method: get_file_format(stream)  [static] {#get_file_format_stream_58}
 
 
 ```
@@ -1397,7 +1496,7 @@ Gets the file format.
 | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | The determined file format. |
 
 
-### Method: get_file_format_of_stream(stream)  [static] {#get_file_format_of_stream_stream_53}
+### Method: get_file_format_of_stream(stream)  [static] {#get_file_format_of_stream_stream_59}
 
 
 ```
@@ -1419,7 +1518,7 @@ Gets the file format.
 | [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | The determined file format. |
 
 
-### Method: get_fitting_rectangle(rectangle, pixels, width, height)  [static] {#get_fitting_rectangle_rectangle_pixels_width_height_54}
+### Method: get_fitting_rectangle(rectangle, pixels, width, height)  [static] {#get_fitting_rectangle_rectangle_pixels_width_height_60}
 
 
 ```
@@ -1444,7 +1543,7 @@ Gets rectangle which fits the current image.
 | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The fitting rectangle or exception if no fitting rectangle can be found. |
 
 
-### Method: get_fitting_rectangle(rectangle, width, height)  [static] {#get_fitting_rectangle_rectangle_width_height_55}
+### Method: get_fitting_rectangle(rectangle, width, height)  [static] {#get_fitting_rectangle_rectangle_width_height_61}
 
 
 ```
@@ -1468,7 +1567,7 @@ Gets rectangle which fits the current image.
 | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The fitting rectangle or exception if no fitting rectangle can be found. |
 
 
-### Method: get_modify_date(use_default) {#get_modify_date_use_default_56}
+### Method: get_modify_date(use_default) {#get_modify_date_use_default_62}
 
 
 ```
@@ -1490,7 +1589,7 @@ Gets the datetime value the image was last modified.
 | System.DateTime | datetime or min date value in case the value is absent or a parsing error occured. |
 
 
-### Method: get_original_options() {#get_original_options__57}
+### Method: get_original_options() {#get_original_options__63}
 
 
 ```
@@ -1506,7 +1605,7 @@ Gets the options based on the original file settings.<br/>            This can b
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options based on the original file settings. |
 
 
-### Method: get_pixel(x, y) {#get_pixel_x_y_58}
+### Method: get_pixel(x, y) {#get_pixel_x_y_64}
 
 
 ```
@@ -1529,7 +1628,7 @@ Gets an image pixel.
 | [Color](/imaging/python-net/aspose.imaging/color/) | The pixel color for the specified location. |
 
 
-### Method: get_proportional_height(width, height, new_width)  [static] {#get_proportional_height_width_height_new_width_59}
+### Method: get_proportional_height(width, height, new_width)  [static] {#get_proportional_height_width_height_new_width_65}
 
 
 ```
@@ -1553,7 +1652,7 @@ Gets a proportional height.
 | int | The proportional height. |
 
 
-### Method: get_proportional_width(width, height, new_height)  [static] {#get_proportional_width_width_height_new_height_60}
+### Method: get_proportional_width(width, height, new_height)  [static] {#get_proportional_width_width_height_new_height_66}
 
 
 ```
@@ -1577,7 +1676,7 @@ Gets a proportional width.
 | int | The proportional width. |
 
 
-### Method: get_serialized_stream(image_options, clipping_rectangle, page_number) {#get_serialized_stream_image_options_clipping_rectangle_page_number_61}
+### Method: get_serialized_stream(image_options, clipping_rectangle, page_number) {#get_serialized_stream_image_options_clipping_rectangle_page_number_67}
 
 
 ```
@@ -1601,7 +1700,7 @@ Converts to aps.
 | _io.BufferedRandom | The serialized stream |
 
 
-### Method: get_skew_angle() {#get_skew_angle__62}
+### Method: get_skew_angle() {#get_skew_angle__68}
 
 
 ```
@@ -1617,7 +1716,7 @@ Gets the skew angle.<br/>            This method is applicable to scanned text d
 | float | The skew angle, in degrees. |
 
 
-### Method: is_digital_signed(password, percentage_threshold) {#is_digital_signed_password_percentage_threshold_63}
+### Method: is_digital_signed(password, percentage_threshold) {#is_digital_signed_password_percentage_threshold_69}
 
 
 ```
@@ -1640,7 +1739,7 @@ Performs a fast check to determine if the image is digitally signed, using the p
 | bool | True if the image is signed, otherwise false. |
 
 
-### Method: load(file_path)  [static] {#load_file_path_64}
+### Method: load(file_path)  [static] {#load_file_path_70}
 
 
 ```
@@ -1662,7 +1761,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load(file_path, load_options)  [static] {#load_file_path_load_options_65}
+### Method: load(file_path, load_options)  [static] {#load_file_path_load_options_71}
 
 
 ```
@@ -1685,7 +1784,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load(stream)  [static] {#load_stream_66}
+### Method: load(stream)  [static] {#load_stream_72}
 
 
 ```
@@ -1707,7 +1806,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load(stream, load_options)  [static] {#load_stream_load_options_67}
+### Method: load(stream, load_options)  [static] {#load_stream_load_options_73}
 
 
 ```
@@ -1730,7 +1829,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_argb_32_pixels(rectangle) {#load_argb_32_pixels_rectangle_68}
+### Method: load_argb_32_pixels(rectangle) {#load_argb_32_pixels_rectangle_74}
 
 
 ```
@@ -1752,7 +1851,7 @@ Loads 32-bit ARGB pixels.
 | int[] | The loaded 32-bit ARGB pixels array. |
 
 
-### Method: load_argb_64_pixels(rectangle) {#load_argb_64_pixels_rectangle_69}
+### Method: load_argb_64_pixels(rectangle) {#load_argb_64_pixels_rectangle_75}
 
 
 ```
@@ -1774,7 +1873,7 @@ Loads 64-bit ARGB pixels.
 | int[] | The loaded 64-bit ARGB pixels array. |
 
 
-### Method: load_cmyk_32_pixels(rectangle) {#load_cmyk_32_pixels_rectangle_70}
+### Method: load_cmyk_32_pixels(rectangle) {#load_cmyk_32_pixels_rectangle_76}
 
 
 ```
@@ -1796,7 +1895,7 @@ Loads pixels in CMYK format.
 | int[] | The loaded CMYK pixels presentes as 32-bit inateger values. |
 
 
-### Method: load_cmyk_pixels(rectangle) {#load_cmyk_pixels_rectangle_71}
+### Method: load_cmyk_pixels(rectangle) {#load_cmyk_pixels_rectangle_77}
 
 
 ```
@@ -1818,7 +1917,7 @@ Loads pixels in CMYK format.<br/>            This method is deprecated. Please u
 | [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/) | The loaded CMYK pixels array. |
 
 
-### Method: load_partial_argb_32_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_72}
+### Method: load_partial_argb_32_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_32_pixels_rectangle_partial_pixel_loader_78}
 
 
 ```
@@ -1834,7 +1933,7 @@ Loads 32-bit ARGB pixels partially (by blocks).
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to load pixels from. |
 | partial_pixel_loader | [IPartialArgb32PixelLoader](/imaging/python-net/aspose.imaging/ipartialargb32pixelloader/) | The partial pixel loader. |
 
-### Method: load_partial_argb_64_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_73}
+### Method: load_partial_argb_64_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_79}
 
 
 ```
@@ -1850,7 +1949,7 @@ Loads 64-bit ARGB pixels partially by packs.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The desired rectangle. |
 | partial_pixel_loader | [IPartialArgb64PixelLoader](/imaging/python-net/aspose.imaging/ipartialargb64pixelloader/) | The 64-bit ARGB pixel loader. |
 
-### Method: load_partial_pixels(desired_rectangle, pixel_loader) {#load_partial_pixels_desired_rectangle_pixel_loader_74}
+### Method: load_partial_pixels(desired_rectangle, pixel_loader) {#load_partial_pixels_desired_rectangle_pixel_loader_80}
 
 
 ```
@@ -1866,7 +1965,7 @@ Loads pixels partially by packs.
 | desired_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The desired rectangle. |
 | pixel_loader | [IPartialPixelLoader](/imaging/python-net/aspose.imaging/ipartialpixelloader/) | The pixel loader. |
 
-### Method: load_pixels(rectangle) {#load_pixels_rectangle_75}
+### Method: load_pixels(rectangle) {#load_pixels_rectangle_81}
 
 
 ```
@@ -1888,7 +1987,7 @@ Loads pixels.
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The loaded pixels array. |
 
 
-### Method: load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_76}
+### Method: load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_82}
 
 
 ```
@@ -1906,7 +2005,7 @@ Loads raw data.
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | The raw data settings to use for loaded data. Note if data is not in the format specified then data conversion will be performed. |
 | raw_data_loader | [IPartialRawDataLoader](/imaging/python-net/aspose.imaging/ipartialrawdataloader/) | The raw data loader. |
 
-### Method: load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_77}
+### Method: load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_83}
 
 
 ```
@@ -1923,7 +2022,7 @@ Loads raw data.
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | The raw data settings to use for loaded data. Note if data is not in the format specified then data conversion will be performed. |
 | raw_data_loader | [IPartialRawDataLoader](/imaging/python-net/aspose.imaging/ipartialrawdataloader/) | The raw data loader. |
 
-### Method: load_stream(stream)  [static] {#load_stream_stream_78}
+### Method: load_stream(stream)  [static] {#load_stream_stream_84}
 
 
 ```
@@ -1945,7 +2044,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_stream_with_options(stream, load_options)  [static] {#load_stream_with_options_stream_load_options_79}
+### Method: load_stream_with_options(stream, load_options)  [static] {#load_stream_with_options_stream_load_options_85}
 
 
 ```
@@ -1968,7 +2067,7 @@ Loads a new image from the specified stream.
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: load_with_options(file_path, load_options)  [static] {#load_with_options_file_path_load_options_80}
+### Method: load_with_options(file_path, load_options)  [static] {#load_with_options_file_path_load_options_86}
 
 
 ```
@@ -1991,7 +2090,7 @@ Loads a new image from the specified file path or URL.<br/>            If _fileP
 | [Image](/imaging/python-net/aspose.imaging/image/) | The loaded image. |
 
 
-### Method: normalize_angle(resize_proportionally, background_color) {#normalize_angle_resize_proportionally_background_color_81}
+### Method: normalize_angle(resize_proportionally, background_color) {#normalize_angle_resize_proportionally_background_color_87}
 
 
 ```
@@ -2007,7 +2106,7 @@ Normalizes the angle.<br/>            This method is applicable to scanned text 
 | resize_proportionally | bool | if set to <c>true</c> you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | Color of the background. |
 
-### Method: read_argb_32_scan_line(scan_line_index) {#read_argb_32_scan_line_scan_line_index_82}
+### Method: read_argb_32_scan_line(scan_line_index) {#read_argb_32_scan_line_scan_line_index_88}
 
 
 ```
@@ -2029,7 +2128,7 @@ Reads the whole scan line by the specified scan line index.
 | int[] | The scan line 32-bit ARGB color values array. |
 
 
-### Method: read_scan_line(scan_line_index) {#read_scan_line_scan_line_index_83}
+### Method: read_scan_line(scan_line_index) {#read_scan_line_scan_line_index_89}
 
 
 ```
@@ -2051,7 +2150,7 @@ Reads the whole scan line by the specified scan line index.
 | [Color[]](/imaging/python-net/aspose.imaging/color/) | The scan line pixel color values array. |
 
 
-### Method: replace_argb(old_color_argb, old_color_diff, new_color_argb) {#replace_argb_old_color_argb_old_color_diff_new_color_argb_84}
+### Method: replace_argb(old_color_argb, old_color_diff, new_color_argb) {#replace_argb_old_color_argb_old_color_diff_new_color_argb_90}
 
 
 ```
@@ -2068,7 +2167,7 @@ Replaces one color to another with allowed difference and preserves original alp
 | old_color_diff | System.Byte | Allowed difference in old color to be able to widen replaced color tone. |
 | new_color_argb | int | New color ARGB value to replace old color with. |
 
-### Method: replace_color(old_color, old_color_diff, new_color) {#replace_color_old_color_old_color_diff_new_color_85}
+### Method: replace_color(old_color, old_color_diff, new_color) {#replace_color_old_color_old_color_diff_new_color_91}
 
 
 ```
@@ -2085,7 +2184,7 @@ Replaces one color to another with allowed difference and preserves original alp
 | old_color_diff | System.Byte | Allowed difference in old color to be able to widen replaced color tone. |
 | new_color | [Color](/imaging/python-net/aspose.imaging/color/) | New color to replace old color with. |
 
-### Method: replace_color(old_color_argb, old_color_diff, new_color_argb) {#replace_color_old_color_argb_old_color_diff_new_color_argb_86}
+### Method: replace_color(old_color_argb, old_color_diff, new_color_argb) {#replace_color_old_color_argb_old_color_diff_new_color_argb_92}
 
 
 ```
@@ -2102,7 +2201,7 @@ Replaces one color to another with allowed difference and preserves original alp
 | old_color_diff | System.Byte | Allowed difference in old color to be able to widen replaced color tone. |
 | new_color_argb | int | New color ARGB value to replace old color with. |
 
-### Method: replace_non_transparent_colors(new_color) {#replace_non_transparent_colors_new_color_87}
+### Method: replace_non_transparent_colors(new_color) {#replace_non_transparent_colors_new_color_93}
 
 
 ```
@@ -2117,7 +2216,7 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 | :- | :- | :- |
 | new_color | [Color](/imaging/python-net/aspose.imaging/color/) | New color to replace non transparent colors with. |
 
-### Method: replace_non_transparent_colors(new_color_argb) {#replace_non_transparent_colors_new_color_argb_88}
+### Method: replace_non_transparent_colors(new_color_argb) {#replace_non_transparent_colors_new_color_argb_94}
 
 
 ```
@@ -2132,7 +2231,7 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 | :- | :- | :- |
 | new_color_argb | int | New color ARGB value to replace non transparent colors with. |
 
-### Method: resize(new_width, new_height) {#resize_new_width_new_height_89}
+### Method: resize(new_width, new_height) {#resize_new_width_new_height_95}
 
 
 ```
@@ -2148,7 +2247,7 @@ Resizes the image. The default [ResizeType.NEAREST_NEIGHBOUR_RESAMPLE](/imaging/
 | new_width | int | The new width. |
 | new_height | int | The new height. |
 
-### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_90}
+### Method: resize(new_width, new_height, resize_type) {#resize_new_width_new_height_resize_type_96}
 
 
 ```
@@ -2165,7 +2264,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | The resize type. |
 
-### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_91}
+### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_97}
 
 
 ```
@@ -2182,7 +2281,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The resize settings. |
 
-### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_92}
+### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_98}
 
 
 ```
@@ -2199,7 +2298,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The resize settings. |
 
-### Method: resize_by_type(new_width, new_height, resize_type) {#resize_by_type_new_width_new_height_resize_type_93}
+### Method: resize_by_type(new_width, new_height, resize_type) {#resize_by_type_new_width_new_height_resize_type_99}
 
 
 ```
@@ -2216,7 +2315,7 @@ Resizes the image.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | The resize type. |
 
-### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_94}
+### Method: resize_height_proportionally(new_height) {#resize_height_proportionally_new_height_100}
 
 
 ```
@@ -2231,7 +2330,7 @@ Resizes the height proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RES
 | :- | :- | :- |
 | new_height | int | The new height. |
 
-### Method: resize_height_proportionally(new_height, resize_type) {#resize_height_proportionally_new_height_resize_type_95}
+### Method: resize_height_proportionally(new_height, resize_type) {#resize_height_proportionally_new_height_resize_type_101}
 
 
 ```
@@ -2247,7 +2346,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Type of the resize. |
 
-### Method: resize_height_proportionally(new_height, settings) {#resize_height_proportionally_new_height_settings_96}
+### Method: resize_height_proportionally(new_height, settings) {#resize_height_proportionally_new_height_settings_102}
 
 
 ```
@@ -2263,7 +2362,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_height_proportionally_settings(new_height, settings) {#resize_height_proportionally_settings_new_height_settings_97}
+### Method: resize_height_proportionally_settings(new_height, settings) {#resize_height_proportionally_settings_new_height_settings_103}
 
 
 ```
@@ -2279,7 +2378,7 @@ Resizes the height proportionally.
 | new_height | int | The new height. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_width_proportionally(new_width) {#resize_width_proportionally_new_width_98}
+### Method: resize_width_proportionally(new_width) {#resize_width_proportionally_new_width_104}
 
 
 ```
@@ -2294,7 +2393,7 @@ Resizes the width proportionally. The default [ResizeType.NEAREST_NEIGHBOUR_RESA
 | :- | :- | :- |
 | new_width | int | The new width. |
 
-### Method: resize_width_proportionally(new_width, resize_type) {#resize_width_proportionally_new_width_resize_type_99}
+### Method: resize_width_proportionally(new_width, resize_type) {#resize_width_proportionally_new_width_resize_type_105}
 
 
 ```
@@ -2310,7 +2409,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | resize_type | [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Type of the resize. |
 
-### Method: resize_width_proportionally(new_width, settings) {#resize_width_proportionally_new_width_settings_100}
+### Method: resize_width_proportionally(new_width, settings) {#resize_width_proportionally_new_width_settings_106}
 
 
 ```
@@ -2326,7 +2425,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: resize_width_proportionally_settings(new_width, settings) {#resize_width_proportionally_settings_new_width_settings_101}
+### Method: resize_width_proportionally_settings(new_width, settings) {#resize_width_proportionally_settings_new_width_settings_107}
 
 
 ```
@@ -2342,7 +2441,7 @@ Resizes the width proportionally.
 | new_width | int | The new width. |
 | settings | [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) | The image resize settings. |
 
-### Method: rotate(angle) {#rotate_angle_102}
+### Method: rotate(angle) {#rotate_angle_108}
 
 
 ```
@@ -2357,7 +2456,7 @@ Rotate image around the center.
 | :- | :- | :- |
 | angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
 
-### Method: rotate(angle, resize_proportionally, background_color) {#rotate_angle_resize_proportionally_background_color_103}
+### Method: rotate(angle, resize_proportionally, background_color) {#rotate_angle_resize_proportionally_background_color_109}
 
 
 ```
@@ -2374,7 +2473,7 @@ Rotate image around the center.
 | resize_proportionally | bool | if set to <c>true</c> you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | Color of the background. |
 
-### Method: rotate_flip(rotate_flip_type) {#rotate_flip_rotate_flip_type_104}
+### Method: rotate_flip(rotate_flip_type) {#rotate_flip_rotate_flip_type_110}
 
 
 ```
@@ -2389,7 +2488,7 @@ Rotates, flips, or rotates and flips the image.
 | :- | :- | :- |
 | rotate_flip_type | [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/) | The rotate flip type. |
 
-### Method: save(file_path) {#save_file_path_105}
+### Method: save(file_path) {#save_file_path_111}
 
 
 ```
@@ -2404,7 +2503,7 @@ Saves the image to the specified file location.
 | :- | :- | :- |
 | file_path | string | The file path to save the image to. |
 
-### Method: save(file_path, options) {#save_file_path_options_106}
+### Method: save(file_path, options) {#save_file_path_options_112}
 
 
 ```
@@ -2420,7 +2519,7 @@ Saves the object's data to the specified file location in the specified file for
 | file_path | string | The file path. |
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 
-### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_107}
+### Method: save(file_path, options, bounds_rectangle) {#save_file_path_options_bounds_rectangle_113}
 
 
 ```
@@ -2437,7 +2536,7 @@ Saves the object's data to the specified file location in the specified file for
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use sourse bounds. |
 
-### Method: save(file_path, over_write) {#save_file_path_over_write_108}
+### Method: save(file_path, over_write) {#save_file_path_over_write_114}
 
 
 ```
@@ -2453,7 +2552,7 @@ Saves the object's data to the specified file location.
 | file_path | string | The file path to save the object's data to. |
 | over_write | bool | if set to <c>true</c> over write the file contents, otherwise append will occur. |
 
-### Method: save(stream) {#save_stream_109}
+### Method: save(stream) {#save_stream_115}
 
 
 ```
@@ -2468,7 +2567,7 @@ Saves the object's data to the specified stream.
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to save the object's data to. |
 
-### Method: save(stream, options_base) {#save_stream_options_base_110}
+### Method: save(stream, options_base) {#save_stream_options_base_116}
 
 
 ```
@@ -2484,7 +2583,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | stream | _io.BufferedRandom | The stream to save the image's data to. |
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 
-### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_111}
+### Method: save(stream, options_base, bounds_rectangle) {#save_stream_options_base_bounds_rectangle_117}
 
 
 ```
@@ -2501,7 +2600,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
-### Method: save_argb_32_pixels(rectangle, pixels) {#save_argb_32_pixels_rectangle_pixels_112}
+### Method: save_argb_32_pixels(rectangle, pixels) {#save_argb_32_pixels_rectangle_pixels_118}
 
 
 ```
@@ -2517,7 +2616,7 @@ Saves the 32-bit ARGB pixels.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to save pixels to. |
 | pixels | int[] | The 32-bit ARGB pixels array. |
 
-### Method: save_cmyk_32_pixels(rectangle, pixels) {#save_cmyk_32_pixels_rectangle_pixels_113}
+### Method: save_cmyk_32_pixels(rectangle, pixels) {#save_cmyk_32_pixels_rectangle_pixels_119}
 
 
 ```
@@ -2533,7 +2632,7 @@ Saves the pixels.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to save pixels to. |
 | pixels | int[] | The CMYK pixels presented as the 32-bit integer values. |
 
-### Method: save_cmyk_pixels(rectangle, pixels) {#save_cmyk_pixels_rectangle_pixels_114}
+### Method: save_cmyk_pixels(rectangle, pixels) {#save_cmyk_pixels_rectangle_pixels_120}
 
 
 ```
@@ -2549,7 +2648,7 @@ Saves the pixels.<br/>            This method is deprecated. Please use more eff
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to save pixels to. |
 | pixels | [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/) | The CMYK pixels array. |
 
-### Method: save_pixels(rectangle, pixels) {#save_pixels_rectangle_pixels_115}
+### Method: save_pixels(rectangle, pixels) {#save_pixels_rectangle_pixels_121}
 
 
 ```
@@ -2565,7 +2664,7 @@ Saves pixels (format specific method).
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The rectangle to save pixels to. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The 32-bit ARGB pixels array. |
 
-### Method: save_raw_data(data, data_offset, rectangle, raw_data_settings) {#save_raw_data_data_data_offset_rectangle_raw_data_settings_116}
+### Method: save_raw_data(data, data_offset, rectangle, raw_data_settings) {#save_raw_data_data_data_offset_rectangle_raw_data_settings_122}
 
 
 ```
@@ -2583,7 +2682,7 @@ Saves the raw data.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The raw data rectangle. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings/) | The raw data settings the data is in. |
 
-### Method: save_to_stream(stream) {#save_to_stream_stream_117}
+### Method: save_to_stream(stream) {#save_to_stream_stream_123}
 
 
 ```
@@ -2598,7 +2697,7 @@ Saves the object's data to the specified stream.
 | :- | :- | :- |
 | stream | _io.BufferedRandom | The stream to save the object's data to. |
 
-### Method: save_to_stream_with_options(stream, options_base) {#save_to_stream_with_options_stream_options_base_118}
+### Method: save_to_stream_with_options(stream, options_base) {#save_to_stream_with_options_stream_options_base_124}
 
 
 ```
@@ -2614,7 +2713,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | stream | _io.BufferedRandom | The stream to save the image's data to. |
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 
-### Method: save_to_stream_with_options_rect(stream, options_base, bounds_rectangle) {#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_119}
+### Method: save_to_stream_with_options_rect(stream, options_base, bounds_rectangle) {#save_to_stream_with_options_rect_stream_options_base_bounds_rectangle_125}
 
 
 ```
@@ -2631,7 +2730,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The save options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
-### Method: save_with_options(file_path, options) {#save_with_options_file_path_options_120}
+### Method: save_with_options(file_path, options) {#save_with_options_file_path_options_126}
 
 
 ```
@@ -2647,7 +2746,7 @@ Saves the object's data to the specified file location in the specified file for
 | file_path | string | The file path. |
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 
-### Method: save_with_options_rect(file_path, options, bounds_rectangle) {#save_with_options_rect_file_path_options_bounds_rectangle_121}
+### Method: save_with_options_rect(file_path, options, bounds_rectangle) {#save_with_options_rect_file_path_options_bounds_rectangle_127}
 
 
 ```
@@ -2664,7 +2763,7 @@ Saves the object's data to the specified file location in the specified file for
 | options | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase/) | The options. |
 | bounds_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | The destination image bounds rectangle. Set the empty rectangle for use sourse bounds. |
 
-### Method: set_argb_32_pixel(x, y, argb_32_color) {#set_argb_32_pixel_x_y_argb_32_color_122}
+### Method: set_argb_32_pixel(x, y, argb_32_color) {#set_argb_32_pixel_x_y_argb_32_color_128}
 
 
 ```
@@ -2681,7 +2780,7 @@ Sets an image 32-bit ARGB pixel for the specified position.
 | y | int | The pixel y location. |
 | argb_32_color | int | The 32-bit ARGB pixel for the specified position. |
 
-### Method: set_palette(palette, update_colors) {#set_palette_palette_update_colors_123}
+### Method: set_palette(palette, update_colors) {#set_palette_palette_update_colors_129}
 
 
 ```
@@ -2695,9 +2794,9 @@ Sets the image palette.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | The palette to set. |
-| update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged. Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
+| update_colors | bool | if set to <c>true</c> colors will be updated according to the new palette; otherwise color indexes remain unchanged.<br/>            Note that unchanged indexes may crash the image on loading if some indexes have no corresponding palette entries. |
 
-### Method: set_pixel(x, y, color) {#set_pixel_x_y_color_124}
+### Method: set_pixel(x, y, color) {#set_pixel_x_y_color_130}
 
 
 ```
@@ -2714,7 +2813,7 @@ Sets an image pixel for the specified position.
 | y | int | The pixel y location. |
 | color | [Color](/imaging/python-net/aspose.imaging/color/) | The pixel color for the specified position. |
 
-### Method: set_resolution(dpi_x, dpi_y) {#set_resolution_dpi_x_dpi_y_125}
+### Method: set_resolution(dpi_x, dpi_y) {#set_resolution_dpi_x_dpi_y_131}
 
 
 ```
@@ -2730,7 +2829,7 @@ Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/ra
 | dpi_x | float | The horizontal resolution, in dots per inch, of the [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 | dpi_y | float | The vertical resolution, in dots per inch, of the [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/). |
 
-### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_126}
+### Method: try_set_metadata(metadata) {#try_set_metadata_metadata_132}
 
 
 ```
@@ -2752,7 +2851,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 | bool | True if _metadata_ is not null and the [IMetadataContainer](/imaging/python-net/aspose.imaging/imetadatacontainer/) instance <br/>            supports and/or implements [IImageMetadataFormat](/imaging/python-net/aspose.imaging.metadata/iimagemetadataformat/) instance; otherwise, false. |
 
 
-### Method: write_argb_32_scan_line(scan_line_index, argb_32_pixels) {#write_argb_32_scan_line_scan_line_index_argb_32_pixels_127}
+### Method: write_argb_32_scan_line(scan_line_index, argb_32_pixels) {#write_argb_32_scan_line_scan_line_index_argb_32_pixels_133}
 
 
 ```
@@ -2768,7 +2867,7 @@ Writes the whole scan line to the specified scan line index.
 | scan_line_index | int | Zero based index of the scan line. |
 | argb_32_pixels | int[] | The 32-bit ARGB colors array to write. |
 
-### Method: write_scan_line(scan_line_index, pixels) {#write_scan_line_scan_line_index_pixels_128}
+### Method: write_scan_line(scan_line_index, pixels) {#write_scan_line_scan_line_index_pixels_134}
 
 
 ```
@@ -2785,7 +2884,7 @@ Writes the whole scan line to the specified scan line index.
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color/) | The pixel colors array to write. |
 
 ## **Examples**
-### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_212}
+### The following example shows how to retrieve paths from TIFF image and display their names in the console. {#example_216}
 ``` python
 
 from aspose.pycore import as_of
@@ -2799,7 +2898,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_213}
+### The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image. {#example_217}
 ``` python
 
 from aspose.pycore import as_of
@@ -2815,7 +2914,7 @@ with as_of(Image.load("Sample.tif"), TiffImage) as image:
 
 ```
 
-### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_214}
+### The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image. {#example_218}
 ``` python
 
 import aspose.pycore as aspycore
@@ -2837,7 +2936,7 @@ with TiffImage(frame) as image:
 
 ```
 
-### Transfer Clipping Paths during export from TIFF to PSD image. {#example_216}
+### Transfer Clipping Paths during export from TIFF to PSD image. {#example_220}
 ``` python
 
 from aspose.imaging import Image

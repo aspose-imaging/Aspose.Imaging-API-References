@@ -212,7 +212,7 @@ Gets the maker notes.
 
 **See also:**
 
-**[Example # 1](#example_235)**: Access camera manufacturer maker notes in Jpeg image.
+**[Example # 1](#example_240)**: Access camera manufacturer maker notes in Jpeg image.
 
 
 ### Method: clone() {#clone__1}
@@ -321,7 +321,7 @@ Remove tag from container
 | tag_id | int | The tag identifier to remove. |
 
 ## **Examples**
-### Access camera manufacturer maker notes in Jpeg image. {#example_235}
+### Access camera manufacturer maker notes in Jpeg image. {#example_240}
 ``` python
 
 from aspose.pycore import as_of

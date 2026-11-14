@@ -71,9 +71,9 @@ Initializes a new instance of the [SvgGraphics2D](/imaging/python-net/aspose.ima
 
 **See also:**
 
-**[Example # 1](#example_180)**: This example shows how to create an SVG image of the specified size and raste...
+**[Example # 1](#example_183)**: This example shows how to create an SVG image of the specified size and raste...
 
-**[Example # 2](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 2](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_arc(pen, rect, start_angle, arc_angle) {#draw_arc_pen_rect_start_angle_arc_angle_1}
@@ -97,7 +97,7 @@ Draws an arc representing a portion of an ellipse specified by a Rectangle struc
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_cubic_bezier(pen, pt1, pt2, pt3, pt4) {#draw_cubic_bezier_pen_pt1_pt2_pt3_pt4_2}
@@ -122,7 +122,7 @@ Draws the cubic bezier.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_image(image, origin) {#draw_image_image_origin_3}
@@ -161,7 +161,7 @@ Draws the specified image of the specified size at the specified location.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_image(src_rect, dest_rect, image) {#draw_image_src_rect_dest_rect_image_5}
@@ -237,7 +237,7 @@ Draws the line.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_path(pen, path) {#draw_path_pen_path_9}
@@ -259,7 +259,7 @@ Draws the path.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_rectangle(pen, x, y, width, height) {#draw_rectangle_pen_x_y_width_height_10}
@@ -284,7 +284,7 @@ Draws the rectangle.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: draw_string(font, text, origin, text_color) {#draw_string_font_text_origin_text_color_11}
@@ -308,7 +308,7 @@ Draws the text string.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: end_recording() {#end_recording__12}
@@ -330,7 +330,7 @@ Gets the final Svg image which includes all drawing commands performed via [SvgG
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: fill_arc(pen, brush, rect, start_angle, arc_angle) {#fill_arc_pen_brush_rect_start_angle_arc_angle_13}
@@ -355,7 +355,7 @@ Fills an arc representing a portion of an ellipse specified by a Rectangle struc
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: fill_path(pen, brush, path) {#fill_path_pen_brush_path_14}
@@ -378,7 +378,7 @@ Fills the path.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ### Method: fill_rectangle(pen, brush, x, y, width, height) {#fill_rectangle_pen_brush_x_y_width_height_15}
@@ -404,11 +404,11 @@ Fills the rectangle.
 
 **See also:**
 
-**[Example # 1](#example_181)**: This example shows how to create an SVG image of the specified size and draw ...
+**[Example # 1](#example_184)**: This example shows how to create an SVG image of the specified size and draw ...
 
 
 ## **Examples**
-### This example shows how to create an SVG image of the specified size and rasterize it to PNG. {#example_180}
+### This example shows how to create an SVG image of the specified size and rasterize it to PNG. {#example_183}
 ``` python
 from aspose.imaging.fileformats.svg.graphics import SvgGraphics2D
 from aspose.imaging import Graphics, Color, Pen
@@ -433,7 +433,7 @@ with graphics.end_recording() as svg_image:
 
 ```
 
-### This example shows how to create an SVG image of the specified size and draw different shapes on it using SvgGraphics2D. {#example_181}
+### This example shows how to create an SVG image of the specified size and draw different shapes on it using SvgGraphics2D. {#example_184}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Pen, Color, Rectangle, PointF, Image, RasterImage, Size, Font, FontStyle, Figure,\

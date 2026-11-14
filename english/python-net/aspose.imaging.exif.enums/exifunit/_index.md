@@ -17,3 +17,4 @@ exif unit enum.
 | CM | Metric centimeter units |
 | INCH | Inch units |
 | NONE | Undefined units |
+| UNKNOWN | Unknown units |

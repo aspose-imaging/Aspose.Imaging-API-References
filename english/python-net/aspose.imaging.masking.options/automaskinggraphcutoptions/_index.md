@@ -50,11 +50,11 @@ Gets or sets a value indicating whether default strokes should be calculated.
 
 **See also:**
 
-**[Example # 1](#example_232)**: Saving image masking result with feathering based on image size. Image maskin...
+**[Example # 1](#example_237)**: Saving image masking result with feathering based on image size. Image maskin...
 
 
 ## **Examples**
-### Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end. {#example_232}
+### Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end. {#example_237}
 ``` python
 
 import aspose.pycore as aspycore

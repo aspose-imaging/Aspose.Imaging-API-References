@@ -55,13 +55,13 @@ Gets or sets the type of the color.
 
 **See also:**
 
-**[Example # 1](#example_223)**: Use JPEG compression in DICOM image.
+**[Example # 1](#example_227)**: Use JPEG compression in DICOM image.
 
-**[Example # 2](#example_224)**: Use JPEG 2000 compression in DICOM image.
+**[Example # 2](#example_228)**: Use JPEG 2000 compression in DICOM image.
 
-**[Example # 3](#example_225)**: Use RLE compression in DICOM image.
+**[Example # 3](#example_229)**: Use RLE compression in DICOM image.
 
-**[Example # 4](#example_226)**: Change the color type in DICOM compression.
+**[Example # 4](#example_230)**: Change the color type in DICOM compression.
 
 
 ### Property: compression {#compression2}
@@ -70,13 +70,13 @@ Gets or sets the compression.
 
 **See also:**
 
-**[Example # 1](#example_223)**: Use JPEG compression in DICOM image.
+**[Example # 1](#example_227)**: Use JPEG compression in DICOM image.
 
-**[Example # 2](#example_224)**: Use JPEG 2000 compression in DICOM image.
+**[Example # 2](#example_228)**: Use JPEG 2000 compression in DICOM image.
 
-**[Example # 3](#example_225)**: Use RLE compression in DICOM image.
+**[Example # 3](#example_229)**: Use RLE compression in DICOM image.
 
-**[Example # 4](#example_226)**: Change the color type in DICOM compression.
+**[Example # 4](#example_230)**: Change the color type in DICOM compression.
 
 
 ### Method: clone() {#clone__1}
@@ -141,7 +141,7 @@ with Image.load(inputFileNameMultipage) as image_multiple:
 
 ```
 
-### Create a multi-page DICOM image. {#example_215}
+### Create a multi-page DICOM image. {#example_219}
 ``` python
 
 import aspose.pycore as aspycore
@@ -178,7 +178,7 @@ with DicomOptions() as obj_init:
 
 ```
 
-### Use JPEG compression in DICOM image. {#example_223}
+### Use JPEG compression in DICOM image. {#example_227}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -203,7 +203,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Use JPEG 2000 compression in DICOM image. {#example_224}
+### Use JPEG 2000 compression in DICOM image. {#example_228}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -225,7 +225,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Use RLE compression in DICOM image. {#example_225}
+### Use RLE compression in DICOM image. {#example_229}
 ``` python
 
 from aspose.imaging import Image
@@ -243,7 +243,7 @@ with Image.load("original.jpg") as input_image:
 
 ```
 
-### Change the color type in DICOM compression. {#example_226}
+### Change the color type in DICOM compression. {#example_230}
 ``` python
 
 from aspose.imaging import Image

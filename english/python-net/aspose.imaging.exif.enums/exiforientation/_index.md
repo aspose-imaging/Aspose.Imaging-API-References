@@ -22,3 +22,4 @@ Exif image orientation.
 | RIGHT_TOP | Right top. Rotated by 90 degrees clockwise. |
 | TOP_LEFT | Top left. Default orientation. |
 | TOP_RIGHT | Top right. Horizontally reversed. |
+| UNKNOWN | Unknown image orientation. |

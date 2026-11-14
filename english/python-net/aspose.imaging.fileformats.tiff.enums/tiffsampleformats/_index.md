@@ -19,4 +19,5 @@ Sample format enum
 | IEEE_FP | IEEE floating point data |
 | INT | Signed integer data |
 | UINT | Unsigned integer data |
+| UNKNOWN | Unknown sample format |
 | VOID | Untyped data |

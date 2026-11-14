@@ -17,3 +17,4 @@ exif color space enum.
 | ADOBE_RGB | Adobe rgb color space. |
 | S_RGB | SRGB color space. |
 | UNCALIBRATED | Uncalibrated color space. |
+| UNKNOWN | Unknown color space. |

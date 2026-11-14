@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Retrieve the bit-per-pixel count specific to raster images, as this parameter <br/>            doesn't apply to vector images. Quickly ascertain the pixel depth of raster <br/>            images for precise analysis and manipulation, ensuring accurate handling<br/>            of image data. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the object bounds. |
@@ -37,12 +37,12 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | height_f | float | r | Retrieve the image's height, facilitating accurate rendering and layout adjustments. <br/>            Accessing the height property ensures compatibility and seamless integration across <br/>            different platforms and applications. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Access a value indicating whether the object's data is currently cached, <br/>            eliminating the need for additional data reading. Enhance efficiency by quickly <br/>            determining if cached data is available for immediate access. Optimize your <br/>            workflow with streamlined data retrieval processes. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | records | [MetaObjectList](/imaging/python-net/aspose.imaging.fileformats.emf/metaobjectlist/) | r/w | Retrieve or modify the records associated with the object. Efficiently access and <br/>            manage the collection of records for enhanced data manipulation and processing. <br/>            Optimize your workflow by seamlessly interacting with the object's records. |
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets the object size, in inches. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the object width. |
 | width_f | float | r | Access to the width of the image, providing essential information for precise <br/>            rendering and processing. Quickly retrieve the image's width to ensure compatibility <br/>            and proper layout within various applications and platforms. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
@@ -61,7 +61,7 @@ url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 | [create(files)](#create_files_9) | Creates the multipage image containing the specified files. |
 | [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_10) | Creates the multipage image containing the specified files. |
 | [create(image_options, width, height)](#create_image_options_width_height_11) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
 | [create(images)](#create_images_13) | Creates a new image using the specified images as pages |
 | [create(images, dispose_images)](#create_images_dispose_images_14) | Creates a new image the specified images as pages. |
 | [create(multipage_create_options)](#create_multipage_create_options_15) | Creates the specified multipage create options. |
@@ -409,7 +409,7 @@ Creates a new image using the specified create options.
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -1574,7 +1574,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_201}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_205}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1595,7 +1595,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a emz images to emf format {#example_202}
+### The following example shows how to convert a emz images to emf format {#example_206}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1616,7 +1616,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a emf images to emz format {#example_205}
+### The following example shows how to convert a emf images to emz format {#example_209}
 ``` python
 
 from os.path import join as path_combine

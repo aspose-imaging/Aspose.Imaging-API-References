@@ -187,7 +187,7 @@ Gets or sets compressed image quality.<br/>            Used with the Jpeg compre
 
 **See also:**
 
-**[Example # 1](#example_120)**: This example shows how to create a TIFF image with the Jpeg compression and t...
+**[Example # 1](#example_121)**: This example shows how to create a TIFF image with the Jpeg compression and t...
 
 
 ### Method: add_tag(tag_to_add) {#add_tag_tag_to_add_1}
@@ -499,7 +499,7 @@ with Image.load(path_join(directory, "sample.gif")) as image:
 
 ```
 
-### This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality. {#example_120}
+### This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality. {#example_121}
 ``` python
 
 import aspose.pycore as aspycore

@@ -16,7 +16,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Access the precise bit depth of the image effortlessly with this property. Retrieve <br/>            the bits per pixel count, providing crucial insights into the image's color depth <br/>            and aiding in optimizing processing tasks. Ideal for applications requiring <br/>            fine-grained control over image manipulation and analysis. |
 | bounding_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) | r | Accessing the original bounding box in device-independent points, this property <br/>            provides crucial geometric information about the [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) dimensions. <br/>            By retrieving this data, users can accurately assess the image's size and aspect <br/>            ratio, facilitating precise layout and positioning in various applications. |
@@ -37,6 +37,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | height_f | float | r | Access the height of the image using this property. Obtain the image's height with <br/>            ease, enabling seamless layout adjustments, aspect ratio calculations, and precise <br/>            rendering across different screen resolutions and display environments. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | This property provides a convenient way to check if the object's data is currently <br/>            cached, eliminating the need for additional data reading. It offers a quick and <br/>            efficient method to determine if the required information is readily available, <br/>            optimizing performance and reducing resource overhead in data-intensive operations. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | post_script_version | string | r | This property retrieves the PostScript version associated with the<br/>            [EpsImage](/imaging/python-net/aspose.imaging.fileformats.eps/epsimage/) instance. It offers insight into the specific PostScript <br/>            language version utilized within the EPS file, aiding in compatibility assessment <br/>            and facilitating seamless integration with PostScript-compatible environments. |
@@ -45,7 +46,6 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets the object size, in inches. |
 | title | string | r | This property retrieves the title extracted from the EPS Document Structuring <br/>            Conventions (DSC) comments embedded within the EPS file. It provides valuable <br/>            metadata about the content of the EPS file, aiding in document organization and <br/>            identification within compatible software applications. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 | width_f | float | r | Retrieve the width of the image with this convenient property. Obtain the image's <br/>            width effortlessly, facilitating precise layout calculations, scaling operations, <br/>            and dimension-related tasks within your application. Ideal for ensuring accurate <br/>            rendering and display of images across various platforms and devices. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
@@ -64,7 +64,7 @@ url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 | [create(files)](#create_files_9) | Creates the multipage image containing the specified files. |
 | [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_10) | Creates the multipage image containing the specified files. |
 | [create(image_options, width, height)](#create_image_options_width_height_11) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
 | [create(images)](#create_images_13) | Creates a new image using the specified images as pages |
 | [create(images, dispose_images)](#create_images_dispose_images_14) | Creates a new image the specified images as pages. |
 | [create(multipage_create_options)](#create_multipage_create_options_15) | Creates the specified multipage create options. |
@@ -386,7 +386,7 @@ Creates a new image using the specified create options.
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -1106,7 +1106,7 @@ Resizes the specified new width.
 
 **See also:**
 
-**[Example # 1](#example_230)**: Resize EPS image and export it to PNG format.
+**[Example # 1](#example_235)**: Resize EPS image and export it to PNG format.
 
 
 ### Method: resize(new_width, new_height, settings) {#resize_new_width_new_height_settings_46}
@@ -1129,7 +1129,7 @@ Resizes the image with extended options.
 
 **See also:**
 
-**[Example # 1](#example_231)**: Resize EPS image using advanced settings.
+**[Example # 1](#example_236)**: Resize EPS image using advanced settings.
 
 
 ### Method: resize_by_settings(new_width, new_height, settings) {#resize_by_settings_new_width_new_height_settings_47}
@@ -1554,7 +1554,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### Convert EPS image to PNG using PostScript rendering. {#example_217}
+### Convert EPS image to PNG using PostScript rendering. {#example_221}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image
@@ -1574,7 +1574,7 @@ with aspycore.as_of(Image.load("Sample.eps"), EpsImage) as image:
 
 ```
 
-### Convert EPS image to PDF using PostScript rendering. {#example_218}
+### Convert EPS image to PDF using PostScript rendering. {#example_222}
 ``` python
 
 from aspose.imaging import Image, PdfComplianceVersion
@@ -1590,7 +1590,7 @@ with Image.load("Sample.eps") as image:
 
 ```
 
-### Resize EPS image and export it to PNG format. {#example_230}
+### Resize EPS image and export it to PNG format. {#example_235}
 ``` python
 
 from aspose.imaging import Image, ResizeType
@@ -1607,7 +1607,7 @@ with Image.load("AstrixObelix.eps") as image:
 
 ```
 
-### Resize EPS image using advanced settings. {#example_231}
+### Resize EPS image using advanced settings. {#example_236}
 ``` python
 
 import aspose.pycore as aspycore

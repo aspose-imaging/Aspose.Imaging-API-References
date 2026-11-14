@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_derived_from(resource_ref)](#set_derived_from_resource_ref_6) | Sets the derived from. |
 | [set_document_id(guid)](#set_document_id_guid_7) | Sets the document identifier. |
@@ -44,7 +44,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 | [set_original_document_id(guid)](#set_original_document_id_guid_13) | Sets the original document id. |
 | [set_original_document_id(guid)](#set_original_document_id_guid_14) | Sets the original document id. |
 | [set_original_document_id_as_guid(guid)](#set_original_document_id_as_guid_guid_15) | Sets the original document id. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_16) | Sets the first XMP attribute or element value with by specified _key_. |
+| [set_str_value(key, value)](#set_str_value_key_value_16) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_value(key, value)](#set_value_key_value_17) | Sets the value. |
 | [set_value(key, value)](#set_value_key_value_18) | Sets the value. |
 | [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_19) | Sets the XMP type value. |
@@ -114,11 +114,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -308,11 +308,11 @@ Sets the original document id.
 | :- | :- | :- |
 | guid | System.Guid | The unique identifier. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_16}
+### Method: set_str_value(key, value) {#set_str_value_key_value_16}
 
 
 ```
- set_prop_value(key, value) 
+ set_str_value(key, value) 
 ```
 
 Sets the first XMP attribute or element value with by specified _key_.
@@ -322,7 +322,7 @@ Sets the first XMP attribute or element value with by specified _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
+| value | string | The value. |
 
 ### Method: set_value(key, value) {#set_value_key_value_17}
 

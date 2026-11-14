@@ -16,3 +16,4 @@ Storage organization.<br /><br/>            Possible values for PLANARCONFIG tag
 | :- | :- |
 | CONTIGUOUS | Single image plane. |
 | SEPARATE | Separate planes of data. |
+| UNKNOWN | Unknown type. |

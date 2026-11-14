@@ -1,7 +1,7 @@
 ---
 title: FontSettings Class
 type: docs
-weight: 4860
+weight: 4870
 url: /python-net/aspose.imaging/fontsettings/
 ---
 

@@ -54,3 +54,4 @@ Page command codes
 | SET_GLOBAL_TRANSFO | The set global transformation command |
 | SIMPLE_WIDE_TEXT | The simple wide text command |
 | TEXT_FRAME | The text frame command |
+| UNKNOWN | Unknown command |

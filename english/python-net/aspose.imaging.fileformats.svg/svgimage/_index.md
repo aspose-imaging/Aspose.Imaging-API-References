@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Retrieves the bits per pixel count of the image. It's important to note that <br/>            this parameter is not applicable to vector images, as they are not measured in <br/>            pixels. This property provides crucial information about the image's color <br/>            depth, aiding in processing and manipulation tasks. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the object bounds. |
@@ -38,11 +38,11 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | height_f | float | r | Gets the object height, in inches. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Retrieves a boolean value indicating whether the object's data is presently <br/>            cached, eliminating the need for additional data reading operations. This <br/>            property provides insight into the current caching status, optimizing data <br/>            retrieval and processing workflows for enhanced performance and efficiency. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets the object size, in inches. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 | width_f | float | r | Gets the object width, in inches. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
@@ -61,7 +61,7 @@ url: /python-net/aspose.imaging.fileformats.svg/svgimage/
 | [create(files)](#create_files_9) | Creates the multipage image containing the specified files. |
 | [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_10) | Creates the multipage image containing the specified files. |
 | [create(image_options, width, height)](#create_image_options_width_height_11) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
 | [create(images)](#create_images_13) | Creates a new image using the specified images as pages |
 | [create(images, dispose_images)](#create_images_dispose_images_14) | Creates a new image the specified images as pages. |
 | [create(multipage_create_options)](#create_multipage_create_options_15) | Creates the specified multipage create options. |
@@ -160,7 +160,7 @@ Creates a new instance of the [SvgImage](/imaging/python-net/aspose.imaging.file
 
 **See also:**
 
-**[Example # 1](#example_179)**: This example shows how to load an SVG image from a file stream and rasterize ...
+**[Example # 1](#example_182)**: This example shows how to load an SVG image from a file stream and rasterize ...
 
 
 ### Constructor: SvgImage(svg_options, width, height) {#SvgImage_svg_options_width_height_3}
@@ -452,7 +452,7 @@ Creates a new image using the specified create options.
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -1608,7 +1608,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_179}
+### This example shows how to load an SVG image from a file stream and rasterize it to PNG. {#example_182}
 ``` python
 import aspose.pycore as aspycore
 from os.path import join
@@ -1628,7 +1628,7 @@ with open(join(dir_, "test.svg"), "rb") as stream:
 
 ```
 
-### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_201}
+### The following example shows how to convert compressed images (*.emz,*.wmz, *.svgz) to a raster format {#example_205}
 ``` python
 from aspose.imaging import Image, Color
 from aspose.imaging.imageoptions import PngOptions, VectorRasterizationOptions
@@ -1649,7 +1649,7 @@ for file in files:
 
 ```
 
-### The following example shows how to convert a svgz images to svg fromat {#example_204}
+### The following example shows how to convert a svgz images to svg fromat {#example_208}
 ``` python
 import aspose.pycore as aspycore
 from aspose.imaging import Image, SizeF
@@ -1670,7 +1670,7 @@ with Image.load(input_file) as image:
 
 ```
 
-### The following example shows how to convert a svg images to svgz format {#example_207}
+### The following example shows how to convert a svg images to svgz format {#example_211}
 ``` python
 
 from os.path import join as path_combine

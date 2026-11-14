@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.multithreading
 type: docs
-weight: 950
+weight: 970
 url: /python-net/aspose.imaging.multithreading/
 ---
 

@@ -18,3 +18,4 @@ The ModifyWorldTransformMode enumeration defines modes for using specified trans
 | MWT_LEFTMULTIPLY | Multiply the current transform. In this mode, the specified transform data is the left multiplicand, and <br/>            the transform that is currently defined in the playback device context is the right multiplicand |
 | MWT_RIGHTMULTIPLY | Multiply the current transform. In this mode, the specified transform data is the right multiplicand, <br/>            and the transform that is currently defined in the playback device context is the left multiplicand |
 | MWT_SET | Perform the function of an EMR_SETWORLDTRANSFORM record (section 2.3.12.2). |
+| UNKNOWN | Unknown mode. |

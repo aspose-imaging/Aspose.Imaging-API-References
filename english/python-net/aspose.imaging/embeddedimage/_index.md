@@ -1,7 +1,7 @@
 ---
 title: EmbeddedImage Class
 type: docs
-weight: 1560
+weight: 1570
 url: /python-net/aspose.imaging/embeddedimage/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: IAnimationFrame Class
 type: docs
-weight: 5120
+weight: 5130
 url: /python-net/aspose.imaging/ianimationframe/
 ---
 

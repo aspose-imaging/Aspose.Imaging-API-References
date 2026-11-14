@@ -19,3 +19,4 @@ The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH 
 | RGN_DIFF | The new clipping region includes the areas of the current clipping region with those of the current path (or new region) excluded. |
 | RGN_OR | The new clipping region includes the union (combined areas) of the current clipping region and the current path (or new region). |
 | RGN_XOR | The new clipping region includes the union of the current clipping region and the current path (or new region) but without the overlapping areas |
+| UNKNOWN | Unknown mode. |

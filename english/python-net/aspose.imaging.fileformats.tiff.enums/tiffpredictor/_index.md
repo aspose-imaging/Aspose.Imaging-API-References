@@ -16,3 +16,4 @@ Prediction scheme for LZW
 | :- | :- |
 | HORIZONTAL | Horizontal differencing. |
 | NONE | No prediction scheme used. |
+| UNKNOWN | Unknown predictor. |

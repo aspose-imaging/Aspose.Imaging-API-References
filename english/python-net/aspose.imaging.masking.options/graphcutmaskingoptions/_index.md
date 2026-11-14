@@ -45,13 +45,13 @@ Gets or sets the feathering radius.
 
 **See also:**
 
-**[Example # 1](#example_232)**: Saving image masking result with feathering based on image size. Image maskin...
+**[Example # 1](#example_237)**: Saving image masking result with feathering based on image size. Image maskin...
 
-**[Example # 2](#example_233)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
+**[Example # 2](#example_238)**: Saving Graph Cut image masking result with feathering set to 3. Image masking...
 
 
 ## **Examples**
-### Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end. {#example_232}
+### Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end. {#example_237}
 ``` python
 
 import aspose.pycore as aspycore
@@ -90,7 +90,7 @@ for it in results:
 
 ```
 
-### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_233}
+### Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array. {#example_238}
 ``` python
 
 import aspose.pycore as aspycore

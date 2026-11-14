@@ -25,3 +25,4 @@ The ExtTextOutOptions enumeration specifies parameters that control various aspe
 | ETO_REVERSE_INDEX_MAP | This bit is reserved and SHOULD NOT be used |
 | ETO_RTLREADING | This bit indicates that the text MUST be laid out in right-to-left reading order, <br/>            instead of the default left-to-right order. This SHOULD be applied only when the font<br/>            selected into the playback device context is either Hebrew or Arabic |
 | ETO_SMALL_CHARS | This bit indicates that the codes for characters in an output text string are 8 bits, <br/>            derived from the low bytes of 16-bit Unicode UTF16-LE character codes, <br/>            in which the high byte is assumed to be 0. |
+| UNKNOWN | Unknown. |

@@ -27,3 +27,4 @@ The PenData flags specify properties of graphics pens, including the presence of
 | PEN_DATA_NON_CENTER | Indicates whether a pen alignment MUST be specified in the OptionalData field of an [EmfPlusPenData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
 | PEN_DATA_START_CAP | If set, the style of a starting line cap MUST be specified in the OptionalData field of an [EmfPlusPenData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
 | PEN_DATA_TRANSFORM | If set, a 2x3 transform matrix MUST be specified in the OptionalData field of an [EmfPlusPenData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/) object. |
+| UNKNOWN | Unknown. |

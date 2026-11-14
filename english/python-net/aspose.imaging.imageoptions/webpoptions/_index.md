@@ -21,12 +21,12 @@ url: /python-net/aspose.imaging.imageoptions/webpoptions/
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
 | anim_background_color | int | r/w | Gets or sets the color of the animation background. |
-| anim_loop_count | int | r/w | Gets or sets the animation loop count. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
+| loop_count | int | r/w | Gets or sets the animation loop count. Default is 0 (infinite looping). |
 | lossless | bool | r/w | Gets or sets a value indicating whether this [WebPOptions](/imaging/python-net/aspose.imaging.imageoptions/webpoptions/) is lossless. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |

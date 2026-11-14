@@ -15,4 +15,5 @@ The PolyFillMode Enumeration specifies the method used for filling a<br/>       
 | **Member name** | **Description** |
 | :- | :- |
 | ALTERNATE | Selects alternate mode (fills the area between odd-numbered and even-numbered polygon sides on each scan line). |
+| UNKNOWN | Unknown mode. |
 | WINDING | Selects winding mode (fills any region with a nonzero winding value) |

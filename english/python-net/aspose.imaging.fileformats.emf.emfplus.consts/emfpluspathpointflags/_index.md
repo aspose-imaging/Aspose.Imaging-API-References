@@ -17,3 +17,4 @@ A 32-bit unsigned integer that specifies how to interpret the points and associa
 | C | The c flag |
 | P | The p flag |
 | R | The r flag |
+| UNKNOWN | Unknown flag. |

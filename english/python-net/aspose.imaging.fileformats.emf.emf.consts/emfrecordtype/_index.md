@@ -133,3 +133,4 @@ The RecordType enumeration defines values that uniquely identify EMF records.<br
 | EMR_STROKEPATH | This record renders the specified path by using the current pen. |
 | EMR_TRANSPARENTBLT | This record specifies a block transfer of pixels from a source bitmap to a destination rectangle,<br/>             treating a specified color as transparent, stretching or compressing the output to fit the dimensions of the destination, if necessary |
 | EMR_WIDENPATH | This record redefines the current path as the area that would be painted if the path <br/>            were stroked using the pen currently selected into the playback device context. |
+| UNKNOWN | Unknown type. |

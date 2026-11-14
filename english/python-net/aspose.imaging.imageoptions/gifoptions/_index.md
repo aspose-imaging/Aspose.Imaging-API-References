@@ -21,23 +21,23 @@ url: /python-net/aspose.imaging.imageoptions/gifoptions/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
+| alpha_threshold | System.Byte | r/w | Gets or sets the alpha threshold. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets the background color. |
 | background_color_index | System.Byte | r/w | Gets or sets the GIF background color index. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| color_resolution | System.Byte | r/w | Gets or sets the GIF color resolution. |
+| color_resolution | System.Byte | r/w | Gets or sets the GIF color resolution. Allowed range: 1-7. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| do_palette_correction | bool | r/w | Gets or sets a value indicating whether palette correction is applied. |
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets the Exif data. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | has_trailer | bool | r/w | Gets or sets a value indicating whether GIF has trailer. |
-| has_transparent_color | System.Nullable`1[[System.Boolean]] | r/w | Gets or sets a value indicating whether a GIF image has transparent color. <br/>            If the return value is **None**, this property is overridden by the source image context. |
-| interlaced | bool | r/w | True if image should be interlaced. |
+| has_transparent_color | System.Nullable`1[[System.Boolean]] | r/w | Gets or sets a value indicating whether a GIF image has transparent color.<br/>            If the return value is **None**, this property is overridden by the source image context. |
+| is_interlaced | bool | r/w | Gets or sets a value whether to interlace image. |
 | is_palette_sorted | bool | r/w | Gets or sets a value indicating whether palette entries are sorted. |
 | keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
-| loops_count | int | r/w | Gets or sets the loops count (Default 1 loop) |
-| max_diff | int | r/w | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used.<br/>            Recommended value for optimal lossy compression is 80. 30 is very light compression, 200 is heavy.<br/>            It works best when only little loss is introduced, and due to limitation of the compression algorithm very high loss levels won't give as much gain.<br/>            The range of allowed values is [0, 1000]. |
+| loop_count | int | r/w | Gets or sets the animation loop count. Default is 1, 0 for infinite looping. |
+| max_diff | int | r/w | Gets or sets the maximum allowed pixel difference. If greater than zero, lossy compression will be used.<br/>            The allowed range of is [0, 1000]. Optimal value is below 200. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
-| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. Maximum palette length is 256.<br/>            [GifOptions.color_resolution](/imaging/python-net/aspose.imaging.imageoptions/gifoptions/) will be overwritten when less than Ceiling(Log2(paletteLength))). |
 | pixel_aspect_ratio | System.Byte | r/w | Gets or sets the GIF pixel aspect ratio. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
 | source | [Source](/imaging/python-net/aspose.imaging/source/) | r/w | Gets or sets the source to create image in. |

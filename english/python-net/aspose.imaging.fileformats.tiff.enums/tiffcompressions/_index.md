@@ -38,3 +38,4 @@ Holds compression types
 | SGILOG | SGI Log Luminance RLE. |
 | SGILOG24 | SGI Log 24-bit packed. |
 | THUNDERSCAN | ThunderScan RLE. |
+| UNKNOWN | Unknown type. |

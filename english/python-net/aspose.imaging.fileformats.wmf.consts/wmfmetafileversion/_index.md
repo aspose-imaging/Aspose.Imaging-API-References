@@ -16,3 +16,4 @@ The MetafileVersion Enumeration defines values that specify support for device-i
 | :- | :- |
 | METAVERSION100 | DIBs are not supported. |
 | METAVERSION300 | DIBs are supported. |
+| UNKNOWN | Unknown type. |

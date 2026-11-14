@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.xmp.types.derived
 type: docs
-weight: 1230
+weight: 1250
 url: /python-net/aspose.imaging.xmp.types.derived/
 ---
 

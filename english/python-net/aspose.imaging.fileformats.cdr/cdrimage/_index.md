@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.cdr/cdrimage/
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- | :- |
-| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
+| auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether to re-generate the image palette<br/>            after applying graphics effects or modifications like resizing, filtering etc.<br/>            Applies only to the images supporting the color palette:<br/>            [FileFormat.GIF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.PNG](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.APNG](/imaging/python-net/aspose.imaging/fileformat/),<br/>            [FileFormat.TIFF](/imaging/python-net/aspose.imaging/fileformat/), [FileFormat.BIG_TIFF](/imaging/python-net/aspose.imaging/fileformat/).<br/>            Effectively returns **False**, if [Image.is_indexed](/imaging/python-net/aspose.imaging/image/) is **False**. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color/) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Retrieve the bit depth of the image effortlessly with this user-friendly property.<br/>            Ideal for developers seeking to determine the level of detail or color depth present<br/>            in their images, ensuring accurate processing and manipulation. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) | r | Gets the object bounds. |
@@ -37,13 +37,13 @@ url: /python-net/aspose.imaging.fileformats.cdr/cdrimage/
 | height_f | float | r | Gets the object height, in inches. |
 | interrupt_monitor | [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) | r/w | Gets or sets the interrupt monitor. |
 | is_cached | bool | r | Effortlessly determine whether the object's data is currently cached,<br/>            eliminating the need for data reading. Ideal for developers seeking<br/>            to optimize performance by leveraging cached data efficiently, ensuring<br/>            faster access to object information. |
+| is_indexed | bool | r | Gets a value indicating whether the image has indexed pixel type and uses a color palette. |
 | metadata | [ImageMetadata](/imaging/python-net/aspose.imaging.metadata/imagemetadata/) | r | Gets the image metadata. |
 | page_count | int | r | Effortlessly retrieve or update the total page count of the image with this<br/>            intuitive property. Ideal for developers seeking to manage multi-page images<br/>            dynamically, ensuring efficient navigation and manipulation of image content. |
 | [pages](#pages1) | [Image[]](/imaging/python-net/aspose.imaging/image/) | r | Retrieve the pages of the image seamlessly with this intuitive property.<br/>            Ideal for developers seeking to access and manipulate individual pages within<br/>            multi-page images, ensuring efficient navigation and processing. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. The color palette is not used when pixels are represented directly. |
 | size | [Size](/imaging/python-net/aspose.imaging/size/) | r | Gets the object size. |
 | size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef/) | r | Gets the object size, in inches. |
-| use_palette | bool | r | Gets a value indicating whether the image palette is used. |
 | width | int | r | Gets the image width. |
 | width_f | float | r | Gets the object width, in inches. |
 | xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets Xmp data. |
@@ -62,7 +62,7 @@ url: /python-net/aspose.imaging.fileformats.cdr/cdrimage/
 | [create(files)](#create_files_9) | Creates the multipage image containing the specified files. |
 | [create(files, throw_exception_on_load_error)](#create_files_throw_exception_on_load_error_10) | Creates the multipage image containing the specified files. |
 | [create(image_options, width, height)](#create_image_options_width_height_11) | Creates a new image using the specified create options. |
-| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode. |
+| [create(image_options, width, height, pixels)](#create_image_options_width_height_pixels_12) | Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode. |
 | [create(images)](#create_images_13) | Creates a new image using the specified images as pages |
 | [create(images, dispose_images)](#create_images_dispose_images_14) | Creates a new image the specified images as pages. |
 | [create(multipage_create_options)](#create_multipage_create_options_15) | Creates the specified multipage create options. |
@@ -148,9 +148,9 @@ Retrieve the pages of the image seamlessly with this intuitive property.<br/>   
 
 **See also:**
 
-**[Example # 1](#example_187)**: The following example shows how to cache all pages of a CDR image.
+**[Example # 1](#example_190)**: The following example shows how to cache all pages of a CDR image.
 
-**[Example # 2](#example_199)**: The following example shows how to export a single page of CDR document to PDF.
+**[Example # 2](#example_202)**: The following example shows how to export a single page of CDR document to PDF.
 
 
 ### Method: can_load(file_path)  [static] {#can_load_file_path_1}
@@ -409,7 +409,7 @@ Creates a new image using the specified create options.
  create(image_options, width, height, pixels) 
 ```
 
-Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>            Validates that the specified width and height match the dimensions of the pixel data.<br/>            This method can only be used when the library is in Licensed mode.
+Creates a [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/) instance from the provided pixel array.<br/>            <br/>             Validates that the specified width and height match the dimensions of the pixel data.<br/>             This method can only be used when the library is in Licensed mode.
 
 **Parameters:**
 
@@ -1527,7 +1527,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to cache all pages of a CDR image. {#example_187}
+### The following example shows how to cache all pages of a CDR image. {#example_190}
 ``` python
 
 import aspose.pycore as aspycore
@@ -1548,7 +1548,7 @@ with aspycore.as_of(Image.load(join(dir_, "sample.cdr")), CdrImage) as image:
 
 ```
 
-### The following example shows how to export a single page of CDR document to PDF. {#example_199}
+### The following example shows how to export a single page of CDR document to PDF. {#example_202}
 ``` python
 
 import aspose.pycore as aspycore

@@ -73,9 +73,9 @@ Gets or sets the JPEG2000 codec
 
 **See also:**
 
-**[Example # 1](#example_169)**: This example shows how to create a JPEG2000 image with the desired options an...
+**[Example # 1](#example_172)**: This example shows how to create a JPEG2000 image with the desired options an...
 
-**[Example # 2](#example_171)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+**[Example # 2](#example_174)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
 
 
 ### Property: irreversible {#irreversible2}
@@ -84,9 +84,9 @@ Gets or sets a value indicating whether use the irreversible DWT 9-7 (true) or u
 
 **See also:**
 
-**[Example # 1](#example_169)**: This example shows how to create a JPEG2000 image with the desired options an...
+**[Example # 1](#example_172)**: This example shows how to create a JPEG2000 image with the desired options an...
 
-**[Example # 2](#example_171)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
+**[Example # 2](#example_174)**: This example shows how to create a PNG image and save it to JPEG2000 with the...
 
 
 ### Method: clone() {#clone__1}
@@ -128,7 +128,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_169}
+### This example shows how to create a JPEG2000 image with the desired options and save it to a file. {#example_172}
 ``` python
 
 from aspose.imaging import Graphics, Color
@@ -157,7 +157,7 @@ with Jpeg2000Image(100, 100, create_options) as jpeg2000_image:
 
 ```
 
-### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_171}
+### This example shows how to create a PNG image and save it to JPEG2000 with the desired options. {#example_174}
 ``` python
 
 from aspose.imaging import Graphics, Color

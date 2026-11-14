@@ -38,7 +38,7 @@ Gets or sets a value indicating whether [align images].
 
 **See also:**
 
-**[Example # 1](#example_249)**: The example shows how HDR processing is carried out.
+**[Example # 1](#example_254)**: The example shows how HDR processing is carried out.
 
 
 ### Property: sample_count {#sample_count2}
@@ -47,7 +47,7 @@ Gets or sets the sample count.
 
 **See also:**
 
-**[Example # 1](#example_249)**: The example shows how HDR processing is carried out.
+**[Example # 1](#example_254)**: The example shows how HDR processing is carried out.
 
 
 ### Property: smooth_factor {#smooth_factor3}
@@ -56,11 +56,11 @@ Gets or sets the smooth factor.
 
 **See also:**
 
-**[Example # 1](#example_249)**: The example shows how HDR processing is carried out.
+**[Example # 1](#example_254)**: The example shows how HDR processing is carried out.
 
 
 ## **Examples**
-### The example shows how HDR processing is carried out. {#example_249}
+### The example shows how HDR processing is carried out. {#example_254}
 ``` python
 
 import aspose.pycore as aspycore

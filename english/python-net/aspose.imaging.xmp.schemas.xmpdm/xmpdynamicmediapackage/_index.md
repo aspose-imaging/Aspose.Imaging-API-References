@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_abs_peak_audio_file_path(uri)](#set_abs_peak_audio_file_path_uri_6) | Sets the absolute peak audio file path. |
 | [set_alblum(album)](#set_alblum_album_7) | Sets the alblum. |
@@ -59,7 +59,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 | [set_intro_time(intro_time)](#set_intro_time_intro_time_28) | Sets the intro time. |
 | [set_key(key)](#set_key_key_29) | Sets the audio’s musical key. |
 | [set_log_comment(comment)](#set_log_comment_comment_30) | Sets the user's log comment. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_31) | Sets the first XMP attribute or element value with by specified _key_. |
+| [set_str_value(key, value)](#set_str_value_key_value_31) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_value(key, value)](#set_value_key_value_32) | Sets the value. |
 | [set_value(key, value)](#set_value_key_value_33) | Sets the value. |
 | [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_34) | Sets the XMP type value. |
@@ -129,11 +129,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -548,11 +548,11 @@ Sets the user's log comment.
 | :- | :- | :- |
 | comment | string | The comment. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_31}
+### Method: set_str_value(key, value) {#set_str_value_key_value_31}
 
 
 ```
- set_prop_value(key, value) 
+ set_str_value(key, value) 
 ```
 
 Sets the first XMP attribute or element value with by specified _key_.
@@ -562,7 +562,7 @@ Sets the first XMP attribute or element value with by specified _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
+| value | string | The value. |
 
 ### Method: set_value(key, value) {#set_value_key_value_32}
 

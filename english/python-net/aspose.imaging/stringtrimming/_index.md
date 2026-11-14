@@ -1,7 +1,7 @@
 ---
 title: StringTrimming Enumeration
 type: docs
-weight: 11240
+weight: 11250
 url: /python-net/aspose.imaging/stringtrimming/
 ---
 

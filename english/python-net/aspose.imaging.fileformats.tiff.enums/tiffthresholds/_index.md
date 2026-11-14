@@ -17,3 +17,4 @@ Thresholding used on data.
 | ERROR_DIFFUSE | Usually Floyd-Steinberg. |
 | HALF_TONE | Dithered scan. |
 | NO_DITHERING | No dithering is performed. |
+| UNKNOWN | Unknown. |

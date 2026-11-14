@@ -36,7 +36,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_created_date(created_date)](#set_created_date_created_date_6) | Adds resource created date. |
 | [set_created_date(created_date)](#set_created_date_created_date_7) | Adds resource created date. |
@@ -50,8 +50,8 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 | [set_modify_date(modified_date)](#set_modify_date_modified_date_15) | Adds resource last modified date. |
 | [set_modify_date(modified_date)](#set_modify_date_modified_date_16) | Adds resource last modified date. |
 | [set_modify_date_str(modified_date)](#set_modify_date_str_modified_date_17) | Adds resource last modified date. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_18) | Sets the first XMP attribute or element value with by specified _key_. |
-| [set_rating(choise)](#set_rating_choise_19) | Sets rating. |
+| [set_rating(choise)](#set_rating_choise_18) | Sets rating. |
+| [set_str_value(key, value)](#set_str_value_key_value_19) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_value(key, value)](#set_value_key_value_20) | Sets the value. |
 | [set_value(key, value)](#set_value_key_value_21) | Sets the value. |
 | [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_22) | Sets the XMP type value. |
@@ -137,11 +137,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -361,23 +361,7 @@ Adds resource last modified date.
 | :- | :- | :- |
 | modified_date | string | Last modified date. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_18}
-
-
-```
- set_prop_value(key, value) 
-```
-
-Sets the first XMP attribute or element value with by specified _key_.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
-
-### Method: set_rating(choise) {#set_rating_choise_19}
+### Method: set_rating(choise) {#set_rating_choise_18}
 
 
 ```
@@ -391,6 +375,22 @@ Sets rating.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | choise | int | From -1 till 5 |
+
+### Method: set_str_value(key, value) {#set_str_value_key_value_19}
+
+
+```
+ set_str_value(key, value) 
+```
+
+Sets the first XMP attribute or element value with by specified _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The key that identifies value. |
+| value | string | The value. |
 
 ### Method: set_value(key, value) {#set_value_key_value_20}
 

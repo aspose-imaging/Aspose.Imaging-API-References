@@ -32,12 +32,12 @@ url: /python-net/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_certificate(certificate)](#set_certificate_certificate_6) | Sets the certificate. |
 | [set_marked_as_right_management(value)](#set_marked_as_right_management_value_7) | Marks as right management content |
 | [set_owners(owners)](#set_owners_owners_8) | Sets owners. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_9) | Sets the first XMP attribute or element value with by specified _key_. |
+| [set_str_value(key, value)](#set_str_value_key_value_9) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_usage_terms(usage_terms)](#set_usage_terms_usage_terms_10) | Sets the usage terms. |
 | [set_value(key, value)](#set_value_key_value_11) | Sets the value. |
 | [set_value(key, value)](#set_value_key_value_12) | Sets the value. |
@@ -109,11 +109,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -198,11 +198,11 @@ Sets owners.
 | :- | :- | :- |
 | owners | string[] | The owners. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_9}
+### Method: set_str_value(key, value) {#set_str_value_key_value_9}
 
 
 ```
- set_prop_value(key, value) 
+ set_str_value(key, value) 
 ```
 
 Sets the first XMP attribute or element value with by specified _key_.
@@ -212,7 +212,7 @@ Sets the first XMP attribute or element value with by specified _key_.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
+| value | string | The value. |
 
 ### Method: set_usage_terms(usage_terms) {#set_usage_terms_usage_terms_10}
 

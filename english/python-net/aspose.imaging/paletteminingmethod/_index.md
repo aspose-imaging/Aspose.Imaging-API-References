@@ -1,7 +1,7 @@
 ---
 title: PaletteMiningMethod Enumeration
 type: docs
-weight: 10960
+weight: 10970
 url: /python-net/aspose.imaging/paletteminingmethod/
 ---
 
@@ -15,5 +15,8 @@ The image palette mining method
 | **Member name** | **Description** |
 | :- | :- |
 | COLOR_CLUSTERING | The color clustering method |
+| DOWNSCALE | Downscaled 256 bit palette. |
 | HISTOGRAM | The histogram method |
-| USE_CURRENT_PALETTE | Use exisiting palette of the image |
+| POPULARITY | Popularity. |
+| UNIFORM | Uniform 256 bit palette. |
+| USE_CURRENT_PALETTE | Use existing palette of the image |

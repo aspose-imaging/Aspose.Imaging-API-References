@@ -34,7 +34,7 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_authors_position(authors_position)](#set_authors_position_authors_position_6) | Sets the authors position. |
 | [set_caption_writer(caption_writer)](#set_caption_writer_caption_writer_7) | Sets the caption writer. |
@@ -49,9 +49,9 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 | [set_history(history)](#set_history_history_16) | Sets the history. |
 | [set_icc_profile(icc_profile)](#set_icc_profile_icc_profile_17) | Sets the icc profile. |
 | [set_instructions(instructions)](#set_instructions_instructions_18) | Sets the instructions. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_19) | Sets the first XMP attribute or element value with by specified _key_. |
-| [set_source(source)](#set_source_source_20) | Sets the source. |
-| [set_state(state)](#set_state_state_21) | Sets the state. |
+| [set_source(source)](#set_source_source_19) | Sets the source. |
+| [set_state(state)](#set_state_state_20) | Sets the state. |
+| [set_str_value(key, value)](#set_str_value_key_value_21) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_supplemental_categories(supplemental_categories)](#set_supplemental_categories_supplemental_categories_22) | Sets supplemental categories. |
 | [set_transmission_reference(transmission_reference)](#set_transmission_reference_transmission_reference_23) | Sets the transmission reference. |
 | [set_urgency(urgency)](#set_urgency_urgency_24) | Sets the urgency. |
@@ -124,11 +124,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -363,23 +363,7 @@ Sets the instructions.
 | :- | :- | :- |
 | instructions | string | The instructions. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_19}
-
-
-```
- set_prop_value(key, value) 
-```
-
-Sets the first XMP attribute or element value with by specified _key_.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
-
-### Method: set_source(source) {#set_source_source_20}
+### Method: set_source(source) {#set_source_source_19}
 
 
 ```
@@ -394,7 +378,7 @@ Sets the source.
 | :- | :- | :- |
 | source | string | The source. |
 
-### Method: set_state(state) {#set_state_state_21}
+### Method: set_state(state) {#set_state_state_20}
 
 
 ```
@@ -408,6 +392,22 @@ Sets the state.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | state | string | The state. |
+
+### Method: set_str_value(key, value) {#set_str_value_key_value_21}
+
+
+```
+ set_str_value(key, value) 
+```
+
+Sets the first XMP attribute or element value with by specified _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The key that identifies value. |
+| value | string | The value. |
 
 ### Method: set_supplemental_categories(supplemental_categories) {#set_supplemental_categories_supplemental_categories_22}
 

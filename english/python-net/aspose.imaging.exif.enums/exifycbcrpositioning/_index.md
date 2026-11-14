@@ -16,3 +16,4 @@ exif y cb cr positioning enum.
 | :- | :- |
 | CENTERED | Centered YCbCr |
 | CO_SITED | Co-sited position |
+| UNKNOWN | Unknown positioning |

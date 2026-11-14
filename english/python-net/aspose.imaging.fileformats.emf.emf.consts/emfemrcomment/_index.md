@@ -20,3 +20,4 @@ The EmrComment enumeration defines the types of data that a public comment recor
 | EMR_COMMENT_UNICODE_END | This comment record is reserved and MUST NOT be used in an EMF metafile |
 | EMR_COMMENT_UNICODE_STRING | This comment record is reserved and MUST NOT be used in an EMF metafile |
 | EMR_COMMENT_WINDOWS_METAFILE | This comment record contains a specification of an image in WMF. See [MS-WMF] for more information |
+| UNKNOWN | Unknown. |

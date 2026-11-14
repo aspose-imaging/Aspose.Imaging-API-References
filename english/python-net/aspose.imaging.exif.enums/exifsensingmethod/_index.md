@@ -21,3 +21,4 @@ exif sensing method enum.
 | THREE_CHIP_COLOR_AREA | Three chip color area. |
 | TRILINEARSENSOR | Trilinear sensor. |
 | TWO_CHIP_COLOR_AREA | Two chip color area. |
+| UNKNOWN | Unknown. |

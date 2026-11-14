@@ -1,7 +1,7 @@
 ---
 title: IntRange Class
 type: docs
-weight: 5820
+weight: 5830
 url: /python-net/aspose.imaging/intrange/
 ---
 

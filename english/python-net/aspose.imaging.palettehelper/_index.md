@@ -1,7 +1,7 @@
 ---
 title: aspose.imaging.palettehelper
 type: docs
-weight: 960
+weight: 980
 url: /python-net/aspose.imaging.palettehelper/
 ---
 

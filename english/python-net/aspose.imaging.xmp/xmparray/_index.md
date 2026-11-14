@@ -26,8 +26,10 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 | :- | :- |
 | [add(item)](#add_item_1) | Adds new item. |
 | [add_item(item)](#add_item_item_2) | Adds new item. |
-| [get_xml_value()](#get_xml_value__3) | Converts XMP value to the XML representation. |
-| [get_xmp_representation()](#get_xmp_representation__4) | Gets the XMP string value of this. |
+| [get_value(index)](#get_value_index_3) | Gets the element at the specified index. |
+| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
+| [get_xmp_representation()](#get_xmp_representation__5) | Gets the XMP string value of this. |
+| [set_value(index, value)](#set_value_index_value_6) | Sets the element at the specified index. |
 
 
 ### Constructor: XmpArray(type, items) {#XmpArray_type_items_1}
@@ -76,7 +78,29 @@ Adds new item.
 | :- | :- | :- |
 | item | string | The item to be added to list of items. |
 
-### Method: get_xml_value() {#get_xml_value__3}
+### Method: get_value(index) {#get_value_index_3}
+
+
+```
+ get_value(index) 
+```
+
+Gets the element at the specified index.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | The zero-based index of the element to get or set. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [IXmpType](/imaging/python-net/aspose.imaging.xmp.types/ixmptype/) | The element at the specified index. |
+
+
+### Method: get_xml_value() {#get_xml_value__4}
 
 
 ```
@@ -92,7 +116,7 @@ Converts XMP value to the XML representation.
 | string | Returns the XMP value converted to the XML representation. |
 
 
-### Method: get_xmp_representation() {#get_xmp_representation__4}
+### Method: get_xmp_representation() {#get_xmp_representation__5}
 
 
 ```
@@ -107,4 +131,20 @@ Gets the XMP string value of this.
 | :- | :- |
 | string | Returns the string contained value in XMP format. |
 
+
+### Method: set_value(index, value) {#set_value_index_value_6}
+
+
+```
+ set_value(index, value) 
+```
+
+Sets the element at the specified index.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| index | int | The zero-based index of the element to get or set. |
+| value | [IXmpType](/imaging/python-net/aspose.imaging.xmp.types/ixmptype/) | The element value. |
 

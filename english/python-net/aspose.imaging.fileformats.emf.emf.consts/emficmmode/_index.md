@@ -18,3 +18,4 @@ The ICMMode enumeration defines values that specify when to turn on and off ICM.
 | ICM_OFF | Turns off Image Color Management (ICM) in the playback device context. Turns on old-style color correction of halftones |
 | ICM_ON | Turns on ICM in the playback device context. Turns off old-style color correction of halftones. |
 | ICM_QUERY | Queries the current state of color management in the playback device context. |
+| UNKNOWN | Unknown. |

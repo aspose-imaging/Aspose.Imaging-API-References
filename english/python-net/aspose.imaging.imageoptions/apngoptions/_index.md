@@ -30,12 +30,13 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | exif_data | [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) | r/w | Gets or sets Exif instance. |
 | filter_type | [PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/) | r/w | Gets or sets the filter type used during png file save process. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| is_interlaced | bool | r/w | Gets or sets a value indicating whether this image is interlaced. |
 | keep_metadata | bool | r/w | Gets a value whether to keep the original image metadata on export. |
+| loop_count | int | r/w | Gets or sets the number of times to loop animation. <br/>            Default is -1 meaning the value may be inherited from saved image or will be set to 0 (infinite looping). |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
-| [num_plays](#num_plays2) | int | r/w | Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping. |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette/) | r/w | Gets or sets the color palette. |
 | png_compression_level | [PngCompressionLevel](/imaging/python-net/aspose.imaging.imageoptions/pngcompressionlevel/) | r/w | Gets or sets the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) compression level. |
-| progressive | bool | r/w | Gets or sets a value indicating whether a [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) is progressive. |
+| progressive | bool | r/w | Gets or sets a value indicating whether a [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) is progressive. Mirrors [PngOptions.is_interlaced](/imaging/python-net/aspose.imaging.imageoptions/pngoptions/). |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) | r/w | Gets or sets the resolution settings. |
 | source | [Source](/imaging/python-net/aspose.imaging/source/) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
@@ -62,16 +63,7 @@ Gets or sets the default frame duration.
 
 **See also:**
 
-**[Example # 1](#example_209)**: The following example shows how to export apng APNG file format from other no...
-
-
-### Property: num_plays {#num_plays2}
-
-Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping.
-
-**See also:**
-
-**[Example # 1](#example_208)**: The following example shows how to export to APNG file format.
+**[Example # 1](#example_213)**: The following example shows how to export apng APNG file format from other no...
 
 
 ### Method: clone() {#clone__1}
@@ -113,7 +105,7 @@ Tries to set a _metadata_ instance, if this [Image](/imaging/python-net/aspose.i
 
 
 ## **Examples**
-### The following example shows how to export to APNG file format. {#example_208}
+### The following example shows how to export to APNG file format. {#example_212}
 ``` python
 
 import aspose.pycore as aspycore
@@ -132,7 +124,7 @@ with Image.load("Animation1.webp") as image:
 
 ```
 
-### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_209}
+### The following example shows how to export apng APNG file format from other non-animated multi-page format. {#example_213}
 ``` python
 
 from aspose.imaging import Image

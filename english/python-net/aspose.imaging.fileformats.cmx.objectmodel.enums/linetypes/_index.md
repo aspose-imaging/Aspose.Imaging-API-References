@@ -19,3 +19,4 @@ Flags to describe the type of line.
 | NONE | Not used line |
 | SCALE_PEN | The line width is scaled relative to size of shape. |
 | SOLID | Solid line. |
+| UNKNOWN | Unknown type. |

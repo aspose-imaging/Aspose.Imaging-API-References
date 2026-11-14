@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 | [add_value(key, value)](#add_value_key_value_2) | Adds string property. |
 | clear() | Clears this instance. |
 | [contains_key(key)](#contains_key_key_3) | Determines whether this collection specified key. |
-| [get_prop_value(key)](#get_prop_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
+| [get_value(key)](#get_value_key_4) | Gets the first XMP attribute or element value with by specified _key_. |
 | [remove(key)](#remove_key_5) | Removes the first element or attribute value with the specified key. |
 | [set_author(author)](#set_author_author_6) | Adds the author. |
 | [set_author(author)](#set_author_author_7) | Adds the author. |
@@ -41,10 +41,10 @@ url: /python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 | [set_description(desc)](#set_description_desc_10) | Adds the description. |
 | [set_description_lang_alt(desc)](#set_description_lang_alt_desc_11) | Adds the description. |
 | [set_description_str(desc)](#set_description_str_desc_12) | Adds the description. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_13) | Sets the first XMP attribute or element value with by specified _key_. |
+| [set_publisher(publisher)](#set_publisher_publisher_13) | Adds the publisher. |
 | [set_publisher(publisher)](#set_publisher_publisher_14) | Adds the publisher. |
-| [set_publisher(publisher)](#set_publisher_publisher_15) | Adds the publisher. |
-| [set_publisher_array(publisher)](#set_publisher_array_publisher_16) | Adds the publisher. |
+| [set_publisher_array(publisher)](#set_publisher_array_publisher_15) | Adds the publisher. |
+| [set_str_value(key, value)](#set_str_value_key_value_16) | Sets the first XMP attribute or element value with by specified _key_. |
 | [set_subject(subject)](#set_subject_subject_17) | Adds the subject. |
 | [set_subject(subject)](#set_subject_subject_18) | Adds the subject. |
 | [set_subject_array(subject)](#set_subject_array_subject_19) | Adds the subject. |
@@ -121,11 +121,11 @@ Determines whether this collection specified key.
 | bool | **True** if the  contains the specified key; otherwise, **False**. |
 
 
-### Method: get_prop_value(key) {#get_prop_value_key_4}
+### Method: get_value(key) {#get_value_key_4}
 
 
 ```
- get_prop_value(key) 
+ get_value(key) 
 ```
 
 Gets the first XMP attribute or element value with by specified _key_.
@@ -270,23 +270,7 @@ Adds the description.
 | :- | :- | :- |
 | desc | string | The description. |
 
-### Method: set_prop_value(key, value) {#set_prop_value_key_value_13}
-
-
-```
- set_prop_value(key, value) 
-```
-
-Sets the first XMP attribute or element value with by specified _key_.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The key that identifies value. |
-| value | [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) | The [XmpValue](/imaging/python-net/aspose.imaging.xmp.types/xmpvalue/) value. |
-
-### Method: set_publisher(publisher) {#set_publisher_publisher_14}
+### Method: set_publisher(publisher) {#set_publisher_publisher_13}
 
 
 ```
@@ -301,7 +285,7 @@ Adds the publisher.
 | :- | :- | :- |
 | publisher | string | The publisher. |
 
-### Method: set_publisher(publisher) {#set_publisher_publisher_15}
+### Method: set_publisher(publisher) {#set_publisher_publisher_14}
 
 
 ```
@@ -316,7 +300,7 @@ Adds the publisher.
 | :- | :- | :- |
 | publisher | string[] | The publisher. |
 
-### Method: set_publisher_array(publisher) {#set_publisher_array_publisher_16}
+### Method: set_publisher_array(publisher) {#set_publisher_array_publisher_15}
 
 
 ```
@@ -330,6 +314,22 @@ Adds the publisher.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | publisher | string[] | The publisher. |
+
+### Method: set_str_value(key, value) {#set_str_value_key_value_16}
+
+
+```
+ set_str_value(key, value) 
+```
+
+Sets the first XMP attribute or element value with by specified _key_.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The key that identifies value. |
+| value | string | The value. |
 
 ### Method: set_subject(subject) {#set_subject_subject_17}
 

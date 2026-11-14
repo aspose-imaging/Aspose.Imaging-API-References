@@ -1,7 +1,7 @@
 ---
 title: GraphicsPath Class
 type: docs
-weight: 5050
+weight: 5060
 url: /python-net/aspose.imaging/graphicspath/
 ---
 
